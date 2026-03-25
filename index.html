@@ -525,10 +525,10 @@ async function startup() {
   await loadNarratives();
   populateSelectors();
 
-  // Default to Esther chapter 1
+  // Default to Genesis chapter 1
   const bookSel = document.getElementById('book-select');
   const chapSel = document.getElementById('chapter-select');
-  currentBook = 'Esther';
+  currentBook = 'Genesis';
   bookSel.value = currentBook;
   const bookData = await fetchBook(currentBook);
   updateChapterSelector(bookData);
@@ -545,7 +545,7 @@ startup().catch(err => {
 
 // ── Service Worker ─────────────────────────────────────────────────────
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js').catch(() => {});
+  navigator.serviceWorker.register('./sw.js').catch(() => {});
 }
 </script>
 
