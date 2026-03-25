@@ -265,7 +265,8 @@
 </main>
 
 <script type="module">
-import init, { decompose_word } from './pkg/hebrew.js';
+import init, { decompose_word, generate_narrative_wasm } from './pkg/hebrew.js';
+import { TANAKH_BOOKS } from './books.js';
 
 // ── Toggle visibility ──────────────────────────────────────────────────
 window.toggle = function(layer, btn) {
@@ -274,39 +275,13 @@ window.toggle = function(layer, btn) {
 };
 
 // ── Bible data store ───────────────────────────────────────────────────
-// For now: Genesis 1 from existing data, plus Esther stub.
-// This will be replaced by IndexedDB as we add more books.
 let narratives = {};
 let currentBook = null;
 let currentChapter = null;
 
-// ── Books index ────────────────────────────────────────────────────────
-// Each book entry has: { name, hebrewName, chapters: { 1: [...verses] } }
-// Verses: { verse: N, ref: "...", english: "...", words: [{heb, trans, eng}] }
-const books = {};
-
-// ── Load Genesis 1 from existing data ──────────────────────────────────
-async function loadGenesis1() {
-  try {
-    const mod = await import('./gen1_data.js');
-    const data = mod.default || mod.genesis1;
-    if (!data) return;
-    books['Genesis'] = {
-      name: 'Genesis',
-      hebrewName: '\u{05D1}\u{05E8}\u{05D0}\u{05E9}\u{05D9}\u{05EA}',
-      chapters: {
-        1: data.map(v => ({
-          verse: v.verse,
-          ref: v.ref,
-          english: v.kjv,
-          words: v.words.map(w => ({ heb: w.heb, trans: w.trans, eng: w.eng }))
-        }))
-      }
-    };
-  } catch(e) {
-    console.warn('Could not load gen1_data.js as module, using inline fallback');
-  }
-}
+// ── In-memory book cache ───────────────────────────────────────────────
+// Keyed by book name, holds the full JSON for each fetched book.
+const bookCache = {};
 
 async function loadNarratives() {
   try {
@@ -317,23 +292,62 @@ async function loadNarratives() {
   }
 }
 
+// ── Fetch book data from data/{bookName}.json ──────────────────────────
+async function fetchBook(bookName) {
+  if (bookCache[bookName]) return bookCache[bookName];
+
+  const loading = document.getElementById('loading');
+  const main = document.getElementById('main');
+
+  // Show loading indicator
+  if (!loading) {
+    const el = document.createElement('div');
+    el.className = 'loading';
+    el.id = 'loading';
+    el.textContent = 'Loading ' + bookName + '...';
+    main.prepend(el);
+  } else {
+    loading.textContent = 'Loading ' + bookName + '...';
+    loading.style.display = '';
+  }
+
+  try {
+    const resp = await fetch('./data/' + encodeURIComponent(bookName) + '.json');
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    bookCache[bookName] = data;
+    return data;
+  } finally {
+    const el = document.getElementById('loading');
+    if (el) el.style.display = 'none';
+  }
+}
+
 // ── Render ─────────────────────────────────────────────────────────────
-function renderChapter(bookName, chapterNum) {
+function renderChapter(bookData, chapterNum) {
   const main = document.getElementById('main');
   const jump = document.getElementById('verse-jump');
   main.innerHTML = '';
   jump.innerHTML = '';
 
-  const book = books[bookName];
-  if (!book || !book.chapters[chapterNum]) {
+  // Re-add a hidden loading div for future fetches
+  const loadDiv = document.createElement('div');
+  loadDiv.className = 'loading';
+  loadDiv.id = 'loading';
+  loadDiv.style.display = 'none';
+  main.appendChild(loadDiv);
+
+  if (!bookData || !bookData.chapters[chapterNum]) {
     main.innerHTML = '<div class="loading">No data for this chapter yet.</div>';
     return;
   }
 
+  // Set header watermark from TANAKH_BOOKS metadata
   const header = document.getElementById('header');
-  header.setAttribute('data-watermark', book.hebrewName || '');
+  const meta = TANAKH_BOOKS.find(b => b.name === bookData.name);
+  header.setAttribute('data-watermark', meta ? meta.hebrew : '');
 
-  const verses = book.chapters[chapterNum];
+  const verses = bookData.chapters[chapterNum];
 
   verses.forEach(vdata => {
     // Jump nav
@@ -353,7 +367,7 @@ function renderChapter(bookName, chapterNum) {
 
     const eng = document.createElement('div');
     eng.className = 'verse-english';
-    eng.textContent = vdata.english;
+    eng.textContent = vdata.english || '';
 
     const wordRow = document.createElement('div');
     wordRow.className = 'word-row';
@@ -385,16 +399,17 @@ function renderChapter(bookName, chapterNum) {
       });
       card.appendChild(letterRow);
 
-      // Trans + English
+      // Transliteration
       if (word.trans) {
         const trans = document.createElement('span');
         trans.className = 'w-trans';
         trans.textContent = word.trans;
         card.appendChild(trans);
       }
+      // English gloss
       const engSpan = document.createElement('span');
       engSpan.className = 'w-eng';
-      engSpan.textContent = word.eng;
+      engSpan.textContent = word.eng || '';
       card.appendChild(engSpan);
 
       // Click to expand
@@ -409,7 +424,7 @@ function renderChapter(bookName, chapterNum) {
           detail.innerHTML = `
             <div class="detail-heb">${word.heb}</div>
             <div class="detail-trans">${word.trans || ''}</div>
-            <div class="detail-eng">${word.eng}</div>
+            <div class="detail-eng">${word.eng || ''}</div>
             <div class="detail-letters">
               ${breakdown.letters.map(l => `
                 <div class="detail-letter">
@@ -425,13 +440,21 @@ function renderChapter(bookName, chapterNum) {
           `;
           detail.classList.add('open');
 
-          // Show narrative if we have one
+          // Show narrative: use hand-written if available, otherwise WASM-generate
           const narEl = document.getElementById(nid);
           if (narEl) {
             const narText = narratives[word.heb];
-            narEl.innerHTML = narText
-              ? narText
-              : '<span style="color:var(--faded);font-size:0.85rem">\u{2014}</span>';
+            if (narText) {
+              narEl.innerHTML = narText;
+            } else {
+              // Generate narrative via WASM
+              try {
+                const generated = generate_narrative_wasm(word.heb);
+                narEl.innerHTML = generated;
+              } catch(e) {
+                narEl.innerHTML = '<span style="color:var(--faded);font-size:0.85rem">\u{2014}</span>';
+              }
+            }
           }
         }
       };
@@ -453,41 +476,42 @@ function populateSelectors() {
   const chapSel = document.getElementById('chapter-select');
 
   bookSel.innerHTML = '';
-  Object.keys(books).forEach(name => {
-    const opt = document.createElement('option');
-    opt.value = name;
-    opt.textContent = name;
-    bookSel.appendChild(opt);
+
+  // Group books by section using optgroup
+  const sections = ['Torah', "Nevi'im", 'Ketuvim'];
+  sections.forEach(section => {
+    const group = document.createElement('optgroup');
+    group.label = section;
+    TANAKH_BOOKS.filter(b => b.section === section).forEach(b => {
+      const opt = document.createElement('option');
+      opt.value = b.name;
+      opt.textContent = b.name;
+      group.appendChild(opt);
+    });
+    bookSel.appendChild(group);
   });
 
-  bookSel.onchange = () => {
+  bookSel.onchange = async () => {
     currentBook = bookSel.value;
-    updateChapterSelector();
+    const bookData = await fetchBook(currentBook);
+    updateChapterSelector(bookData);
     currentChapter = 1;
     chapSel.value = '1';
-    renderChapter(currentBook, currentChapter);
+    renderChapter(bookData, currentChapter);
   };
 
   chapSel.onchange = () => {
     currentChapter = parseInt(chapSel.value);
-    renderChapter(currentBook, currentChapter);
+    const bookData = bookCache[currentBook];
+    if (bookData) renderChapter(bookData, currentChapter);
   };
-
-  if (Object.keys(books).length > 0) {
-    currentBook = Object.keys(books)[0];
-    bookSel.value = currentBook;
-    updateChapterSelector();
-    currentChapter = 1;
-    renderChapter(currentBook, currentChapter);
-  }
 }
 
-function updateChapterSelector() {
+function updateChapterSelector(bookData) {
   const chapSel = document.getElementById('chapter-select');
   chapSel.innerHTML = '';
-  const book = books[currentBook];
-  if (!book) return;
-  Object.keys(book.chapters).sort((a,b) => a - b).forEach(ch => {
+  if (!bookData || !bookData.chapters) return;
+  Object.keys(bookData.chapters).sort((a,b) => a - b).forEach(ch => {
     const opt = document.createElement('option');
     opt.value = ch;
     opt.textContent = 'Chapter ' + ch;
@@ -496,14 +520,25 @@ function updateChapterSelector() {
 }
 
 // ── Init ───────────────────────────────────────────────────────────────
-async function main() {
+async function startup() {
   await init();
-  await Promise.all([loadGenesis1(), loadNarratives()]);
-  document.getElementById('loading').remove();
+  await loadNarratives();
   populateSelectors();
+
+  // Default to Esther chapter 1
+  const bookSel = document.getElementById('book-select');
+  const chapSel = document.getElementById('chapter-select');
+  currentBook = 'Esther';
+  bookSel.value = currentBook;
+  const bookData = await fetchBook(currentBook);
+  updateChapterSelector(bookData);
+  currentChapter = 1;
+  chapSel.value = '1';
+  document.getElementById('loading').style.display = 'none';
+  renderChapter(bookData, currentChapter);
 }
 
-main().catch(err => {
+startup().catch(err => {
   document.getElementById('loading').textContent = 'Error loading: ' + err.message;
   console.error(err);
 });

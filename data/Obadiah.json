@@ -10,94 +10,131 @@
           {
             "heb": "חֲזוֹן",
             "lemma": "2377",
-            "morph": "HNcmsc"
+            "morph": "HNcmsc",
+            "trans": "châzôwn",
+            "eng": "sight"
           },
           {
             "heb": "עֹֽבַדְיָה",
             "lemma": "5662",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "ʻÔbadyâh",
+            "eng": "Obadjah"
           },
           {
             "heb": "כֹּֽה",
             "lemma": "3541",
-            "morph": "HD"
+            "morph": "HD",
+            "trans": "kôh",
+            "eng": "like this"
           },
           {
             "heb": "אָמַר",
             "lemma": "559",
-            "morph": "HVqp3ms"
+            "morph": "HVqp3ms",
+            "trans": "ʼâmar",
+            "eng": "say"
           },
           {
             "heb": "אֲדֹנָי",
             "lemma": "136",
-            "morph": "HNcmpc/Sp1cs"
+            "morph": "HNcmpc/Sp1cs",
+            "trans": "ʼĂdônây",
+            "eng": "Lord"
           },
           {
             "heb": "יְהוִה",
             "lemma": "3069",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "Yᵉhôvih",
+            "eng": ""
           },
           {
             "heb": "לֶאֱדוֹם",
             "lemma": "123",
-            "morph": "HR/Np"
+            "morph": "HR/Np",
+            "trans": "ʼĔdôm",
+            "eng": "Edom"
           },
           {
             "heb": "שְׁמוּעָה",
             "lemma": "8052",
-            "morph": "HNcfsa"
+            "morph": "HNcfsa",
+            "trans": "shᵉmûwʻâh",
+            "eng": "heard"
           },
           {
             "heb": "שָׁמַעְנוּ",
             "lemma": "8085",
-            "morph": "HVqp1cp"
+            "morph": "HVqp1cp",
+            "trans": "shâmaʻ",
+            "eng": "hear"
           },
           {
             "heb": "מֵאֵת",
             "lemma": "854",
-            "morph": "HR/R"
+            "morph": "HR/R",
+            "trans": "ʼêth",
+            "eng": "nearness"
           },
           {
             "heb": "יְהוָה",
             "lemma": "3068",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "Yᵉhôvâh",
+            "eng": "Existent"
           },
           {
             "heb": "וְצִיר",
             "lemma": "6735 a",
-            "morph": "HC/Ncmsa"
+            "morph": "HC/Ncmsa",
+            "trans": "tsîyr",
+            "eng": "hinge"
           },
           {
             "heb": "בַּגּוֹיִם",
             "lemma": "1471 a",
-            "morph": "HRd/Ncmpa"
+            "morph": "HRd/Ncmpa",
+            "trans": "gôwy",
+            "eng": "nation"
           },
           {
             "heb": "שֻׁלָּח",
             "lemma": "7971",
-            "morph": "HVPp3ms"
+            "morph": "HVPp3ms",
+            "trans": "shâlach",
+            "eng": "send"
           },
           {
             "heb": "קוּמוּ",
             "lemma": "6965 b",
-            "morph": "HVqv2mp"
+            "morph": "HVqv2mp",
+            "trans": "qûwm",
+            "eng": "rise"
           },
           {
             "heb": "וְנָקוּמָה",
             "lemma": "6965 b",
-            "morph": "HC/Vqh1cp"
+            "morph": "HC/Vqh1cp",
+            "trans": "qûwm",
+            "eng": "rise"
           },
           {
             "heb": "עָלֶיהָ",
             "lemma": "5921 a",
-            "morph": "HR/Sp3fs"
+            "morph": "HR/Sp3fs",
+            "trans": "ʻal",
+            "eng": "above"
           },
           {
             "heb": "לַמִּלְחָמָֽה",
             "lemma": "4421",
-            "morph": "HRd/Ncfsa"
+            "morph": "HRd/Ncfsa",
+            "trans": "milchâmâh",
+            "eng": "battle"
           }
-        ]
+        ],
+        "english": "The vision of Obadiah. Thus saith the Lord GOD concerning Edom; We have heard a rumour from the LORD, and an ambassador is sent among the heathen, Arise ye, and let us rise up against her in battle."
       },
       {
         "verse": 2,
@@ -106,39 +143,54 @@
           {
             "heb": "הִנֵּה",
             "lemma": "2009",
-            "morph": "HTm"
+            "morph": "HTm",
+            "trans": "hinnêh",
+            "eng": "lo!"
           },
           {
             "heb": "קָטֹן",
             "lemma": "6996 b",
-            "morph": "HAamsa"
+            "morph": "HAamsa",
+            "trans": "qâṭân",
+            "eng": "abbreviated"
           },
           {
             "heb": "נְתַתִּיךָ",
             "lemma": "5414",
-            "morph": "HVqp1cs/Sp2ms"
+            "morph": "HVqp1cs/Sp2ms",
+            "trans": "nâthan",
+            "eng": "give"
           },
           {
             "heb": "בַּגּוֹיִם",
             "lemma": "1471 a",
-            "morph": "HRd/Ncmpa"
+            "morph": "HRd/Ncmpa",
+            "trans": "gôwy",
+            "eng": "nation"
           },
           {
             "heb": "בָּזוּי",
             "lemma": "959",
-            "morph": "HVqsmsa"
+            "morph": "HVqsmsa",
+            "trans": "bâzâh",
+            "eng": "disesteem"
           },
           {
             "heb": "אַתָּה",
             "lemma": "859 a",
-            "morph": "HPp2ms"
+            "morph": "HPp2ms",
+            "trans": "ʼattâh",
+            "eng": "thou"
           },
           {
             "heb": "מְאֹֽד",
             "lemma": "3966",
-            "morph": "HD"
+            "morph": "HD",
+            "trans": "mᵉʼôd",
+            "eng": "vehemence"
           }
-        ]
+        ],
+        "english": "Behold, I have made thee small among the heathen: thou art greatly despised."
       },
       {
         "verse": 3,
@@ -147,69 +199,96 @@
           {
             "heb": "זְדוֹן",
             "lemma": "2087",
-            "morph": "HNcmsc"
+            "morph": "HNcmsc",
+            "trans": "zâdôwn",
+            "eng": "arrogance"
           },
           {
             "heb": "לִבְּךָ",
             "lemma": "3820 a",
-            "morph": "HNcmsc/Sp2ms"
+            "morph": "HNcmsc/Sp2ms",
+            "trans": "lêb",
+            "eng": "heart"
           },
           {
             "heb": "הִשִּׁיאֶךָ",
             "lemma": "5377",
-            "morph": "HVhp3ms/Sp2ms"
+            "morph": "HVhp3ms/Sp2ms",
+            "trans": "nâshâʼ",
+            "eng": "lead astray"
           },
           {
             "heb": "שֹׁכְנִי",
             "lemma": "7931",
-            "morph": "HVqrmsc"
+            "morph": "HVqrmsc",
+            "trans": "shâkan",
+            "eng": "reside"
           },
           {
             "heb": "בְחַגְוֵי",
             "lemma": "2288",
-            "morph": "HR/Ncmpc"
+            "morph": "HR/Ncmpc",
+            "trans": "chăgâv",
+            "eng": "rift in rocks"
           },
           {
             "heb": "סֶּלַע",
             "lemma": "5553",
-            "morph": "HNcmsa"
+            "morph": "HNcmsa",
+            "trans": "çelaʻ",
+            "eng": "rock"
           },
           {
             "heb": "מְרוֹם",
             "lemma": "4791",
-            "morph": "HNcmsc"
+            "morph": "HNcmsc",
+            "trans": "mârôwm",
+            "eng": "altitude"
           },
           {
             "heb": "שִׁבְתּוֹ",
             "lemma": "7675",
-            "morph": "HNcfsc/Sp3ms"
+            "morph": "HNcfsc/Sp3ms",
+            "trans": "shebeth",
+            "eng": "session"
           },
           {
             "heb": "אֹמֵר",
             "lemma": "559",
-            "morph": "HVqrmsa"
+            "morph": "HVqrmsa",
+            "trans": "ʼâmar",
+            "eng": "say"
           },
           {
             "heb": "בְּלִבּוֹ",
             "lemma": "3820 a",
-            "morph": "HR/Ncmsc/Sp3ms"
+            "morph": "HR/Ncmsc/Sp3ms",
+            "trans": "lêb",
+            "eng": "heart"
           },
           {
             "heb": "מִי",
             "lemma": "4310",
-            "morph": "HTi"
+            "morph": "HTi",
+            "trans": "mîy",
+            "eng": "who?"
           },
           {
             "heb": "יוֹרִדֵנִי",
             "lemma": "3381",
-            "morph": "HVhi3ms/Sp1cs"
+            "morph": "HVhi3ms/Sp1cs",
+            "trans": "yârad",
+            "eng": "descend"
           },
           {
             "heb": "אָֽרֶץ",
             "lemma": "776",
-            "morph": "HNcbsa"
+            "morph": "HNcbsa",
+            "trans": "ʼerets",
+            "eng": "earth"
           }
-        ]
+        ],
+        "english": "The pride of thine heart hath deceived thee, thou that dwellest in the clefts of the rock, whose habitation is high; that saith in his heart, Who shall bring me down to the ground?"
       },
       {
         "verse": 4,
@@ -218,64 +297,89 @@
           {
             "heb": "אִם",
             "lemma": "518 a",
-            "morph": "HC"
+            "morph": "HC",
+            "trans": "ʼim",
+            "eng": "lo!"
           },
           {
             "heb": "תַּגְבִּיהַּ",
             "lemma": "1361",
-            "morph": "HVhi2ms"
+            "morph": "HVhi2ms",
+            "trans": "gâbahh",
+            "eng": "soar"
           },
           {
             "heb": "כַּנֶּשֶׁר",
             "lemma": "5404",
-            "morph": "HRd/Ncmsa"
+            "morph": "HRd/Ncmsa",
+            "trans": "nesher",
+            "eng": "eagle"
           },
           {
             "heb": "וְאִם",
             "lemma": "518 a",
-            "morph": "HC/C"
+            "morph": "HC/C",
+            "trans": "ʼim",
+            "eng": "lo!"
           },
           {
             "heb": "בֵּין",
             "lemma": "996",
-            "morph": "HR"
+            "morph": "HR",
+            "trans": "bêyn",
+            "eng": "between"
           },
           {
             "heb": "כּֽוֹכָבִים",
             "lemma": "3556",
-            "morph": "HNcmpa"
+            "morph": "HNcmpa",
+            "trans": "kôwkâb",
+            "eng": "star"
           },
           {
             "heb": "שִׂים",
             "lemma": "7760 a",
-            "morph": "HVqsmsa"
+            "morph": "HVqsmsa",
+            "trans": "sûwm",
+            "eng": "put"
           },
           {
             "heb": "קִנֶּךָ",
             "lemma": "7064",
-            "morph": "HNcmsc/Sp2ms"
+            "morph": "HNcmsc/Sp2ms",
+            "trans": "qên",
+            "eng": "nest"
           },
           {
             "heb": "מִשָּׁם",
             "lemma": "8033",
-            "morph": "HR/D"
+            "morph": "HR/D",
+            "trans": "shâm",
+            "eng": "there"
           },
           {
             "heb": "אוֹרִֽידְךָ",
             "lemma": "3381",
-            "morph": "HVhi1cs/Sp2ms"
+            "morph": "HVhi1cs/Sp2ms",
+            "trans": "yârad",
+            "eng": "descend"
           },
           {
             "heb": "נְאֻם",
             "lemma": "5002",
-            "morph": "HNcmsc"
+            "morph": "HNcmsc",
+            "trans": "nᵉʼum",
+            "eng": "oracle"
           },
           {
             "heb": "יְהוָֽה",
             "lemma": "3068",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "Yᵉhôvâh",
+            "eng": "Existent"
           }
-        ]
+        ],
+        "english": "Though thou exalt thyself as the eagle, and though thou set thy nest among the stars, thence will I bring thee down, saith the LORD."
       },
       {
         "verse": 5,
@@ -284,99 +388,138 @@
           {
             "heb": "אִם",
             "lemma": "518 a",
-            "morph": "HC"
+            "morph": "HC",
+            "trans": "ʼim",
+            "eng": "lo!"
           },
           {
             "heb": "גַּנָּבִים",
             "lemma": "1590",
-            "morph": "HNcmpa"
+            "morph": "HNcmpa",
+            "trans": "gannâb",
+            "eng": "stealer"
           },
           {
             "heb": "בָּאֽוּ",
             "lemma": "935",
-            "morph": "HVqp3cp"
+            "morph": "HVqp3cp",
+            "trans": "bôwʼ",
+            "eng": "go"
           },
           {
             "heb": "לְךָ",
             "lemma": "l",
-            "morph": "HR/Sp2ms"
+            "morph": "HR/Sp2ms",
+            "trans": "",
+            "eng": ""
           },
           {
             "heb": "אִם",
             "lemma": "518 a",
-            "morph": "HC"
+            "morph": "HC",
+            "trans": "ʼim",
+            "eng": "lo!"
           },
           {
             "heb": "שׁוֹדְדֵי",
             "lemma": "7703",
-            "morph": "HVqrmpc"
+            "morph": "HVqrmpc",
+            "trans": "shâdad",
+            "eng": "be burly"
           },
           {
             "heb": "לַיְלָה",
             "lemma": "3915",
-            "morph": "HNcmsa"
+            "morph": "HNcmsa",
+            "trans": "layil",
+            "eng": "twist"
           },
           {
             "heb": "אֵיךְ",
             "lemma": "349 a",
-            "morph": "HTi"
+            "morph": "HTi",
+            "trans": "ʼêyk",
+            "eng": "how?"
           },
           {
             "heb": "נִדְמֵיתָה",
             "lemma": "1820",
-            "morph": "HVNp2ms"
+            "morph": "HVNp2ms",
+            "trans": "dâmâh",
+            "eng": "be dumb"
           },
           {
             "heb": "הֲלוֹא",
             "lemma": "3808",
-            "morph": "HTi/Tn"
+            "morph": "HTi/Tn",
+            "trans": "lôʼ",
+            "eng": "not"
           },
           {
             "heb": "יִגְנְבוּ",
             "lemma": "1589",
-            "morph": "HVqi3mp"
+            "morph": "HVqi3mp",
+            "trans": "gânab",
+            "eng": "thieve"
           },
           {
             "heb": "דַּיָּם",
             "lemma": "1767",
-            "morph": "HNcmsc/Sp3mp"
+            "morph": "HNcmsc/Sp3mp",
+            "trans": "day",
+            "eng": "enough"
           },
           {
             "heb": "אִם",
             "lemma": "518 a",
-            "morph": "HC"
+            "morph": "HC",
+            "trans": "ʼim",
+            "eng": "lo!"
           },
           {
             "heb": "בֹּֽצְרִים",
             "lemma": "1219",
-            "morph": "HVqrmpa"
+            "morph": "HVqrmpa",
+            "trans": "bâtsar",
+            "eng": "gather grapes"
           },
           {
             "heb": "בָּאוּ",
             "lemma": "935",
-            "morph": "HVqp3cp"
+            "morph": "HVqp3cp",
+            "trans": "bôwʼ",
+            "eng": "go"
           },
           {
             "heb": "לָךְ",
             "lemma": "l",
-            "morph": "HR/Sp2fs"
+            "morph": "HR/Sp2fs",
+            "trans": "",
+            "eng": ""
           },
           {
             "heb": "הֲלוֹא",
             "lemma": "3808",
-            "morph": "HTi/Tn"
+            "morph": "HTi/Tn",
+            "trans": "lôʼ",
+            "eng": "not"
           },
           {
             "heb": "יַשְׁאִירוּ",
             "lemma": "7604",
-            "morph": "HVhi3mp"
+            "morph": "HVhi3mp",
+            "trans": "shâʼar",
+            "eng": "swell"
           },
           {
             "heb": "עֹלֵלֽוֹת",
             "lemma": "5955",
-            "morph": "HNcfpa"
+            "morph": "HNcfpa",
+            "trans": "ʻôlêlâh",
+            "eng": "gleanings"
           }
-        ]
+        ],
+        "english": "If thieves came to thee, if robbers by night, (how art thou cut off!) would they not have stolen till they had enough? if the grapegatherers came to thee, would they not leave some grapes?"
       },
       {
         "verse": 6,
@@ -385,29 +528,40 @@
           {
             "heb": "אֵיךְ",
             "lemma": "349 a",
-            "morph": "HTi"
+            "morph": "HTi",
+            "trans": "ʼêyk",
+            "eng": "how?"
           },
           {
             "heb": "נֶחְפְּשׂוּ",
             "lemma": "2664",
-            "morph": "HVNp3cp"
+            "morph": "HVNp3cp",
+            "trans": "châphas",
+            "eng": "seek"
           },
           {
             "heb": "עֵשָׂו",
             "lemma": "6215",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "ʻÊsâv",
+            "eng": "Esav"
           },
           {
             "heb": "נִבְעוּ",
             "lemma": "1158",
-            "morph": "HVNp3cp"
+            "morph": "HVNp3cp",
+            "trans": "bâʻâh",
+            "eng": "gush"
           },
           {
             "heb": "מַצְפֻּנָֽיו",
             "lemma": "4710",
-            "morph": "HNcmpc/Sp3ms"
+            "morph": "HNcmpc/Sp3ms",
+            "trans": "mitspun",
+            "eng": "secret"
           }
-        ]
+        ],
+        "english": "How are the things of Esau searched out! how are his hidden things sought up!"
       },
       {
         "verse": 7,
@@ -416,94 +570,131 @@
           {
             "heb": "עַֽד",
             "lemma": "5704",
-            "morph": "HR"
+            "morph": "HR",
+            "trans": "ʻad",
+            "eng": "as far"
           },
           {
             "heb": "הַגְּבוּל",
             "lemma": "1366",
-            "morph": "HTd/Ncmsa"
+            "morph": "HTd/Ncmsa",
+            "trans": "gᵉbûwl",
+            "eng": "cord"
           },
           {
             "heb": "שִׁלְּחוּךָ",
             "lemma": "7971",
-            "morph": "HVpp3cp/Sp2ms"
+            "morph": "HVpp3cp/Sp2ms",
+            "trans": "shâlach",
+            "eng": "send"
           },
           {
             "heb": "כֹּל",
             "lemma": "3605",
-            "morph": "HNcmsc"
+            "morph": "HNcmsc",
+            "trans": "kôl",
+            "eng": "whole"
           },
           {
             "heb": "אַנְשֵׁי",
             "lemma": "376",
-            "morph": "HNcmpc"
+            "morph": "HNcmpc",
+            "trans": "ʼîysh",
+            "eng": "man"
           },
           {
             "heb": "בְרִיתֶךָ",
             "lemma": "1285",
-            "morph": "HNcfsc/Sp2ms"
+            "morph": "HNcfsc/Sp2ms",
+            "trans": "bᵉrîyth",
+            "eng": "compact"
           },
           {
             "heb": "הִשִּׁיאוּךָ",
             "lemma": "5377",
-            "morph": "HVhp3cp/Sp2ms"
+            "morph": "HVhp3cp/Sp2ms",
+            "trans": "nâshâʼ",
+            "eng": "lead astray"
           },
           {
             "heb": "יָכְלוּ",
             "lemma": "3201",
-            "morph": "HVqp3cp"
+            "morph": "HVqp3cp",
+            "trans": "yâkôl",
+            "eng": "be able"
           },
           {
             "heb": "לְךָ",
             "lemma": "l",
-            "morph": "HR/Sp2ms"
+            "morph": "HR/Sp2ms",
+            "trans": "",
+            "eng": ""
           },
           {
             "heb": "אַנְשֵׁי",
             "lemma": "376",
-            "morph": "HNcmpc"
+            "morph": "HNcmpc",
+            "trans": "ʼîysh",
+            "eng": "man"
           },
           {
             "heb": "שְׁלֹמֶךָ",
             "lemma": "7965",
-            "morph": "HNcmsc/Sp2ms"
+            "morph": "HNcmsc/Sp2ms",
+            "trans": "shâlôwm",
+            "eng": "safe"
           },
           {
             "heb": "לַחְמְךָ",
             "lemma": "3899",
-            "morph": "HNcbsc/Sp2ms"
+            "morph": "HNcbsc/Sp2ms",
+            "trans": "lechem",
+            "eng": "food"
           },
           {
             "heb": "יָשִׂימוּ",
             "lemma": "7760 a",
-            "morph": "HVqi3mp"
+            "morph": "HVqi3mp",
+            "trans": "sûwm",
+            "eng": "put"
           },
           {
             "heb": "מָזוֹר",
             "lemma": "4204",
-            "morph": "HNcmsa"
+            "morph": "HNcmsa",
+            "trans": "mâzôwr",
+            "eng": "treachery"
           },
           {
             "heb": "תַּחְתֶּיךָ",
             "lemma": "8478",
-            "morph": "HR/Sp2ms"
+            "morph": "HR/Sp2ms",
+            "trans": "tachath",
+            "eng": "bottom"
           },
           {
             "heb": "אֵין",
             "lemma": "369",
-            "morph": "HTn"
+            "morph": "HTn",
+            "trans": "ʼayin",
+            "eng": "nonentity"
           },
           {
             "heb": "תְּבוּנָה",
             "lemma": "8394",
-            "morph": "HNcfsa"
+            "morph": "HNcfsa",
+            "trans": "tâbûwn",
+            "eng": "intelligence"
           },
           {
             "heb": "בּֽוֹ",
             "lemma": "b",
-            "morph": "HR/Sp3ms"
+            "morph": "HR/Sp3ms",
+            "trans": "",
+            "eng": ""
           }
-        ]
+        ],
+        "english": "All the men of thy confederacy have brought thee even to the border: the men that were at peace with thee have deceived thee, and prevailed against thee; they that eat thy bread have laid a wound under thee: there is none understanding in him."
       },
       {
         "verse": 8,
@@ -512,59 +703,82 @@
           {
             "heb": "הֲלוֹא",
             "lemma": "3808",
-            "morph": "HTi/Tn"
+            "morph": "HTi/Tn",
+            "trans": "lôʼ",
+            "eng": "not"
           },
           {
             "heb": "בַּיּוֹם",
             "lemma": "3117",
-            "morph": "HRd/Ncmsa"
+            "morph": "HRd/Ncmsa",
+            "trans": "yôwm",
+            "eng": "day"
           },
           {
             "heb": "הַהוּא",
             "lemma": "1931",
-            "morph": "HTd/Pp3ms"
+            "morph": "HTd/Pp3ms",
+            "trans": "hûwʼ",
+            "eng": "he"
           },
           {
             "heb": "נְאֻם",
             "lemma": "5002",
-            "morph": "HNcmsc"
+            "morph": "HNcmsc",
+            "trans": "nᵉʼum",
+            "eng": "oracle"
           },
           {
             "heb": "יְהוָה",
             "lemma": "3068",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "Yᵉhôvâh",
+            "eng": "Existent"
           },
           {
             "heb": "וְהַאֲבַדְתִּי",
             "lemma": "6",
-            "morph": "HC/Vhq1cs"
+            "morph": "HC/Vhq1cs",
+            "trans": "ʼâbad",
+            "eng": "wander"
           },
           {
             "heb": "חֲכָמִים",
             "lemma": "2450",
-            "morph": "HAampa"
+            "morph": "HAampa",
+            "trans": "châkâm",
+            "eng": "wise"
           },
           {
             "heb": "מֵֽאֱדוֹם",
             "lemma": "123",
-            "morph": "HR/Np"
+            "morph": "HR/Np",
+            "trans": "ʼĔdôm",
+            "eng": "Edom"
           },
           {
             "heb": "וּתְבוּנָה",
             "lemma": "8394",
-            "morph": "HC/Ncfsa"
+            "morph": "HC/Ncfsa",
+            "trans": "tâbûwn",
+            "eng": "intelligence"
           },
           {
             "heb": "מֵהַר",
             "lemma": "2022",
-            "morph": "HR/Ncmsc"
+            "morph": "HR/Ncmsc",
+            "trans": "har",
+            "eng": "mountain"
           },
           {
             "heb": "עֵשָֽׂו",
             "lemma": "6215",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "ʻÊsâv",
+            "eng": "Esav"
           }
-        ]
+        ],
+        "english": "Shall I not in that day, saith the LORD, even destroy the wise men out of Edom, and understanding out of the mount of Esau?"
       },
       {
         "verse": 9,
@@ -573,49 +787,68 @@
           {
             "heb": "וְחַתּוּ",
             "lemma": "2865",
-            "morph": "HC/Vqq3cp"
+            "morph": "HC/Vqq3cp",
+            "trans": "châthath",
+            "eng": "prostrate"
           },
           {
             "heb": "גִבּוֹרֶיךָ",
             "lemma": "1368",
-            "morph": "HAampc/Sp2ms"
+            "morph": "HAampc/Sp2ms",
+            "trans": "gibbôwr",
+            "eng": "powerful"
           },
           {
             "heb": "תֵּימָן",
             "lemma": "8487",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "Têymân",
+            "eng": "Teman"
           },
           {
             "heb": "לְמַעַן",
             "lemma": "4616",
-            "morph": "HR"
+            "morph": "HR",
+            "trans": "maʻan",
+            "eng": "heed"
           },
           {
             "heb": "יִכָּֽרֶת",
             "lemma": "3772",
-            "morph": "HVNi3ms"
+            "morph": "HVNi3ms",
+            "trans": "kârath",
+            "eng": "cut"
           },
           {
             "heb": "אִישׁ",
             "lemma": "376",
-            "morph": "HNcmsa"
+            "morph": "HNcmsa",
+            "trans": "ʼîysh",
+            "eng": "man"
           },
           {
             "heb": "מֵהַר",
             "lemma": "2022",
-            "morph": "HR/Ncmsc"
+            "morph": "HR/Ncmsc",
+            "trans": "har",
+            "eng": "mountain"
           },
           {
             "heb": "עֵשָׂו",
             "lemma": "6215",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "ʻÊsâv",
+            "eng": "Esav"
           },
           {
             "heb": "מִקָּֽטֶל",
             "lemma": "6993",
-            "morph": "HR/Ncmsa"
+            "morph": "HR/Ncmsa",
+            "trans": "qeṭel",
+            "eng": "violent death"
           }
-        ]
+        ],
+        "english": "And thy mighty men, O Teman, shall be dismayed, to the end that every one of the mount of Esau may be cut off by slaughter."
       },
       {
         "verse": 10,
@@ -624,39 +857,54 @@
           {
             "heb": "מֵחֲמַס",
             "lemma": "2555",
-            "morph": "HR/Ncmsc"
+            "morph": "HR/Ncmsc",
+            "trans": "châmâç",
+            "eng": "violence"
           },
           {
             "heb": "אָחִיךָ",
             "lemma": "251",
-            "morph": "HNcmsc/Sp2ms"
+            "morph": "HNcmsc/Sp2ms",
+            "trans": "ʼâch",
+            "eng": "brother"
           },
           {
             "heb": "יַעֲקֹב",
             "lemma": "3290",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "Yaʻăqôb",
+            "eng": "Jaakob"
           },
           {
             "heb": "תְּכַסְּךָ",
             "lemma": "3680",
-            "morph": "HVpi3fs/Sp2ms"
+            "morph": "HVpi3fs/Sp2ms",
+            "trans": "kâçâh",
+            "eng": "plump"
           },
           {
             "heb": "בוּשָׁה",
             "lemma": "955",
-            "morph": "HNcfsa"
+            "morph": "HNcfsa",
+            "trans": "bûwshâh",
+            "eng": "shame"
           },
           {
             "heb": "וְנִכְרַתָּ",
             "lemma": "3772",
-            "morph": "HC/VNq2ms"
+            "morph": "HC/VNq2ms",
+            "trans": "kârath",
+            "eng": "cut"
           },
           {
             "heb": "לְעוֹלָֽם",
             "lemma": "5769",
-            "morph": "HR/Ncmsa"
+            "morph": "HR/Ncmsa",
+            "trans": "ʻôwlâm",
+            "eng": "concealed"
           }
-        ]
+        ],
+        "english": "For thy violence against thy brother Jacob shame shall cover thee, and thou shalt be cut off for ever."
       },
       {
         "verse": 11,
@@ -665,94 +913,131 @@
           {
             "heb": "בְּיוֹם",
             "lemma": "3117",
-            "morph": "HR/Ncmsc"
+            "morph": "HR/Ncmsc",
+            "trans": "yôwm",
+            "eng": "day"
           },
           {
             "heb": "עֲמָֽדְךָ",
             "lemma": "5975",
-            "morph": "HVqc/Sp2ms"
+            "morph": "HVqc/Sp2ms",
+            "trans": "ʻâmad",
+            "eng": "stand"
           },
           {
             "heb": "מִנֶּגֶד",
             "lemma": "5048",
-            "morph": "HR/R"
+            "morph": "HR/R",
+            "trans": "neged",
+            "eng": "front"
           },
           {
             "heb": "בְּיוֹם",
             "lemma": "3117",
-            "morph": "HR/Ncmsc"
+            "morph": "HR/Ncmsc",
+            "trans": "yôwm",
+            "eng": "day"
           },
           {
             "heb": "שְׁבוֹת",
             "lemma": "7617",
-            "morph": "HVqc"
+            "morph": "HVqc",
+            "trans": "shâbâh",
+            "eng": "transport into captivity"
           },
           {
             "heb": "זָרִים",
             "lemma": "2114 a",
-            "morph": "HAampa"
+            "morph": "HAampa",
+            "trans": "zûwr",
+            "eng": "turn aside"
           },
           {
             "heb": "חֵילוֹ",
             "lemma": "2428",
-            "morph": "HNcmsc/Sp3ms"
+            "morph": "HNcmsc/Sp3ms",
+            "trans": "chayil",
+            "eng": "force"
           },
           {
             "heb": "וְנָכְרִים",
             "lemma": "5237",
-            "morph": "HC/Aampa"
+            "morph": "HC/Aampa",
+            "trans": "nokrîy",
+            "eng": "strange"
           },
           {
             "heb": "בָּאוּ",
             "lemma": "935",
-            "morph": "HVqp3cp"
+            "morph": "HVqp3cp",
+            "trans": "bôwʼ",
+            "eng": "go"
           },
           {
             "heb": "שְׁעָרָיו",
             "lemma": "8179",
-            "morph": "HNcmpc/Sp3ms"
+            "morph": "HNcmpc/Sp3ms",
+            "trans": "shaʻar",
+            "eng": "opening"
           },
           {
             "heb": "וְעַל",
             "lemma": "5921 a",
-            "morph": "HC/R"
+            "morph": "HC/R",
+            "trans": "ʻal",
+            "eng": "above"
           },
           {
             "heb": "יְרוּשָׁלִַם",
             "lemma": "3389",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "Yᵉrûwshâlaim",
+            "eng": "Jerushalaim"
           },
           {
             "heb": "יַדּוּ",
             "lemma": "3032",
-            "morph": "HVqp3cp"
+            "morph": "HVqp3cp",
+            "trans": "yâdad",
+            "eng": "handle"
           },
           {
             "heb": "גוֹרָל",
             "lemma": "1486",
-            "morph": "HNcmsa"
+            "morph": "HNcmsa",
+            "trans": "gôwrâl",
+            "eng": "pebble"
           },
           {
             "heb": "גַּם",
             "lemma": "1571",
-            "morph": "HTa"
+            "morph": "HTa",
+            "trans": "gam",
+            "eng": "assemblage"
           },
           {
             "heb": "אַתָּה",
             "lemma": "859 a",
-            "morph": "HPp2ms"
+            "morph": "HPp2ms",
+            "trans": "ʼattâh",
+            "eng": "thou"
           },
           {
             "heb": "כְּאַחַד",
             "lemma": "259",
-            "morph": "HR/Acmsc"
+            "morph": "HR/Acmsc",
+            "trans": "ʼechâd",
+            "eng": "united"
           },
           {
             "heb": "מֵהֶֽם",
             "lemma": "m",
-            "morph": "HR/Sp3mp"
+            "morph": "HR/Sp3mp",
+            "trans": "",
+            "eng": ""
           }
-        ]
+        ],
+        "english": "In the day that thou stoodest on the other side, in the day that the strangers carried away captive his forces, and foreigners entered into his gates, and cast lots upon Jerusalem, even thou wast as one of them."
       },
       {
         "verse": 12,
@@ -761,89 +1046,124 @@
           {
             "heb": "וְאַל",
             "lemma": "408",
-            "morph": "HC/Tn"
+            "morph": "HC/Tn",
+            "trans": "ʼal",
+            "eng": "not"
           },
           {
             "heb": "תֵּרֶא",
             "lemma": "7200",
-            "morph": "HVqj2ms"
+            "morph": "HVqj2ms",
+            "trans": "râʼâh",
+            "eng": "see"
           },
           {
             "heb": "בְיוֹם",
             "lemma": "3117",
-            "morph": "HR/Ncmsc"
+            "morph": "HR/Ncmsc",
+            "trans": "yôwm",
+            "eng": "day"
           },
           {
             "heb": "אָחִיךָ",
             "lemma": "251",
-            "morph": "HNcmsc/Sp2ms"
+            "morph": "HNcmsc/Sp2ms",
+            "trans": "ʼâch",
+            "eng": "brother"
           },
           {
             "heb": "בְּיוֹם",
             "lemma": "3117",
-            "morph": "HR/Ncmsc"
+            "morph": "HR/Ncmsc",
+            "trans": "yôwm",
+            "eng": "day"
           },
           {
             "heb": "נָכְרוֹ",
             "lemma": "5235",
-            "morph": "HNcmsc/Sp3ms"
+            "morph": "HNcmsc/Sp3ms",
+            "trans": "neker",
+            "eng": "strange"
           },
           {
             "heb": "וְאַל",
             "lemma": "408",
-            "morph": "HC/Tn"
+            "morph": "HC/Tn",
+            "trans": "ʼal",
+            "eng": "not"
           },
           {
             "heb": "תִּשְׂמַח",
             "lemma": "8055",
-            "morph": "HVqj2ms"
+            "morph": "HVqj2ms",
+            "trans": "sâmach",
+            "eng": "brighten"
           },
           {
             "heb": "לִבְנֵֽי",
             "lemma": "1121 a",
-            "morph": "HR/Ncmpc"
+            "morph": "HR/Ncmpc",
+            "trans": "bên",
+            "eng": "son"
           },
           {
             "heb": "יְהוּדָה",
             "lemma": "3063",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "Yᵉhûwdâh",
+            "eng": "Jehudah"
           },
           {
             "heb": "בְּיוֹם",
             "lemma": "3117",
-            "morph": "HR/Ncmsc"
+            "morph": "HR/Ncmsc",
+            "trans": "yôwm",
+            "eng": "day"
           },
           {
             "heb": "אָבְדָם",
             "lemma": "6",
-            "morph": "HVqc/Sp3mp"
+            "morph": "HVqc/Sp3mp",
+            "trans": "ʼâbad",
+            "eng": "wander"
           },
           {
             "heb": "וְאַל",
             "lemma": "408",
-            "morph": "HC/Tn"
+            "morph": "HC/Tn",
+            "trans": "ʼal",
+            "eng": "not"
           },
           {
             "heb": "תַּגְדֵּל",
             "lemma": "1431",
-            "morph": "HVhj2ms"
+            "morph": "HVhj2ms",
+            "trans": "gâdal",
+            "eng": "be"
           },
           {
             "heb": "פִּיךָ",
             "lemma": "6310",
-            "morph": "HNcmsc/Sp2ms"
+            "morph": "HNcmsc/Sp2ms",
+            "trans": "peh",
+            "eng": "mouth"
           },
           {
             "heb": "בְּיוֹם",
             "lemma": "3117",
-            "morph": "HR/Ncmsc"
+            "morph": "HR/Ncmsc",
+            "trans": "yôwm",
+            "eng": "day"
           },
           {
             "heb": "צָרָֽה",
             "lemma": "6869 b",
-            "morph": "HNcfsa"
+            "morph": "HNcfsa",
+            "trans": "tsârâh",
+            "eng": "tightness"
           }
-        ]
+        ],
+        "english": "But thou shouldest not have looked on the day of thy brother in the day that he became a stranger; neither shouldest thou have rejoiced over the children of Judah in the day of their destruction; neither shouldest thou have spoken proudly in the day of distress."
       },
       {
         "verse": 13,
@@ -852,94 +1172,131 @@
           {
             "heb": "אַל",
             "lemma": "408",
-            "morph": "HTn"
+            "morph": "HTn",
+            "trans": "ʼal",
+            "eng": "not"
           },
           {
             "heb": "תָּבוֹא",
             "lemma": "935",
-            "morph": "HVqj2ms"
+            "morph": "HVqj2ms",
+            "trans": "bôwʼ",
+            "eng": "go"
           },
           {
             "heb": "בְשַֽׁעַר",
             "lemma": "8179",
-            "morph": "HR/Ncmsc"
+            "morph": "HR/Ncmsc",
+            "trans": "shaʻar",
+            "eng": "opening"
           },
           {
             "heb": "עַמִּי",
             "lemma": "5971 a",
-            "morph": "HNcmsc/Sp1cs"
+            "morph": "HNcmsc/Sp1cs",
+            "trans": "ʻam",
+            "eng": "people"
           },
           {
             "heb": "בְּיוֹם",
             "lemma": "3117",
-            "morph": "HR/Ncmsc"
+            "morph": "HR/Ncmsc",
+            "trans": "yôwm",
+            "eng": "day"
           },
           {
             "heb": "אֵידָם",
             "lemma": "343",
-            "morph": "HNcmsc/Sp3mp"
+            "morph": "HNcmsc/Sp3mp",
+            "trans": "ʼêyd",
+            "eng": "oppression"
           },
           {
             "heb": "אַל",
             "lemma": "408",
-            "morph": "HTn"
+            "morph": "HTn",
+            "trans": "ʼal",
+            "eng": "not"
           },
           {
             "heb": "תֵּרֶא",
             "lemma": "7200",
-            "morph": "HVqj2ms"
+            "morph": "HVqj2ms",
+            "trans": "râʼâh",
+            "eng": "see"
           },
           {
             "heb": "גַם",
             "lemma": "1571",
-            "morph": "HD"
+            "morph": "HD",
+            "trans": "gam",
+            "eng": "assemblage"
           },
           {
             "heb": "אַתָּה",
             "lemma": "859 a",
-            "morph": "HPp2ms"
+            "morph": "HPp2ms",
+            "trans": "ʼattâh",
+            "eng": "thou"
           },
           {
             "heb": "בְּרָעָתוֹ",
             "lemma": "7451 c",
-            "morph": "HR/Ncfsc/Sp3ms"
+            "morph": "HR/Ncfsc/Sp3ms",
+            "trans": "raʻ",
+            "eng": "bad"
           },
           {
             "heb": "בְּיוֹם",
             "lemma": "3117",
-            "morph": "HR/Ncmsc"
+            "morph": "HR/Ncmsc",
+            "trans": "yôwm",
+            "eng": "day"
           },
           {
             "heb": "אֵידוֹ",
             "lemma": "343",
-            "morph": "HNcmsc/Sp3ms"
+            "morph": "HNcmsc/Sp3ms",
+            "trans": "ʼêyd",
+            "eng": "oppression"
           },
           {
             "heb": "וְאַל",
             "lemma": "408",
-            "morph": "HC/Tn"
+            "morph": "HC/Tn",
+            "trans": "ʼal",
+            "eng": "not"
           },
           {
             "heb": "תִּשְׁלַחְנָה",
             "lemma": "7971",
-            "morph": "HVqj2fp"
+            "morph": "HVqj2fp",
+            "trans": "shâlach",
+            "eng": "send"
           },
           {
             "heb": "בְחֵילוֹ",
             "lemma": "2428",
-            "morph": "HR/Ncmsc/Sp3ms"
+            "morph": "HR/Ncmsc/Sp3ms",
+            "trans": "chayil",
+            "eng": "force"
           },
           {
             "heb": "בְּיוֹם",
             "lemma": "3117",
-            "morph": "HR/Ncmsc"
+            "morph": "HR/Ncmsc",
+            "trans": "yôwm",
+            "eng": "day"
           },
           {
             "heb": "אֵידֽוֹ",
             "lemma": "343",
-            "morph": "HNcmsc/Sp3ms"
+            "morph": "HNcmsc/Sp3ms",
+            "trans": "ʼêyd",
+            "eng": "oppression"
           }
-        ]
+        ],
+        "english": "Thou shouldest not have entered into the gate of my people in the day of their calamity; yea, thou shouldest not have looked on their affliction in the day of their calamity, nor have laid hands on their substance in the day of their calamity;"
       },
       {
         "verse": 14,
@@ -948,64 +1305,89 @@
           {
             "heb": "וְאַֽל",
             "lemma": "408",
-            "morph": "HC/Tn"
+            "morph": "HC/Tn",
+            "trans": "ʼal",
+            "eng": "not"
           },
           {
             "heb": "תַּעֲמֹד",
             "lemma": "5975",
-            "morph": "HVqj2ms"
+            "morph": "HVqj2ms",
+            "trans": "ʻâmad",
+            "eng": "stand"
           },
           {
             "heb": "עַל",
             "lemma": "5921 a",
-            "morph": "HR"
+            "morph": "HR",
+            "trans": "ʻal",
+            "eng": "above"
           },
           {
             "heb": "הַפֶּרֶק",
             "lemma": "6563",
-            "morph": "HTd/Ncmsa"
+            "morph": "HTd/Ncmsa",
+            "trans": "pereq",
+            "eng": "rapine"
           },
           {
             "heb": "לְהַכְרִית",
             "lemma": "3772",
-            "morph": "HR/Vhc"
+            "morph": "HR/Vhc",
+            "trans": "kârath",
+            "eng": "cut"
           },
           {
             "heb": "אֶת",
             "lemma": "853",
-            "morph": "HTo"
+            "morph": "HTo",
+            "trans": "ʼêth",
+            "eng": "self"
           },
           {
             "heb": "פְּלִיטָיו",
             "lemma": "6412 a",
-            "morph": "HNcmpc/Sp3ms"
+            "morph": "HNcmpc/Sp3ms",
+            "trans": "pâlîyṭ",
+            "eng": "refugee"
           },
           {
             "heb": "וְאַל",
             "lemma": "408",
-            "morph": "HC/Tn"
+            "morph": "HC/Tn",
+            "trans": "ʼal",
+            "eng": "not"
           },
           {
             "heb": "תַּסְגֵּר",
             "lemma": "5462",
-            "morph": "HVhj2ms"
+            "morph": "HVhj2ms",
+            "trans": "çâgar",
+            "eng": "shut"
           },
           {
             "heb": "שְׂרִידָיו",
             "lemma": "8300",
-            "morph": "HNcmpc/Sp3ms"
+            "morph": "HNcmpc/Sp3ms",
+            "trans": "sârîyd",
+            "eng": "survivor"
           },
           {
             "heb": "בְּיוֹם",
             "lemma": "3117",
-            "morph": "HR/Ncmsc"
+            "morph": "HR/Ncmsc",
+            "trans": "yôwm",
+            "eng": "day"
           },
           {
             "heb": "צָרָֽה",
             "lemma": "6869 b",
-            "morph": "HNcfsa"
+            "morph": "HNcfsa",
+            "trans": "tsârâh",
+            "eng": "tightness"
           }
-        ]
+        ],
+        "english": "Neither shouldest thou have stood in the crossway, to cut off those of his that did escape; neither shouldest thou have delivered up those of his that did remain in the day of distress."
       },
       {
         "verse": 15,
@@ -1014,74 +1396,103 @@
           {
             "heb": "כִּֽי",
             "lemma": "3588 a",
-            "morph": "HC"
+            "morph": "HC",
+            "trans": "kîy",
+            "eng": "relative conjunction"
           },
           {
             "heb": "קָרוֹב",
             "lemma": "7138",
-            "morph": "HAamsa"
+            "morph": "HAamsa",
+            "trans": "qârôwb",
+            "eng": "near"
           },
           {
             "heb": "יוֹם",
             "lemma": "3117",
-            "morph": "HNcmsc"
+            "morph": "HNcmsc",
+            "trans": "yôwm",
+            "eng": "day"
           },
           {
             "heb": "יְהוָה",
             "lemma": "3068",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "Yᵉhôvâh",
+            "eng": "Existent"
           },
           {
             "heb": "עַל",
             "lemma": "5921 a",
-            "morph": "HR"
+            "morph": "HR",
+            "trans": "ʻal",
+            "eng": "above"
           },
           {
             "heb": "כָּל",
             "lemma": "3605",
-            "morph": "HNcmsc"
+            "morph": "HNcmsc",
+            "trans": "kôl",
+            "eng": "whole"
           },
           {
             "heb": "הַגּוֹיִם",
             "lemma": "1471 a",
-            "morph": "HTd/Ncmpa"
+            "morph": "HTd/Ncmpa",
+            "trans": "gôwy",
+            "eng": "nation"
           },
           {
             "heb": "כַּאֲשֶׁר",
             "lemma": "834 d",
-            "morph": "HR/Tr"
+            "morph": "HR/Tr",
+            "trans": "ʼăsher",
+            "eng": "who"
           },
           {
             "heb": "עָשִׂיתָ",
             "lemma": "6213 a",
-            "morph": "HVqp2ms"
+            "morph": "HVqp2ms",
+            "trans": "ʻâsâh",
+            "eng": "do"
           },
           {
             "heb": "יֵעָשֶׂה",
             "lemma": "6213 a",
-            "morph": "HVNi3ms"
+            "morph": "HVNi3ms",
+            "trans": "ʻâsâh",
+            "eng": "do"
           },
           {
             "heb": "לָּךְ",
             "lemma": "l",
-            "morph": "HR/Sp2fs"
+            "morph": "HR/Sp2fs",
+            "trans": "",
+            "eng": ""
           },
           {
             "heb": "גְּמֻלְךָ",
             "lemma": "1576",
-            "morph": "HNcmsc/Sp2ms"
+            "morph": "HNcmsc/Sp2ms",
+            "trans": "gᵉmûwl",
+            "eng": "treatment"
           },
           {
             "heb": "יָשׁוּב",
             "lemma": "7725",
-            "morph": "HVqi3ms"
+            "morph": "HVqi3ms",
+            "trans": "shûwb",
+            "eng": "turn"
           },
           {
             "heb": "בְּרֹאשֶֽׁךָ",
             "lemma": "7218 a",
-            "morph": "HR/Ncmsc/Sp2ms"
+            "morph": "HR/Ncmsc/Sp2ms",
+            "trans": "rôʼsh",
+            "eng": "head"
           }
-        ]
+        ],
+        "english": "For the day of the LORD is near upon all the heathen: as thou hast done, it shall be done unto thee: thy reward shall return upon thine own head."
       },
       {
         "verse": 16,
@@ -1090,79 +1501,110 @@
           {
             "heb": "כִּי",
             "lemma": "3588 a",
-            "morph": "HC"
+            "morph": "HC",
+            "trans": "kîy",
+            "eng": "relative conjunction"
           },
           {
             "heb": "כַּֽאֲשֶׁר",
             "lemma": "834 d",
-            "morph": "HR/Tr"
+            "morph": "HR/Tr",
+            "trans": "ʼăsher",
+            "eng": "who"
           },
           {
             "heb": "שְׁתִיתֶם",
             "lemma": "8354",
-            "morph": "HVqp2mp"
+            "morph": "HVqp2mp",
+            "trans": "shâthâh",
+            "eng": "imbibe"
           },
           {
             "heb": "עַל",
             "lemma": "5921 a",
-            "morph": "HR"
+            "morph": "HR",
+            "trans": "ʻal",
+            "eng": "above"
           },
           {
             "heb": "הַר",
             "lemma": "2022",
-            "morph": "HNcmsc"
+            "morph": "HNcmsc",
+            "trans": "har",
+            "eng": "mountain"
           },
           {
             "heb": "קָדְשִׁי",
             "lemma": "6944",
-            "morph": "HNcmsc/Sp1cs"
+            "morph": "HNcmsc/Sp1cs",
+            "trans": "qôdesh",
+            "eng": "sacred"
           },
           {
             "heb": "יִשְׁתּוּ",
             "lemma": "8354",
-            "morph": "HVqi3mp"
+            "morph": "HVqi3mp",
+            "trans": "shâthâh",
+            "eng": "imbibe"
           },
           {
             "heb": "כָֽל",
             "lemma": "3605",
-            "morph": "HNcmsc"
+            "morph": "HNcmsc",
+            "trans": "kôl",
+            "eng": "whole"
           },
           {
             "heb": "הַגּוֹיִם",
             "lemma": "1471 a",
-            "morph": "HTd/Ncmpa"
+            "morph": "HTd/Ncmpa",
+            "trans": "gôwy",
+            "eng": "nation"
           },
           {
             "heb": "תָּמִיד",
             "lemma": "8548",
-            "morph": "HNcmsa"
+            "morph": "HNcmsa",
+            "trans": "tâmîyd",
+            "eng": "continuance"
           },
           {
             "heb": "וְשָׁתוּ",
             "lemma": "8354",
-            "morph": "HC/Vqq3cp"
+            "morph": "HC/Vqq3cp",
+            "trans": "shâthâh",
+            "eng": "imbibe"
           },
           {
             "heb": "וְלָעוּ",
             "lemma": "3886 a",
-            "morph": "HC/Vqq3cp"
+            "morph": "HC/Vqq3cp",
+            "trans": "lûwaʻ",
+            "eng": "gulp"
           },
           {
             "heb": "וְהָיוּ",
             "lemma": "1961",
-            "morph": "HC/Vqq3cp"
+            "morph": "HC/Vqq3cp",
+            "trans": "hâyâh",
+            "eng": "exist"
           },
           {
             "heb": "כְּלוֹא",
             "lemma": "3808",
-            "morph": "HR/Tn"
+            "morph": "HR/Tn",
+            "trans": "lôʼ",
+            "eng": "not"
           },
           {
             "heb": "הָיֽוּ",
             "lemma": "1961",
-            "morph": "HVqp3cp"
+            "morph": "HVqp3cp",
+            "trans": "hâyâh",
+            "eng": "exist"
           }
-        ]
+        ],
+        "english": "For as ye have drunk upon my holy mountain, so shall all the heathen drink continually, yea, they shall drink, and they shall swallow down, and they shall be as though they had not been."
       },
       {
         "verse": 17,
@@ -1171,59 +1613,82 @@
           {
             "heb": "וּבְהַר",
             "lemma": "2022",
-            "morph": "HC/R/Ncmsc"
+            "morph": "HC/R/Ncmsc",
+            "trans": "har",
+            "eng": "mountain"
           },
           {
             "heb": "צִיּוֹן",
             "lemma": "6726",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "Tsîyôwn",
+            "eng": "Tsijon"
           },
           {
             "heb": "תִּהְיֶה",
             "lemma": "1961",
-            "morph": "HVqi3fs"
+            "morph": "HVqi3fs",
+            "trans": "hâyâh",
+            "eng": "exist"
           },
           {
             "heb": "פְלֵיטָה",
             "lemma": "6413",
-            "morph": "HNcfsa"
+            "morph": "HNcfsa",
+            "trans": "pᵉlêyṭâh",
+            "eng": "deliverance"
           },
           {
             "heb": "וְהָיָה",
             "lemma": "1961",
-            "morph": "HC/Vqq3ms"
+            "morph": "HC/Vqq3ms",
+            "trans": "hâyâh",
+            "eng": "exist"
           },
           {
             "heb": "קֹדֶשׁ",
             "lemma": "6944",
-            "morph": "HNcmsa"
+            "morph": "HNcmsa",
+            "trans": "qôdesh",
+            "eng": "sacred"
           },
           {
             "heb": "וְיָֽרְשׁוּ",
             "lemma": "3423",
-            "morph": "HC/Vqq3cp"
+            "morph": "HC/Vqq3cp",
+            "trans": "yârash",
+            "eng": "occupy"
           },
           {
             "heb": "בֵּית",
             "lemma": "1004 b",
-            "morph": "HNcmsc"
+            "morph": "HNcmsc",
+            "trans": "bayith",
+            "eng": "a house"
           },
           {
             "heb": "יַֽעֲקֹב",
             "lemma": "3290",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "Yaʻăqôb",
+            "eng": "Jaakob"
           },
           {
             "heb": "אֵת",
             "lemma": "853",
-            "morph": "HTo"
+            "morph": "HTo",
+            "trans": "ʼêth",
+            "eng": "self"
           },
           {
             "heb": "מוֹרָֽשֵׁיהֶם",
             "lemma": "4180",
-            "morph": "HNcmpc/Sp3mp"
+            "morph": "HNcmpc/Sp3mp",
+            "trans": "môwrâsh",
+            "eng": "possession"
           }
-        ]
+        ],
+        "english": "But upon mount Zion shall be deliverance, and there shall be holiness; and the house of Jacob shall possess their possessions."
       },
       {
         "verse": 18,
@@ -1232,109 +1697,152 @@
           {
             "heb": "וְהָיָה",
             "lemma": "1961",
-            "morph": "HC/Vqq3ms"
+            "morph": "HC/Vqq3ms",
+            "trans": "hâyâh",
+            "eng": "exist"
           },
           {
             "heb": "בֵית",
             "lemma": "1004 b",
-            "morph": "HNcmsc"
+            "morph": "HNcmsc",
+            "trans": "bayith",
+            "eng": "a house"
           },
           {
             "heb": "יַעֲקֹב",
             "lemma": "3290",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "Yaʻăqôb",
+            "eng": "Jaakob"
           },
           {
             "heb": "אֵשׁ",
             "lemma": "784",
-            "morph": "HNcbsa"
+            "morph": "HNcbsa",
+            "trans": "ʼêsh",
+            "eng": "fire"
           },
           {
             "heb": "וּבֵית",
             "lemma": "1004 b",
-            "morph": "HC/Ncmsc"
+            "morph": "HC/Ncmsc",
+            "trans": "bayith",
+            "eng": "a house"
           },
           {
             "heb": "יוֹסֵף",
             "lemma": "3130",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "Yôwçêph",
+            "eng": "Joseph"
           },
           {
             "heb": "לֶהָבָה",
             "lemma": "3852",
-            "morph": "HNcfsa"
+            "morph": "HNcfsa",
+            "trans": "lehâbâh",
+            "eng": ""
           },
           {
             "heb": "וּבֵית",
             "lemma": "1004 b",
-            "morph": "HC/Ncmsc"
+            "morph": "HC/Ncmsc",
+            "trans": "bayith",
+            "eng": "a house"
           },
           {
             "heb": "עֵשָׂו",
             "lemma": "6215",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "ʻÊsâv",
+            "eng": "Esav"
           },
           {
             "heb": "לְקַשׁ",
             "lemma": "7179",
-            "morph": "HR/Ncmsa"
+            "morph": "HR/Ncmsa",
+            "trans": "qash",
+            "eng": "straw"
           },
           {
             "heb": "וְדָלְקוּ",
             "lemma": "1814",
-            "morph": "HC/Vqq3cp"
+            "morph": "HC/Vqq3cp",
+            "trans": "dâlaq",
+            "eng": "flame"
           },
           {
             "heb": "בָהֶם",
             "lemma": "b",
-            "morph": "HR/Sp3mp"
+            "morph": "HR/Sp3mp",
+            "trans": "",
+            "eng": ""
           },
           {
             "heb": "וַאֲכָלוּם",
             "lemma": "398",
-            "morph": "HC/Vqq3cp/Sp3mp"
+            "morph": "HC/Vqq3cp/Sp3mp",
+            "trans": "ʼâkal",
+            "eng": "eat"
           },
           {
             "heb": "וְלֹֽא",
             "lemma": "3808",
-            "morph": "HC/Tn"
+            "morph": "HC/Tn",
+            "trans": "lôʼ",
+            "eng": "not"
           },
           {
             "heb": "יִֽהְיֶה",
             "lemma": "1961",
-            "morph": "HVqi3ms"
+            "morph": "HVqi3ms",
+            "trans": "hâyâh",
+            "eng": "exist"
           },
           {
             "heb": "שָׂרִיד",
             "lemma": "8300",
-            "morph": "HNcmsa"
+            "morph": "HNcmsa",
+            "trans": "sârîyd",
+            "eng": "survivor"
           },
           {
             "heb": "לְבֵית",
             "lemma": "1004 b",
-            "morph": "HR/Ncmsc"
+            "morph": "HR/Ncmsc",
+            "trans": "bayith",
+            "eng": "a house"
           },
           {
             "heb": "עֵשָׂו",
             "lemma": "6215",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "ʻÊsâv",
+            "eng": "Esav"
           },
           {
             "heb": "כִּי",
             "lemma": "3588 a",
-            "morph": "HC"
+            "morph": "HC",
+            "trans": "kîy",
+            "eng": "relative conjunction"
           },
           {
             "heb": "יְהוָה",
             "lemma": "3068",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "Yᵉhôvâh",
+            "eng": "Existent"
           },
           {
             "heb": "דִּבֵּֽר",
             "lemma": "1696",
-            "morph": "HVpp3ms"
+            "morph": "HVpp3ms",
+            "trans": "dâbar",
+            "eng": "arrange"
           }
-        ]
+        ],
+        "english": "And the house of Jacob shall be a fire, and the house of Joseph a flame, and the house of Esau for stubble, and they shall kindle in them, and devour them; and there shall not be any remaining of the house of Esau; for the LORD hath spoken it."
       },
       {
         "verse": 19,
@@ -1343,94 +1851,131 @@
           {
             "heb": "וְיָרְשׁוּ",
             "lemma": "3423",
-            "morph": "HC/Vqq3cp"
+            "morph": "HC/Vqq3cp",
+            "trans": "yârash",
+            "eng": "occupy"
           },
           {
             "heb": "הַנֶּגֶב",
             "lemma": "5045",
-            "morph": "HTd/Ncmsa"
+            "morph": "HTd/Ncmsa",
+            "trans": "negeb",
+            "eng": "south"
           },
           {
             "heb": "אֶת",
             "lemma": "853",
-            "morph": "HTo"
+            "morph": "HTo",
+            "trans": "ʼêth",
+            "eng": "self"
           },
           {
             "heb": "הַר",
             "lemma": "2022",
-            "morph": "HNcmsc"
+            "morph": "HNcmsc",
+            "trans": "har",
+            "eng": "mountain"
           },
           {
             "heb": "עֵשָׂו",
             "lemma": "6215",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "ʻÊsâv",
+            "eng": "Esav"
           },
           {
             "heb": "וְהַשְּׁפֵלָה",
             "lemma": "8219",
-            "morph": "HC/Td/Ncfsa"
+            "morph": "HC/Td/Ncfsa",
+            "trans": "shᵉphêlâh",
+            "eng": "Lowland"
           },
           {
             "heb": "אֶת",
             "lemma": "853",
-            "morph": "HTo"
+            "morph": "HTo",
+            "trans": "ʼêth",
+            "eng": "self"
           },
           {
             "heb": "פְּלִשְׁתִּים",
             "lemma": "6430",
-            "morph": "HNgmpa"
+            "morph": "HNgmpa",
+            "trans": "Pᵉlishtîy",
+            "eng": "Pelishtite"
           },
           {
             "heb": "וְיָרְשׁוּ",
             "lemma": "3423",
-            "morph": "HC/Vqq3cp"
+            "morph": "HC/Vqq3cp",
+            "trans": "yârash",
+            "eng": "occupy"
           },
           {
             "heb": "אֶת",
             "lemma": "853",
-            "morph": "HTo"
+            "morph": "HTo",
+            "trans": "ʼêth",
+            "eng": "self"
           },
           {
             "heb": "שְׂדֵה",
             "lemma": "7704 b",
-            "morph": "HNcmsc"
+            "morph": "HNcmsc",
+            "trans": "sâdeh",
+            "eng": "field"
           },
           {
             "heb": "אֶפְרַיִם",
             "lemma": "669",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "ʼEphrayim",
+            "eng": "Ephrajim"
           },
           {
             "heb": "וְאֵת",
             "lemma": "853",
-            "morph": "HC/To"
+            "morph": "HC/To",
+            "trans": "ʼêth",
+            "eng": "self"
           },
           {
             "heb": "שְׂדֵה",
             "lemma": "7704 b",
-            "morph": "HNcmsc"
+            "morph": "HNcmsc",
+            "trans": "sâdeh",
+            "eng": "field"
           },
           {
             "heb": "שֹׁמְרוֹן",
             "lemma": "8111",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "Shômᵉrôwn",
+            "eng": "Shomeron"
           },
           {
             "heb": "וּבִנְיָמִן",
             "lemma": "1144",
-            "morph": "HC/Np"
+            "morph": "HC/Np",
+            "trans": "Binyâmîyn",
+            "eng": "Binjamin"
           },
           {
             "heb": "אֶת",
             "lemma": "853",
-            "morph": "HTo"
+            "morph": "HTo",
+            "trans": "ʼêth",
+            "eng": "self"
           },
           {
             "heb": "הַגִּלְעָֽד",
             "lemma": "1568",
-            "morph": "HTd/Np"
+            "morph": "HTd/Np",
+            "trans": "Gilʻâd",
+            "eng": "Gilad"
           }
-        ]
+        ],
+        "english": "And they of the south shall possess the mount of Esau; and they of the plain the Philistines: and they shall possess the fields of Ephraim, and the fields of Samaria: and Benjamin shall possess Gilead."
       },
       {
         "verse": 20,
@@ -1439,89 +1984,124 @@
           {
             "heb": "וְגָלֻת",
             "lemma": "1546",
-            "morph": "HC/Ncfsc"
+            "morph": "HC/Ncfsc",
+            "trans": "gâlûwth",
+            "eng": "captivity"
           },
           {
             "heb": "הַֽחֵל",
             "lemma": "2426",
-            "morph": "HTd/Ncmsa"
+            "morph": "HTd/Ncmsa",
+            "trans": "chêyl",
+            "eng": "army"
           },
           {
             "heb": "הַזֶּה",
             "lemma": "2088",
-            "morph": "HTd/Pdxms"
+            "morph": "HTd/Pdxms",
+            "trans": "zeh",
+            "eng": "this"
           },
           {
             "heb": "לִבְנֵי",
             "lemma": "1121 a",
-            "morph": "HR/Ncmpc"
+            "morph": "HR/Ncmpc",
+            "trans": "bên",
+            "eng": "son"
           },
           {
             "heb": "יִשְׂרָאֵל",
             "lemma": "3478",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "Yisrâʼêl",
+            "eng": "he will rule as God"
           },
           {
             "heb": "אֲשֶֽׁר",
             "lemma": "834 a",
-            "morph": "HTr"
+            "morph": "HTr",
+            "trans": "ʼăsher",
+            "eng": "who"
           },
           {
             "heb": "כְּנַעֲנִים",
             "lemma": "3669 a",
-            "morph": "HNgmpa"
+            "morph": "HNgmpa",
+            "trans": "Kᵉnaʻanîy",
+            "eng": "Kenaanite"
           },
           {
             "heb": "עַד",
             "lemma": "5704",
-            "morph": "HR"
+            "morph": "HR",
+            "trans": "ʻad",
+            "eng": "as far"
           },
           {
             "heb": "צָרְפַת",
             "lemma": "6886",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "Tsârᵉphath",
+            "eng": "Tsarephath"
           },
           {
             "heb": "וְגָלֻת",
             "lemma": "1546",
-            "morph": "HC/Ncfsc"
+            "morph": "HC/Ncfsc",
+            "trans": "gâlûwth",
+            "eng": "captivity"
           },
           {
             "heb": "יְרוּשָׁלִַם",
             "lemma": "3389",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "Yᵉrûwshâlaim",
+            "eng": "Jerushalaim"
           },
           {
             "heb": "אֲשֶׁר",
             "lemma": "834 a",
-            "morph": "HTr"
+            "morph": "HTr",
+            "trans": "ʼăsher",
+            "eng": "who"
           },
           {
             "heb": "בִּסְפָרַד",
             "lemma": "5614",
-            "morph": "HR/Np"
+            "morph": "HR/Np",
+            "trans": "Çᵉphârâd",
+            "eng": "Sepharad"
           },
           {
             "heb": "יִֽרְשׁוּ",
             "lemma": "3423",
-            "morph": "HVqi3mp"
+            "morph": "HVqi3mp",
+            "trans": "yârash",
+            "eng": "occupy"
           },
           {
             "heb": "אֵת",
             "lemma": "853",
-            "morph": "HTo"
+            "morph": "HTo",
+            "trans": "ʼêth",
+            "eng": "self"
           },
           {
             "heb": "עָרֵי",
             "lemma": "5892 b",
-            "morph": "HNcfpc"
+            "morph": "HNcfpc",
+            "trans": "ʻîyr",
+            "eng": "city"
           },
           {
             "heb": "הַנֶּֽגֶב",
             "lemma": "5045",
-            "morph": "HTd/Ncmsa"
+            "morph": "HTd/Ncmsa",
+            "trans": "negeb",
+            "eng": "south"
           }
-        ]
+        ],
+        "english": "And the captivity of this host of the children of Israel shall possess that of the Canaanites, even unto Zarephath; and the captivity of Jerusalem, which is in Sepharad, shall possess the cities of the south."
       },
       {
         "verse": 21,
@@ -1530,59 +2110,82 @@
           {
             "heb": "וְעָלוּ",
             "lemma": "5927",
-            "morph": "HC/Vqq3cp"
+            "morph": "HC/Vqq3cp",
+            "trans": "ʻâlâh",
+            "eng": "ascend"
           },
           {
             "heb": "מֽוֹשִׁעִים",
             "lemma": "3467",
-            "morph": "HVhrmpa"
+            "morph": "HVhrmpa",
+            "trans": "yâshaʻ",
+            "eng": "be open"
           },
           {
             "heb": "בְּהַר",
             "lemma": "2022",
-            "morph": "HR/Ncmsc"
+            "morph": "HR/Ncmsc",
+            "trans": "har",
+            "eng": "mountain"
           },
           {
             "heb": "צִיּוֹן",
             "lemma": "6726",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "Tsîyôwn",
+            "eng": "Tsijon"
           },
           {
             "heb": "לִשְׁפֹּט",
             "lemma": "8199",
-            "morph": "HR/Vqc"
+            "morph": "HR/Vqc",
+            "trans": "shâphaṭ",
+            "eng": "judge"
           },
           {
             "heb": "אֶת",
             "lemma": "853",
-            "morph": "HTo"
+            "morph": "HTo",
+            "trans": "ʼêth",
+            "eng": "self"
           },
           {
             "heb": "הַר",
             "lemma": "2022",
-            "morph": "HNcmsc"
+            "morph": "HNcmsc",
+            "trans": "har",
+            "eng": "mountain"
           },
           {
             "heb": "עֵשָׂו",
             "lemma": "6215",
-            "morph": "HNp"
+            "morph": "HNp",
+            "trans": "ʻÊsâv",
+            "eng": "Esav"
           },
           {
             "heb": "וְהָיְתָה",
             "lemma": "1961",
-            "morph": "HC/Vqq3fs"
+            "morph": "HC/Vqq3fs",
+            "trans": "hâyâh",
+            "eng": "exist"
           },
           {
             "heb": "לַֽיהוָה",
             "lemma": "3068",
-            "morph": "HR/Np"
+            "morph": "HR/Np",
+            "trans": "Yᵉhôvâh",
+            "eng": "Existent"
           },
           {
             "heb": "הַמְּלוּכָֽה",
             "lemma": "4410",
-            "morph": "HTd/Ncfsa"
+            "morph": "HTd/Ncfsa",
+            "trans": "mᵉlûwkâh",
+            "eng": "ruled"
           }
-        ]
+        ],
+        "english": "And saviours shall come up on mount Zion to judge the mount of Esau; and the kingdom shall be the LORD’s."
       }
     ]
   }
