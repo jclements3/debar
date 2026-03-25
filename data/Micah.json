@@ -1,0 +1,7630 @@
+{
+  "name": "Micah",
+  "osisId": "Mic",
+  "chapters": {
+    "1": [
+      {
+        "verse": 1,
+        "ref": "Micah 1:1",
+        "words": [
+          {
+            "heb": "דְּבַר",
+            "lemma": "1697",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "הָיָה",
+            "lemma": "1961",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "מִיכָה",
+            "lemma": "4318",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הַמֹּרַשְׁתִּי",
+            "lemma": "4183",
+            "morph": "HTd/Ngmsa"
+          },
+          {
+            "heb": "בִּימֵי",
+            "lemma": "3117",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "יוֹתָם",
+            "lemma": "3147",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אָחָז",
+            "lemma": "271",
+            "morph": "HNp"
+          },
+          {
+            "heb": "יְחִזְקִיָּה",
+            "lemma": "2396",
+            "morph": "HNp"
+          },
+          {
+            "heb": "מַלְכֵי",
+            "lemma": "4428",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "יְהוּדָה",
+            "lemma": "3063",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "חָזָה",
+            "lemma": "2372",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "שֹׁמְרוֹן",
+            "lemma": "8111",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וִירֽוּשָׁלִָֽם",
+            "lemma": "3389",
+            "morph": "HC/Np"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Micah 1:2",
+        "words": [
+          {
+            "heb": "שִׁמְעוּ",
+            "lemma": "8085",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "עַמִּים",
+            "lemma": "5971 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "כֻּלָּם",
+            "lemma": "3605",
+            "morph": "HNcmsc/Sp3mp"
+          },
+          {
+            "heb": "הַקְשִׁיבִי",
+            "lemma": "7181",
+            "morph": "HVhv2fs"
+          },
+          {
+            "heb": "אֶרֶץ",
+            "lemma": "776",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "וּמְלֹאָהּ",
+            "lemma": "4393",
+            "morph": "HC/Ncmsc/Sp3fs"
+          },
+          {
+            "heb": "וִיהִי",
+            "lemma": "1961",
+            "morph": "HC/Vqj3ms"
+          },
+          {
+            "heb": "אֲדֹנָי",
+            "lemma": "136",
+            "morph": "HNcmpc/Sp1cs"
+          },
+          {
+            "heb": "יְהוִה",
+            "lemma": "3069",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בָּכֶם",
+            "lemma": "b",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "לְעֵד",
+            "lemma": "5707",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "אֲדֹנָי",
+            "lemma": "136",
+            "morph": "HNcmpc/Sp1cs"
+          },
+          {
+            "heb": "מֵהֵיכַל",
+            "lemma": "1964",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "קָדְשֽׁוֹ",
+            "lemma": "6944",
+            "morph": "HNcmsc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Micah 1:3",
+        "words": [
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "הִנֵּה",
+            "lemma": "2009",
+            "morph": "HTm"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "יֹצֵא",
+            "lemma": "3318",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "מִמְּקוֹמוֹ",
+            "lemma": "4725",
+            "morph": "HR/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "וְיָרַד",
+            "lemma": "3381",
+            "morph": "HC/Vqp3ms"
+          },
+          {
+            "heb": "וְדָרַךְ",
+            "lemma": "1869",
+            "morph": "HC/Vqp3ms"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "בָּמֳתֵי",
+            "lemma": "1116",
+            "morph": "HNcfpc"
+          },
+          {
+            "heb": "אָֽרֶץ",
+            "lemma": "776",
+            "morph": "HNcbsa"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Micah 1:4",
+        "words": [
+          {
+            "heb": "וְנָמַסּוּ",
+            "lemma": "4549",
+            "morph": "HC/VNq3cp"
+          },
+          {
+            "heb": "הֶֽהָרִים",
+            "lemma": "2022",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "תַּחְתָּיו",
+            "lemma": "8478",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "וְהָעֲמָקִים",
+            "lemma": "6010",
+            "morph": "HC/Td/Ncmpa"
+          },
+          {
+            "heb": "יִתְבַּקָּעוּ",
+            "lemma": "1234",
+            "morph": "HVti3mp"
+          },
+          {
+            "heb": "כַּדּוֹנַג",
+            "lemma": "1749",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "מִפְּנֵי",
+            "lemma": "6440",
+            "morph": "HR/Ncbpc"
+          },
+          {
+            "heb": "הָאֵשׁ",
+            "lemma": "784",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "כְּמַיִם",
+            "lemma": "4325",
+            "morph": "HR/Ncmpa"
+          },
+          {
+            "heb": "מֻגָּרִים",
+            "lemma": "5064",
+            "morph": "HVHsmpa"
+          },
+          {
+            "heb": "בְּמוֹרָֽד",
+            "lemma": "4174",
+            "morph": "HR/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Micah 1:5",
+        "words": [
+          {
+            "heb": "בְּפֶשַׁע",
+            "lemma": "6588",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "יַֽעֲקֹב",
+            "lemma": "3290",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "זֹאת",
+            "lemma": "2063",
+            "morph": "HPdxfs"
+          },
+          {
+            "heb": "וּבְחַטֹּאות",
+            "lemma": "2403 b",
+            "morph": "HC/R/Ncfpc"
+          },
+          {
+            "heb": "בֵּית",
+            "lemma": "1004 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HNp"
+          },
+          {
+            "heb": "מִֽי",
+            "lemma": "4310",
+            "morph": "HTi"
+          },
+          {
+            "heb": "פֶשַׁע",
+            "lemma": "6588",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יַעֲקֹב",
+            "lemma": "3290",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הֲלוֹא",
+            "lemma": "3808",
+            "morph": "HTi/Tn"
+          },
+          {
+            "heb": "שֹֽׁמְרוֹן",
+            "lemma": "8111",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּמִי",
+            "lemma": "4310",
+            "morph": "HC/Ti"
+          },
+          {
+            "heb": "בָּמוֹת",
+            "lemma": "1116",
+            "morph": "HNcfpc"
+          },
+          {
+            "heb": "יְהוּדָה",
+            "lemma": "3063",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הֲלוֹא",
+            "lemma": "3808",
+            "morph": "HTi/Tn"
+          },
+          {
+            "heb": "יְרוּשָׁלִָֽם",
+            "lemma": "3389",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Micah 1:6",
+        "words": [
+          {
+            "heb": "וְשַׂמְתִּי",
+            "lemma": "7760 a",
+            "morph": "HC/Vqq1cs"
+          },
+          {
+            "heb": "שֹׁמְרוֹן",
+            "lemma": "8111",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לְעִי",
+            "lemma": "5856",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "הַשָּׂדֶה",
+            "lemma": "7704 b",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "לְמַטָּעֵי",
+            "lemma": "4302",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "כָרֶם",
+            "lemma": "3754",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "וְהִגַּרְתִּי",
+            "lemma": "5064",
+            "morph": "HC/Vhq1cs"
+          },
+          {
+            "heb": "לַגַּי",
+            "lemma": "1516",
+            "morph": "HRd/Ncbsa"
+          },
+          {
+            "heb": "אֲבָנֶיהָ",
+            "lemma": "68",
+            "morph": "HNcfpc/Sp3fs"
+          },
+          {
+            "heb": "וִיסֹדֶיהָ",
+            "lemma": "3247",
+            "morph": "HC/Ncmpc/Sp3fs"
+          },
+          {
+            "heb": "אֲגַלֶּֽה",
+            "lemma": "1540",
+            "morph": "HVpi1cs"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Micah 1:7",
+        "words": [
+          {
+            "heb": "וְכָל",
+            "lemma": "3605",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "פְּסִילֶיהָ",
+            "lemma": "6456",
+            "morph": "HNcmpc/Sp3fs"
+          },
+          {
+            "heb": "יֻכַּתּוּ",
+            "lemma": "3807",
+            "morph": "HVHi3mp"
+          },
+          {
+            "heb": "וְכָל",
+            "lemma": "3605",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "אֶתְנַנֶּיהָ",
+            "lemma": "868",
+            "morph": "HNcmpc/Sp3fs"
+          },
+          {
+            "heb": "יִשָּׂרְפוּ",
+            "lemma": "8313",
+            "morph": "HVNi3mp"
+          },
+          {
+            "heb": "בָאֵשׁ",
+            "lemma": "784",
+            "morph": "HRd/Ncbsa"
+          },
+          {
+            "heb": "וְכָל",
+            "lemma": "3605",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "עֲצַבֶּיהָ",
+            "lemma": "6091",
+            "morph": "HNcmpc/Sp3fs"
+          },
+          {
+            "heb": "אָשִׂים",
+            "lemma": "7760 a",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "שְׁמָמָה",
+            "lemma": "8077 a",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "מֵאֶתְנַן",
+            "lemma": "868",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "זוֹנָה",
+            "lemma": "2181",
+            "morph": "HVqrfsa"
+          },
+          {
+            "heb": "קִבָּצָה",
+            "lemma": "6908",
+            "morph": "HVpp3fs"
+          },
+          {
+            "heb": "וְעַד",
+            "lemma": "5704",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "אֶתְנַן",
+            "lemma": "868",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "זוֹנָה",
+            "lemma": "2181",
+            "morph": "HVqrfsa"
+          },
+          {
+            "heb": "יָשֽׁוּבוּ",
+            "lemma": "7725",
+            "morph": "HVqi3mp"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Micah 1:8",
+        "words": [
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "זֹאת",
+            "lemma": "2063",
+            "morph": "HPdxfs"
+          },
+          {
+            "heb": "אֶסְפְּדָה",
+            "lemma": "5594",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "וְאֵילִילָה",
+            "lemma": "3213",
+            "morph": "HC/Vhh1cs"
+          },
+          {
+            "heb": "אֵילְכָה",
+            "lemma": "3212",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "שׁוֹלָל",
+            "lemma": "7758",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "וְעָרוֹם",
+            "lemma": "6174",
+            "morph": "HC/Aamsa"
+          },
+          {
+            "heb": "אֶעֱשֶׂה",
+            "lemma": "6213 a",
+            "morph": "HVqh1cs"
+          },
+          {
+            "heb": "מִסְפֵּד",
+            "lemma": "4553",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "כַּתַּנִּים",
+            "lemma": "8577 a",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "וְאֵבֶל",
+            "lemma": "60",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "כִּבְנוֹת",
+            "lemma": "1323",
+            "morph": "HR/Ncfpc"
+          },
+          {
+            "heb": "יַעֲנָֽה",
+            "lemma": "3284",
+            "morph": "HNcfsa"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Micah 1:9",
+        "words": [
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אֲנוּשָׁה",
+            "lemma": "605",
+            "morph": "HAafsa"
+          },
+          {
+            "heb": "מַכּוֹתֶיהָ",
+            "lemma": "4347",
+            "morph": "HNcfpc/Sp3fs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "בָאָה",
+            "lemma": "935",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "יְהוּדָה",
+            "lemma": "3063",
+            "morph": "HNp"
+          },
+          {
+            "heb": "נָגַע",
+            "lemma": "5060",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "שַׁעַר",
+            "lemma": "8179",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "עַמִּי",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "יְרוּשָׁלִָֽם",
+            "lemma": "3389",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Micah 1:10",
+        "words": [
+          {
+            "heb": "בְּגַת",
+            "lemma": "1661",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תַּגִּידוּ",
+            "lemma": "5046",
+            "morph": "HVhj2mp"
+          },
+          {
+            "heb": "בָּכוֹ",
+            "lemma": "1058",
+            "morph": "HVqa"
+          },
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תִּבְכּוּ",
+            "lemma": "1058",
+            "morph": "HVqj2mp"
+          },
+          {
+            "heb": "בְּבֵית",
+            "lemma": "1036+",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "לְעַפְרָה",
+            "lemma": "1036",
+            "morph": "HNp"
+          },
+          {
+            "heb": "עָפָר",
+            "lemma": "6083",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "הִתְפַּלָּֽשִׁי",
+            "lemma": "6428",
+            "morph": "HVtv2fs"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Micah 1:11",
+        "words": [
+          {
+            "heb": "עִבְרִי",
+            "lemma": "5674 a",
+            "morph": "HVqv2fs"
+          },
+          {
+            "heb": "לָכֶם",
+            "lemma": "l",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "יוֹשֶׁבֶת",
+            "lemma": "3427",
+            "morph": "HVqrfsc"
+          },
+          {
+            "heb": "שָׁפִיר",
+            "lemma": "8208",
+            "morph": "HNp"
+          },
+          {
+            "heb": "עֶרְיָה",
+            "lemma": "6181",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "בֹשֶׁת",
+            "lemma": "1322",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יָֽצְאָה",
+            "lemma": "3318",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "יוֹשֶׁבֶת",
+            "lemma": "3427",
+            "morph": "HVqrfsc"
+          },
+          {
+            "heb": "צַֽאֲנָן",
+            "lemma": "6630",
+            "morph": "HNp"
+          },
+          {
+            "heb": "מִסְפַּד",
+            "lemma": "5594",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "בֵּית",
+            "lemma": "1018+",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הָאֵצֶל",
+            "lemma": "1018",
+            "morph": "HNp"
+          },
+          {
+            "heb": "יִקַּח",
+            "lemma": "3947",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "מִכֶּם",
+            "lemma": "4480 a",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "עֶמְדָּתֽוֹ",
+            "lemma": "5979",
+            "morph": "HNcfsc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Micah 1:12",
+        "words": [
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "חָלָֽה",
+            "lemma": "2342 a",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "לְטוֹב",
+            "lemma": "2896 b",
+            "morph": "HR/Aamsa"
+          },
+          {
+            "heb": "יוֹשֶׁבֶת",
+            "lemma": "3427",
+            "morph": "HVqrfsc"
+          },
+          {
+            "heb": "מָרוֹת",
+            "lemma": "4796",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "יָרַד",
+            "lemma": "3381",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "רָע",
+            "lemma": "7451 b",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "מֵאֵת",
+            "lemma": "854",
+            "morph": "HR/R"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לְשַׁעַר",
+            "lemma": "8179",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "יְרוּשָׁלִָֽם",
+            "lemma": "3389",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Micah 1:13",
+        "words": [
+          {
+            "heb": "רְתֹם",
+            "lemma": "7573",
+            "morph": "HVqv2ms"
+          },
+          {
+            "heb": "הַמֶּרְכָּבָה",
+            "lemma": "4818",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "לָרֶכֶשׁ",
+            "lemma": "7409",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "יוֹשֶׁבֶת",
+            "lemma": "3427",
+            "morph": "HVqrfsc"
+          },
+          {
+            "heb": "לָכִישׁ",
+            "lemma": "3923",
+            "morph": "HNp"
+          },
+          {
+            "heb": "רֵאשִׁית",
+            "lemma": "7225",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "חַטָּאת",
+            "lemma": "2403 b",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "הִיא",
+            "lemma": "1931",
+            "morph": "HPp3fs"
+          },
+          {
+            "heb": "לְבַת",
+            "lemma": "1323",
+            "morph": "HR/Ncfsc"
+          },
+          {
+            "heb": "צִיּוֹן",
+            "lemma": "6726",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "בָךְ",
+            "lemma": "b",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "נִמְצְאוּ",
+            "lemma": "4672",
+            "morph": "HVNp3cp"
+          },
+          {
+            "heb": "פִּשְׁעֵי",
+            "lemma": "6588",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "יִשְׂרָאֵֽל",
+            "lemma": "3478",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Micah 1:14",
+        "words": [
+          {
+            "heb": "לָכֵן",
+            "lemma": "3651 c",
+            "morph": "HR/D"
+          },
+          {
+            "heb": "תִּתְּנִי",
+            "lemma": "5414",
+            "morph": "HVqi2fs"
+          },
+          {
+            "heb": "שִׁלּוּחִים",
+            "lemma": "7964",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "מוֹרֶשֶׁת",
+            "lemma": "4182+",
+            "morph": "HNp"
+          },
+          {
+            "heb": "גַּת",
+            "lemma": "4182",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בָּתֵּי",
+            "lemma": "1004 b",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "אַכְזִיב",
+            "lemma": "392",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לְאַכְזָב",
+            "lemma": "391",
+            "morph": "HR/Aamsa"
+          },
+          {
+            "heb": "לְמַלְכֵי",
+            "lemma": "4428",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "יִשְׂרָאֵֽל",
+            "lemma": "3478",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 15,
+        "ref": "Micah 1:15",
+        "words": [
+          {
+            "heb": "עֹד",
+            "lemma": "5750",
+            "morph": "HD"
+          },
+          {
+            "heb": "הַיֹּרֵשׁ",
+            "lemma": "3423",
+            "morph": "HTd/Vqrmsa"
+          },
+          {
+            "heb": "אָבִי",
+            "lemma": "935",
+            "morph": "HVhi1cs"
+          },
+          {
+            "heb": "לָךְ",
+            "lemma": "l",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "יוֹשֶׁבֶת",
+            "lemma": "3427",
+            "morph": "HVqrfsc"
+          },
+          {
+            "heb": "מָֽרֵשָׁה",
+            "lemma": "4762",
+            "morph": "HNp"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "עֲדֻּלָּם",
+            "lemma": "5725",
+            "morph": "HNp"
+          },
+          {
+            "heb": "יָבוֹא",
+            "lemma": "935",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "כְּבוֹד",
+            "lemma": "3519",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "יִשְׂרָאֵֽל",
+            "lemma": "3478",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 16,
+        "ref": "Micah 1:16",
+        "words": [
+          {
+            "heb": "קָרְחִי",
+            "lemma": "7139",
+            "morph": "HVqv2fs"
+          },
+          {
+            "heb": "וָגֹזִּי",
+            "lemma": "1494",
+            "morph": "HC/Vqv2fs"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "בְּנֵי",
+            "lemma": "1121 a",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "תַּעֲנוּגָיִךְ",
+            "lemma": "8588",
+            "morph": "HNcmpc/Sp2fs"
+          },
+          {
+            "heb": "הַרְחִבִי",
+            "lemma": "7337",
+            "morph": "HVhv2fs"
+          },
+          {
+            "heb": "קָרְחָתֵךְ",
+            "lemma": "7144",
+            "morph": "HNcfsc/Sp2fs"
+          },
+          {
+            "heb": "כַּנֶּשֶׁר",
+            "lemma": "5404",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "גָלוּ",
+            "lemma": "1540",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "מִמֵּֽךְ",
+            "lemma": "4480 a",
+            "morph": "HR/Sp2fs"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "verse": 1,
+        "ref": "Micah 2:1",
+        "words": [
+          {
+            "heb": "הוֹי",
+            "lemma": "1945",
+            "morph": "HTj"
+          },
+          {
+            "heb": "חֹֽשְׁבֵי",
+            "lemma": "2803",
+            "morph": "HVqrmpc"
+          },
+          {
+            "heb": "אָוֶן",
+            "lemma": "205",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וּפֹעֲלֵי",
+            "lemma": "6466",
+            "morph": "HC/Vqrmpc"
+          },
+          {
+            "heb": "רָע",
+            "lemma": "7451 b",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "מִשְׁכְּבוֹתָם",
+            "lemma": "4904",
+            "morph": "HNcmpc/Sp3mp"
+          },
+          {
+            "heb": "בְּאוֹר",
+            "lemma": "216",
+            "morph": "HR/Ncbsc"
+          },
+          {
+            "heb": "הַבֹּקֶר",
+            "lemma": "1242",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "יַעֲשׂוּהָ",
+            "lemma": "6213 a",
+            "morph": "HVqi3mp/Sp3fs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "יֶשׁ",
+            "lemma": "3426",
+            "morph": "HTm"
+          },
+          {
+            "heb": "לְאֵל",
+            "lemma": "410",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "יָדָֽם",
+            "lemma": "3027",
+            "morph": "HNcbsc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Micah 2:2",
+        "words": [
+          {
+            "heb": "וְחָמְדוּ",
+            "lemma": "2530 a",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "שָׂדוֹת",
+            "lemma": "7704 b",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "וְגָזָלוּ",
+            "lemma": "1497",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "וּבָתִּים",
+            "lemma": "1004 b",
+            "morph": "HC/Ncmpa"
+          },
+          {
+            "heb": "וְנָשָׂאוּ",
+            "lemma": "5375",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "וְעָֽשְׁקוּ",
+            "lemma": "6231",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "גֶּבֶר",
+            "lemma": "1397",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וּבֵיתוֹ",
+            "lemma": "1004 b",
+            "morph": "HC/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "וְאִישׁ",
+            "lemma": "376",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "וְנַחֲלָתֽוֹ",
+            "lemma": "5159",
+            "morph": "HC/Ncfsc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Micah 2:3",
+        "words": [
+          {
+            "heb": "לָכֵן",
+            "lemma": "3651 c",
+            "morph": "HR/D"
+          },
+          {
+            "heb": "כֹּה",
+            "lemma": "3541",
+            "morph": "HD"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הִנְנִי",
+            "lemma": "2005",
+            "morph": "HTm/Sp1cs"
+          },
+          {
+            "heb": "חֹשֵׁב",
+            "lemma": "2803",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַמִּשְׁפָּחָה",
+            "lemma": "4940",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "הַזֹּאת",
+            "lemma": "2063",
+            "morph": "HTd/Pdxfs"
+          },
+          {
+            "heb": "רָעָה",
+            "lemma": "7451 c",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "לֹֽא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תָמִישׁוּ",
+            "lemma": "4185",
+            "morph": "HVhi2mp"
+          },
+          {
+            "heb": "מִשָּׁם",
+            "lemma": "8033",
+            "morph": "HR/D"
+          },
+          {
+            "heb": "צַוְּארֹֽתֵיכֶם",
+            "lemma": "6677 a",
+            "morph": "HNcmpc/Sp2mp"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תֵֽלְכוּ",
+            "lemma": "3212",
+            "morph": "HVqi2mp"
+          },
+          {
+            "heb": "רוֹמָה",
+            "lemma": "7317",
+            "morph": "HD"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "עֵת",
+            "lemma": "6256",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "רָעָה",
+            "lemma": "7451 c",
+            "morph": "HAafsa"
+          },
+          {
+            "heb": "הִֽיא",
+            "lemma": "1931",
+            "morph": "HPp3fs"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Micah 2:4",
+        "words": [
+          {
+            "heb": "בַּיּוֹם",
+            "lemma": "3117",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "הַהוּא",
+            "lemma": "1931",
+            "morph": "HTd/Pp3ms"
+          },
+          {
+            "heb": "יִשָּׂא",
+            "lemma": "5375",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "עֲלֵיכֶם",
+            "lemma": "5921 a",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "מָשָׁל",
+            "lemma": "4912",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְנָהָה",
+            "lemma": "5091",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "נְהִי",
+            "lemma": "5092",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "נִֽהְיָה",
+            "lemma": "5093",
+            "morph": "HVNp3ms"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "שָׁדוֹד",
+            "lemma": "7703",
+            "morph": "HVqa"
+          },
+          {
+            "heb": "נְשַׁדֻּנוּ",
+            "lemma": "7703",
+            "morph": "HVNp1cp"
+          },
+          {
+            "heb": "חֵלֶק",
+            "lemma": "2506 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "עַמִּי",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "יָמִיר",
+            "lemma": "4171",
+            "morph": "HVhi3ms"
+          },
+          {
+            "heb": "אֵיךְ",
+            "lemma": "349 a",
+            "morph": "HTi"
+          },
+          {
+            "heb": "יָמִישׁ",
+            "lemma": "4185",
+            "morph": "HVhi3ms"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "לְשׁוֹבֵב",
+            "lemma": "7728",
+            "morph": "HR/Aamsa"
+          },
+          {
+            "heb": "שָׂדֵינוּ",
+            "lemma": "7704 b",
+            "morph": "HNcmpc/Sp1cp"
+          },
+          {
+            "heb": "יְחַלֵּֽק",
+            "lemma": "2505 a",
+            "morph": "HVpi3ms"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Micah 2:5",
+        "words": [
+          {
+            "heb": "לָכֵן",
+            "lemma": "3651 c",
+            "morph": "HR/D"
+          },
+          {
+            "heb": "לֹֽא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יִֽהְיֶה",
+            "lemma": "1961",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "לְךָ",
+            "lemma": "l",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "מַשְׁלִיךְ",
+            "lemma": "7993",
+            "morph": "HVhrmsa"
+          },
+          {
+            "heb": "חֶבֶל",
+            "lemma": "2256 a",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "בְּגוֹרָל",
+            "lemma": "1486",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "בִּקְהַל",
+            "lemma": "6951",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "יְהוָֽה",
+            "lemma": "3068",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Micah 2:6",
+        "words": [
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תַּטִּפוּ",
+            "lemma": "5197",
+            "morph": "HVhj2mp"
+          },
+          {
+            "heb": "יַטִּיפוּן",
+            "lemma": "5197",
+            "morph": "HVhi3mp/Sn"
+          },
+          {
+            "heb": "לֹֽא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יַטִּפוּ",
+            "lemma": "5197",
+            "morph": "HVhi3mp"
+          },
+          {
+            "heb": "לָאֵלֶּה",
+            "lemma": "428",
+            "morph": "HR/Pdxcp"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יִסַּג",
+            "lemma": "5253",
+            "morph": "HVNi3ms"
+          },
+          {
+            "heb": "כְּלִמּֽוֹת",
+            "lemma": "3639",
+            "morph": "HNcfpa"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Micah 2:7",
+        "words": [
+          {
+            "heb": "הֶאָמוּר",
+            "lemma": "559",
+            "morph": "HTi/Vqsmsa"
+          },
+          {
+            "heb": "בֵּֽית",
+            "lemma": "1004 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יַעֲקֹב",
+            "lemma": "3290",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הֲקָצַר",
+            "lemma": "7114 a",
+            "morph": "HTi/Vqp3ms"
+          },
+          {
+            "heb": "רוּחַ",
+            "lemma": "7307",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אִם",
+            "lemma": "518 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אֵלֶּה",
+            "lemma": "428",
+            "morph": "HPdxcp"
+          },
+          {
+            "heb": "מַעֲלָלָיו",
+            "lemma": "4611",
+            "morph": "HNcmpc/Sp3ms"
+          },
+          {
+            "heb": "הֲלוֹא",
+            "lemma": "3808",
+            "morph": "HTi/Tn"
+          },
+          {
+            "heb": "דְבָרַי",
+            "lemma": "1697",
+            "morph": "HNcmpc/Sp1cs"
+          },
+          {
+            "heb": "יֵיטִיבוּ",
+            "lemma": "3190",
+            "morph": "HVhi3mp"
+          },
+          {
+            "heb": "עִם",
+            "lemma": "5973 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַיָּשָׁר",
+            "lemma": "3477",
+            "morph": "HTd/Aamsa"
+          },
+          {
+            "heb": "הוֹלֵֽךְ",
+            "lemma": "1980",
+            "morph": "HVqrmsa"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Micah 2:8",
+        "words": [
+          {
+            "heb": "וְאֶתְמוּל",
+            "lemma": "865",
+            "morph": "HC/D"
+          },
+          {
+            "heb": "עַמִּי",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "לְאוֹיֵב",
+            "lemma": "341",
+            "morph": "HR/Vqrmsa"
+          },
+          {
+            "heb": "יְקוֹמֵם",
+            "lemma": "6965 b",
+            "morph": "HVoi3ms"
+          },
+          {
+            "heb": "מִמּוּל",
+            "lemma": "4136",
+            "morph": "HR/R"
+          },
+          {
+            "heb": "שַׂלְמָה",
+            "lemma": "8008",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "אֶדֶר",
+            "lemma": "145",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "תַּפְשִׁטוּן",
+            "lemma": "6584",
+            "morph": "HVhi2mp/Sn"
+          },
+          {
+            "heb": "מֵעֹבְרִים",
+            "lemma": "5674 a",
+            "morph": "HR/Vqrmpa"
+          },
+          {
+            "heb": "בֶּטַח",
+            "lemma": "983",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "שׁוּבֵי",
+            "lemma": "7725",
+            "morph": "HVqsmpc"
+          },
+          {
+            "heb": "מִלְחָמָֽה",
+            "lemma": "4421",
+            "morph": "HNcfsa"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Micah 2:9",
+        "words": [
+          {
+            "heb": "נְשֵׁי",
+            "lemma": "802",
+            "morph": "HNcfpc"
+          },
+          {
+            "heb": "עַמִּי",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "תְּגָרְשׁוּן",
+            "lemma": "1644",
+            "morph": "HVpi2mp/Sn"
+          },
+          {
+            "heb": "מִבֵּית",
+            "lemma": "1004 b",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "תַּֽעֲנֻגֶיהָ",
+            "lemma": "8588",
+            "morph": "HNcmpc/Sp3fs"
+          },
+          {
+            "heb": "מֵעַל",
+            "lemma": "5921 a",
+            "morph": "HR/R"
+          },
+          {
+            "heb": "עֹֽלָלֶיהָ",
+            "lemma": "5768",
+            "morph": "HNcmpc/Sp3fs"
+          },
+          {
+            "heb": "תִּקְחוּ",
+            "lemma": "3947",
+            "morph": "HVqi2mp"
+          },
+          {
+            "heb": "הֲדָרִי",
+            "lemma": "1926",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "לְעוֹלָֽם",
+            "lemma": "5769",
+            "morph": "HR/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Micah 2:10",
+        "words": [
+          {
+            "heb": "קוּמוּ",
+            "lemma": "6965 b",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "וּלְכוּ",
+            "lemma": "3212",
+            "morph": "HC/Vqv2mp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "זֹאת",
+            "lemma": "2063",
+            "morph": "HPdxfs"
+          },
+          {
+            "heb": "הַמְּנוּחָה",
+            "lemma": "4496",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "בַּעֲבוּר",
+            "lemma": "5668",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "טָמְאָה",
+            "lemma": "2930 b",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "תְּחַבֵּל",
+            "lemma": "2254 b",
+            "morph": "HVpi3fs"
+          },
+          {
+            "heb": "וְחֶבֶל",
+            "lemma": "2256 d",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "נִמְרָֽץ",
+            "lemma": "4834",
+            "morph": "HVNsmsa"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Micah 2:11",
+        "words": [
+          {
+            "heb": "לוּ",
+            "lemma": "3863",
+            "morph": "HC"
+          },
+          {
+            "heb": "אִישׁ",
+            "lemma": "376",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "הֹלֵךְ",
+            "lemma": "1980",
+            "morph": "HVqrmsc"
+          },
+          {
+            "heb": "רוּחַ",
+            "lemma": "7307",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "וָשֶׁקֶר",
+            "lemma": "8267",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "כִּזֵּב",
+            "lemma": "3576",
+            "morph": "HVpp3ms"
+          },
+          {
+            "heb": "אַטִּף",
+            "lemma": "5197",
+            "morph": "HVhi1cs"
+          },
+          {
+            "heb": "לְךָ",
+            "lemma": "l",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "לַיַּיִן",
+            "lemma": "3196",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "וְלַשֵּׁכָר",
+            "lemma": "7941",
+            "morph": "HC/Rd/Ncmsa"
+          },
+          {
+            "heb": "וְהָיָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "מַטִּיף",
+            "lemma": "5197",
+            "morph": "HVhrmsc"
+          },
+          {
+            "heb": "הָעָם",
+            "lemma": "5971 a",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "הַזֶּֽה",
+            "lemma": "2088",
+            "morph": "HTd/Pdxms"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Micah 2:12",
+        "words": [
+          {
+            "heb": "אָסֹף",
+            "lemma": "622",
+            "morph": "HVqa"
+          },
+          {
+            "heb": "אֶאֱסֹף",
+            "lemma": "622",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "יַעֲקֹב",
+            "lemma": "3290",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כֻּלָּךְ",
+            "lemma": "3605",
+            "morph": "HNcmsc/Sp2fs"
+          },
+          {
+            "heb": "קַבֵּץ",
+            "lemma": "6908",
+            "morph": "HVpa"
+          },
+          {
+            "heb": "אֲקַבֵּץ",
+            "lemma": "6908",
+            "morph": "HVpi1cs"
+          },
+          {
+            "heb": "שְׁאֵרִית",
+            "lemma": "7611",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "יִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HNp"
+          },
+          {
+            "heb": "יַחַד",
+            "lemma": "3162 a",
+            "morph": "HD"
+          },
+          {
+            "heb": "אֲשִׂימֶנּוּ",
+            "lemma": "7760 a",
+            "morph": "HVqi1cs/Sp3ms"
+          },
+          {
+            "heb": "כְּצֹאן",
+            "lemma": "6629",
+            "morph": "HR/Ncbsa"
+          },
+          {
+            "heb": "בָּצְרָה",
+            "lemma": "1223",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "כְּעֵדֶר",
+            "lemma": "5739",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "בְּתוֹךְ",
+            "lemma": "8432",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "הַדָּֽבְרוֹ",
+            "lemma": "1699 a",
+            "morph": "HTd/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "תְּהִימֶנָה",
+            "lemma": "1949",
+            "morph": "HVhi3fp"
+          },
+          {
+            "heb": "מֵאָדָֽם",
+            "lemma": "120",
+            "morph": "HR/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Micah 2:13",
+        "words": [
+          {
+            "heb": "עָלָה",
+            "lemma": "5927",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "הַפֹּרֵץ",
+            "lemma": "6555",
+            "morph": "HTd/Vqrmsa"
+          },
+          {
+            "heb": "לִפְנֵיהֶם",
+            "lemma": "6440",
+            "morph": "HR/Ncbpc/Sp3mp"
+          },
+          {
+            "heb": "פָּֽרְצוּ",
+            "lemma": "6555",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "וַֽיַּעֲבֹרוּ",
+            "lemma": "5674 a",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "שַׁעַר",
+            "lemma": "8179",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וַיֵּצְאוּ",
+            "lemma": "3318",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "בוֹ",
+            "lemma": "b",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "וַיַּעֲבֹר",
+            "lemma": "5674 a",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "מַלְכָּם",
+            "lemma": "4428",
+            "morph": "HNcmsc/Sp3mp"
+          },
+          {
+            "heb": "לִפְנֵיהֶם",
+            "lemma": "6440",
+            "morph": "HR/Ncbpc/Sp3mp"
+          },
+          {
+            "heb": "וַיהוָה",
+            "lemma": "3068",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "בְּרֹאשָֽׁם",
+            "lemma": "7218 a",
+            "morph": "HR/Ncmsc/Sp3mp"
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "verse": 1,
+        "ref": "Micah 3:1",
+        "words": [
+          {
+            "heb": "וָאֹמַר",
+            "lemma": "559",
+            "morph": "HC/Vqw1cs"
+          },
+          {
+            "heb": "שִׁמְעוּ",
+            "lemma": "8085",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "נָא",
+            "lemma": "4994",
+            "morph": "HTe"
+          },
+          {
+            "heb": "רָאשֵׁי",
+            "lemma": "7218 a",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "יַעֲקֹב",
+            "lemma": "3290",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּקְצִינֵי",
+            "lemma": "7101",
+            "morph": "HC/Ncmpc"
+          },
+          {
+            "heb": "בֵּית",
+            "lemma": "1004 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הֲלוֹא",
+            "lemma": "3808",
+            "morph": "HTi/Tn"
+          },
+          {
+            "heb": "לָכֶם",
+            "lemma": "l",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "לָדַעַת",
+            "lemma": "3045",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַמִּשְׁפָּֽט",
+            "lemma": "4941",
+            "morph": "HTd/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Micah 3:2",
+        "words": [
+          {
+            "heb": "שֹׂנְאֵי",
+            "lemma": "8130",
+            "morph": "HVqrmpc"
+          },
+          {
+            "heb": "טוֹב",
+            "lemma": "2896 b",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "וְאֹהֲבֵי",
+            "lemma": "157",
+            "morph": "HC/Vqrmpc"
+          },
+          {
+            "heb": "רָע",
+            "lemma": "7451 b",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "גֹּזְלֵי",
+            "lemma": "1497",
+            "morph": "HVqrmpc"
+          },
+          {
+            "heb": "עוֹרָם",
+            "lemma": "5785",
+            "morph": "HNcmsc/Sp3mp"
+          },
+          {
+            "heb": "מֵֽעֲלֵיהֶם",
+            "lemma": "5921 a",
+            "morph": "HR/R/Sp3mp"
+          },
+          {
+            "heb": "וּשְׁאֵרָם",
+            "lemma": "7607",
+            "morph": "HC/Ncmsc/Sp3mp"
+          },
+          {
+            "heb": "מֵעַל",
+            "lemma": "5921 a",
+            "morph": "HR/R"
+          },
+          {
+            "heb": "עַצְמוֹתָֽם",
+            "lemma": "6106",
+            "morph": "HNcfpc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Micah 3:3",
+        "words": [
+          {
+            "heb": "וַאֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HC/Tr"
+          },
+          {
+            "heb": "אָכְלוּ",
+            "lemma": "398",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "שְׁאֵר",
+            "lemma": "7607",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "עַמִּי",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "וְעוֹרָם",
+            "lemma": "5785",
+            "morph": "HC/Ncmsc/Sp3mp"
+          },
+          {
+            "heb": "מֵעֲלֵיהֶם",
+            "lemma": "5921 a",
+            "morph": "HR/R/Sp3mp"
+          },
+          {
+            "heb": "הִפְשִׁיטוּ",
+            "lemma": "6584",
+            "morph": "HVhp3cp"
+          },
+          {
+            "heb": "וְאֶת",
+            "lemma": "853",
+            "morph": "HC/To"
+          },
+          {
+            "heb": "עַצְמֹֽתֵיהֶם",
+            "lemma": "6106",
+            "morph": "HNcfpc/Sp3mp"
+          },
+          {
+            "heb": "פִּצֵּחוּ",
+            "lemma": "6476",
+            "morph": "HVpp3cp"
+          },
+          {
+            "heb": "וּפָרְשׂוּ",
+            "lemma": "6566",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "כַּאֲשֶׁר",
+            "lemma": "834 d",
+            "morph": "HR/Tr"
+          },
+          {
+            "heb": "בַּסִּיר",
+            "lemma": "5518 a",
+            "morph": "HRd/Ncbsa"
+          },
+          {
+            "heb": "וּכְבָשָׂר",
+            "lemma": "1320",
+            "morph": "HC/R/Ncmsa"
+          },
+          {
+            "heb": "בְּתוֹךְ",
+            "lemma": "8432",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "קַלָּֽחַת",
+            "lemma": "7037",
+            "morph": "HNcfsa"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Micah 3:4",
+        "words": [
+          {
+            "heb": "אָז",
+            "lemma": "227 a",
+            "morph": "HD"
+          },
+          {
+            "heb": "יִזְעֲקוּ",
+            "lemma": "2199",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יַעֲנֶה",
+            "lemma": "6030 b",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "אוֹתָם",
+            "lemma": "853",
+            "morph": "HTo/Sp3mp"
+          },
+          {
+            "heb": "וְיַסְתֵּר",
+            "lemma": "5641",
+            "morph": "HC/Vhi3ms"
+          },
+          {
+            "heb": "פָּנָיו",
+            "lemma": "6440",
+            "morph": "HNcbpc/Sp3ms"
+          },
+          {
+            "heb": "מֵהֶם",
+            "lemma": "m",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "בָּעֵת",
+            "lemma": "6256",
+            "morph": "HRd/Ncbsa"
+          },
+          {
+            "heb": "הַהִיא",
+            "lemma": "1931",
+            "morph": "HTd/Pp3fs"
+          },
+          {
+            "heb": "כַּאֲשֶׁר",
+            "lemma": "834 d",
+            "morph": "HR/Tr"
+          },
+          {
+            "heb": "הֵרֵעוּ",
+            "lemma": "7489 a",
+            "morph": "HVhp3cp"
+          },
+          {
+            "heb": "מַעַלְלֵיהֶֽם",
+            "lemma": "4611",
+            "morph": "HNcmpc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Micah 3:5",
+        "words": [
+          {
+            "heb": "כֹּה",
+            "lemma": "3541",
+            "morph": "HD"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַנְּבִיאִים",
+            "lemma": "5030",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "הַמַּתְעִים",
+            "lemma": "8582",
+            "morph": "HTd/Vhrmpa"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "עַמִּי",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "הַנֹּשְׁכִים",
+            "lemma": "5391 a",
+            "morph": "HTd/Vqrmpa"
+          },
+          {
+            "heb": "בְּשִׁנֵּיהֶם",
+            "lemma": "8127",
+            "morph": "HR/Ncbdc/Sp3mp"
+          },
+          {
+            "heb": "וְקָרְאוּ",
+            "lemma": "7121",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "שָׁלוֹם",
+            "lemma": "7965",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וַאֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HC/Tr"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יִתֵּן",
+            "lemma": "5414",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "פִּיהֶם",
+            "lemma": "6310",
+            "morph": "HNcmsc/Sp3mp"
+          },
+          {
+            "heb": "וְקִדְּשׁוּ",
+            "lemma": "6942",
+            "morph": "HC/Vpq3cp"
+          },
+          {
+            "heb": "עָלָיו",
+            "lemma": "5921 a",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "מִלְחָמָֽה",
+            "lemma": "4421",
+            "morph": "HNcfsa"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Micah 3:6",
+        "words": [
+          {
+            "heb": "לָכֵן",
+            "lemma": "3651 c",
+            "morph": "HR/D"
+          },
+          {
+            "heb": "לַיְלָה",
+            "lemma": "3915",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "לָכֶם",
+            "lemma": "l",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "מֵֽחָזוֹן",
+            "lemma": "2377",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "וְחָשְׁכָה",
+            "lemma": "2821",
+            "morph": "HC/Vqq3fs"
+          },
+          {
+            "heb": "לָכֶם",
+            "lemma": "l",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "מִקְּסֹם",
+            "lemma": "7080",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "וּבָאָה",
+            "lemma": "935",
+            "morph": "HC/Vqq3fs"
+          },
+          {
+            "heb": "הַשֶּׁמֶשׁ",
+            "lemma": "8121",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַנְּבִיאִים",
+            "lemma": "5030",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "וְקָדַר",
+            "lemma": "6937",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "עֲלֵיהֶם",
+            "lemma": "5921 a",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "הַיּֽוֹם",
+            "lemma": "3117",
+            "morph": "HTd/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Micah 3:7",
+        "words": [
+          {
+            "heb": "וּבֹשׁוּ",
+            "lemma": "954",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "הַחֹזִים",
+            "lemma": "2374",
+            "morph": "HTd/Vqrmpa"
+          },
+          {
+            "heb": "וְחָֽפְרוּ",
+            "lemma": "2659",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "הַקֹּסְמִים",
+            "lemma": "7080",
+            "morph": "HTd/Vqrmpa"
+          },
+          {
+            "heb": "וְעָטוּ",
+            "lemma": "5844 a",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "שָׂפָם",
+            "lemma": "8222",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "כֻּלָּם",
+            "lemma": "3605",
+            "morph": "HNcmsc/Sp3mp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אֵין",
+            "lemma": "369",
+            "morph": "HTn"
+          },
+          {
+            "heb": "מַעֲנֵה",
+            "lemma": "4617",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אֱלֹהִֽים",
+            "lemma": "430",
+            "morph": "HNcmpa"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Micah 3:8",
+        "words": [
+          {
+            "heb": "וְאוּלָם",
+            "lemma": "199",
+            "morph": "HC/D"
+          },
+          {
+            "heb": "אָנֹכִי",
+            "lemma": "595",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "מָלֵאתִי",
+            "lemma": "4390",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "כֹחַ",
+            "lemma": "3581 b",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "רוּחַ",
+            "lemma": "7307",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּמִשְׁפָּט",
+            "lemma": "4941",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "וּגְבוּרָה",
+            "lemma": "1369",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "לְהַגִּיד",
+            "lemma": "5046",
+            "morph": "HR/Vhc"
+          },
+          {
+            "heb": "לְיַֽעֲקֹב",
+            "lemma": "3290",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "פִּשְׁעוֹ",
+            "lemma": "6588",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "וּלְיִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HC/R/Np"
+          },
+          {
+            "heb": "חַטָּאתֽוֹ",
+            "lemma": "2403 b",
+            "morph": "HNcfsc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Micah 3:9",
+        "words": [
+          {
+            "heb": "שִׁמְעוּ",
+            "lemma": "8085",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "נָא",
+            "lemma": "4994",
+            "morph": "HTe"
+          },
+          {
+            "heb": "זֹאת",
+            "lemma": "2063",
+            "morph": "HPdxfs"
+          },
+          {
+            "heb": "רָאשֵׁי",
+            "lemma": "7218 a",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "בֵּית",
+            "lemma": "1004 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יַעֲקֹב",
+            "lemma": "3290",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּקְצִינֵי",
+            "lemma": "7101",
+            "morph": "HC/Ncmpc"
+          },
+          {
+            "heb": "בֵּית",
+            "lemma": "1004 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הַֽמֲתַעֲבִים",
+            "lemma": "8581",
+            "morph": "HTd/Vprmpa"
+          },
+          {
+            "heb": "מִשְׁפָּט",
+            "lemma": "4941",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְאֵת",
+            "lemma": "853",
+            "morph": "HC/To"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַיְשָׁרָה",
+            "lemma": "3477",
+            "morph": "HTd/Aafsa"
+          },
+          {
+            "heb": "יְעַקֵּֽשׁוּ",
+            "lemma": "6140",
+            "morph": "HVpi3mp"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Micah 3:10",
+        "words": [
+          {
+            "heb": "בֹּנֶה",
+            "lemma": "1129",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "צִיּוֹן",
+            "lemma": "6726",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בְּדָמִים",
+            "lemma": "1818",
+            "morph": "HR/Ncmpa"
+          },
+          {
+            "heb": "וִירוּשָׁלִַם",
+            "lemma": "3389",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "בְּעַוְלָֽה",
+            "lemma": "5766 b",
+            "morph": "HR/Ncbsa"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Micah 3:11",
+        "words": [
+          {
+            "heb": "רָאשֶׁיהָ",
+            "lemma": "7218 a",
+            "morph": "HNcmpc/Sp3fs"
+          },
+          {
+            "heb": "בְּשֹׁחַד",
+            "lemma": "7810",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "יִשְׁפֹּטוּ",
+            "lemma": "8199",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "וְכֹהֲנֶיהָ",
+            "lemma": "3548",
+            "morph": "HC/Ncmpc/Sp3fs"
+          },
+          {
+            "heb": "בִּמְחִיר",
+            "lemma": "4242",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "יוֹרוּ",
+            "lemma": "3384 b",
+            "morph": "HVhi3mp"
+          },
+          {
+            "heb": "וּנְבִיאֶיהָ",
+            "lemma": "5030",
+            "morph": "HC/Ncmpc/Sp3fs"
+          },
+          {
+            "heb": "בְּכֶסֶף",
+            "lemma": "3701",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "יִקְסֹמוּ",
+            "lemma": "7080",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "וְעַל",
+            "lemma": "5921 a",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "יִשָּׁעֵנוּ",
+            "lemma": "8172",
+            "morph": "HVNi3mp"
+          },
+          {
+            "heb": "לֵאמֹר",
+            "lemma": "559",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "הֲלוֹא",
+            "lemma": "3808",
+            "morph": "HTi/Tn"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בְּקִרְבֵּנוּ",
+            "lemma": "7130",
+            "morph": "HR/Ncmsc/Sp1cp"
+          },
+          {
+            "heb": "לֹֽא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תָבוֹא",
+            "lemma": "935",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "עָלֵינוּ",
+            "lemma": "5921 a",
+            "morph": "HR/Sp1cp"
+          },
+          {
+            "heb": "רָעָֽה",
+            "lemma": "7451 c",
+            "morph": "HNcfsa"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Micah 3:12",
+        "words": [
+          {
+            "heb": "לָכֵן",
+            "lemma": "3651 c",
+            "morph": "HR/D"
+          },
+          {
+            "heb": "בִּגְלַלְכֶם",
+            "lemma": "1558",
+            "morph": "HR/Ncmsc/Sp2mp"
+          },
+          {
+            "heb": "צִיּוֹן",
+            "lemma": "6726",
+            "morph": "HNp"
+          },
+          {
+            "heb": "שָׂדֶה",
+            "lemma": "7704 b",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "תֵֽחָרֵשׁ",
+            "lemma": "2790 a",
+            "morph": "HVNi3fs"
+          },
+          {
+            "heb": "וִירוּשָׁלִַם",
+            "lemma": "3389",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "עִיִּין",
+            "lemma": "5856",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "תִּֽהְיֶה",
+            "lemma": "1961",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "וְהַר",
+            "lemma": "2022",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "הַבַּיִת",
+            "lemma": "1004 b",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "לְבָמוֹת",
+            "lemma": "1116",
+            "morph": "HR/Ncfpc"
+          },
+          {
+            "heb": "יָֽעַר",
+            "lemma": "3293 a",
+            "morph": "HNcmsa"
+          }
+        ]
+      }
+    ],
+    "4": [
+      {
+        "verse": 1,
+        "ref": "Micah 4:1",
+        "words": [
+          {
+            "heb": "וְהָיָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "בְּאַחֲרִית",
+            "lemma": "319",
+            "morph": "HR/Ncfsc"
+          },
+          {
+            "heb": "הַיָּמִים",
+            "lemma": "3117",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "יִהְיֶה",
+            "lemma": "1961",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "הַר",
+            "lemma": "2022",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "בֵּית",
+            "lemma": "1004 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "נָכוֹן",
+            "lemma": "3559 a",
+            "morph": "HVNrmsa"
+          },
+          {
+            "heb": "בְּרֹאשׁ",
+            "lemma": "7218 a",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "הֶהָרִים",
+            "lemma": "2022",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "וְנִשָּׂא",
+            "lemma": "5375",
+            "morph": "HC/VNrmsa"
+          },
+          {
+            "heb": "הוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          },
+          {
+            "heb": "מִגְּבָעוֹת",
+            "lemma": "1389",
+            "morph": "HR/Ncfpa"
+          },
+          {
+            "heb": "וְנָהֲרוּ",
+            "lemma": "5102 a",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "עָלָיו",
+            "lemma": "5921 a",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "עַמִּֽים",
+            "lemma": "5971 a",
+            "morph": "HNcmpa"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Micah 4:2",
+        "words": [
+          {
+            "heb": "וְֽהָלְכוּ",
+            "lemma": "1980",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "גּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "רַבִּים",
+            "lemma": "7227 a",
+            "morph": "HAampa"
+          },
+          {
+            "heb": "וְאָֽמְרוּ",
+            "lemma": "559",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "לְכוּ",
+            "lemma": "3212",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "וְנַעֲלֶה",
+            "lemma": "5927",
+            "morph": "HC/Vqh1cp"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַר",
+            "lemma": "2022",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְאֶל",
+            "lemma": "413",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "בֵּית",
+            "lemma": "1004 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אֱלֹהֵי",
+            "lemma": "430",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "יַעֲקֹב",
+            "lemma": "3290",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְיוֹרֵנוּ",
+            "lemma": "3384 b",
+            "morph": "HC/Vhi3ms/Sp1cp"
+          },
+          {
+            "heb": "מִדְּרָכָיו",
+            "lemma": "1870",
+            "morph": "HR/Ncbpc/Sp3ms"
+          },
+          {
+            "heb": "וְנֵלְכָה",
+            "lemma": "3212",
+            "morph": "HC/Vqh1cp"
+          },
+          {
+            "heb": "בְּאֹֽרְחֹתָיו",
+            "lemma": "734",
+            "morph": "HR/Ncbpc/Sp3ms"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "מִצִּיּוֹן",
+            "lemma": "6726",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "תֵּצֵא",
+            "lemma": "3318",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "תוֹרָה",
+            "lemma": "8451",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וּדְבַר",
+            "lemma": "1697",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "מִירוּשָׁלִָֽם",
+            "lemma": "3389",
+            "morph": "HR/Np"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Micah 4:3",
+        "words": [
+          {
+            "heb": "וְשָׁפַט",
+            "lemma": "8199",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "בֵּין",
+            "lemma": "996",
+            "morph": "HR"
+          },
+          {
+            "heb": "עַמִּים",
+            "lemma": "5971 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "רַבִּים",
+            "lemma": "7227 a",
+            "morph": "HAampa"
+          },
+          {
+            "heb": "וְהוֹכִיחַ",
+            "lemma": "3198",
+            "morph": "HC/Vhq3ms"
+          },
+          {
+            "heb": "לְגוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HR/Ncmpa"
+          },
+          {
+            "heb": "עֲצֻמִים",
+            "lemma": "6099",
+            "morph": "HAampa"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "רָחוֹק",
+            "lemma": "7350",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "וְכִתְּתוּ",
+            "lemma": "3807",
+            "morph": "HC/Vpq3cp"
+          },
+          {
+            "heb": "חַרְבֹתֵיהֶם",
+            "lemma": "2719",
+            "morph": "HNcfpc/Sp3mp"
+          },
+          {
+            "heb": "לְאִתִּים",
+            "lemma": "855",
+            "morph": "HR/Ncmpa"
+          },
+          {
+            "heb": "וַחֲנִיתֹֽתֵיהֶם",
+            "lemma": "2595",
+            "morph": "HC/Ncfpc/Sp3mp"
+          },
+          {
+            "heb": "לְמַזְמֵרוֹת",
+            "lemma": "4211",
+            "morph": "HR/Ncfpa"
+          },
+          {
+            "heb": "לֹֽא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יִשְׂאוּ",
+            "lemma": "5375",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "גּוֹי",
+            "lemma": "1471 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "גּוֹי",
+            "lemma": "1471 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "חֶרֶב",
+            "lemma": "2719",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יִלְמְדוּן",
+            "lemma": "3925",
+            "morph": "HVqi3mp/Sn"
+          },
+          {
+            "heb": "עוֹד",
+            "lemma": "5750",
+            "morph": "HD"
+          },
+          {
+            "heb": "מִלְחָמָֽה",
+            "lemma": "4421",
+            "morph": "HNcfsa"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Micah 4:4",
+        "words": [
+          {
+            "heb": "וְיָשְׁבוּ",
+            "lemma": "3427",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "אִישׁ",
+            "lemma": "376",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "תַּחַת",
+            "lemma": "8478",
+            "morph": "HR"
+          },
+          {
+            "heb": "גַּפְנוֹ",
+            "lemma": "1612",
+            "morph": "HNcbsc/Sp3ms"
+          },
+          {
+            "heb": "וְתַחַת",
+            "lemma": "8478",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "תְּאֵנָתוֹ",
+            "lemma": "8384",
+            "morph": "HNcfsc/Sp3ms"
+          },
+          {
+            "heb": "וְאֵין",
+            "lemma": "369",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "מַחֲרִיד",
+            "lemma": "2729",
+            "morph": "HVhrmsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "פִי",
+            "lemma": "6310",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "דִּבֵּֽר",
+            "lemma": "1696",
+            "morph": "HVpp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Micah 4:5",
+        "words": [
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הָעַמִּים",
+            "lemma": "5971 a",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "יֵלְכוּ",
+            "lemma": "3212",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "אִישׁ",
+            "lemma": "376",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בְּשֵׁם",
+            "lemma": "8034",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "אֱלֹהָיו",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp3ms"
+          },
+          {
+            "heb": "וַאֲנַחְנוּ",
+            "lemma": "587",
+            "morph": "HC/Pp1cp"
+          },
+          {
+            "heb": "נֵלֵךְ",
+            "lemma": "3212",
+            "morph": "HVqi1cp"
+          },
+          {
+            "heb": "בְּשֵׁם",
+            "lemma": "8034",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֱלֹהֵינוּ",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp1cp"
+          },
+          {
+            "heb": "לְעוֹלָם",
+            "lemma": "5769",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "וָעֶֽד",
+            "lemma": "5703",
+            "morph": "HC/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Micah 4:6",
+        "words": [
+          {
+            "heb": "בַּיּוֹם",
+            "lemma": "3117",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "הַהוּא",
+            "lemma": "1931",
+            "morph": "HTd/Pp3ms"
+          },
+          {
+            "heb": "נְאֻם",
+            "lemma": "5002",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֹֽסְפָה",
+            "lemma": "622",
+            "morph": "HVqh1cs"
+          },
+          {
+            "heb": "הַצֹּלֵעָה",
+            "lemma": "6760",
+            "morph": "HTd/Vqrfsa"
+          },
+          {
+            "heb": "וְהַנִּדָּחָה",
+            "lemma": "5080",
+            "morph": "HC/Td/VNrfsa"
+          },
+          {
+            "heb": "אֲקַבֵּצָה",
+            "lemma": "6908",
+            "morph": "HVph1cs"
+          },
+          {
+            "heb": "וַאֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HC/Tr"
+          },
+          {
+            "heb": "הֲרֵעֹֽתִי",
+            "lemma": "7489 a",
+            "morph": "HVhp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Micah 4:7",
+        "words": [
+          {
+            "heb": "וְשַׂמְתִּי",
+            "lemma": "7760 a",
+            "morph": "HC/Vqq1cs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַצֹּֽלֵעָה",
+            "lemma": "6760",
+            "morph": "HTd/Vqrfsa"
+          },
+          {
+            "heb": "לִשְׁאֵרִית",
+            "lemma": "7611",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "וְהַנַּהֲלָאָה",
+            "lemma": "1972",
+            "morph": "HC/Td/VNsfsa"
+          },
+          {
+            "heb": "לְגוֹי",
+            "lemma": "1471 a",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "עָצוּם",
+            "lemma": "6099",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "וּמָלַךְ",
+            "lemma": "4427 a",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "עֲלֵיהֶם",
+            "lemma": "5921 a",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "בְּהַר",
+            "lemma": "2022",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "צִיּוֹן",
+            "lemma": "6726",
+            "morph": "HNp"
+          },
+          {
+            "heb": "מֵעַתָּה",
+            "lemma": "6258",
+            "morph": "HR/D"
+          },
+          {
+            "heb": "וְעַד",
+            "lemma": "5704",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "עוֹלָֽם",
+            "lemma": "5769",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Micah 4:8",
+        "words": [
+          {
+            "heb": "וְאַתָּה",
+            "lemma": "859 a",
+            "morph": "HC/Pp2ms"
+          },
+          {
+            "heb": "מִגְדַּל",
+            "lemma": "4026",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "עֵדֶר",
+            "lemma": "5739",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "עֹפֶל",
+            "lemma": "6076 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "בַּת",
+            "lemma": "1323",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "צִיּוֹן",
+            "lemma": "6726",
+            "morph": "HNp"
+          },
+          {
+            "heb": "עָדֶיךָ",
+            "lemma": "5704",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "תֵּאתֶה",
+            "lemma": "857",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "וּבָאָה",
+            "lemma": "935",
+            "morph": "HC/Vqq3fs"
+          },
+          {
+            "heb": "הַמֶּמְשָׁלָה",
+            "lemma": "4475",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "הָרִאשֹׁנָה",
+            "lemma": "7223",
+            "morph": "HTd/Aafsa"
+          },
+          {
+            "heb": "מַמְלֶכֶת",
+            "lemma": "4467",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "לְבַת",
+            "lemma": "1323",
+            "morph": "HR/Ncfsc"
+          },
+          {
+            "heb": "יְרוּשָׁלִָֽם",
+            "lemma": "3389",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Micah 4:9",
+        "words": [
+          {
+            "heb": "עַתָּה",
+            "lemma": "6258",
+            "morph": "HD"
+          },
+          {
+            "heb": "לָמָּה",
+            "lemma": "4100",
+            "morph": "HR/Ti"
+          },
+          {
+            "heb": "תָרִיעִי",
+            "lemma": "7321",
+            "morph": "HVhi2fs"
+          },
+          {
+            "heb": "רֵעַ",
+            "lemma": "7452",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "הֲמֶלֶךְ",
+            "lemma": "4428",
+            "morph": "HTi/Ncmsa"
+          },
+          {
+            "heb": "אֵֽין",
+            "lemma": "369",
+            "morph": "HTn"
+          },
+          {
+            "heb": "בָּךְ",
+            "lemma": "b",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "אִֽם",
+            "lemma": "518 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "יוֹעֲצֵךְ",
+            "lemma": "3289",
+            "morph": "HVqrmsc/Sp2fs"
+          },
+          {
+            "heb": "אָבָד",
+            "lemma": "6",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "הֶחֱזִיקֵךְ",
+            "lemma": "2388",
+            "morph": "HVhp3ms/Sp2fs"
+          },
+          {
+            "heb": "חִיל",
+            "lemma": "2427 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "כַּיּוֹלֵדָֽה",
+            "lemma": "3205",
+            "morph": "HRd/Vqrfsa"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Micah 4:10",
+        "words": [
+          {
+            "heb": "חוּלִי",
+            "lemma": "2342 a",
+            "morph": "HVqv2fs"
+          },
+          {
+            "heb": "וָגֹחִי",
+            "lemma": "1518",
+            "morph": "HC/Vqv2fs"
+          },
+          {
+            "heb": "בַּת",
+            "lemma": "1323",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "צִיּוֹן",
+            "lemma": "6726",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כַּיּֽוֹלֵדָה",
+            "lemma": "3205",
+            "morph": "HRd/Vqrfsa"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "עַתָּה",
+            "lemma": "6258",
+            "morph": "HD"
+          },
+          {
+            "heb": "תֵצְאִי",
+            "lemma": "3318",
+            "morph": "HVqi2fs"
+          },
+          {
+            "heb": "מִקִּרְיָה",
+            "lemma": "7151",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "וְשָׁכַנְתְּ",
+            "lemma": "7931",
+            "morph": "HC/Vqq2fs"
+          },
+          {
+            "heb": "בַּשָּׂדֶה",
+            "lemma": "7704 b",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "וּבָאת",
+            "lemma": "935",
+            "morph": "HC/Vqq2fs"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "בָּבֶל",
+            "lemma": "894",
+            "morph": "HNp"
+          },
+          {
+            "heb": "שָׁם",
+            "lemma": "8033",
+            "morph": "HD"
+          },
+          {
+            "heb": "תִּנָּצֵלִי",
+            "lemma": "5337",
+            "morph": "HVNi2fs"
+          },
+          {
+            "heb": "שָׁם",
+            "lemma": "8033",
+            "morph": "HD"
+          },
+          {
+            "heb": "יִגְאָלֵךְ",
+            "lemma": "1350 a",
+            "morph": "HVqi3ms/Sp2fs"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "מִכַּף",
+            "lemma": "3709",
+            "morph": "HR/Ncfsc"
+          },
+          {
+            "heb": "אֹיְבָֽיִךְ",
+            "lemma": "341",
+            "morph": "HVqrmpc/Sp2fs"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Micah 4:11",
+        "words": [
+          {
+            "heb": "וְעַתָּה",
+            "lemma": "6258",
+            "morph": "HC/D"
+          },
+          {
+            "heb": "נֶאֶסְפוּ",
+            "lemma": "622",
+            "morph": "HVNp3cp"
+          },
+          {
+            "heb": "עָלַיִךְ",
+            "lemma": "5921 a",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "גּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "רַבִּים",
+            "lemma": "7227 a",
+            "morph": "HAampa"
+          },
+          {
+            "heb": "הָאֹמְרִים",
+            "lemma": "559",
+            "morph": "HTd/Vqrmpa"
+          },
+          {
+            "heb": "תֶּחֱנָף",
+            "lemma": "2610",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "וְתַחַז",
+            "lemma": "2372",
+            "morph": "HC/Vqj3fs"
+          },
+          {
+            "heb": "בְּצִיּוֹן",
+            "lemma": "6726",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "עֵינֵֽינוּ",
+            "lemma": "5869 a",
+            "morph": "HNcbdc/Sp1cp"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Micah 4:12",
+        "words": [
+          {
+            "heb": "וְהֵמָּה",
+            "lemma": "1992",
+            "morph": "HC/Pp3mp"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יָֽדְעוּ",
+            "lemma": "3045",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "מַחְשְׁבוֹת",
+            "lemma": "4284",
+            "morph": "HNcfpc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "הֵבִינוּ",
+            "lemma": "995",
+            "morph": "HVhp3cp"
+          },
+          {
+            "heb": "עֲצָתוֹ",
+            "lemma": "6098",
+            "morph": "HNcfsc/Sp3ms"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "קִבְּצָם",
+            "lemma": "6908",
+            "morph": "HVpp3ms/Sp3mp"
+          },
+          {
+            "heb": "כֶּעָמִיר",
+            "lemma": "5995",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "גֹּֽרְנָה",
+            "lemma": "1637",
+            "morph": "HNcbsa/Sd"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Micah 4:13",
+        "words": [
+          {
+            "heb": "קוּמִי",
+            "lemma": "6965 b",
+            "morph": "HVqv2fs"
+          },
+          {
+            "heb": "וָדוֹשִׁי",
+            "lemma": "1758",
+            "morph": "HC/Vqv2fs"
+          },
+          {
+            "heb": "בַת",
+            "lemma": "1323",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "צִיּוֹן",
+            "lemma": "6726",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "קַרְנֵךְ",
+            "lemma": "7161 a",
+            "morph": "HNcbsc/Sp2fs"
+          },
+          {
+            "heb": "אָשִׂים",
+            "lemma": "7760 a",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "בַּרְזֶל",
+            "lemma": "1270",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וּפַרְסֹתַיִךְ",
+            "lemma": "6541",
+            "morph": "HC/Ncfpc/Sp2fs"
+          },
+          {
+            "heb": "אָשִׂים",
+            "lemma": "7760 a",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "נְחוּשָׁה",
+            "lemma": "5154",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וַהֲדִקּוֹת",
+            "lemma": "1854",
+            "morph": "HC/Vhq2fs"
+          },
+          {
+            "heb": "עַמִּים",
+            "lemma": "5971 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "רַבִּים",
+            "lemma": "7227 a",
+            "morph": "HAampa"
+          },
+          {
+            "heb": "וְהַחֲרַמְתִּי",
+            "lemma": "2763 a",
+            "morph": "HC/Vhq1cs"
+          },
+          {
+            "heb": "לַֽיהוָה",
+            "lemma": "3068",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "בִּצְעָם",
+            "lemma": "1215",
+            "morph": "HNcmsc/Sp3mp"
+          },
+          {
+            "heb": "וְחֵילָם",
+            "lemma": "2428",
+            "morph": "HC/Ncmsc/Sp3mp"
+          },
+          {
+            "heb": "לַאֲדוֹן",
+            "lemma": "113",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הָאָֽרֶץ",
+            "lemma": "776",
+            "morph": "HTd/Ncbsa"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Micah 4:14",
+        "words": [
+          {
+            "heb": "עַתָּה",
+            "lemma": "6258",
+            "morph": "HD"
+          },
+          {
+            "heb": "תִּתְגֹּדְדִי",
+            "lemma": "1413",
+            "morph": "HVri2fs"
+          },
+          {
+            "heb": "בַת",
+            "lemma": "1323",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "גְּדוּד",
+            "lemma": "1416",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מָצוֹר",
+            "lemma": "4692",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "שָׂם",
+            "lemma": "7760 a",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "עָלֵינוּ",
+            "lemma": "5921 a",
+            "morph": "HR/Sp1cp"
+          },
+          {
+            "heb": "בַּשֵּׁבֶט",
+            "lemma": "7626",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "יַכּוּ",
+            "lemma": "5221",
+            "morph": "HVhi3mp"
+          },
+          {
+            "heb": "עַֽל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַלְּחִי",
+            "lemma": "3895",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "אֵת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "שֹׁפֵט",
+            "lemma": "8199",
+            "morph": "HVqrmsc"
+          },
+          {
+            "heb": "יִשְׂרָאֵֽל",
+            "lemma": "3478",
+            "morph": "HNp"
+          }
+        ]
+      }
+    ],
+    "5": [
+      {
+        "verse": 1,
+        "ref": "Micah 5:1",
+        "words": [
+          {
+            "heb": "וְאַתָּה",
+            "lemma": "859 a",
+            "morph": "HC/Pp2ms"
+          },
+          {
+            "heb": "בֵּֽית",
+            "lemma": "1035+",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לֶחֶם",
+            "lemma": "1035",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֶפְרָתָה",
+            "lemma": "672",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צָעִיר",
+            "lemma": "6810",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "לִֽהְיוֹת",
+            "lemma": "1961",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "בְּאַלְפֵי",
+            "lemma": "505",
+            "morph": "HR/Acbpc"
+          },
+          {
+            "heb": "יְהוּדָה",
+            "lemma": "3063",
+            "morph": "HNp"
+          },
+          {
+            "heb": "מִמְּךָ",
+            "lemma": "4480 a",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "יֵצֵא",
+            "lemma": "3318",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "לִֽהְיוֹת",
+            "lemma": "1961",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "מוֹשֵׁל",
+            "lemma": "4910",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "בְּיִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "וּמוֹצָאֹתָיו",
+            "lemma": "4163",
+            "morph": "HC/Ncfpc/Sp3ms"
+          },
+          {
+            "heb": "מִקֶּדֶם",
+            "lemma": "6924 a",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "מִימֵי",
+            "lemma": "3117",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "עוֹלָֽם",
+            "lemma": "5769",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Micah 5:2",
+        "words": [
+          {
+            "heb": "לָכֵן",
+            "lemma": "3651 c",
+            "morph": "HR/D"
+          },
+          {
+            "heb": "יִתְּנֵם",
+            "lemma": "5414",
+            "morph": "HVqi3ms/Sp3mp"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "עֵת",
+            "lemma": "6256",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "יוֹלֵדָה",
+            "lemma": "3205",
+            "morph": "HVqrfsa"
+          },
+          {
+            "heb": "יָלָדָה",
+            "lemma": "3205",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "וְיֶתֶר",
+            "lemma": "3499 a",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "אֶחָיו",
+            "lemma": "251",
+            "morph": "HNcmpc/Sp3ms"
+          },
+          {
+            "heb": "יְשׁוּבוּן",
+            "lemma": "7725",
+            "morph": "HVqi3mp/Sn"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "בְּנֵי",
+            "lemma": "1121 a",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "יִשְׂרָאֵֽל",
+            "lemma": "3478",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Micah 5:3",
+        "words": [
+          {
+            "heb": "וְעָמַד",
+            "lemma": "5975",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "וְרָעָה",
+            "lemma": "7462 b",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "בְּעֹז",
+            "lemma": "5797",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בִּגְאוֹן",
+            "lemma": "1347",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "שֵׁם",
+            "lemma": "8034",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֱלֹהָיו",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp3ms"
+          },
+          {
+            "heb": "וְיָשָׁבוּ",
+            "lemma": "3427",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "עַתָּה",
+            "lemma": "6258",
+            "morph": "HD"
+          },
+          {
+            "heb": "יִגְדַּל",
+            "lemma": "1431",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "אַפְסֵי",
+            "lemma": "657 a",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "אָֽרֶץ",
+            "lemma": "776",
+            "morph": "HNcbsa"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Micah 5:4",
+        "words": [
+          {
+            "heb": "וְהָיָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "זֶה",
+            "lemma": "2088",
+            "morph": "HPdxms"
+          },
+          {
+            "heb": "שָׁלוֹם",
+            "lemma": "7965",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אַשּׁוּר",
+            "lemma": "804",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "יָבוֹא",
+            "lemma": "935",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "בְאַרְצֵנוּ",
+            "lemma": "776",
+            "morph": "HR/Ncbsc/Sp1cp"
+          },
+          {
+            "heb": "וְכִי",
+            "lemma": "3588 a",
+            "morph": "HC/C"
+          },
+          {
+            "heb": "יִדְרֹךְ",
+            "lemma": "1869",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "בְּאַרְמְנֹתֵינוּ",
+            "lemma": "759",
+            "morph": "HR/Ncmpc/Sp1cp"
+          },
+          {
+            "heb": "וַהֲקֵמֹנוּ",
+            "lemma": "6965 b",
+            "morph": "HC/Vhq1cp"
+          },
+          {
+            "heb": "עָלָיו",
+            "lemma": "5921 a",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "שִׁבְעָה",
+            "lemma": "7651",
+            "morph": "HAcmsa"
+          },
+          {
+            "heb": "רֹעִים",
+            "lemma": "7462 b",
+            "morph": "HVqrmpa"
+          },
+          {
+            "heb": "וּשְׁמֹנָה",
+            "lemma": "8083",
+            "morph": "HC/Acmsa"
+          },
+          {
+            "heb": "נְסִיכֵי",
+            "lemma": "5257 b",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "אָדָֽם",
+            "lemma": "120",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Micah 5:5",
+        "words": [
+          {
+            "heb": "וְרָעוּ",
+            "lemma": "7462 b",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "אֶרֶץ",
+            "lemma": "776",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "אַשּׁוּר",
+            "lemma": "804",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בַּחֶרֶב",
+            "lemma": "2719",
+            "morph": "HRd/Ncfsa"
+          },
+          {
+            "heb": "וְאֶת",
+            "lemma": "853",
+            "morph": "HC/To"
+          },
+          {
+            "heb": "אֶרֶץ",
+            "lemma": "776",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "נִמְרֹד",
+            "lemma": "5248",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בִּפְתָחֶיהָ",
+            "lemma": "6607",
+            "morph": "HR/Ncmpc/Sp3fs"
+          },
+          {
+            "heb": "וְהִצִּיל",
+            "lemma": "5337",
+            "morph": "HC/Vhq3ms"
+          },
+          {
+            "heb": "מֵֽאַשּׁוּר",
+            "lemma": "804",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "יָבוֹא",
+            "lemma": "935",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "בְאַרְצֵנוּ",
+            "lemma": "776",
+            "morph": "HR/Ncbsc/Sp1cp"
+          },
+          {
+            "heb": "וְכִי",
+            "lemma": "3588 a",
+            "morph": "HC/C"
+          },
+          {
+            "heb": "יִדְרֹךְ",
+            "lemma": "1869",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "בִּגְבוּלֵֽנוּ",
+            "lemma": "1366",
+            "morph": "HR/Ncmsc/Sp1cp"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Micah 5:6",
+        "words": [
+          {
+            "heb": "וְהָיָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "שְׁאֵרִית",
+            "lemma": "7611",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "יַעֲקֹב",
+            "lemma": "3290",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בְּקֶרֶב",
+            "lemma": "7130",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "עַמִּים",
+            "lemma": "5971 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "רַבִּים",
+            "lemma": "7227 a",
+            "morph": "HAampa"
+          },
+          {
+            "heb": "כְּטַל",
+            "lemma": "2919",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "מֵאֵת",
+            "lemma": "854",
+            "morph": "HR/R"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כִּרְבִיבִים",
+            "lemma": "7241",
+            "morph": "HR/Ncmpa"
+          },
+          {
+            "heb": "עֲלֵי",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "עֵשֶׂב",
+            "lemma": "6212",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "לֹֽא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יְקַוֶּה",
+            "lemma": "6960 a",
+            "morph": "HVpi3ms"
+          },
+          {
+            "heb": "לְאִישׁ",
+            "lemma": "376",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יְיַחֵל",
+            "lemma": "3176",
+            "morph": "HVpi3ms"
+          },
+          {
+            "heb": "לִבְנֵי",
+            "lemma": "1121 a",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "אָדָֽם",
+            "lemma": "120",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Micah 5:7",
+        "words": [
+          {
+            "heb": "וְהָיָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "שְׁאֵרִית",
+            "lemma": "7611",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "יַעֲקֹב",
+            "lemma": "3290",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בַּגּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "בְּקֶרֶב",
+            "lemma": "7130",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "עַמִּים",
+            "lemma": "5971 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "רַבִּים",
+            "lemma": "7227 a",
+            "morph": "HAampa"
+          },
+          {
+            "heb": "כְּאַרְיֵה",
+            "lemma": "738 b",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "בְּבַהֲמוֹת",
+            "lemma": "929",
+            "morph": "HR/Ncfpc"
+          },
+          {
+            "heb": "יַעַר",
+            "lemma": "3293 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "כִּכְפִיר",
+            "lemma": "3715 a",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "בְּעֶדְרֵי",
+            "lemma": "5739",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "צֹאן",
+            "lemma": "6629",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "אִם",
+            "lemma": "518 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "עָבַר",
+            "lemma": "5674 a",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "וְרָמַס",
+            "lemma": "7429",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "וְטָרַף",
+            "lemma": "2963",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "וְאֵין",
+            "lemma": "369",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "מַצִּֽיל",
+            "lemma": "5337",
+            "morph": "HVhrmsa"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Micah 5:8",
+        "words": [
+          {
+            "heb": "תָּרֹם",
+            "lemma": "7311 a",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "יָדְךָ",
+            "lemma": "3027",
+            "morph": "HNcbsc/Sp2ms"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "צָרֶיךָ",
+            "lemma": "6862 c",
+            "morph": "HNcmpc/Sp2ms"
+          },
+          {
+            "heb": "וְכָל",
+            "lemma": "3605",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "אֹיְבֶיךָ",
+            "lemma": "341",
+            "morph": "HVqrmpc/Sp2ms"
+          },
+          {
+            "heb": "יִכָּרֵֽתוּ",
+            "lemma": "3772",
+            "morph": "HVNi3mp"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Micah 5:9",
+        "words": [
+          {
+            "heb": "וְהָיָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "בַיּוֹם",
+            "lemma": "3117",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "הַהוּא",
+            "lemma": "1931",
+            "morph": "HTd/Pp3ms"
+          },
+          {
+            "heb": "נְאֻם",
+            "lemma": "5002",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְהִכְרַתִּי",
+            "lemma": "3772",
+            "morph": "HC/Vhq1cs"
+          },
+          {
+            "heb": "סוּסֶיךָ",
+            "lemma": "5483 b",
+            "morph": "HNcmpc/Sp2ms"
+          },
+          {
+            "heb": "מִקִּרְבֶּךָ",
+            "lemma": "7130",
+            "morph": "HR/Ncmsc/Sp2ms"
+          },
+          {
+            "heb": "וְהַאֲבַדְתִּי",
+            "lemma": "6",
+            "morph": "HC/Vhq1cs"
+          },
+          {
+            "heb": "מַרְכְּבֹתֶֽיךָ",
+            "lemma": "4818",
+            "morph": "HNcfpc/Sp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Micah 5:10",
+        "words": [
+          {
+            "heb": "וְהִכְרַתִּי",
+            "lemma": "3772",
+            "morph": "HC/Vhq1cs"
+          },
+          {
+            "heb": "עָרֵי",
+            "lemma": "5892 b",
+            "morph": "HNcfpc"
+          },
+          {
+            "heb": "אַרְצֶךָ",
+            "lemma": "776",
+            "morph": "HNcbsc/Sp2ms"
+          },
+          {
+            "heb": "וְהָרַסְתִּי",
+            "lemma": "2040",
+            "morph": "HC/Vqq1cs"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "מִבְצָרֶֽיךָ",
+            "lemma": "4013",
+            "morph": "HNcmpc/Sp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Micah 5:11",
+        "words": [
+          {
+            "heb": "וְהִכְרַתִּי",
+            "lemma": "3772",
+            "morph": "HC/Vqh1cs"
+          },
+          {
+            "heb": "כְשָׁפִים",
+            "lemma": "3785",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "מִיָּדֶךָ",
+            "lemma": "3027",
+            "morph": "HR/Ncbsc/Sp2ms"
+          },
+          {
+            "heb": "וּֽמְעוֹנְנִים",
+            "lemma": "6049 b",
+            "morph": "HC/Vmrmpa"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יִֽהְיוּ",
+            "lemma": "1961",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "לָֽךְ",
+            "lemma": "l",
+            "morph": "HR/Sp2fs"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Micah 5:12",
+        "words": [
+          {
+            "heb": "וְהִכְרַתִּי",
+            "lemma": "3772",
+            "morph": "HC/Vhq1cs"
+          },
+          {
+            "heb": "פְסִילֶיךָ",
+            "lemma": "6456",
+            "morph": "HNcmpc/Sp2ms"
+          },
+          {
+            "heb": "וּמַצֵּבוֹתֶיךָ",
+            "lemma": "4676",
+            "morph": "HC/Ncfpc/Sp2ms"
+          },
+          {
+            "heb": "מִקִּרְבֶּךָ",
+            "lemma": "7130",
+            "morph": "HR/Ncmsc/Sp2ms"
+          },
+          {
+            "heb": "וְלֹֽא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תִשְׁתַּחֲוֶה",
+            "lemma": "7812",
+            "morph": "HVvi2ms"
+          },
+          {
+            "heb": "עוֹד",
+            "lemma": "5750",
+            "morph": "HD"
+          },
+          {
+            "heb": "לְמַעֲשֵׂה",
+            "lemma": "4639",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "יָדֶֽיךָ",
+            "lemma": "3027",
+            "morph": "HNcbdc/Sp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Micah 5:13",
+        "words": [
+          {
+            "heb": "וְנָתַשְׁתִּי",
+            "lemma": "5428",
+            "morph": "HC/Vqq1cs"
+          },
+          {
+            "heb": "אֲשֵׁירֶיךָ",
+            "lemma": "842",
+            "morph": "HNp/Sp2ms"
+          },
+          {
+            "heb": "מִקִּרְבֶּךָ",
+            "lemma": "7130",
+            "morph": "HR/Ncmsc/Sp2ms"
+          },
+          {
+            "heb": "וְהִשְׁמַדְתִּי",
+            "lemma": "8045",
+            "morph": "HC/Vhq1cs"
+          },
+          {
+            "heb": "עָרֶֽיךָ",
+            "lemma": "5892 b",
+            "morph": "HNcfpc/Sp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Micah 5:14",
+        "words": [
+          {
+            "heb": "וְעָשִׂיתִי",
+            "lemma": "6213 a",
+            "morph": "HC/Vqq1cs"
+          },
+          {
+            "heb": "בְּאַף",
+            "lemma": "639",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "וּבְחֵמָה",
+            "lemma": "2534",
+            "morph": "HC/R/Ncfsa"
+          },
+          {
+            "heb": "נָקָם",
+            "lemma": "5359",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַגּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "שָׁמֵֽעוּ",
+            "lemma": "8085",
+            "morph": "HVqp3cp"
+          }
+        ]
+      }
+    ],
+    "6": [
+      {
+        "verse": 1,
+        "ref": "Micah 6:1",
+        "words": [
+          {
+            "heb": "שִׁמְעוּ",
+            "lemma": "8085",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "נָא",
+            "lemma": "4994",
+            "morph": "HTe"
+          },
+          {
+            "heb": "אֵת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֹמֵר",
+            "lemma": "559",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "קוּם",
+            "lemma": "6965 b",
+            "morph": "HVqv2ms"
+          },
+          {
+            "heb": "רִיב",
+            "lemma": "7378",
+            "morph": "HVqv2ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "854",
+            "morph": "HR"
+          },
+          {
+            "heb": "הֶהָרִים",
+            "lemma": "2022",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "וְתִשְׁמַעְנָה",
+            "lemma": "8085",
+            "morph": "HC/Vqi3fp"
+          },
+          {
+            "heb": "הַגְּבָעוֹת",
+            "lemma": "1389",
+            "morph": "HTd/Ncfpa"
+          },
+          {
+            "heb": "קוֹלֶֽךָ",
+            "lemma": "6963 a",
+            "morph": "HNcmsc/Sp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Micah 6:2",
+        "words": [
+          {
+            "heb": "שִׁמְעוּ",
+            "lemma": "8085",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "הָרִים",
+            "lemma": "2022",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "רִיב",
+            "lemma": "7379",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְהָאֵתָנִים",
+            "lemma": "386",
+            "morph": "HC/Td/Aampa"
+          },
+          {
+            "heb": "מֹסְדֵי",
+            "lemma": "4146",
+            "morph": "HNcbpc"
+          },
+          {
+            "heb": "אָרֶץ",
+            "lemma": "776",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "רִיב",
+            "lemma": "7379",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "לַֽיהוָה",
+            "lemma": "3068",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "עִם",
+            "lemma": "5973 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "עַמּוֹ",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "וְעִם",
+            "lemma": "5973 a",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "יִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HNp"
+          },
+          {
+            "heb": "יִתְוַכָּֽח",
+            "lemma": "3198",
+            "morph": "HVti3ms"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Micah 6:3",
+        "words": [
+          {
+            "heb": "עַמִּי",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "מֶה",
+            "lemma": "4100",
+            "morph": "HTi"
+          },
+          {
+            "heb": "עָשִׂיתִי",
+            "lemma": "6213 a",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "לְךָ",
+            "lemma": "l",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "וּמָה",
+            "lemma": "4100",
+            "morph": "HC/Ti"
+          },
+          {
+            "heb": "הֶלְאֵתִיךָ",
+            "lemma": "3811",
+            "morph": "HVhp1cs/Sp2ms"
+          },
+          {
+            "heb": "עֲנֵה",
+            "lemma": "6030 b",
+            "morph": "HVqv2ms"
+          },
+          {
+            "heb": "בִּֽי",
+            "lemma": "b",
+            "morph": "HR/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Micah 6:4",
+        "words": [
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "הֶעֱלִתִיךָ",
+            "lemma": "5927",
+            "morph": "HVhp1cs/Sp2ms"
+          },
+          {
+            "heb": "מֵאֶרֶץ",
+            "lemma": "776",
+            "morph": "HR/Ncbsc"
+          },
+          {
+            "heb": "מִצְרַיִם",
+            "lemma": "4714",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּמִבֵּית",
+            "lemma": "1004 b",
+            "morph": "HC/R/Ncmsc"
+          },
+          {
+            "heb": "עֲבָדִים",
+            "lemma": "5650",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "פְּדִיתִיךָ",
+            "lemma": "6299",
+            "morph": "HVqp1cs/Sp2ms"
+          },
+          {
+            "heb": "וָאֶשְׁלַח",
+            "lemma": "7971",
+            "morph": "HC/Vqw1cs"
+          },
+          {
+            "heb": "לְפָנֶיךָ",
+            "lemma": "6440",
+            "morph": "HR/Ncbpc/Sp2ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "מֹשֶׁה",
+            "lemma": "4872",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אַהֲרֹן",
+            "lemma": "175",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּמִרְיָֽם",
+            "lemma": "4813",
+            "morph": "HC/Np"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Micah 6:5",
+        "words": [
+          {
+            "heb": "עַמִּי",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "זְכָר",
+            "lemma": "2142",
+            "morph": "HVqv2ms"
+          },
+          {
+            "heb": "נָא",
+            "lemma": "4994",
+            "morph": "HTe"
+          },
+          {
+            "heb": "מַה",
+            "lemma": "4100",
+            "morph": "HTi"
+          },
+          {
+            "heb": "יָּעַץ",
+            "lemma": "3289",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "בָּלָק",
+            "lemma": "1111",
+            "morph": "HNp"
+          },
+          {
+            "heb": "מֶלֶךְ",
+            "lemma": "4428",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "מוֹאָב",
+            "lemma": "4124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּמֶה",
+            "lemma": "4100",
+            "morph": "HC/Ti"
+          },
+          {
+            "heb": "עָנָה",
+            "lemma": "6030 b",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "אֹתוֹ",
+            "lemma": "853",
+            "morph": "HTo/Sp3ms"
+          },
+          {
+            "heb": "בִּלְעָם",
+            "lemma": "1109 a",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בֶּן",
+            "lemma": "1121 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "בְּעוֹר",
+            "lemma": "1160",
+            "morph": "HNp"
+          },
+          {
+            "heb": "מִן",
+            "lemma": "4480 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַשִּׁטִּים",
+            "lemma": "7851",
+            "morph": "HTd/Np"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַגִּלְגָּל",
+            "lemma": "1537",
+            "morph": "HTd/Np"
+          },
+          {
+            "heb": "לְמַעַן",
+            "lemma": "4616",
+            "morph": "HR"
+          },
+          {
+            "heb": "דַּעַת",
+            "lemma": "3045",
+            "morph": "HVqc"
+          },
+          {
+            "heb": "צִדְקוֹת",
+            "lemma": "6666",
+            "morph": "HNcfpc"
+          },
+          {
+            "heb": "יְהוָֽה",
+            "lemma": "3068",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Micah 6:6",
+        "words": [
+          {
+            "heb": "בַּמָּה",
+            "lemma": "4100",
+            "morph": "HR/Ti"
+          },
+          {
+            "heb": "אֲקַדֵּם",
+            "lemma": "6923",
+            "morph": "HVpi1cs"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אִכַּף",
+            "lemma": "3721",
+            "morph": "HVNi1cs"
+          },
+          {
+            "heb": "לֵאלֹהֵי",
+            "lemma": "430",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "מָרוֹם",
+            "lemma": "4791",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "הַאֲקַדְּמֶנּוּ",
+            "lemma": "6923",
+            "morph": "HTi/Vpi1cs/Sp3ms"
+          },
+          {
+            "heb": "בְעוֹלוֹת",
+            "lemma": "5930 a",
+            "morph": "HR/Ncfpa"
+          },
+          {
+            "heb": "בַּעֲגָלִים",
+            "lemma": "5695",
+            "morph": "HR/Ncmpa"
+          },
+          {
+            "heb": "בְּנֵי",
+            "lemma": "1121 a",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "שָׁנָֽה",
+            "lemma": "8141",
+            "morph": "HNcfsa"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Micah 6:7",
+        "words": [
+          {
+            "heb": "הֲיִרְצֶה",
+            "lemma": "7521",
+            "morph": "HTi/Vqi3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בְּאַלְפֵי",
+            "lemma": "505",
+            "morph": "HR/Acbpc"
+          },
+          {
+            "heb": "אֵילִים",
+            "lemma": "352 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "בְּרִֽבְבוֹת",
+            "lemma": "7233",
+            "morph": "HR/Ncfpc"
+          },
+          {
+            "heb": "נַֽחֲלֵי",
+            "lemma": "5158 a",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "שָׁמֶן",
+            "lemma": "8081",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "הַאֶתֵּן",
+            "lemma": "5414",
+            "morph": "HTi/Vqi1cs"
+          },
+          {
+            "heb": "בְּכוֹרִי",
+            "lemma": "1060",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "פִּשְׁעִי",
+            "lemma": "6588",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "פְּרִי",
+            "lemma": "6529",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "בִטְנִי",
+            "lemma": "990",
+            "morph": "HNcfsc/Sp1cs"
+          },
+          {
+            "heb": "חַטַּאת",
+            "lemma": "2403 b",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "נַפְשִֽׁי",
+            "lemma": "5315",
+            "morph": "HNcbsc/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Micah 6:8",
+        "words": [
+          {
+            "heb": "הִגִּיד",
+            "lemma": "5046",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "לְךָ",
+            "lemma": "l",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "אָדָם",
+            "lemma": "120",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מַה",
+            "lemma": "4100",
+            "morph": "HTi"
+          },
+          {
+            "heb": "טּוֹב",
+            "lemma": "2896 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "וּמָֽה",
+            "lemma": "4100",
+            "morph": "HC/Ti"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "דּוֹרֵשׁ",
+            "lemma": "1875",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "מִמְּךָ",
+            "lemma": "4480 a",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 b",
+            "morph": "HC"
+          },
+          {
+            "heb": "אִם",
+            "lemma": "518 b",
+            "morph": "HC"
+          },
+          {
+            "heb": "עֲשׂוֹת",
+            "lemma": "6213 a",
+            "morph": "HVqc"
+          },
+          {
+            "heb": "מִשְׁפָּט",
+            "lemma": "4941",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְאַהֲבַת",
+            "lemma": "160",
+            "morph": "HC/Ncfsc"
+          },
+          {
+            "heb": "חֶסֶד",
+            "lemma": "2617 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְהַצְנֵעַ",
+            "lemma": "6800 a",
+            "morph": "HC/Vha"
+          },
+          {
+            "heb": "לֶכֶת",
+            "lemma": "3212",
+            "morph": "HVqc"
+          },
+          {
+            "heb": "עִם",
+            "lemma": "5973 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "אֱלֹהֶֽיךָ",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Micah 6:9",
+        "words": [
+          {
+            "heb": "קוֹל",
+            "lemma": "6963 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לָעִיר",
+            "lemma": "5892 b",
+            "morph": "HRd/Ncfsa"
+          },
+          {
+            "heb": "יִקְרָא",
+            "lemma": "7121",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "וְתוּשִׁיָּה",
+            "lemma": "8454",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "יִרְאֶה",
+            "lemma": "3372",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "שְׁמֶךָ",
+            "lemma": "8034",
+            "morph": "HNcmsc/Sp2ms"
+          },
+          {
+            "heb": "שִׁמְעוּ",
+            "lemma": "8085",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "מַטֶּה",
+            "lemma": "4294",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וּמִי",
+            "lemma": "4310",
+            "morph": "HC/Ti"
+          },
+          {
+            "heb": "יְעָדָֽהּ",
+            "lemma": "3259",
+            "morph": "HVqp3ms/Sp3fs"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Micah 6:10",
+        "words": [
+          {
+            "heb": "עוֹד",
+            "lemma": "5750",
+            "morph": "HD"
+          },
+          {
+            "heb": "הַאִשׁ",
+            "lemma": "786",
+            "morph": "HTi/Ta"
+          },
+          {
+            "heb": "בֵּית",
+            "lemma": "1004 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "רָשָׁע",
+            "lemma": "7563",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "אֹצְרוֹת",
+            "lemma": "214",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "רֶשַׁע",
+            "lemma": "7562",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְאֵיפַת",
+            "lemma": "374",
+            "morph": "HC/Ncfsc"
+          },
+          {
+            "heb": "רָזוֹן",
+            "lemma": "7332",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "זְעוּמָֽה",
+            "lemma": "2194",
+            "morph": "HVqsfsa"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Micah 6:11",
+        "words": [
+          {
+            "heb": "הַאֶזְכֶּה",
+            "lemma": "2135",
+            "morph": "HTi/Vqi1cs"
+          },
+          {
+            "heb": "בְּמֹאזְנֵי",
+            "lemma": "3976",
+            "morph": "HR/Ncmdc"
+          },
+          {
+            "heb": "רֶשַׁע",
+            "lemma": "7562",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וּבְכִיס",
+            "lemma": "3599",
+            "morph": "HC/R/Ncmsc"
+          },
+          {
+            "heb": "אַבְנֵי",
+            "lemma": "68",
+            "morph": "HNcfpc"
+          },
+          {
+            "heb": "מִרְמָֽה",
+            "lemma": "4820",
+            "morph": "HNcfsa"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Micah 6:12",
+        "words": [
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "עֲשִׁירֶיהָ",
+            "lemma": "6223",
+            "morph": "HAampc/Sp3fs"
+          },
+          {
+            "heb": "מָלְאוּ",
+            "lemma": "4390",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "חָמָס",
+            "lemma": "2555",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְיֹשְׁבֶיהָ",
+            "lemma": "3427",
+            "morph": "HC/Vqrmpc/Sp3fs"
+          },
+          {
+            "heb": "דִּבְּרוּ",
+            "lemma": "1696",
+            "morph": "HVpp3cp"
+          },
+          {
+            "heb": "שָׁקֶר",
+            "lemma": "8267",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וּלְשׁוֹנָם",
+            "lemma": "3956",
+            "morph": "HC/Ncbsc/Sp3mp"
+          },
+          {
+            "heb": "רְמִיָּה",
+            "lemma": "7423 a",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "בְּפִיהֶֽם",
+            "lemma": "6310",
+            "morph": "HR/Ncmsc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Micah 6:13",
+        "words": [
+          {
+            "heb": "וְגַם",
+            "lemma": "1571",
+            "morph": "HC/Ta"
+          },
+          {
+            "heb": "אֲנִי",
+            "lemma": "589",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "הֶחֱלֵיתִי",
+            "lemma": "2470 a",
+            "morph": "HVhp1cs"
+          },
+          {
+            "heb": "הַכּוֹתֶךָ",
+            "lemma": "5221",
+            "morph": "HVhc/Sp2ms"
+          },
+          {
+            "heb": "הַשְׁמֵם",
+            "lemma": "8074",
+            "morph": "HVha"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "חַטֹּאתֶֽךָ",
+            "lemma": "2403 b",
+            "morph": "HNcfpc/Sp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Micah 6:14",
+        "words": [
+          {
+            "heb": "אַתָּה",
+            "lemma": "859 a",
+            "morph": "HPp2ms"
+          },
+          {
+            "heb": "תֹאכַל",
+            "lemma": "398",
+            "morph": "HVqi2ms"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תִשְׂבָּע",
+            "lemma": "7646",
+            "morph": "HVqi2ms"
+          },
+          {
+            "heb": "וְיֶשְׁחֲךָ",
+            "lemma": "3445",
+            "morph": "HC/Ncmsc/Sp2ms"
+          },
+          {
+            "heb": "בְּקִרְבֶּךָ",
+            "lemma": "7130",
+            "morph": "HR/Ncmsc/Sp2ms"
+          },
+          {
+            "heb": "וְתַסֵּג",
+            "lemma": "5253",
+            "morph": "HC/Vhi2ms"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תַפְלִיט",
+            "lemma": "6403",
+            "morph": "HVhi2ms"
+          },
+          {
+            "heb": "וַאֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HC/Tr"
+          },
+          {
+            "heb": "תְּפַלֵּט",
+            "lemma": "6403",
+            "morph": "HVpi2ms"
+          },
+          {
+            "heb": "לַחֶרֶב",
+            "lemma": "2719",
+            "morph": "HRd/Ncfsa"
+          },
+          {
+            "heb": "אֶתֵּֽן",
+            "lemma": "5414",
+            "morph": "HVqi1cs"
+          }
+        ]
+      },
+      {
+        "verse": 15,
+        "ref": "Micah 6:15",
+        "words": [
+          {
+            "heb": "אַתָּה",
+            "lemma": "859 a",
+            "morph": "HPp2ms"
+          },
+          {
+            "heb": "תִזְרַע",
+            "lemma": "2232",
+            "morph": "HVqi2ms"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תִקְצוֹר",
+            "lemma": "7114 b",
+            "morph": "HVqi2ms"
+          },
+          {
+            "heb": "אַתָּה",
+            "lemma": "859 a",
+            "morph": "HPp2ms"
+          },
+          {
+            "heb": "תִדְרֹֽךְ",
+            "lemma": "1869",
+            "morph": "HVqi2ms"
+          },
+          {
+            "heb": "זַיִת",
+            "lemma": "2132",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תָסוּךְ",
+            "lemma": "5480",
+            "morph": "HVqi2ms"
+          },
+          {
+            "heb": "שֶׁמֶן",
+            "lemma": "8081",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְתִירוֹשׁ",
+            "lemma": "8492",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תִשְׁתֶּה",
+            "lemma": "8354",
+            "morph": "HVqi2ms"
+          },
+          {
+            "heb": "יָּֽיִן",
+            "lemma": "3196",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 16,
+        "ref": "Micah 6:16",
+        "words": [
+          {
+            "heb": "וְיִשְׁתַּמֵּר",
+            "lemma": "8104",
+            "morph": "HC/Vti3ms"
+          },
+          {
+            "heb": "חֻקּוֹת",
+            "lemma": "2708",
+            "morph": "HNcbpc"
+          },
+          {
+            "heb": "עָמְרִי",
+            "lemma": "6018",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְכֹל",
+            "lemma": "3605",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "מַעֲשֵׂה",
+            "lemma": "4639",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "בֵית",
+            "lemma": "1004 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אַחְאָב",
+            "lemma": "256",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַתֵּלְכוּ",
+            "lemma": "3212",
+            "morph": "HC/Vqw2mp"
+          },
+          {
+            "heb": "בְּמֹֽעֲצוֹתָם",
+            "lemma": "4156",
+            "morph": "HR/Ncfpc/Sp3mp"
+          },
+          {
+            "heb": "לְמַעַן",
+            "lemma": "4616",
+            "morph": "HR"
+          },
+          {
+            "heb": "תִּתִּי",
+            "lemma": "5414",
+            "morph": "HVqc/Sp1cs"
+          },
+          {
+            "heb": "אֹתְךָ",
+            "lemma": "853",
+            "morph": "HTo/Sp2ms"
+          },
+          {
+            "heb": "לְשַׁמָּה",
+            "lemma": "8047",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "וְיֹשְׁבֶיהָ",
+            "lemma": "3427",
+            "morph": "HC/Vqrmpc/Sp3fs"
+          },
+          {
+            "heb": "לִשְׁרֵקָה",
+            "lemma": "8322",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "וְחֶרְפַּת",
+            "lemma": "2781",
+            "morph": "HC/Ncfsc"
+          },
+          {
+            "heb": "עַמִּי",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "תִּשָּֽׂאוּ",
+            "lemma": "5375",
+            "morph": "HVqi2mp"
+          }
+        ]
+      }
+    ],
+    "7": [
+      {
+        "verse": 1,
+        "ref": "Micah 7:1",
+        "words": [
+          {
+            "heb": "אַלְלַי",
+            "lemma": "480",
+            "morph": "HTj"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "הָיִיתִי",
+            "lemma": "1961",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "כְּאָסְפֵּי",
+            "lemma": "625",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "קַיִץ",
+            "lemma": "7019",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "כְּעֹלְלֹת",
+            "lemma": "5955",
+            "morph": "HR/Ncfpc"
+          },
+          {
+            "heb": "בָּצִיר",
+            "lemma": "1210",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֵין",
+            "lemma": "369",
+            "morph": "HTn"
+          },
+          {
+            "heb": "אֶשְׁכּוֹל",
+            "lemma": "811",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "לֶאֱכוֹל",
+            "lemma": "398",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "בִּכּוּרָה",
+            "lemma": "1063",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "אִוְּתָה",
+            "lemma": "183",
+            "morph": "HVpp3fs"
+          },
+          {
+            "heb": "נַפְשִֽׁי",
+            "lemma": "5315",
+            "morph": "HNcbsc/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Micah 7:2",
+        "words": [
+          {
+            "heb": "אָבַד",
+            "lemma": "6",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "חָסִיד",
+            "lemma": "2623",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "מִן",
+            "lemma": "4480 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הָאָרֶץ",
+            "lemma": "776",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "וְיָשָׁר",
+            "lemma": "3477",
+            "morph": "HC/Aamsa"
+          },
+          {
+            "heb": "בָּאָדָם",
+            "lemma": "120",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "אָיִן",
+            "lemma": "369",
+            "morph": "HTn"
+          },
+          {
+            "heb": "כֻּלָּם",
+            "lemma": "3605",
+            "morph": "HNcmsc/Sp3mp"
+          },
+          {
+            "heb": "לְדָמִים",
+            "lemma": "1818",
+            "morph": "HR/Ncmpa"
+          },
+          {
+            "heb": "יֶאֱרֹבוּ",
+            "lemma": "693",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "אִישׁ",
+            "lemma": "376",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "אָחִיהוּ",
+            "lemma": "251",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "יָצוּדוּ",
+            "lemma": "6679 a",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "חֵֽרֶם",
+            "lemma": "2764 b",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Micah 7:3",
+        "words": [
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הָרַע",
+            "lemma": "7451 b",
+            "morph": "HTd/Aamsa"
+          },
+          {
+            "heb": "כַּפַּיִם",
+            "lemma": "3709",
+            "morph": "HNcfda"
+          },
+          {
+            "heb": "לְהֵיטִיב",
+            "lemma": "3190",
+            "morph": "HR/Vhc"
+          },
+          {
+            "heb": "הַשַּׂר",
+            "lemma": "8269",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "שֹׁאֵל",
+            "lemma": "7592",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "וְהַשֹּׁפֵט",
+            "lemma": "8199",
+            "morph": "HC/Td/Vqrmsa"
+          },
+          {
+            "heb": "בַּשִׁלּוּם",
+            "lemma": "7966",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "וְהַגָּדוֹל",
+            "lemma": "1419 a",
+            "morph": "HC/Td/Aamsa"
+          },
+          {
+            "heb": "דֹּבֵר",
+            "lemma": "1696",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "הַוַּת",
+            "lemma": "1942",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "נַפְשׁוֹ",
+            "lemma": "5315",
+            "morph": "HNcbsc/Sp3ms"
+          },
+          {
+            "heb": "הוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          },
+          {
+            "heb": "וַֽיְעַבְּתֽוּהָ",
+            "lemma": "5686",
+            "morph": "HC/Vpw3mp/Sp3fs"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Micah 7:4",
+        "words": [
+          {
+            "heb": "טוֹבָם",
+            "lemma": "2896 a",
+            "morph": "HAamsc/Sp3mp"
+          },
+          {
+            "heb": "כְּחֵדֶק",
+            "lemma": "2312",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "יָשָׁר",
+            "lemma": "3477",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "מִמְּסוּכָה",
+            "lemma": "4534",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "מְצַפֶּיךָ",
+            "lemma": "6822",
+            "morph": "HVprmpc/Sp2ms"
+          },
+          {
+            "heb": "פְּקֻדָּתְךָ",
+            "lemma": "6486",
+            "morph": "HNcfsc/Sp2ms"
+          },
+          {
+            "heb": "בָאָה",
+            "lemma": "935",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "עַתָּה",
+            "lemma": "6258",
+            "morph": "HD"
+          },
+          {
+            "heb": "תִהְיֶה",
+            "lemma": "1961",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "מְבוּכָתָֽם",
+            "lemma": "3998",
+            "morph": "HNcfsc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Micah 7:5",
+        "words": [
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תַּאֲמִינוּ",
+            "lemma": "539",
+            "morph": "HVhj2mp"
+          },
+          {
+            "heb": "בְרֵעַ",
+            "lemma": "7453",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "אַֽל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תִּבְטְחוּ",
+            "lemma": "982",
+            "morph": "HVqj2mp"
+          },
+          {
+            "heb": "בְּאַלּוּף",
+            "lemma": "441 a",
+            "morph": "HR/Aamsa"
+          },
+          {
+            "heb": "מִשֹּׁכֶבֶת",
+            "lemma": "7901",
+            "morph": "HR/Vqrfsc"
+          },
+          {
+            "heb": "חֵיקֶךָ",
+            "lemma": "2436",
+            "morph": "HNcmsc/Sp2ms"
+          },
+          {
+            "heb": "שְׁמֹר",
+            "lemma": "8104",
+            "morph": "HVqv2ms"
+          },
+          {
+            "heb": "פִּתְחֵי",
+            "lemma": "6607",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "פִֽיךָ",
+            "lemma": "6310",
+            "morph": "HNcmsc/Sp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Micah 7:6",
+        "words": [
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "בֵן",
+            "lemma": "1121 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מְנַבֵּל",
+            "lemma": "5034 a",
+            "morph": "HVprmsa"
+          },
+          {
+            "heb": "אָב",
+            "lemma": "1",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בַּת",
+            "lemma": "1323",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "קָמָה",
+            "lemma": "6965 b",
+            "morph": "HVqrfsa"
+          },
+          {
+            "heb": "בְאִמָּהּ",
+            "lemma": "517",
+            "morph": "HR/Ncfsc/Sp3fs"
+          },
+          {
+            "heb": "כַּלָּה",
+            "lemma": "3618",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "בַּחֲמֹתָהּ",
+            "lemma": "2545",
+            "morph": "HR/Ncfsc/Sp3fs"
+          },
+          {
+            "heb": "אֹיְבֵי",
+            "lemma": "341",
+            "morph": "HVqrmpc"
+          },
+          {
+            "heb": "אִישׁ",
+            "lemma": "376",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אַנְשֵׁי",
+            "lemma": "376",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "בֵיתֽוֹ",
+            "lemma": "1004 b",
+            "morph": "HNcmsc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Micah 7:7",
+        "words": [
+          {
+            "heb": "וַאֲנִי",
+            "lemma": "589",
+            "morph": "HC/Pp1cs"
+          },
+          {
+            "heb": "בַּיהוָה",
+            "lemma": "3068",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "אֲצַפֶּה",
+            "lemma": "6822",
+            "morph": "HVpi1cs"
+          },
+          {
+            "heb": "אוֹחִילָה",
+            "lemma": "3176",
+            "morph": "HVhh1cs"
+          },
+          {
+            "heb": "לֵאלֹהֵי",
+            "lemma": "430",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "יִשְׁעִי",
+            "lemma": "3468",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "יִשְׁמָעֵנִי",
+            "lemma": "8085",
+            "morph": "HVqi3ms/Sp1cs"
+          },
+          {
+            "heb": "אֱלֹהָֽי",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Micah 7:8",
+        "words": [
+          {
+            "heb": "אַֽל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תִּשְׂמְחִי",
+            "lemma": "8055",
+            "morph": "HVqj2fs"
+          },
+          {
+            "heb": "אֹיַבְתִּי",
+            "lemma": "341",
+            "morph": "HVqrfsc/Sp1cs"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "נָפַלְתִּי",
+            "lemma": "5307",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "קָמְתִּי",
+            "lemma": "6965 b",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אֵשֵׁב",
+            "lemma": "3427",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "בַּחֹשֶׁךְ",
+            "lemma": "2822",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אוֹר",
+            "lemma": "216",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "לִֽי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Micah 7:9",
+        "words": [
+          {
+            "heb": "זַעַף",
+            "lemma": "2197",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֶשָּׂא",
+            "lemma": "5375",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "חָטָאתִי",
+            "lemma": "2398",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "לוֹ",
+            "lemma": "l",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "יָרִיב",
+            "lemma": "7378",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "רִיבִי",
+            "lemma": "7379",
+            "morph": "HNcbsc/Sp1cs"
+          },
+          {
+            "heb": "וְעָשָׂה",
+            "lemma": "6213 a",
+            "morph": "HC/Vqp3ms"
+          },
+          {
+            "heb": "מִשְׁפָּטִי",
+            "lemma": "4941",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "יוֹצִיאֵנִי",
+            "lemma": "3318",
+            "morph": "HVhi3ms/Sp1cs"
+          },
+          {
+            "heb": "לָאוֹר",
+            "lemma": "216",
+            "morph": "HRd/Ncbsa"
+          },
+          {
+            "heb": "אֶרְאֶה",
+            "lemma": "7200",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "בְּצִדְקָתֽוֹ",
+            "lemma": "6666",
+            "morph": "HR/Ncfsc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Micah 7:10",
+        "words": [
+          {
+            "heb": "וְתֵרֶא",
+            "lemma": "7200",
+            "morph": "HC/Vqi3fs"
+          },
+          {
+            "heb": "אֹיַבְתִּי",
+            "lemma": "341",
+            "morph": "HVqrfsc/Sp1cs"
+          },
+          {
+            "heb": "וּתְכַסֶּהָ",
+            "lemma": "3680",
+            "morph": "HC/Vpi3fs/Sp3fs"
+          },
+          {
+            "heb": "בוּשָׁה",
+            "lemma": "955",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "הָאֹמְרָה",
+            "lemma": "559",
+            "morph": "HTd/Vqrfsa"
+          },
+          {
+            "heb": "אֵלַי",
+            "lemma": "413",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "אַיּוֹ",
+            "lemma": "346",
+            "morph": "HTi/Sp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֱלֹהָיִךְ",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp2fs"
+          },
+          {
+            "heb": "עֵינַי",
+            "lemma": "5869 a",
+            "morph": "HNcbdc/Sp1cs"
+          },
+          {
+            "heb": "תִּרְאֶינָּה",
+            "lemma": "7200",
+            "morph": "HVqi3fp"
+          },
+          {
+            "heb": "בָּהּ",
+            "lemma": "b",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "עַתָּה",
+            "lemma": "6258",
+            "morph": "HD"
+          },
+          {
+            "heb": "תִּֽהְיֶה",
+            "lemma": "1961",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "לְמִרְמָס",
+            "lemma": "4823",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "כְּטִיט",
+            "lemma": "2916",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "חוּצֽוֹת",
+            "lemma": "2351",
+            "morph": "HNcmpa"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Micah 7:11",
+        "words": [
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "לִבְנוֹת",
+            "lemma": "1129",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "גְּדֵרָיִךְ",
+            "lemma": "1447",
+            "morph": "HNcmpc/Sp2fs"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "הַהוּא",
+            "lemma": "1931",
+            "morph": "HTd/Pp3ms"
+          },
+          {
+            "heb": "יִרְחַק",
+            "lemma": "7368",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "חֹֽק",
+            "lemma": "2706",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Micah 7:12",
+        "words": [
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "הוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          },
+          {
+            "heb": "וְעָדֶיךָ",
+            "lemma": "5704",
+            "morph": "HC/R/Sp2ms"
+          },
+          {
+            "heb": "יָבוֹא",
+            "lemma": "935",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "לְמִנִּי",
+            "lemma": "4480 a",
+            "morph": "HR/R"
+          },
+          {
+            "heb": "אַשּׁוּר",
+            "lemma": "804",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְעָרֵי",
+            "lemma": "5892 b",
+            "morph": "HC/Ncfpc"
+          },
+          {
+            "heb": "מָצוֹר",
+            "lemma": "4692",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּלְמִנִּי",
+            "lemma": "4480 a",
+            "morph": "HC/R/R"
+          },
+          {
+            "heb": "מָצוֹר",
+            "lemma": "4693",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְעַד",
+            "lemma": "5704",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "נָהָר",
+            "lemma": "5104",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְיָם",
+            "lemma": "3220",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "מִיָּם",
+            "lemma": "3220",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "וְהַר",
+            "lemma": "2022",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "הָהָֽר",
+            "lemma": "2022",
+            "morph": "HTd/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Micah 7:13",
+        "words": [
+          {
+            "heb": "וְהָיְתָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3fs"
+          },
+          {
+            "heb": "הָאָרֶץ",
+            "lemma": "776",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "לִשְׁמָמָה",
+            "lemma": "8077 a",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "יֹֽשְׁבֶיהָ",
+            "lemma": "3427",
+            "morph": "HVqrmpc/Sp3fs"
+          },
+          {
+            "heb": "מִפְּרִי",
+            "lemma": "6529",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "מַֽעַלְלֵיהֶֽם",
+            "lemma": "4611",
+            "morph": "HNcmpc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Micah 7:14",
+        "words": [
+          {
+            "heb": "רְעֵה",
+            "lemma": "7462 b",
+            "morph": "HVqv2ms"
+          },
+          {
+            "heb": "עַמְּךָ",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp2ms"
+          },
+          {
+            "heb": "בְשִׁבְטֶךָ",
+            "lemma": "7626",
+            "morph": "HR/Ncmsc/Sp2ms"
+          },
+          {
+            "heb": "צֹאן",
+            "lemma": "6629",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "נַֽחֲלָתֶךָ",
+            "lemma": "5159",
+            "morph": "HNcfsc/Sp2ms"
+          },
+          {
+            "heb": "שֹׁכְנִי",
+            "lemma": "7931",
+            "morph": "HVqrmsc"
+          },
+          {
+            "heb": "לְבָדָד",
+            "lemma": "910",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "יַעַר",
+            "lemma": "3293 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בְּתוֹךְ",
+            "lemma": "8432",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "כַּרְמֶל",
+            "lemma": "3760",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "יִרְעוּ",
+            "lemma": "7462 b",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "בָשָׁן",
+            "lemma": "1316",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְגִלְעָד",
+            "lemma": "1568",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "כִּימֵי",
+            "lemma": "3117",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "עוֹלָֽם",
+            "lemma": "5769",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 15,
+        "ref": "Micah 7:15",
+        "words": [
+          {
+            "heb": "כִּימֵי",
+            "lemma": "3117",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "צֵאתְךָ",
+            "lemma": "3318",
+            "morph": "HVqc/Sp2ms"
+          },
+          {
+            "heb": "מֵאֶרֶץ",
+            "lemma": "776",
+            "morph": "HR/Ncbsc"
+          },
+          {
+            "heb": "מִצְרָיִם",
+            "lemma": "4714",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אַרְאֶנּוּ",
+            "lemma": "7200",
+            "morph": "HVhi1cs/Sp3ms"
+          },
+          {
+            "heb": "נִפְלָאֽוֹת",
+            "lemma": "6381",
+            "morph": "HVNrfpa"
+          }
+        ]
+      },
+      {
+        "verse": 16,
+        "ref": "Micah 7:16",
+        "words": [
+          {
+            "heb": "יִרְאוּ",
+            "lemma": "7200",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "גוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "וְיֵבֹשׁוּ",
+            "lemma": "954",
+            "morph": "HC/Vqi3mp"
+          },
+          {
+            "heb": "מִכֹּל",
+            "lemma": "3605",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "גְּבֽוּרָתָם",
+            "lemma": "1369",
+            "morph": "HNcfsc/Sp3mp"
+          },
+          {
+            "heb": "יָשִׂימוּ",
+            "lemma": "7760 a",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "יָד",
+            "lemma": "3027",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "פֶּה",
+            "lemma": "6310",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אָזְנֵיהֶם",
+            "lemma": "241",
+            "morph": "HNcfdc/Sp3mp"
+          },
+          {
+            "heb": "תֶּחֱרַֽשְׁנָה",
+            "lemma": "2790 b",
+            "morph": "HVqi3fp"
+          }
+        ]
+      },
+      {
+        "verse": 17,
+        "ref": "Micah 7:17",
+        "words": [
+          {
+            "heb": "יְלַחֲכוּ",
+            "lemma": "3897",
+            "morph": "HVpi3mp"
+          },
+          {
+            "heb": "עָפָר",
+            "lemma": "6083",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "כַּנָּחָשׁ",
+            "lemma": "5175",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "כְּזֹחֲלֵי",
+            "lemma": "2119 a",
+            "morph": "HR/Vqrmpc"
+          },
+          {
+            "heb": "אֶרֶץ",
+            "lemma": "776",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "יִרְגְּזוּ",
+            "lemma": "7264",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "מִמִּסְגְּרֹֽתֵיהֶם",
+            "lemma": "4526",
+            "morph": "HR/Ncfpc/Sp3mp"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֱלֹהֵינוּ",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp1cp"
+          },
+          {
+            "heb": "יִפְחָדוּ",
+            "lemma": "6342",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "וְיִֽרְאוּ",
+            "lemma": "3372",
+            "morph": "HC/Vqi3mp"
+          },
+          {
+            "heb": "מִמֶּֽךָּ",
+            "lemma": "4480 a",
+            "morph": "HR/Sp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 18,
+        "ref": "Micah 7:18",
+        "words": [
+          {
+            "heb": "מִי",
+            "lemma": "4310",
+            "morph": "HTi"
+          },
+          {
+            "heb": "אֵל",
+            "lemma": "410",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "כָּמוֹךָ",
+            "lemma": "3644",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "נֹשֵׂא",
+            "lemma": "5375",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "עָוֺן",
+            "lemma": "5771",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "וְעֹבֵר",
+            "lemma": "5674 a",
+            "morph": "HC/Vqrmsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "פֶּשַׁע",
+            "lemma": "6588",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "לִשְׁאֵרִית",
+            "lemma": "7611",
+            "morph": "HR/Ncfsc"
+          },
+          {
+            "heb": "נַחֲלָתוֹ",
+            "lemma": "5159",
+            "morph": "HNcfsc/Sp3ms"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "הֶחֱזִיק",
+            "lemma": "2388",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "לָעַד",
+            "lemma": "5703",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "אַפּוֹ",
+            "lemma": "639",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "חָפֵץ",
+            "lemma": "2654 a",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "חֶסֶד",
+            "lemma": "2617 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "הֽוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 19,
+        "ref": "Micah 7:19",
+        "words": [
+          {
+            "heb": "יָשׁוּב",
+            "lemma": "7725",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "יְרַֽחֲמֵנוּ",
+            "lemma": "7355",
+            "morph": "HVpi3ms/Sp1cp"
+          },
+          {
+            "heb": "יִכְבֹּשׁ",
+            "lemma": "3533",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "עֲוֺֽנֹתֵינוּ",
+            "lemma": "5771",
+            "morph": "HNcbpc/Sp1cp"
+          },
+          {
+            "heb": "וְתַשְׁלִיךְ",
+            "lemma": "7993",
+            "morph": "HC/Vhi2ms"
+          },
+          {
+            "heb": "בִּמְצֻלוֹת",
+            "lemma": "4688",
+            "morph": "HR/Ncfpc"
+          },
+          {
+            "heb": "יָם",
+            "lemma": "3220",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "חַטֹּאותָֽם",
+            "lemma": "2403 b",
+            "morph": "HNcfpc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 20,
+        "ref": "Micah 7:20",
+        "words": [
+          {
+            "heb": "תִּתֵּן",
+            "lemma": "5414",
+            "morph": "HVqi2ms"
+          },
+          {
+            "heb": "אֱמֶת",
+            "lemma": "571",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "לְיַֽעֲקֹב",
+            "lemma": "3290",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "חֶסֶד",
+            "lemma": "2617 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "לְאַבְרָהָם",
+            "lemma": "85",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "נִשְׁבַּעְתָּ",
+            "lemma": "7650",
+            "morph": "HVNp2ms"
+          },
+          {
+            "heb": "לַאֲבֹתֵינוּ",
+            "lemma": "1",
+            "morph": "HR/Ncmpc/Sp1cp"
+          },
+          {
+            "heb": "מִימֵי",
+            "lemma": "3117",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "קֶֽדֶם",
+            "lemma": "6924 a",
+            "morph": "HNcmsa"
+          }
+        ]
+      }
+    ]
+  }
+}

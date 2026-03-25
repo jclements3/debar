@@ -14,6 +14,19 @@ export function decompose_text(text: string): string;
 export function decompose_word(word: string): string;
 
 /**
+ * Extract the probable Hebrew root from a word, stripping prefixes and suffixes.
+ * Returns JSON: { original, prefixes, root, suffixes }
+ */
+export function extract_root_json(word: string): string;
+
+/**
+ * Generate a pictorial memory narrative for a Hebrew word.
+ * Takes a Hebrew word (with or without niqqud), decomposes it,
+ * and returns a template narrative string.
+ */
+export function generate_narrative_wasm(word: string): string;
+
+/**
  * Strip niqqud (vowel points) from Hebrew text.
  */
 export function strip_niqqud(text: string): string;
@@ -24,6 +37,8 @@ export interface InitOutput {
     readonly memory: WebAssembly.Memory;
     readonly decompose_text: (a: number, b: number) => [number, number];
     readonly decompose_word: (a: number, b: number) => [number, number];
+    readonly extract_root_json: (a: number, b: number) => [number, number];
+    readonly generate_narrative_wasm: (a: number, b: number) => [number, number];
     readonly strip_niqqud: (a: number, b: number) => [number, number];
     readonly __wbindgen_externrefs: WebAssembly.Table;
     readonly __wbindgen_malloc: (a: number, b: number) => number;

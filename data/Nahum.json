@@ -1,0 +1,3084 @@
+{
+  "name": "Nahum",
+  "osisId": "Nah",
+  "chapters": {
+    "1": [
+      {
+        "verse": 1,
+        "ref": "Nahum 1:1",
+        "words": [
+          {
+            "heb": "מַשָּׂא",
+            "lemma": "4853 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "נִֽינְוֵה",
+            "lemma": "5210",
+            "morph": "HNp"
+          },
+          {
+            "heb": "סֵפֶר",
+            "lemma": "5612 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "חֲזוֹן",
+            "lemma": "2377",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "נַחוּם",
+            "lemma": "5151",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הָאֶלְקֹשִֽׁי",
+            "lemma": "512",
+            "morph": "HTd/Ngmsa"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Nahum 1:2",
+        "words": [
+          {
+            "heb": "אֵל",
+            "lemma": "410",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "קַנּוֹא",
+            "lemma": "7072",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "וְנֹקֵם",
+            "lemma": "5358",
+            "morph": "HC/Vqrmsa"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "נֹקֵם",
+            "lemma": "5358",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּבַעַל",
+            "lemma": "1167",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "חֵמָה",
+            "lemma": "2534",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "נֹקֵם",
+            "lemma": "5358",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לְצָרָיו",
+            "lemma": "6862 c",
+            "morph": "HR/Ncmpc/Sp3ms"
+          },
+          {
+            "heb": "וְנוֹטֵר",
+            "lemma": "5201",
+            "morph": "HC/Vqrmsa"
+          },
+          {
+            "heb": "הוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          },
+          {
+            "heb": "לְאֹיְבָֽיו",
+            "lemma": "341",
+            "morph": "HR/Vqrmpc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Nahum 1:3",
+        "words": [
+          {
+            "heb": "יְהֹוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֶרֶךְ",
+            "lemma": "750",
+            "morph": "HAamsc"
+          },
+          {
+            "heb": "אַפַּיִם",
+            "lemma": "639",
+            "morph": "HNcmda"
+          },
+          {
+            "heb": "וּגְדָל",
+            "lemma": "1419 a",
+            "morph": "HC/Aamsc"
+          },
+          {
+            "heb": "כֹּחַ",
+            "lemma": "3581 b",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְנַקֵּה",
+            "lemma": "5352",
+            "morph": "HC/Vpa"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יְנַקֶּה",
+            "lemma": "5352",
+            "morph": "HVpi3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בְּסוּפָה",
+            "lemma": "5492 a",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "וּבִשְׂעָרָה",
+            "lemma": "8183",
+            "morph": "HC/R/Ncfsa"
+          },
+          {
+            "heb": "דַּרְכּוֹ",
+            "lemma": "1870",
+            "morph": "HNcbsc/Sp3ms"
+          },
+          {
+            "heb": "וְעָנָן",
+            "lemma": "6051",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "אֲבַק",
+            "lemma": "80",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "רַגְלָֽיו",
+            "lemma": "7272",
+            "morph": "HNcfdc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Nahum 1:4",
+        "words": [
+          {
+            "heb": "גּוֹעֵר",
+            "lemma": "1605",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "בַּיָּם",
+            "lemma": "3220",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "וַֽיַּבְּשֵׁהוּ",
+            "lemma": "3001",
+            "morph": "HC/Vpw3ms/Sp3ms"
+          },
+          {
+            "heb": "וְכָל",
+            "lemma": "3605",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "הַנְּהָרוֹת",
+            "lemma": "5104",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "הֶֽחֱרִיב",
+            "lemma": "2717 a",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "אֻמְלַל",
+            "lemma": "535",
+            "morph": "HVKp3ms"
+          },
+          {
+            "heb": "בָּשָׁן",
+            "lemma": "1316",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְכַרְמֶל",
+            "lemma": "3760",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "וּפֶרַח",
+            "lemma": "6525",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "לְבָנוֹן",
+            "lemma": "3844",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֻמְלָֽל",
+            "lemma": "535",
+            "morph": "HVKp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Nahum 1:5",
+        "words": [
+          {
+            "heb": "הָרִים",
+            "lemma": "2022",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "רָעֲשׁוּ",
+            "lemma": "7493",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "מִמֶּנּוּ",
+            "lemma": "4480 a",
+            "morph": "HR/Sp1cp"
+          },
+          {
+            "heb": "וְהַגְּבָעוֹת",
+            "lemma": "1389",
+            "morph": "HC/Td/Ncfpa"
+          },
+          {
+            "heb": "הִתְמֹגָגוּ",
+            "lemma": "4127",
+            "morph": "HVrp3cp"
+          },
+          {
+            "heb": "וַתִּשָּׂא",
+            "lemma": "5375",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "הָאָרֶץ",
+            "lemma": "776",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "מִפָּנָיו",
+            "lemma": "6440",
+            "morph": "HR/Ncbpc/Sp3ms"
+          },
+          {
+            "heb": "וְתֵבֵל",
+            "lemma": "8398",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "וְכָל",
+            "lemma": "3605",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "יֹשְׁבֵי",
+            "lemma": "3427",
+            "morph": "HVqrmpc"
+          },
+          {
+            "heb": "בָֽהּ",
+            "lemma": "b",
+            "morph": "HR/Sp3fs"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Nahum 1:6",
+        "words": [
+          {
+            "heb": "לִפְנֵי",
+            "lemma": "6440",
+            "morph": "HR/Ncbpc"
+          },
+          {
+            "heb": "זַעְמוֹ",
+            "lemma": "2195",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "מִי",
+            "lemma": "4310",
+            "morph": "HTi"
+          },
+          {
+            "heb": "יַֽעֲמוֹד",
+            "lemma": "5975",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "וּמִי",
+            "lemma": "4310",
+            "morph": "HC/Ti"
+          },
+          {
+            "heb": "יָקוּם",
+            "lemma": "6965 b",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "בַּחֲרוֹן",
+            "lemma": "2740",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "אַפּוֹ",
+            "lemma": "639",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "חֲמָתוֹ",
+            "lemma": "2534",
+            "morph": "HNcfsc/Sp3ms"
+          },
+          {
+            "heb": "נִתְּכָה",
+            "lemma": "5413",
+            "morph": "HVNp3fs"
+          },
+          {
+            "heb": "כָאֵשׁ",
+            "lemma": "784",
+            "morph": "HRd/Ncbsa"
+          },
+          {
+            "heb": "וְהַצֻּרִים",
+            "lemma": "6697",
+            "morph": "HC/Td/Ncmpa"
+          },
+          {
+            "heb": "נִתְּצוּ",
+            "lemma": "5422",
+            "morph": "HVNp3cp"
+          },
+          {
+            "heb": "מִמֶּֽנּוּ",
+            "lemma": "4480 a",
+            "morph": "HR/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Nahum 1:7",
+        "words": [
+          {
+            "heb": "טוֹב",
+            "lemma": "2896 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לְמָעוֹז",
+            "lemma": "4581",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "בְּיוֹם",
+            "lemma": "3117",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "צָרָה",
+            "lemma": "6869 b",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וְיֹדֵעַ",
+            "lemma": "3045",
+            "morph": "HC/Vqrmsa"
+          },
+          {
+            "heb": "חֹסֵי",
+            "lemma": "2620",
+            "morph": "HVqrmpc"
+          },
+          {
+            "heb": "בֽוֹ",
+            "lemma": "b",
+            "morph": "HR/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Nahum 1:8",
+        "words": [
+          {
+            "heb": "וּבְשֶׁטֶף",
+            "lemma": "7858",
+            "morph": "HC/R/Ncmsa"
+          },
+          {
+            "heb": "עֹבֵר",
+            "lemma": "5674 a",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "כָּלָה",
+            "lemma": "3617",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "יַעֲשֶׂה",
+            "lemma": "6213 a",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "מְקוֹמָהּ",
+            "lemma": "4725",
+            "morph": "HNcmsc/Sp3fs"
+          },
+          {
+            "heb": "וְאֹיְבָיו",
+            "lemma": "341",
+            "morph": "HC/Vqrmpc/Sp3ms"
+          },
+          {
+            "heb": "יְרַדֶּף",
+            "lemma": "7291",
+            "morph": "HVpi3ms"
+          },
+          {
+            "heb": "חֹֽשֶׁךְ",
+            "lemma": "2822",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Nahum 1:9",
+        "words": [
+          {
+            "heb": "מַה",
+            "lemma": "4100",
+            "morph": "HTi"
+          },
+          {
+            "heb": "תְּחַשְּׁבוּן",
+            "lemma": "2803",
+            "morph": "HVpi2mp/Sn"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כָּלָה",
+            "lemma": "3617",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "הוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          },
+          {
+            "heb": "עֹשֶׂה",
+            "lemma": "6213 a",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "לֹֽא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תָקוּם",
+            "lemma": "6965 b",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "פַּעֲמַיִם",
+            "lemma": "6471",
+            "morph": "HNcfda"
+          },
+          {
+            "heb": "צָרָֽה",
+            "lemma": "6869 b",
+            "morph": "HNcfsa"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Nahum 1:10",
+        "words": [
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "סִירִים",
+            "lemma": "5518 b",
+            "morph": "HNcfpa"
+          },
+          {
+            "heb": "סְבֻכִים",
+            "lemma": "5440",
+            "morph": "HVqsmpa"
+          },
+          {
+            "heb": "וּכְסָבְאָם",
+            "lemma": "5435",
+            "morph": "HC/R/Ncmsc/Sp3mp"
+          },
+          {
+            "heb": "סְבוּאִים",
+            "lemma": "5433 a",
+            "morph": "HVqsmpa"
+          },
+          {
+            "heb": "אֻכְּלוּ",
+            "lemma": "398",
+            "morph": "HVQp3cp"
+          },
+          {
+            "heb": "כְּקַשׁ",
+            "lemma": "7179",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "יָבֵשׁ",
+            "lemma": "3002",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "מָלֵֽא",
+            "lemma": "4392",
+            "morph": "HAamsa"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Nahum 1:11",
+        "words": [
+          {
+            "heb": "מִמֵּךְ",
+            "lemma": "4480 a",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "יָצָא",
+            "lemma": "3318",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "חֹשֵׁב",
+            "lemma": "2803",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "רָעָה",
+            "lemma": "7451 c",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "יֹעֵץ",
+            "lemma": "3289",
+            "morph": "HVqrmsc"
+          },
+          {
+            "heb": "בְּלִיָּֽעַל",
+            "lemma": "1100",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Nahum 1:12",
+        "words": [
+          {
+            "heb": "כֹּה",
+            "lemma": "3541",
+            "morph": "HD"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אִם",
+            "lemma": "518 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "שְׁלֵמִים",
+            "lemma": "8003",
+            "morph": "HAampa"
+          },
+          {
+            "heb": "וְכֵן",
+            "lemma": "3651 c",
+            "morph": "HC/Tm"
+          },
+          {
+            "heb": "רַבִּים",
+            "lemma": "7227 a",
+            "morph": "HAampa"
+          },
+          {
+            "heb": "וְכֵן",
+            "lemma": "3651 c",
+            "morph": "HC/Tm"
+          },
+          {
+            "heb": "נָגֹזּוּ",
+            "lemma": "1494",
+            "morph": "HVNp3cp"
+          },
+          {
+            "heb": "וְעָבָר",
+            "lemma": "5674 a",
+            "morph": "HC/Vqp3ms"
+          },
+          {
+            "heb": "וְעִנִּתִךְ",
+            "lemma": "6031 b",
+            "morph": "HC/Vpp1cs/Sp2fs"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "אֲעַנֵּךְ",
+            "lemma": "6031 b",
+            "morph": "HVpi1cs/Sp2fs"
+          },
+          {
+            "heb": "עֽוֹד",
+            "lemma": "5750",
+            "morph": "HD"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Nahum 1:13",
+        "words": [
+          {
+            "heb": "וְעַתָּה",
+            "lemma": "6258",
+            "morph": "HC/D"
+          },
+          {
+            "heb": "אֶשְׁבֹּר",
+            "lemma": "7665",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "מֹטֵהוּ",
+            "lemma": "4132",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "מֵֽעָלָיִךְ",
+            "lemma": "5921 a",
+            "morph": "HR/R/Sp2fs"
+          },
+          {
+            "heb": "וּמוֹסְרֹתַיִךְ",
+            "lemma": "4147",
+            "morph": "HC/Ncbpc/Sp2fs"
+          },
+          {
+            "heb": "אֲנַתֵּֽק",
+            "lemma": "5423",
+            "morph": "HVpi1cs"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Nahum 1:14",
+        "words": [
+          {
+            "heb": "וְצִוָּה",
+            "lemma": "6680",
+            "morph": "HC/Vpp3ms"
+          },
+          {
+            "heb": "עָלֶיךָ",
+            "lemma": "5921 a",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לֹֽא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יִזָּרַע",
+            "lemma": "2232",
+            "morph": "HVNi3ms"
+          },
+          {
+            "heb": "מִשִּׁמְךָ",
+            "lemma": "8034",
+            "morph": "HR/Ncmsc/Sp2ms"
+          },
+          {
+            "heb": "עוֹד",
+            "lemma": "5750",
+            "morph": "HD"
+          },
+          {
+            "heb": "מִבֵּית",
+            "lemma": "1004 b",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "אֱלֹהֶיךָ",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp2ms"
+          },
+          {
+            "heb": "אַכְרִית",
+            "lemma": "3772",
+            "morph": "HVhi1cs"
+          },
+          {
+            "heb": "פֶּסֶל",
+            "lemma": "6459",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וּמַסֵּכָה",
+            "lemma": "4541 a",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "אָשִׂים",
+            "lemma": "7760 a",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "קִבְרֶךָ",
+            "lemma": "6913",
+            "morph": "HNcmsc/Sp2ms"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "קַלּֽוֹתָ",
+            "lemma": "7043",
+            "morph": "HVqp2ms"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "verse": 1,
+        "ref": "Nahum 2:1",
+        "words": [
+          {
+            "heb": "הִנֵּה",
+            "lemma": "2009",
+            "morph": "HTm"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הֶהָרִים",
+            "lemma": "2022",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "רַגְלֵי",
+            "lemma": "7272",
+            "morph": "HNcfdc"
+          },
+          {
+            "heb": "מְבַשֵּׂר",
+            "lemma": "1319",
+            "morph": "HVprmsa"
+          },
+          {
+            "heb": "מַשְׁמִיעַ",
+            "lemma": "8085",
+            "morph": "HVhrmsa"
+          },
+          {
+            "heb": "שָׁלוֹם",
+            "lemma": "7965",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "חָגִּי",
+            "lemma": "2287",
+            "morph": "HVqv2fs"
+          },
+          {
+            "heb": "יְהוּדָה",
+            "lemma": "3063",
+            "morph": "HNp"
+          },
+          {
+            "heb": "חַגַּיִךְ",
+            "lemma": "2282",
+            "morph": "HNcmpc/Sp2fs"
+          },
+          {
+            "heb": "שַׁלְּמִי",
+            "lemma": "7999 a",
+            "morph": "HVpv2fs"
+          },
+          {
+            "heb": "נְדָרָיִךְ",
+            "lemma": "5088",
+            "morph": "HNcmpc/Sp2fs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יוֹסִיף",
+            "lemma": "3254",
+            "morph": "HVhi3ms"
+          },
+          {
+            "heb": "עוֹד",
+            "lemma": "5750",
+            "morph": "HD"
+          },
+          {
+            "heb": "לַֽעֲבָר",
+            "lemma": "5674 a",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "בָּךְ",
+            "lemma": "b",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "בְּלִיַּעַל",
+            "lemma": "1100",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "כֻּלֹּה",
+            "lemma": "3605",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "נִכְרָֽת",
+            "lemma": "3772",
+            "morph": "HVNp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Nahum 2:2",
+        "words": [
+          {
+            "heb": "עָלָה",
+            "lemma": "5927",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "מֵפִיץ",
+            "lemma": "6327 b",
+            "morph": "HVhrmsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "פָּנַיִךְ",
+            "lemma": "6440",
+            "morph": "HNcbpc/Sp2fs"
+          },
+          {
+            "heb": "נָצוֹר",
+            "lemma": "5341",
+            "morph": "HVqa"
+          },
+          {
+            "heb": "מְצֻרָה",
+            "lemma": "4694",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "צַפֵּה",
+            "lemma": "6822",
+            "morph": "HVpv2ms"
+          },
+          {
+            "heb": "דֶרֶךְ",
+            "lemma": "1870",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "חַזֵּק",
+            "lemma": "2388",
+            "morph": "HVpv2ms"
+          },
+          {
+            "heb": "מָתְנַיִם",
+            "lemma": "4975",
+            "morph": "HNcmda"
+          },
+          {
+            "heb": "אַמֵּץ",
+            "lemma": "553",
+            "morph": "HVpv2ms"
+          },
+          {
+            "heb": "כֹּחַ",
+            "lemma": "3581 b",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מְאֹֽד",
+            "lemma": "3966",
+            "morph": "HD"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Nahum 2:3",
+        "words": [
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "שָׁב",
+            "lemma": "7725",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "גְּאוֹן",
+            "lemma": "1347",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יַעֲקֹב",
+            "lemma": "3290",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כִּגְאוֹן",
+            "lemma": "1347",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "יִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "בְקָקוּם",
+            "lemma": "1238 b",
+            "morph": "HVqp3cp/Sp3mp"
+          },
+          {
+            "heb": "בֹּֽקְקִים",
+            "lemma": "1238 b",
+            "morph": "HVqrmpa"
+          },
+          {
+            "heb": "וּזְמֹרֵיהֶם",
+            "lemma": "2156",
+            "morph": "HC/Ncfpc/Sp3mp"
+          },
+          {
+            "heb": "שִׁחֵֽתוּ",
+            "lemma": "7843",
+            "morph": "HVpp3cp"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Nahum 2:4",
+        "words": [
+          {
+            "heb": "מָגֵן",
+            "lemma": "4043",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "גִּבֹּרֵיהוּ",
+            "lemma": "1368",
+            "morph": "HAampc/Sp3ms"
+          },
+          {
+            "heb": "מְאָדָּם",
+            "lemma": "119",
+            "morph": "HVPsmsa"
+          },
+          {
+            "heb": "אַנְשֵׁי",
+            "lemma": "376",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "חַיִל",
+            "lemma": "2428",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מְתֻלָּעִים",
+            "lemma": "8529",
+            "morph": "HVPsmpa"
+          },
+          {
+            "heb": "בְּאֵשׁ",
+            "lemma": "784",
+            "morph": "HR/Ncbsc"
+          },
+          {
+            "heb": "פְּלָדוֹת",
+            "lemma": "6393",
+            "morph": "HNcfpa"
+          },
+          {
+            "heb": "הָרֶכֶב",
+            "lemma": "7393",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "בְּיוֹם",
+            "lemma": "3117",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "הֲכִינוֹ",
+            "lemma": "3559 a",
+            "morph": "HVhc/Sp3ms"
+          },
+          {
+            "heb": "וְהַבְּרֹשִׁים",
+            "lemma": "1265",
+            "morph": "HC/Td/Ncmpa"
+          },
+          {
+            "heb": "הָרְעָֽלוּ",
+            "lemma": "7477",
+            "morph": "HVHp3cp"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Nahum 2:5",
+        "words": [
+          {
+            "heb": "בַּֽחוּצוֹת",
+            "lemma": "2351",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "יִתְהוֹלְלוּ",
+            "lemma": "1984 b",
+            "morph": "HVri3mp"
+          },
+          {
+            "heb": "הָרֶכֶב",
+            "lemma": "7393",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "יִֽשְׁתַּקְשְׁקוּן",
+            "lemma": "8264",
+            "morph": "HVfi3mp/Sn"
+          },
+          {
+            "heb": "בָּרְחֹבוֹת",
+            "lemma": "7339",
+            "morph": "HRd/Ncfpa"
+          },
+          {
+            "heb": "מַרְאֵיהֶן",
+            "lemma": "4758",
+            "morph": "HNcmsc/Sp3fp"
+          },
+          {
+            "heb": "כַּלַּפִּידִם",
+            "lemma": "3940",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "כַּבְּרָקִים",
+            "lemma": "1300 b",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "יְרוֹצֵֽצוּ",
+            "lemma": "7323",
+            "morph": "HVoi3mp"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Nahum 2:6",
+        "words": [
+          {
+            "heb": "יִזְכֹּר",
+            "lemma": "2142",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "אַדִּירָיו",
+            "lemma": "117",
+            "morph": "HAampc/Sp3ms"
+          },
+          {
+            "heb": "יִכָּשְׁלוּ",
+            "lemma": "3782",
+            "morph": "HVNi3mp"
+          },
+          {
+            "heb": "בַּהֲלִֽיכָתָם",
+            "lemma": "1979",
+            "morph": "HR/Ncfsc/Sp3mp"
+          },
+          {
+            "heb": "יְמַֽהֲרוּ",
+            "lemma": "4116 a",
+            "morph": "HVpi3mp"
+          },
+          {
+            "heb": "חֽוֹמָתָהּ",
+            "lemma": "2346",
+            "morph": "HNcfsc/Sp3fs"
+          },
+          {
+            "heb": "וְהֻכַן",
+            "lemma": "3559 a",
+            "morph": "HC/VHp3ms"
+          },
+          {
+            "heb": "הַסֹּכֵֽךְ",
+            "lemma": "5526 d",
+            "morph": "HTd/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Nahum 2:7",
+        "words": [
+          {
+            "heb": "שַׁעֲרֵי",
+            "lemma": "8179",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "הַנְּהָרוֹת",
+            "lemma": "5104",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "נִפְתָּחוּ",
+            "lemma": "6605 a",
+            "morph": "HVNp3cp"
+          },
+          {
+            "heb": "וְהַֽהֵיכָל",
+            "lemma": "1964",
+            "morph": "HC/Td/Ncmsa"
+          },
+          {
+            "heb": "נָמֽוֹג",
+            "lemma": "4127",
+            "morph": "HVNp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Nahum 2:8",
+        "words": [
+          {
+            "heb": "וְהֻצַּב",
+            "lemma": "5324",
+            "morph": "HC/VHp3ms"
+          },
+          {
+            "heb": "גֻּלְּתָה",
+            "lemma": "1540",
+            "morph": "HVPp3fs"
+          },
+          {
+            "heb": "הֹֽעֲלָתָה",
+            "lemma": "5927",
+            "morph": "HVHp3fs"
+          },
+          {
+            "heb": "וְאַמְהֹתֶיהָ",
+            "lemma": "519",
+            "morph": "HC/Ncfpc/Sp3fs"
+          },
+          {
+            "heb": "מְנַֽהֲגוֹת",
+            "lemma": "5090 b",
+            "morph": "HVprfpa"
+          },
+          {
+            "heb": "כְּקוֹל",
+            "lemma": "6963 a",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "יוֹנִים",
+            "lemma": "3123",
+            "morph": "HNcfpa"
+          },
+          {
+            "heb": "מְתֹפְפֹת",
+            "lemma": "8608",
+            "morph": "HVmrfpa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "לִבְבֵהֶֽן",
+            "lemma": "3824",
+            "morph": "HNcmpc/Sp3fp"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Nahum 2:9",
+        "words": [
+          {
+            "heb": "וְנִינְוֵה",
+            "lemma": "5210",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "כִבְרֵֽכַת",
+            "lemma": "1295",
+            "morph": "HR/Ncfsc"
+          },
+          {
+            "heb": "מַיִם",
+            "lemma": "4325",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "מִימֵי",
+            "lemma": "3117",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "הִיא",
+            "lemma": "1931",
+            "morph": "HPp3fs"
+          },
+          {
+            "heb": "וְהֵמָּה",
+            "lemma": "1992",
+            "morph": "HC/Pp3mp"
+          },
+          {
+            "heb": "נָסִים",
+            "lemma": "5127",
+            "morph": "HVqrmpa"
+          },
+          {
+            "heb": "עִמְדוּ",
+            "lemma": "5975",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "עֲמֹדוּ",
+            "lemma": "5975",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "וְאֵין",
+            "lemma": "369",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "מַפְנֶֽה",
+            "lemma": "6437",
+            "morph": "HVhrmsa"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Nahum 2:10",
+        "words": [
+          {
+            "heb": "בֹּזּוּ",
+            "lemma": "962",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "כֶסֶף",
+            "lemma": "3701",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בֹּזּוּ",
+            "lemma": "962",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "זָהָב",
+            "lemma": "2091",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְאֵין",
+            "lemma": "369",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "קֵצֶה",
+            "lemma": "7097 b",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "לַתְּכוּנָה",
+            "lemma": "8498",
+            "morph": "HRd/Ncfsa"
+          },
+          {
+            "heb": "כָּבֹד",
+            "lemma": "3519",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "מִכֹּל",
+            "lemma": "3605",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "כְּלִי",
+            "lemma": "3627",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "חֶמְדָּֽה",
+            "lemma": "2532 a",
+            "morph": "HNcfsa"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Nahum 2:11",
+        "words": [
+          {
+            "heb": "בּוּקָה",
+            "lemma": "950",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וּמְבוּקָה",
+            "lemma": "4003",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "וּמְבֻלָּקָה",
+            "lemma": "1110",
+            "morph": "HC/VPsfsa"
+          },
+          {
+            "heb": "וְלֵב",
+            "lemma": "3820 a",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "נָמֵס",
+            "lemma": "4549",
+            "morph": "HVNp3ms"
+          },
+          {
+            "heb": "וּפִק",
+            "lemma": "6375",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "בִּרְכַּיִם",
+            "lemma": "1290",
+            "morph": "HNcfda"
+          },
+          {
+            "heb": "וְחַלְחָלָה",
+            "lemma": "2479",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "בְּכָל",
+            "lemma": "3605",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "מָתְנַיִם",
+            "lemma": "4975",
+            "morph": "HNcmda"
+          },
+          {
+            "heb": "וּפְנֵי",
+            "lemma": "6440",
+            "morph": "HC/Ncbpc"
+          },
+          {
+            "heb": "כֻלָּם",
+            "lemma": "3605",
+            "morph": "HNcmsc/Sp3mp"
+          },
+          {
+            "heb": "קִבְּצוּ",
+            "lemma": "6908",
+            "morph": "HVpp3cp"
+          },
+          {
+            "heb": "פָארֽוּר",
+            "lemma": "6289",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Nahum 2:12",
+        "words": [
+          {
+            "heb": "אַיֵּה",
+            "lemma": "346",
+            "morph": "HTi"
+          },
+          {
+            "heb": "מְעוֹן",
+            "lemma": "4583",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "אֲרָיוֹת",
+            "lemma": "738 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "וּמִרְעֶה",
+            "lemma": "4829",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "הוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          },
+          {
+            "heb": "לַכְּפִרִים",
+            "lemma": "3715 a",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "הָלַךְ",
+            "lemma": "1980",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "אַרְיֵה",
+            "lemma": "738 b",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "לָבִיא",
+            "lemma": "3833 c",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "שָׁם",
+            "lemma": "8033",
+            "morph": "HD"
+          },
+          {
+            "heb": "גּוּר",
+            "lemma": "1482",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אַרְיֵה",
+            "lemma": "738 b",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְאֵין",
+            "lemma": "369",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "מַחֲרִֽיד",
+            "lemma": "2729",
+            "morph": "HVhrmsa"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Nahum 2:13",
+        "words": [
+          {
+            "heb": "אַרְיֵה",
+            "lemma": "738 b",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "טֹרֵף",
+            "lemma": "2963",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "בְּדֵי",
+            "lemma": "1767",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "גֹֽרוֹתָיו",
+            "lemma": "1484",
+            "morph": "HNcmpc/Sp3ms"
+          },
+          {
+            "heb": "וּמְחַנֵּק",
+            "lemma": "2614",
+            "morph": "HC/Vprmsa"
+          },
+          {
+            "heb": "לְלִבְאֹתָיו",
+            "lemma": "3833 a",
+            "morph": "HR/Ncbpc/Sp3ms"
+          },
+          {
+            "heb": "וַיְמַלֵּא",
+            "lemma": "4390",
+            "morph": "HC/Vpw3ms"
+          },
+          {
+            "heb": "טֶרֶף",
+            "lemma": "2964",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "חֹרָיו",
+            "lemma": "2356",
+            "morph": "HNcmpc/Sp3ms"
+          },
+          {
+            "heb": "וּמְעֹֽנֹתָיו",
+            "lemma": "4585",
+            "morph": "HC/Ncbpc/Sp3ms"
+          },
+          {
+            "heb": "טְרֵפָֽה",
+            "lemma": "2966",
+            "morph": "HNcfsa"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Nahum 2:14",
+        "words": [
+          {
+            "heb": "הִנְנִי",
+            "lemma": "2005",
+            "morph": "HTm/Sp1cs"
+          },
+          {
+            "heb": "אֵלַיִךְ",
+            "lemma": "413",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "נְאֻם",
+            "lemma": "5002",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "וְהִבְעַרְתִּי",
+            "lemma": "1197 a",
+            "morph": "HC/Vhp1cs"
+          },
+          {
+            "heb": "בֶֽעָשָׁן",
+            "lemma": "6227",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "רִכְבָּהּ",
+            "lemma": "7393",
+            "morph": "HNcmsc/Sp3fs"
+          },
+          {
+            "heb": "וּכְפִירַיִךְ",
+            "lemma": "3715 a",
+            "morph": "HC/Ncmpc/Sp2fs"
+          },
+          {
+            "heb": "תֹּאכַל",
+            "lemma": "398",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "חָרֶב",
+            "lemma": "2719",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וְהִכְרַתִּי",
+            "lemma": "3772",
+            "morph": "HC/Vhq1cs"
+          },
+          {
+            "heb": "מֵאֶרֶץ",
+            "lemma": "776",
+            "morph": "HR/Ncbsa"
+          },
+          {
+            "heb": "טַרְפֵּךְ",
+            "lemma": "2964",
+            "morph": "HNcmsc/Sp2fs"
+          },
+          {
+            "heb": "וְלֹֽא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יִשָּׁמַע",
+            "lemma": "8085",
+            "morph": "HVNi3ms"
+          },
+          {
+            "heb": "עוֹד",
+            "lemma": "5750",
+            "morph": "HD"
+          },
+          {
+            "heb": "קוֹל",
+            "lemma": "6963 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "מַלְאָכֵֽכֵה",
+            "lemma": "4397",
+            "morph": "HNcmpc/Sp2fs"
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "verse": 1,
+        "ref": "Nahum 3:1",
+        "words": [
+          {
+            "heb": "הוֹי",
+            "lemma": "1945",
+            "morph": "HTj"
+          },
+          {
+            "heb": "עִיר",
+            "lemma": "5892 b",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "דָּמִים",
+            "lemma": "1818",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "כֻּלָּהּ",
+            "lemma": "3605",
+            "morph": "HNcmsc/Sp3fs"
+          },
+          {
+            "heb": "כַּחַשׁ",
+            "lemma": "3585",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "פֶּרֶק",
+            "lemma": "6563",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מְלֵאָה",
+            "lemma": "4395",
+            "morph": "HAafsa"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יָמִישׁ",
+            "lemma": "4185",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "טָֽרֶף",
+            "lemma": "2964",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Nahum 3:2",
+        "words": [
+          {
+            "heb": "קוֹל",
+            "lemma": "6963 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "שׁוֹט",
+            "lemma": "7752",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְקוֹל",
+            "lemma": "6963 a",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "רַעַשׁ",
+            "lemma": "7494",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אוֹפָן",
+            "lemma": "212",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְסוּס",
+            "lemma": "5483 b",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "דֹּהֵר",
+            "lemma": "1725",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "וּמֶרְכָּבָה",
+            "lemma": "4818",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "מְרַקֵּדָֽה",
+            "lemma": "7540",
+            "morph": "HVprfsa"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Nahum 3:3",
+        "words": [
+          {
+            "heb": "פָּרָשׁ",
+            "lemma": "6571 b",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מַעֲלֶה",
+            "lemma": "5927",
+            "morph": "HVhrmsa"
+          },
+          {
+            "heb": "וְלַהַב",
+            "lemma": "3851",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "חֶרֶב",
+            "lemma": "2719",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וּבְרַק",
+            "lemma": "1300 b",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "חֲנִית",
+            "lemma": "2595",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וְרֹב",
+            "lemma": "7230",
+            "morph": "HC/Ncbsc"
+          },
+          {
+            "heb": "חָלָל",
+            "lemma": "2491 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "וְכֹבֶד",
+            "lemma": "3514",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "פָּגֶר",
+            "lemma": "6297",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְאֵין",
+            "lemma": "369",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "קֵצֶה",
+            "lemma": "7097 b",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "לַגְּוִיָּה",
+            "lemma": "1472",
+            "morph": "HRd/Ncfsa"
+          },
+          {
+            "heb": "וְכָשְׁלוּ",
+            "lemma": "3782",
+            "morph": "HC/Vqp3cp"
+          },
+          {
+            "heb": "בִּגְוִיָּתָֽם",
+            "lemma": "1472",
+            "morph": "HR/Ncfsc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Nahum 3:4",
+        "words": [
+          {
+            "heb": "מֵרֹב",
+            "lemma": "7230",
+            "morph": "HR/Ncbsc"
+          },
+          {
+            "heb": "זְנוּנֵי",
+            "lemma": "2183",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "זוֹנָה",
+            "lemma": "2181",
+            "morph": "HVqrfsa"
+          },
+          {
+            "heb": "טוֹבַת",
+            "lemma": "2896 a",
+            "morph": "HAafsc"
+          },
+          {
+            "heb": "חֵן",
+            "lemma": "2580",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בַּעֲלַת",
+            "lemma": "1172",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "כְּשָׁפִים",
+            "lemma": "3785",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "הַמֹּכֶרֶת",
+            "lemma": "4376",
+            "morph": "HTd/Vqrfsa"
+          },
+          {
+            "heb": "גּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "בִּזְנוּנֶיהָ",
+            "lemma": "2183",
+            "morph": "HR/Ncmpc/Sp3fs"
+          },
+          {
+            "heb": "וּמִשְׁפָּחוֹת",
+            "lemma": "4940",
+            "morph": "HC/Ncfpa"
+          },
+          {
+            "heb": "בִּכְשָׁפֶֽיהָ",
+            "lemma": "3785",
+            "morph": "HR/Ncmpc/Sp3fs"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Nahum 3:5",
+        "words": [
+          {
+            "heb": "הִנְנִי",
+            "lemma": "2005",
+            "morph": "HTm/Sp1cs"
+          },
+          {
+            "heb": "אֵלַיִךְ",
+            "lemma": "413",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "נְאֻם",
+            "lemma": "5002",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "וְגִלֵּיתִי",
+            "lemma": "1540",
+            "morph": "HC/Vpp1cs"
+          },
+          {
+            "heb": "שׁוּלַיִךְ",
+            "lemma": "7757",
+            "morph": "HNcmpc/Sp2fs"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "פָּנָיִךְ",
+            "lemma": "6440",
+            "morph": "HNcbpc/Sp2fs"
+          },
+          {
+            "heb": "וְהַרְאֵיתִי",
+            "lemma": "7200",
+            "morph": "HC/Vhp1cs"
+          },
+          {
+            "heb": "גוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "מַעְרֵךְ",
+            "lemma": "4626",
+            "morph": "HNcmsc/Sp2fs"
+          },
+          {
+            "heb": "וּמַמְלָכוֹת",
+            "lemma": "4467",
+            "morph": "HC/Ncfpa"
+          },
+          {
+            "heb": "קְלוֹנֵֽךְ",
+            "lemma": "7036",
+            "morph": "HNcmsc/Sp2fs"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Nahum 3:6",
+        "words": [
+          {
+            "heb": "וְהִשְׁלַכְתִּי",
+            "lemma": "7993",
+            "morph": "HC/Vhp1cs"
+          },
+          {
+            "heb": "עָלַיִךְ",
+            "lemma": "5921 a",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "שִׁקֻּצִים",
+            "lemma": "8251",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "וְנִבַּלְתִּיךְ",
+            "lemma": "5034 a",
+            "morph": "HC/Vpp1cs/Sp2fs"
+          },
+          {
+            "heb": "וְשַׂמְתִּיךְ",
+            "lemma": "7760 a",
+            "morph": "HC/Vqp1cs/Sp2fs"
+          },
+          {
+            "heb": "כְּרֹֽאִי",
+            "lemma": "7210",
+            "morph": "HR/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Nahum 3:7",
+        "words": [
+          {
+            "heb": "וְהָיָה",
+            "lemma": "1961",
+            "morph": "HC/Vqp3ms"
+          },
+          {
+            "heb": "כָל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "רֹאַיִךְ",
+            "lemma": "7200",
+            "morph": "HVqrmpc/Sp2fs"
+          },
+          {
+            "heb": "יִדּוֹד",
+            "lemma": "5074",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "מִמֵּךְ",
+            "lemma": "4480 a",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "וְאָמַר",
+            "lemma": "559",
+            "morph": "HC/Vqp3ms"
+          },
+          {
+            "heb": "שָׁדְּדָה",
+            "lemma": "7703",
+            "morph": "HVPp3fs"
+          },
+          {
+            "heb": "נִֽינְוֵה",
+            "lemma": "5210",
+            "morph": "HNp"
+          },
+          {
+            "heb": "מִי",
+            "lemma": "4310",
+            "morph": "HTi"
+          },
+          {
+            "heb": "יָנוּד",
+            "lemma": "5110",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "לָהּ",
+            "lemma": "l",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "מֵאַיִן",
+            "lemma": "370",
+            "morph": "HR/Ti"
+          },
+          {
+            "heb": "אֲבַקֵּשׁ",
+            "lemma": "1245",
+            "morph": "HVpi1cs"
+          },
+          {
+            "heb": "מְנַחֲמִים",
+            "lemma": "5162",
+            "morph": "HVprmpa"
+          },
+          {
+            "heb": "לָֽךְ",
+            "lemma": "l",
+            "morph": "HR/Sp2fs"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Nahum 3:8",
+        "words": [
+          {
+            "heb": "הֲתֵֽיטְבִי",
+            "lemma": "3190",
+            "morph": "HTi/Vhi2fs"
+          },
+          {
+            "heb": "מִנֹּא",
+            "lemma": "4996",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "אָמוֹן",
+            "lemma": "528",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הַיֹּֽשְׁבָה",
+            "lemma": "3427",
+            "morph": "HTd/Vqrfsa"
+          },
+          {
+            "heb": "בַּיְאֹרִים",
+            "lemma": "2975",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "מַיִם",
+            "lemma": "4325",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "סָבִיב",
+            "lemma": "5439",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "לָהּ",
+            "lemma": "l",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "חֵיל",
+            "lemma": "2426",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יָם",
+            "lemma": "3220",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מִיָּם",
+            "lemma": "3220",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "חוֹמָתָֽהּ",
+            "lemma": "2346",
+            "morph": "HNcfsc/Sp3fs"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Nahum 3:9",
+        "words": [
+          {
+            "heb": "כּוּשׁ",
+            "lemma": "3568 a",
+            "morph": "HNp"
+          },
+          {
+            "heb": "עָצְמָה",
+            "lemma": "6109",
+            "morph": "HNcfsc/Sp3fs"
+          },
+          {
+            "heb": "וּמִצְרַיִם",
+            "lemma": "4714",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "וְאֵין",
+            "lemma": "369",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "קֵצֶה",
+            "lemma": "7097 b",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "פּוּט",
+            "lemma": "6316",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְלוּבִים",
+            "lemma": "3864",
+            "morph": "HC/Ngmpa"
+          },
+          {
+            "heb": "הָיוּ",
+            "lemma": "1961",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "בְּעֶזְרָתֵֽךְ",
+            "lemma": "5833",
+            "morph": "HR/Ncfsc/Sp2fs"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Nahum 3:10",
+        "words": [
+          {
+            "heb": "גַּם",
+            "lemma": "1571",
+            "morph": "HTa"
+          },
+          {
+            "heb": "הִיא",
+            "lemma": "1931",
+            "morph": "HPp3fs"
+          },
+          {
+            "heb": "לַגֹּלָה",
+            "lemma": "1473",
+            "morph": "HRd/Ncfsa"
+          },
+          {
+            "heb": "הָלְכָה",
+            "lemma": "1980",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "בַשֶּׁבִי",
+            "lemma": "7628 a",
+            "morph": "HRd/Ncbsa"
+          },
+          {
+            "heb": "גַּם",
+            "lemma": "1571",
+            "morph": "HTa"
+          },
+          {
+            "heb": "עֹלָלֶיהָ",
+            "lemma": "5768",
+            "morph": "HNcmpc/Sp3fs"
+          },
+          {
+            "heb": "יְרֻטְּשׁוּ",
+            "lemma": "7376",
+            "morph": "HVPi3mp"
+          },
+          {
+            "heb": "בְּרֹאשׁ",
+            "lemma": "7218 a",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "חוּצוֹת",
+            "lemma": "2351",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "וְעַל",
+            "lemma": "5921 a",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "נִכְבַּדֶּיהָ",
+            "lemma": "3513",
+            "morph": "HVNsmpc/Sp3fs"
+          },
+          {
+            "heb": "יַדּוּ",
+            "lemma": "3032",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "גוֹרָל",
+            "lemma": "1486",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְכָל",
+            "lemma": "3605",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "גְּדוֹלֶיהָ",
+            "lemma": "1419 a",
+            "morph": "HAampc/Sp3fs"
+          },
+          {
+            "heb": "רֻתְּקוּ",
+            "lemma": "7576",
+            "morph": "HVPp3cp"
+          },
+          {
+            "heb": "בַזִּקִּֽים",
+            "lemma": "2131 b",
+            "morph": "HRd/Ncmpa"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Nahum 3:11",
+        "words": [
+          {
+            "heb": "גַּם",
+            "lemma": "1571",
+            "morph": "HTa"
+          },
+          {
+            "heb": "אַתְּ",
+            "lemma": "859 c",
+            "morph": "HPp2fs"
+          },
+          {
+            "heb": "תִּשְׁכְּרִי",
+            "lemma": "7937",
+            "morph": "HVqi2fs"
+          },
+          {
+            "heb": "תְּהִי",
+            "lemma": "1961",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "נַֽעֲלָמָה",
+            "lemma": "5956",
+            "morph": "HVNsfsa"
+          },
+          {
+            "heb": "גַּם",
+            "lemma": "1571",
+            "morph": "HTa"
+          },
+          {
+            "heb": "אַתְּ",
+            "lemma": "859 c",
+            "morph": "HPp2fs"
+          },
+          {
+            "heb": "תְּבַקְשִׁי",
+            "lemma": "1245",
+            "morph": "HVpi2fs"
+          },
+          {
+            "heb": "מָעוֹז",
+            "lemma": "4581",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מֵאוֹיֵֽב",
+            "lemma": "341",
+            "morph": "HR/Vqrmsa"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Nahum 3:12",
+        "words": [
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "מִבְצָרַיִךְ",
+            "lemma": "4013",
+            "morph": "HNcmpc/Sp2fs"
+          },
+          {
+            "heb": "תְּאֵנִים",
+            "lemma": "8384",
+            "morph": "HNcfpa"
+          },
+          {
+            "heb": "עִם",
+            "lemma": "5973 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "בִּכּוּרִים",
+            "lemma": "1061",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "אִם",
+            "lemma": "518 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "יִנּוֹעוּ",
+            "lemma": "5128",
+            "morph": "HVNi3mp"
+          },
+          {
+            "heb": "וְנָפְלוּ",
+            "lemma": "5307",
+            "morph": "HC/Vqp3cp"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "פִּי",
+            "lemma": "6310",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אוֹכֵֽל",
+            "lemma": "398",
+            "morph": "HVqrmsa"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Nahum 3:13",
+        "words": [
+          {
+            "heb": "הִנֵּה",
+            "lemma": "2009",
+            "morph": "HTm"
+          },
+          {
+            "heb": "עַמֵּךְ",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp2fs"
+          },
+          {
+            "heb": "נָשִׁים",
+            "lemma": "802",
+            "morph": "HNcfpa"
+          },
+          {
+            "heb": "בְּקִרְבֵּךְ",
+            "lemma": "7130",
+            "morph": "HR/Ncmsc/Sp2fs"
+          },
+          {
+            "heb": "לְאֹיְבַיִךְ",
+            "lemma": "341",
+            "morph": "HR/Vqrmpc/Sp2fs"
+          },
+          {
+            "heb": "פָּתוֹחַ",
+            "lemma": "6605 a",
+            "morph": "HVqa"
+          },
+          {
+            "heb": "נִפְתְּחוּ",
+            "lemma": "6605 a",
+            "morph": "HVNp3cp"
+          },
+          {
+            "heb": "שַׁעֲרֵי",
+            "lemma": "8179",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "אַרְצֵךְ",
+            "lemma": "776",
+            "morph": "HNcbsc/Sp2fs"
+          },
+          {
+            "heb": "אָכְלָה",
+            "lemma": "398",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "אֵשׁ",
+            "lemma": "784",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "בְּרִיחָֽיִך",
+            "lemma": "1280",
+            "morph": "HNcmpc/Sp2fs"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Nahum 3:14",
+        "words": [
+          {
+            "heb": "מֵי",
+            "lemma": "4325",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "מָצוֹר",
+            "lemma": "4692",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "שַֽׁאֲבִי",
+            "lemma": "7579",
+            "morph": "HVqv2fs"
+          },
+          {
+            "heb": "לָךְ",
+            "lemma": "l",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "חַזְּקִי",
+            "lemma": "2388",
+            "morph": "HVpv2fs"
+          },
+          {
+            "heb": "מִבְצָרָיִךְ",
+            "lemma": "4013",
+            "morph": "HNcmpc/Sp2fs"
+          },
+          {
+            "heb": "בֹּאִי",
+            "lemma": "935",
+            "morph": "HVqv2fs"
+          },
+          {
+            "heb": "בַטִּיט",
+            "lemma": "2916",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "וְרִמְסִי",
+            "lemma": "7429",
+            "morph": "HC/Vqv2fs"
+          },
+          {
+            "heb": "בַחֹמֶר",
+            "lemma": "2563 a",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "הַחֲזִיקִי",
+            "lemma": "2388",
+            "morph": "HVhv2fs"
+          },
+          {
+            "heb": "מַלְבֵּֽן",
+            "lemma": "4404",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 15,
+        "ref": "Nahum 3:15",
+        "words": [
+          {
+            "heb": "שָׁם",
+            "lemma": "8033",
+            "morph": "HD"
+          },
+          {
+            "heb": "תֹּאכְלֵךְ",
+            "lemma": "398",
+            "morph": "HVqi3fs/Sp2fs"
+          },
+          {
+            "heb": "אֵשׁ",
+            "lemma": "784",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "תַּכְרִיתֵךְ",
+            "lemma": "3772",
+            "morph": "HVhi3fs/Sp2fs"
+          },
+          {
+            "heb": "חֶרֶב",
+            "lemma": "2719",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "תֹּאכְלֵךְ",
+            "lemma": "398",
+            "morph": "HVqi3fs/Sp2fs"
+          },
+          {
+            "heb": "כַּיָּלֶק",
+            "lemma": "3218",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "הִתְכַּבֵּד",
+            "lemma": "3513",
+            "morph": "HVtv2ms"
+          },
+          {
+            "heb": "כַּיֶּלֶק",
+            "lemma": "3218",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "הִֽתְכַּבְּדִי",
+            "lemma": "3513",
+            "morph": "HVtv2fs"
+          },
+          {
+            "heb": "כָּאַרְבֶּֽה",
+            "lemma": "697",
+            "morph": "HRd/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 16,
+        "ref": "Nahum 3:16",
+        "words": [
+          {
+            "heb": "הִרְבֵּית",
+            "lemma": "7235 a",
+            "morph": "HVhp2fs"
+          },
+          {
+            "heb": "רֹֽכְלַיִךְ",
+            "lemma": "7402",
+            "morph": "HVqrmpc/Sp2fs"
+          },
+          {
+            "heb": "מִכּוֹכְבֵי",
+            "lemma": "3556",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "הַשָּׁמָיִם",
+            "lemma": "8064",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "יֶלֶק",
+            "lemma": "3218",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "פָּשַׁט",
+            "lemma": "6584",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "וַיָּעֹֽף",
+            "lemma": "5774 a",
+            "morph": "HC/Vqw3ms"
+          }
+        ]
+      },
+      {
+        "verse": 17,
+        "ref": "Nahum 3:17",
+        "words": [
+          {
+            "heb": "מִנְּזָרַיִךְ",
+            "lemma": "4502",
+            "morph": "HNcmpc/Sp2fs"
+          },
+          {
+            "heb": "כָּֽאַרְבֶּה",
+            "lemma": "697",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "וְטַפְסְרַיִךְ",
+            "lemma": "2951",
+            "morph": "HC/Ncmpc/Sp2fs"
+          },
+          {
+            "heb": "כְּגוֹב",
+            "lemma": "1462 a",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "גֹּבָי",
+            "lemma": "1462 b",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "הַֽחוֹנִים",
+            "lemma": "2583",
+            "morph": "HTd/Vqrmpa"
+          },
+          {
+            "heb": "בַּגְּדֵרוֹת",
+            "lemma": "1448",
+            "morph": "HRd/Ncfpa"
+          },
+          {
+            "heb": "בְּיוֹם",
+            "lemma": "3117",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "קָרָה",
+            "lemma": "7135",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "שֶׁמֶשׁ",
+            "lemma": "8121",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "זָֽרְחָה",
+            "lemma": "2224",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "וְנוֹדַד",
+            "lemma": "5074",
+            "morph": "HC/VMp3ms"
+          },
+          {
+            "heb": "וְלֹֽא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "נוֹדַע",
+            "lemma": "3045",
+            "morph": "HVNp3ms"
+          },
+          {
+            "heb": "מְקוֹמוֹ",
+            "lemma": "4725",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "אַיָּֽם",
+            "lemma": "335",
+            "morph": "HTi/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 18,
+        "ref": "Nahum 3:18",
+        "words": [
+          {
+            "heb": "נָמוּ",
+            "lemma": "5123",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "רֹעֶיךָ",
+            "lemma": "7462 b",
+            "morph": "HVqrmpc/Sp2ms"
+          },
+          {
+            "heb": "מֶלֶךְ",
+            "lemma": "4428",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אַשּׁוּר",
+            "lemma": "804",
+            "morph": "HNp"
+          },
+          {
+            "heb": "יִשְׁכְּנוּ",
+            "lemma": "7931",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "אַדִּירֶיךָ",
+            "lemma": "117",
+            "morph": "HAampc/Sp2ms"
+          },
+          {
+            "heb": "נָפֹשׁוּ",
+            "lemma": "6335 b",
+            "morph": "HVNp3cp"
+          },
+          {
+            "heb": "עַמְּךָ",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp2ms"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הֶהָרִים",
+            "lemma": "2022",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "וְאֵין",
+            "lemma": "369",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "מְקַבֵּֽץ",
+            "lemma": "6908",
+            "morph": "HVprmsa"
+          }
+        ]
+      },
+      {
+        "verse": 19,
+        "ref": "Nahum 3:19",
+        "words": [
+          {
+            "heb": "אֵין",
+            "lemma": "369",
+            "morph": "HTn"
+          },
+          {
+            "heb": "כֵּהָה",
+            "lemma": "3545",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "לְשִׁבְרֶךָ",
+            "lemma": "7667",
+            "morph": "HR/Ncmsc/Sp2ms"
+          },
+          {
+            "heb": "נַחְלָה",
+            "lemma": "2470 a",
+            "morph": "HVNsfsa"
+          },
+          {
+            "heb": "מַכָּתֶךָ",
+            "lemma": "4347",
+            "morph": "HNcfsc/Sp2ms"
+          },
+          {
+            "heb": "כֹּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "שֹׁמְעֵי",
+            "lemma": "8085",
+            "morph": "HVqrmpc"
+          },
+          {
+            "heb": "שִׁמְעֲךָ",
+            "lemma": "8088 b",
+            "morph": "HNcmsc/Sp2ms"
+          },
+          {
+            "heb": "תָּקְעוּ",
+            "lemma": "8628",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "כַף",
+            "lemma": "3709",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "עָלֶיךָ",
+            "lemma": "5921 a",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "מִי",
+            "lemma": "4310",
+            "morph": "HTi"
+          },
+          {
+            "heb": "לֹֽא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "עָבְרָה",
+            "lemma": "5674 a",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "רָעָתְךָ",
+            "lemma": "7451 c",
+            "morph": "HNcfsc/Sp2ms"
+          },
+          {
+            "heb": "תָּמִֽיד",
+            "lemma": "8548",
+            "morph": "HNcmsa"
+          }
+        ]
+      }
+    ]
+  }
+}

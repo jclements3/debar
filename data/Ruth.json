@@ -1,0 +1,6999 @@
+{
+  "name": "Ruth",
+  "osisId": "Ruth",
+  "chapters": {
+    "1": [
+      {
+        "verse": 1,
+        "ref": "Ruth 1:1",
+        "words": [
+          {
+            "heb": "וַיְהִי",
+            "lemma": "1961",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "בִּימֵי",
+            "lemma": "3117",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "שְׁפֹט",
+            "lemma": "8199",
+            "morph": "HVqc"
+          },
+          {
+            "heb": "הַשֹּׁפְטִים",
+            "lemma": "8199",
+            "morph": "HTd/Vqrmpa"
+          },
+          {
+            "heb": "וַיְהִי",
+            "lemma": "1961",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "רָעָב",
+            "lemma": "7458",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בָּאָרֶץ",
+            "lemma": "776",
+            "morph": "HRd/Ncbsa"
+          },
+          {
+            "heb": "וַיֵּלֶךְ",
+            "lemma": "3212",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "אִישׁ",
+            "lemma": "376",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מִבֵּית",
+            "lemma": "1035+",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "לֶחֶם",
+            "lemma": "1035",
+            "morph": "HNp"
+          },
+          {
+            "heb": "יְהוּדָה",
+            "lemma": "3063",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לָגוּר",
+            "lemma": "1481 a",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "בִּשְׂדֵי",
+            "lemma": "7704 b",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "מוֹאָב",
+            "lemma": "4124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          },
+          {
+            "heb": "וְאִשְׁתּוֹ",
+            "lemma": "802",
+            "morph": "HC/Ncfsc/Sp3ms"
+          },
+          {
+            "heb": "וּשְׁנֵי",
+            "lemma": "8147",
+            "morph": "HC/Acmdc"
+          },
+          {
+            "heb": "בָנָֽיו",
+            "lemma": "1121 a",
+            "morph": "HNcmpc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Ruth 1:2",
+        "words": [
+          {
+            "heb": "וְשֵׁם",
+            "lemma": "8034",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "הָאִישׁ",
+            "lemma": "376",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "אֱֽלִימֶלֶךְ",
+            "lemma": "458",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְשֵׁם",
+            "lemma": "8034",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "אִשְׁתּוֹ",
+            "lemma": "802",
+            "morph": "HNcfsc/Sp3ms"
+          },
+          {
+            "heb": "נָעֳמִי",
+            "lemma": "5281",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְשֵׁם",
+            "lemma": "8034",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "שְׁנֵֽי",
+            "lemma": "8147",
+            "morph": "HAcmdc"
+          },
+          {
+            "heb": "בָנָיו",
+            "lemma": "1121 a",
+            "morph": "HNcmpc/Sp3ms"
+          },
+          {
+            "heb": "מַחְלוֹן",
+            "lemma": "4248",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְכִלְיוֹן",
+            "lemma": "3630",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "אֶפְרָתִים",
+            "lemma": "673",
+            "morph": "HNgmpa"
+          },
+          {
+            "heb": "מִבֵּית",
+            "lemma": "1035+",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "לֶחֶם",
+            "lemma": "1035",
+            "morph": "HNp"
+          },
+          {
+            "heb": "יְהוּדָה",
+            "lemma": "3063",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיָּבֹאוּ",
+            "lemma": "935",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "שְׂדֵי",
+            "lemma": "7704 b",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "מוֹאָב",
+            "lemma": "4124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיִּֽהְיוּ",
+            "lemma": "1961",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "שָֽׁם",
+            "lemma": "8033",
+            "morph": "HD"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Ruth 1:3",
+        "words": [
+          {
+            "heb": "וַיָּמָת",
+            "lemma": "4191",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "אֱלִימֶלֶךְ",
+            "lemma": "458",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אִישׁ",
+            "lemma": "376",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "נָעֳמִי",
+            "lemma": "5281",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַתִּשָּׁאֵר",
+            "lemma": "7604",
+            "morph": "HC/VNw3fs"
+          },
+          {
+            "heb": "הִיא",
+            "lemma": "1931",
+            "morph": "HPp3fs"
+          },
+          {
+            "heb": "וּשְׁנֵי",
+            "lemma": "8147",
+            "morph": "HC/Acmdc"
+          },
+          {
+            "heb": "בָנֶֽיהָ",
+            "lemma": "1121 a",
+            "morph": "HNcmpc/Sp3fs"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Ruth 1:4",
+        "words": [
+          {
+            "heb": "וַיִּשְׂאוּ",
+            "lemma": "5375",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "לָהֶם",
+            "lemma": "l",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "נָשִׁים",
+            "lemma": "802",
+            "morph": "HNcfpa"
+          },
+          {
+            "heb": "מֹֽאֲבִיּוֹת",
+            "lemma": "4125",
+            "morph": "HNgfpa"
+          },
+          {
+            "heb": "שֵׁם",
+            "lemma": "8034",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הָֽאַחַת",
+            "lemma": "259",
+            "morph": "HTd/Acfsa"
+          },
+          {
+            "heb": "עָרְפָּה",
+            "lemma": "6204",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְשֵׁם",
+            "lemma": "8034",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "הַשֵּׁנִית",
+            "lemma": "8145",
+            "morph": "HTd/Aofsa"
+          },
+          {
+            "heb": "רוּת",
+            "lemma": "7327",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיֵּשְׁבוּ",
+            "lemma": "3427",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "שָׁם",
+            "lemma": "8033",
+            "morph": "HD"
+          },
+          {
+            "heb": "כְּעֶשֶׂר",
+            "lemma": "6235",
+            "morph": "HR/Acfsa"
+          },
+          {
+            "heb": "שָׁנִֽים",
+            "lemma": "8141",
+            "morph": "HNcfpa"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Ruth 1:5",
+        "words": [
+          {
+            "heb": "וַיָּמוּתוּ",
+            "lemma": "4191",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "גַם",
+            "lemma": "1571",
+            "morph": "HD"
+          },
+          {
+            "heb": "שְׁנֵיהֶם",
+            "lemma": "8147",
+            "morph": "HAcmdc/Sp3mp"
+          },
+          {
+            "heb": "מַחְלוֹן",
+            "lemma": "4248",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְכִלְיוֹן",
+            "lemma": "3630",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "וַתִּשָּׁאֵר",
+            "lemma": "7604",
+            "morph": "HC/VNw3fs"
+          },
+          {
+            "heb": "הָֽאִשָּׁה",
+            "lemma": "802",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "מִשְּׁנֵי",
+            "lemma": "8147",
+            "morph": "HR/Acmdc"
+          },
+          {
+            "heb": "יְלָדֶיהָ",
+            "lemma": "3206",
+            "morph": "HNcmpc/Sp3fs"
+          },
+          {
+            "heb": "וּמֵאִישָֽׁהּ",
+            "lemma": "376",
+            "morph": "HC/R/Ncmsc/Sp3fs"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Ruth 1:6",
+        "words": [
+          {
+            "heb": "וַתָּקָם",
+            "lemma": "6965 b",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "הִיא",
+            "lemma": "1931",
+            "morph": "HPp3fs"
+          },
+          {
+            "heb": "וְכַלֹּתֶיהָ",
+            "lemma": "3618",
+            "morph": "HC/Ncfpc/Sp3fs"
+          },
+          {
+            "heb": "וַתָּשָׁב",
+            "lemma": "7725",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "מִשְּׂדֵי",
+            "lemma": "7704 b",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "מוֹאָב",
+            "lemma": "4124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "שָֽׁמְעָה",
+            "lemma": "8085",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "בִּשְׂדֵה",
+            "lemma": "7704 b",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "מוֹאָב",
+            "lemma": "4124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "פָקַד",
+            "lemma": "6485 a",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "עַמּוֹ",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "לָתֵת",
+            "lemma": "5414",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "לָהֶם",
+            "lemma": "l",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "לָֽחֶם",
+            "lemma": "3899",
+            "morph": "HNcbsa"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Ruth 1:7",
+        "words": [
+          {
+            "heb": "וַתֵּצֵא",
+            "lemma": "3318",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "מִן",
+            "lemma": "4480 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַמָּקוֹם",
+            "lemma": "4725",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "הָיְתָה",
+            "lemma": "1961",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "שָׁמָּה",
+            "lemma": "8033",
+            "morph": "HD/Sd"
+          },
+          {
+            "heb": "וּשְׁתֵּי",
+            "lemma": "8147",
+            "morph": "HC/Acfdc"
+          },
+          {
+            "heb": "כַלֹּתֶיהָ",
+            "lemma": "3618",
+            "morph": "HNcfpc/Sp3fs"
+          },
+          {
+            "heb": "עִמָּהּ",
+            "lemma": "5973 a",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "וַתֵּלַכְנָה",
+            "lemma": "3212",
+            "morph": "HC/Vqw3fp"
+          },
+          {
+            "heb": "בַדֶּרֶךְ",
+            "lemma": "1870",
+            "morph": "HRd/Ncbsa"
+          },
+          {
+            "heb": "לָשׁוּב",
+            "lemma": "7725",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "אֶרֶץ",
+            "lemma": "776",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "יְהוּדָֽה",
+            "lemma": "3063",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Ruth 1:8",
+        "words": [
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "נָעֳמִי",
+            "lemma": "5281",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לִשְׁתֵּי",
+            "lemma": "8147",
+            "morph": "HR/Acfdc"
+          },
+          {
+            "heb": "כַלֹּתֶיהָ",
+            "lemma": "3618",
+            "morph": "HNcfpc/Sp3fs"
+          },
+          {
+            "heb": "לֵכְנָה",
+            "lemma": "3212",
+            "morph": "HVqv2fp"
+          },
+          {
+            "heb": "שֹּׁבְנָה",
+            "lemma": "7725",
+            "morph": "HVqv2fp"
+          },
+          {
+            "heb": "אִשָּׁה",
+            "lemma": "802",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "לְבֵית",
+            "lemma": "1004 b",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "אִמָּהּ",
+            "lemma": "517",
+            "morph": "HNcfsc/Sp3fs"
+          },
+          {
+            "heb": "יַעַשׂ",
+            "lemma": "6213 a",
+            "morph": "HVqj3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "עִמָּכֶם",
+            "lemma": "5973 a",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "חֶסֶד",
+            "lemma": "2617 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "כַּאֲשֶׁר",
+            "lemma": "834 d",
+            "morph": "HR/Tr"
+          },
+          {
+            "heb": "עֲשִׂיתֶם",
+            "lemma": "6213 a",
+            "morph": "HVqp2mp"
+          },
+          {
+            "heb": "עִם",
+            "lemma": "5973 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַמֵּתִים",
+            "lemma": "4191",
+            "morph": "HTd/Vqrmpa"
+          },
+          {
+            "heb": "וְעִמָּדִֽי",
+            "lemma": "5973 a",
+            "morph": "HC/R/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Ruth 1:9",
+        "words": [
+          {
+            "heb": "יִתֵּן",
+            "lemma": "5414",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לָכֶם",
+            "lemma": "l",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "וּמְצֶאןָ",
+            "lemma": "4672",
+            "morph": "HC/Vqv2fp"
+          },
+          {
+            "heb": "מְנוּחָה",
+            "lemma": "4496",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "אִשָּׁה",
+            "lemma": "802",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "בֵּית",
+            "lemma": "1004 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אִישָׁהּ",
+            "lemma": "376",
+            "morph": "HNcmsc/Sp3fs"
+          },
+          {
+            "heb": "וַתִּשַּׁק",
+            "lemma": "5401 a",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "לָהֶן",
+            "lemma": "l",
+            "morph": "HR/Sp3fp"
+          },
+          {
+            "heb": "וַתִּשֶּׂאנָה",
+            "lemma": "5375",
+            "morph": "HC/Vqw3fp"
+          },
+          {
+            "heb": "קוֹלָן",
+            "lemma": "6963 a",
+            "morph": "HNcmsc/Sp3fp"
+          },
+          {
+            "heb": "וַתִּבְכֶּֽינָה",
+            "lemma": "1058",
+            "morph": "HC/Vqw3fp"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Ruth 1:10",
+        "words": [
+          {
+            "heb": "וַתֹּאמַרְנָה",
+            "lemma": "559",
+            "morph": "HC/Vqw3fp"
+          },
+          {
+            "heb": "לָּהּ",
+            "lemma": "l",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אִתָּךְ",
+            "lemma": "854",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "נָשׁוּב",
+            "lemma": "7725",
+            "morph": "HVqi1cp"
+          },
+          {
+            "heb": "לְעַמֵּֽךְ",
+            "lemma": "5971 a",
+            "morph": "HR/Ncmsc/Sp2fs"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Ruth 1:11",
+        "words": [
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "נָעֳמִי",
+            "lemma": "5281",
+            "morph": "HNp"
+          },
+          {
+            "heb": "שֹׁבְנָה",
+            "lemma": "7725",
+            "morph": "HVqv2fp"
+          },
+          {
+            "heb": "בְנֹתַי",
+            "lemma": "1323",
+            "morph": "HNcfpc/Sp1cs"
+          },
+          {
+            "heb": "לָמָּה",
+            "lemma": "4100",
+            "morph": "HR/Ti"
+          },
+          {
+            "heb": "תֵלַכְנָה",
+            "lemma": "3212",
+            "morph": "HVqi2fp"
+          },
+          {
+            "heb": "עִמִּי",
+            "lemma": "5973 a",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "הַֽעֽוֹד",
+            "lemma": "5750",
+            "morph": "HTi/D"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "בָנִים",
+            "lemma": "1121 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "בְּֽמֵעַי",
+            "lemma": "4578",
+            "morph": "HR/Ncmpc/Sp1cs"
+          },
+          {
+            "heb": "וְהָיוּ",
+            "lemma": "1961",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "לָכֶם",
+            "lemma": "l",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "לַאֲנָשִֽׁים",
+            "lemma": "376",
+            "morph": "HR/Ncmpa"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Ruth 1:12",
+        "words": [
+          {
+            "heb": "שֹׁבְנָה",
+            "lemma": "7725",
+            "morph": "HVqv2fp"
+          },
+          {
+            "heb": "בְנֹתַי",
+            "lemma": "1323",
+            "morph": "HNcfpc/Sp1cs"
+          },
+          {
+            "heb": "לֵכְןָ",
+            "lemma": "3212",
+            "morph": "HVqv2fp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "זָקַנְתִּי",
+            "lemma": "2204",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "מִהְיוֹת",
+            "lemma": "1961",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "לְאִישׁ",
+            "lemma": "376",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אָמַרְתִּי",
+            "lemma": "559",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "יֶשׁ",
+            "lemma": "3426",
+            "morph": "HTm"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "תִקְוָה",
+            "lemma": "8615 b",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "גַּם",
+            "lemma": "1571",
+            "morph": "HTa"
+          },
+          {
+            "heb": "הָיִיתִי",
+            "lemma": "1961",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "הַלַּיְלָה",
+            "lemma": "3915",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "לְאִישׁ",
+            "lemma": "376",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "וְגַם",
+            "lemma": "1571",
+            "morph": "HC/Ta"
+          },
+          {
+            "heb": "יָלַדְתִּי",
+            "lemma": "3205",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "בָנִֽים",
+            "lemma": "1121 a",
+            "morph": "HNcmpa"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Ruth 1:13",
+        "words": [
+          {
+            "heb": "הֲלָהֵן",
+            "lemma": "3860",
+            "morph": "HTi/C"
+          },
+          {
+            "heb": "תְּשַׂבֵּרְנָה",
+            "lemma": "7663 b",
+            "morph": "HVpi2fp"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HD"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "יִגְדָּלוּ",
+            "lemma": "1431",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "הֲלָהֵן",
+            "lemma": "3860",
+            "morph": "HTi/C"
+          },
+          {
+            "heb": "תֵּֽעָגֵנָה",
+            "lemma": "5702",
+            "morph": "HVNi2fp"
+          },
+          {
+            "heb": "לְבִלְתִּי",
+            "lemma": "1115",
+            "morph": "HR/C"
+          },
+          {
+            "heb": "הֱיוֹת",
+            "lemma": "1961",
+            "morph": "HVqc"
+          },
+          {
+            "heb": "לְאִישׁ",
+            "lemma": "376",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "בְּנֹתַי",
+            "lemma": "1323",
+            "morph": "HNcfpc/Sp1cs"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "מַר",
+            "lemma": "4843",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "מְאֹד",
+            "lemma": "3966",
+            "morph": "HD"
+          },
+          {
+            "heb": "מִכֶּם",
+            "lemma": "4480 a",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "יָצְאָה",
+            "lemma": "3318",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "בִי",
+            "lemma": "b",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "יַד",
+            "lemma": "3027",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "יְהוָֽה",
+            "lemma": "3068",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Ruth 1:14",
+        "words": [
+          {
+            "heb": "וַתִּשֶּׂנָה",
+            "lemma": "5375",
+            "morph": "HC/Vqw3fp"
+          },
+          {
+            "heb": "קוֹלָן",
+            "lemma": "6963 a",
+            "morph": "HNcmsc/Sp3fp"
+          },
+          {
+            "heb": "וַתִּבְכֶּינָה",
+            "lemma": "1058",
+            "morph": "HC/Vqw3fp"
+          },
+          {
+            "heb": "עוֹד",
+            "lemma": "5750",
+            "morph": "HD"
+          },
+          {
+            "heb": "וַתִּשַּׁק",
+            "lemma": "5401 a",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "עָרְפָּה",
+            "lemma": "6204",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לַחֲמוֹתָהּ",
+            "lemma": "2545",
+            "morph": "HR/Ncfsc/Sp3fs"
+          },
+          {
+            "heb": "וְרוּת",
+            "lemma": "7327",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "דָּבְקָה",
+            "lemma": "1692",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "בָּֽהּ",
+            "lemma": "b",
+            "morph": "HR/Sp3fs"
+          }
+        ]
+      },
+      {
+        "verse": 15,
+        "ref": "Ruth 1:15",
+        "words": [
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "הִנֵּה",
+            "lemma": "2009",
+            "morph": "HTm"
+          },
+          {
+            "heb": "שָׁבָה",
+            "lemma": "7725",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "יְבִמְתֵּךְ",
+            "lemma": "2994",
+            "morph": "HNcfsc/Sp2fs"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "עַמָּהּ",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp3fs"
+          },
+          {
+            "heb": "וְאֶל",
+            "lemma": "413",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "אֱלֹהֶיהָ",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp3fs"
+          },
+          {
+            "heb": "שׁוּבִי",
+            "lemma": "7725",
+            "morph": "HVqv2fs"
+          },
+          {
+            "heb": "אַחֲרֵי",
+            "lemma": "310 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "יְבִמְתֵּֽךְ",
+            "lemma": "2994",
+            "morph": "HNcfsc/Sp2fs"
+          }
+        ]
+      },
+      {
+        "verse": 16,
+        "ref": "Ruth 1:16",
+        "words": [
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "רוּת",
+            "lemma": "7327",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תִּפְגְּעִי",
+            "lemma": "6293",
+            "morph": "HVqj2fs"
+          },
+          {
+            "heb": "בִי",
+            "lemma": "b",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "לְעָזְבֵךְ",
+            "lemma": "5800 a",
+            "morph": "HR/Vqc/Sp2fs"
+          },
+          {
+            "heb": "לָשׁוּב",
+            "lemma": "7725",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "מֵאַחֲרָיִךְ",
+            "lemma": "310 a",
+            "morph": "HR/R/Sp2fs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "תֵּלְכִי",
+            "lemma": "3212",
+            "morph": "HVqi2fs"
+          },
+          {
+            "heb": "אֵלֵךְ",
+            "lemma": "3212",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "וּבַאֲשֶׁר",
+            "lemma": "834 b",
+            "morph": "HC/R/Tr"
+          },
+          {
+            "heb": "תָּלִינִי",
+            "lemma": "3885 a",
+            "morph": "HVqi2fs"
+          },
+          {
+            "heb": "אָלִין",
+            "lemma": "3885 a",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "עַמֵּךְ",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp2fs"
+          },
+          {
+            "heb": "עַמִּי",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "וֵאלֹהַיִךְ",
+            "lemma": "430",
+            "morph": "HC/Ncmpc/Sp2fs"
+          },
+          {
+            "heb": "אֱלֹהָֽי",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 17,
+        "ref": "Ruth 1:17",
+        "words": [
+          {
+            "heb": "בַּאֲשֶׁר",
+            "lemma": "834 b",
+            "morph": "HR/Tr"
+          },
+          {
+            "heb": "תָּמוּתִי",
+            "lemma": "4191",
+            "morph": "HVqi2fs"
+          },
+          {
+            "heb": "אָמוּת",
+            "lemma": "4191",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "וְשָׁם",
+            "lemma": "8033",
+            "morph": "HC/D"
+          },
+          {
+            "heb": "אֶקָּבֵר",
+            "lemma": "6912",
+            "morph": "HVNi1cs"
+          },
+          {
+            "heb": "כֹּה",
+            "lemma": "3541",
+            "morph": "HD"
+          },
+          {
+            "heb": "יַעֲשֶׂה",
+            "lemma": "6213 a",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "וְכֹה",
+            "lemma": "3541",
+            "morph": "HC/D"
+          },
+          {
+            "heb": "יֹסִיף",
+            "lemma": "3254",
+            "morph": "HVhi3ms"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "הַמָּוֶת",
+            "lemma": "4194",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "יַפְרִיד",
+            "lemma": "6504",
+            "morph": "HVhi3ms"
+          },
+          {
+            "heb": "בֵּינִי",
+            "lemma": "996",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "וּבֵינֵֽךְ",
+            "lemma": "996",
+            "morph": "HC/R/Sp2fs"
+          }
+        ]
+      },
+      {
+        "verse": 18,
+        "ref": "Ruth 1:18",
+        "words": [
+          {
+            "heb": "וַתֵּרֶא",
+            "lemma": "7200",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "מִתְאַמֶּצֶת",
+            "lemma": "553",
+            "morph": "HVtrfsa"
+          },
+          {
+            "heb": "הִיא",
+            "lemma": "1931",
+            "morph": "HPp3fs"
+          },
+          {
+            "heb": "לָלֶכֶת",
+            "lemma": "3212",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "אִתָּהּ",
+            "lemma": "854",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "וַתֶּחְדַּל",
+            "lemma": "2308",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "לְדַבֵּר",
+            "lemma": "1696",
+            "morph": "HR/Vpc"
+          },
+          {
+            "heb": "אֵלֶֽיהָ",
+            "lemma": "413",
+            "morph": "HR/Sp3fs"
+          }
+        ]
+      },
+      {
+        "verse": 19,
+        "ref": "Ruth 1:19",
+        "words": [
+          {
+            "heb": "וַתֵּלַכְנָה",
+            "lemma": "3212",
+            "morph": "HC/Vqw3fp"
+          },
+          {
+            "heb": "שְׁתֵּיהֶם",
+            "lemma": "8147",
+            "morph": "HAcfdc/Sp3mp"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "בֹּאָנָה",
+            "lemma": "935",
+            "morph": "HVqc/Sp3fp"
+          },
+          {
+            "heb": "בֵּית",
+            "lemma": "1035+",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לָחֶם",
+            "lemma": "1035",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיְהִי",
+            "lemma": "1961",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "כְּבֹאָנָה",
+            "lemma": "935",
+            "morph": "HR/Vqc/Sp3fp"
+          },
+          {
+            "heb": "בֵּית",
+            "lemma": "1035+",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לֶחֶם",
+            "lemma": "1035",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַתֵּהֹם",
+            "lemma": "1949",
+            "morph": "HC/VNw3fs"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הָעִיר",
+            "lemma": "5892 b",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "עֲלֵיהֶן",
+            "lemma": "5921 a",
+            "morph": "HR/Sp3fp"
+          },
+          {
+            "heb": "וַתֹּאמַרְנָה",
+            "lemma": "559",
+            "morph": "HC/Vqw3fp"
+          },
+          {
+            "heb": "הֲזֹאת",
+            "lemma": "2063",
+            "morph": "HTi/Pdxfs"
+          },
+          {
+            "heb": "נָעֳמִֽי",
+            "lemma": "5281",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 20,
+        "ref": "Ruth 1:20",
+        "words": [
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "אֲלֵיהֶן",
+            "lemma": "413",
+            "morph": "HR/Sp3fp"
+          },
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תִּקְרֶאנָה",
+            "lemma": "7121",
+            "morph": "HVqj2fp"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "נָעֳמִי",
+            "lemma": "5281",
+            "morph": "HNp"
+          },
+          {
+            "heb": "קְרֶאןָ",
+            "lemma": "7121",
+            "morph": "HVqv2fp"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "מָרָא",
+            "lemma": "4755",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "הֵמַר",
+            "lemma": "4843",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "שַׁדַּי",
+            "lemma": "7706",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "מְאֹֽד",
+            "lemma": "3966",
+            "morph": "HD"
+          }
+        ]
+      },
+      {
+        "verse": 21,
+        "ref": "Ruth 1:21",
+        "words": [
+          {
+            "heb": "אֲנִי",
+            "lemma": "589",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "מְלֵאָה",
+            "lemma": "4392",
+            "morph": "HAafsa"
+          },
+          {
+            "heb": "הָלַכְתִּי",
+            "lemma": "1980",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "וְרֵיקָם",
+            "lemma": "7387",
+            "morph": "HC/D"
+          },
+          {
+            "heb": "הֱשִׁיבַנִי",
+            "lemma": "7725",
+            "morph": "HVhp3ms/Sp1cs"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לָמָּה",
+            "lemma": "4100",
+            "morph": "HR/Ti"
+          },
+          {
+            "heb": "תִקְרֶאנָה",
+            "lemma": "7121",
+            "morph": "HVqi2fp"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "נָעֳמִי",
+            "lemma": "5281",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַֽיהוָה",
+            "lemma": "3068",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "עָנָה",
+            "lemma": "6030 b",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "בִי",
+            "lemma": "b",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "וְשַׁדַּי",
+            "lemma": "7706",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "הֵרַֽע",
+            "lemma": "7489 a",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "לִֽי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 22,
+        "ref": "Ruth 1:22",
+        "words": [
+          {
+            "heb": "וַתָּשָׁב",
+            "lemma": "7725",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "נָעֳמִי",
+            "lemma": "5281",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְרוּת",
+            "lemma": "7327",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "הַמּוֹאֲבִיָּה",
+            "lemma": "4125",
+            "morph": "HTd/Ngfsa"
+          },
+          {
+            "heb": "כַלָּתָהּ",
+            "lemma": "3618",
+            "morph": "HNcfsc/Sp3fs"
+          },
+          {
+            "heb": "עִמָּהּ",
+            "lemma": "5973 a",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "הַשָּׁבָה",
+            "lemma": "7725",
+            "morph": "HTd/Vqp3fs"
+          },
+          {
+            "heb": "מִשְּׂדֵי",
+            "lemma": "7704 b",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "מוֹאָב",
+            "lemma": "4124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְהֵמָּה",
+            "lemma": "1992",
+            "morph": "HC/Pp3mp"
+          },
+          {
+            "heb": "בָּאוּ",
+            "lemma": "935",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "בֵּית",
+            "lemma": "1035+",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לֶחֶם",
+            "lemma": "1035",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בִּתְחִלַּת",
+            "lemma": "8462",
+            "morph": "HR/Ncfsc"
+          },
+          {
+            "heb": "קְצִיר",
+            "lemma": "7105 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "שְׂעֹרִֽים",
+            "lemma": "8184",
+            "morph": "HNcfpa"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "verse": 1,
+        "ref": "Ruth 2:1",
+        "words": [
+          {
+            "heb": "וּֽלְנָעֳמִי",
+            "lemma": "5281",
+            "morph": "HC/R/Np"
+          },
+          {
+            "heb": "מוֹדַע",
+            "lemma": "4129",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "לְאִישָׁהּ",
+            "lemma": "376",
+            "morph": "HR/Ncmsc/Sp3fs"
+          },
+          {
+            "heb": "אִישׁ",
+            "lemma": "376",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "גִּבּוֹר",
+            "lemma": "1368",
+            "morph": "HAamsc"
+          },
+          {
+            "heb": "חַיִל",
+            "lemma": "2428",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מִמִּשְׁפַּחַת",
+            "lemma": "4940",
+            "morph": "HR/Ncfsc"
+          },
+          {
+            "heb": "אֱלִימֶלֶךְ",
+            "lemma": "458",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּשְׁמוֹ",
+            "lemma": "8034",
+            "morph": "HC/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "בֹּֽעַז",
+            "lemma": "1162",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Ruth 2:2",
+        "words": [
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "רוּת",
+            "lemma": "7327",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הַמּוֹאֲבִיָּה",
+            "lemma": "4125",
+            "morph": "HTd/Ngfsa"
+          },
+          {
+            "heb": "אֶֽל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "נָעֳמִי",
+            "lemma": "5281",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֵֽלְכָה",
+            "lemma": "3212",
+            "morph": "HVqh1cs"
+          },
+          {
+            "heb": "נָּא",
+            "lemma": "4994",
+            "morph": "HTj"
+          },
+          {
+            "heb": "הַשָּׂדֶה",
+            "lemma": "7704 b",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וַאֲלַקֳטָּה",
+            "lemma": "3950",
+            "morph": "HC/Vph1cs"
+          },
+          {
+            "heb": "בַשִׁבֳּלִים",
+            "lemma": "7641 b",
+            "morph": "HRd/Ncfpa"
+          },
+          {
+            "heb": "אַחַר",
+            "lemma": "310 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "אֶמְצָא",
+            "lemma": "4672",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "חֵן",
+            "lemma": "2580",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בְּעֵינָיו",
+            "lemma": "5869 a",
+            "morph": "HR/Ncbdc/Sp3ms"
+          },
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "לָהּ",
+            "lemma": "l",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "לְכִי",
+            "lemma": "3212",
+            "morph": "HVqv2fs"
+          },
+          {
+            "heb": "בִתִּֽי",
+            "lemma": "1323",
+            "morph": "HNcfsc/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Ruth 2:3",
+        "words": [
+          {
+            "heb": "וַתֵּלֶךְ",
+            "lemma": "3212",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "וַתָּבוֹא",
+            "lemma": "935",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "וַתְּלַקֵּט",
+            "lemma": "3950",
+            "morph": "HC/Vpw3fs"
+          },
+          {
+            "heb": "בַּשָּׂדֶה",
+            "lemma": "7704 b",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "אַחֲרֵי",
+            "lemma": "310 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַקֹּצְרִים",
+            "lemma": "7114 b",
+            "morph": "HTd/Vqrmpa"
+          },
+          {
+            "heb": "וַיִּקֶר",
+            "lemma": "7136 a",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "מִקְרֶהָ",
+            "lemma": "4745",
+            "morph": "HNcmsc/Sp3fs"
+          },
+          {
+            "heb": "חֶלְקַת",
+            "lemma": "2513 a",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "הַשָּׂדֶה",
+            "lemma": "7704 b",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "לְבֹעַז",
+            "lemma": "1162",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "מִמִּשְׁפַּחַת",
+            "lemma": "4940",
+            "morph": "HR/Ncfsc"
+          },
+          {
+            "heb": "אֱלִימֶֽלֶךְ",
+            "lemma": "458",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Ruth 2:4",
+        "words": [
+          {
+            "heb": "וְהִנֵּה",
+            "lemma": "2009",
+            "morph": "HC/Tm"
+          },
+          {
+            "heb": "בֹעַז",
+            "lemma": "1162",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בָּא",
+            "lemma": "935",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "מִבֵּית",
+            "lemma": "1035+",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "לֶחֶם",
+            "lemma": "1035",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "לַקּוֹצְרִים",
+            "lemma": "7114 b",
+            "morph": "HRd/Vqrmpa"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "עִמָּכֶם",
+            "lemma": "5973 a",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "וַיֹּאמְרוּ",
+            "lemma": "559",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "לוֹ",
+            "lemma": "l",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "יְבָרֶכְךָ",
+            "lemma": "1288",
+            "morph": "HVpi3ms/Sp2ms"
+          },
+          {
+            "heb": "יְהוָֽה",
+            "lemma": "3068",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Ruth 2:5",
+        "words": [
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "בֹּעַז",
+            "lemma": "1162",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לְנַעֲרוֹ",
+            "lemma": "5288",
+            "morph": "HR/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "הַנִּצָּב",
+            "lemma": "5324",
+            "morph": "HTd/VNrmsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַקּֽוֹצְרִים",
+            "lemma": "7114 b",
+            "morph": "HTd/Vqrmpa"
+          },
+          {
+            "heb": "לְמִי",
+            "lemma": "4310",
+            "morph": "HR/Ti"
+          },
+          {
+            "heb": "הַנַּעֲרָה",
+            "lemma": "5291",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "הַזֹּֽאת",
+            "lemma": "2063",
+            "morph": "HTd/Pdxfs"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Ruth 2:6",
+        "words": [
+          {
+            "heb": "וַיַּעַן",
+            "lemma": "6030 b",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "הַנַּעַר",
+            "lemma": "5288",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "הַנִּצָּב",
+            "lemma": "5324",
+            "morph": "HTd/VNrmsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַקּוֹצְרִים",
+            "lemma": "7114 b",
+            "morph": "HTd/Vqrmpa"
+          },
+          {
+            "heb": "וַיֹּאמַר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "נַעֲרָה",
+            "lemma": "5291",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "מֽוֹאֲבִיָּה",
+            "lemma": "4125",
+            "morph": "HNgfsa"
+          },
+          {
+            "heb": "הִיא",
+            "lemma": "1931",
+            "morph": "HPp3fs"
+          },
+          {
+            "heb": "הַשָּׁבָה",
+            "lemma": "7725",
+            "morph": "HTd/Vqrfsa"
+          },
+          {
+            "heb": "עִֽם",
+            "lemma": "5973 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "נָעֳמִי",
+            "lemma": "5281",
+            "morph": "HNp"
+          },
+          {
+            "heb": "מִשְּׂדֵה",
+            "lemma": "7704 b",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "מוֹאָֽב",
+            "lemma": "4124",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Ruth 2:7",
+        "words": [
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "אֲלַקֳטָה",
+            "lemma": "3950",
+            "morph": "HVph1cs"
+          },
+          {
+            "heb": "נָּא",
+            "lemma": "4994",
+            "morph": "HTj"
+          },
+          {
+            "heb": "וְאָסַפְתִּי",
+            "lemma": "622",
+            "morph": "HC/Vqq1cs"
+          },
+          {
+            "heb": "בָֽעֳמָרִים",
+            "lemma": "6016 a",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "אַחֲרֵי",
+            "lemma": "310 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַקּוֹצְרִים",
+            "lemma": "7114 b",
+            "morph": "HTd/Vqrmpa"
+          },
+          {
+            "heb": "וַתָּבוֹא",
+            "lemma": "935",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "וַֽתַּעֲמוֹד",
+            "lemma": "5975",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "מֵאָז",
+            "lemma": "227 b",
+            "morph": "HR/D"
+          },
+          {
+            "heb": "הַבֹּקֶר",
+            "lemma": "1242",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וְעַד",
+            "lemma": "5704",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "עַתָּה",
+            "lemma": "6258",
+            "morph": "HD"
+          },
+          {
+            "heb": "זֶה",
+            "lemma": "2088",
+            "morph": "HPdxms"
+          },
+          {
+            "heb": "שִׁבְתָּהּ",
+            "lemma": "3427",
+            "morph": "HVqc/Sp3fs"
+          },
+          {
+            "heb": "הַבַּיִת",
+            "lemma": "1004 b",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "מְעָֽט",
+            "lemma": "4592",
+            "morph": "HAamsa"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Ruth 2:8",
+        "words": [
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "בֹּעַז",
+            "lemma": "1162",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "רוּת",
+            "lemma": "7327",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הֲלוֹא",
+            "lemma": "3808",
+            "morph": "HTi/Tn"
+          },
+          {
+            "heb": "שָׁמַעַתְּ",
+            "lemma": "8085",
+            "morph": "HVqp2fs"
+          },
+          {
+            "heb": "בִּתִּי",
+            "lemma": "1323",
+            "morph": "HNcfsc/Sp1cs"
+          },
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תֵּלְכִי",
+            "lemma": "3212",
+            "morph": "HVqj2fs"
+          },
+          {
+            "heb": "לִלְקֹט",
+            "lemma": "3950",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "בְּשָׂדֶה",
+            "lemma": "7704 b",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "אַחֵר",
+            "lemma": "312",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "וְגַם",
+            "lemma": "1571",
+            "morph": "HC/Ta"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תַעֲבוּרִי",
+            "lemma": "5674 a",
+            "morph": "HVqi2fs"
+          },
+          {
+            "heb": "מִזֶּה",
+            "lemma": "2088",
+            "morph": "HR/Pdxms"
+          },
+          {
+            "heb": "וְכֹה",
+            "lemma": "3541",
+            "morph": "HC/D"
+          },
+          {
+            "heb": "תִדְבָּקִין",
+            "lemma": "1692",
+            "morph": "HVqi2fs/Sn"
+          },
+          {
+            "heb": "עִם",
+            "lemma": "5973 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "נַעֲרֹתָֽי",
+            "lemma": "5291",
+            "morph": "HNcfpc/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Ruth 2:9",
+        "words": [
+          {
+            "heb": "עֵינַיִךְ",
+            "lemma": "5869 a",
+            "morph": "HNcbdc/Sp2fs"
+          },
+          {
+            "heb": "בַּשָּׂדֶה",
+            "lemma": "7704 b",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "יִקְצֹרוּן",
+            "lemma": "7114 b",
+            "morph": "HVqi3mp/Sn"
+          },
+          {
+            "heb": "וְהָלַכְתִּ",
+            "lemma": "1980",
+            "morph": "HC/Vqq2fs"
+          },
+          {
+            "heb": "אַחֲרֵיהֶן",
+            "lemma": "310 a",
+            "morph": "HR/Sp3fp"
+          },
+          {
+            "heb": "הֲלוֹא",
+            "lemma": "3808",
+            "morph": "HTi/Tn"
+          },
+          {
+            "heb": "צִוִּיתִי",
+            "lemma": "6680",
+            "morph": "HVpp1cs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַנְּעָרִים",
+            "lemma": "5288",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "לְבִלְתִּי",
+            "lemma": "1115",
+            "morph": "HR/C"
+          },
+          {
+            "heb": "נָגְעֵךְ",
+            "lemma": "5060",
+            "morph": "HVqc/Sp2fs"
+          },
+          {
+            "heb": "וְצָמִת",
+            "lemma": "6770",
+            "morph": "HC/Vqq2fs"
+          },
+          {
+            "heb": "וְהָלַכְתְּ",
+            "lemma": "1980",
+            "morph": "HC/Vqq2fs"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַכֵּלִים",
+            "lemma": "3627",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "וְשָׁתִית",
+            "lemma": "8354",
+            "morph": "HC/Vqq2fs"
+          },
+          {
+            "heb": "מֵאֲשֶׁר",
+            "lemma": "834 c",
+            "morph": "HR/Tr"
+          },
+          {
+            "heb": "יִשְׁאֲבוּן",
+            "lemma": "7579",
+            "morph": "HVqi3mp/Sn"
+          },
+          {
+            "heb": "הַנְּעָרִֽים",
+            "lemma": "5288",
+            "morph": "HTd/Ncmpa"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Ruth 2:10",
+        "words": [
+          {
+            "heb": "וַתִּפֹּל",
+            "lemma": "5307",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "פָּנֶיהָ",
+            "lemma": "6440",
+            "morph": "HNcbpc/Sp3fs"
+          },
+          {
+            "heb": "וַתִּשְׁתַּחוּ",
+            "lemma": "7812",
+            "morph": "HC/Vvw3fs"
+          },
+          {
+            "heb": "אָרְצָה",
+            "lemma": "776",
+            "morph": "HNcbsa/Sd"
+          },
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "אֵלָיו",
+            "lemma": "413",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "מַדּוּעַ",
+            "lemma": "4069",
+            "morph": "HTi"
+          },
+          {
+            "heb": "מָצָאתִי",
+            "lemma": "4672",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "חֵן",
+            "lemma": "2580",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בְּעֵינֶיךָ",
+            "lemma": "5869 a",
+            "morph": "HR/Ncbdc/Sp2ms"
+          },
+          {
+            "heb": "לְהַכִּירֵנִי",
+            "lemma": "5234 a",
+            "morph": "HR/Vhc/Sp1cs"
+          },
+          {
+            "heb": "וְאָּנֹכִי",
+            "lemma": "595",
+            "morph": "HC/Pp1cs"
+          },
+          {
+            "heb": "נָכְרִיָּֽה",
+            "lemma": "5237",
+            "morph": "HAafsa"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Ruth 2:11",
+        "words": [
+          {
+            "heb": "וַיַּעַן",
+            "lemma": "6030 b",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "בֹּעַז",
+            "lemma": "1162",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "לָהּ",
+            "lemma": "l",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "הֻגֵּד",
+            "lemma": "5046",
+            "morph": "HVHa"
+          },
+          {
+            "heb": "הֻגַּד",
+            "lemma": "5046",
+            "morph": "HVHp3ms"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "כֹּל",
+            "lemma": "3605",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "עָשִׂית",
+            "lemma": "6213 a",
+            "morph": "HVqp2fs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "854",
+            "morph": "HR"
+          },
+          {
+            "heb": "חֲמוֹתֵךְ",
+            "lemma": "2545",
+            "morph": "HNcfsc/Sp2fs"
+          },
+          {
+            "heb": "אַחֲרֵי",
+            "lemma": "310 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "מוֹת",
+            "lemma": "4194",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אִישֵׁךְ",
+            "lemma": "376",
+            "morph": "HNcmsc/Sp2fs"
+          },
+          {
+            "heb": "וַתַּֽעַזְבִי",
+            "lemma": "5800 a",
+            "morph": "HC/Vqw2fs"
+          },
+          {
+            "heb": "אָּבִיךְ",
+            "lemma": "1",
+            "morph": "HNcmsc/Sp2fs"
+          },
+          {
+            "heb": "וְאִמֵּךְ",
+            "lemma": "517",
+            "morph": "HC/Ncfsc/Sp2fs"
+          },
+          {
+            "heb": "וְאֶרֶץ",
+            "lemma": "776",
+            "morph": "HC/Ncbsc"
+          },
+          {
+            "heb": "מֽוֹלַדְתֵּךְ",
+            "lemma": "4138",
+            "morph": "HNcfsc/Sp2fs"
+          },
+          {
+            "heb": "וַתֵּלְכִי",
+            "lemma": "3212",
+            "morph": "HC/Vqw2fs"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "עַם",
+            "lemma": "5971 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יָדַעַתְּ",
+            "lemma": "3045",
+            "morph": "HVqp2fs"
+          },
+          {
+            "heb": "תְּמוֹל",
+            "lemma": "8543",
+            "morph": "HD"
+          },
+          {
+            "heb": "שִׁלְשֽׁוֹם",
+            "lemma": "8032",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Ruth 2:12",
+        "words": [
+          {
+            "heb": "יְשַׁלֵּם",
+            "lemma": "7999 a",
+            "morph": "HVpi3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "פָּעֳלֵךְ",
+            "lemma": "6467",
+            "morph": "HNcmsc/Sp2fs"
+          },
+          {
+            "heb": "וּתְהִי",
+            "lemma": "1961",
+            "morph": "HC/Vqj3fs"
+          },
+          {
+            "heb": "מַשְׂכֻּרְתֵּךְ",
+            "lemma": "4909",
+            "morph": "HNcfsc/Sp2fs"
+          },
+          {
+            "heb": "שְׁלֵמָה",
+            "lemma": "8003",
+            "morph": "HAafsa"
+          },
+          {
+            "heb": "מֵעִם",
+            "lemma": "5973 b",
+            "morph": "HR/R"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֱלֹהֵי",
+            "lemma": "430",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "יִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "בָּאת",
+            "lemma": "935",
+            "morph": "HVqp2fs"
+          },
+          {
+            "heb": "לַחֲסוֹת",
+            "lemma": "2620",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "תַּֽחַת",
+            "lemma": "8478",
+            "morph": "HR"
+          },
+          {
+            "heb": "כְּנָפָֽיו",
+            "lemma": "3671",
+            "morph": "HNcfpc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Ruth 2:13",
+        "words": [
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "אֶמְצָא",
+            "lemma": "4672",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "חֵן",
+            "lemma": "2580",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בְּעֵינֶיךָ",
+            "lemma": "5869 a",
+            "morph": "HR/Ncbdc/Sp2ms"
+          },
+          {
+            "heb": "אֲדֹנִי",
+            "lemma": "113",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "נִֽחַמְתָּנִי",
+            "lemma": "5162",
+            "morph": "HVpp2ms/Sp1cs"
+          },
+          {
+            "heb": "וְכִי",
+            "lemma": "3588 a",
+            "morph": "HC/C"
+          },
+          {
+            "heb": "דִבַּרְתָּ",
+            "lemma": "1696",
+            "morph": "HVpp2ms"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "לֵב",
+            "lemma": "3820 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "שִׁפְחָתֶךָ",
+            "lemma": "8198",
+            "morph": "HNcfsc/Sp2ms"
+          },
+          {
+            "heb": "וְאָנֹכִי",
+            "lemma": "595",
+            "morph": "HC/Pp1cs"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "אֶֽהְיֶה",
+            "lemma": "1961",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "כְּאַחַת",
+            "lemma": "259",
+            "morph": "HR/Acfsc"
+          },
+          {
+            "heb": "שִׁפְחֹתֶֽיךָ",
+            "lemma": "8198",
+            "morph": "HNcfpc/Sp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Ruth 2:14",
+        "words": [
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "לָה",
+            "lemma": "l",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "בֹעַז",
+            "lemma": "1162",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לְעֵת",
+            "lemma": "6256",
+            "morph": "HR/Ncbsc"
+          },
+          {
+            "heb": "הָאֹכֶל",
+            "lemma": "400",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "גֹּשִֽׁי",
+            "lemma": "5066",
+            "morph": "HVqv2fs"
+          },
+          {
+            "heb": "הֲלֹם",
+            "lemma": "1988",
+            "morph": "HD"
+          },
+          {
+            "heb": "וְאָכַלְתְּ",
+            "lemma": "398",
+            "morph": "HC/Vqq2fs"
+          },
+          {
+            "heb": "מִן",
+            "lemma": "4480 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַלֶּחֶם",
+            "lemma": "3899",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "וְטָבַלְתְּ",
+            "lemma": "2881",
+            "morph": "HC/Vqq2fs"
+          },
+          {
+            "heb": "פִּתֵּךְ",
+            "lemma": "6595 a",
+            "morph": "HNcfsc/Sp2fs"
+          },
+          {
+            "heb": "בַּחֹמֶץ",
+            "lemma": "2558",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "וַתֵּשֶׁב",
+            "lemma": "3427",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "מִצַּד",
+            "lemma": "6654",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "הַקּֽוֹצְרִים",
+            "lemma": "7114 b",
+            "morph": "HTd/Vqrmpa"
+          },
+          {
+            "heb": "וַיִּצְבָּט",
+            "lemma": "6642",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "לָהּ",
+            "lemma": "l",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "קָלִי",
+            "lemma": "7039",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וַתֹּאכַל",
+            "lemma": "398",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "וַתִּשְׂבַּע",
+            "lemma": "7646",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "וַתֹּתַֽר",
+            "lemma": "3498",
+            "morph": "HC/Vhw3fs"
+          }
+        ]
+      },
+      {
+        "verse": 15,
+        "ref": "Ruth 2:15",
+        "words": [
+          {
+            "heb": "וַתָּקָם",
+            "lemma": "6965 b",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "לְלַקֵּט",
+            "lemma": "3950",
+            "morph": "HR/Vpc"
+          },
+          {
+            "heb": "וַיְצַו",
+            "lemma": "6680",
+            "morph": "HC/Vpw3ms"
+          },
+          {
+            "heb": "בֹּעַז",
+            "lemma": "1162",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "נְעָרָיו",
+            "lemma": "5288",
+            "morph": "HNcmpc/Sp3ms"
+          },
+          {
+            "heb": "לֵאמֹר",
+            "lemma": "559",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "גַּם",
+            "lemma": "1571",
+            "morph": "HTa"
+          },
+          {
+            "heb": "בֵּין",
+            "lemma": "996",
+            "morph": "HR"
+          },
+          {
+            "heb": "הָֽעֳמָרִים",
+            "lemma": "6016 a",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "תְּלַקֵּט",
+            "lemma": "3950",
+            "morph": "HVpi3fs"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תַכְלִימֽוּהָ",
+            "lemma": "3637",
+            "morph": "HVhi2mp/Sp3fs"
+          }
+        ]
+      },
+      {
+        "verse": 16,
+        "ref": "Ruth 2:16",
+        "words": [
+          {
+            "heb": "וְגַם",
+            "lemma": "1571",
+            "morph": "HC/Ta"
+          },
+          {
+            "heb": "שֹׁל",
+            "lemma": "7997 a",
+            "morph": "HVqa"
+          },
+          {
+            "heb": "תָּשֹׁלּוּ",
+            "lemma": "7997 a",
+            "morph": "HVqi2mp"
+          },
+          {
+            "heb": "לָהּ",
+            "lemma": "l",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "מִן",
+            "lemma": "4480 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַצְּבָתִים",
+            "lemma": "6653",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "וַעֲזַבְתֶּם",
+            "lemma": "5800 a",
+            "morph": "HC/Vqq2mp"
+          },
+          {
+            "heb": "וְלִקְּטָה",
+            "lemma": "3950",
+            "morph": "HC/Vpq3fs"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תִגְעֲרוּ",
+            "lemma": "1605",
+            "morph": "HVqi2mp"
+          },
+          {
+            "heb": "בָֽהּ",
+            "lemma": "b",
+            "morph": "HR/Sp3fs"
+          }
+        ]
+      },
+      {
+        "verse": 17,
+        "ref": "Ruth 2:17",
+        "words": [
+          {
+            "heb": "וַתְּלַקֵּט",
+            "lemma": "3950",
+            "morph": "HC/Vpw3fs"
+          },
+          {
+            "heb": "בַּשָּׂדֶה",
+            "lemma": "7704 b",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "הָעָרֶב",
+            "lemma": "6153",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וַתַּחְבֹּט",
+            "lemma": "2251",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "אֵת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "לִקֵּטָה",
+            "lemma": "3950",
+            "morph": "HVpp3fs"
+          },
+          {
+            "heb": "וַיְהִי",
+            "lemma": "1961",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "כְּאֵיפָה",
+            "lemma": "374",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "שְׂעֹרִֽים",
+            "lemma": "8184",
+            "morph": "HNcfpa"
+          }
+        ]
+      },
+      {
+        "verse": 18,
+        "ref": "Ruth 2:18",
+        "words": [
+          {
+            "heb": "וַתִּשָּׂא",
+            "lemma": "5375",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "וַתָּבוֹא",
+            "lemma": "935",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "הָעִיר",
+            "lemma": "5892 b",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "וַתֵּרֶא",
+            "lemma": "7200",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "חֲמוֹתָהּ",
+            "lemma": "2545",
+            "morph": "HNcfsc/Sp3fs"
+          },
+          {
+            "heb": "אֵת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "לִקֵּטָה",
+            "lemma": "3950",
+            "morph": "HVpp3fs"
+          },
+          {
+            "heb": "וַתּוֹצֵא",
+            "lemma": "3318",
+            "morph": "HC/Vhw3fs"
+          },
+          {
+            "heb": "וַתִּתֶּן",
+            "lemma": "5414",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "לָהּ",
+            "lemma": "l",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "אֵת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "הוֹתִרָה",
+            "lemma": "3498",
+            "morph": "HVhp3fs"
+          },
+          {
+            "heb": "מִשָּׂבְעָֽהּ",
+            "lemma": "7648",
+            "morph": "HR/Ncmsc/Sp3fs"
+          }
+        ]
+      },
+      {
+        "verse": 19,
+        "ref": "Ruth 2:19",
+        "words": [
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "לָהּ",
+            "lemma": "l",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "חֲמוֹתָהּ",
+            "lemma": "2545",
+            "morph": "HNcfsc/Sp3fs"
+          },
+          {
+            "heb": "אֵיפֹה",
+            "lemma": "375",
+            "morph": "HTi"
+          },
+          {
+            "heb": "לִקַּטְתְּ",
+            "lemma": "3950",
+            "morph": "HVpp2fs"
+          },
+          {
+            "heb": "הַיּוֹם",
+            "lemma": "3117",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וְאָנָה",
+            "lemma": "575",
+            "morph": "HC/D"
+          },
+          {
+            "heb": "עָשִׂית",
+            "lemma": "6213 a",
+            "morph": "HVqp2fs"
+          },
+          {
+            "heb": "יְהִי",
+            "lemma": "1961",
+            "morph": "HVqj3ms"
+          },
+          {
+            "heb": "מַכִּירֵךְ",
+            "lemma": "5234 a",
+            "morph": "HVhrmsc/Sp2fs"
+          },
+          {
+            "heb": "בָּרוּךְ",
+            "lemma": "1288",
+            "morph": "HVqsmsa"
+          },
+          {
+            "heb": "וַתַּגֵּד",
+            "lemma": "5046",
+            "morph": "HC/Vhw3fs"
+          },
+          {
+            "heb": "לַחֲמוֹתָהּ",
+            "lemma": "2545",
+            "morph": "HR/Ncfsc/Sp3fs"
+          },
+          {
+            "heb": "אֵת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "עָשְׂתָה",
+            "lemma": "6213 a",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "עִמּוֹ",
+            "lemma": "5973 a",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "שֵׁם",
+            "lemma": "8034",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הָאִישׁ",
+            "lemma": "376",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "עָשִׂיתִי",
+            "lemma": "6213 a",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "עִמּוֹ",
+            "lemma": "5973 a",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "הַיּוֹם",
+            "lemma": "3117",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "בֹּֽעַז",
+            "lemma": "1162",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 20,
+        "ref": "Ruth 2:20",
+        "words": [
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "נָעֳמִי",
+            "lemma": "5281",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לְכַלָּתָהּ",
+            "lemma": "3618",
+            "morph": "HR/Ncfsc/Sp3fs"
+          },
+          {
+            "heb": "בָּרוּךְ",
+            "lemma": "1288",
+            "morph": "HVqsmsa"
+          },
+          {
+            "heb": "הוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          },
+          {
+            "heb": "לַיהוָה",
+            "lemma": "3068",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "עָזַב",
+            "lemma": "5800 a",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "חַסְדּוֹ",
+            "lemma": "2617 a",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "854",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַחַיִּים",
+            "lemma": "2416 a",
+            "morph": "HTd/Aampa"
+          },
+          {
+            "heb": "וְאֶת",
+            "lemma": "854",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "הַמֵּתִים",
+            "lemma": "4191",
+            "morph": "HTd/Vqrmpa"
+          },
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "לָהּ",
+            "lemma": "l",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "נָעֳמִי",
+            "lemma": "5281",
+            "morph": "HNp"
+          },
+          {
+            "heb": "קָרוֹב",
+            "lemma": "7138",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "לָנוּ",
+            "lemma": "l",
+            "morph": "HR/Sp1cp"
+          },
+          {
+            "heb": "הָאִישׁ",
+            "lemma": "376",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "מִֽגֹּאֲלֵנוּ",
+            "lemma": "1350 a",
+            "morph": "HR/Vqrmsc/Sp1cp"
+          },
+          {
+            "heb": "הֽוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 21,
+        "ref": "Ruth 2:21",
+        "words": [
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "רוּת",
+            "lemma": "7327",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הַמּוֹאֲבִיָּה",
+            "lemma": "4125",
+            "morph": "HTd/Ngfsa"
+          },
+          {
+            "heb": "גַּם",
+            "lemma": "1571",
+            "morph": "HTa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "אֵלַי",
+            "lemma": "413",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "עִם",
+            "lemma": "5973 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַנְּעָרִים",
+            "lemma": "5288",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "תִּדְבָּקִין",
+            "lemma": "1692",
+            "morph": "HVqi2fs/Sn"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "אִם",
+            "lemma": "518 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "כִּלּוּ",
+            "lemma": "3615",
+            "morph": "HVpp3cp"
+          },
+          {
+            "heb": "אֵת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַקָּצִיר",
+            "lemma": "7105 a",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "לִֽי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 22,
+        "ref": "Ruth 2:22",
+        "words": [
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "נָעֳמִי",
+            "lemma": "5281",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "רוּת",
+            "lemma": "7327",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כַּלָּתָהּ",
+            "lemma": "3618",
+            "morph": "HNcfsc/Sp3fs"
+          },
+          {
+            "heb": "טוֹב",
+            "lemma": "2896 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "בִּתִּי",
+            "lemma": "1323",
+            "morph": "HNcfsc/Sp1cs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "תֵֽצְאִי",
+            "lemma": "3318",
+            "morph": "HVqi2fs"
+          },
+          {
+            "heb": "עִם",
+            "lemma": "5973 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "נַעֲרוֹתָיו",
+            "lemma": "5291",
+            "morph": "HNcfpc/Sp3ms"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יִפְגְּעוּ",
+            "lemma": "6293",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "בָךְ",
+            "lemma": "b",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "בְּשָׂדֶה",
+            "lemma": "7704 b",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "אַחֵֽר",
+            "lemma": "312",
+            "morph": "HAamsa"
+          }
+        ]
+      },
+      {
+        "verse": 23,
+        "ref": "Ruth 2:23",
+        "words": [
+          {
+            "heb": "וַתִּדְבַּק",
+            "lemma": "1692",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "בְּנַעֲרוֹת",
+            "lemma": "5291",
+            "morph": "HR/Ncfpc"
+          },
+          {
+            "heb": "בֹּעַז",
+            "lemma": "1162",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לְלַקֵּט",
+            "lemma": "3950",
+            "morph": "HR/Vpc"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "כְּלוֹת",
+            "lemma": "3615",
+            "morph": "HVqc"
+          },
+          {
+            "heb": "קְצִֽיר",
+            "lemma": "7105 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַשְּׂעֹרִים",
+            "lemma": "8184",
+            "morph": "HTd/Ncfpa"
+          },
+          {
+            "heb": "וּקְצִיר",
+            "lemma": "7105 a",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "הַֽחִטִּים",
+            "lemma": "2406",
+            "morph": "HTd/Ncfpa"
+          },
+          {
+            "heb": "וַתֵּשֶׁב",
+            "lemma": "3427",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "854",
+            "morph": "HR"
+          },
+          {
+            "heb": "חֲמוֹתָֽהּ",
+            "lemma": "2545",
+            "morph": "HNcfsc/Sp3fs"
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "verse": 1,
+        "ref": "Ruth 3:1",
+        "words": [
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "לָהּ",
+            "lemma": "l",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "נָעֳמִי",
+            "lemma": "5281",
+            "morph": "HNp"
+          },
+          {
+            "heb": "חֲמוֹתָהּ",
+            "lemma": "2545",
+            "morph": "HNcfsc/Sp3fs"
+          },
+          {
+            "heb": "בִּתִּי",
+            "lemma": "1323",
+            "morph": "HNcfsc/Sp1cs"
+          },
+          {
+            "heb": "הֲלֹא",
+            "lemma": "3808",
+            "morph": "HTi/Tn"
+          },
+          {
+            "heb": "אֲבַקֶּשׁ",
+            "lemma": "1245",
+            "morph": "HVpi1cs"
+          },
+          {
+            "heb": "לָךְ",
+            "lemma": "l",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "מָנוֹחַ",
+            "lemma": "4494",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "יִֽיטַב",
+            "lemma": "3190",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "לָֽךְ",
+            "lemma": "l",
+            "morph": "HR/Sp2fs"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Ruth 3:2",
+        "words": [
+          {
+            "heb": "וְעַתָּה",
+            "lemma": "6258",
+            "morph": "HC/D"
+          },
+          {
+            "heb": "הֲלֹא",
+            "lemma": "3808",
+            "morph": "HTi/Tn"
+          },
+          {
+            "heb": "בֹעַז",
+            "lemma": "1162",
+            "morph": "HNp"
+          },
+          {
+            "heb": "מֹֽדַעְתָּנוּ",
+            "lemma": "4130",
+            "morph": "HNcfsc/Sp1cp"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "הָיִית",
+            "lemma": "1961",
+            "morph": "HVqp2fs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "854",
+            "morph": "HR"
+          },
+          {
+            "heb": "נַעֲרוֹתָיו",
+            "lemma": "5291",
+            "morph": "HNcfpc/Sp3ms"
+          },
+          {
+            "heb": "הִנֵּה",
+            "lemma": "2009",
+            "morph": "HTm"
+          },
+          {
+            "heb": "הוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          },
+          {
+            "heb": "זֹרֶה",
+            "lemma": "2219",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "גֹּרֶן",
+            "lemma": "1637",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "הַשְּׂעֹרִים",
+            "lemma": "8184",
+            "morph": "HTd/Ncfpa"
+          },
+          {
+            "heb": "הַלָּֽיְלָה",
+            "lemma": "3915",
+            "morph": "HTd/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Ruth 3:3",
+        "words": [
+          {
+            "heb": "וְרָחַצְתְּ",
+            "lemma": "7364",
+            "morph": "HC/Vqq2fs"
+          },
+          {
+            "heb": "וָסַכְתְּ",
+            "lemma": "5480",
+            "morph": "HC/Vqq2fs"
+          },
+          {
+            "heb": "וְשַׂמְתְּ",
+            "lemma": "7760 a",
+            "morph": "HC/Vqq2fs"
+          },
+          {
+            "heb": "שִׂמְלֹתַיִךְ",
+            "lemma": "8071",
+            "morph": "HNcfpc/Sp2fs"
+          },
+          {
+            "heb": "עָלַיִךְ",
+            "lemma": "5921 a",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "וְיָרַדְתְּ",
+            "lemma": "3381",
+            "morph": "HC/Vqq2fs"
+          },
+          {
+            "heb": "הַגֹּרֶן",
+            "lemma": "1637",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תִּוָּדְעִי",
+            "lemma": "3045",
+            "morph": "HVNj2fs"
+          },
+          {
+            "heb": "לָאִישׁ",
+            "lemma": "376",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "כַּלֹּתוֹ",
+            "lemma": "3615",
+            "morph": "HVpc/Sp3ms"
+          },
+          {
+            "heb": "לֶאֱכֹל",
+            "lemma": "398",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "וְלִשְׁתּֽוֹת",
+            "lemma": "8354",
+            "morph": "HC/R/Vqc"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Ruth 3:4",
+        "words": [
+          {
+            "heb": "וִיהִי",
+            "lemma": "1961",
+            "morph": "HC/Vqj3ms"
+          },
+          {
+            "heb": "בְשָׁכְבוֹ",
+            "lemma": "7901",
+            "morph": "HR/Vqc/Sp3ms"
+          },
+          {
+            "heb": "וְיָדַעַתְּ",
+            "lemma": "3045",
+            "morph": "HC/Vqq2fs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַמָּקוֹם",
+            "lemma": "4725",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "יִשְׁכַּב",
+            "lemma": "7901",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "שָׁם",
+            "lemma": "8033",
+            "morph": "HD"
+          },
+          {
+            "heb": "וּבָאת",
+            "lemma": "935",
+            "morph": "HC/Vqq2fs"
+          },
+          {
+            "heb": "וְגִלִּית",
+            "lemma": "1540",
+            "morph": "HC/Vpq2fs"
+          },
+          {
+            "heb": "מַרְגְּלֹתָיו",
+            "lemma": "4772",
+            "morph": "HNcfpc/Sp3ms"
+          },
+          {
+            "heb": "וְשָׁכָבְתְּ",
+            "lemma": "7901",
+            "morph": "HC/Vqq2fs"
+          },
+          {
+            "heb": "וְהוּא",
+            "lemma": "1931",
+            "morph": "HC/Pp3ms"
+          },
+          {
+            "heb": "יַגִּיד",
+            "lemma": "5046",
+            "morph": "HVhi3ms"
+          },
+          {
+            "heb": "לָךְ",
+            "lemma": "l",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "אֵת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "תַּעַשִֽׂין",
+            "lemma": "6213 a",
+            "morph": "HVqi2fs/Sn"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Ruth 3:5",
+        "words": [
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "אֵלֶיהָ",
+            "lemma": "413",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "כֹּל",
+            "lemma": "3605",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "תֹּאמְרִי",
+            "lemma": "559",
+            "morph": "HVqi2fs"
+          },
+          {
+            "heb": "אֵלַי",
+            "lemma": "413",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "אֶֽעֱשֶֽׂה",
+            "lemma": "6213 a",
+            "morph": "HVqi1cs"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Ruth 3:6",
+        "words": [
+          {
+            "heb": "וַתֵּרֶד",
+            "lemma": "3381",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "הַגֹּרֶן",
+            "lemma": "1637",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "וַתַּעַשׂ",
+            "lemma": "6213 a",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "כְּכֹל",
+            "lemma": "3605",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "צִוַּתָּה",
+            "lemma": "6680",
+            "morph": "HVpp3fs/Sp3fs"
+          },
+          {
+            "heb": "חֲמוֹתָֽהּ",
+            "lemma": "2545",
+            "morph": "HNcfsc/Sp3fs"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Ruth 3:7",
+        "words": [
+          {
+            "heb": "וַיֹּאכַל",
+            "lemma": "398",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "בֹּעַז",
+            "lemma": "1162",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיֵּשְׁתְּ",
+            "lemma": "8354",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "וַיִּיטַב",
+            "lemma": "3190",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "לִבּוֹ",
+            "lemma": "3820 a",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "וַיָּבֹא",
+            "lemma": "935",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "לִשְׁכַּב",
+            "lemma": "7901",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "בִּקְצֵה",
+            "lemma": "7097 a",
+            "morph": "HR/Ncbsc"
+          },
+          {
+            "heb": "הָעֲרֵמָה",
+            "lemma": "6194",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "וַתָּבֹא",
+            "lemma": "935",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "בַלָּט",
+            "lemma": "3909",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "וַתְּגַל",
+            "lemma": "1540",
+            "morph": "HC/Vpw3fs"
+          },
+          {
+            "heb": "מַרְגְּלֹתָיו",
+            "lemma": "4772",
+            "morph": "HNcfpc/Sp3ms"
+          },
+          {
+            "heb": "וַתִּשְׁכָּֽב",
+            "lemma": "7901",
+            "morph": "HC/Vqw3fs"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Ruth 3:8",
+        "words": [
+          {
+            "heb": "וַיְהִי",
+            "lemma": "1961",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "בַּחֲצִי",
+            "lemma": "2677",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "הַלַּיְלָה",
+            "lemma": "3915",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וַיֶּחֱרַד",
+            "lemma": "2729",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "הָאִישׁ",
+            "lemma": "376",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וַיִּלָּפֵת",
+            "lemma": "3943",
+            "morph": "HC/VNw3ms"
+          },
+          {
+            "heb": "וְהִנֵּה",
+            "lemma": "2009",
+            "morph": "HC/Tm"
+          },
+          {
+            "heb": "אִשָּׁה",
+            "lemma": "802",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "שֹׁכֶבֶת",
+            "lemma": "7901",
+            "morph": "HVqrfsa"
+          },
+          {
+            "heb": "מַרְגְּלֹתָֽיו",
+            "lemma": "4772",
+            "morph": "HNcfpc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Ruth 3:9",
+        "words": [
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "מִי",
+            "lemma": "4310",
+            "morph": "HTi"
+          },
+          {
+            "heb": "אָתּ",
+            "lemma": "859 c",
+            "morph": "HPp2fs"
+          },
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "אָנֹכִי",
+            "lemma": "595",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "רוּת",
+            "lemma": "7327",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֲמָתֶךָ",
+            "lemma": "519",
+            "morph": "HNcfsc/Sp2ms"
+          },
+          {
+            "heb": "וּפָרַשְׂתָּ",
+            "lemma": "6566",
+            "morph": "HC/Vqq2ms"
+          },
+          {
+            "heb": "כְנָפֶךָ",
+            "lemma": "3671",
+            "morph": "HNcfsc/Sp2ms"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "אֲמָתְךָ",
+            "lemma": "519",
+            "morph": "HNcfsc/Sp2ms"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "גֹאֵל",
+            "lemma": "1350 a",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "אָֽתָּה",
+            "lemma": "859 a",
+            "morph": "HPp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Ruth 3:10",
+        "words": [
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "בְּרוּכָה",
+            "lemma": "1288",
+            "morph": "HVqsfsa"
+          },
+          {
+            "heb": "אַתְּ",
+            "lemma": "859 c",
+            "morph": "HPp2fs"
+          },
+          {
+            "heb": "לַֽיהוָה",
+            "lemma": "3068",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "בִּתִּי",
+            "lemma": "1323",
+            "morph": "HNcfsc/Sp1cs"
+          },
+          {
+            "heb": "הֵיטַבְתְּ",
+            "lemma": "3190",
+            "morph": "HVhp2fs"
+          },
+          {
+            "heb": "חַסְדֵּךְ",
+            "lemma": "2617 a",
+            "morph": "HNcmsc/Sp2fs"
+          },
+          {
+            "heb": "הָאַחֲרוֹן",
+            "lemma": "314",
+            "morph": "HTd/Aamsa"
+          },
+          {
+            "heb": "מִן",
+            "lemma": "4480 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הָרִאשׁוֹן",
+            "lemma": "7223",
+            "morph": "HTd/Aamsa"
+          },
+          {
+            "heb": "לְבִלְתִּי",
+            "lemma": "1115",
+            "morph": "HR/C"
+          },
+          {
+            "heb": "לֶכֶת",
+            "lemma": "3212",
+            "morph": "HVqc"
+          },
+          {
+            "heb": "אַחֲרֵי",
+            "lemma": "310 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַבַּחוּרִים",
+            "lemma": "970",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "אִם",
+            "lemma": "518 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "דַּל",
+            "lemma": "1800",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "וְאִם",
+            "lemma": "518 a",
+            "morph": "HC/C"
+          },
+          {
+            "heb": "עָשִֽׁיר",
+            "lemma": "6223",
+            "morph": "HAamsa"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Ruth 3:11",
+        "words": [
+          {
+            "heb": "וְעַתָּה",
+            "lemma": "6258",
+            "morph": "HC/D"
+          },
+          {
+            "heb": "בִּתִּי",
+            "lemma": "1323",
+            "morph": "HNcfsc/Sp1cs"
+          },
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תִּירְאִי",
+            "lemma": "3372",
+            "morph": "HVqj2fs"
+          },
+          {
+            "heb": "כֹּל",
+            "lemma": "3605",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "תֹּאמְרִי",
+            "lemma": "559",
+            "morph": "HVqi2fs"
+          },
+          {
+            "heb": "אֶֽעֱשֶׂה",
+            "lemma": "6213 a",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "לָּךְ",
+            "lemma": "l",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "יוֹדֵעַ",
+            "lemma": "3045",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "שַׁעַר",
+            "lemma": "8179",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "עַמִּי",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אֵשֶׁת",
+            "lemma": "802",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "חַיִל",
+            "lemma": "2428",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אָֽתְּ",
+            "lemma": "859 c",
+            "morph": "HPp2fs"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Ruth 3:12",
+        "words": [
+          {
+            "heb": "וְעַתָּה",
+            "lemma": "6258",
+            "morph": "HC/D"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אָמְנָם",
+            "lemma": "551",
+            "morph": "HD"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "גֹאֵל",
+            "lemma": "1350 a",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "אָנֹכִי",
+            "lemma": "595",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "וְגַם",
+            "lemma": "1571",
+            "morph": "HC/Ta"
+          },
+          {
+            "heb": "יֵשׁ",
+            "lemma": "3426",
+            "morph": "HTm"
+          },
+          {
+            "heb": "גֹּאֵל",
+            "lemma": "1350 a",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "קָרוֹב",
+            "lemma": "7138",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "מִמֶּֽנִּי",
+            "lemma": "4480 a",
+            "morph": "HR/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Ruth 3:13",
+        "words": [
+          {
+            "heb": "לִינִי",
+            "lemma": "3885 a",
+            "morph": "HVqv2fs"
+          },
+          {
+            "heb": "הַלַּיְלָה",
+            "lemma": "3915",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וְהָיָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "בַבֹּקֶר",
+            "lemma": "1242",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "אִם",
+            "lemma": "518 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "יִגְאָלֵךְ",
+            "lemma": "1350 a",
+            "morph": "HVqi3ms/Sp2fs"
+          },
+          {
+            "heb": "טוֹב",
+            "lemma": "2896 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "יִגְאָל",
+            "lemma": "1350 a",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "וְאִם",
+            "lemma": "518 a",
+            "morph": "HC/C"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יַחְפֹּץ",
+            "lemma": "2654 a",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "לְגָֽאֳלֵךְ",
+            "lemma": "1350 a",
+            "morph": "HR/Vqc/Sp2fs"
+          },
+          {
+            "heb": "וּגְאַלְתִּיךְ",
+            "lemma": "1350 a",
+            "morph": "HC/Vqq1cs/Sp2fs"
+          },
+          {
+            "heb": "אָנֹכִי",
+            "lemma": "595",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "חַי",
+            "lemma": "2416 a",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "שִׁכְבִי",
+            "lemma": "7901",
+            "morph": "HVqv2fs"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַבֹּֽקֶר",
+            "lemma": "1242",
+            "morph": "HTd/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Ruth 3:14",
+        "words": [
+          {
+            "heb": "וַתִּשְׁכַּב",
+            "lemma": "7901",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "מַרְגְּלוֹתָיוֹ",
+            "lemma": "4772",
+            "morph": "HNcfpc/Sp3ms"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַבֹּקֶר",
+            "lemma": "1242",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וַתָּקָם",
+            "lemma": "6965 b",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "בְּטֶרֶם",
+            "lemma": "2962",
+            "morph": "HR/D"
+          },
+          {
+            "heb": "יַכִּיר",
+            "lemma": "5234 a",
+            "morph": "HVhi3ms"
+          },
+          {
+            "heb": "אִישׁ",
+            "lemma": "376",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "רֵעֵהוּ",
+            "lemma": "7453",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יִוָּדַע",
+            "lemma": "3045",
+            "morph": "HVNj3ms"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "בָאָה",
+            "lemma": "935",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "הָאִשָּׁה",
+            "lemma": "802",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "הַגֹּֽרֶן",
+            "lemma": "1637",
+            "morph": "HTd/Ncbsa"
+          }
+        ]
+      },
+      {
+        "verse": 15,
+        "ref": "Ruth 3:15",
+        "words": [
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "הָבִי",
+            "lemma": "3051",
+            "morph": "HVqv2fs"
+          },
+          {
+            "heb": "הַמִּטְפַּחַת",
+            "lemma": "4304",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "עָלַיִךְ",
+            "lemma": "5921 a",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "וְאֶֽחֳזִי",
+            "lemma": "270",
+            "morph": "HC/Vqv2fs"
+          },
+          {
+            "heb": "בָהּ",
+            "lemma": "b",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "וַתֹּאחֶז",
+            "lemma": "270",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "בָּהּ",
+            "lemma": "b",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "וַיָּמָד",
+            "lemma": "4058",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "שֵׁשׁ",
+            "lemma": "8337",
+            "morph": "HAcfsa"
+          },
+          {
+            "heb": "שְׂעֹרִים",
+            "lemma": "8184",
+            "morph": "HNcfpa"
+          },
+          {
+            "heb": "וַיָּשֶׁת",
+            "lemma": "7896",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "עָלֶיהָ",
+            "lemma": "5921 a",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "וַיָּבֹא",
+            "lemma": "935",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "הָעִֽיר",
+            "lemma": "5892 b",
+            "morph": "HTd/Ncfsa"
+          }
+        ]
+      },
+      {
+        "verse": 16,
+        "ref": "Ruth 3:16",
+        "words": [
+          {
+            "heb": "וַתָּבוֹא",
+            "lemma": "935",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "חֲמוֹתָהּ",
+            "lemma": "2545",
+            "morph": "HNcfsc/Sp3fs"
+          },
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "מִי",
+            "lemma": "4310",
+            "morph": "HTi"
+          },
+          {
+            "heb": "אַתְּ",
+            "lemma": "859 c",
+            "morph": "HPp2fs"
+          },
+          {
+            "heb": "בִּתִּי",
+            "lemma": "1323",
+            "morph": "HNcfsc/Sp1cs"
+          },
+          {
+            "heb": "וַתַּגֶּד",
+            "lemma": "5046",
+            "morph": "HC/Vhw3fs"
+          },
+          {
+            "heb": "לָהּ",
+            "lemma": "l",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "אֵת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "עָֽשָׂה",
+            "lemma": "6213 a",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "לָהּ",
+            "lemma": "l",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "הָאִֽישׁ",
+            "lemma": "376",
+            "morph": "HTd/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 17,
+        "ref": "Ruth 3:17",
+        "words": [
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "שֵׁשׁ",
+            "lemma": "8337",
+            "morph": "HAcfsa"
+          },
+          {
+            "heb": "הַשְּׂעֹרִים",
+            "lemma": "8184",
+            "morph": "HTd/Ncfpa"
+          },
+          {
+            "heb": "הָאֵלֶּה",
+            "lemma": "428",
+            "morph": "HTd/Pdxcp"
+          },
+          {
+            "heb": "נָתַן",
+            "lemma": "5414",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "אֵלַי",
+            "lemma": "413",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תָּבוֹאִי",
+            "lemma": "935",
+            "morph": "HVqj2fs"
+          },
+          {
+            "heb": "רֵיקָם",
+            "lemma": "7387",
+            "morph": "HD"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "חֲמוֹתֵֽךְ",
+            "lemma": "2545",
+            "morph": "HNcfsc/Sp2fs"
+          }
+        ]
+      },
+      {
+        "verse": 18,
+        "ref": "Ruth 3:18",
+        "words": [
+          {
+            "heb": "וַתֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "שְׁבִי",
+            "lemma": "3427",
+            "morph": "HVqv2fs"
+          },
+          {
+            "heb": "בִתִּי",
+            "lemma": "1323",
+            "morph": "HNcfsc/Sp1cs"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "תֵּֽדְעִין",
+            "lemma": "3045",
+            "morph": "HVqi2fs/Sn"
+          },
+          {
+            "heb": "אֵיךְ",
+            "lemma": "349 a",
+            "morph": "HTi"
+          },
+          {
+            "heb": "יִפֹּל",
+            "lemma": "5307",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "דָּבָר",
+            "lemma": "1697",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יִשְׁקֹט",
+            "lemma": "8252",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "הָאִישׁ",
+            "lemma": "376",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 b",
+            "morph": "HC"
+          },
+          {
+            "heb": "אִם",
+            "lemma": "518 b",
+            "morph": "HC"
+          },
+          {
+            "heb": "כִּלָּה",
+            "lemma": "3615",
+            "morph": "HVpp3ms"
+          },
+          {
+            "heb": "הַדָּבָר",
+            "lemma": "1697",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "הַיּֽוֹם",
+            "lemma": "3117",
+            "morph": "HTd/Ncmsa"
+          }
+        ]
+      }
+    ],
+    "4": [
+      {
+        "verse": 1,
+        "ref": "Ruth 4:1",
+        "words": [
+          {
+            "heb": "וּבֹעַז",
+            "lemma": "1162",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "עָלָה",
+            "lemma": "5927",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "הַשַּׁעַר",
+            "lemma": "8179",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וַיֵּשֶׁב",
+            "lemma": "3427",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "שָׁם",
+            "lemma": "8033",
+            "morph": "HD"
+          },
+          {
+            "heb": "וְהִנֵּה",
+            "lemma": "2009",
+            "morph": "HC/Tm"
+          },
+          {
+            "heb": "הַגֹּאֵל",
+            "lemma": "1350 a",
+            "morph": "HTd/Vqrmsa"
+          },
+          {
+            "heb": "עֹבֵר",
+            "lemma": "5674 a",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "דִּבֶּר",
+            "lemma": "1696",
+            "morph": "HVpp3ms"
+          },
+          {
+            "heb": "בֹּעַז",
+            "lemma": "1162",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "סוּרָה",
+            "lemma": "5493",
+            "morph": "HVqv2ms/Sh"
+          },
+          {
+            "heb": "שְׁבָה",
+            "lemma": "3427",
+            "morph": "HVqv2ms/Sh"
+          },
+          {
+            "heb": "פֹּה",
+            "lemma": "6311",
+            "morph": "HD"
+          },
+          {
+            "heb": "פְּלֹנִי",
+            "lemma": "6423",
+            "morph": "HPf"
+          },
+          {
+            "heb": "אַלְמֹנִי",
+            "lemma": "492",
+            "morph": "HAabsa"
+          },
+          {
+            "heb": "וַיָּסַר",
+            "lemma": "5493",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "וַיֵּשֵֽׁב",
+            "lemma": "3427",
+            "morph": "HC/Vqw3ms"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Ruth 4:2",
+        "words": [
+          {
+            "heb": "וַיִּקַּח",
+            "lemma": "3947",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "עֲשָׂרָה",
+            "lemma": "6235",
+            "morph": "HAcmsa"
+          },
+          {
+            "heb": "אֲנָשִׁים",
+            "lemma": "376",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "מִזִּקְנֵי",
+            "lemma": "2205",
+            "morph": "HR/Aampc"
+          },
+          {
+            "heb": "הָעִיר",
+            "lemma": "5892 b",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "שְׁבוּ",
+            "lemma": "3427",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "פֹה",
+            "lemma": "6311",
+            "morph": "HD"
+          },
+          {
+            "heb": "וַיֵּשֵֽׁבוּ",
+            "lemma": "3427",
+            "morph": "HC/Vqw3mp"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Ruth 4:3",
+        "words": [
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "לַגֹּאֵל",
+            "lemma": "1350 a",
+            "morph": "HRd/Vqrmsa"
+          },
+          {
+            "heb": "חֶלְקַת",
+            "lemma": "2513 a",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "הַשָּׂדֶה",
+            "lemma": "7704 b",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "לְאָחִינוּ",
+            "lemma": "251",
+            "morph": "HR/Ncmsc/Sp1cp"
+          },
+          {
+            "heb": "לֶאֱלִימֶלֶךְ",
+            "lemma": "458",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "מָכְרָה",
+            "lemma": "4376",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "נָעֳמִי",
+            "lemma": "5281",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הַשָּׁבָה",
+            "lemma": "7725",
+            "morph": "HTd/Vqp3fs"
+          },
+          {
+            "heb": "מִשְּׂדֵה",
+            "lemma": "7704 b",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "מוֹאָֽב",
+            "lemma": "4124",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Ruth 4:4",
+        "words": [
+          {
+            "heb": "וַאֲנִי",
+            "lemma": "589",
+            "morph": "HC/Pp1cs"
+          },
+          {
+            "heb": "אָמַרְתִּי",
+            "lemma": "559",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "אֶגְלֶה",
+            "lemma": "1540",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "אָזְנְךָ",
+            "lemma": "241",
+            "morph": "HNcfsc/Sp2ms"
+          },
+          {
+            "heb": "לֵאמֹר",
+            "lemma": "559",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "קְנֵה",
+            "lemma": "7069",
+            "morph": "HVqv2ms"
+          },
+          {
+            "heb": "נֶגֶד",
+            "lemma": "5048",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַֽיֹּשְׁבִים",
+            "lemma": "3427",
+            "morph": "HTd/Vqrmpa"
+          },
+          {
+            "heb": "וְנֶגֶד",
+            "lemma": "5048",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "זִקְנֵי",
+            "lemma": "2205",
+            "morph": "HAampc"
+          },
+          {
+            "heb": "עַמִּי",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "אִם",
+            "lemma": "518 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "תִּגְאַל",
+            "lemma": "1350 a",
+            "morph": "HVqi2ms"
+          },
+          {
+            "heb": "גְּאָל",
+            "lemma": "1350 a",
+            "morph": "HVqv2ms"
+          },
+          {
+            "heb": "וְאִם",
+            "lemma": "518 a",
+            "morph": "HC/C"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יִגְאַל",
+            "lemma": "1350 a",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "הַגִּידָה",
+            "lemma": "5046",
+            "morph": "HVhv2ms/Sh"
+          },
+          {
+            "heb": "לִּי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "וְאֵֽדְעָה",
+            "lemma": "3045",
+            "morph": "HC/Vqh1cs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אֵין",
+            "lemma": "369",
+            "morph": "HTn"
+          },
+          {
+            "heb": "זוּלָֽתְךָ",
+            "lemma": "2108",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "לִגְאוֹל",
+            "lemma": "1350 a",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "וְאָנֹכִי",
+            "lemma": "595",
+            "morph": "HC/Pp1cs"
+          },
+          {
+            "heb": "אַחֲרֶיךָ",
+            "lemma": "310 a",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "אָנֹכִי",
+            "lemma": "595",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "אֶגְאָֽל",
+            "lemma": "1350 a",
+            "morph": "HVqi1cs"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Ruth 4:5",
+        "words": [
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "בֹּעַז",
+            "lemma": "1162",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בְּיוֹם",
+            "lemma": "3117",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "קְנוֹתְךָ",
+            "lemma": "7069",
+            "morph": "HVqc/Sp2ms"
+          },
+          {
+            "heb": "הַשָּׂדֶה",
+            "lemma": "7704 b",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "מִיַּד",
+            "lemma": "3027",
+            "morph": "HR/Ncbsc"
+          },
+          {
+            "heb": "נָעֳמִי",
+            "lemma": "5281",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּמֵאֵת",
+            "lemma": "853",
+            "morph": "HC/R/To"
+          },
+          {
+            "heb": "רוּת",
+            "lemma": "7327",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הַמּוֹאֲבִיָּה",
+            "lemma": "4125",
+            "morph": "HTd/Ngfsa"
+          },
+          {
+            "heb": "אֵֽשֶׁת",
+            "lemma": "802",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "הַמֵּת",
+            "lemma": "4191",
+            "morph": "HTd/Vqrmsa"
+          },
+          {
+            "heb": "קָנִיתָה",
+            "lemma": "7069",
+            "morph": "HVqp2ms"
+          },
+          {
+            "heb": "לְהָקִים",
+            "lemma": "6965 b",
+            "morph": "HR/Vhc"
+          },
+          {
+            "heb": "שֵׁם",
+            "lemma": "8034",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַמֵּת",
+            "lemma": "4191",
+            "morph": "HTd/Vqrmsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "נַחֲלָתֽוֹ",
+            "lemma": "5159",
+            "morph": "HNcfsc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Ruth 4:6",
+        "words": [
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "הַגֹּאֵל",
+            "lemma": "1350 a",
+            "morph": "HTd/Vqrmsa"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "אוּכַל",
+            "lemma": "3201",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "לִגְאָל",
+            "lemma": "1350 a",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "פֶּן",
+            "lemma": "6435",
+            "morph": "HC"
+          },
+          {
+            "heb": "אַשְׁחִית",
+            "lemma": "7843",
+            "morph": "HVhi1cs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "נַחֲלָתִי",
+            "lemma": "5159",
+            "morph": "HNcfsc/Sp1cs"
+          },
+          {
+            "heb": "גְּאַל",
+            "lemma": "1350 a",
+            "morph": "HVqv2ms"
+          },
+          {
+            "heb": "לְךָ",
+            "lemma": "l",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "אַתָּה",
+            "lemma": "859 a",
+            "morph": "HPp2ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "גְּאֻלָּתִי",
+            "lemma": "1353",
+            "morph": "HNcfsc/Sp1cs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "אוּכַל",
+            "lemma": "3201",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "לִגְאֹֽל",
+            "lemma": "1350 a",
+            "morph": "HR/Vqc"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Ruth 4:7",
+        "words": [
+          {
+            "heb": "וְזֹאת",
+            "lemma": "2063",
+            "morph": "HC/Pdxfs"
+          },
+          {
+            "heb": "לְפָנִים",
+            "lemma": "6440",
+            "morph": "HR/Ncbpa"
+          },
+          {
+            "heb": "בְּיִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַגְּאוּלָּה",
+            "lemma": "1353",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "וְעַל",
+            "lemma": "5921 a",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "הַתְּמוּרָה",
+            "lemma": "8545",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "לְקַיֵּם",
+            "lemma": "6965 b",
+            "morph": "HR/Vpc"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "דָּבָר",
+            "lemma": "1697",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "שָׁלַף",
+            "lemma": "8025",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "אִישׁ",
+            "lemma": "376",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "נַעֲלוֹ",
+            "lemma": "5275",
+            "morph": "HNcfsc/Sp3ms"
+          },
+          {
+            "heb": "וְנָתַן",
+            "lemma": "5414",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "לְרֵעֵהוּ",
+            "lemma": "7453",
+            "morph": "HR/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "וְזֹאת",
+            "lemma": "2063",
+            "morph": "HC/Pdxfs"
+          },
+          {
+            "heb": "הַתְּעוּדָה",
+            "lemma": "8584",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "בְּיִשְׂרָאֵֽל",
+            "lemma": "3478",
+            "morph": "HR/Np"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Ruth 4:8",
+        "words": [
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "הַגֹּאֵל",
+            "lemma": "1350 a",
+            "morph": "HTd/Vqrmsa"
+          },
+          {
+            "heb": "לְבֹעַז",
+            "lemma": "1162",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "קְנֵה",
+            "lemma": "7069",
+            "morph": "HVqv2ms"
+          },
+          {
+            "heb": "לָךְ",
+            "lemma": "l",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "וַיִּשְׁלֹף",
+            "lemma": "8025",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "נַעֲלֽוֹ",
+            "lemma": "5275",
+            "morph": "HNcfsc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Ruth 4:9",
+        "words": [
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "בֹּעַז",
+            "lemma": "1162",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לַזְּקֵנִים",
+            "lemma": "2205",
+            "morph": "HRd/Aampa"
+          },
+          {
+            "heb": "וְכָל",
+            "lemma": "3605",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "הָעָם",
+            "lemma": "5971 a",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "עֵדִים",
+            "lemma": "5707",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "אַתֶּם",
+            "lemma": "859 d",
+            "morph": "HPp2mp"
+          },
+          {
+            "heb": "הַיּוֹם",
+            "lemma": "3117",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "קָנִיתִי",
+            "lemma": "7069",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "לֶֽאֱלִימֶלֶךְ",
+            "lemma": "458",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "וְאֵת",
+            "lemma": "853",
+            "morph": "HC/To"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "לְכִלְיוֹן",
+            "lemma": "3630",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "וּמַחְלוֹן",
+            "lemma": "4248",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "מִיַּד",
+            "lemma": "3027",
+            "morph": "HR/Ncbsc"
+          },
+          {
+            "heb": "נָעֳמִֽי",
+            "lemma": "5281",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Ruth 4:10",
+        "words": [
+          {
+            "heb": "וְגַם",
+            "lemma": "1571",
+            "morph": "HC/Ta"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "רוּת",
+            "lemma": "7327",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הַמֹּאֲבִיָּה",
+            "lemma": "4125",
+            "morph": "HTd/Ngfsa"
+          },
+          {
+            "heb": "אֵשֶׁת",
+            "lemma": "802",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "מַחְלוֹן",
+            "lemma": "4248",
+            "morph": "HNp"
+          },
+          {
+            "heb": "קָנִיתִי",
+            "lemma": "7069",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "לְאִשָּׁה",
+            "lemma": "802",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "לְהָקִים",
+            "lemma": "6965 b",
+            "morph": "HR/Vhc"
+          },
+          {
+            "heb": "שֵׁם",
+            "lemma": "8034",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַמֵּת",
+            "lemma": "4191",
+            "morph": "HTd/Vqrmsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "נַחֲלָתוֹ",
+            "lemma": "5159",
+            "morph": "HNcfsc/Sp3ms"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יִכָּרֵת",
+            "lemma": "3772",
+            "morph": "HVNi3ms"
+          },
+          {
+            "heb": "שֵׁם",
+            "lemma": "8034",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַמֵּת",
+            "lemma": "4191",
+            "morph": "HTd/Vqrmsa"
+          },
+          {
+            "heb": "מֵעִם",
+            "lemma": "5973 b",
+            "morph": "HR/R"
+          },
+          {
+            "heb": "אֶחָיו",
+            "lemma": "251",
+            "morph": "HNcmpc/Sp3ms"
+          },
+          {
+            "heb": "וּמִשַּׁעַר",
+            "lemma": "8179",
+            "morph": "HC/R/Ncmsc"
+          },
+          {
+            "heb": "מְקוֹמוֹ",
+            "lemma": "4725",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "עֵדִים",
+            "lemma": "5707",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "אַתֶּם",
+            "lemma": "859 d",
+            "morph": "HPp2mp"
+          },
+          {
+            "heb": "הַיּֽוֹם",
+            "lemma": "3117",
+            "morph": "HTd/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Ruth 4:11",
+        "words": [
+          {
+            "heb": "וַיֹּאמְרוּ",
+            "lemma": "559",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הָעָם",
+            "lemma": "5971 a",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "בַּשַּׁעַר",
+            "lemma": "8179",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "וְהַזְּקֵנִים",
+            "lemma": "2205",
+            "morph": "HC/Td/Aampa"
+          },
+          {
+            "heb": "עֵדִים",
+            "lemma": "5707",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "יִתֵּן",
+            "lemma": "5414",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֶֽת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הָאִשָּׁה",
+            "lemma": "802",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "הַבָּאָה",
+            "lemma": "935",
+            "morph": "HTd/Vqrfsa"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "בֵּיתֶךָ",
+            "lemma": "1004 b",
+            "morph": "HNcmsc/Sp2ms"
+          },
+          {
+            "heb": "כְּרָחֵל",
+            "lemma": "7354",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "וּכְלֵאָה",
+            "lemma": "3812",
+            "morph": "HC/R/Np"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "בָּנוּ",
+            "lemma": "1129",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "שְׁתֵּיהֶם",
+            "lemma": "8147",
+            "morph": "HAcfdc/Sp3mp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "בֵּית",
+            "lemma": "1004 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַעֲשֵׂה",
+            "lemma": "6213 a",
+            "morph": "HC/Vqv2ms"
+          },
+          {
+            "heb": "חַיִל",
+            "lemma": "2428",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בְּאֶפְרָתָה",
+            "lemma": "672",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "וּקְרָא",
+            "lemma": "7121",
+            "morph": "HC/Vqv2ms"
+          },
+          {
+            "heb": "שֵׁם",
+            "lemma": "8034",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בְּבֵית",
+            "lemma": "1035+",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "לָֽחֶם",
+            "lemma": "1035",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Ruth 4:12",
+        "words": [
+          {
+            "heb": "וִיהִי",
+            "lemma": "1961",
+            "morph": "HC/Vqj3ms"
+          },
+          {
+            "heb": "בֵֽיתְךָ",
+            "lemma": "1004 b",
+            "morph": "HNcmsc/Sp2ms"
+          },
+          {
+            "heb": "כְּבֵית",
+            "lemma": "1004 b",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "פֶּרֶץ",
+            "lemma": "6557",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "יָלְדָה",
+            "lemma": "3205",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "תָמָר",
+            "lemma": "8559",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לִֽיהוּדָה",
+            "lemma": "3063",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "מִן",
+            "lemma": "4480 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַזֶּרַע",
+            "lemma": "2233",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "יִתֵּן",
+            "lemma": "5414",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לְךָ",
+            "lemma": "l",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "מִן",
+            "lemma": "4480 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַֽנַּעֲרָה",
+            "lemma": "5291",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "הַזֹּֽאת",
+            "lemma": "2063",
+            "morph": "HTd/Pdxfs"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Ruth 4:13",
+        "words": [
+          {
+            "heb": "וַיִּקַּח",
+            "lemma": "3947",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "בֹּעַז",
+            "lemma": "1162",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "רוּת",
+            "lemma": "7327",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַתְּהִי",
+            "lemma": "1961",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "לוֹ",
+            "lemma": "l",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "לְאִשָּׁה",
+            "lemma": "802",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "וַיָּבֹא",
+            "lemma": "935",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "אֵלֶיהָ",
+            "lemma": "413",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "וַיִּתֵּן",
+            "lemma": "5414",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לָהּ",
+            "lemma": "l",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "הֵרָיוֹן",
+            "lemma": "2032",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וַתֵּלֶד",
+            "lemma": "3205",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "בֵּֽן",
+            "lemma": "1121 a",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Ruth 4:14",
+        "words": [
+          {
+            "heb": "וַתֹּאמַרְנָה",
+            "lemma": "559",
+            "morph": "HC/Vqw3fp"
+          },
+          {
+            "heb": "הַנָּשִׁים",
+            "lemma": "802",
+            "morph": "HTd/Ncfpa"
+          },
+          {
+            "heb": "אֶֽל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "נָעֳמִי",
+            "lemma": "5281",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בָּרוּךְ",
+            "lemma": "1288",
+            "morph": "HVqsmsa"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "הִשְׁבִּית",
+            "lemma": "7673 a",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "לָךְ",
+            "lemma": "l",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "גֹּאֵל",
+            "lemma": "1350 a",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "הַיּוֹם",
+            "lemma": "3117",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וְיִקָּרֵא",
+            "lemma": "7121",
+            "morph": "HC/VNi3ms"
+          },
+          {
+            "heb": "שְׁמוֹ",
+            "lemma": "8034",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "בְּיִשְׂרָאֵֽל",
+            "lemma": "3478",
+            "morph": "HR/Np"
+          }
+        ]
+      },
+      {
+        "verse": 15,
+        "ref": "Ruth 4:15",
+        "words": [
+          {
+            "heb": "וְהָיָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "לָךְ",
+            "lemma": "l",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "לְמֵשִׁיב",
+            "lemma": "7725",
+            "morph": "HR/Vhrmsa"
+          },
+          {
+            "heb": "נֶפֶשׁ",
+            "lemma": "5315",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "וּלְכַלְכֵּל",
+            "lemma": "3557",
+            "morph": "HC/R/Vlc"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "שֵׂיבָתֵךְ",
+            "lemma": "7872",
+            "morph": "HNcfsc/Sp2fs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "כַלָּתֵךְ",
+            "lemma": "3618",
+            "morph": "HNcfsc/Sp2fs"
+          },
+          {
+            "heb": "אֲֽשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "אֲהֵבַתֶךְ",
+            "lemma": "157",
+            "morph": "HVqp3fs/Sp2fs"
+          },
+          {
+            "heb": "יְלָדַתּוּ",
+            "lemma": "3205",
+            "morph": "HVqp3fs/Sp3ms"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "הִיא",
+            "lemma": "1931",
+            "morph": "HPp3fs"
+          },
+          {
+            "heb": "טוֹבָה",
+            "lemma": "2896 a",
+            "morph": "HAafsa"
+          },
+          {
+            "heb": "לָךְ",
+            "lemma": "l",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "מִשִּׁבְעָה",
+            "lemma": "7651",
+            "morph": "HR/Acmsa"
+          },
+          {
+            "heb": "בָּנִֽים",
+            "lemma": "1121 a",
+            "morph": "HNcmpa"
+          }
+        ]
+      },
+      {
+        "verse": 16,
+        "ref": "Ruth 4:16",
+        "words": [
+          {
+            "heb": "וַתִּקַּח",
+            "lemma": "3947",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "נָעֳמִי",
+            "lemma": "5281",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַיֶּלֶד",
+            "lemma": "3206",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וַתְּשִׁתֵהוּ",
+            "lemma": "7896",
+            "morph": "HC/Vqw3fs/Sp3ms"
+          },
+          {
+            "heb": "בְחֵיקָהּ",
+            "lemma": "2436",
+            "morph": "HR/Ncmsc/Sp3fs"
+          },
+          {
+            "heb": "וַתְּהִי",
+            "lemma": "1961",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "לוֹ",
+            "lemma": "l",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "לְאֹמֶֽנֶת",
+            "lemma": "539",
+            "morph": "HR/Vqrfsa"
+          }
+        ]
+      },
+      {
+        "verse": 17,
+        "ref": "Ruth 4:17",
+        "words": [
+          {
+            "heb": "וַתִּקְרֶאנָה",
+            "lemma": "7121",
+            "morph": "HC/Vqw3fp"
+          },
+          {
+            "heb": "לוֹ",
+            "lemma": "l",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "הַשְּׁכֵנוֹת",
+            "lemma": "7934",
+            "morph": "HTd/Aafpa"
+          },
+          {
+            "heb": "שֵׁם",
+            "lemma": "8034",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "לֵאמֹר",
+            "lemma": "559",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "יֻלַּד",
+            "lemma": "3205",
+            "morph": "HVPp3ms"
+          },
+          {
+            "heb": "בֵּן",
+            "lemma": "1121 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "לְנָעֳמִי",
+            "lemma": "5281",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "וַתִּקְרֶאנָֽה",
+            "lemma": "7121",
+            "morph": "HC/Vqw3fp"
+          },
+          {
+            "heb": "שְׁמוֹ",
+            "lemma": "8034",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "עוֹבֵד",
+            "lemma": "5744",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          },
+          {
+            "heb": "אֲבִי",
+            "lemma": "1",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יִשַׁי",
+            "lemma": "3448",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֲבִי",
+            "lemma": "1",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "דָוִֽד",
+            "lemma": "1732",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 18,
+        "ref": "Ruth 4:18",
+        "words": [
+          {
+            "heb": "וְאֵלֶּה",
+            "lemma": "428",
+            "morph": "HC/Pdxcp"
+          },
+          {
+            "heb": "תּוֹלְדוֹת",
+            "lemma": "8435",
+            "morph": "HNcfpc"
+          },
+          {
+            "heb": "פָּרֶץ",
+            "lemma": "6557",
+            "morph": "HNp"
+          },
+          {
+            "heb": "פֶּרֶץ",
+            "lemma": "6557",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הוֹלִיד",
+            "lemma": "3205",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "חֶצְרֽוֹן",
+            "lemma": "2696",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 19,
+        "ref": "Ruth 4:19",
+        "words": [
+          {
+            "heb": "וְחֶצְרוֹן",
+            "lemma": "2696",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "הוֹלִיד",
+            "lemma": "3205",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "רָם",
+            "lemma": "7410",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְרָם",
+            "lemma": "7410",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "הוֹלִיד",
+            "lemma": "3205",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "עַמִּֽינָדָֽב",
+            "lemma": "5992",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 20,
+        "ref": "Ruth 4:20",
+        "words": [
+          {
+            "heb": "וְעַמִּֽינָדָב",
+            "lemma": "5992",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "הוֹלִיד",
+            "lemma": "3205",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "נַחְשׁוֹן",
+            "lemma": "5177",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְנַחְשׁוֹן",
+            "lemma": "5177",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "הוֹלִיד",
+            "lemma": "3205",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "שַׂלְמָֽה",
+            "lemma": "8009",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 21,
+        "ref": "Ruth 4:21",
+        "words": [
+          {
+            "heb": "וְשַׂלְמוֹן",
+            "lemma": "8012",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "הוֹלִיד",
+            "lemma": "3205",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "בֹּעַז",
+            "lemma": "1162",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּבֹעַז",
+            "lemma": "1162",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "הוֹלִיד",
+            "lemma": "3205",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "עוֹבֵֽד",
+            "lemma": "5744",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 22,
+        "ref": "Ruth 4:22",
+        "words": [
+          {
+            "heb": "וְעֹבֵד",
+            "lemma": "5744",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "הוֹלִיד",
+            "lemma": "3205",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "יִשָׁי",
+            "lemma": "3448",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְיִשַׁי",
+            "lemma": "3448",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "הוֹלִיד",
+            "lemma": "3205",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "דָּוִֽד",
+            "lemma": "1732",
+            "morph": "HNp"
+          }
+        ]
+      }
+    ]
+  }
+}

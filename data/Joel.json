@@ -1,0 +1,5237 @@
+{
+  "name": "Joel",
+  "osisId": "Joel",
+  "chapters": {
+    "1": [
+      {
+        "verse": 1,
+        "ref": "Joel 1:1",
+        "words": [
+          {
+            "heb": "דְּבַר",
+            "lemma": "1697",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "הָיָה",
+            "lemma": "1961",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "יוֹאֵל",
+            "lemma": "3100",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בֶּן",
+            "lemma": "1121 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "פְּתוּאֵֽל",
+            "lemma": "6602",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Joel 1:2",
+        "words": [
+          {
+            "heb": "שִׁמְעוּ",
+            "lemma": "8085",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "זֹאת",
+            "lemma": "2063",
+            "morph": "HPdxfs"
+          },
+          {
+            "heb": "הַזְּקֵנִים",
+            "lemma": "2205",
+            "morph": "HTd/Aampa"
+          },
+          {
+            "heb": "וְהַֽאֲזִינוּ",
+            "lemma": "238",
+            "morph": "HC/Vhv2mp"
+          },
+          {
+            "heb": "כֹּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יוֹשְׁבֵי",
+            "lemma": "3427",
+            "morph": "HVqrmpc"
+          },
+          {
+            "heb": "הָאָרֶץ",
+            "lemma": "776",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "הֶהָיְתָה",
+            "lemma": "1961",
+            "morph": "HTi/Vqp3fs"
+          },
+          {
+            "heb": "זֹּאת",
+            "lemma": "2063",
+            "morph": "HPdxfs"
+          },
+          {
+            "heb": "בִּֽימֵיכֶם",
+            "lemma": "3117",
+            "morph": "HR/Ncmpc/Sp2mp"
+          },
+          {
+            "heb": "וְאִם",
+            "lemma": "518 a",
+            "morph": "HC/C"
+          },
+          {
+            "heb": "בִּימֵי",
+            "lemma": "3117",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "אֲבֹֽתֵיכֶֽם",
+            "lemma": "1",
+            "morph": "HNcmpc/Sp2mp"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Joel 1:3",
+        "words": [
+          {
+            "heb": "עָלֶיהָ",
+            "lemma": "5921 a",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "לִבְנֵיכֶם",
+            "lemma": "1121 a",
+            "morph": "HR/Ncmpc/Sp2mp"
+          },
+          {
+            "heb": "סַפֵּרוּ",
+            "lemma": "5608 a",
+            "morph": "HVpv2mp"
+          },
+          {
+            "heb": "וּבְנֵיכֶם",
+            "lemma": "1121 a",
+            "morph": "HC/Ncmpc/Sp2mp"
+          },
+          {
+            "heb": "לִבְנֵיהֶם",
+            "lemma": "1121 a",
+            "morph": "HR/Ncmpc/Sp3mp"
+          },
+          {
+            "heb": "וּבְנֵיהֶם",
+            "lemma": "1121 a",
+            "morph": "HC/Ncmpc/Sp3mp"
+          },
+          {
+            "heb": "לְדוֹר",
+            "lemma": "1755",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "אַחֵֽר",
+            "lemma": "312",
+            "morph": "HAamsa"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Joel 1:4",
+        "words": [
+          {
+            "heb": "יֶתֶר",
+            "lemma": "3499 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַגָּזָם",
+            "lemma": "1501",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "אָכַל",
+            "lemma": "398",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "הָֽאַרְבֶּה",
+            "lemma": "697",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וְיֶתֶר",
+            "lemma": "3499 a",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "הָאַרְבֶּה",
+            "lemma": "697",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "אָכַל",
+            "lemma": "398",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "הַיָּלֶק",
+            "lemma": "3218",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וְיֶתֶר",
+            "lemma": "3499 a",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "הַיֶּלֶק",
+            "lemma": "3218",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "אָכַל",
+            "lemma": "398",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "הֶחָסִֽיל",
+            "lemma": "2625",
+            "morph": "HTd/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Joel 1:5",
+        "words": [
+          {
+            "heb": "הָקִיצוּ",
+            "lemma": "6974",
+            "morph": "HVhv2mp"
+          },
+          {
+            "heb": "שִׁכּוֹרִים",
+            "lemma": "7910",
+            "morph": "HAampa"
+          },
+          {
+            "heb": "וּבְכוּ",
+            "lemma": "1058",
+            "morph": "HC/Vqv2mp"
+          },
+          {
+            "heb": "וְהֵילִלוּ",
+            "lemma": "3213",
+            "morph": "HC/Vhv2mp"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "שֹׁתֵי",
+            "lemma": "8354",
+            "morph": "HVqrmpc"
+          },
+          {
+            "heb": "יָיִן",
+            "lemma": "3196",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "עָסִיס",
+            "lemma": "6071",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "נִכְרַת",
+            "lemma": "3772",
+            "morph": "HVNp3ms"
+          },
+          {
+            "heb": "מִפִּיכֶֽם",
+            "lemma": "6310",
+            "morph": "HR/Ncmsc/Sp2mp"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Joel 1:6",
+        "words": [
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "גוֹי",
+            "lemma": "1471 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "עָלָה",
+            "lemma": "5927",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "אַרְצִי",
+            "lemma": "776",
+            "morph": "HNcbsc/Sp1cs"
+          },
+          {
+            "heb": "עָצוּם",
+            "lemma": "6099",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "וְאֵין",
+            "lemma": "369",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "מִסְפָּר",
+            "lemma": "4557",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "שִׁנָּיו",
+            "lemma": "8127",
+            "morph": "HNcbdc/Sp3ms"
+          },
+          {
+            "heb": "שִׁנֵּי",
+            "lemma": "8127",
+            "morph": "HNcbdc"
+          },
+          {
+            "heb": "אַרְיֵה",
+            "lemma": "738 b",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וּֽמְתַלְּעוֹת",
+            "lemma": "4973",
+            "morph": "HC/Ncfpc"
+          },
+          {
+            "heb": "לָבִיא",
+            "lemma": "3833 c",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "לֽוֹ",
+            "lemma": "l",
+            "morph": "HR/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Joel 1:7",
+        "words": [
+          {
+            "heb": "שָׂם",
+            "lemma": "7760 a",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "גַּפְנִי",
+            "lemma": "1612",
+            "morph": "HNcbsc/Sp1cs"
+          },
+          {
+            "heb": "לְשַׁמָּה",
+            "lemma": "8047",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "וּתְאֵנָתִי",
+            "lemma": "8384",
+            "morph": "HC/Ncfsc/Sp1cs"
+          },
+          {
+            "heb": "לִקְצָפָה",
+            "lemma": "7111",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "חָשֹׂף",
+            "lemma": "2834",
+            "morph": "HVqa"
+          },
+          {
+            "heb": "חֲשָׂפָהּ",
+            "lemma": "2834",
+            "morph": "HVqp3ms/Sp3fs"
+          },
+          {
+            "heb": "וְהִשְׁלִיךְ",
+            "lemma": "7993",
+            "morph": "HC/Vhp3ms"
+          },
+          {
+            "heb": "הִלְבִּינוּ",
+            "lemma": "3835 a",
+            "morph": "HVhp3cp"
+          },
+          {
+            "heb": "שָׂרִיגֶֽיהָ",
+            "lemma": "8299",
+            "morph": "HNcmpc/Sp3fs"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Joel 1:8",
+        "words": [
+          {
+            "heb": "אֱלִי",
+            "lemma": "421",
+            "morph": "HVqv2fs"
+          },
+          {
+            "heb": "כִּבְתוּלָה",
+            "lemma": "1330",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "חֲגֻֽרַת",
+            "lemma": "2296",
+            "morph": "HVqsfsc"
+          },
+          {
+            "heb": "שַׂק",
+            "lemma": "8242",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "בַּעַל",
+            "lemma": "1167",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "נְעוּרֶֽיהָ",
+            "lemma": "5271 a",
+            "morph": "HNcbpc/Sp3fs"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Joel 1:9",
+        "words": [
+          {
+            "heb": "הָכְרַת",
+            "lemma": "3772",
+            "morph": "HVHp3ms"
+          },
+          {
+            "heb": "מִנְחָה",
+            "lemma": "4503",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וָנֶסֶךְ",
+            "lemma": "5262",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "מִבֵּית",
+            "lemma": "1004 b",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אָֽבְלוּ",
+            "lemma": "56",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "הַכֹּהֲנִים",
+            "lemma": "3548",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "מְשָׁרְתֵי",
+            "lemma": "8334",
+            "morph": "HVprmpc"
+          },
+          {
+            "heb": "יְהוָֽה",
+            "lemma": "3068",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Joel 1:10",
+        "words": [
+          {
+            "heb": "שֻׁדַּד",
+            "lemma": "7703",
+            "morph": "HVPp3ms"
+          },
+          {
+            "heb": "שָׂדֶה",
+            "lemma": "7704 b",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אָבְלָה",
+            "lemma": "56",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "אֲדָמָה",
+            "lemma": "127",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "שֻׁדַּד",
+            "lemma": "7703",
+            "morph": "HVPp3ms"
+          },
+          {
+            "heb": "דָּגָן",
+            "lemma": "1715",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "הוֹבִישׁ",
+            "lemma": "3001",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "תִּירוֹשׁ",
+            "lemma": "8492",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֻמְלַל",
+            "lemma": "535",
+            "morph": "HVKp3ms"
+          },
+          {
+            "heb": "יִצְהָֽר",
+            "lemma": "3323",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Joel 1:11",
+        "words": [
+          {
+            "heb": "הֹבִישׁוּ",
+            "lemma": "954",
+            "morph": "HVhv2mp"
+          },
+          {
+            "heb": "אִכָּרִים",
+            "lemma": "406",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "הֵילִילוּ",
+            "lemma": "3213",
+            "morph": "HVhv2mp"
+          },
+          {
+            "heb": "כֹּֽרְמִים",
+            "lemma": "3755",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "חִטָּה",
+            "lemma": "2406",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וְעַל",
+            "lemma": "5921 a",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "שְׂעֹרָה",
+            "lemma": "8184",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אָבַד",
+            "lemma": "6",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "קְצִיר",
+            "lemma": "7105 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "שָׂדֶֽה",
+            "lemma": "7704 b",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Joel 1:12",
+        "words": [
+          {
+            "heb": "הַגֶּפֶן",
+            "lemma": "1612",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "הוֹבִישָׁה",
+            "lemma": "3001",
+            "morph": "HVhp3fs"
+          },
+          {
+            "heb": "וְהַתְּאֵנָה",
+            "lemma": "8384",
+            "morph": "HC/Td/Ncfsa"
+          },
+          {
+            "heb": "אֻמְלָלָה",
+            "lemma": "535",
+            "morph": "HVKp3fs"
+          },
+          {
+            "heb": "רִמּוֹן",
+            "lemma": "7416",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "גַּם",
+            "lemma": "1571",
+            "morph": "HTa"
+          },
+          {
+            "heb": "תָּמָר",
+            "lemma": "8558",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְתַפּוּחַ",
+            "lemma": "8598",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "עֲצֵי",
+            "lemma": "6086",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "הַשָּׂדֶה",
+            "lemma": "7704 b",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "יָבֵשׁוּ",
+            "lemma": "3001",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "הֹבִישׁ",
+            "lemma": "3001",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "שָׂשׂוֹן",
+            "lemma": "8342",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מִן",
+            "lemma": "4480 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "בְּנֵי",
+            "lemma": "1121 a",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "אָדָֽם",
+            "lemma": "120",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Joel 1:13",
+        "words": [
+          {
+            "heb": "חִגְרוּ",
+            "lemma": "2296",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "וְסִפְדוּ",
+            "lemma": "5594",
+            "morph": "HC/Vqv2mp"
+          },
+          {
+            "heb": "הַכֹּהֲנִים",
+            "lemma": "3548",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "הֵילִילוּ",
+            "lemma": "3213",
+            "morph": "HVhv2mp"
+          },
+          {
+            "heb": "מְשָׁרְתֵי",
+            "lemma": "8334",
+            "morph": "HVprmpc"
+          },
+          {
+            "heb": "מִזְבֵּחַ",
+            "lemma": "4196",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בֹּאוּ",
+            "lemma": "935",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "לִינוּ",
+            "lemma": "3885 a",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "בַשַּׂקִּים",
+            "lemma": "8242",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "מְשָׁרְתֵי",
+            "lemma": "8334",
+            "morph": "HVprmpc"
+          },
+          {
+            "heb": "אֱלֹהָי",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp1cs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "נִמְנַע",
+            "lemma": "4513",
+            "morph": "HVNp3ms"
+          },
+          {
+            "heb": "מִבֵּית",
+            "lemma": "1004 b",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "אֱלֹהֵיכֶם",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp2mp"
+          },
+          {
+            "heb": "מִנְחָה",
+            "lemma": "4503",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וָנָֽסֶךְ",
+            "lemma": "5262",
+            "morph": "HC/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Joel 1:14",
+        "words": [
+          {
+            "heb": "קַדְּשׁוּ",
+            "lemma": "6942",
+            "morph": "HVpv2mp"
+          },
+          {
+            "heb": "צוֹם",
+            "lemma": "6685",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "קִרְאוּ",
+            "lemma": "7121",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "עֲצָרָה",
+            "lemma": "6116",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "אִסְפוּ",
+            "lemma": "622",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "זְקֵנִים",
+            "lemma": "2205",
+            "morph": "HAampa"
+          },
+          {
+            "heb": "כֹּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יֹשְׁבֵי",
+            "lemma": "3427",
+            "morph": "HVqrmpc"
+          },
+          {
+            "heb": "הָאָרֶץ",
+            "lemma": "776",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "בֵּית",
+            "lemma": "1004 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֱלֹהֵיכֶם",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp2mp"
+          },
+          {
+            "heb": "וְזַעֲקוּ",
+            "lemma": "2199",
+            "morph": "HC/Vqv2mp"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "יְהוָֽה",
+            "lemma": "3068",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 15,
+        "ref": "Joel 1:15",
+        "words": [
+          {
+            "heb": "אֲהָהּ",
+            "lemma": "162",
+            "morph": "HTj"
+          },
+          {
+            "heb": "לַיּוֹם",
+            "lemma": "3117",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "קָרוֹב",
+            "lemma": "7138",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּכְשֹׁד",
+            "lemma": "7701",
+            "morph": "HC/R/Ncmsa"
+          },
+          {
+            "heb": "מִשַׁדַּי",
+            "lemma": "7706",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "יָבֽוֹא",
+            "lemma": "935",
+            "morph": "HVqi3ms"
+          }
+        ]
+      },
+      {
+        "verse": 16,
+        "ref": "Joel 1:16",
+        "words": [
+          {
+            "heb": "הֲלוֹא",
+            "lemma": "3808",
+            "morph": "HTi/Tn"
+          },
+          {
+            "heb": "נֶגֶד",
+            "lemma": "5048",
+            "morph": "HR"
+          },
+          {
+            "heb": "עֵינֵינוּ",
+            "lemma": "5869 a",
+            "morph": "HNcbdc/Sp1cp"
+          },
+          {
+            "heb": "אֹכֶל",
+            "lemma": "400",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "נִכְרָת",
+            "lemma": "3772",
+            "morph": "HVNp3ms"
+          },
+          {
+            "heb": "מִבֵּית",
+            "lemma": "1004 b",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "אֱלֹהֵינוּ",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp1cp"
+          },
+          {
+            "heb": "שִׂמְחָה",
+            "lemma": "8057",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וָגִֽיל",
+            "lemma": "1524 a",
+            "morph": "HC/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 17,
+        "ref": "Joel 1:17",
+        "words": [
+          {
+            "heb": "עָבְשׁוּ",
+            "lemma": "5685",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "פְרֻדוֹת",
+            "lemma": "6507",
+            "morph": "HNcfpa"
+          },
+          {
+            "heb": "תַּחַת",
+            "lemma": "8478",
+            "morph": "HR"
+          },
+          {
+            "heb": "מֶגְרְפֹתֵיהֶם",
+            "lemma": "4053",
+            "morph": "HNcfpc/Sp3mp"
+          },
+          {
+            "heb": "נָשַׁמּוּ",
+            "lemma": "8074",
+            "morph": "HVNp3cp"
+          },
+          {
+            "heb": "אֹֽצָרוֹת",
+            "lemma": "214",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "נֶהֶרְסוּ",
+            "lemma": "2040",
+            "morph": "HVNp3cp"
+          },
+          {
+            "heb": "מַמְּגֻרוֹת",
+            "lemma": "4460",
+            "morph": "HNcfpa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "הֹבִישׁ",
+            "lemma": "3001",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "דָּגָֽן",
+            "lemma": "1715",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 18,
+        "ref": "Joel 1:18",
+        "words": [
+          {
+            "heb": "מַה",
+            "lemma": "4100",
+            "morph": "HTi"
+          },
+          {
+            "heb": "נֶּאֶנְחָה",
+            "lemma": "584",
+            "morph": "HVNp3fs"
+          },
+          {
+            "heb": "בְהֵמָה",
+            "lemma": "929",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "נָבֹכוּ",
+            "lemma": "943",
+            "morph": "HVNp3cp"
+          },
+          {
+            "heb": "עֶדְרֵי",
+            "lemma": "5739",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "בָקָר",
+            "lemma": "1241",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אֵין",
+            "lemma": "369",
+            "morph": "HTn"
+          },
+          {
+            "heb": "מִרְעֶה",
+            "lemma": "4829",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "לָהֶם",
+            "lemma": "l",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "גַּם",
+            "lemma": "1571",
+            "morph": "HTa"
+          },
+          {
+            "heb": "עֶדְרֵי",
+            "lemma": "5739",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "הַצֹּאן",
+            "lemma": "6629",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "נֶאְשָֽׁמוּ",
+            "lemma": "816",
+            "morph": "HVNp3cp"
+          }
+        ]
+      },
+      {
+        "verse": 19,
+        "ref": "Joel 1:19",
+        "words": [
+          {
+            "heb": "אֵלֶיךָ",
+            "lemma": "413",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֶקְרָא",
+            "lemma": "7121",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אֵשׁ",
+            "lemma": "784",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "אָֽכְלָה",
+            "lemma": "398",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "נְאוֹת",
+            "lemma": "4999",
+            "morph": "HNcfpc"
+          },
+          {
+            "heb": "מִדְבָּר",
+            "lemma": "4057 b",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְלֶהָבָה",
+            "lemma": "3852",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "לִהֲטָה",
+            "lemma": "3857",
+            "morph": "HVpp3fs"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "עֲצֵי",
+            "lemma": "6086",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "הַשָּׂדֶֽה",
+            "lemma": "7704 b",
+            "morph": "HTd/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 20,
+        "ref": "Joel 1:20",
+        "words": [
+          {
+            "heb": "גַּם",
+            "lemma": "1571",
+            "morph": "HTa"
+          },
+          {
+            "heb": "בַּהֲמוֹת",
+            "lemma": "929",
+            "morph": "HNcfpc"
+          },
+          {
+            "heb": "שָׂדֶה",
+            "lemma": "7704 b",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "תַּעֲרוֹג",
+            "lemma": "6165",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "אֵלֶיךָ",
+            "lemma": "413",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "יָֽבְשׁוּ",
+            "lemma": "3001",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "אֲפִיקֵי",
+            "lemma": "650",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "מָיִם",
+            "lemma": "4325",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "וְאֵשׁ",
+            "lemma": "784",
+            "morph": "HC/Ncbsa"
+          },
+          {
+            "heb": "אָכְלָה",
+            "lemma": "398",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "נְאוֹת",
+            "lemma": "4999",
+            "morph": "HNcfpc"
+          },
+          {
+            "heb": "הַמִּדְבָּֽר",
+            "lemma": "4057 b",
+            "morph": "HTd/Ncmsa"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "verse": 1,
+        "ref": "Joel 2:1",
+        "words": [
+          {
+            "heb": "תִּקְעוּ",
+            "lemma": "8628",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "שׁוֹפָר",
+            "lemma": "7782",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בְּצִיּוֹן",
+            "lemma": "6726",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "וְהָרִיעוּ",
+            "lemma": "7321",
+            "morph": "HC/Vhv2mp"
+          },
+          {
+            "heb": "בְּהַר",
+            "lemma": "2022",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "קָדְשִׁי",
+            "lemma": "6944",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "יִרְגְּזוּ",
+            "lemma": "7264",
+            "morph": "HVqj3mp"
+          },
+          {
+            "heb": "כֹּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יֹשְׁבֵי",
+            "lemma": "3427",
+            "morph": "HVqrmpc"
+          },
+          {
+            "heb": "הָאָרֶץ",
+            "lemma": "776",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "בָא",
+            "lemma": "935",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "קָרֽוֹב",
+            "lemma": "7138",
+            "morph": "HAamsa"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Joel 2:2",
+        "words": [
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "חֹשֶׁךְ",
+            "lemma": "2822",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וַאֲפֵלָה",
+            "lemma": "653",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "עָנָן",
+            "lemma": "6051",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וַעֲרָפֶל",
+            "lemma": "6205",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "כְּשַׁחַר",
+            "lemma": "7837",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "פָּרֻשׂ",
+            "lemma": "6566",
+            "morph": "HVqsmsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הֶֽהָרִים",
+            "lemma": "2022",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "עַם",
+            "lemma": "5971 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "רַב",
+            "lemma": "7227 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "וְעָצוּם",
+            "lemma": "6099",
+            "morph": "HC/Aamsa"
+          },
+          {
+            "heb": "כָּמֹהוּ",
+            "lemma": "3644",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "נִֽהְיָה",
+            "lemma": "1961",
+            "morph": "HVNp3ms"
+          },
+          {
+            "heb": "מִן",
+            "lemma": "4480 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הָעוֹלָם",
+            "lemma": "5769",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וְאַֽחֲרָיו",
+            "lemma": "310 a",
+            "morph": "HC/R/Sp3ms"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יוֹסֵף",
+            "lemma": "3254",
+            "morph": "HVhi3ms"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "שְׁנֵי",
+            "lemma": "8141",
+            "morph": "HAcmdc"
+          },
+          {
+            "heb": "דּוֹר",
+            "lemma": "1755",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וָדֽוֹר",
+            "lemma": "1755",
+            "morph": "HC/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Joel 2:3",
+        "words": [
+          {
+            "heb": "לְפָנָיו",
+            "lemma": "6440",
+            "morph": "HR/Ncbpc/Sp3ms"
+          },
+          {
+            "heb": "אָכְלָה",
+            "lemma": "398",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "אֵשׁ",
+            "lemma": "784",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "וְאַחֲרָיו",
+            "lemma": "310 a",
+            "morph": "HC/R/Sp3ms"
+          },
+          {
+            "heb": "תְּלַהֵט",
+            "lemma": "3857",
+            "morph": "HVpi3fs"
+          },
+          {
+            "heb": "לֶֽהָבָה",
+            "lemma": "3852",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "כְּגַן",
+            "lemma": "1588",
+            "morph": "HR/Ncbsc"
+          },
+          {
+            "heb": "עֵדֶן",
+            "lemma": "5731 b",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הָאָרֶץ",
+            "lemma": "776",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "לְפָנָיו",
+            "lemma": "6440",
+            "morph": "HR/Ncbpc/Sp3ms"
+          },
+          {
+            "heb": "וְאַֽחֲרָיו",
+            "lemma": "310 a",
+            "morph": "HC/R/Sp3ms"
+          },
+          {
+            "heb": "מִדְבַּר",
+            "lemma": "4057 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "שְׁמָמָה",
+            "lemma": "8077 a",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וְגַם",
+            "lemma": "1571",
+            "morph": "HC/Ta"
+          },
+          {
+            "heb": "פְּלֵיטָה",
+            "lemma": "6413",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "הָיְתָה",
+            "lemma": "1961",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "לּֽוֹ",
+            "lemma": "l",
+            "morph": "HR/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Joel 2:4",
+        "words": [
+          {
+            "heb": "כְּמַרְאֵה",
+            "lemma": "4758",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "סוּסִים",
+            "lemma": "5483 b",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "מַרְאֵהוּ",
+            "lemma": "4758",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "וּכְפָרָשִׁים",
+            "lemma": "6571 a",
+            "morph": "HC/R/Ncmpa"
+          },
+          {
+            "heb": "כֵּן",
+            "lemma": "3651 c",
+            "morph": "HTm"
+          },
+          {
+            "heb": "יְרוּצֽוּן",
+            "lemma": "7323",
+            "morph": "HVqi3mp/Sn"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Joel 2:5",
+        "words": [
+          {
+            "heb": "כְּקוֹל",
+            "lemma": "6963 a",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "מַרְכָּבוֹת",
+            "lemma": "4818",
+            "morph": "HNcfpa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "רָאשֵׁי",
+            "lemma": "7218 a",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "הֶֽהָרִים",
+            "lemma": "2022",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "יְרַקֵּדוּן",
+            "lemma": "7540",
+            "morph": "HVpi3mp/Sn"
+          },
+          {
+            "heb": "כְּקוֹל",
+            "lemma": "6963 a",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "לַהַב",
+            "lemma": "3851",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אֵשׁ",
+            "lemma": "784",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "אֹכְלָה",
+            "lemma": "398",
+            "morph": "HVqrfsa"
+          },
+          {
+            "heb": "קָשׁ",
+            "lemma": "7179",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "כְּעַם",
+            "lemma": "5971 a",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "עָצוּם",
+            "lemma": "6099",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "עֱרוּךְ",
+            "lemma": "6186 a",
+            "morph": "HVqsmsc"
+          },
+          {
+            "heb": "מִלְחָמָֽה",
+            "lemma": "4421",
+            "morph": "HNcfsa"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Joel 2:6",
+        "words": [
+          {
+            "heb": "מִפָּנָיו",
+            "lemma": "6440",
+            "morph": "HR/Ncbpc/Sp3ms"
+          },
+          {
+            "heb": "יָחִילוּ",
+            "lemma": "2342 a",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "עַמִּים",
+            "lemma": "5971 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "פָּנִים",
+            "lemma": "6440",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "קִבְּצוּ",
+            "lemma": "6908",
+            "morph": "HVpp3cp"
+          },
+          {
+            "heb": "פָארֽוּר",
+            "lemma": "6289",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Joel 2:7",
+        "words": [
+          {
+            "heb": "כְּגִבּוֹרִים",
+            "lemma": "1368",
+            "morph": "HR/Aampa"
+          },
+          {
+            "heb": "יְרֻצוּן",
+            "lemma": "7323",
+            "morph": "HVqi3mp/Sn"
+          },
+          {
+            "heb": "כְּאַנְשֵׁי",
+            "lemma": "376",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "מִלְחָמָה",
+            "lemma": "4421",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "יַעֲלוּ",
+            "lemma": "5927",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "חוֹמָה",
+            "lemma": "2346",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וְאִישׁ",
+            "lemma": "376",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "בִּדְרָכָיו",
+            "lemma": "1870",
+            "morph": "HR/Ncbpc/Sp3ms"
+          },
+          {
+            "heb": "יֵֽלֵכוּן",
+            "lemma": "3212",
+            "morph": "HVqi3mp/Sn"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יְעַבְּטוּן",
+            "lemma": "5670",
+            "morph": "HVpi3mp/Sn"
+          },
+          {
+            "heb": "אֹרְחוֹתָֽם",
+            "lemma": "734",
+            "morph": "HNcbpc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Joel 2:8",
+        "words": [
+          {
+            "heb": "וְאִישׁ",
+            "lemma": "376",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "אָחִיו",
+            "lemma": "251",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יִדְחָקוּן",
+            "lemma": "1766",
+            "morph": "HVqi3mp/Sn"
+          },
+          {
+            "heb": "גֶּבֶר",
+            "lemma": "1397",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בִּמְסִלָּתוֹ",
+            "lemma": "4546",
+            "morph": "HR/Ncfsc/Sp3ms"
+          },
+          {
+            "heb": "יֵֽלֵכוּן",
+            "lemma": "3212",
+            "morph": "HVqi3mp/Sn"
+          },
+          {
+            "heb": "וּבְעַד",
+            "lemma": "1157",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "הַשֶּׁלַח",
+            "lemma": "7973",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "יִפֹּלוּ",
+            "lemma": "5307",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יִבְצָֽעוּ",
+            "lemma": "1214",
+            "morph": "HVqi3mp"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Joel 2:9",
+        "words": [
+          {
+            "heb": "בָּעִיר",
+            "lemma": "5892 b",
+            "morph": "HRd/Ncfsa"
+          },
+          {
+            "heb": "יָשֹׁקּוּ",
+            "lemma": "8264",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "בַּֽחוֹמָה",
+            "lemma": "2346",
+            "morph": "HRd/Ncfsa"
+          },
+          {
+            "heb": "יְרֻצוּן",
+            "lemma": "7323",
+            "morph": "HVqi3mp/Sn"
+          },
+          {
+            "heb": "בַּבָּתִּים",
+            "lemma": "1004 b",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "יַעֲלוּ",
+            "lemma": "5927",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "בְּעַד",
+            "lemma": "1157",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַחַלּוֹנִים",
+            "lemma": "2474",
+            "morph": "HTd/Ncbpa"
+          },
+          {
+            "heb": "יָבֹאוּ",
+            "lemma": "935",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "כַּגַּנָּֽב",
+            "lemma": "1590",
+            "morph": "HRd/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Joel 2:10",
+        "words": [
+          {
+            "heb": "לְפָנָיו",
+            "lemma": "6440",
+            "morph": "HR/Ncbpc/Sp3ms"
+          },
+          {
+            "heb": "רָגְזָה",
+            "lemma": "7264",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "אֶרֶץ",
+            "lemma": "776",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "רָעֲשׁוּ",
+            "lemma": "7493",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "שָׁמָיִם",
+            "lemma": "8064",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "שֶׁמֶשׁ",
+            "lemma": "8121",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "וְיָרֵחַ",
+            "lemma": "3394",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "קָדָרוּ",
+            "lemma": "6937",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "וְכוֹכָבִים",
+            "lemma": "3556",
+            "morph": "HC/Ncmpa"
+          },
+          {
+            "heb": "אָסְפוּ",
+            "lemma": "622",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "נָגְהָֽם",
+            "lemma": "5051",
+            "morph": "HNcfsc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Joel 2:11",
+        "words": [
+          {
+            "heb": "וַֽיהוָה",
+            "lemma": "3068",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "נָתַן",
+            "lemma": "5414",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "קוֹלוֹ",
+            "lemma": "6963 a",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "לִפְנֵי",
+            "lemma": "6440",
+            "morph": "HR/Ncbpc"
+          },
+          {
+            "heb": "חֵילוֹ",
+            "lemma": "2426",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "רַב",
+            "lemma": "7227 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "מְאֹד",
+            "lemma": "3966",
+            "morph": "HD"
+          },
+          {
+            "heb": "מַחֲנֵהוּ",
+            "lemma": "4264",
+            "morph": "HNcbsc/Sp3ms"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "עָצוּם",
+            "lemma": "6099",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "עֹשֵׂה",
+            "lemma": "6213 a",
+            "morph": "HVqrmsc"
+          },
+          {
+            "heb": "דְבָרוֹ",
+            "lemma": "1697",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "גָדוֹל",
+            "lemma": "1419 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְנוֹרָא",
+            "lemma": "3372",
+            "morph": "HC/VNrmsa"
+          },
+          {
+            "heb": "מְאֹד",
+            "lemma": "3966",
+            "morph": "HD"
+          },
+          {
+            "heb": "וּמִי",
+            "lemma": "4310",
+            "morph": "HC/Ti"
+          },
+          {
+            "heb": "יְכִילֶֽנּוּ",
+            "lemma": "3557",
+            "morph": "HVhi3ms/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Joel 2:12",
+        "words": [
+          {
+            "heb": "וְגַם",
+            "lemma": "1571",
+            "morph": "HC/Ta"
+          },
+          {
+            "heb": "עַתָּה",
+            "lemma": "6258",
+            "morph": "HD"
+          },
+          {
+            "heb": "נְאֻם",
+            "lemma": "5002",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "שֻׁבוּ",
+            "lemma": "7725",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "עָדַי",
+            "lemma": "5704",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "בְּכָל",
+            "lemma": "3605",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "לְבַבְכֶם",
+            "lemma": "3824",
+            "morph": "HNcmsc/Sp2mp"
+          },
+          {
+            "heb": "וּבְצוֹם",
+            "lemma": "6685",
+            "morph": "HC/R/Ncmsa"
+          },
+          {
+            "heb": "וּבְבְכִי",
+            "lemma": "1065",
+            "morph": "HC/R/Ncmsa"
+          },
+          {
+            "heb": "וּבְמִסְפֵּֽד",
+            "lemma": "4553",
+            "morph": "HC/R/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Joel 2:13",
+        "words": [
+          {
+            "heb": "וְקִרְעוּ",
+            "lemma": "7167",
+            "morph": "HC/Vqv2mp"
+          },
+          {
+            "heb": "לְבַבְכֶם",
+            "lemma": "3824",
+            "morph": "HNcmsc/Sp2mp"
+          },
+          {
+            "heb": "וְאַל",
+            "lemma": "408",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "בִּגְדֵיכֶם",
+            "lemma": "899 b",
+            "morph": "HNcmpc/Sp2mp"
+          },
+          {
+            "heb": "וְשׁוּבוּ",
+            "lemma": "7725",
+            "morph": "HC/Vqv2mp"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֱלֹֽהֵיכֶם",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp2mp"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "חַנּוּן",
+            "lemma": "2587",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "וְרַחוּם",
+            "lemma": "7349",
+            "morph": "HC/Aamsa"
+          },
+          {
+            "heb": "הוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          },
+          {
+            "heb": "אֶרֶךְ",
+            "lemma": "750",
+            "morph": "HAamsc"
+          },
+          {
+            "heb": "אַפַּיִם",
+            "lemma": "639",
+            "morph": "HNcmda"
+          },
+          {
+            "heb": "וְרַב",
+            "lemma": "7227 a",
+            "morph": "HC/Aamsc"
+          },
+          {
+            "heb": "חֶסֶד",
+            "lemma": "2617 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְנִחָם",
+            "lemma": "5162",
+            "morph": "HC/VNrmsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הָרָעָֽה",
+            "lemma": "7451 c",
+            "morph": "HTd/Ncfsa"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Joel 2:14",
+        "words": [
+          {
+            "heb": "מִי",
+            "lemma": "4310",
+            "morph": "HTi"
+          },
+          {
+            "heb": "יוֹדֵעַ",
+            "lemma": "3045",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "יָשׁוּב",
+            "lemma": "7725",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "וְנִחָם",
+            "lemma": "5162",
+            "morph": "HC/VNq3ms"
+          },
+          {
+            "heb": "וְהִשְׁאִיר",
+            "lemma": "7604",
+            "morph": "HC/Vhq3ms"
+          },
+          {
+            "heb": "אַֽחֲרָיו",
+            "lemma": "310 a",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "בְּרָכָה",
+            "lemma": "1293",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "מִנְחָה",
+            "lemma": "4503",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וָנֶסֶךְ",
+            "lemma": "5262",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "לַיהוָה",
+            "lemma": "3068",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "אֱלֹהֵיכֶֽם",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp2mp"
+          }
+        ]
+      },
+      {
+        "verse": 15,
+        "ref": "Joel 2:15",
+        "words": [
+          {
+            "heb": "תִּקְעוּ",
+            "lemma": "8628",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "שׁוֹפָר",
+            "lemma": "7782",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בְּצִיּוֹן",
+            "lemma": "6726",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "קַדְּשׁוּ",
+            "lemma": "6942",
+            "morph": "HVpv2mp"
+          },
+          {
+            "heb": "צוֹם",
+            "lemma": "6685",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "קִרְאוּ",
+            "lemma": "7121",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "עֲצָרָֽה",
+            "lemma": "6116",
+            "morph": "HNcfsa"
+          }
+        ]
+      },
+      {
+        "verse": 16,
+        "ref": "Joel 2:16",
+        "words": [
+          {
+            "heb": "אִסְפוּ",
+            "lemma": "622",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "עָם",
+            "lemma": "5971 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "קַדְּשׁוּ",
+            "lemma": "6942",
+            "morph": "HVpv2mp"
+          },
+          {
+            "heb": "קָהָל",
+            "lemma": "6951",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "קִבְצוּ",
+            "lemma": "6908",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "זְקֵנִים",
+            "lemma": "2205",
+            "morph": "HAampa"
+          },
+          {
+            "heb": "אִסְפוּ",
+            "lemma": "622",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "עֽוֹלָלִים",
+            "lemma": "5768",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "וְיֹנְקֵי",
+            "lemma": "3243",
+            "morph": "HC/Vqrmpc"
+          },
+          {
+            "heb": "שָׁדָיִם",
+            "lemma": "7699 a",
+            "morph": "HNcmda"
+          },
+          {
+            "heb": "יֵצֵא",
+            "lemma": "3318",
+            "morph": "HVqj3ms"
+          },
+          {
+            "heb": "חָתָן",
+            "lemma": "2860",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מֵֽחֶדְרוֹ",
+            "lemma": "2315",
+            "morph": "HR/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "וְכַלָּה",
+            "lemma": "3618",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "מֵחֻפָּתָֽהּ",
+            "lemma": "2646",
+            "morph": "HR/Ncfsc/Sp3fs"
+          }
+        ]
+      },
+      {
+        "verse": 17,
+        "ref": "Joel 2:17",
+        "words": [
+          {
+            "heb": "בֵּין",
+            "lemma": "996",
+            "morph": "HR"
+          },
+          {
+            "heb": "הָאוּלָם",
+            "lemma": "197",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וְלַמִּזְבֵּחַ",
+            "lemma": "4196",
+            "morph": "HC/Rd/Ncmsa"
+          },
+          {
+            "heb": "יִבְכּוּ",
+            "lemma": "1058",
+            "morph": "HVqj3mp"
+          },
+          {
+            "heb": "הַכֹּהֲנִים",
+            "lemma": "3548",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "מְשָׁרְתֵי",
+            "lemma": "8334",
+            "morph": "HVprmpc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְֽיֹאמְרוּ",
+            "lemma": "559",
+            "morph": "HC/Vqi3mp"
+          },
+          {
+            "heb": "חוּסָה",
+            "lemma": "2347",
+            "morph": "HVqv2ms/Sh"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "עַמֶּךָ",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp2ms"
+          },
+          {
+            "heb": "וְאַל",
+            "lemma": "408",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תִּתֵּן",
+            "lemma": "5414",
+            "morph": "HVqj2ms"
+          },
+          {
+            "heb": "נַחֲלָתְךָ",
+            "lemma": "5159",
+            "morph": "HNcfsc/Sp2ms"
+          },
+          {
+            "heb": "לְחֶרְפָּה",
+            "lemma": "2781",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "לִמְשָׁל",
+            "lemma": "4910",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "בָּם",
+            "lemma": "b",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "גּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "לָמָּה",
+            "lemma": "4100",
+            "morph": "HR/Ti"
+          },
+          {
+            "heb": "יֹאמְרוּ",
+            "lemma": "559",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "בָֽעַמִּים",
+            "lemma": "5971 a",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "אַיֵּה",
+            "lemma": "346",
+            "morph": "HTi"
+          },
+          {
+            "heb": "אֱלֹהֵיהֶֽם",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 18,
+        "ref": "Joel 2:18",
+        "words": [
+          {
+            "heb": "וַיְקַנֵּא",
+            "lemma": "7065",
+            "morph": "HC/Vpw3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לְאַרְצוֹ",
+            "lemma": "776",
+            "morph": "HR/Ncbsc/Sp3ms"
+          },
+          {
+            "heb": "וַיַּחְמֹל",
+            "lemma": "2550",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "עַמּֽוֹ",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 19,
+        "ref": "Joel 2:19",
+        "words": [
+          {
+            "heb": "וַיַּעַן",
+            "lemma": "6030 b",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "לְעַמּוֹ",
+            "lemma": "5971 a",
+            "morph": "HR/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "הִנְנִי",
+            "lemma": "2005",
+            "morph": "HTm/Sp1cs"
+          },
+          {
+            "heb": "שֹׁלֵחַ",
+            "lemma": "7971",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "לָכֶם",
+            "lemma": "l",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַדָּגָן",
+            "lemma": "1715",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וְהַתִּירוֹשׁ",
+            "lemma": "8492",
+            "morph": "HC/Td/Ncmsa"
+          },
+          {
+            "heb": "וְהַיִּצְהָר",
+            "lemma": "3323",
+            "morph": "HC/Td/Ncmsa"
+          },
+          {
+            "heb": "וּשְׂבַעְתֶּם",
+            "lemma": "7646",
+            "morph": "HC/Vqq2mp"
+          },
+          {
+            "heb": "אֹתוֹ",
+            "lemma": "853",
+            "morph": "HTo/Sp3ms"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "אֶתֵּן",
+            "lemma": "5414",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "אֶתְכֶם",
+            "lemma": "853",
+            "morph": "HTo/Sp2mp"
+          },
+          {
+            "heb": "עוֹד",
+            "lemma": "5750",
+            "morph": "HD"
+          },
+          {
+            "heb": "חֶרְפָּה",
+            "lemma": "2781",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "בַּגּוֹיִֽם",
+            "lemma": "1471 a",
+            "morph": "HRd/Ncmpa"
+          }
+        ]
+      },
+      {
+        "verse": 20,
+        "ref": "Joel 2:20",
+        "words": [
+          {
+            "heb": "וְֽאֶת",
+            "lemma": "853",
+            "morph": "HC/To"
+          },
+          {
+            "heb": "הַצְּפוֹנִי",
+            "lemma": "6830",
+            "morph": "HTd/Aamsa"
+          },
+          {
+            "heb": "אַרְחִיק",
+            "lemma": "7368",
+            "morph": "HVhi1cs"
+          },
+          {
+            "heb": "מֵעֲלֵיכֶם",
+            "lemma": "5921 a",
+            "morph": "HR/R/Sp2mp"
+          },
+          {
+            "heb": "וְהִדַּחְתִּיו",
+            "lemma": "5080",
+            "morph": "HC/Vhq1cs/Sp3ms"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "אֶרֶץ",
+            "lemma": "776",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "צִיָּה",
+            "lemma": "6723",
+            "morph": "HAafsa"
+          },
+          {
+            "heb": "וּשְׁמָמָה",
+            "lemma": "8077 a",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "854",
+            "morph": "HR"
+          },
+          {
+            "heb": "פָּנָיו",
+            "lemma": "6440",
+            "morph": "HNcbpc/Sp3ms"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַיָּם",
+            "lemma": "3220",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "הַקַּדְמֹנִי",
+            "lemma": "6931",
+            "morph": "HTd/Aamsa"
+          },
+          {
+            "heb": "וְסֹפוֹ",
+            "lemma": "5490",
+            "morph": "HC/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַיָּם",
+            "lemma": "3220",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "הָאַֽחֲרוֹן",
+            "lemma": "314",
+            "morph": "HTd/Aamsa"
+          },
+          {
+            "heb": "וְעָלָה",
+            "lemma": "5927",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "בָאְשׁוֹ",
+            "lemma": "889",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "וְתַעַל",
+            "lemma": "5927",
+            "morph": "HC/Vqi3fs"
+          },
+          {
+            "heb": "צַחֲנָתוֹ",
+            "lemma": "6709",
+            "morph": "HNcfsc/Sp3ms"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "הִגְדִּיל",
+            "lemma": "1431",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "לַעֲשֽׂוֹת",
+            "lemma": "6213 a",
+            "morph": "HR/Vqc"
+          }
+        ]
+      },
+      {
+        "verse": 21,
+        "ref": "Joel 2:21",
+        "words": [
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תִּֽירְאִי",
+            "lemma": "3372",
+            "morph": "HVqj2fs"
+          },
+          {
+            "heb": "אֲדָמָה",
+            "lemma": "127",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "גִּילִי",
+            "lemma": "1523",
+            "morph": "HVqv2fs"
+          },
+          {
+            "heb": "וּשְׂמָחִי",
+            "lemma": "8055",
+            "morph": "HC/Vqv2fs"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "הִגְדִּיל",
+            "lemma": "1431",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לַעֲשֽׂוֹת",
+            "lemma": "6213 a",
+            "morph": "HR/Vqc"
+          }
+        ]
+      },
+      {
+        "verse": 22,
+        "ref": "Joel 2:22",
+        "words": [
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תִּֽירְאוּ",
+            "lemma": "3372",
+            "morph": "HVqj2mp"
+          },
+          {
+            "heb": "בַּהֲמוֹת",
+            "lemma": "929",
+            "morph": "HNcfpc"
+          },
+          {
+            "heb": "שָׂדַי",
+            "lemma": "7704 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "דָשְׁאוּ",
+            "lemma": "1876",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "נְאוֹת",
+            "lemma": "4999",
+            "morph": "HNcfpc"
+          },
+          {
+            "heb": "מִדְבָּר",
+            "lemma": "4057 b",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "עֵץ",
+            "lemma": "6086",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "נָשָׂא",
+            "lemma": "5375",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "פִרְיוֹ",
+            "lemma": "6529",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "תְּאֵנָה",
+            "lemma": "8384",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וָגֶפֶן",
+            "lemma": "1612",
+            "morph": "HC/Ncbsa"
+          },
+          {
+            "heb": "נָתְנוּ",
+            "lemma": "5414",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "חֵילָֽם",
+            "lemma": "2428",
+            "morph": "HNcmsc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 23,
+        "ref": "Joel 2:23",
+        "words": [
+          {
+            "heb": "וּבְנֵי",
+            "lemma": "1121 a",
+            "morph": "HC/Ncmpc"
+          },
+          {
+            "heb": "צִיּוֹן",
+            "lemma": "6726",
+            "morph": "HNp"
+          },
+          {
+            "heb": "גִּילוּ",
+            "lemma": "1523",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "וְשִׂמְחוּ",
+            "lemma": "8055",
+            "morph": "HC/Vqv2mp"
+          },
+          {
+            "heb": "בַּיהוָה",
+            "lemma": "3068",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "אֱלֹֽהֵיכֶם",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp2mp"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "נָתַן",
+            "lemma": "5414",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "לָכֶם",
+            "lemma": "l",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַמּוֹרֶה",
+            "lemma": "4175",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "לִצְדָקָה",
+            "lemma": "6666",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "וַיּוֹרֶד",
+            "lemma": "3381",
+            "morph": "HC/Vhw3ms"
+          },
+          {
+            "heb": "לָכֶם",
+            "lemma": "l",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "גֶּשֶׁם",
+            "lemma": "1653",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מוֹרֶה",
+            "lemma": "4175",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וּמַלְקוֹשׁ",
+            "lemma": "4456",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "בָּרִאשֽׁוֹן",
+            "lemma": "7223",
+            "morph": "HRd/Aamsa"
+          }
+        ]
+      },
+      {
+        "verse": 24,
+        "ref": "Joel 2:24",
+        "words": [
+          {
+            "heb": "וּמָלְאוּ",
+            "lemma": "4390",
+            "morph": "HC/Vqp3cp"
+          },
+          {
+            "heb": "הַגֳּרָנוֹת",
+            "lemma": "1637",
+            "morph": "HTd/Ncbpa"
+          },
+          {
+            "heb": "בָּר",
+            "lemma": "1250 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְהֵשִׁיקוּ",
+            "lemma": "7783",
+            "morph": "HC/Vhp3cp"
+          },
+          {
+            "heb": "הַיְקָבִים",
+            "lemma": "3342",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "תִּירוֹשׁ",
+            "lemma": "8492",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְיִצְהָֽר",
+            "lemma": "3323",
+            "morph": "HC/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 25,
+        "ref": "Joel 2:25",
+        "words": [
+          {
+            "heb": "וְשִׁלַּמְתִּי",
+            "lemma": "7999 a",
+            "morph": "HC/Vpq1cs"
+          },
+          {
+            "heb": "לָכֶם",
+            "lemma": "l",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַשָּׁנִים",
+            "lemma": "8141",
+            "morph": "HTd/Ncfpa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "אָכַל",
+            "lemma": "398",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "הָֽאַרְבֶּה",
+            "lemma": "697",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "הַיֶּלֶק",
+            "lemma": "3218",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וְהֶחָסִיל",
+            "lemma": "2625",
+            "morph": "HC/Td/Ncmsa"
+          },
+          {
+            "heb": "וְהַגָּזָם",
+            "lemma": "1501",
+            "morph": "HC/Td/Ncmsa"
+          },
+          {
+            "heb": "חֵילִי",
+            "lemma": "2428",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "הַגָּדוֹל",
+            "lemma": "1419 a",
+            "morph": "HTd/Aamsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "שִׁלַּחְתִּי",
+            "lemma": "7971",
+            "morph": "HVpp1cs"
+          },
+          {
+            "heb": "בָּכֶֽם",
+            "lemma": "b",
+            "morph": "HR/Sp2mp"
+          }
+        ]
+      },
+      {
+        "verse": 26,
+        "ref": "Joel 2:26",
+        "words": [
+          {
+            "heb": "וַאֲכַלְתֶּם",
+            "lemma": "398",
+            "morph": "HC/Vqq2mp"
+          },
+          {
+            "heb": "אָכוֹל",
+            "lemma": "398",
+            "morph": "HVqa"
+          },
+          {
+            "heb": "וְשָׂבוֹעַ",
+            "lemma": "7646",
+            "morph": "HC/Vqa"
+          },
+          {
+            "heb": "וְהִלַּלְתֶּם",
+            "lemma": "1984 b",
+            "morph": "HC/Vpq2mp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "שֵׁם",
+            "lemma": "8034",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֱלֹהֵיכֶם",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp2mp"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "עָשָׂה",
+            "lemma": "6213 a",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "עִמָּכֶם",
+            "lemma": "5973 a",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "לְהַפְלִיא",
+            "lemma": "6381",
+            "morph": "HR/Vhc"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יֵבֹשׁוּ",
+            "lemma": "954",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "עַמִּי",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "לְעוֹלָֽם",
+            "lemma": "5769",
+            "morph": "HR/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 27,
+        "ref": "Joel 2:27",
+        "words": [
+          {
+            "heb": "וִידַעְתֶּם",
+            "lemma": "3045",
+            "morph": "HC/Vqq2mp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "בְקֶרֶב",
+            "lemma": "7130",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "יִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אָנִי",
+            "lemma": "589",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "וַאֲנִי",
+            "lemma": "589",
+            "morph": "HC/Pp1cs"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֱלֹהֵיכֶם",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp2mp"
+          },
+          {
+            "heb": "וְאֵין",
+            "lemma": "369",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "עוֹד",
+            "lemma": "5750",
+            "morph": "HD"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יֵבֹשׁוּ",
+            "lemma": "954",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "עַמִּי",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "לְעוֹלָֽם",
+            "lemma": "5769",
+            "morph": "HR/Ncmsa"
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "verse": 1,
+        "ref": "Joel 3:1",
+        "words": [
+          {
+            "heb": "וְהָיָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "אַֽחֲרֵי",
+            "lemma": "310 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "כֵן",
+            "lemma": "3651 c",
+            "morph": "HD"
+          },
+          {
+            "heb": "אֶשְׁפּוֹךְ",
+            "lemma": "8210",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "רוּחִי",
+            "lemma": "7307",
+            "morph": "HNcbsc/Sp1cs"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "בָּשָׂר",
+            "lemma": "1320",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְנִבְּאוּ",
+            "lemma": "5012",
+            "morph": "HC/VNq3cp"
+          },
+          {
+            "heb": "בְּנֵיכֶם",
+            "lemma": "1121 a",
+            "morph": "HNcmpc/Sp2mp"
+          },
+          {
+            "heb": "וּבְנֽוֹתֵיכֶם",
+            "lemma": "1323",
+            "morph": "HC/Ncfpc/Sp2mp"
+          },
+          {
+            "heb": "זִקְנֵיכֶם",
+            "lemma": "2205",
+            "morph": "HAampc/Sp2mp"
+          },
+          {
+            "heb": "חֲלֹמוֹת",
+            "lemma": "2472",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "יַחֲלֹמוּן",
+            "lemma": "2492 b",
+            "morph": "HVqi3mp/Sn"
+          },
+          {
+            "heb": "בַּחוּרֵיכֶם",
+            "lemma": "970",
+            "morph": "HNcmpc/Sp2mp"
+          },
+          {
+            "heb": "חֶזְיֹנוֹת",
+            "lemma": "2384",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "יִרְאֽוּ",
+            "lemma": "7200",
+            "morph": "HVqi3mp"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Joel 3:2",
+        "words": [
+          {
+            "heb": "וְגַם",
+            "lemma": "1571",
+            "morph": "HC/Ta"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הָֽעֲבָדִים",
+            "lemma": "5650",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "וְעַל",
+            "lemma": "5921 a",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "הַשְּׁפָחוֹת",
+            "lemma": "8198",
+            "morph": "HTd/Ncfpa"
+          },
+          {
+            "heb": "בַּיָּמִים",
+            "lemma": "3117",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "הָהֵמָּה",
+            "lemma": "1992",
+            "morph": "HTd/Pdxmp"
+          },
+          {
+            "heb": "אֶשְׁפּוֹךְ",
+            "lemma": "8210",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "רוּחִֽי",
+            "lemma": "7307",
+            "morph": "HNcbsc/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Joel 3:3",
+        "words": [
+          {
+            "heb": "וְנָֽתַתִּי",
+            "lemma": "5414",
+            "morph": "HC/Vqq1cs"
+          },
+          {
+            "heb": "מֽוֹפְתִים",
+            "lemma": "4159",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "בַּשָּׁמַיִם",
+            "lemma": "8064",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "וּבָאָרֶץ",
+            "lemma": "776",
+            "morph": "HC/Rd/Ncbsa"
+          },
+          {
+            "heb": "דָּם",
+            "lemma": "1818",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וָאֵשׁ",
+            "lemma": "784",
+            "morph": "HC/Ncbsa"
+          },
+          {
+            "heb": "וְתִֽימֲרוֹת",
+            "lemma": "8490",
+            "morph": "HC/Ncfpc"
+          },
+          {
+            "heb": "עָשָֽׁן",
+            "lemma": "6227",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Joel 3:4",
+        "words": [
+          {
+            "heb": "הַשֶּׁמֶשׁ",
+            "lemma": "8121",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "יֵהָפֵךְ",
+            "lemma": "2015",
+            "morph": "HVNi3ms"
+          },
+          {
+            "heb": "לְחֹשֶׁךְ",
+            "lemma": "2822",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "וְהַיָּרֵחַ",
+            "lemma": "3394",
+            "morph": "HC/Td/Ncmsa"
+          },
+          {
+            "heb": "לְדָם",
+            "lemma": "1818",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "לִפְנֵי",
+            "lemma": "6440",
+            "morph": "HR/Ncbpc"
+          },
+          {
+            "heb": "בּוֹא",
+            "lemma": "935",
+            "morph": "HVqc"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הַגָּדוֹל",
+            "lemma": "1419 a",
+            "morph": "HTd/Aamsa"
+          },
+          {
+            "heb": "וְהַנּוֹרָֽא",
+            "lemma": "3372",
+            "morph": "HC/Td/VNrmsa"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Joel 3:5",
+        "words": [
+          {
+            "heb": "וְהָיָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "כֹּל",
+            "lemma": "3605",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "יִקְרָא",
+            "lemma": "7121",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "בְּשֵׁם",
+            "lemma": "8034",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "יִמָּלֵט",
+            "lemma": "4422",
+            "morph": "HVNi3ms"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "בְּהַר",
+            "lemma": "2022",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "צִיּוֹן",
+            "lemma": "6726",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּבִירוּשָׁלִַם",
+            "lemma": "3389",
+            "morph": "HC/R/Np"
+          },
+          {
+            "heb": "תִּֽהְיֶה",
+            "lemma": "1961",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "פְלֵיטָה",
+            "lemma": "6413",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "כַּֽאֲשֶׁר",
+            "lemma": "834 d",
+            "morph": "HR/Tr"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּבַשְּׂרִידִים",
+            "lemma": "8300",
+            "morph": "HC/Rd/Ncmpa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "קֹרֵֽא",
+            "lemma": "7121",
+            "morph": "HVqrmsa"
+          }
+        ]
+      }
+    ],
+    "4": [
+      {
+        "verse": 1,
+        "ref": "Joel 4:1",
+        "words": [
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "הִנֵּה",
+            "lemma": "2009",
+            "morph": "HTm"
+          },
+          {
+            "heb": "בַּיָּמִים",
+            "lemma": "3117",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "הָהֵמָּה",
+            "lemma": "1992",
+            "morph": "HTd/Pdxmp"
+          },
+          {
+            "heb": "וּבָעֵת",
+            "lemma": "6256",
+            "morph": "HC/Rd/Ncbsa"
+          },
+          {
+            "heb": "הַהִיא",
+            "lemma": "1931",
+            "morph": "HTd/Pp3fs"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "אָשִׁיב",
+            "lemma": "7725",
+            "morph": "HVhi1cs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "שְׁבוּת",
+            "lemma": "7622",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "יְהוּדָה",
+            "lemma": "3063",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וִירוּשָׁלִָֽם",
+            "lemma": "3389",
+            "morph": "HC/Np"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Joel 4:2",
+        "words": [
+          {
+            "heb": "וְקִבַּצְתִּי",
+            "lemma": "6908",
+            "morph": "HC/Vpq1cs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַגּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "וְהוֹרַדְתִּים",
+            "lemma": "3381",
+            "morph": "HC/Vhp1cs/Sp3mp"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "עֵמֶק",
+            "lemma": "6010",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהֽוֹשָׁפָט",
+            "lemma": "3092",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְנִשְׁפַּטְתִּי",
+            "lemma": "8199",
+            "morph": "HC/VNp1cs"
+          },
+          {
+            "heb": "עִמָּם",
+            "lemma": "5973 a",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "שָׁם",
+            "lemma": "8033",
+            "morph": "HD"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "עַמִּי",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "וְנַחֲלָתִי",
+            "lemma": "5159",
+            "morph": "HC/Ncfsc/Sp1cs"
+          },
+          {
+            "heb": "יִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "פִּזְּרוּ",
+            "lemma": "6340",
+            "morph": "HVpp3cp"
+          },
+          {
+            "heb": "בַגּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "וְאֶת",
+            "lemma": "853",
+            "morph": "HC/To"
+          },
+          {
+            "heb": "אַרְצִי",
+            "lemma": "776",
+            "morph": "HNcbsc/Sp1cs"
+          },
+          {
+            "heb": "חִלֵּֽקוּ",
+            "lemma": "2505 a",
+            "morph": "HVpp3cp"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Joel 4:3",
+        "words": [
+          {
+            "heb": "וְאֶל",
+            "lemma": "413",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "עַמִּי",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "יַדּוּ",
+            "lemma": "3032",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "גוֹרָל",
+            "lemma": "1486",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וַיִּתְּנוּ",
+            "lemma": "5414",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "הַיֶּלֶד",
+            "lemma": "3206",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "בַּזּוֹנָה",
+            "lemma": "2181",
+            "morph": "HRd/Ncfsa"
+          },
+          {
+            "heb": "וְהַיַּלְדָּה",
+            "lemma": "3207",
+            "morph": "HC/Td/Ncfsa"
+          },
+          {
+            "heb": "מָכְרוּ",
+            "lemma": "4376",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "בַיַּיִן",
+            "lemma": "3196",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "וַיִּשְׁתּֽוּ",
+            "lemma": "8354",
+            "morph": "HC/Vqw3mp"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Joel 4:4",
+        "words": [
+          {
+            "heb": "וְגַם",
+            "lemma": "1571",
+            "morph": "HC/Ta"
+          },
+          {
+            "heb": "מָה",
+            "lemma": "4100",
+            "morph": "HTi"
+          },
+          {
+            "heb": "אַתֶּם",
+            "lemma": "859 d",
+            "morph": "HPp2mp"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "צֹר",
+            "lemma": "6865",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְצִידוֹן",
+            "lemma": "6721",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "וְכֹל",
+            "lemma": "3605",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "גְּלִילוֹת",
+            "lemma": "1552",
+            "morph": "HNcfpc"
+          },
+          {
+            "heb": "פְּלָשֶׁת",
+            "lemma": "6429",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הַגְּמוּל",
+            "lemma": "1576",
+            "morph": "HTi/Ncmsa"
+          },
+          {
+            "heb": "אַתֶּם",
+            "lemma": "859 d",
+            "morph": "HPp2mp"
+          },
+          {
+            "heb": "מְשַׁלְּמִים",
+            "lemma": "7999 a",
+            "morph": "HVprmpa"
+          },
+          {
+            "heb": "עָלָי",
+            "lemma": "5921 a",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "וְאִם",
+            "lemma": "518 a",
+            "morph": "HC/C"
+          },
+          {
+            "heb": "גֹּמְלִים",
+            "lemma": "1580",
+            "morph": "HVqrmpa"
+          },
+          {
+            "heb": "אַתֶּם",
+            "lemma": "859 d",
+            "morph": "HPp2mp"
+          },
+          {
+            "heb": "עָלַי",
+            "lemma": "5921 a",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "קַל",
+            "lemma": "7031",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "מְהֵרָה",
+            "lemma": "4120",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "אָשִׁיב",
+            "lemma": "7725",
+            "morph": "HVhi1cs"
+          },
+          {
+            "heb": "גְּמֻלְכֶם",
+            "lemma": "1576",
+            "morph": "HNcmsc/Sp2mp"
+          },
+          {
+            "heb": "בְּרֹאשְׁכֶֽם",
+            "lemma": "7218 a",
+            "morph": "HR/Ncmsc/Sp2mp"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Joel 4:5",
+        "words": [
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "כַּסְפִּי",
+            "lemma": "3701",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "וּזְהָבִי",
+            "lemma": "2091",
+            "morph": "HC/Ncmsc/Sp1cs"
+          },
+          {
+            "heb": "לְקַחְתֶּם",
+            "lemma": "3947",
+            "morph": "HVqp2mp"
+          },
+          {
+            "heb": "וּמַֽחֲמַדַּי",
+            "lemma": "4261",
+            "morph": "HC/Ncmpc/Sp1cs"
+          },
+          {
+            "heb": "הַטֹּבִים",
+            "lemma": "2896 a",
+            "morph": "HTd/Aampa"
+          },
+          {
+            "heb": "הֲבֵאתֶם",
+            "lemma": "935",
+            "morph": "HVhp2mp"
+          },
+          {
+            "heb": "לְהֵיכְלֵיכֶֽם",
+            "lemma": "1964",
+            "morph": "HR/Ncmpc/Sp2mp"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Joel 4:6",
+        "words": [
+          {
+            "heb": "וּבְנֵי",
+            "lemma": "1121 a",
+            "morph": "HC/Ncmpc"
+          },
+          {
+            "heb": "יְהוּדָה",
+            "lemma": "3063",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּבְנֵי",
+            "lemma": "1121 a",
+            "morph": "HC/Ncmpc"
+          },
+          {
+            "heb": "יְרוּשָׁלִַם",
+            "lemma": "3389",
+            "morph": "HNp"
+          },
+          {
+            "heb": "מְכַרְתֶּם",
+            "lemma": "4376",
+            "morph": "HVqp2mp"
+          },
+          {
+            "heb": "לִבְנֵי",
+            "lemma": "1121 a",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "הַיְּוָנִים",
+            "lemma": "3125",
+            "morph": "HTd/Ngmpa"
+          },
+          {
+            "heb": "לְמַעַן",
+            "lemma": "4616",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַרְחִיקָם",
+            "lemma": "7368",
+            "morph": "HVhc/Sp3mp"
+          },
+          {
+            "heb": "מֵעַל",
+            "lemma": "5921 a",
+            "morph": "HR/R"
+          },
+          {
+            "heb": "גְּבוּלָֽם",
+            "lemma": "1366",
+            "morph": "HNcmsc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Joel 4:7",
+        "words": [
+          {
+            "heb": "הִנְנִי",
+            "lemma": "2005",
+            "morph": "HTm/Sp1cs"
+          },
+          {
+            "heb": "מְעִירָם",
+            "lemma": "5782",
+            "morph": "HVhrmsc/Sp3mp"
+          },
+          {
+            "heb": "מִן",
+            "lemma": "4480 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַמָּקוֹם",
+            "lemma": "4725",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "מְכַרְתֶּם",
+            "lemma": "4376",
+            "morph": "HVqp2mp"
+          },
+          {
+            "heb": "אֹתָם",
+            "lemma": "853",
+            "morph": "HTo/Sp3mp"
+          },
+          {
+            "heb": "שָׁמָּה",
+            "lemma": "8033",
+            "morph": "HD/Sd"
+          },
+          {
+            "heb": "וַהֲשִׁבֹתִי",
+            "lemma": "7725",
+            "morph": "HC/Vhq1cs"
+          },
+          {
+            "heb": "גְמֻלְכֶם",
+            "lemma": "1576",
+            "morph": "HNcmsc/Sp2mp"
+          },
+          {
+            "heb": "בְּרֹאשְׁכֶֽם",
+            "lemma": "7218 a",
+            "morph": "HR/Ncmsc/Sp2mp"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Joel 4:8",
+        "words": [
+          {
+            "heb": "וּמָכַרְתִּי",
+            "lemma": "4376",
+            "morph": "HC/Vqq1cs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "בְּנֵיכֶם",
+            "lemma": "1121 a",
+            "morph": "HNcmpc/Sp2mp"
+          },
+          {
+            "heb": "וְאֶת",
+            "lemma": "853",
+            "morph": "HC/To"
+          },
+          {
+            "heb": "בְּנֽוֹתֵיכֶם",
+            "lemma": "1323",
+            "morph": "HNcfpc/Sp2mp"
+          },
+          {
+            "heb": "בְּיַד",
+            "lemma": "3027",
+            "morph": "HR/Ncbsc"
+          },
+          {
+            "heb": "בְּנֵי",
+            "lemma": "1121 a",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "יְהוּדָה",
+            "lemma": "3063",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּמְכָרוּם",
+            "lemma": "4376",
+            "morph": "HC/Vqq3cp/Sp3mp"
+          },
+          {
+            "heb": "לִשְׁבָאיִם",
+            "lemma": "7615",
+            "morph": "HR/Ngmpa"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "גּוֹי",
+            "lemma": "1471 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "רָחוֹק",
+            "lemma": "7350",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "דִּבֵּֽר",
+            "lemma": "1696",
+            "morph": "HVpp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Joel 4:9",
+        "words": [
+          {
+            "heb": "קִרְאוּ",
+            "lemma": "7121",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "זֹאת",
+            "lemma": "2063",
+            "morph": "HPdxfs"
+          },
+          {
+            "heb": "בַּגּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "קַדְּשׁוּ",
+            "lemma": "6942",
+            "morph": "HVpv2mp"
+          },
+          {
+            "heb": "מִלְחָמָה",
+            "lemma": "4421",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "הָעִירוּ",
+            "lemma": "5782",
+            "morph": "HVhv2mp"
+          },
+          {
+            "heb": "הַגִּבּוֹרִים",
+            "lemma": "1368",
+            "morph": "HTd/Aampa"
+          },
+          {
+            "heb": "יִגְּשׁוּ",
+            "lemma": "5066",
+            "morph": "HVqj3mp"
+          },
+          {
+            "heb": "יַֽעֲלוּ",
+            "lemma": "5927",
+            "morph": "HVqj3mp"
+          },
+          {
+            "heb": "כֹּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אַנְשֵׁי",
+            "lemma": "376",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "הַמִּלְחָמָֽה",
+            "lemma": "4421",
+            "morph": "HTd/Ncfsa"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Joel 4:10",
+        "words": [
+          {
+            "heb": "כֹּתּוּ",
+            "lemma": "3807",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "אִתֵּיכֶם",
+            "lemma": "855",
+            "morph": "HNcmpc/Sp2mp"
+          },
+          {
+            "heb": "לַֽחֲרָבוֹת",
+            "lemma": "2719",
+            "morph": "HR/Ncfpa"
+          },
+          {
+            "heb": "וּמַזְמְרֹֽתֵיכֶם",
+            "lemma": "4211",
+            "morph": "HC/Ncfpc/Sp2mp"
+          },
+          {
+            "heb": "לִרְמָחִים",
+            "lemma": "7420",
+            "morph": "HR/Ncmpa"
+          },
+          {
+            "heb": "הַֽחַלָּשׁ",
+            "lemma": "2523",
+            "morph": "HTd/Aamsa"
+          },
+          {
+            "heb": "יֹאמַר",
+            "lemma": "559",
+            "morph": "HVqj3ms"
+          },
+          {
+            "heb": "גִּבּוֹר",
+            "lemma": "1368",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "אָֽנִי",
+            "lemma": "589",
+            "morph": "HPp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Joel 4:11",
+        "words": [
+          {
+            "heb": "עוּשׁוּ",
+            "lemma": "5789",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "וָבֹאוּ",
+            "lemma": "935",
+            "morph": "HC/Vqv2mp"
+          },
+          {
+            "heb": "כָֽל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַגּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "מִסָּבִיב",
+            "lemma": "5439",
+            "morph": "HR/Ncbsa"
+          },
+          {
+            "heb": "וְנִקְבָּצוּ",
+            "lemma": "6908",
+            "morph": "HC/VNq3cp"
+          },
+          {
+            "heb": "שָׁמָּה",
+            "lemma": "8033",
+            "morph": "HD/Sd"
+          },
+          {
+            "heb": "הַֽנְחַת",
+            "lemma": "5181",
+            "morph": "HVhv2ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "גִּבּוֹרֶֽיךָ",
+            "lemma": "1368",
+            "morph": "HAampc/Sp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Joel 4:12",
+        "words": [
+          {
+            "heb": "יֵעוֹרוּ",
+            "lemma": "5782",
+            "morph": "HVNj3mp"
+          },
+          {
+            "heb": "וְיַעֲלוּ",
+            "lemma": "5927",
+            "morph": "HC/Vqj3mp"
+          },
+          {
+            "heb": "הַגּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "עֵמֶק",
+            "lemma": "6010",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהֽוֹשָׁפָט",
+            "lemma": "3092",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "שָׁם",
+            "lemma": "8033",
+            "morph": "HD"
+          },
+          {
+            "heb": "אֵשֵׁב",
+            "lemma": "3427",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "לִשְׁפֹּט",
+            "lemma": "8199",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַגּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "מִסָּבִֽיב",
+            "lemma": "5439",
+            "morph": "HR/Ncbsa"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Joel 4:13",
+        "words": [
+          {
+            "heb": "שִׁלְחוּ",
+            "lemma": "7971",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "מַגָּל",
+            "lemma": "4038",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "בָשַׁל",
+            "lemma": "1310",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "קָצִיר",
+            "lemma": "7105 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בֹּאֽוּ",
+            "lemma": "935",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "רְדוּ",
+            "lemma": "3381",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "מָלְאָה",
+            "lemma": "4390",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "גַּת",
+            "lemma": "1660",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "הֵשִׁיקוּ",
+            "lemma": "7783",
+            "morph": "HVhp3cp"
+          },
+          {
+            "heb": "הַיְקָבִים",
+            "lemma": "3342",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "רַבָּה",
+            "lemma": "7227 a",
+            "morph": "HAafsa"
+          },
+          {
+            "heb": "רָעָתָֽם",
+            "lemma": "7451 c",
+            "morph": "HNcfsc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Joel 4:14",
+        "words": [
+          {
+            "heb": "הֲמוֹנִים",
+            "lemma": "1995 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "הֲמוֹנִים",
+            "lemma": "1995 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "בְּעֵמֶק",
+            "lemma": "6010",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "הֶֽחָרוּץ",
+            "lemma": "2742 b",
+            "morph": "HTd/Np"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "קָרוֹב",
+            "lemma": "7138",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בְּעֵמֶק",
+            "lemma": "6010",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "הֶחָרֽוּץ",
+            "lemma": "2742 b",
+            "morph": "HTd/Np"
+          }
+        ]
+      },
+      {
+        "verse": 15,
+        "ref": "Joel 4:15",
+        "words": [
+          {
+            "heb": "שֶׁמֶשׁ",
+            "lemma": "8121",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "וְיָרֵחַ",
+            "lemma": "3394",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "קָדָרוּ",
+            "lemma": "6937",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "וְכוֹכָבִים",
+            "lemma": "3556",
+            "morph": "HC/Ncmpa"
+          },
+          {
+            "heb": "אָסְפוּ",
+            "lemma": "622",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "נָגְהָֽם",
+            "lemma": "5051",
+            "morph": "HNcfsc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 16,
+        "ref": "Joel 4:16",
+        "words": [
+          {
+            "heb": "וַיהוָה",
+            "lemma": "3068",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "מִצִּיּוֹן",
+            "lemma": "6726",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "יִשְׁאָג",
+            "lemma": "7580",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "וּמִירוּשָׁלִַם",
+            "lemma": "3389",
+            "morph": "HC/R/Np"
+          },
+          {
+            "heb": "יִתֵּן",
+            "lemma": "5414",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "קוֹלוֹ",
+            "lemma": "6963 a",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "וְרָעֲשׁוּ",
+            "lemma": "7493",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "שָׁמַיִם",
+            "lemma": "8064",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "וָאָרֶץ",
+            "lemma": "776",
+            "morph": "HC/Ncbsa"
+          },
+          {
+            "heb": "וַֽיהוָה",
+            "lemma": "3068",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "מַֽחֲסֶה",
+            "lemma": "4268",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "לְעַמּוֹ",
+            "lemma": "5971 a",
+            "morph": "HR/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "וּמָעוֹז",
+            "lemma": "4581",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "לִבְנֵי",
+            "lemma": "1121 a",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "יִשְׂרָאֵֽל",
+            "lemma": "3478",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 17,
+        "ref": "Joel 4:17",
+        "words": [
+          {
+            "heb": "וִֽידַעְתֶּם",
+            "lemma": "3045",
+            "morph": "HC/Vqq2mp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אֲנִי",
+            "lemma": "589",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֱלֹהֵיכֶם",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp2mp"
+          },
+          {
+            "heb": "שֹׁכֵן",
+            "lemma": "7931",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "בְּצִיּוֹן",
+            "lemma": "6726",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "הַר",
+            "lemma": "2022",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "קָדְשִׁי",
+            "lemma": "6944",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "וְהָיְתָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3fs"
+          },
+          {
+            "heb": "יְרוּשָׁלִַם",
+            "lemma": "3389",
+            "morph": "HNp"
+          },
+          {
+            "heb": "קֹדֶשׁ",
+            "lemma": "6944",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְזָרִים",
+            "lemma": "2114 a",
+            "morph": "HC/Aampa"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יַֽעַבְרוּ",
+            "lemma": "5674 a",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "בָהּ",
+            "lemma": "b",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "עֽוֹד",
+            "lemma": "5750",
+            "morph": "HD"
+          }
+        ]
+      },
+      {
+        "verse": 18,
+        "ref": "Joel 4:18",
+        "words": [
+          {
+            "heb": "וְהָיָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "בַיּוֹם",
+            "lemma": "3117",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "הַהוּא",
+            "lemma": "1931",
+            "morph": "HTd/Pp3ms"
+          },
+          {
+            "heb": "יִטְּפוּ",
+            "lemma": "5197",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "הֶהָרִים",
+            "lemma": "2022",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "עָסִיס",
+            "lemma": "6071",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְהַגְּבָעוֹת",
+            "lemma": "1389",
+            "morph": "HC/Td/Ncfpa"
+          },
+          {
+            "heb": "תֵּלַכְנָה",
+            "lemma": "3212",
+            "morph": "HVqi3fp"
+          },
+          {
+            "heb": "חָלָב",
+            "lemma": "2461",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְכָל",
+            "lemma": "3605",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "אֲפִיקֵי",
+            "lemma": "650",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "יְהוּדָה",
+            "lemma": "3063",
+            "morph": "HNp"
+          },
+          {
+            "heb": "יֵלְכוּ",
+            "lemma": "3212",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "מָיִם",
+            "lemma": "4325",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "וּמַעְיָן",
+            "lemma": "4599",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "מִבֵּית",
+            "lemma": "1004 b",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "יֵצֵא",
+            "lemma": "3318",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "וְהִשְׁקָה",
+            "lemma": "8248",
+            "morph": "HC/Vhq3ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "נַחַל",
+            "lemma": "5158 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַשִּׁטִּֽים",
+            "lemma": "7851",
+            "morph": "HTd/Np"
+          }
+        ]
+      },
+      {
+        "verse": 19,
+        "ref": "Joel 4:19",
+        "words": [
+          {
+            "heb": "מִצְרַיִם",
+            "lemma": "4714",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לִשְׁמָמָה",
+            "lemma": "8077 a",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "תִֽהְיֶה",
+            "lemma": "1961",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "וֶאֱדוֹם",
+            "lemma": "123",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "לְמִדְבַּר",
+            "lemma": "4057 b",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "שְׁמָמָה",
+            "lemma": "8077 a",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "תִּֽהְיֶה",
+            "lemma": "1961",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "מֵֽחֲמַס",
+            "lemma": "2555",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "בְּנֵי",
+            "lemma": "1121 a",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "יְהוּדָה",
+            "lemma": "3063",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "שָׁפְכוּ",
+            "lemma": "8210",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "דָם",
+            "lemma": "1818",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "נָקִיא",
+            "lemma": "5355 b",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "בְּאַרְצָֽם",
+            "lemma": "776",
+            "morph": "HR/Ncbsc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 20,
+        "ref": "Joel 4:20",
+        "words": [
+          {
+            "heb": "וִיהוּדָה",
+            "lemma": "3063",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "לְעוֹלָם",
+            "lemma": "5769",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "תֵּשֵׁב",
+            "lemma": "3427",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "וִירוּשָׁלִַם",
+            "lemma": "3389",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "לְדוֹר",
+            "lemma": "1755",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "וָדֽוֹר",
+            "lemma": "1755",
+            "morph": "HC/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 21,
+        "ref": "Joel 4:21",
+        "words": [
+          {
+            "heb": "וְנִקֵּיתִי",
+            "lemma": "5352",
+            "morph": "HC/Vpq1cs"
+          },
+          {
+            "heb": "דָּמָם",
+            "lemma": "1818",
+            "morph": "HNcmsc/Sp3mp"
+          },
+          {
+            "heb": "לֹֽא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "נִקֵּיתִי",
+            "lemma": "5352",
+            "morph": "HVpp1cs"
+          },
+          {
+            "heb": "וַֽיהוָה",
+            "lemma": "3068",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "שֹׁכֵן",
+            "lemma": "7931",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "בְּצִיּֽוֹן",
+            "lemma": "6726",
+            "morph": "HR/Np"
+          }
+        ]
+      }
+    ]
+  }
+}

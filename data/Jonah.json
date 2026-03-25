@@ -1,0 +1,3742 @@
+{
+  "name": "Jonah",
+  "osisId": "Jonah",
+  "chapters": {
+    "1": [
+      {
+        "verse": 1,
+        "ref": "Jonah 1:1",
+        "words": [
+          {
+            "heb": "וַֽיְהִי",
+            "lemma": "1961",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "דְּבַר",
+            "lemma": "1697",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "יוֹנָה",
+            "lemma": "3124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בֶן",
+            "lemma": "1121 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אֲמִתַּי",
+            "lemma": "573",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לֵאמֹֽר",
+            "lemma": "559",
+            "morph": "HR/Vqc"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Jonah 1:2",
+        "words": [
+          {
+            "heb": "קוּם",
+            "lemma": "6965 b",
+            "morph": "HVqv2ms"
+          },
+          {
+            "heb": "לֵךְ",
+            "lemma": "3212",
+            "morph": "HVqv2ms"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "נִֽינְוֵה",
+            "lemma": "5210",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הָעִיר",
+            "lemma": "5892 b",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "הַגְּדוֹלָה",
+            "lemma": "1419 a",
+            "morph": "HTd/Aafsa"
+          },
+          {
+            "heb": "וּקְרָא",
+            "lemma": "7121",
+            "morph": "HC/Vqv2ms"
+          },
+          {
+            "heb": "עָלֶיהָ",
+            "lemma": "5921 a",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "עָלְתָה",
+            "lemma": "5927",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "רָעָתָם",
+            "lemma": "7451 c",
+            "morph": "HNcfsc/Sp3mp"
+          },
+          {
+            "heb": "לְפָנָֽי",
+            "lemma": "6440",
+            "morph": "HR/Ncbpc/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Jonah 1:3",
+        "words": [
+          {
+            "heb": "וַיָּקָם",
+            "lemma": "6965 b",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "יוֹנָה",
+            "lemma": "3124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לִבְרֹחַ",
+            "lemma": "1272",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "תַּרְשִׁישָׁה",
+            "lemma": "8659",
+            "morph": "HNp/Sd"
+          },
+          {
+            "heb": "מִלִּפְנֵי",
+            "lemma": "6440",
+            "morph": "HR/R/Ncbpc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיֵּרֶד",
+            "lemma": "3381",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "יָפוֹ",
+            "lemma": "3305",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיִּמְצָא",
+            "lemma": "4672",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "אָנִיָּה",
+            "lemma": "591",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "בָּאָה",
+            "lemma": "935",
+            "morph": "HVqrfsa"
+          },
+          {
+            "heb": "תַרְשִׁישׁ",
+            "lemma": "8659",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיִּתֵּן",
+            "lemma": "5414",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "שְׂכָרָהּ",
+            "lemma": "7939",
+            "morph": "HNcmsc/Sp3fs"
+          },
+          {
+            "heb": "וַיֵּרֶד",
+            "lemma": "3381",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "בָּהּ",
+            "lemma": "b",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "לָבוֹא",
+            "lemma": "935",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "עִמָּהֶם",
+            "lemma": "5973 a",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "תַּרְשִׁישָׁה",
+            "lemma": "8659",
+            "morph": "HNp/Sd"
+          },
+          {
+            "heb": "מִלִּפְנֵי",
+            "lemma": "6440",
+            "morph": "HR/R/Ncbpc"
+          },
+          {
+            "heb": "יְהוָֽה",
+            "lemma": "3068",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Jonah 1:4",
+        "words": [
+          {
+            "heb": "וַֽיהוָה",
+            "lemma": "3068",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "הֵטִיל",
+            "lemma": "2904",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "רֽוּחַ",
+            "lemma": "7307",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "גְּדוֹלָה",
+            "lemma": "1419 a",
+            "morph": "HAafsa"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַיָּם",
+            "lemma": "3220",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וַיְהִי",
+            "lemma": "1961",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "סַֽעַר",
+            "lemma": "5591 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "גָּדוֹל",
+            "lemma": "1419 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "בַּיָּם",
+            "lemma": "3220",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "וְהָאֳנִיָּה",
+            "lemma": "591",
+            "morph": "HC/Td/Ncfsa"
+          },
+          {
+            "heb": "חִשְּׁבָה",
+            "lemma": "2803",
+            "morph": "HVpp3fs"
+          },
+          {
+            "heb": "לְהִשָּׁבֵֽר",
+            "lemma": "7665",
+            "morph": "HR/VNc"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Jonah 1:5",
+        "words": [
+          {
+            "heb": "וַיִּֽירְאוּ",
+            "lemma": "3372",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "הַמַּלָּחִים",
+            "lemma": "4419",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "וַֽיִּזְעֲקוּ",
+            "lemma": "2199",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "אִישׁ",
+            "lemma": "376",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "אֱלֹהָיו",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp3ms"
+          },
+          {
+            "heb": "וַיָּטִלוּ",
+            "lemma": "2904",
+            "morph": "HC/Vhw3mp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַכֵּלִים",
+            "lemma": "3627",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "בָּֽאֳנִיָּה",
+            "lemma": "591",
+            "morph": "HRd/Ncfsa"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַיָּם",
+            "lemma": "3220",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "לְהָקֵל",
+            "lemma": "7043",
+            "morph": "HR/Vhc"
+          },
+          {
+            "heb": "מֵֽעֲלֵיהֶם",
+            "lemma": "5921 a",
+            "morph": "HR/R/Sp3mp"
+          },
+          {
+            "heb": "וְיוֹנָה",
+            "lemma": "3124",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "יָרַד",
+            "lemma": "3381",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "יַרְכְּתֵי",
+            "lemma": "3411",
+            "morph": "HNcfdc"
+          },
+          {
+            "heb": "הַסְּפִינָה",
+            "lemma": "5600",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "וַיִּשְׁכַּב",
+            "lemma": "7901",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "וַיֵּרָדַֽם",
+            "lemma": "7290",
+            "morph": "HC/VNw3ms"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Jonah 1:6",
+        "words": [
+          {
+            "heb": "וַיִּקְרַב",
+            "lemma": "7126",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "אֵלָיו",
+            "lemma": "413",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "רַב",
+            "lemma": "7227 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַחֹבֵל",
+            "lemma": "2259",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "לוֹ",
+            "lemma": "l",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "מַה",
+            "lemma": "4100",
+            "morph": "HTi"
+          },
+          {
+            "heb": "לְּךָ",
+            "lemma": "l",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "נִרְדָּם",
+            "lemma": "7290",
+            "morph": "HVNrmsa"
+          },
+          {
+            "heb": "קוּם",
+            "lemma": "6965 b",
+            "morph": "HVqv2ms"
+          },
+          {
+            "heb": "קְרָא",
+            "lemma": "7121",
+            "morph": "HVqv2ms"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "אֱלֹהֶיךָ",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp2ms"
+          },
+          {
+            "heb": "אוּלַי",
+            "lemma": "194",
+            "morph": "HD"
+          },
+          {
+            "heb": "יִתְעַשֵּׁת",
+            "lemma": "6245 b",
+            "morph": "HVti3ms"
+          },
+          {
+            "heb": "הָאֱלֹהִים",
+            "lemma": "430",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "לָנוּ",
+            "lemma": "l",
+            "morph": "HR/Sp1cp"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "נֹאבֵֽד",
+            "lemma": "6",
+            "morph": "HVqi1cp"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Jonah 1:7",
+        "words": [
+          {
+            "heb": "וַיֹּאמְרוּ",
+            "lemma": "559",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "אִישׁ",
+            "lemma": "376",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "רֵעֵהוּ",
+            "lemma": "7453",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "לְכוּ",
+            "lemma": "3212",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "וְנַפִּילָה",
+            "lemma": "5307",
+            "morph": "HC/Vhh1cp"
+          },
+          {
+            "heb": "גֽוֹרָלוֹת",
+            "lemma": "1486",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "וְנֵדְעָה",
+            "lemma": "3045",
+            "morph": "HC/Vqh1cp"
+          },
+          {
+            "heb": "בְּשֶׁלְּמִי",
+            "lemma": "4310",
+            "morph": "HR/Tr/R/Ti"
+          },
+          {
+            "heb": "הָרָעָה",
+            "lemma": "7451 c",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "הַזֹּאת",
+            "lemma": "2063",
+            "morph": "HTd/Pdxfs"
+          },
+          {
+            "heb": "לָנוּ",
+            "lemma": "l",
+            "morph": "HR/Sp1cp"
+          },
+          {
+            "heb": "וַיַּפִּלוּ",
+            "lemma": "5307",
+            "morph": "HC/Vhw3mp"
+          },
+          {
+            "heb": "גּֽוֹרָלוֹת",
+            "lemma": "1486",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "וַיִּפֹּל",
+            "lemma": "5307",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "הַגּוֹרָל",
+            "lemma": "1486",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "יוֹנָֽה",
+            "lemma": "3124",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Jonah 1:8",
+        "words": [
+          {
+            "heb": "וַיֹּאמְרוּ",
+            "lemma": "559",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "אֵלָיו",
+            "lemma": "413",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "הַגִּידָה",
+            "lemma": "5046",
+            "morph": "HVhv2ms/Sh"
+          },
+          {
+            "heb": "נָּא",
+            "lemma": "4994",
+            "morph": "HTj"
+          },
+          {
+            "heb": "לָנוּ",
+            "lemma": "l",
+            "morph": "HR/Sp1cp"
+          },
+          {
+            "heb": "בַּאֲשֶׁר",
+            "lemma": "834 b",
+            "morph": "HR/Tr"
+          },
+          {
+            "heb": "לְמִי",
+            "lemma": "4310",
+            "morph": "HR/Ti"
+          },
+          {
+            "heb": "הָרָעָה",
+            "lemma": "7451 c",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "הַזֹּאת",
+            "lemma": "2063",
+            "morph": "HTd/Pdxfs"
+          },
+          {
+            "heb": "לָנוּ",
+            "lemma": "l",
+            "morph": "HR/Sp1cp"
+          },
+          {
+            "heb": "מַה",
+            "lemma": "4100",
+            "morph": "HTi"
+          },
+          {
+            "heb": "מְּלַאכְתְּךָ",
+            "lemma": "4399",
+            "morph": "HNcfsc/Sp2ms"
+          },
+          {
+            "heb": "וּמֵאַיִן",
+            "lemma": "370",
+            "morph": "HC/R/Ti"
+          },
+          {
+            "heb": "תָּבוֹא",
+            "lemma": "935",
+            "morph": "HVqi2ms"
+          },
+          {
+            "heb": "מָה",
+            "lemma": "4100",
+            "morph": "HTi"
+          },
+          {
+            "heb": "אַרְצֶךָ",
+            "lemma": "776",
+            "morph": "HNcbsc/Sp2ms"
+          },
+          {
+            "heb": "וְאֵֽי",
+            "lemma": "335",
+            "morph": "HC/Ti"
+          },
+          {
+            "heb": "מִזֶּה",
+            "lemma": "2088",
+            "morph": "HR/Pdxms"
+          },
+          {
+            "heb": "עַם",
+            "lemma": "5971 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אָֽתָּה",
+            "lemma": "859 a",
+            "morph": "HPp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Jonah 1:9",
+        "words": [
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "אֲלֵיהֶם",
+            "lemma": "413",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "עִבְרִי",
+            "lemma": "5680",
+            "morph": "HNgmsa"
+          },
+          {
+            "heb": "אָנֹכִי",
+            "lemma": "595",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "וְאֶת",
+            "lemma": "853",
+            "morph": "HC/To"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֱלֹהֵי",
+            "lemma": "430",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "הַשָּׁמַיִם",
+            "lemma": "8064",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "אֲנִי",
+            "lemma": "589",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "יָרֵא",
+            "lemma": "3373",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "עָשָׂה",
+            "lemma": "6213 a",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַיָּם",
+            "lemma": "3220",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וְאֶת",
+            "lemma": "853",
+            "morph": "HC/To"
+          },
+          {
+            "heb": "הַיַּבָּשָֽׁה",
+            "lemma": "3004",
+            "morph": "HTd/Ncfsa"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Jonah 1:10",
+        "words": [
+          {
+            "heb": "וַיִּֽירְאוּ",
+            "lemma": "3372",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "הָֽאֲנָשִׁים",
+            "lemma": "376",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "יִרְאָה",
+            "lemma": "3373",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "גְדוֹלָה",
+            "lemma": "1419 a",
+            "morph": "HAafsa"
+          },
+          {
+            "heb": "וַיֹּאמְרוּ",
+            "lemma": "559",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "אֵלָיו",
+            "lemma": "413",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "מַה",
+            "lemma": "4100",
+            "morph": "HTi"
+          },
+          {
+            "heb": "זֹּאת",
+            "lemma": "2063",
+            "morph": "HPdxfs"
+          },
+          {
+            "heb": "עָשִׂיתָ",
+            "lemma": "6213 a",
+            "morph": "HVqp2ms"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "יָדְעוּ",
+            "lemma": "3045",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "הָאֲנָשִׁים",
+            "lemma": "376",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "מִלִּפְנֵי",
+            "lemma": "6440",
+            "morph": "HR/R/Ncbpc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          },
+          {
+            "heb": "בֹרֵחַ",
+            "lemma": "1272",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "הִגִּיד",
+            "lemma": "5046",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "לָהֶֽם",
+            "lemma": "l",
+            "morph": "HR/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Jonah 1:11",
+        "words": [
+          {
+            "heb": "וַיֹּאמְרוּ",
+            "lemma": "559",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "אֵלָיו",
+            "lemma": "413",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "מַה",
+            "lemma": "4100",
+            "morph": "HTi"
+          },
+          {
+            "heb": "נַּעֲשֶׂה",
+            "lemma": "6213 a",
+            "morph": "HVqi1cp"
+          },
+          {
+            "heb": "לָּךְ",
+            "lemma": "l",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "וְיִשְׁתֹּק",
+            "lemma": "8367",
+            "morph": "HC/Vqi3ms"
+          },
+          {
+            "heb": "הַיָּם",
+            "lemma": "3220",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "מֵֽעָלֵינוּ",
+            "lemma": "5921 a",
+            "morph": "HR/R/Sp1cp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "הַיָּם",
+            "lemma": "3220",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "הוֹלֵךְ",
+            "lemma": "1980",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "וְסֹעֵֽר",
+            "lemma": "5590",
+            "morph": "HC/Vqrmsa"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Jonah 1:12",
+        "words": [
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "אֲלֵיהֶם",
+            "lemma": "413",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "שָׂאוּנִי",
+            "lemma": "5375",
+            "morph": "HVqv2mp/Sp1cs"
+          },
+          {
+            "heb": "וַהֲטִילֻנִי",
+            "lemma": "2904",
+            "morph": "HC/Vhv2mp/Sp1cs"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַיָּם",
+            "lemma": "3220",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וְיִשְׁתֹּק",
+            "lemma": "8367",
+            "morph": "HC/Vqi3ms"
+          },
+          {
+            "heb": "הַיָּם",
+            "lemma": "3220",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "מֵֽעֲלֵיכֶם",
+            "lemma": "5921 a",
+            "morph": "HR/R/Sp2mp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "יוֹדֵעַ",
+            "lemma": "3045",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "אָנִי",
+            "lemma": "589",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "בְשֶׁלִּי",
+            "lemma": "7945",
+            "morph": "HR/Tr/R/Sp1cs"
+          },
+          {
+            "heb": "הַסַּעַר",
+            "lemma": "5591 a",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "הַגָּדוֹל",
+            "lemma": "1419 a",
+            "morph": "HTd/Aamsa"
+          },
+          {
+            "heb": "הַזֶּה",
+            "lemma": "2088",
+            "morph": "HTd/Pdxms"
+          },
+          {
+            "heb": "עֲלֵיכֶֽם",
+            "lemma": "5921 a",
+            "morph": "HR/Sp2mp"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Jonah 1:13",
+        "words": [
+          {
+            "heb": "וַיַּחְתְּרוּ",
+            "lemma": "2864",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "הָאֲנָשִׁים",
+            "lemma": "376",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "לְהָשִׁיב",
+            "lemma": "7725",
+            "morph": "HR/Vhc"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַיַּבָּשָׁה",
+            "lemma": "3004",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יָכֹלוּ",
+            "lemma": "3201",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "הַיָּם",
+            "lemma": "3220",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "הוֹלֵךְ",
+            "lemma": "1980",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "וְסֹעֵר",
+            "lemma": "5590",
+            "morph": "HC/Vqrmsa"
+          },
+          {
+            "heb": "עֲלֵיהֶֽם",
+            "lemma": "5921 a",
+            "morph": "HR/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Jonah 1:14",
+        "words": [
+          {
+            "heb": "וַיִּקְרְאוּ",
+            "lemma": "7121",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיֹּאמְרוּ",
+            "lemma": "559",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "אָנָּה",
+            "lemma": "577",
+            "morph": "HTj"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "נָא",
+            "lemma": "4994",
+            "morph": "HTe"
+          },
+          {
+            "heb": "נֹאבְדָה",
+            "lemma": "6",
+            "morph": "HVqh1cp"
+          },
+          {
+            "heb": "בְּנֶפֶשׁ",
+            "lemma": "5315",
+            "morph": "HR/Ncbsc"
+          },
+          {
+            "heb": "הָאִישׁ",
+            "lemma": "376",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "הַזֶּה",
+            "lemma": "2088",
+            "morph": "HTd/Pdxms"
+          },
+          {
+            "heb": "וְאַל",
+            "lemma": "408",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תִּתֵּן",
+            "lemma": "5414",
+            "morph": "HVqj2ms"
+          },
+          {
+            "heb": "עָלֵינוּ",
+            "lemma": "5921 a",
+            "morph": "HR/Sp1cp"
+          },
+          {
+            "heb": "דָּם",
+            "lemma": "1818",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "נָקִיא",
+            "lemma": "5355 b",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אַתָּה",
+            "lemma": "859 a",
+            "morph": "HPp2ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כַּאֲשֶׁר",
+            "lemma": "834 d",
+            "morph": "HR/Tr"
+          },
+          {
+            "heb": "חָפַצְתָּ",
+            "lemma": "2654 a",
+            "morph": "HVqp2ms"
+          },
+          {
+            "heb": "עָשִֽׂיתָ",
+            "lemma": "6213 a",
+            "morph": "HVqp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 15,
+        "ref": "Jonah 1:15",
+        "words": [
+          {
+            "heb": "וַיִּשְׂאוּ",
+            "lemma": "5375",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "יוֹנָה",
+            "lemma": "3124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיְטִלֻהוּ",
+            "lemma": "2904",
+            "morph": "HC/Vhw3mp/Sp3ms"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַיָּם",
+            "lemma": "3220",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וַיַּעֲמֹד",
+            "lemma": "5975",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "הַיָּם",
+            "lemma": "3220",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "מִזַּעְפּֽוֹ",
+            "lemma": "2197",
+            "morph": "HR/Vqc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 16,
+        "ref": "Jonah 1:16",
+        "words": [
+          {
+            "heb": "וַיִּֽירְאוּ",
+            "lemma": "3372",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "הָאֲנָשִׁים",
+            "lemma": "376",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "יִרְאָה",
+            "lemma": "3373",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "גְדוֹלָה",
+            "lemma": "1419 a",
+            "morph": "HAafsa"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיִּֽזְבְּחוּ",
+            "lemma": "2076",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "זֶבַח",
+            "lemma": "2077",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "לַֽיהוָה",
+            "lemma": "3068",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "וַֽיִּדְּרוּ",
+            "lemma": "5087",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "נְדָרִֽים",
+            "lemma": "5088",
+            "morph": "HNcmpa"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "verse": 1,
+        "ref": "Jonah 2:1",
+        "words": [
+          {
+            "heb": "וַיְמַן",
+            "lemma": "4487",
+            "morph": "HC/Vpw3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "דָּג",
+            "lemma": "1709",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "גָּדוֹל",
+            "lemma": "1419 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "לִבְלֹעַ",
+            "lemma": "1104",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "יוֹנָה",
+            "lemma": "3124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיְהִי",
+            "lemma": "1961",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "יוֹנָה",
+            "lemma": "3124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בִּמְעֵי",
+            "lemma": "4578",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "הַדָּג",
+            "lemma": "1709",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "שְׁלֹשָׁה",
+            "lemma": "7969",
+            "morph": "HAcmsa"
+          },
+          {
+            "heb": "יָמִים",
+            "lemma": "3117",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "וּשְׁלֹשָׁה",
+            "lemma": "7969",
+            "morph": "HC/Acmsa"
+          },
+          {
+            "heb": "לֵילֽוֹת",
+            "lemma": "3915",
+            "morph": "HNcmpa"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Jonah 2:2",
+        "words": [
+          {
+            "heb": "וַיִּתְפַּלֵּל",
+            "lemma": "6419",
+            "morph": "HC/Vtw3ms"
+          },
+          {
+            "heb": "יוֹנָה",
+            "lemma": "3124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֱלֹהָיו",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp3ms"
+          },
+          {
+            "heb": "מִמְּעֵי",
+            "lemma": "4578",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "הַדָּגָֽה",
+            "lemma": "1710",
+            "morph": "HTd/Ncfsa"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Jonah 2:3",
+        "words": [
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "קָרָאתִי",
+            "lemma": "7121",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "מִצָּרָה",
+            "lemma": "6869 b",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַֽיַּעֲנֵנִי",
+            "lemma": "6030 b",
+            "morph": "HC/Vqw3ms/Sp1cs"
+          },
+          {
+            "heb": "מִבֶּטֶן",
+            "lemma": "990",
+            "morph": "HR/Ncfsc"
+          },
+          {
+            "heb": "שְׁאוֹל",
+            "lemma": "7585",
+            "morph": "HNp"
+          },
+          {
+            "heb": "שִׁוַּעְתִּי",
+            "lemma": "7768",
+            "morph": "HVpp1cs"
+          },
+          {
+            "heb": "שָׁמַעְתָּ",
+            "lemma": "8085",
+            "morph": "HVqp2ms"
+          },
+          {
+            "heb": "קוֹלִֽי",
+            "lemma": "6963 a",
+            "morph": "HNcmsc/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Jonah 2:4",
+        "words": [
+          {
+            "heb": "וַתַּשְׁלִיכֵנִי",
+            "lemma": "7993",
+            "morph": "HC/Vhw2ms/Sp1cs"
+          },
+          {
+            "heb": "מְצוּלָה",
+            "lemma": "4688",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "בִּלְבַב",
+            "lemma": "3824",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "יַמִּים",
+            "lemma": "3220",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "וְנָהָר",
+            "lemma": "5104",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "יְסֹבְבֵנִי",
+            "lemma": "5437",
+            "morph": "HVmi3ms/Sp1cs"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "מִשְׁבָּרֶיךָ",
+            "lemma": "4867",
+            "morph": "HNcmpc/Sp2ms"
+          },
+          {
+            "heb": "וְגַלֶּיךָ",
+            "lemma": "1530",
+            "morph": "HC/Ncmpc/Sp2ms"
+          },
+          {
+            "heb": "עָלַי",
+            "lemma": "5921 a",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "עָבָֽרוּ",
+            "lemma": "5674 a",
+            "morph": "HVqp3cp"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Jonah 2:5",
+        "words": [
+          {
+            "heb": "וַאֲנִי",
+            "lemma": "589",
+            "morph": "HC/Pp1cs"
+          },
+          {
+            "heb": "אָמַרְתִּי",
+            "lemma": "559",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "נִגְרַשְׁתִּי",
+            "lemma": "1644",
+            "morph": "HVNp1cs"
+          },
+          {
+            "heb": "מִנֶּגֶד",
+            "lemma": "5048",
+            "morph": "HR/R"
+          },
+          {
+            "heb": "עֵינֶיךָ",
+            "lemma": "5869 a",
+            "morph": "HNcbdc/Sp2ms"
+          },
+          {
+            "heb": "אַךְ",
+            "lemma": "389",
+            "morph": "HTa"
+          },
+          {
+            "heb": "אוֹסִיף",
+            "lemma": "3254",
+            "morph": "HVhi1cs"
+          },
+          {
+            "heb": "לְהַבִּיט",
+            "lemma": "5027",
+            "morph": "HR/Vhc"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "הֵיכַל",
+            "lemma": "1964",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "קָדְשֶֽׁךָ",
+            "lemma": "6944",
+            "morph": "HNcmsc/Sp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Jonah 2:6",
+        "words": [
+          {
+            "heb": "אֲפָפוּנִי",
+            "lemma": "661",
+            "morph": "HVqp3cp/Sp1cs"
+          },
+          {
+            "heb": "מַיִם",
+            "lemma": "4325",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "נֶפֶשׁ",
+            "lemma": "5315",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "תְּהוֹם",
+            "lemma": "8415",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "יְסֹבְבֵנִי",
+            "lemma": "5437",
+            "morph": "HVmi3ms/Sp1cs"
+          },
+          {
+            "heb": "סוּף",
+            "lemma": "5488",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "חָבוּשׁ",
+            "lemma": "2280",
+            "morph": "HVqsmsa"
+          },
+          {
+            "heb": "לְרֹאשִֽׁי",
+            "lemma": "7218 a",
+            "morph": "HR/Ncmsc/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Jonah 2:7",
+        "words": [
+          {
+            "heb": "לְקִצְבֵי",
+            "lemma": "7095",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "הָרִים",
+            "lemma": "2022",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "יָרַדְתִּי",
+            "lemma": "3381",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "הָאָרֶץ",
+            "lemma": "776",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "בְּרִחֶיהָ",
+            "lemma": "1280",
+            "morph": "HNcmpc/Sp3fs"
+          },
+          {
+            "heb": "בַעֲדִי",
+            "lemma": "1157",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "לְעוֹלָם",
+            "lemma": "5769",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "וַתַּעַל",
+            "lemma": "5927",
+            "morph": "HC/Vhw2ms"
+          },
+          {
+            "heb": "מִשַּׁחַת",
+            "lemma": "7845",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "חַיַּי",
+            "lemma": "2416 e",
+            "morph": "HNcmpc/Sp1cs"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֱלֹהָֽי",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Jonah 2:8",
+        "words": [
+          {
+            "heb": "בְּהִתְעַטֵּף",
+            "lemma": "5848 c",
+            "morph": "HR/Vtc"
+          },
+          {
+            "heb": "עָלַי",
+            "lemma": "5921 a",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "נַפְשִׁי",
+            "lemma": "5315",
+            "morph": "HNcbsc/Sp1cs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "זָכָרְתִּי",
+            "lemma": "2142",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "וַתָּבוֹא",
+            "lemma": "935",
+            "morph": "HC/Vqw3fs"
+          },
+          {
+            "heb": "אֵלֶיךָ",
+            "lemma": "413",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "תְּפִלָּתִי",
+            "lemma": "8605",
+            "morph": "HNcfsc/Sp1cs"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "הֵיכַל",
+            "lemma": "1964",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "קָדְשֶֽׁךָ",
+            "lemma": "6944",
+            "morph": "HNcmsc/Sp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Jonah 2:9",
+        "words": [
+          {
+            "heb": "מְשַׁמְּרִים",
+            "lemma": "8104",
+            "morph": "HVprmpa"
+          },
+          {
+            "heb": "הַבְלֵי",
+            "lemma": "1892",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "שָׁוְא",
+            "lemma": "7723",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "חַסְדָּם",
+            "lemma": "2617 a",
+            "morph": "HNcmsc/Sp3mp"
+          },
+          {
+            "heb": "יַעֲזֹֽבוּ",
+            "lemma": "5800 a",
+            "morph": "HVqi3mp"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Jonah 2:10",
+        "words": [
+          {
+            "heb": "וַאֲנִי",
+            "lemma": "589",
+            "morph": "HC/Pp1cs"
+          },
+          {
+            "heb": "בְּקוֹל",
+            "lemma": "6963 a",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "תּוֹדָה",
+            "lemma": "8426",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "אֶזְבְּחָה",
+            "lemma": "2076",
+            "morph": "HVqh1cs"
+          },
+          {
+            "heb": "לָּךְ",
+            "lemma": "l",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "נָדַרְתִּי",
+            "lemma": "5087",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "אֲשַׁלֵּמָה",
+            "lemma": "7999 a",
+            "morph": "HVph1cs"
+          },
+          {
+            "heb": "יְשׁוּעָתָה",
+            "lemma": "3444",
+            "morph": "HNcfsa/Sh"
+          },
+          {
+            "heb": "לַיהוָֽה",
+            "lemma": "3068",
+            "morph": "HR/Np"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Jonah 2:11",
+        "words": [
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לַדָּג",
+            "lemma": "1709",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "וַיָּקֵא",
+            "lemma": "6958",
+            "morph": "HC/Vhw3ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "יוֹנָה",
+            "lemma": "3124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַיַּבָּשָֽׁה",
+            "lemma": "3004",
+            "morph": "HTd/Ncfsa"
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "verse": 1,
+        "ref": "Jonah 3:1",
+        "words": [
+          {
+            "heb": "וַיְהִי",
+            "lemma": "1961",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "דְבַר",
+            "lemma": "1697",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "יוֹנָה",
+            "lemma": "3124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "שֵׁנִית",
+            "lemma": "8145",
+            "morph": "HAofsa"
+          },
+          {
+            "heb": "לֵאמֹֽר",
+            "lemma": "559",
+            "morph": "HR/Vqc"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Jonah 3:2",
+        "words": [
+          {
+            "heb": "קוּם",
+            "lemma": "6965 b",
+            "morph": "HVqv2ms"
+          },
+          {
+            "heb": "לֵךְ",
+            "lemma": "3212",
+            "morph": "HVqv2ms"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "נִֽינְוֵה",
+            "lemma": "5210",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הָעִיר",
+            "lemma": "5892 b",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "הַגְּדוֹלָה",
+            "lemma": "1419 a",
+            "morph": "HTd/Aafsa"
+          },
+          {
+            "heb": "וִּקְרָא",
+            "lemma": "7121",
+            "morph": "HC/Vqv2ms"
+          },
+          {
+            "heb": "אֵלֶיהָ",
+            "lemma": "413",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַקְּרִיאָה",
+            "lemma": "7150",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "אָנֹכִי",
+            "lemma": "595",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "דֹּבֵר",
+            "lemma": "1696",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "אֵלֶֽיךָ",
+            "lemma": "413",
+            "morph": "HR/Sp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Jonah 3:3",
+        "words": [
+          {
+            "heb": "וַיָּקָם",
+            "lemma": "6965 b",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "יוֹנָה",
+            "lemma": "3124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיֵּלֶךְ",
+            "lemma": "3212",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "נִֽינְוֶה",
+            "lemma": "5210",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כִּדְבַר",
+            "lemma": "1697",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְנִֽינְוֵה",
+            "lemma": "5210",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "הָיְתָה",
+            "lemma": "1961",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "עִיר",
+            "lemma": "5892 b",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "גְּדוֹלָה",
+            "lemma": "1419 a",
+            "morph": "HAafsa"
+          },
+          {
+            "heb": "לֵֽאלֹהִים",
+            "lemma": "430",
+            "morph": "HR/Ncmpa"
+          },
+          {
+            "heb": "מַהֲלַךְ",
+            "lemma": "4109",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "שְׁלֹשֶׁת",
+            "lemma": "7969",
+            "morph": "HAcmsc"
+          },
+          {
+            "heb": "יָמִֽים",
+            "lemma": "3117",
+            "morph": "HNcmpa"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Jonah 3:4",
+        "words": [
+          {
+            "heb": "וַיָּחֶל",
+            "lemma": "2490 c",
+            "morph": "HC/Vhw3ms"
+          },
+          {
+            "heb": "יוֹנָה",
+            "lemma": "3124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לָבוֹא",
+            "lemma": "935",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "בָעִיר",
+            "lemma": "5892 b",
+            "morph": "HRd/Ncfsa"
+          },
+          {
+            "heb": "מַהֲלַךְ",
+            "lemma": "4109",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֶחָד",
+            "lemma": "259",
+            "morph": "HAcmsa"
+          },
+          {
+            "heb": "וַיִּקְרָא",
+            "lemma": "7121",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "וַיֹּאמַר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "עוֹד",
+            "lemma": "5750",
+            "morph": "HD"
+          },
+          {
+            "heb": "אַרְבָּעִים",
+            "lemma": "705",
+            "morph": "HAcbpa"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְנִֽינְוֵה",
+            "lemma": "5210",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "נֶהְפָּֽכֶת",
+            "lemma": "2015",
+            "morph": "HVNrfsa"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Jonah 3:5",
+        "words": [
+          {
+            "heb": "וַֽיַּאֲמִינוּ",
+            "lemma": "539",
+            "morph": "HC/Vhw3mp"
+          },
+          {
+            "heb": "אַנְשֵׁי",
+            "lemma": "376",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "נִֽינְוֵה",
+            "lemma": "5210",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בֵּֽאלֹהִים",
+            "lemma": "430",
+            "morph": "HR/Ncmpa"
+          },
+          {
+            "heb": "וַיִּקְרְאוּ",
+            "lemma": "7121",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "צוֹם",
+            "lemma": "6685",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וַיִּלְבְּשׁוּ",
+            "lemma": "3847",
+            "morph": "HC/Vqw3mp"
+          },
+          {
+            "heb": "שַׂקִּים",
+            "lemma": "8242",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "מִגְּדוֹלָם",
+            "lemma": "1419 a",
+            "morph": "HR/Aamsc/Sp3mp"
+          },
+          {
+            "heb": "וְעַד",
+            "lemma": "5704",
+            "morph": "HR/R"
+          },
+          {
+            "heb": "קְטַנָּֽם",
+            "lemma": "6996 a",
+            "morph": "HAamsc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Jonah 3:6",
+        "words": [
+          {
+            "heb": "וַיִּגַּע",
+            "lemma": "5060",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "הַדָּבָר",
+            "lemma": "1697",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "מֶלֶך",
+            "lemma": "4428",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "נִֽינְוֵה",
+            "lemma": "5210",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיָּקָם",
+            "lemma": "6965 b",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "מִכִּסְאוֹ",
+            "lemma": "3678",
+            "morph": "HR/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "וַיַּעֲבֵר",
+            "lemma": "5674 a",
+            "morph": "HC/Vhw3ms"
+          },
+          {
+            "heb": "אַדַּרְתּוֹ",
+            "lemma": "155",
+            "morph": "HNcfsc/Sp3ms"
+          },
+          {
+            "heb": "מֵֽעָלָיו",
+            "lemma": "5921 a",
+            "morph": "HR/R/Sp3ms"
+          },
+          {
+            "heb": "וַיְכַס",
+            "lemma": "3680",
+            "morph": "HC/Vpw3ms"
+          },
+          {
+            "heb": "שַׂק",
+            "lemma": "8242",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וַיֵּשֶׁב",
+            "lemma": "3427",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הָאֵֽפֶר",
+            "lemma": "665",
+            "morph": "HTd/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Jonah 3:7",
+        "words": [
+          {
+            "heb": "וַיַּזְעֵק",
+            "lemma": "2199",
+            "morph": "HC/Vhw3ms"
+          },
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "בְּנִֽינְוֵה",
+            "lemma": "5210",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "מִטַּעַם",
+            "lemma": "2940",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "הַמֶּלֶךְ",
+            "lemma": "4428",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וּגְדֹלָיו",
+            "lemma": "1419 a",
+            "morph": "HC/Aampc/Sp3ms"
+          },
+          {
+            "heb": "לֵאמֹר",
+            "lemma": "559",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "הָאָדָם",
+            "lemma": "120",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וְהַבְּהֵמָה",
+            "lemma": "929",
+            "morph": "HC/Td/Ncfsa"
+          },
+          {
+            "heb": "הַבָּקָר",
+            "lemma": "1241",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "וְהַצֹּאן",
+            "lemma": "6629",
+            "morph": "HC/Td/Ncbsa"
+          },
+          {
+            "heb": "אַֽל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יִטְעֲמוּ",
+            "lemma": "2938",
+            "morph": "HVqj3mp"
+          },
+          {
+            "heb": "מְאוּמָה",
+            "lemma": "3972",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יִרְעוּ",
+            "lemma": "7462 b",
+            "morph": "HVqj3mp"
+          },
+          {
+            "heb": "וּמַיִם",
+            "lemma": "4325",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יִשְׁתּֽוּ",
+            "lemma": "8354",
+            "morph": "HVqj3mp"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Jonah 3:8",
+        "words": [
+          {
+            "heb": "וְיִתְכַּסּוּ",
+            "lemma": "3680",
+            "morph": "HC/Vti3mp"
+          },
+          {
+            "heb": "שַׂקִּים",
+            "lemma": "8242",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "הָֽאָדָם",
+            "lemma": "120",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וְהַבְּהֵמָה",
+            "lemma": "929",
+            "morph": "HC/Td/Ncfsa"
+          },
+          {
+            "heb": "וְיִקְרְאוּ",
+            "lemma": "7121",
+            "morph": "HC/Vqi3mp"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "אֱלֹהִים",
+            "lemma": "430",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "בְּחָזְקָה",
+            "lemma": "2394",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "וְיָשֻׁבוּ",
+            "lemma": "7725",
+            "morph": "HC/Vqi3mp"
+          },
+          {
+            "heb": "אִישׁ",
+            "lemma": "376",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מִדַּרְכּוֹ",
+            "lemma": "1870",
+            "morph": "HR/Ncbsc/Sp3ms"
+          },
+          {
+            "heb": "הָֽרָעָה",
+            "lemma": "7451 c",
+            "morph": "HTd/Aafsa"
+          },
+          {
+            "heb": "וּמִן",
+            "lemma": "4480 a",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "הֶחָמָס",
+            "lemma": "2555",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "בְּכַפֵּיהֶֽם",
+            "lemma": "3709",
+            "morph": "HR/Ncfdc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Jonah 3:9",
+        "words": [
+          {
+            "heb": "מִֽי",
+            "lemma": "4310",
+            "morph": "HTi"
+          },
+          {
+            "heb": "יוֹדֵעַ",
+            "lemma": "3045",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "יָשׁוּב",
+            "lemma": "7725",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "וְנִחַם",
+            "lemma": "5162",
+            "morph": "HC/VNq3ms"
+          },
+          {
+            "heb": "הָאֱלֹהִים",
+            "lemma": "430",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "וְשָׁב",
+            "lemma": "7725",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "מֵחֲרוֹן",
+            "lemma": "2740",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "אַפּוֹ",
+            "lemma": "639",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "נֹאבֵֽד",
+            "lemma": "6",
+            "morph": "HVqi1cp"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Jonah 3:10",
+        "words": [
+          {
+            "heb": "וַיַּרְא",
+            "lemma": "7200",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "הָֽאֱלֹהִים",
+            "lemma": "430",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "אֶֽת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "מַעֲשֵׂיהֶם",
+            "lemma": "4639",
+            "morph": "HNcmpc/Sp3mp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "שָׁבוּ",
+            "lemma": "7725",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "מִדַּרְכָּם",
+            "lemma": "1870",
+            "morph": "HR/Ncbsc/Sp3mp"
+          },
+          {
+            "heb": "הָרָעָה",
+            "lemma": "7451 c",
+            "morph": "HTd/Aafsa"
+          },
+          {
+            "heb": "וַיִּנָּחֶם",
+            "lemma": "5162",
+            "morph": "HC/VNw3ms"
+          },
+          {
+            "heb": "הָאֱלֹהִים",
+            "lemma": "430",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הָרָעָה",
+            "lemma": "7451 c",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "דִּבֶּר",
+            "lemma": "1696",
+            "morph": "HVpp3ms"
+          },
+          {
+            "heb": "לַעֲשׂוֹת",
+            "lemma": "6213 a",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "לָהֶם",
+            "lemma": "l",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "עָשָֽׂה",
+            "lemma": "6213 a",
+            "morph": "HVqp3ms"
+          }
+        ]
+      }
+    ],
+    "4": [
+      {
+        "verse": 1,
+        "ref": "Jonah 4:1",
+        "words": [
+          {
+            "heb": "וַיֵּרַע",
+            "lemma": "7489 a",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "יוֹנָה",
+            "lemma": "3124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "רָעָה",
+            "lemma": "7451 c",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "גְדוֹלָה",
+            "lemma": "1419 a",
+            "morph": "HAafsa"
+          },
+          {
+            "heb": "וַיִּחַר",
+            "lemma": "2734",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "לֽוֹ",
+            "lemma": "l",
+            "morph": "HR/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Jonah 4:2",
+        "words": [
+          {
+            "heb": "וַיִּתְפַּלֵּל",
+            "lemma": "6419",
+            "morph": "HC/Vtw3ms"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיֹּאמַר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "אָנָּה",
+            "lemma": "577",
+            "morph": "HTj"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הֲלוֹא",
+            "lemma": "3808",
+            "morph": "HTi/Tn"
+          },
+          {
+            "heb": "זֶה",
+            "lemma": "2088",
+            "morph": "HPdxms"
+          },
+          {
+            "heb": "דְבָרִי",
+            "lemma": "1697",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "הֱיוֹתִי",
+            "lemma": "1961",
+            "morph": "HVqc/Sp1cs"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "אַדְמָתִי",
+            "lemma": "127",
+            "morph": "HNcfsc/Sp1cs"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "כֵּן",
+            "lemma": "3651 c",
+            "morph": "HTm"
+          },
+          {
+            "heb": "קִדַּמְתִּי",
+            "lemma": "6923",
+            "morph": "HVpp1cs"
+          },
+          {
+            "heb": "לִבְרֹחַ",
+            "lemma": "1272",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "תַּרְשִׁישָׁה",
+            "lemma": "8659",
+            "morph": "HNp/Sd"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "יָדַעְתִּי",
+            "lemma": "3045",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אַתָּה",
+            "lemma": "859 a",
+            "morph": "HPp2ms"
+          },
+          {
+            "heb": "אֵֽל",
+            "lemma": "410",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "חַנּוּן",
+            "lemma": "2587",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "וְרַחוּם",
+            "lemma": "7349",
+            "morph": "HC/Aamsa"
+          },
+          {
+            "heb": "אֶרֶךְ",
+            "lemma": "750",
+            "morph": "HAamsc"
+          },
+          {
+            "heb": "אַפַּיִם",
+            "lemma": "639",
+            "morph": "HNcmda"
+          },
+          {
+            "heb": "וְרַב",
+            "lemma": "7227 a",
+            "morph": "HC/Aamsc"
+          },
+          {
+            "heb": "חֶסֶד",
+            "lemma": "2617 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְנִחָם",
+            "lemma": "5162",
+            "morph": "HC/VNrmsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הָרָעָֽה",
+            "lemma": "7451 c",
+            "morph": "HTd/Ncfsa"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Jonah 4:3",
+        "words": [
+          {
+            "heb": "וְעַתָּה",
+            "lemma": "6258",
+            "morph": "HC/D"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "קַח",
+            "lemma": "3947",
+            "morph": "HVqv2ms"
+          },
+          {
+            "heb": "נָא",
+            "lemma": "4994",
+            "morph": "HTe"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "נַפְשִׁי",
+            "lemma": "5315",
+            "morph": "HNcbsc/Sp1cs"
+          },
+          {
+            "heb": "מִמֶּנִּי",
+            "lemma": "4480 a",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "טוֹב",
+            "lemma": "2896 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "מוֹתִי",
+            "lemma": "4194",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "מֵחַיָּֽי",
+            "lemma": "2416 e",
+            "morph": "HR/Ncmpc/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Jonah 4:4",
+        "words": [
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הַהֵיטֵב",
+            "lemma": "3190",
+            "morph": "HTi/Vha"
+          },
+          {
+            "heb": "חָרָה",
+            "lemma": "2734",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "לָֽךְ",
+            "lemma": "l",
+            "morph": "HR/Sp2fs"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Jonah 4:5",
+        "words": [
+          {
+            "heb": "וַיֵּצֵא",
+            "lemma": "3318",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "יוֹנָה",
+            "lemma": "3124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "מִן",
+            "lemma": "4480 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הָעִיר",
+            "lemma": "5892 b",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "וַיֵּשֶׁב",
+            "lemma": "3427",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "מִקֶּדֶם",
+            "lemma": "6924 a",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "לָעִיר",
+            "lemma": "5892 b",
+            "morph": "HRd/Ncfsa"
+          },
+          {
+            "heb": "וַיַּעַשׂ",
+            "lemma": "6213 a",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "לוֹ",
+            "lemma": "l",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "שָׁם",
+            "lemma": "8033",
+            "morph": "HD"
+          },
+          {
+            "heb": "סֻכָּה",
+            "lemma": "5521",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וַיֵּשֶׁב",
+            "lemma": "3427",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "תַּחְתֶּיהָ",
+            "lemma": "8478",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "בַּצֵּל",
+            "lemma": "6738",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "יִרְאֶה",
+            "lemma": "7200",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "מַה",
+            "lemma": "4100",
+            "morph": "HTi"
+          },
+          {
+            "heb": "יִּהְיֶה",
+            "lemma": "1961",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "בָּעִֽיר",
+            "lemma": "5892 b",
+            "morph": "HRd/Ncfsa"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Jonah 4:6",
+        "words": [
+          {
+            "heb": "וַיְמַן",
+            "lemma": "4487",
+            "morph": "HC/Vpw3ms"
+          },
+          {
+            "heb": "יְהוָֽה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֱלֹהִים",
+            "lemma": "430",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "קִיקָיוֹן",
+            "lemma": "7021",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וַיַּעַל",
+            "lemma": "5927",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "מֵעַל",
+            "lemma": "5921 a",
+            "morph": "HR/R"
+          },
+          {
+            "heb": "לְיוֹנָה",
+            "lemma": "3124",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "לִֽהְיוֹת",
+            "lemma": "1961",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "צֵל",
+            "lemma": "6738",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "רֹאשׁוֹ",
+            "lemma": "7218 a",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "לְהַצִּיל",
+            "lemma": "5337",
+            "morph": "HR/Vhc"
+          },
+          {
+            "heb": "לוֹ",
+            "lemma": "l",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "מֵרָֽעָתוֹ",
+            "lemma": "7451 c",
+            "morph": "HR/Ncfsc/Sp3ms"
+          },
+          {
+            "heb": "וַיִּשְׂמַח",
+            "lemma": "8055",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "יוֹנָה",
+            "lemma": "3124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַקִּֽיקָיוֹן",
+            "lemma": "7021",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "שִׂמְחָה",
+            "lemma": "8057",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "גְדוֹלָֽה",
+            "lemma": "1419 a",
+            "morph": "HAafsa"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Jonah 4:7",
+        "words": [
+          {
+            "heb": "וַיְמַן",
+            "lemma": "4487",
+            "morph": "HC/Vpw3ms"
+          },
+          {
+            "heb": "הָֽאֱלֹהִים",
+            "lemma": "430",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "תּוֹלַעַת",
+            "lemma": "8438 b",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "בַּעֲלוֹת",
+            "lemma": "5927",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "הַשַּׁחַר",
+            "lemma": "7837",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "לַֽמָּחֳרָת",
+            "lemma": "4283",
+            "morph": "HRd/Ncfsa"
+          },
+          {
+            "heb": "וַתַּךְ",
+            "lemma": "5221",
+            "morph": "HC/Vhw3fs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַקִּֽיקָיוֹן",
+            "lemma": "7021",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וַיִּיבָֽשׁ",
+            "lemma": "3001",
+            "morph": "HC/Vqw3ms"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Jonah 4:8",
+        "words": [
+          {
+            "heb": "וַיְהִי",
+            "lemma": "1961",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "כִּזְרֹחַ",
+            "lemma": "2224",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "הַשֶּׁמֶשׁ",
+            "lemma": "8121",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "וַיְמַן",
+            "lemma": "4487",
+            "morph": "HC/Vpw3ms"
+          },
+          {
+            "heb": "אֱלֹהִים",
+            "lemma": "430",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "רוּחַ",
+            "lemma": "7307",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "קָדִים",
+            "lemma": "6921",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "חֲרִישִׁית",
+            "lemma": "2759",
+            "morph": "HAafsa"
+          },
+          {
+            "heb": "וַתַּךְ",
+            "lemma": "5221",
+            "morph": "HC/Vhw3ms"
+          },
+          {
+            "heb": "הַשֶּׁמֶשׁ",
+            "lemma": "8121",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "רֹאשׁ",
+            "lemma": "7218 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יוֹנָה",
+            "lemma": "3124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיִּתְעַלָּף",
+            "lemma": "5968",
+            "morph": "HC/Vtw3ms"
+          },
+          {
+            "heb": "וַיִּשְׁאַל",
+            "lemma": "7592",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "נַפְשׁוֹ",
+            "lemma": "5315",
+            "morph": "HNcbsc/Sp3ms"
+          },
+          {
+            "heb": "לָמוּת",
+            "lemma": "4191",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "טוֹב",
+            "lemma": "2896 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "מוֹתִי",
+            "lemma": "4191",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "מֵחַיָּֽי",
+            "lemma": "2416 e",
+            "morph": "HR/Ncmpc/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Jonah 4:9",
+        "words": [
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "אֱלֹהִים",
+            "lemma": "430",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "יוֹנָה",
+            "lemma": "3124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הַהֵיטֵב",
+            "lemma": "3190",
+            "morph": "HTi/Vha"
+          },
+          {
+            "heb": "חָרָֽה",
+            "lemma": "2734",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "לְךָ",
+            "lemma": "l",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַקִּֽיקָיוֹן",
+            "lemma": "7021",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "הֵיטֵב",
+            "lemma": "3190",
+            "morph": "HVha"
+          },
+          {
+            "heb": "חָֽרָה",
+            "lemma": "2734",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "מָֽוֶת",
+            "lemma": "4194",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Jonah 4:10",
+        "words": [
+          {
+            "heb": "וַיֹּאמֶר",
+            "lemma": "559",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אַתָּה",
+            "lemma": "859 a",
+            "morph": "HPp2ms"
+          },
+          {
+            "heb": "חַסְתָּ",
+            "lemma": "2347",
+            "morph": "HVqp2ms"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַקִּיקָיוֹן",
+            "lemma": "7021",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "עָמַלְתָּ",
+            "lemma": "5998",
+            "morph": "HVqp2ms"
+          },
+          {
+            "heb": "בּוֹ",
+            "lemma": "b",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "גִדַּלְתּוֹ",
+            "lemma": "1431",
+            "morph": "HVpp2ms/Sp3ms"
+          },
+          {
+            "heb": "שֶׁבִּן",
+            "lemma": "1121 a",
+            "morph": "HTr/Ncmsc"
+          },
+          {
+            "heb": "לַיְלָה",
+            "lemma": "3915",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "הָיָה",
+            "lemma": "1961",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "וּבִן",
+            "lemma": "1121 a",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "לַיְלָה",
+            "lemma": "3915",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אָבָֽד",
+            "lemma": "6",
+            "morph": "HVqp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Jonah 4:11",
+        "words": [
+          {
+            "heb": "וַֽאֲנִי",
+            "lemma": "589",
+            "morph": "HC/Pp1cs"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "אָחוּס",
+            "lemma": "2347",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "נִינְוֵה",
+            "lemma": "5210",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הָעִיר",
+            "lemma": "5892 b",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "הַגְּדוֹלָה",
+            "lemma": "1419 a",
+            "morph": "HTd/Aafsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "יֶשׁ",
+            "lemma": "3426",
+            "morph": "HTm"
+          },
+          {
+            "heb": "בָּהּ",
+            "lemma": "b",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "הַרְבֵּה",
+            "lemma": "7235 a",
+            "morph": "HVha"
+          },
+          {
+            "heb": "מִֽשְׁתֵּים",
+            "lemma": "8147",
+            "morph": "HR/Acfda"
+          },
+          {
+            "heb": "עֶשְׂרֵה",
+            "lemma": "6240",
+            "morph": "HAcfsa"
+          },
+          {
+            "heb": "רִבּוֹ",
+            "lemma": "7239",
+            "morph": "HAcbsa"
+          },
+          {
+            "heb": "אָדָם",
+            "lemma": "120",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "לֹֽא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יָדַע",
+            "lemma": "3045",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "בֵּין",
+            "lemma": "996",
+            "morph": "HR"
+          },
+          {
+            "heb": "יְמִינוֹ",
+            "lemma": "3225",
+            "morph": "HNcfsc/Sp3ms"
+          },
+          {
+            "heb": "לִשְׂמֹאלוֹ",
+            "lemma": "8040",
+            "morph": "HR/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "וּבְהֵמָה",
+            "lemma": "929",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "רַבָּֽה",
+            "lemma": "7227 a",
+            "morph": "HAafsa"
+          }
+        ]
+      }
+    ]
+  }
+}

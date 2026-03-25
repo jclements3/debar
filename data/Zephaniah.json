@@ -1,0 +1,4165 @@
+{
+  "name": "Zephaniah",
+  "osisId": "Zeph",
+  "chapters": {
+    "1": [
+      {
+        "verse": 1,
+        "ref": "Zephaniah 1:1",
+        "words": [
+          {
+            "heb": "דְּבַר",
+            "lemma": "1697",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "הָיָה",
+            "lemma": "1961",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "צְפַנְיָה",
+            "lemma": "6846",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בֶּן",
+            "lemma": "1121 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "כּוּשִׁי",
+            "lemma": "3570",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בֶן",
+            "lemma": "1121 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "גְּדַלְיָה",
+            "lemma": "1436 a",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בֶּן",
+            "lemma": "1121 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אֲמַרְיָה",
+            "lemma": "568",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בֶּן",
+            "lemma": "1121 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "חִזְקִיָּה",
+            "lemma": "2396",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בִּימֵי",
+            "lemma": "3117",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "יֹאשִׁיָּהוּ",
+            "lemma": "2977",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בֶן",
+            "lemma": "1121 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אָמוֹן",
+            "lemma": "526",
+            "morph": "HNp"
+          },
+          {
+            "heb": "מֶלֶךְ",
+            "lemma": "4428",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוּדָֽה",
+            "lemma": "3063",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Zephaniah 1:2",
+        "words": [
+          {
+            "heb": "אָסֹף",
+            "lemma": "622",
+            "morph": "HVqa"
+          },
+          {
+            "heb": "אָסֵף",
+            "lemma": "5486",
+            "morph": "HVhi1cs"
+          },
+          {
+            "heb": "כֹּל",
+            "lemma": "3605",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מֵעַל",
+            "lemma": "5921 a",
+            "morph": "HR/R"
+          },
+          {
+            "heb": "פְּנֵי",
+            "lemma": "6440",
+            "morph": "HNcbpc"
+          },
+          {
+            "heb": "הָאֲדָמָה",
+            "lemma": "127",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "נְאֻם",
+            "lemma": "5002",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָֽה",
+            "lemma": "3068",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Zephaniah 1:3",
+        "words": [
+          {
+            "heb": "אָסֵף",
+            "lemma": "622",
+            "morph": "HVhi1cs"
+          },
+          {
+            "heb": "אָדָם",
+            "lemma": "120",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וּבְהֵמָה",
+            "lemma": "929",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "אָסֵף",
+            "lemma": "622",
+            "morph": "HVhi1cs"
+          },
+          {
+            "heb": "עוֹף",
+            "lemma": "5775",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַשָּׁמַיִם",
+            "lemma": "8064",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "וּדְגֵי",
+            "lemma": "1709",
+            "morph": "HC/Ncmpc"
+          },
+          {
+            "heb": "הַיָּם",
+            "lemma": "3220",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וְהַמַּכְשֵׁלוֹת",
+            "lemma": "4384",
+            "morph": "HC/Td/Ncfpa"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "854",
+            "morph": "HR"
+          },
+          {
+            "heb": "הָרְשָׁעִים",
+            "lemma": "7563",
+            "morph": "HTd/Aampa"
+          },
+          {
+            "heb": "וְהִכְרַתִּי",
+            "lemma": "3772",
+            "morph": "HC/Vhq1cs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הָאָדָם",
+            "lemma": "120",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "מֵעַל",
+            "lemma": "5921 a",
+            "morph": "HR/R"
+          },
+          {
+            "heb": "פְּנֵי",
+            "lemma": "6440",
+            "morph": "HNcbpc"
+          },
+          {
+            "heb": "הָאֲדָמָה",
+            "lemma": "127",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "נְאֻם",
+            "lemma": "5002",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָֽה",
+            "lemma": "3068",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Zephaniah 1:4",
+        "words": [
+          {
+            "heb": "וְנָטִיתִי",
+            "lemma": "5186",
+            "morph": "HC/Vqq1cs"
+          },
+          {
+            "heb": "יָדִי",
+            "lemma": "3027",
+            "morph": "HNcbsc/Sp1cs"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "יְהוּדָה",
+            "lemma": "3063",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְעַל",
+            "lemma": "5921 a",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יוֹשְׁבֵי",
+            "lemma": "3427",
+            "morph": "HVqrmpc"
+          },
+          {
+            "heb": "יְרוּשָׁלִָם",
+            "lemma": "3389",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְהִכְרַתִּי",
+            "lemma": "3772",
+            "morph": "HC/Vhq1cs"
+          },
+          {
+            "heb": "מִן",
+            "lemma": "4480 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַמָּקוֹם",
+            "lemma": "4725",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "הַזֶּה",
+            "lemma": "2088",
+            "morph": "HTd/Pdxms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "שְׁאָר",
+            "lemma": "7605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַבַּעַל",
+            "lemma": "1168 a",
+            "morph": "HTd/Np"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "שֵׁם",
+            "lemma": "8034",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַכְּמָרִים",
+            "lemma": "3649",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "עִם",
+            "lemma": "5973 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַכֹּהֲנִֽים",
+            "lemma": "3548",
+            "morph": "HTd/Ncmpa"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Zephaniah 1:5",
+        "words": [
+          {
+            "heb": "וְאֶת",
+            "lemma": "853",
+            "morph": "HC/To"
+          },
+          {
+            "heb": "הַמִּשְׁתַּחֲוִים",
+            "lemma": "7812",
+            "morph": "HTd/Vvrmpa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַגַּגּוֹת",
+            "lemma": "1406",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "לִצְבָא",
+            "lemma": "6635 a",
+            "morph": "HR/Ncbsc"
+          },
+          {
+            "heb": "הַשָּׁמָיִם",
+            "lemma": "8064",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "וְאֶת",
+            "lemma": "853",
+            "morph": "HC/To"
+          },
+          {
+            "heb": "הַמִּֽשְׁתַּחֲוִים",
+            "lemma": "7812",
+            "morph": "HTd/Vvrmpa"
+          },
+          {
+            "heb": "הַנִּשְׁבָּעִים",
+            "lemma": "7650",
+            "morph": "HTd/VNrmpa"
+          },
+          {
+            "heb": "לַֽיהוָה",
+            "lemma": "3068",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "וְהַנִּשְׁבָּעִים",
+            "lemma": "7650",
+            "morph": "HC/Td/VNrmpa"
+          },
+          {
+            "heb": "בְּמַלְכָּֽם",
+            "lemma": "4445 b",
+            "morph": "HR/Ncmsc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Zephaniah 1:6",
+        "words": [
+          {
+            "heb": "וְאֶת",
+            "lemma": "853",
+            "morph": "HC/To"
+          },
+          {
+            "heb": "הַנְּסוֹגִים",
+            "lemma": "5472",
+            "morph": "HTd/VNrmpa"
+          },
+          {
+            "heb": "מֵאַחֲרֵי",
+            "lemma": "310 a",
+            "morph": "HR/R"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַאֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HC/Tr"
+          },
+          {
+            "heb": "לֹֽא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "בִקְשׁוּ",
+            "lemma": "1245",
+            "morph": "HVpp3cp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "דְרָשֻֽׁהוּ",
+            "lemma": "1875",
+            "morph": "HVqp3cp/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Zephaniah 1:7",
+        "words": [
+          {
+            "heb": "הַס",
+            "lemma": "2013",
+            "morph": "HTj"
+          },
+          {
+            "heb": "מִפְּנֵי",
+            "lemma": "6440",
+            "morph": "HR/Ncbpc"
+          },
+          {
+            "heb": "אֲדֹנָי",
+            "lemma": "136",
+            "morph": "HNcmpc/Sp1cs"
+          },
+          {
+            "heb": "יְהוִה",
+            "lemma": "3069",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "קָרוֹב",
+            "lemma": "7138",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "הֵכִין",
+            "lemma": "3559 a",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "זֶבַח",
+            "lemma": "2077",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "הִקְדִּישׁ",
+            "lemma": "6942",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "קְרֻאָֽיו",
+            "lemma": "7121",
+            "morph": "HVqsmpc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Zephaniah 1:8",
+        "words": [
+          {
+            "heb": "וְהָיָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "בְּיוֹם",
+            "lemma": "3117",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "זֶבַח",
+            "lemma": "2077",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּפָקַדְתִּי",
+            "lemma": "6485 a",
+            "morph": "HC/Vqq1cs"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַשָּׂרִים",
+            "lemma": "8269",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "וְעַל",
+            "lemma": "5921 a",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "בְּנֵי",
+            "lemma": "1121 a",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "הַמֶּלֶךְ",
+            "lemma": "4428",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וְעַל",
+            "lemma": "5921 a",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַלֹּבְשִׁים",
+            "lemma": "3847",
+            "morph": "HTd/Vqrmpa"
+          },
+          {
+            "heb": "מַלְבּוּשׁ",
+            "lemma": "4403",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "נָכְרִֽי",
+            "lemma": "5237",
+            "morph": "HAamsa"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Zephaniah 1:9",
+        "words": [
+          {
+            "heb": "וּפָקַדְתִּי",
+            "lemma": "6485 a",
+            "morph": "HC/Vqq1cs"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַדּוֹלֵג",
+            "lemma": "1801",
+            "morph": "HTd/Vqrmsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַמִּפְתָּן",
+            "lemma": "4670",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "בַּיּוֹם",
+            "lemma": "3117",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "הַהוּא",
+            "lemma": "1931",
+            "morph": "HTd/Pp3ms"
+          },
+          {
+            "heb": "הַֽמְמַלְאִים",
+            "lemma": "4390",
+            "morph": "HTd/Vprmpa"
+          },
+          {
+            "heb": "בֵּית",
+            "lemma": "1004 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אֲדֹנֵיהֶם",
+            "lemma": "113",
+            "morph": "HNcmpc/Sp3mp"
+          },
+          {
+            "heb": "חָמָס",
+            "lemma": "2555",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וּמִרְמָֽה",
+            "lemma": "4820",
+            "morph": "HC/Ncfsa"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Zephaniah 1:10",
+        "words": [
+          {
+            "heb": "וְהָיָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "בַיּוֹם",
+            "lemma": "3117",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "הַהוּא",
+            "lemma": "1931",
+            "morph": "HTd/Pp3ms"
+          },
+          {
+            "heb": "נְאֻם",
+            "lemma": "5002",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "קוֹל",
+            "lemma": "6963 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "צְעָקָה",
+            "lemma": "6818",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "מִשַּׁעַר",
+            "lemma": "8179",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "הַדָּגִים",
+            "lemma": "1709",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "וִֽילָלָה",
+            "lemma": "3215",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "מִן",
+            "lemma": "4480 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַמִּשְׁנֶה",
+            "lemma": "4932",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וְשֶׁבֶר",
+            "lemma": "7667",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "גָּדוֹל",
+            "lemma": "1419 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "מֵהַגְּבָעֽוֹת",
+            "lemma": "1389",
+            "morph": "HR/Td/Ncfpa"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Zephaniah 1:11",
+        "words": [
+          {
+            "heb": "הֵילִילוּ",
+            "lemma": "3213",
+            "morph": "HVhv2mp"
+          },
+          {
+            "heb": "יֹשְׁבֵי",
+            "lemma": "3427",
+            "morph": "HVqrmpc"
+          },
+          {
+            "heb": "הַמַּכְתֵּשׁ",
+            "lemma": "4389",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "נִדְמָה",
+            "lemma": "1820",
+            "morph": "HVNp3ms"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "עַם",
+            "lemma": "5971 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "כְּנַעַן",
+            "lemma": "3667 b",
+            "morph": "HNp"
+          },
+          {
+            "heb": "נִכְרְתוּ",
+            "lemma": "3772",
+            "morph": "HVNp3cp"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "נְטִילֵי",
+            "lemma": "5187",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "כָֽסֶף",
+            "lemma": "3701",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Zephaniah 1:12",
+        "words": [
+          {
+            "heb": "וְהָיָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "בָּעֵת",
+            "lemma": "6256",
+            "morph": "HRd/Ncbsa"
+          },
+          {
+            "heb": "הַהִיא",
+            "lemma": "1931",
+            "morph": "HTd/Pp3fs"
+          },
+          {
+            "heb": "אֲחַפֵּשׂ",
+            "lemma": "2664",
+            "morph": "HVpi1cs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "יְרוּשָׁלִַם",
+            "lemma": "3389",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בַּנֵּרוֹת",
+            "lemma": "5216 a",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "וּפָקַדְתִּי",
+            "lemma": "6485 a",
+            "morph": "HC/Vqq1cs"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הָאֲנָשִׁים",
+            "lemma": "376",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "הַקֹּֽפְאִים",
+            "lemma": "7087 a",
+            "morph": "HTd/Vqrmpa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "שִׁמְרֵיהֶם",
+            "lemma": "8105",
+            "morph": "HNcmpc/Sp3mp"
+          },
+          {
+            "heb": "הָאֹֽמְרִים",
+            "lemma": "559",
+            "morph": "HTd/Vqrmpa"
+          },
+          {
+            "heb": "בִּלְבָבָם",
+            "lemma": "3824",
+            "morph": "HR/Ncmsc/Sp3mp"
+          },
+          {
+            "heb": "לֹֽא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יֵיטִיב",
+            "lemma": "3190",
+            "morph": "HVhi3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יָרֵֽעַ",
+            "lemma": "7489 a",
+            "morph": "HVhi3ms"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Zephaniah 1:13",
+        "words": [
+          {
+            "heb": "וְהָיָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "חֵילָם",
+            "lemma": "2428",
+            "morph": "HNcmsc/Sp3mp"
+          },
+          {
+            "heb": "לִמְשִׁסָּה",
+            "lemma": "4933",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "וּבָתֵּיהֶם",
+            "lemma": "1004 b",
+            "morph": "HC/Ncmpc/Sp3mp"
+          },
+          {
+            "heb": "לִשְׁמָמָה",
+            "lemma": "8077 a",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "וּבָנוּ",
+            "lemma": "1129",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "בָתִּים",
+            "lemma": "1004 b",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יֵשֵׁבוּ",
+            "lemma": "3427",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "וְנָטְעוּ",
+            "lemma": "5193",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "כְרָמִים",
+            "lemma": "3754",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יִשְׁתּוּ",
+            "lemma": "8354",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "יֵינָֽם",
+            "lemma": "3196",
+            "morph": "HNcmsc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Zephaniah 1:14",
+        "words": [
+          {
+            "heb": "קָרוֹב",
+            "lemma": "7138",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הַגָּדוֹל",
+            "lemma": "1419 a",
+            "morph": "HTd/Aamsa"
+          },
+          {
+            "heb": "קָרוֹב",
+            "lemma": "7138",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "וּמַהֵר",
+            "lemma": "4118 a",
+            "morph": "HC/Aamsa"
+          },
+          {
+            "heb": "מְאֹד",
+            "lemma": "3966",
+            "morph": "HD"
+          },
+          {
+            "heb": "קוֹל",
+            "lemma": "6963 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "מַר",
+            "lemma": "4751",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "צֹרֵחַ",
+            "lemma": "6873",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "שָׁם",
+            "lemma": "8033",
+            "morph": "HD"
+          },
+          {
+            "heb": "גִּבּֽוֹר",
+            "lemma": "1368",
+            "morph": "HAamsa"
+          }
+        ]
+      },
+      {
+        "verse": 15,
+        "ref": "Zephaniah 1:15",
+        "words": [
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "עֶבְרָה",
+            "lemma": "5678",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "הַיּוֹם",
+            "lemma": "3117",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "הַהוּא",
+            "lemma": "1931",
+            "morph": "HTd/Pp3ms"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "צָרָה",
+            "lemma": "6869 b",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וּמְצוּקָה",
+            "lemma": "4691",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "שֹׁאָה",
+            "lemma": "7722 b",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וּמְשׁוֹאָה",
+            "lemma": "4875",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "חֹשֶׁךְ",
+            "lemma": "2822",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וַאֲפֵלָה",
+            "lemma": "653",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "עָנָן",
+            "lemma": "6051",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וַעֲרָפֶֽל",
+            "lemma": "6205",
+            "morph": "HC/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 16,
+        "ref": "Zephaniah 1:16",
+        "words": [
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "שׁוֹפָר",
+            "lemma": "7782",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וּתְרוּעָה",
+            "lemma": "8643",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הֶעָרִים",
+            "lemma": "5892 b",
+            "morph": "HTd/Ncfpa"
+          },
+          {
+            "heb": "הַבְּצֻרוֹת",
+            "lemma": "1219",
+            "morph": "HTd/Aafpa"
+          },
+          {
+            "heb": "וְעַל",
+            "lemma": "5921 a",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "הַפִּנּוֹת",
+            "lemma": "6438",
+            "morph": "HTd/Ncfpa"
+          },
+          {
+            "heb": "הַגְּבֹהֽוֹת",
+            "lemma": "1364",
+            "morph": "HTd/Aafpa"
+          }
+        ]
+      },
+      {
+        "verse": 17,
+        "ref": "Zephaniah 1:17",
+        "words": [
+          {
+            "heb": "וַהֲצֵרֹתִי",
+            "lemma": "6887 b",
+            "morph": "HC/Vhq1cs"
+          },
+          {
+            "heb": "לָאָדָם",
+            "lemma": "120",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "וְהָֽלְכוּ",
+            "lemma": "1980",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "כַּֽעִוְרִים",
+            "lemma": "5787",
+            "morph": "HRd/Aampa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "לַֽיהוָה",
+            "lemma": "3068",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "חָטָאוּ",
+            "lemma": "2398",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "וְשֻׁפַּךְ",
+            "lemma": "8210",
+            "morph": "HC/VQq3ms"
+          },
+          {
+            "heb": "דָּמָם",
+            "lemma": "1818",
+            "morph": "HNcmsc/Sp3mp"
+          },
+          {
+            "heb": "כֶּֽעָפָר",
+            "lemma": "6083",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "וּלְחֻמָם",
+            "lemma": "3894",
+            "morph": "HC/Ncmsc/Sp3mp"
+          },
+          {
+            "heb": "כַּגְּלָלִֽים",
+            "lemma": "1561",
+            "morph": "HRd/Ncmpa"
+          }
+        ]
+      },
+      {
+        "verse": 18,
+        "ref": "Zephaniah 1:18",
+        "words": [
+          {
+            "heb": "גַּם",
+            "lemma": "1571",
+            "morph": "HTa"
+          },
+          {
+            "heb": "כַּסְפָּם",
+            "lemma": "3701",
+            "morph": "HNcmsc/Sp3mp"
+          },
+          {
+            "heb": "גַּם",
+            "lemma": "1571",
+            "morph": "HTa"
+          },
+          {
+            "heb": "זְהָבָם",
+            "lemma": "2091",
+            "morph": "HNcmsc/Sp3mp"
+          },
+          {
+            "heb": "לֹֽא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יוּכַל",
+            "lemma": "3201",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "לְהַצִּילָם",
+            "lemma": "5337",
+            "morph": "HR/Vhc/Sp3mp"
+          },
+          {
+            "heb": "בְּיוֹם",
+            "lemma": "3117",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "עֶבְרַת",
+            "lemma": "5678",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּבְאֵשׁ",
+            "lemma": "784",
+            "morph": "HC/R/Ncbsc"
+          },
+          {
+            "heb": "קִנְאָתוֹ",
+            "lemma": "7068",
+            "morph": "HNcfsc/Sp3ms"
+          },
+          {
+            "heb": "תֵּאָכֵל",
+            "lemma": "398",
+            "morph": "HVNi3fs"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הָאָרֶץ",
+            "lemma": "776",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "כָלָה",
+            "lemma": "3617",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "אַךְ",
+            "lemma": "389",
+            "morph": "HTa"
+          },
+          {
+            "heb": "נִבְהָלָה",
+            "lemma": "926",
+            "morph": "HVNsfsa"
+          },
+          {
+            "heb": "יַֽעֲשֶׂה",
+            "lemma": "6213 a",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "אֵת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יֹשְׁבֵי",
+            "lemma": "3427",
+            "morph": "HVqrmpc"
+          },
+          {
+            "heb": "הָאָֽרֶץ",
+            "lemma": "776",
+            "morph": "HTd/Ncbsa"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "verse": 1,
+        "ref": "Zephaniah 2:1",
+        "words": [
+          {
+            "heb": "הִֽתְקוֹשְׁשׁוּ",
+            "lemma": "7197 b",
+            "morph": "HVrv2mp"
+          },
+          {
+            "heb": "וָקוֹשּׁוּ",
+            "lemma": "7197 b",
+            "morph": "HC/Vqv2mp"
+          },
+          {
+            "heb": "הַגּוֹי",
+            "lemma": "1471 a",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "נִכְסָֽף",
+            "lemma": "3700",
+            "morph": "HVNp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Zephaniah 2:2",
+        "words": [
+          {
+            "heb": "בְּטֶרֶם",
+            "lemma": "2962",
+            "morph": "HR/D"
+          },
+          {
+            "heb": "לֶדֶת",
+            "lemma": "3205",
+            "morph": "HVqc"
+          },
+          {
+            "heb": "חֹק",
+            "lemma": "2706",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "כְּמֹץ",
+            "lemma": "4671",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "עָבַר",
+            "lemma": "5674 a",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בְּטֶרֶם",
+            "lemma": "2962",
+            "morph": "HR/D"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יָבוֹא",
+            "lemma": "935",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "עֲלֵיכֶם",
+            "lemma": "5921 a",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "חֲרוֹן",
+            "lemma": "2740",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אַף",
+            "lemma": "639",
+            "morph": "HTa"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בְּטֶרֶם",
+            "lemma": "2962",
+            "morph": "HR/D"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יָבוֹא",
+            "lemma": "935",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "עֲלֵיכֶם",
+            "lemma": "5921 a",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אַף",
+            "lemma": "639",
+            "morph": "HTa"
+          },
+          {
+            "heb": "יְהוָֽה",
+            "lemma": "3068",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Zephaniah 2:3",
+        "words": [
+          {
+            "heb": "בַּקְּשׁוּ",
+            "lemma": "1245",
+            "morph": "HVpv2mp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "עַנְוֵי",
+            "lemma": "6035",
+            "morph": "HAampc"
+          },
+          {
+            "heb": "הָאָרֶץ",
+            "lemma": "776",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "מִשְׁפָּטוֹ",
+            "lemma": "4941",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "פָּעָלוּ",
+            "lemma": "6466",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "בַּקְּשׁוּ",
+            "lemma": "1245",
+            "morph": "HVpv2mp"
+          },
+          {
+            "heb": "צֶדֶק",
+            "lemma": "6664",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בַּקְּשׁוּ",
+            "lemma": "1245",
+            "morph": "HVpv2mp"
+          },
+          {
+            "heb": "עֲנָוָה",
+            "lemma": "6038",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "אוּלַי",
+            "lemma": "194",
+            "morph": "HD"
+          },
+          {
+            "heb": "תִּסָּתְרוּ",
+            "lemma": "5641",
+            "morph": "HVNi2mp"
+          },
+          {
+            "heb": "בְּיוֹם",
+            "lemma": "3117",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "אַף",
+            "lemma": "639",
+            "morph": "HTa"
+          },
+          {
+            "heb": "יְהוָֽה",
+            "lemma": "3068",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Zephaniah 2:4",
+        "words": [
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "עַזָּה",
+            "lemma": "5804",
+            "morph": "HNp"
+          },
+          {
+            "heb": "עֲזוּבָה",
+            "lemma": "5800 a",
+            "morph": "HVqsfsa"
+          },
+          {
+            "heb": "תִֽהְיֶה",
+            "lemma": "1961",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "וְאַשְׁקְלוֹן",
+            "lemma": "831",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "לִשְׁמָמָה",
+            "lemma": "8077 a",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "אַשְׁדּוֹד",
+            "lemma": "795",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בַּֽצָּהֳרַיִם",
+            "lemma": "6672 a",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "יְגָרְשׁוּהָ",
+            "lemma": "1644",
+            "morph": "HVpi3mp/Sp3fs"
+          },
+          {
+            "heb": "וְעֶקְרוֹן",
+            "lemma": "6138",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "תֵּעָקֵֽר",
+            "lemma": "6131 a",
+            "morph": "HVNi3fs"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Zephaniah 2:5",
+        "words": [
+          {
+            "heb": "הוֹי",
+            "lemma": "1945",
+            "morph": "HTj"
+          },
+          {
+            "heb": "יֹֽשְׁבֵי",
+            "lemma": "3427",
+            "morph": "HVqrmpc"
+          },
+          {
+            "heb": "חֶבֶל",
+            "lemma": "2256 a",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "הַיָּם",
+            "lemma": "3220",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "גּוֹי",
+            "lemma": "1471 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "כְּרֵתִים",
+            "lemma": "3774",
+            "morph": "HNgmpa"
+          },
+          {
+            "heb": "דְּבַר",
+            "lemma": "1697",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "עֲלֵיכֶם",
+            "lemma": "5921 a",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "כְּנַעַן",
+            "lemma": "3667 a",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֶרֶץ",
+            "lemma": "776",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "פְּלִשְׁתִּים",
+            "lemma": "6430",
+            "morph": "HNgmpa"
+          },
+          {
+            "heb": "וְהַאֲבַדְתִּיךְ",
+            "lemma": "6",
+            "morph": "HC/Vhq1cs/Sp3fs"
+          },
+          {
+            "heb": "מֵאֵין",
+            "lemma": "369",
+            "morph": "HR/Tn"
+          },
+          {
+            "heb": "יוֹשֵֽׁב",
+            "lemma": "3427",
+            "morph": "HVqrmsa"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Zephaniah 2:6",
+        "words": [
+          {
+            "heb": "וְֽהָיְתָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3fs"
+          },
+          {
+            "heb": "חֶבֶל",
+            "lemma": "2256 a",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "הַיָּם",
+            "lemma": "3220",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "נְוֺת",
+            "lemma": "5116 a",
+            "morph": "HNcbpc"
+          },
+          {
+            "heb": "כְּרֹת",
+            "lemma": "3741",
+            "morph": "HNcfpc"
+          },
+          {
+            "heb": "רֹעִים",
+            "lemma": "7462 b",
+            "morph": "HVqrmpa"
+          },
+          {
+            "heb": "וְגִדְרוֹת",
+            "lemma": "1448",
+            "morph": "HC/Ncfpc"
+          },
+          {
+            "heb": "צֹֽאן",
+            "lemma": "6629",
+            "morph": "HNcbsa"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Zephaniah 2:7",
+        "words": [
+          {
+            "heb": "וְהָיָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "חֶבֶל",
+            "lemma": "2256 a",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "לִשְׁאֵרִית",
+            "lemma": "7611",
+            "morph": "HR/Ncfsc"
+          },
+          {
+            "heb": "בֵּית",
+            "lemma": "1004 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוּדָה",
+            "lemma": "3063",
+            "morph": "HNp"
+          },
+          {
+            "heb": "עֲלֵיהֶם",
+            "lemma": "5921 a",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "יִרְעוּן",
+            "lemma": "7462 b",
+            "morph": "HVqi3mp/Sn"
+          },
+          {
+            "heb": "בְּבָתֵּי",
+            "lemma": "1004 b",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "אַשְׁקְלוֹן",
+            "lemma": "831",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בָּעֶרֶב",
+            "lemma": "6153",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "יִרְבָּצוּן",
+            "lemma": "7257",
+            "morph": "HVqi3mp/Sn"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "יִפְקְדֵם",
+            "lemma": "6485 a",
+            "morph": "HVqi3ms/Sp3mp"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֱלֹהֵיהֶם",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp3mp"
+          },
+          {
+            "heb": "וְשָׁב",
+            "lemma": "7725",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "שְׁבִיתָֽם",
+            "lemma": "7622",
+            "morph": "HNcfsc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Zephaniah 2:8",
+        "words": [
+          {
+            "heb": "שָׁמַעְתִּי",
+            "lemma": "8085",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "חֶרְפַּת",
+            "lemma": "2781",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "מוֹאָב",
+            "lemma": "4124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְגִדּוּפֵי",
+            "lemma": "1421",
+            "morph": "HC/Ncbpc"
+          },
+          {
+            "heb": "בְּנֵי",
+            "lemma": "1121 a",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "עַמּוֹן",
+            "lemma": "5983",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "חֵֽרְפוּ",
+            "lemma": "2778 a",
+            "morph": "HVpp3cp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "עַמִּי",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "וַיַּגְדִּילוּ",
+            "lemma": "1431",
+            "morph": "HC/Vhw3mp"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "גְּבוּלָֽם",
+            "lemma": "1366",
+            "morph": "HNcmsc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Zephaniah 2:9",
+        "words": [
+          {
+            "heb": "לָכֵן",
+            "lemma": "3651 c",
+            "morph": "HR/D"
+          },
+          {
+            "heb": "חַי",
+            "lemma": "2416 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "אָנִי",
+            "lemma": "589",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "נְאֻם",
+            "lemma": "5002",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "אֱלֹהֵי",
+            "lemma": "430",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "יִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "מוֹאָב",
+            "lemma": "4124",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כִּסְדֹם",
+            "lemma": "5467",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "תִּֽהְיֶה",
+            "lemma": "1961",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "וּבְנֵי",
+            "lemma": "1121 a",
+            "morph": "HC/Ncmpc"
+          },
+          {
+            "heb": "עַמּוֹן",
+            "lemma": "5983",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כַּֽעֲמֹרָה",
+            "lemma": "6017",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "מִמְשַׁק",
+            "lemma": "4476",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "חָרוּל",
+            "lemma": "2738",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וּמִכְרֵה",
+            "lemma": "4379",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "מֶלַח",
+            "lemma": "4417",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וּשְׁמָמָה",
+            "lemma": "8077 a",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "עוֹלָם",
+            "lemma": "5769",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "שְׁאֵרִית",
+            "lemma": "7611",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "עַמִּי",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "יְבָזּוּם",
+            "lemma": "962",
+            "morph": "HVqi3mp/Sp3mp"
+          },
+          {
+            "heb": "וְיֶתֶר",
+            "lemma": "3499 a",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "גּוֹיִי",
+            "lemma": "1471 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "יִנְחָלֽוּם",
+            "lemma": "5157",
+            "morph": "HVqi3mp/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Zephaniah 2:10",
+        "words": [
+          {
+            "heb": "זֹאת",
+            "lemma": "2063",
+            "morph": "HPdxfs"
+          },
+          {
+            "heb": "לָהֶם",
+            "lemma": "l",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "תַּחַת",
+            "lemma": "8478",
+            "morph": "HR"
+          },
+          {
+            "heb": "גְּאוֹנָם",
+            "lemma": "1347",
+            "morph": "HNcmsc/Sp3mp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "חֵֽרְפוּ",
+            "lemma": "2778 a",
+            "morph": "HVpp3cp"
+          },
+          {
+            "heb": "וַיַּגְדִּלוּ",
+            "lemma": "1431",
+            "morph": "HC/Vhw3mp"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "עַם",
+            "lemma": "5971 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאֽוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Zephaniah 2:11",
+        "words": [
+          {
+            "heb": "נוֹרָא",
+            "lemma": "3372",
+            "morph": "HVNrmsa"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "עֲלֵיהֶם",
+            "lemma": "5921 a",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "רָזָה",
+            "lemma": "7329",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "אֵת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אֱלֹהֵי",
+            "lemma": "430",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "הָאָרֶץ",
+            "lemma": "776",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "וְיִשְׁתַּֽחֲווּ",
+            "lemma": "7812",
+            "morph": "HC/Vvi3mp"
+          },
+          {
+            "heb": "לוֹ",
+            "lemma": "l",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "אִישׁ",
+            "lemma": "376",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מִמְּקוֹמוֹ",
+            "lemma": "4725",
+            "morph": "HR/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "כֹּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אִיֵּי",
+            "lemma": "339",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "הַגּוֹיִֽם",
+            "lemma": "1471 a",
+            "morph": "HTd/Ncmpa"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Zephaniah 2:12",
+        "words": [
+          {
+            "heb": "גַּם",
+            "lemma": "1571",
+            "morph": "HTa"
+          },
+          {
+            "heb": "אַתֶּם",
+            "lemma": "859 d",
+            "morph": "HPp2mp"
+          },
+          {
+            "heb": "כּוּשִׁים",
+            "lemma": "3569",
+            "morph": "HNgmpa"
+          },
+          {
+            "heb": "חַֽלְלֵי",
+            "lemma": "2491 a",
+            "morph": "HAampc"
+          },
+          {
+            "heb": "חַרְבִּי",
+            "lemma": "2719",
+            "morph": "HNcfsc/Sp1cs"
+          },
+          {
+            "heb": "הֵֽמָּה",
+            "lemma": "1992",
+            "morph": "HPp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Zephaniah 2:13",
+        "words": [
+          {
+            "heb": "וְיֵט",
+            "lemma": "5186",
+            "morph": "HC/Vqj3ms"
+          },
+          {
+            "heb": "יָדוֹ",
+            "lemma": "3027",
+            "morph": "HNcbsc/Sp3ms"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "צָפוֹן",
+            "lemma": "6828",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וִֽיאַבֵּד",
+            "lemma": "6",
+            "morph": "HC/Vpi3ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "אַשּׁוּר",
+            "lemma": "804",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְיָשֵׂם",
+            "lemma": "7760 a",
+            "morph": "HC/Vqj3ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "נִֽינְוֵה",
+            "lemma": "5210",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לִשְׁמָמָה",
+            "lemma": "8077 a",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "צִיָּה",
+            "lemma": "6723",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "כַּמִּדְבָּֽר",
+            "lemma": "4057 b",
+            "morph": "HRd/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Zephaniah 2:14",
+        "words": [
+          {
+            "heb": "וְרָבְצוּ",
+            "lemma": "7257",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "בְתוֹכָהּ",
+            "lemma": "8432",
+            "morph": "HR/Ncmsc/Sp3fs"
+          },
+          {
+            "heb": "עֲדָרִים",
+            "lemma": "5739",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "חַיְתוֹ",
+            "lemma": "2416 c",
+            "morph": "HNcfsc/Sp3ms"
+          },
+          {
+            "heb": "גוֹי",
+            "lemma": "1471 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "גַּם",
+            "lemma": "1571",
+            "morph": "HTa"
+          },
+          {
+            "heb": "קָאַת",
+            "lemma": "6893",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "גַּם",
+            "lemma": "1571",
+            "morph": "HTa"
+          },
+          {
+            "heb": "קִפֹּד",
+            "lemma": "7090",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בְּכַפְתֹּרֶיהָ",
+            "lemma": "3730",
+            "morph": "HR/Ncmpc/Sp3fs"
+          },
+          {
+            "heb": "יָלִינוּ",
+            "lemma": "3885 a",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "קוֹל",
+            "lemma": "6963 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "יְשׁוֹרֵר",
+            "lemma": "7891",
+            "morph": "HVoi3ms"
+          },
+          {
+            "heb": "בַּֽחַלּוֹן",
+            "lemma": "2474",
+            "morph": "HRd/Ncbsa"
+          },
+          {
+            "heb": "חֹרֶב",
+            "lemma": "2721 b",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בַּסַּף",
+            "lemma": "5592 b",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אַרְזָה",
+            "lemma": "731",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "עֵרָֽה",
+            "lemma": "6168",
+            "morph": "HVpp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 15,
+        "ref": "Zephaniah 2:15",
+        "words": [
+          {
+            "heb": "זֹאת",
+            "lemma": "2063",
+            "morph": "HPdxfs"
+          },
+          {
+            "heb": "הָעִיר",
+            "lemma": "5892 b",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "הָעַלִּיזָה",
+            "lemma": "5947",
+            "morph": "HTd/Aafsa"
+          },
+          {
+            "heb": "הַיּוֹשֶׁבֶת",
+            "lemma": "3427",
+            "morph": "HTd/Vqrfsa"
+          },
+          {
+            "heb": "לָבֶטַח",
+            "lemma": "983",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "הָאֹֽמְרָה",
+            "lemma": "559",
+            "morph": "HTd/Vqrfsa"
+          },
+          {
+            "heb": "בִּלְבָבָהּ",
+            "lemma": "3824",
+            "morph": "HR/Ncmsc/Sp3fs"
+          },
+          {
+            "heb": "אֲנִי",
+            "lemma": "589",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "וְאַפְסִי",
+            "lemma": "657 a",
+            "morph": "HC/Ncmsc/Sp1cs"
+          },
+          {
+            "heb": "עוֹד",
+            "lemma": "5750",
+            "morph": "HD"
+          },
+          {
+            "heb": "אֵיךְ",
+            "lemma": "349 a",
+            "morph": "HTi"
+          },
+          {
+            "heb": "הָיְתָה",
+            "lemma": "1961",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "לְשַׁמָּה",
+            "lemma": "8047",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "מַרְבֵּץ",
+            "lemma": "4769",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "לַֽחַיָּה",
+            "lemma": "2416 c",
+            "morph": "HRd/Ncfsa"
+          },
+          {
+            "heb": "כֹּל",
+            "lemma": "3605",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "עוֹבֵר",
+            "lemma": "5674 a",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "עָלֶיהָ",
+            "lemma": "5921 a",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "יִשְׁרֹק",
+            "lemma": "8319",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "יָנִיעַ",
+            "lemma": "5128",
+            "morph": "HVhi3ms"
+          },
+          {
+            "heb": "יָדֽוֹ",
+            "lemma": "3027",
+            "morph": "HNcbsc/Sp3ms"
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "verse": 1,
+        "ref": "Zephaniah 3:1",
+        "words": [
+          {
+            "heb": "הוֹי",
+            "lemma": "1945",
+            "morph": "HTj"
+          },
+          {
+            "heb": "מֹרְאָה",
+            "lemma": "4754",
+            "morph": "HVqrfsa"
+          },
+          {
+            "heb": "וְנִגְאָלָה",
+            "lemma": "1351",
+            "morph": "HC/VNsfsa"
+          },
+          {
+            "heb": "הָעִיר",
+            "lemma": "5892 b",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "הַיּוֹנָֽה",
+            "lemma": "3238",
+            "morph": "HTd/Vqrfsa"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Zephaniah 3:2",
+        "words": [
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "שָֽׁמְעָה",
+            "lemma": "8085",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "בְּקוֹל",
+            "lemma": "6963 a",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "לָקְחָה",
+            "lemma": "3947",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "מוּסָר",
+            "lemma": "4148",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בַּֽיהוָה",
+            "lemma": "3068",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "בָטָחָה",
+            "lemma": "982",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "אֱלֹהֶיהָ",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp3fs"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "קָרֵֽבָה",
+            "lemma": "7126",
+            "morph": "HVqp3fs"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Zephaniah 3:3",
+        "words": [
+          {
+            "heb": "שָׂרֶיהָ",
+            "lemma": "8269",
+            "morph": "HNcmpc/Sp3fs"
+          },
+          {
+            "heb": "בְקִרְבָּהּ",
+            "lemma": "7130",
+            "morph": "HR/Ncmsc/Sp3fs"
+          },
+          {
+            "heb": "אֲרָיוֹת",
+            "lemma": "738 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "שֹֽׁאֲגִים",
+            "lemma": "7580",
+            "morph": "HVqrmpa"
+          },
+          {
+            "heb": "שֹׁפְטֶיהָ",
+            "lemma": "8199",
+            "morph": "HVqrmpc/Sp3fs"
+          },
+          {
+            "heb": "זְאֵבֵי",
+            "lemma": "2061",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "עֶרֶב",
+            "lemma": "6153",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "גָרְמוּ",
+            "lemma": "1633 a",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "לַבֹּֽקֶר",
+            "lemma": "1242",
+            "morph": "HRd/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Zephaniah 3:4",
+        "words": [
+          {
+            "heb": "נְבִיאֶיהָ",
+            "lemma": "5030",
+            "morph": "HNcmpc/Sp3fs"
+          },
+          {
+            "heb": "פֹּֽחֲזִים",
+            "lemma": "6348",
+            "morph": "HVqrmpa"
+          },
+          {
+            "heb": "אַנְשֵׁי",
+            "lemma": "376",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "בֹּֽגְדוֹת",
+            "lemma": "900",
+            "morph": "HNcfpa"
+          },
+          {
+            "heb": "כֹּהֲנֶיהָ",
+            "lemma": "3548",
+            "morph": "HNcmpc/Sp3fs"
+          },
+          {
+            "heb": "חִלְּלוּ",
+            "lemma": "2490 c",
+            "morph": "HVpp3cp"
+          },
+          {
+            "heb": "קֹדֶשׁ",
+            "lemma": "6944",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "חָמְסוּ",
+            "lemma": "2554",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "תּוֹרָֽה",
+            "lemma": "8451",
+            "morph": "HNcfsa"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Zephaniah 3:5",
+        "words": [
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צַדִּיק",
+            "lemma": "6662",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "בְּקִרְבָּהּ",
+            "lemma": "7130",
+            "morph": "HR/Ncmsc/Sp3fs"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יַעֲשֶׂה",
+            "lemma": "6213 a",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "עַוְלָה",
+            "lemma": "5766 b",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "בַּבֹּקֶר",
+            "lemma": "1242",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "בַּבֹּקֶר",
+            "lemma": "1242",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "מִשְׁפָּטוֹ",
+            "lemma": "4941",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "יִתֵּן",
+            "lemma": "5414",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "לָאוֹר",
+            "lemma": "216",
+            "morph": "HRd/Ncbsa"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "נֶעְדָּר",
+            "lemma": "5737 c",
+            "morph": "HVNp3ms"
+          },
+          {
+            "heb": "וְלֹֽא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יוֹדֵעַ",
+            "lemma": "3045",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "עַוָּל",
+            "lemma": "5767",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בֹּֽשֶׁת",
+            "lemma": "1322",
+            "morph": "HNcfsa"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Zephaniah 3:6",
+        "words": [
+          {
+            "heb": "הִכְרַתִּי",
+            "lemma": "3772",
+            "morph": "HVhp1cs"
+          },
+          {
+            "heb": "גוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "נָשַׁמּוּ",
+            "lemma": "8074",
+            "morph": "HVNp3cp"
+          },
+          {
+            "heb": "פִּנּוֹתָם",
+            "lemma": "6438",
+            "morph": "HNcfpc/Sp3mp"
+          },
+          {
+            "heb": "הֶחֱרַבְתִּי",
+            "lemma": "2717 b",
+            "morph": "HVhp1cs"
+          },
+          {
+            "heb": "חֽוּצוֹתָם",
+            "lemma": "2351",
+            "morph": "HNcmpc/Sp3mp"
+          },
+          {
+            "heb": "מִבְּלִי",
+            "lemma": "1097",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "עוֹבֵר",
+            "lemma": "5674 a",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "נִצְדּוּ",
+            "lemma": "6658 b",
+            "morph": "HVNp3cp"
+          },
+          {
+            "heb": "עָרֵיהֶם",
+            "lemma": "5892 b",
+            "morph": "HNcfpc/Sp3mp"
+          },
+          {
+            "heb": "מִבְּלִי",
+            "lemma": "1097",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "אִישׁ",
+            "lemma": "376",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מֵאֵין",
+            "lemma": "369",
+            "morph": "HR/Tn"
+          },
+          {
+            "heb": "יוֹשֵֽׁב",
+            "lemma": "3427",
+            "morph": "HVqrmsa"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Zephaniah 3:7",
+        "words": [
+          {
+            "heb": "אָמַרְתִּי",
+            "lemma": "559",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "אַךְ",
+            "lemma": "389",
+            "morph": "HTa"
+          },
+          {
+            "heb": "תִּירְאִי",
+            "lemma": "3372",
+            "morph": "HVqi2fs"
+          },
+          {
+            "heb": "אוֹתִי",
+            "lemma": "853",
+            "morph": "HTo/Sp1cs"
+          },
+          {
+            "heb": "תִּקְחִי",
+            "lemma": "3947",
+            "morph": "HVqi2fs"
+          },
+          {
+            "heb": "מוּסָר",
+            "lemma": "4148",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְלֹֽא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יִכָּרֵת",
+            "lemma": "3772",
+            "morph": "HVNi3ms"
+          },
+          {
+            "heb": "מְעוֹנָהּ",
+            "lemma": "4585",
+            "morph": "HNcbsc/Sp3fs"
+          },
+          {
+            "heb": "כֹּל",
+            "lemma": "3605",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "פָּקַדְתִּי",
+            "lemma": "6485 a",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "עָלֶיהָ",
+            "lemma": "5921 a",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "אָכֵן",
+            "lemma": "403",
+            "morph": "HD"
+          },
+          {
+            "heb": "הִשְׁכִּימוּ",
+            "lemma": "7925",
+            "morph": "HVhp3cp"
+          },
+          {
+            "heb": "הִשְׁחִיתוּ",
+            "lemma": "7843",
+            "morph": "HVhp3cp"
+          },
+          {
+            "heb": "כֹּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "עֲלִילוֹתָֽם",
+            "lemma": "5949",
+            "morph": "HNcfpc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Zephaniah 3:8",
+        "words": [
+          {
+            "heb": "לָכֵן",
+            "lemma": "3651 c",
+            "morph": "HR/D"
+          },
+          {
+            "heb": "חַכּוּ",
+            "lemma": "2442",
+            "morph": "HVpv2mp"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "נְאֻם",
+            "lemma": "5002",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לְיוֹם",
+            "lemma": "3117",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "קוּמִי",
+            "lemma": "6965 b",
+            "morph": "HVqc/Sp1cs"
+          },
+          {
+            "heb": "לְעַד",
+            "lemma": "5706",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "מִשְׁפָּטִי",
+            "lemma": "4941",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "לֶאֱסֹף",
+            "lemma": "622",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "גּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "לְקָבְצִי",
+            "lemma": "6908",
+            "morph": "HR/Vqc/Sp1cs"
+          },
+          {
+            "heb": "מַמְלָכוֹת",
+            "lemma": "4467",
+            "morph": "HNcfpa"
+          },
+          {
+            "heb": "לִשְׁפֹּךְ",
+            "lemma": "8210",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "עֲלֵיהֶם",
+            "lemma": "5921 a",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "זַעְמִי",
+            "lemma": "2195",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "כֹּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "חֲרוֹן",
+            "lemma": "2740",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אַפִּי",
+            "lemma": "639",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "בְּאֵשׁ",
+            "lemma": "784",
+            "morph": "HR/Ncbsc"
+          },
+          {
+            "heb": "קִנְאָתִי",
+            "lemma": "7068",
+            "morph": "HNcfsc/Sp1cs"
+          },
+          {
+            "heb": "תֵּאָכֵל",
+            "lemma": "398",
+            "morph": "HVNi3fs"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הָאָֽרֶץ",
+            "lemma": "776",
+            "morph": "HTd/Ncbsa"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Zephaniah 3:9",
+        "words": [
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אָז",
+            "lemma": "227 a",
+            "morph": "HD"
+          },
+          {
+            "heb": "אֶהְפֹּךְ",
+            "lemma": "2015",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "עַמִּים",
+            "lemma": "5971 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "שָׂפָה",
+            "lemma": "8193",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "בְרוּרָה",
+            "lemma": "1305",
+            "morph": "HAafsa"
+          },
+          {
+            "heb": "לִקְרֹא",
+            "lemma": "7121",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "כֻלָּם",
+            "lemma": "3605",
+            "morph": "HNcmsc/Sp3mp"
+          },
+          {
+            "heb": "בְּשֵׁם",
+            "lemma": "8034",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לְעָבְדוֹ",
+            "lemma": "5647",
+            "morph": "HR/Vqc/Sp3ms"
+          },
+          {
+            "heb": "שְׁכֶם",
+            "lemma": "7926",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֶחָֽד",
+            "lemma": "259",
+            "morph": "HAcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Zephaniah 3:10",
+        "words": [
+          {
+            "heb": "מֵעֵבֶר",
+            "lemma": "5676",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "לְנַֽהֲרֵי",
+            "lemma": "5104",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "כוּשׁ",
+            "lemma": "3568 a",
+            "morph": "HNp"
+          },
+          {
+            "heb": "עֲתָרַי",
+            "lemma": "6282 a",
+            "morph": "HNcmpc/Sp1cs"
+          },
+          {
+            "heb": "בַּת",
+            "lemma": "1323",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "פוּצַי",
+            "lemma": "6327 a",
+            "morph": "HVqsmsc/Sp1cs"
+          },
+          {
+            "heb": "יוֹבִלוּן",
+            "lemma": "2986",
+            "morph": "HVhi3mp/Sn"
+          },
+          {
+            "heb": "מִנְחָתִֽי",
+            "lemma": "4503",
+            "morph": "HNcfsc/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Zephaniah 3:11",
+        "words": [
+          {
+            "heb": "בַּיּוֹם",
+            "lemma": "3117",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "הַהוּא",
+            "lemma": "1931",
+            "morph": "HTd/Pp3ms"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תֵבוֹשִׁי",
+            "lemma": "954",
+            "morph": "HVqi2fs"
+          },
+          {
+            "heb": "מִכֹּל",
+            "lemma": "3605",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "עֲלִילֹתַיִךְ",
+            "lemma": "5949",
+            "morph": "HNcfpc/Sp2fs"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "פָּשַׁעַתְּ",
+            "lemma": "6586",
+            "morph": "HVqp2fs"
+          },
+          {
+            "heb": "בִּי",
+            "lemma": "b",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אָז",
+            "lemma": "227 a",
+            "morph": "HD"
+          },
+          {
+            "heb": "אָסִיר",
+            "lemma": "5493",
+            "morph": "HVhi1cs"
+          },
+          {
+            "heb": "מִקִּרְבֵּךְ",
+            "lemma": "7130",
+            "morph": "HR/Ncmsc/Sp2fs"
+          },
+          {
+            "heb": "עַלִּיזֵי",
+            "lemma": "5947",
+            "morph": "HAampc"
+          },
+          {
+            "heb": "גַּאֲוָתֵךְ",
+            "lemma": "1346",
+            "morph": "HNcfsc/Sp2fs"
+          },
+          {
+            "heb": "וְלֹֽא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תוֹסִפִי",
+            "lemma": "3254",
+            "morph": "HVhi2fs"
+          },
+          {
+            "heb": "לְגָבְהָה",
+            "lemma": "1361",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "עוֹד",
+            "lemma": "5750",
+            "morph": "HD"
+          },
+          {
+            "heb": "בְּהַר",
+            "lemma": "2022",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "קָדְשִֽׁי",
+            "lemma": "6944",
+            "morph": "HNcmsc/Sp1cs"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Zephaniah 3:12",
+        "words": [
+          {
+            "heb": "וְהִשְׁאַרְתִּי",
+            "lemma": "7604",
+            "morph": "HC/Vhq1cs"
+          },
+          {
+            "heb": "בְקִרְבֵּךְ",
+            "lemma": "7130",
+            "morph": "HR/Ncmsc/Sp2fs"
+          },
+          {
+            "heb": "עַם",
+            "lemma": "5971 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "עָנִי",
+            "lemma": "6041",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "וָדָל",
+            "lemma": "1800",
+            "morph": "HC/Aamsa"
+          },
+          {
+            "heb": "וְחָסוּ",
+            "lemma": "2620",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "בְּשֵׁם",
+            "lemma": "8034",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "יְהוָֽה",
+            "lemma": "3068",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Zephaniah 3:13",
+        "words": [
+          {
+            "heb": "שְׁאֵרִית",
+            "lemma": "7611",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "יִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לֹֽא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יַעֲשׂוּ",
+            "lemma": "6213 a",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "עַוְלָה",
+            "lemma": "5766 b",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יְדַבְּרוּ",
+            "lemma": "1696",
+            "morph": "HVpi3mp"
+          },
+          {
+            "heb": "כָזָב",
+            "lemma": "3577",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְלֹֽא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יִמָּצֵא",
+            "lemma": "4672",
+            "morph": "HVNi3ms"
+          },
+          {
+            "heb": "בְּפִיהֶם",
+            "lemma": "6310",
+            "morph": "HR/Ncmsc/Sp3mp"
+          },
+          {
+            "heb": "לְשׁוֹן",
+            "lemma": "3956",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "תַּרְמִית",
+            "lemma": "8649 b",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "הֵמָּה",
+            "lemma": "1992",
+            "morph": "HPp3mp"
+          },
+          {
+            "heb": "יִרְעוּ",
+            "lemma": "7462 b",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "וְרָבְצוּ",
+            "lemma": "7257",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "וְאֵין",
+            "lemma": "369",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "מַחֲרִֽיד",
+            "lemma": "2729",
+            "morph": "HVhrmsa"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Zephaniah 3:14",
+        "words": [
+          {
+            "heb": "רָנִּי",
+            "lemma": "7442 b",
+            "morph": "HVqv2fs"
+          },
+          {
+            "heb": "בַּת",
+            "lemma": "1323",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "צִיּוֹן",
+            "lemma": "6726",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הָרִיעוּ",
+            "lemma": "7321",
+            "morph": "HVhv2mp"
+          },
+          {
+            "heb": "יִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HNp"
+          },
+          {
+            "heb": "שִׂמְחִי",
+            "lemma": "8055",
+            "morph": "HVqv2fs"
+          },
+          {
+            "heb": "וְעָלְזִי",
+            "lemma": "5937",
+            "morph": "HC/Vqv2fs"
+          },
+          {
+            "heb": "בְּכָל",
+            "lemma": "3605",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "לֵב",
+            "lemma": "3820 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בַּת",
+            "lemma": "1323",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "יְרוּשָׁלִָֽם",
+            "lemma": "3389",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 15,
+        "ref": "Zephaniah 3:15",
+        "words": [
+          {
+            "heb": "הֵסִיר",
+            "lemma": "5493",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "מִשְׁפָּטַיִךְ",
+            "lemma": "4941",
+            "morph": "HNcmpc/Sp2fs"
+          },
+          {
+            "heb": "פִּנָּה",
+            "lemma": "6437",
+            "morph": "HVpp3ms"
+          },
+          {
+            "heb": "אֹֽיְבֵךְ",
+            "lemma": "341",
+            "morph": "HVqrmsc/Sp2fs"
+          },
+          {
+            "heb": "מֶלֶךְ",
+            "lemma": "4428",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HNp"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בְּקִרְבֵּךְ",
+            "lemma": "7130",
+            "morph": "HR/Ncmsc/Sp2fs"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תִֽירְאִי",
+            "lemma": "3372",
+            "morph": "HVqi2fs"
+          },
+          {
+            "heb": "רָע",
+            "lemma": "7451 b",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "עֽוֹד",
+            "lemma": "5750",
+            "morph": "HD"
+          }
+        ]
+      },
+      {
+        "verse": 16,
+        "ref": "Zephaniah 3:16",
+        "words": [
+          {
+            "heb": "בַּיּוֹם",
+            "lemma": "3117",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "הַהוּא",
+            "lemma": "1931",
+            "morph": "HTd/Pp3ms"
+          },
+          {
+            "heb": "יֵאָמֵר",
+            "lemma": "559",
+            "morph": "HVNi3ms"
+          },
+          {
+            "heb": "לִירֽוּשָׁלִַם",
+            "lemma": "3389",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תִּירָאִי",
+            "lemma": "3372",
+            "morph": "HVqj2fs"
+          },
+          {
+            "heb": "צִיּוֹן",
+            "lemma": "6726",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יִרְפּוּ",
+            "lemma": "7503",
+            "morph": "HVqj3mp"
+          },
+          {
+            "heb": "יָדָֽיִךְ",
+            "lemma": "3027",
+            "morph": "HNcbdc/Sp2fs"
+          }
+        ]
+      },
+      {
+        "verse": 17,
+        "ref": "Zephaniah 3:17",
+        "words": [
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֱלֹהַיִךְ",
+            "lemma": "430",
+            "morph": "HNcmpc/Sp2fs"
+          },
+          {
+            "heb": "בְּקִרְבֵּך",
+            "lemma": "7130",
+            "morph": "HR/Ncmsc/Sp2fs"
+          },
+          {
+            "heb": "גִּבּוֹר",
+            "lemma": "1368",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "יוֹשִׁיעַ",
+            "lemma": "3467",
+            "morph": "HVhi3ms"
+          },
+          {
+            "heb": "יָשִׂישׂ",
+            "lemma": "7797",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "עָלַיִךְ",
+            "lemma": "5921 a",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "בְּשִׂמְחָה",
+            "lemma": "8057",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "יַחֲרִישׁ",
+            "lemma": "2790 b",
+            "morph": "HVhi3ms"
+          },
+          {
+            "heb": "בְּאַהֲבָתוֹ",
+            "lemma": "160",
+            "morph": "HR/Ncfsc/Sp3ms"
+          },
+          {
+            "heb": "יָגִיל",
+            "lemma": "1523",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "עָלַיִךְ",
+            "lemma": "5921 a",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "בְּרִנָּֽה",
+            "lemma": "7440",
+            "morph": "HR/Ncfsa"
+          }
+        ]
+      },
+      {
+        "verse": 18,
+        "ref": "Zephaniah 3:18",
+        "words": [
+          {
+            "heb": "נוּגֵי",
+            "lemma": "3013",
+            "morph": "HVNrmpc"
+          },
+          {
+            "heb": "מִמּוֹעֵד",
+            "lemma": "4150",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "אָסַפְתִּי",
+            "lemma": "622",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "מִמֵּךְ",
+            "lemma": "4480 a",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "הָיוּ",
+            "lemma": "1961",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "מַשְׂאֵת",
+            "lemma": "4864",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "עָלֶיהָ",
+            "lemma": "5921 a",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "חֶרְפָּֽה",
+            "lemma": "2781",
+            "morph": "HNcfsa"
+          }
+        ]
+      },
+      {
+        "verse": 19,
+        "ref": "Zephaniah 3:19",
+        "words": [
+          {
+            "heb": "הִנְנִי",
+            "lemma": "2005",
+            "morph": "HTm/Sp1cs"
+          },
+          {
+            "heb": "עֹשֶׂה",
+            "lemma": "6213 a",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "מְעַנַּיִךְ",
+            "lemma": "6031 b",
+            "morph": "HVprmpc/Sp2fs"
+          },
+          {
+            "heb": "בָּעֵת",
+            "lemma": "6256",
+            "morph": "HRd/Ncbsa"
+          },
+          {
+            "heb": "הַהִיא",
+            "lemma": "1931",
+            "morph": "HTd/Pp3fs"
+          },
+          {
+            "heb": "וְהוֹשַׁעְתִּי",
+            "lemma": "3467",
+            "morph": "HC/Vhq1cs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַצֹּלֵעָה",
+            "lemma": "6760",
+            "morph": "HTd/Vqrfsa"
+          },
+          {
+            "heb": "וְהַנִּדָּחָה",
+            "lemma": "5080",
+            "morph": "HC/Td/VNsfsa"
+          },
+          {
+            "heb": "אֲקַבֵּץ",
+            "lemma": "6908",
+            "morph": "HVpi1cs"
+          },
+          {
+            "heb": "וְשַׂמְתִּים",
+            "lemma": "7760 a",
+            "morph": "HC/Vqq1cs/Sp3mp"
+          },
+          {
+            "heb": "לִתְהִלָּה",
+            "lemma": "8416",
+            "morph": "HR/Ncfsa"
+          },
+          {
+            "heb": "וּלְשֵׁם",
+            "lemma": "8034",
+            "morph": "HC/R/Ncmsa"
+          },
+          {
+            "heb": "בְּכָל",
+            "lemma": "3605",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "הָאָרֶץ",
+            "lemma": "776",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "בָּשְׁתָּֽם",
+            "lemma": "1322",
+            "morph": "HNcfsc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 20,
+        "ref": "Zephaniah 3:20",
+        "words": [
+          {
+            "heb": "בָּעֵת",
+            "lemma": "6256",
+            "morph": "HRd/Ncbsa"
+          },
+          {
+            "heb": "הַהִיא",
+            "lemma": "1931",
+            "morph": "HTd/Pp3fs"
+          },
+          {
+            "heb": "אָבִיא",
+            "lemma": "935",
+            "morph": "HVhi1cs"
+          },
+          {
+            "heb": "אֶתְכֶם",
+            "lemma": "853",
+            "morph": "HTo/Sp2mp"
+          },
+          {
+            "heb": "וּבָעֵת",
+            "lemma": "6256",
+            "morph": "HC/Rd/Ncbsa"
+          },
+          {
+            "heb": "קַבְּצִי",
+            "lemma": "6908",
+            "morph": "HVpc/Sp1cs"
+          },
+          {
+            "heb": "אֶתְכֶם",
+            "lemma": "853",
+            "morph": "HTo/Sp2mp"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אֶתֵּן",
+            "lemma": "5414",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "אֶתְכֶם",
+            "lemma": "853",
+            "morph": "HTo/Sp2mp"
+          },
+          {
+            "heb": "לְשֵׁם",
+            "lemma": "8034",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "וְלִתְהִלָּה",
+            "lemma": "8416",
+            "morph": "HC/R/Ncfsa"
+          },
+          {
+            "heb": "בְּכֹל",
+            "lemma": "3605",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "עַמֵּי",
+            "lemma": "5971 a",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "הָאָרֶץ",
+            "lemma": "776",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "בְּשׁוּבִי",
+            "lemma": "7725",
+            "morph": "HR/Vqc/Sp1cs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "שְׁבוּתֵיכֶם",
+            "lemma": "7622",
+            "morph": "HNcfpc/Sp2mp"
+          },
+          {
+            "heb": "לְעֵינֵיכֶם",
+            "lemma": "5869 a",
+            "morph": "HR/Ncbdc/Sp2mp"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָֽה",
+            "lemma": "3068",
+            "morph": "HNp"
+          }
+        ]
+      }
+    ]
+  }
+}

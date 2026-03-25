@@ -43,6 +43,49 @@ export function decompose_word(word) {
 }
 
 /**
+ * Extract the probable Hebrew root from a word, stripping prefixes and suffixes.
+ * Returns JSON: { original, prefixes, root, suffixes }
+ * @param {string} word
+ * @returns {string}
+ */
+export function extract_root_json(word) {
+    let deferred2_0;
+    let deferred2_1;
+    try {
+        const ptr0 = passStringToWasm0(word, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+        const len0 = WASM_VECTOR_LEN;
+        const ret = wasm.extract_root_json(ptr0, len0);
+        deferred2_0 = ret[0];
+        deferred2_1 = ret[1];
+        return getStringFromWasm0(ret[0], ret[1]);
+    } finally {
+        wasm.__wbindgen_free(deferred2_0, deferred2_1, 1);
+    }
+}
+
+/**
+ * Generate a pictorial memory narrative for a Hebrew word.
+ * Takes a Hebrew word (with or without niqqud), decomposes it,
+ * and returns a template narrative string.
+ * @param {string} word
+ * @returns {string}
+ */
+export function generate_narrative_wasm(word) {
+    let deferred2_0;
+    let deferred2_1;
+    try {
+        const ptr0 = passStringToWasm0(word, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+        const len0 = WASM_VECTOR_LEN;
+        const ret = wasm.generate_narrative_wasm(ptr0, len0);
+        deferred2_0 = ret[0];
+        deferred2_1 = ret[1];
+        return getStringFromWasm0(ret[0], ret[1]);
+    } finally {
+        wasm.__wbindgen_free(deferred2_0, deferred2_1, 1);
+    }
+}
+
+/**
  * Strip niqqud (vowel points) from Hebrew text.
  * @param {string} text
  * @returns {string}

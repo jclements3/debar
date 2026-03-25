@@ -1,0 +1,4722 @@
+{
+  "name": "Malachi",
+  "osisId": "Mal",
+  "chapters": {
+    "1": [
+      {
+        "verse": 1,
+        "ref": "Malachi 1:1",
+        "words": [
+          {
+            "heb": "מַשָּׂא",
+            "lemma": "4853 b",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "דְבַר",
+            "lemma": "1697",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "יִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בְּיַד",
+            "lemma": "3027",
+            "morph": "HR/Ncbsc"
+          },
+          {
+            "heb": "מַלְאָכִֽי",
+            "lemma": "4401",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Malachi 1:2",
+        "words": [
+          {
+            "heb": "אָהַבְתִּי",
+            "lemma": "157",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "אֶתְכֶם",
+            "lemma": "853",
+            "morph": "HTo/Sp2mp"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַאֲמַרְתֶּם",
+            "lemma": "559",
+            "morph": "HC/Vqp2mp"
+          },
+          {
+            "heb": "בַּמָּה",
+            "lemma": "4100",
+            "morph": "HR/Ti"
+          },
+          {
+            "heb": "אֲהַבְתָּנוּ",
+            "lemma": "157",
+            "morph": "HVqp2ms/Sp1cp"
+          },
+          {
+            "heb": "הֲלוֹא",
+            "lemma": "3808",
+            "morph": "HTi/Tn"
+          },
+          {
+            "heb": "אָח",
+            "lemma": "251",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "עֵשָׂו",
+            "lemma": "6215",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לְיַֽעֲקֹב",
+            "lemma": "3290",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "נְאֻם",
+            "lemma": "5002",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וָאֹהַב",
+            "lemma": "157",
+            "morph": "HC/Vqw1cs"
+          },
+          {
+            "heb": "אֶֽת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "יַעֲקֹֽב",
+            "lemma": "3290",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Malachi 1:3",
+        "words": [
+          {
+            "heb": "וְאֶת",
+            "lemma": "853",
+            "morph": "HC/To"
+          },
+          {
+            "heb": "עֵשָׂו",
+            "lemma": "6215",
+            "morph": "HNp"
+          },
+          {
+            "heb": "שָׂנֵאתִי",
+            "lemma": "8130",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "וָאָשִׂים",
+            "lemma": "7760 a",
+            "morph": "HC/Vqw1cs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הָרָיו",
+            "lemma": "2022",
+            "morph": "HNcmpc/Sp3ms"
+          },
+          {
+            "heb": "שְׁמָמָה",
+            "lemma": "8077 a",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וְאֶת",
+            "lemma": "853",
+            "morph": "HC/To"
+          },
+          {
+            "heb": "נַחֲלָתוֹ",
+            "lemma": "5159",
+            "morph": "HNcfsc/Sp3ms"
+          },
+          {
+            "heb": "לְתַנּוֹת",
+            "lemma": "8568",
+            "morph": "HR/Ncbpc"
+          },
+          {
+            "heb": "מִדְבָּֽר",
+            "lemma": "4057 b",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Malachi 1:4",
+        "words": [
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "תֹאמַר",
+            "lemma": "559",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "אֱדוֹם",
+            "lemma": "123",
+            "morph": "HNp"
+          },
+          {
+            "heb": "רֻשַּׁשְׁנוּ",
+            "lemma": "7567",
+            "morph": "HVPp1cp"
+          },
+          {
+            "heb": "וְנָשׁוּב",
+            "lemma": "7725",
+            "morph": "HC/Vqi1cp"
+          },
+          {
+            "heb": "וְנִבְנֶה",
+            "lemma": "1129",
+            "morph": "HC/Vqi1cp"
+          },
+          {
+            "heb": "חֳרָבוֹת",
+            "lemma": "2723",
+            "morph": "HNcfpa"
+          },
+          {
+            "heb": "כֹּה",
+            "lemma": "3541",
+            "morph": "HD"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "הֵמָּה",
+            "lemma": "1992",
+            "morph": "HPp3mp"
+          },
+          {
+            "heb": "יִבְנוּ",
+            "lemma": "1129",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "וַאֲנִי",
+            "lemma": "589",
+            "morph": "HC/Pp1cs"
+          },
+          {
+            "heb": "אֶהֱרוֹס",
+            "lemma": "2040",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "וְקָרְאוּ",
+            "lemma": "7121",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "לָהֶם",
+            "lemma": "l",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "גְּבוּל",
+            "lemma": "1366",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "רִשְׁעָה",
+            "lemma": "7564",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וְהָעָם",
+            "lemma": "5971 a",
+            "morph": "HC/Td/Ncmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "זָעַם",
+            "lemma": "2194",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "עוֹלָֽם",
+            "lemma": "5769",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Malachi 1:5",
+        "words": [
+          {
+            "heb": "וְעֵינֵיכֶם",
+            "lemma": "5869 a",
+            "morph": "HC/Ncbdc/Sp2mp"
+          },
+          {
+            "heb": "תִּרְאֶינָה",
+            "lemma": "7200",
+            "morph": "HVqi3fp"
+          },
+          {
+            "heb": "וְאַתֶּם",
+            "lemma": "859 d",
+            "morph": "HC/Pp2mp"
+          },
+          {
+            "heb": "תֹּֽאמְרוּ",
+            "lemma": "559",
+            "morph": "HVqi2mp"
+          },
+          {
+            "heb": "יִגְדַּל",
+            "lemma": "1431",
+            "morph": "HVqj3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "מֵעַל",
+            "lemma": "5921 a",
+            "morph": "HR/R"
+          },
+          {
+            "heb": "לִגְבוּל",
+            "lemma": "1366",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "יִשְׂרָאֵֽל",
+            "lemma": "3478",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Malachi 1:6",
+        "words": [
+          {
+            "heb": "בֵּן",
+            "lemma": "1121 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "יְכַבֵּד",
+            "lemma": "3513",
+            "morph": "HVpi3ms"
+          },
+          {
+            "heb": "אָב",
+            "lemma": "1",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְעֶבֶד",
+            "lemma": "5650",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "אֲדֹנָיו",
+            "lemma": "113",
+            "morph": "HNcmpc/Sp3ms"
+          },
+          {
+            "heb": "וְאִם",
+            "lemma": "518 a",
+            "morph": "HC/C"
+          },
+          {
+            "heb": "אָב",
+            "lemma": "1",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אָנִי",
+            "lemma": "589",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "אַיֵּה",
+            "lemma": "346",
+            "morph": "HTi"
+          },
+          {
+            "heb": "כְבוֹדִי",
+            "lemma": "3519",
+            "morph": "HNcbsc/Sp1cs"
+          },
+          {
+            "heb": "וְאִם",
+            "lemma": "518 a",
+            "morph": "HC/C"
+          },
+          {
+            "heb": "אֲדוֹנִים",
+            "lemma": "113",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "אָנִי",
+            "lemma": "589",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "אַיֵּה",
+            "lemma": "346",
+            "morph": "HTi"
+          },
+          {
+            "heb": "מוֹרָאִי",
+            "lemma": "4172 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "לָכֶם",
+            "lemma": "l",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "הַכֹּֽהֲנִים",
+            "lemma": "3548",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "בּוֹזֵי",
+            "lemma": "959",
+            "morph": "HVqrmpc"
+          },
+          {
+            "heb": "שְׁמִי",
+            "lemma": "8034",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "וַאֲמַרְתֶּם",
+            "lemma": "559",
+            "morph": "HC/Vqq2mp"
+          },
+          {
+            "heb": "בַּמֶּה",
+            "lemma": "4100",
+            "morph": "HR/Ti"
+          },
+          {
+            "heb": "בָזִינוּ",
+            "lemma": "959",
+            "morph": "HVqp1cp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "שְׁמֶֽךָ",
+            "lemma": "8034",
+            "morph": "HNcmsc/Sp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Malachi 1:7",
+        "words": [
+          {
+            "heb": "מַגִּישִׁים",
+            "lemma": "5066",
+            "morph": "HVhrmpa"
+          },
+          {
+            "heb": "עַֽל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "מִזְבְּחִי",
+            "lemma": "4196",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "לֶחֶם",
+            "lemma": "3899",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "מְגֹאָל",
+            "lemma": "1351",
+            "morph": "HVPsmsa"
+          },
+          {
+            "heb": "וַאֲמַרְתֶּם",
+            "lemma": "559",
+            "morph": "HC/Vqq2mp"
+          },
+          {
+            "heb": "בַּמֶּה",
+            "lemma": "4100",
+            "morph": "HR/Ti"
+          },
+          {
+            "heb": "גֵֽאַלְנוּךָ",
+            "lemma": "1351",
+            "morph": "HVpp1cp/Sp2ms"
+          },
+          {
+            "heb": "בֶּאֱמָרְכֶם",
+            "lemma": "559",
+            "morph": "HR/Vqc/Sp2mp"
+          },
+          {
+            "heb": "שֻׁלְחַן",
+            "lemma": "7979",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "נִבְזֶה",
+            "lemma": "959",
+            "morph": "HVNrmsa"
+          },
+          {
+            "heb": "הֽוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Malachi 1:8",
+        "words": [
+          {
+            "heb": "וְכִֽי",
+            "lemma": "3588 a",
+            "morph": "HC/C"
+          },
+          {
+            "heb": "תַגִּשׁוּן",
+            "lemma": "5066",
+            "morph": "HVhi2mp/Sn"
+          },
+          {
+            "heb": "עִוֵּר",
+            "lemma": "5787",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "לִזְבֹּחַ",
+            "lemma": "2076",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "אֵין",
+            "lemma": "369",
+            "morph": "HTn"
+          },
+          {
+            "heb": "רָע",
+            "lemma": "7451 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "וְכִי",
+            "lemma": "3588 a",
+            "morph": "HC/C"
+          },
+          {
+            "heb": "תַגִּישׁוּ",
+            "lemma": "5066",
+            "morph": "HVhi2mp"
+          },
+          {
+            "heb": "פִּסֵּחַ",
+            "lemma": "6455",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "וְחֹלֶה",
+            "lemma": "2470 a",
+            "morph": "HC/Vqrmsa"
+          },
+          {
+            "heb": "אֵין",
+            "lemma": "369",
+            "morph": "HTn"
+          },
+          {
+            "heb": "רָע",
+            "lemma": "7451 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "הַקְרִיבֵהוּ",
+            "lemma": "7126",
+            "morph": "HVhv2ms/Sp3ms"
+          },
+          {
+            "heb": "נָא",
+            "lemma": "4994",
+            "morph": "HTe"
+          },
+          {
+            "heb": "לְפֶחָתֶךָ",
+            "lemma": "6346",
+            "morph": "HR/Ncmsc/Sp2ms"
+          },
+          {
+            "heb": "הֲיִּרְצְךָ",
+            "lemma": "7521",
+            "morph": "HTi/Vqi3ms/Sp2ms"
+          },
+          {
+            "heb": "אוֹ",
+            "lemma": "176 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "הֲיִשָּׂא",
+            "lemma": "5375",
+            "morph": "HTi/Vqi3ms"
+          },
+          {
+            "heb": "פָנֶיךָ",
+            "lemma": "6440",
+            "morph": "HNcbpc/Sp2ms"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאֽוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Malachi 1:9",
+        "words": [
+          {
+            "heb": "וְעַתָּה",
+            "lemma": "6258",
+            "morph": "HC/D"
+          },
+          {
+            "heb": "חַלּוּ",
+            "lemma": "2470 b",
+            "morph": "HVpv2mp"
+          },
+          {
+            "heb": "נָא",
+            "lemma": "4994",
+            "morph": "HTe"
+          },
+          {
+            "heb": "פְנֵי",
+            "lemma": "6440",
+            "morph": "HNcbpc"
+          },
+          {
+            "heb": "אֵל",
+            "lemma": "410",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וִֽיחָנֵנוּ",
+            "lemma": "2603 a",
+            "morph": "HC/Vqj3ms/Sp1cp"
+          },
+          {
+            "heb": "מִיֶּדְכֶם",
+            "lemma": "3027",
+            "morph": "HR/Ncbsc/Sp2mp"
+          },
+          {
+            "heb": "הָיְתָה",
+            "lemma": "1961",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "זֹּאת",
+            "lemma": "2063",
+            "morph": "HPdxfs"
+          },
+          {
+            "heb": "הֲיִשָּׂא",
+            "lemma": "5375",
+            "morph": "HTi/Vqi3ms"
+          },
+          {
+            "heb": "מִכֶּם",
+            "lemma": "4480 a",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "פָּנִים",
+            "lemma": "6440",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאֽוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Malachi 1:10",
+        "words": [
+          {
+            "heb": "מִי",
+            "lemma": "4310",
+            "morph": "HTi"
+          },
+          {
+            "heb": "גַם",
+            "lemma": "1571",
+            "morph": "HD"
+          },
+          {
+            "heb": "בָּכֶם",
+            "lemma": "b",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "וְיִסְגֹּר",
+            "lemma": "5462",
+            "morph": "HC/Vqj3ms"
+          },
+          {
+            "heb": "דְּלָתַיִם",
+            "lemma": "1817 c",
+            "morph": "HNcfda"
+          },
+          {
+            "heb": "וְלֹֽא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תָאִירוּ",
+            "lemma": "215",
+            "morph": "HVhi2mp"
+          },
+          {
+            "heb": "מִזְבְּחִי",
+            "lemma": "4196",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "חִנָּם",
+            "lemma": "2600",
+            "morph": "HD"
+          },
+          {
+            "heb": "אֵֽין",
+            "lemma": "369",
+            "morph": "HTn"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "חֵפֶץ",
+            "lemma": "2656",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בָּכֶם",
+            "lemma": "b",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "וּמִנְחָה",
+            "lemma": "4503",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "לֹֽא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "אֶרְצֶה",
+            "lemma": "7521",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "מִיֶּדְכֶֽם",
+            "lemma": "3027",
+            "morph": "HR/Ncbsc/Sp2mp"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Malachi 1:11",
+        "words": [
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "מִמִּזְרַח",
+            "lemma": "4217",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "שֶׁמֶשׁ",
+            "lemma": "8121",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "וְעַד",
+            "lemma": "5704",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "מְבוֹאוֹ",
+            "lemma": "3996",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "גָּדוֹל",
+            "lemma": "1419 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "שְׁמִי",
+            "lemma": "8034",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "בַּגּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "וּבְכָל",
+            "lemma": "3605",
+            "morph": "HC/R/Ncmsc"
+          },
+          {
+            "heb": "מָקוֹם",
+            "lemma": "4725",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מֻקְטָר",
+            "lemma": "6999 b",
+            "morph": "HVHsmsa"
+          },
+          {
+            "heb": "מֻגָּשׁ",
+            "lemma": "5066",
+            "morph": "HVHsmsa"
+          },
+          {
+            "heb": "לִשְׁמִי",
+            "lemma": "8034",
+            "morph": "HR/Ncmsc/Sp1cs"
+          },
+          {
+            "heb": "וּמִנְחָה",
+            "lemma": "4503",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "טְהוֹרָה",
+            "lemma": "2889",
+            "morph": "HAafsa"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "גָדוֹל",
+            "lemma": "1419 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "שְׁמִי",
+            "lemma": "8034",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "בַּגּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאֽוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Malachi 1:12",
+        "words": [
+          {
+            "heb": "וְאַתֶּם",
+            "lemma": "859 d",
+            "morph": "HC/Pp2mp"
+          },
+          {
+            "heb": "מְחַלְּלִים",
+            "lemma": "2490 c",
+            "morph": "HVprmpa"
+          },
+          {
+            "heb": "אוֹתוֹ",
+            "lemma": "853",
+            "morph": "HTo/Sp3ms"
+          },
+          {
+            "heb": "בֶּאֱמָרְכֶם",
+            "lemma": "559",
+            "morph": "HR/Vqc/Sp2mp"
+          },
+          {
+            "heb": "שֻׁלְחַן",
+            "lemma": "7979",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אֲדֹנָי",
+            "lemma": "136",
+            "morph": "HNcmpc/Sp1cs"
+          },
+          {
+            "heb": "מְגֹאָל",
+            "lemma": "1351",
+            "morph": "HVPsmsa"
+          },
+          {
+            "heb": "הוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          },
+          {
+            "heb": "וְנִיבוֹ",
+            "lemma": "5108 b",
+            "morph": "HC/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "נִבְזֶה",
+            "lemma": "959",
+            "morph": "HVNrmsa"
+          },
+          {
+            "heb": "אָכְלֽוֹ",
+            "lemma": "400",
+            "morph": "HNcmsc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Malachi 1:13",
+        "words": [
+          {
+            "heb": "וַאֲמַרְתֶּם",
+            "lemma": "559",
+            "morph": "HC/Vqq2mp"
+          },
+          {
+            "heb": "הִנֵּה",
+            "lemma": "2009",
+            "morph": "HTm"
+          },
+          {
+            "heb": "מַתְּלָאָה",
+            "lemma": "4972",
+            "morph": "HTi/Ncfsa"
+          },
+          {
+            "heb": "וְהִפַּחְתֶּם",
+            "lemma": "5301",
+            "morph": "HC/Vhq2mp"
+          },
+          {
+            "heb": "אוֹתוֹ",
+            "lemma": "853",
+            "morph": "HTo/Sp3ms"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "וַהֲבֵאתֶם",
+            "lemma": "935",
+            "morph": "HC/Vhq2mp"
+          },
+          {
+            "heb": "גָּזוּל",
+            "lemma": "1497",
+            "morph": "HVqsmsa"
+          },
+          {
+            "heb": "וְאֶת",
+            "lemma": "853",
+            "morph": "HC/To"
+          },
+          {
+            "heb": "הַפִּסֵּחַ",
+            "lemma": "6455",
+            "morph": "HTd/Aamsa"
+          },
+          {
+            "heb": "וְאֶת",
+            "lemma": "853",
+            "morph": "HC/To"
+          },
+          {
+            "heb": "הַחוֹלֶה",
+            "lemma": "2470 a",
+            "morph": "HTd/Vqrmsa"
+          },
+          {
+            "heb": "וַהֲבֵאתֶם",
+            "lemma": "935",
+            "morph": "HC/Vhq2mp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַמִּנְחָה",
+            "lemma": "4503",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "הַאֶרְצֶה",
+            "lemma": "7521",
+            "morph": "HTi/Vqi1cs"
+          },
+          {
+            "heb": "אוֹתָהּ",
+            "lemma": "853",
+            "morph": "HTo/Sp3fs"
+          },
+          {
+            "heb": "מִיֶּדְכֶם",
+            "lemma": "3027",
+            "morph": "HR/Ncbsc/Sp2mp"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָֽה",
+            "lemma": "3068",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Malachi 1:14",
+        "words": [
+          {
+            "heb": "וְאָרוּר",
+            "lemma": "779",
+            "morph": "HC/Vqsmsa"
+          },
+          {
+            "heb": "נוֹכֵל",
+            "lemma": "5230",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "וְיֵשׁ",
+            "lemma": "3426",
+            "morph": "HC/Tm"
+          },
+          {
+            "heb": "בְּעֶדְרוֹ",
+            "lemma": "5739",
+            "morph": "HR/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "זָכָר",
+            "lemma": "2145",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "וְנֹדֵר",
+            "lemma": "5087",
+            "morph": "HC/Vqrmsa"
+          },
+          {
+            "heb": "וְזֹבֵחַ",
+            "lemma": "2076",
+            "morph": "HC/Vqrmsa"
+          },
+          {
+            "heb": "מָשְׁחָת",
+            "lemma": "7843",
+            "morph": "HVHsmsa"
+          },
+          {
+            "heb": "לַֽאדֹנָי",
+            "lemma": "136",
+            "morph": "HR/Ncmpc/Sp1cs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "מֶלֶךְ",
+            "lemma": "4428",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "גָּדוֹל",
+            "lemma": "1419 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "אָנִי",
+            "lemma": "589",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "וּשְׁמִי",
+            "lemma": "8034",
+            "morph": "HC/Ncmsc/Sp1cs"
+          },
+          {
+            "heb": "נוֹרָא",
+            "lemma": "3372",
+            "morph": "HVNrmsa"
+          },
+          {
+            "heb": "בַגּוֹיִֽם",
+            "lemma": "1471 a",
+            "morph": "HRd/Ncmpa"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "verse": 1,
+        "ref": "Malachi 2:1",
+        "words": [
+          {
+            "heb": "וְעַתָּה",
+            "lemma": "6258",
+            "morph": "HC/D"
+          },
+          {
+            "heb": "אֲלֵיכֶם",
+            "lemma": "413",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "הַמִּצְוָה",
+            "lemma": "4687",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "הַזֹּאת",
+            "lemma": "2063",
+            "morph": "HTd/Pdxfs"
+          },
+          {
+            "heb": "הַכֹּהֲנִֽים",
+            "lemma": "3548",
+            "morph": "HTd/Ncmpa"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Malachi 2:2",
+        "words": [
+          {
+            "heb": "אִם",
+            "lemma": "518 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תִשְׁמְעוּ",
+            "lemma": "8085",
+            "morph": "HVqi2mp"
+          },
+          {
+            "heb": "וְאִם",
+            "lemma": "518 a",
+            "morph": "HC/C"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תָשִׂימוּ",
+            "lemma": "7760 a",
+            "morph": "HVqi2mp"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "לֵב",
+            "lemma": "3820 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "לָתֵת",
+            "lemma": "5414",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "כָּבוֹד",
+            "lemma": "3519",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "לִשְׁמִי",
+            "lemma": "8034",
+            "morph": "HR/Ncmsc/Sp1cs"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "וְשִׁלַּחְתִּי",
+            "lemma": "7971",
+            "morph": "HC/Vpq1cs"
+          },
+          {
+            "heb": "בָכֶם",
+            "lemma": "b",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַמְּאֵרָה",
+            "lemma": "3994",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "וְאָרוֹתִי",
+            "lemma": "779",
+            "morph": "HC/Vqq1cs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "בִּרְכֽוֹתֵיכֶם",
+            "lemma": "1293",
+            "morph": "HNcfpc/Sp2mp"
+          },
+          {
+            "heb": "וְגַם",
+            "lemma": "1571",
+            "morph": "HC/Ta"
+          },
+          {
+            "heb": "אָרוֹתִיהָ",
+            "lemma": "779",
+            "morph": "HVqp1cs/Sp3fs"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אֵינְכֶם",
+            "lemma": "369",
+            "morph": "HTn/Sp2mp"
+          },
+          {
+            "heb": "שָׂמִים",
+            "lemma": "7760 a",
+            "morph": "HVqrmpa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "לֵֽב",
+            "lemma": "3820 a",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Malachi 2:3",
+        "words": [
+          {
+            "heb": "הִנְנִי",
+            "lemma": "2005",
+            "morph": "HTm/Sp1cs"
+          },
+          {
+            "heb": "גֹעֵר",
+            "lemma": "1605",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "לָכֶם",
+            "lemma": "l",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַזֶּרַע",
+            "lemma": "2233",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וְזֵרִיתִי",
+            "lemma": "2219",
+            "morph": "HC/Vpq1cs"
+          },
+          {
+            "heb": "פֶרֶשׁ",
+            "lemma": "6569",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "פְּנֵיכֶם",
+            "lemma": "6440",
+            "morph": "HNcbpc/Sp2mp"
+          },
+          {
+            "heb": "פֶּרֶשׁ",
+            "lemma": "6569",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "חַגֵּיכֶם",
+            "lemma": "2282",
+            "morph": "HNcmpc/Sp2mp"
+          },
+          {
+            "heb": "וְנָשָׂא",
+            "lemma": "5375",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "אֶתְכֶם",
+            "lemma": "853",
+            "morph": "HTo/Sp2mp"
+          },
+          {
+            "heb": "אֵלָֽיו",
+            "lemma": "413",
+            "morph": "HR/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Malachi 2:4",
+        "words": [
+          {
+            "heb": "וִֽידַעְתֶּם",
+            "lemma": "3045",
+            "morph": "HC/Vqq2mp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "שִׁלַּחְתִּי",
+            "lemma": "7971",
+            "morph": "HVpp1cs"
+          },
+          {
+            "heb": "אֲלֵיכֶם",
+            "lemma": "413",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "אֵת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַמִּצְוָה",
+            "lemma": "4687",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "הַזֹּאת",
+            "lemma": "2063",
+            "morph": "HTd/Pdxfs"
+          },
+          {
+            "heb": "לִֽהְיוֹת",
+            "lemma": "1961",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "בְּרִיתִי",
+            "lemma": "1285",
+            "morph": "HNcfsc/Sp1cs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "854",
+            "morph": "HR"
+          },
+          {
+            "heb": "לֵוִי",
+            "lemma": "3878",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאֽוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Malachi 2:5",
+        "words": [
+          {
+            "heb": "בְּרִיתִי",
+            "lemma": "1285",
+            "morph": "HNcfsc/Sp1cs"
+          },
+          {
+            "heb": "הָיְתָה",
+            "lemma": "1961",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "אִתּוֹ",
+            "lemma": "854",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "הַֽחַיִּים",
+            "lemma": "2416 e",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "וְהַשָּׁלוֹם",
+            "lemma": "7965",
+            "morph": "HC/Td/Ncmsa"
+          },
+          {
+            "heb": "וָאֶתְּנֵֽם",
+            "lemma": "5414",
+            "morph": "HC/Vqw1cs/Sp3mp"
+          },
+          {
+            "heb": "לוֹ",
+            "lemma": "l",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "מוֹרָא",
+            "lemma": "4172 a",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וַיִּֽירָאֵנִי",
+            "lemma": "3372",
+            "morph": "HC/Vqw3ms/Sp1cs"
+          },
+          {
+            "heb": "וּמִפְּנֵי",
+            "lemma": "6440",
+            "morph": "HC/R/Ncbpc"
+          },
+          {
+            "heb": "שְׁמִי",
+            "lemma": "8034",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "נִחַת",
+            "lemma": "2865",
+            "morph": "HVNp3ms"
+          },
+          {
+            "heb": "הֽוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Malachi 2:6",
+        "words": [
+          {
+            "heb": "תּוֹרַת",
+            "lemma": "8451",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "אֱמֶת",
+            "lemma": "571",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "הָיְתָה",
+            "lemma": "1961",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "בְּפִיהוּ",
+            "lemma": "6310",
+            "morph": "HR/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "וְעַוְלָה",
+            "lemma": "5766 b",
+            "morph": "HC/Ncbsa"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "נִמְצָא",
+            "lemma": "4672",
+            "morph": "HVNp3ms"
+          },
+          {
+            "heb": "בִשְׂפָתָיו",
+            "lemma": "8193",
+            "morph": "HR/Ncfdc/Sp3ms"
+          },
+          {
+            "heb": "בְּשָׁלוֹם",
+            "lemma": "7965",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "וּבְמִישׁוֹר",
+            "lemma": "4334",
+            "morph": "HC/R/Ncmsa"
+          },
+          {
+            "heb": "הָלַךְ",
+            "lemma": "1980",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "אִתִּי",
+            "lemma": "854",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "וְרַבִּים",
+            "lemma": "7227 a",
+            "morph": "HC/Aampa"
+          },
+          {
+            "heb": "הֵשִׁיב",
+            "lemma": "7725",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "מֵעָוֺֽן",
+            "lemma": "5771",
+            "morph": "HR/Ncbsa"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Malachi 2:7",
+        "words": [
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "שִׂפְתֵי",
+            "lemma": "8193",
+            "morph": "HNcfdc"
+          },
+          {
+            "heb": "כֹהֵן",
+            "lemma": "3548",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "יִשְׁמְרוּ",
+            "lemma": "8104",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "דַעַת",
+            "lemma": "1847",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וְתוֹרָה",
+            "lemma": "8451",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "יְבַקְשׁוּ",
+            "lemma": "1245",
+            "morph": "HVpi3mp"
+          },
+          {
+            "heb": "מִפִּיהוּ",
+            "lemma": "6310",
+            "morph": "HR/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "מַלְאַךְ",
+            "lemma": "4397",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָֽה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "הֽוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Malachi 2:8",
+        "words": [
+          {
+            "heb": "וְאַתֶּם",
+            "lemma": "859 d",
+            "morph": "HC/Pp2mp"
+          },
+          {
+            "heb": "סַרְתֶּם",
+            "lemma": "5493",
+            "morph": "HVqp2mp"
+          },
+          {
+            "heb": "מִן",
+            "lemma": "4480 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַדֶּרֶךְ",
+            "lemma": "1870",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "הִכְשַׁלְתֶּם",
+            "lemma": "3782",
+            "morph": "HVhp2mp"
+          },
+          {
+            "heb": "רַבִּים",
+            "lemma": "7227 a",
+            "morph": "HAampa"
+          },
+          {
+            "heb": "בַּתּוֹרָה",
+            "lemma": "8451",
+            "morph": "HRd/Ncfsa"
+          },
+          {
+            "heb": "שִֽׁחַתֶּם",
+            "lemma": "7843",
+            "morph": "HVpp2mp"
+          },
+          {
+            "heb": "בְּרִית",
+            "lemma": "1285",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "הַלֵּוִי",
+            "lemma": "3878",
+            "morph": "HTd/Np"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאֽוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Malachi 2:9",
+        "words": [
+          {
+            "heb": "וְגַם",
+            "lemma": "1571",
+            "morph": "HC/Ta"
+          },
+          {
+            "heb": "אֲנִי",
+            "lemma": "589",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "נָתַתִּי",
+            "lemma": "5414",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "אֶתְכֶם",
+            "lemma": "853",
+            "morph": "HTo/Sp2mp"
+          },
+          {
+            "heb": "נִבְזִים",
+            "lemma": "959",
+            "morph": "HVNsmpa"
+          },
+          {
+            "heb": "וּשְׁפָלִים",
+            "lemma": "8217",
+            "morph": "HC/Aampa"
+          },
+          {
+            "heb": "לְכָל",
+            "lemma": "3605",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "הָעָם",
+            "lemma": "5971 a",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "כְּפִי",
+            "lemma": "6310",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "אֵֽינְכֶם",
+            "lemma": "369",
+            "morph": "HTn/Sp2mp"
+          },
+          {
+            "heb": "שֹׁמְרִים",
+            "lemma": "8104",
+            "morph": "HVqrmpa"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "דְּרָכַי",
+            "lemma": "1870",
+            "morph": "HNcbpc/Sp1cs"
+          },
+          {
+            "heb": "וְנֹשְׂאִים",
+            "lemma": "5375",
+            "morph": "HC/Vqrmpa"
+          },
+          {
+            "heb": "פָּנִים",
+            "lemma": "6440",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "בַּתּוֹרָֽה",
+            "lemma": "8451",
+            "morph": "HRd/Ncfsa"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Malachi 2:10",
+        "words": [
+          {
+            "heb": "הֲלוֹא",
+            "lemma": "3808",
+            "morph": "HTi/Tn"
+          },
+          {
+            "heb": "אָב",
+            "lemma": "1",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֶחָד",
+            "lemma": "259",
+            "morph": "HAcmsa"
+          },
+          {
+            "heb": "לְכֻלָּנוּ",
+            "lemma": "3605",
+            "morph": "HR/Ncmsc/Sp1cp"
+          },
+          {
+            "heb": "הֲלוֹא",
+            "lemma": "3808",
+            "morph": "HTi/Tn"
+          },
+          {
+            "heb": "אֵל",
+            "lemma": "410",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֶֽחָד",
+            "lemma": "259",
+            "morph": "HAcmsa"
+          },
+          {
+            "heb": "בְּרָאָנוּ",
+            "lemma": "1254 a",
+            "morph": "HVqp3ms/Sp1cp"
+          },
+          {
+            "heb": "מַדּוּעַ",
+            "lemma": "4069",
+            "morph": "HTi"
+          },
+          {
+            "heb": "נִבְגַּד",
+            "lemma": "898",
+            "morph": "HVqi1cp"
+          },
+          {
+            "heb": "אִישׁ",
+            "lemma": "376",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בְּאָחִיו",
+            "lemma": "251",
+            "morph": "HR/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "לְחַלֵּל",
+            "lemma": "2490 c",
+            "morph": "HR/Vpc"
+          },
+          {
+            "heb": "בְּרִית",
+            "lemma": "1285",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "אֲבֹתֵֽינוּ",
+            "lemma": "1",
+            "morph": "HNcmpc/Sp1cp"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Malachi 2:11",
+        "words": [
+          {
+            "heb": "בָּגְדָה",
+            "lemma": "898",
+            "morph": "HVqp3fs"
+          },
+          {
+            "heb": "יְהוּדָה",
+            "lemma": "3063",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְתוֹעֵבָה",
+            "lemma": "8441",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "נֶעֶשְׂתָה",
+            "lemma": "6213 a",
+            "morph": "HVNp3fs"
+          },
+          {
+            "heb": "בְיִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "וּבִירֽוּשָׁלִָם",
+            "lemma": "3389",
+            "morph": "HC/R/Np"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "חִלֵּל",
+            "lemma": "2490 c",
+            "morph": "HVpp3ms"
+          },
+          {
+            "heb": "יְהוּדָה",
+            "lemma": "3063",
+            "morph": "HNp"
+          },
+          {
+            "heb": "קֹדֶשׁ",
+            "lemma": "6944",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "אָהֵב",
+            "lemma": "157",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "וּבָעַל",
+            "lemma": "1166",
+            "morph": "HC/Vqp3ms"
+          },
+          {
+            "heb": "בַּת",
+            "lemma": "1323",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "אֵל",
+            "lemma": "410",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "נֵכָֽר",
+            "lemma": "5236",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Malachi 2:12",
+        "words": [
+          {
+            "heb": "יַכְרֵת",
+            "lemma": "3772",
+            "morph": "HVhj3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לָאִישׁ",
+            "lemma": "376",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "יַעֲשֶׂנָּה",
+            "lemma": "6213 a",
+            "morph": "HVqi3ms/Sn"
+          },
+          {
+            "heb": "עֵר",
+            "lemma": "5782",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "וְעֹנֶה",
+            "lemma": "6030 b",
+            "morph": "HC/Vqrmsa"
+          },
+          {
+            "heb": "מֵאָהֳלֵי",
+            "lemma": "168",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "יַֽעֲקֹב",
+            "lemma": "3290",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּמַגִּישׁ",
+            "lemma": "5066",
+            "morph": "HC/Vhrmsa"
+          },
+          {
+            "heb": "מִנְחָה",
+            "lemma": "4503",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "לַֽיהוָה",
+            "lemma": "3068",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "צְבָאֽוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Malachi 2:13",
+        "words": [
+          {
+            "heb": "וְזֹאת",
+            "lemma": "2063",
+            "morph": "HC/Pdxfs"
+          },
+          {
+            "heb": "שֵׁנִית",
+            "lemma": "8145",
+            "morph": "HAofsa"
+          },
+          {
+            "heb": "תַּֽעֲשׂוּ",
+            "lemma": "6213 a",
+            "morph": "HVqi2mp"
+          },
+          {
+            "heb": "כַּסּוֹת",
+            "lemma": "3680",
+            "morph": "HVpc"
+          },
+          {
+            "heb": "דִּמְעָה",
+            "lemma": "1832",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "מִזְבַּח",
+            "lemma": "4196",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בְּכִי",
+            "lemma": "1065",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וַֽאֲנָקָה",
+            "lemma": "603",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "מֵאֵין",
+            "lemma": "369",
+            "morph": "HR/Tn"
+          },
+          {
+            "heb": "עוֹד",
+            "lemma": "5750",
+            "morph": "HD"
+          },
+          {
+            "heb": "פְּנוֹת",
+            "lemma": "6437",
+            "morph": "HVqc"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַמִּנְחָה",
+            "lemma": "4503",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "וְלָקַחַת",
+            "lemma": "3947",
+            "morph": "HC/R/Vqc"
+          },
+          {
+            "heb": "רָצוֹן",
+            "lemma": "7522",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מִיֶּדְכֶֽם",
+            "lemma": "3027",
+            "morph": "HR/Ncbsc/Sp2mp"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Malachi 2:14",
+        "words": [
+          {
+            "heb": "וַאֲמַרְתֶּם",
+            "lemma": "559",
+            "morph": "HC/Vqq2mp"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "מָה",
+            "lemma": "4100",
+            "morph": "HTi"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הֵעִיד",
+            "lemma": "5749 b",
+            "morph": "HVhp3ms"
+          },
+          {
+            "heb": "בֵּינְךָ",
+            "lemma": "996",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "וּבֵין",
+            "lemma": "996",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "אֵשֶׁת",
+            "lemma": "802",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "נְעוּרֶיךָ",
+            "lemma": "5271 a",
+            "morph": "HNcbpc/Sp2ms"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "אַתָּה",
+            "lemma": "859 a",
+            "morph": "HPp2ms"
+          },
+          {
+            "heb": "בָּגַדְתָּה",
+            "lemma": "898",
+            "morph": "HVqp2ms"
+          },
+          {
+            "heb": "בָּהּ",
+            "lemma": "b",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "וְהִיא",
+            "lemma": "1931",
+            "morph": "HC/Pp3fs"
+          },
+          {
+            "heb": "חֲבֶרְתְּךָ",
+            "lemma": "2278",
+            "morph": "HNcfsc/Sp2ms"
+          },
+          {
+            "heb": "וְאֵשֶׁת",
+            "lemma": "802",
+            "morph": "HC/Ncfsc"
+          },
+          {
+            "heb": "בְּרִיתֶֽךָ",
+            "lemma": "1285",
+            "morph": "HNcfsc/Sp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 15,
+        "ref": "Malachi 2:15",
+        "words": [
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "אֶחָד",
+            "lemma": "259",
+            "morph": "HAcmsa"
+          },
+          {
+            "heb": "עָשָׂה",
+            "lemma": "6213 a",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "וּשְׁאָר",
+            "lemma": "7605",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "רוּחַ",
+            "lemma": "7307",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "לוֹ",
+            "lemma": "l",
+            "morph": "HR/Sp3ms"
+          },
+          {
+            "heb": "וּמָה",
+            "lemma": "4100",
+            "morph": "HC/Ti"
+          },
+          {
+            "heb": "הָֽאֶחָד",
+            "lemma": "259",
+            "morph": "HTd/Acmsa"
+          },
+          {
+            "heb": "מְבַקֵּשׁ",
+            "lemma": "1245",
+            "morph": "HVprmsa"
+          },
+          {
+            "heb": "זֶרַע",
+            "lemma": "2233",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אֱלֹהִים",
+            "lemma": "430",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "וְנִשְׁמַרְתֶּם",
+            "lemma": "8104",
+            "morph": "HC/VNq2mp"
+          },
+          {
+            "heb": "בְּרוּחֲכֶם",
+            "lemma": "7307",
+            "morph": "HR/Ncbsc/Sp2mp"
+          },
+          {
+            "heb": "וּבְאֵשֶׁת",
+            "lemma": "802",
+            "morph": "HC/R/Ncfsc"
+          },
+          {
+            "heb": "נְעוּרֶיךָ",
+            "lemma": "5271 a",
+            "morph": "HNcbpc/Sp2ms"
+          },
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יִבְגֹּֽד",
+            "lemma": "898",
+            "morph": "HVqj3ms"
+          }
+        ]
+      },
+      {
+        "verse": 16,
+        "ref": "Malachi 2:16",
+        "words": [
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "שָׂנֵא",
+            "lemma": "8130",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "שַׁלַּח",
+            "lemma": "7971",
+            "morph": "HVpc"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֱלֹהֵי",
+            "lemma": "430",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "יִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְכִסָּה",
+            "lemma": "3680",
+            "morph": "HC/Vpq3ms"
+          },
+          {
+            "heb": "חָמָס",
+            "lemma": "2555",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "לְבוּשׁוֹ",
+            "lemma": "3830",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "וְנִשְׁמַרְתֶּם",
+            "lemma": "8104",
+            "morph": "HC/VNq2mp"
+          },
+          {
+            "heb": "בְּרוּחֲכֶם",
+            "lemma": "7307",
+            "morph": "HR/Ncbsc/Sp2mp"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תִבְגֹּֽדוּ",
+            "lemma": "898",
+            "morph": "HVqi2mp"
+          }
+        ]
+      },
+      {
+        "verse": 17,
+        "ref": "Malachi 2:17",
+        "words": [
+          {
+            "heb": "הוֹגַעְתֶּם",
+            "lemma": "3021",
+            "morph": "HVhp2mp"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בְּדִבְרֵיכֶם",
+            "lemma": "1697",
+            "morph": "HR/Ncmpc/Sp2mp"
+          },
+          {
+            "heb": "וַאֲמַרְתֶּם",
+            "lemma": "559",
+            "morph": "HC/Vqq2mp"
+          },
+          {
+            "heb": "בַּמָּה",
+            "lemma": "4100",
+            "morph": "HR/Ti"
+          },
+          {
+            "heb": "הוֹגָעְנוּ",
+            "lemma": "3021",
+            "morph": "HVhp1cp"
+          },
+          {
+            "heb": "בֶּאֱמָרְכֶם",
+            "lemma": "559",
+            "morph": "HR/Vqc/Sp2mp"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "עֹשֵׂה",
+            "lemma": "6213 a",
+            "morph": "HVqrmsc"
+          },
+          {
+            "heb": "רָע",
+            "lemma": "7451 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "טוֹב",
+            "lemma": "2896 a",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "בְּעֵינֵי",
+            "lemma": "5869 a",
+            "morph": "HR/Ncbdc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּבָהֶם",
+            "lemma": "b",
+            "morph": "HC/R/Sp3mp"
+          },
+          {
+            "heb": "הוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          },
+          {
+            "heb": "חָפֵץ",
+            "lemma": "2654 a",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "אוֹ",
+            "lemma": "176 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אַיֵּה",
+            "lemma": "346",
+            "morph": "HTi"
+          },
+          {
+            "heb": "אֱלֹהֵי",
+            "lemma": "430",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "הַמִּשְׁפָּֽט",
+            "lemma": "4941",
+            "morph": "HTd/Ncmsa"
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "verse": 1,
+        "ref": "Malachi 3:1",
+        "words": [
+          {
+            "heb": "הִנְנִי",
+            "lemma": "2005",
+            "morph": "HTm/Sp1cs"
+          },
+          {
+            "heb": "שֹׁלֵחַ",
+            "lemma": "7971",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "מַלְאָכִי",
+            "lemma": "4397",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "וּפִנָּה",
+            "lemma": "6437",
+            "morph": "HC/Vpq3ms"
+          },
+          {
+            "heb": "דֶרֶךְ",
+            "lemma": "1870",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "לְפָנָי",
+            "lemma": "6440",
+            "morph": "HR/Ncbpc/Sp1cs"
+          },
+          {
+            "heb": "וּפִתְאֹם",
+            "lemma": "6597",
+            "morph": "HC/D"
+          },
+          {
+            "heb": "יָבוֹא",
+            "lemma": "935",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "הֵיכָלוֹ",
+            "lemma": "1964",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "הָאָדוֹן",
+            "lemma": "113",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "אַתֶּם",
+            "lemma": "859 d",
+            "morph": "HPp2mp"
+          },
+          {
+            "heb": "מְבַקְשִׁים",
+            "lemma": "1245",
+            "morph": "HVprmpa"
+          },
+          {
+            "heb": "וּמַלְאַךְ",
+            "lemma": "4397",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "הַבְּרִית",
+            "lemma": "1285",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "אַתֶּם",
+            "lemma": "859 d",
+            "morph": "HPp2mp"
+          },
+          {
+            "heb": "חֲפֵצִים",
+            "lemma": "2655",
+            "morph": "HAampa"
+          },
+          {
+            "heb": "הִנֵּה",
+            "lemma": "2009",
+            "morph": "HTm"
+          },
+          {
+            "heb": "בָא",
+            "lemma": "935",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאֽוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Malachi 3:2",
+        "words": [
+          {
+            "heb": "וּמִי",
+            "lemma": "4310",
+            "morph": "HC/Ti"
+          },
+          {
+            "heb": "מְכַלְכֵּל",
+            "lemma": "3557",
+            "morph": "HVlrmsa"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "בּוֹאוֹ",
+            "lemma": "935",
+            "morph": "HVqc/Sp3ms"
+          },
+          {
+            "heb": "וּמִי",
+            "lemma": "4310",
+            "morph": "HC/Ti"
+          },
+          {
+            "heb": "הָעֹמֵד",
+            "lemma": "5975",
+            "morph": "HTd/Vqrmsa"
+          },
+          {
+            "heb": "בְּהֵרָֽאוֹתוֹ",
+            "lemma": "7200",
+            "morph": "HR/VNc/Sp3ms"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "הוּא",
+            "lemma": "1931",
+            "morph": "HPp3ms"
+          },
+          {
+            "heb": "כְּאֵשׁ",
+            "lemma": "784",
+            "morph": "HR/Ncbsa"
+          },
+          {
+            "heb": "מְצָרֵף",
+            "lemma": "6884",
+            "morph": "HVprmsa"
+          },
+          {
+            "heb": "וּכְבֹרִית",
+            "lemma": "1287",
+            "morph": "HC/R/Ncfsa"
+          },
+          {
+            "heb": "מְכַבְּסִֽים",
+            "lemma": "3526",
+            "morph": "HVprmpa"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Malachi 3:3",
+        "words": [
+          {
+            "heb": "וְיָשַׁב",
+            "lemma": "3427",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "מְצָרֵף",
+            "lemma": "6884",
+            "morph": "HVprmsa"
+          },
+          {
+            "heb": "וּמְטַהֵר",
+            "lemma": "2891",
+            "morph": "HC/Vprmsa"
+          },
+          {
+            "heb": "כֶּסֶף",
+            "lemma": "3701",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְטִהַר",
+            "lemma": "2891",
+            "morph": "HC/Vpq3ms"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "בְּנֵֽי",
+            "lemma": "1121 a",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "לֵוִי",
+            "lemma": "3878",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְזִקַּק",
+            "lemma": "2212",
+            "morph": "HC/Vpq3ms"
+          },
+          {
+            "heb": "אֹתָם",
+            "lemma": "853",
+            "morph": "HTo/Sp3mp"
+          },
+          {
+            "heb": "כַּזָּהָב",
+            "lemma": "2091",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "וְכַכָּסֶף",
+            "lemma": "3701",
+            "morph": "HC/Rd/Ncmsa"
+          },
+          {
+            "heb": "וְהָיוּ",
+            "lemma": "1961",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "לַֽיהוָה",
+            "lemma": "3068",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "מַגִּישֵׁי",
+            "lemma": "5066",
+            "morph": "HVhrmpc"
+          },
+          {
+            "heb": "מִנְחָה",
+            "lemma": "4503",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "בִּצְדָקָֽה",
+            "lemma": "6666",
+            "morph": "HR/Ncfsa"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Malachi 3:4",
+        "words": [
+          {
+            "heb": "וְעָֽרְבָה",
+            "lemma": "6149",
+            "morph": "HC/Vqq3fs"
+          },
+          {
+            "heb": "לַֽיהוָה",
+            "lemma": "3068",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "מִנְחַת",
+            "lemma": "4503",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "יְהוּדָה",
+            "lemma": "3063",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וִירֽוּשָׁלִָם",
+            "lemma": "3389",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "כִּימֵי",
+            "lemma": "3117",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "עוֹלָם",
+            "lemma": "5769",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וּכְשָׁנִים",
+            "lemma": "8141",
+            "morph": "HC/R/Ncfpa"
+          },
+          {
+            "heb": "קַדְמֹנִיּֽוֹת",
+            "lemma": "6931",
+            "morph": "HAafpa"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Malachi 3:5",
+        "words": [
+          {
+            "heb": "וְקָרַבְתִּי",
+            "lemma": "7126",
+            "morph": "HC/Vqq1cs"
+          },
+          {
+            "heb": "אֲלֵיכֶם",
+            "lemma": "413",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "לַמִּשְׁפָּט",
+            "lemma": "4941",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "וְהָיִיתִי",
+            "lemma": "1961",
+            "morph": "HC/Vqq1cs"
+          },
+          {
+            "heb": "עֵד",
+            "lemma": "5707",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מְמַהֵר",
+            "lemma": "4116 a",
+            "morph": "HVprmsa"
+          },
+          {
+            "heb": "בַּֽמְכַשְּׁפִים",
+            "lemma": "3784",
+            "morph": "HRd/Vprmpa"
+          },
+          {
+            "heb": "וּבַמְנָאֲפִים",
+            "lemma": "5003",
+            "morph": "HC/Rd/Vprmpa"
+          },
+          {
+            "heb": "וּבַנִּשְׁבָּעִים",
+            "lemma": "7650",
+            "morph": "HC/Rd/VNrmpa"
+          },
+          {
+            "heb": "לַשָּׁקֶר",
+            "lemma": "8267",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "וּבְעֹשְׁקֵי",
+            "lemma": "6231",
+            "morph": "HC/R/Vqrmpc"
+          },
+          {
+            "heb": "שְׂכַר",
+            "lemma": "7939",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "שָׂכִיר",
+            "lemma": "7916",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "אַלְמָנָה",
+            "lemma": "490",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וְיָתוֹם",
+            "lemma": "3490",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "וּמַטֵּי",
+            "lemma": "5186",
+            "morph": "HC/Vhrmpc"
+          },
+          {
+            "heb": "גֵר",
+            "lemma": "1616",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יְרֵאוּנִי",
+            "lemma": "3372",
+            "morph": "HVqp3cp/Sp1cs"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאֽוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Malachi 3:6",
+        "words": [
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אֲנִי",
+            "lemma": "589",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "שָׁנִיתִי",
+            "lemma": "8138 a",
+            "morph": "HVqp1cs"
+          },
+          {
+            "heb": "וְאַתֶּם",
+            "lemma": "859 d",
+            "morph": "HC/Pp2mp"
+          },
+          {
+            "heb": "בְּנֵֽי",
+            "lemma": "1121 a",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "יַעֲקֹב",
+            "lemma": "3290",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "כְלִיתֶֽם",
+            "lemma": "3615",
+            "morph": "HVqp2mp"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Malachi 3:7",
+        "words": [
+          {
+            "heb": "לְמִימֵי",
+            "lemma": "3117",
+            "morph": "HR/R/Ncmpc"
+          },
+          {
+            "heb": "אֲבֹתֵיכֶם",
+            "lemma": "1",
+            "morph": "HNcmpc/Sp2mp"
+          },
+          {
+            "heb": "סַרְתֶּם",
+            "lemma": "5493",
+            "morph": "HVqp2mp"
+          },
+          {
+            "heb": "מֵֽחֻקַּי",
+            "lemma": "2706",
+            "morph": "HR/Ncmpc/Sp1cs"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "שְׁמַרְתֶּם",
+            "lemma": "8104",
+            "morph": "HVqp2mp"
+          },
+          {
+            "heb": "שׁוּבוּ",
+            "lemma": "7725",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "אֵלַי",
+            "lemma": "413",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "וְאָשׁוּבָה",
+            "lemma": "7725",
+            "morph": "HC/Vqh1cs"
+          },
+          {
+            "heb": "אֲלֵיכֶם",
+            "lemma": "413",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "וַאֲמַרְתֶּם",
+            "lemma": "559",
+            "morph": "HC/Vqq2mp"
+          },
+          {
+            "heb": "בַּמֶּה",
+            "lemma": "4100",
+            "morph": "HR/Ti"
+          },
+          {
+            "heb": "נָשֽׁוּב",
+            "lemma": "7725",
+            "morph": "HVqi1cp"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Malachi 3:8",
+        "words": [
+          {
+            "heb": "הֲיִקְבַּע",
+            "lemma": "6906",
+            "morph": "HTi/Vqi3ms"
+          },
+          {
+            "heb": "אָדָם",
+            "lemma": "120",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֱלֹהִים",
+            "lemma": "430",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "אַתֶּם",
+            "lemma": "859 d",
+            "morph": "HPp2mp"
+          },
+          {
+            "heb": "קֹבְעִים",
+            "lemma": "6906",
+            "morph": "HVqrmpa"
+          },
+          {
+            "heb": "אֹתִי",
+            "lemma": "853",
+            "morph": "HTo/Sp1cs"
+          },
+          {
+            "heb": "וַאֲמַרְתֶּם",
+            "lemma": "559",
+            "morph": "HC/Vqq2mp"
+          },
+          {
+            "heb": "בַּמֶּה",
+            "lemma": "4100",
+            "morph": "HR/Ti"
+          },
+          {
+            "heb": "קְבַעֲנוּךָ",
+            "lemma": "6906",
+            "morph": "HVqp1cp/Sp2ms"
+          },
+          {
+            "heb": "הַֽמַּעֲשֵׂר",
+            "lemma": "4643",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וְהַתְּרוּמָֽה",
+            "lemma": "8641",
+            "morph": "HC/Td/Ncfsa"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Malachi 3:9",
+        "words": [
+          {
+            "heb": "בַּמְּאֵרָה",
+            "lemma": "3994",
+            "morph": "HRd/Ncfsa"
+          },
+          {
+            "heb": "אַתֶּם",
+            "lemma": "859 d",
+            "morph": "HPp2mp"
+          },
+          {
+            "heb": "נֵֽאָרִים",
+            "lemma": "779",
+            "morph": "HVNsmpa"
+          },
+          {
+            "heb": "וְאֹתִי",
+            "lemma": "853",
+            "morph": "HC/To/Sp1cs"
+          },
+          {
+            "heb": "אַתֶּם",
+            "lemma": "859 d",
+            "morph": "HPp2mp"
+          },
+          {
+            "heb": "קֹבְעִים",
+            "lemma": "6906",
+            "morph": "HVqrmpa"
+          },
+          {
+            "heb": "הַגּוֹי",
+            "lemma": "1471 a",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "כֻּלּֽוֹ",
+            "lemma": "3605",
+            "morph": "HNcmsc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Malachi 3:10",
+        "words": [
+          {
+            "heb": "הָבִיאוּ",
+            "lemma": "935",
+            "morph": "HVhv2mp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַֽמַּעֲשֵׂר",
+            "lemma": "4643",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "אֶל",
+            "lemma": "413",
+            "morph": "HR"
+          },
+          {
+            "heb": "בֵּית",
+            "lemma": "1004 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הָאוֹצָר",
+            "lemma": "214",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "וִיהִי",
+            "lemma": "1961",
+            "morph": "HC/Vqj3ms"
+          },
+          {
+            "heb": "טֶרֶף",
+            "lemma": "2964",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "בְּבֵיתִי",
+            "lemma": "1004 b",
+            "morph": "HR/Ncmsc/Sp1cs"
+          },
+          {
+            "heb": "וּבְחָנוּנִי",
+            "lemma": "974",
+            "morph": "HC/Vqv2mp/Sp1cs"
+          },
+          {
+            "heb": "נָא",
+            "lemma": "4994",
+            "morph": "HTe"
+          },
+          {
+            "heb": "בָּזֹאת",
+            "lemma": "2063",
+            "morph": "HR/Pdxfs"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "אִם",
+            "lemma": "518 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "אֶפְתַּח",
+            "lemma": "6605 a",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "לָכֶם",
+            "lemma": "l",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "אֵת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "אֲרֻבּוֹת",
+            "lemma": "699",
+            "morph": "HNcfpc"
+          },
+          {
+            "heb": "הַשָּׁמַיִם",
+            "lemma": "8064",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "וַהֲרִיקֹתִי",
+            "lemma": "7324",
+            "morph": "HC/Vhq1cs"
+          },
+          {
+            "heb": "לָכֶם",
+            "lemma": "l",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "בְּרָכָה",
+            "lemma": "1293",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "בְּלִי",
+            "lemma": "1097",
+            "morph": "HTn"
+          },
+          {
+            "heb": "דָֽי",
+            "lemma": "1767",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Malachi 3:11",
+        "words": [
+          {
+            "heb": "וְגָעַרְתִּי",
+            "lemma": "1605",
+            "morph": "HC/Vqq1cs"
+          },
+          {
+            "heb": "לָכֶם",
+            "lemma": "l",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "בָּֽאֹכֵל",
+            "lemma": "398",
+            "morph": "HRd/Vqrmsa"
+          },
+          {
+            "heb": "וְלֹֽא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יַשְׁחִת",
+            "lemma": "7843",
+            "morph": "HVhi3ms"
+          },
+          {
+            "heb": "לָכֶם",
+            "lemma": "l",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "פְּרִי",
+            "lemma": "6529",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הָאֲדָמָה",
+            "lemma": "127",
+            "morph": "HTd/Ncfsa"
+          },
+          {
+            "heb": "וְלֹא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תְשַׁכֵּל",
+            "lemma": "7921 a",
+            "morph": "HVpi3fs"
+          },
+          {
+            "heb": "לָכֶם",
+            "lemma": "l",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "הַגֶּפֶן",
+            "lemma": "1612",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "בַּשָּׂדֶה",
+            "lemma": "7704 b",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאֽוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Malachi 3:12",
+        "words": [
+          {
+            "heb": "וְאִשְּׁרוּ",
+            "lemma": "833",
+            "morph": "HC/Vpq3cp"
+          },
+          {
+            "heb": "אֶתְכֶם",
+            "lemma": "853",
+            "morph": "HTo/Sp2mp"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַגּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "תִהְיוּ",
+            "lemma": "1961",
+            "morph": "HVqi2mp"
+          },
+          {
+            "heb": "אַתֶּם",
+            "lemma": "859 d",
+            "morph": "HPp2mp"
+          },
+          {
+            "heb": "אֶרֶץ",
+            "lemma": "776",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "חֵפֶץ",
+            "lemma": "2656",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאֽוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Malachi 3:13",
+        "words": [
+          {
+            "heb": "חָזְקוּ",
+            "lemma": "2388",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "עָלַי",
+            "lemma": "5921 a",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "דִּבְרֵיכֶם",
+            "lemma": "1697",
+            "morph": "HNcmpc/Sp2mp"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַאֲמַרְתֶּם",
+            "lemma": "559",
+            "morph": "HC/Vqq2mp"
+          },
+          {
+            "heb": "מַה",
+            "lemma": "4100",
+            "morph": "HTi"
+          },
+          {
+            "heb": "נִּדְבַּרְנוּ",
+            "lemma": "1696",
+            "morph": "HVNp1cp"
+          },
+          {
+            "heb": "עָלֶֽיךָ",
+            "lemma": "5921 a",
+            "morph": "HR/Sp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Malachi 3:14",
+        "words": [
+          {
+            "heb": "אֲמַרְתֶּם",
+            "lemma": "559",
+            "morph": "HVqp2mp"
+          },
+          {
+            "heb": "שָׁוְא",
+            "lemma": "7723",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "עֲבֹד",
+            "lemma": "5647",
+            "morph": "HVqc"
+          },
+          {
+            "heb": "אֱלֹהִים",
+            "lemma": "430",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "וּמַה",
+            "lemma": "4100",
+            "morph": "HC/Ti"
+          },
+          {
+            "heb": "בֶּצַע",
+            "lemma": "1215",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "שָׁמַרְנוּ",
+            "lemma": "8104",
+            "morph": "HVqp1cp"
+          },
+          {
+            "heb": "מִשְׁמַרְתּוֹ",
+            "lemma": "4931",
+            "morph": "HNcfsc/Sp3ms"
+          },
+          {
+            "heb": "וְכִי",
+            "lemma": "3588 a",
+            "morph": "HC/C"
+          },
+          {
+            "heb": "הָלַכְנוּ",
+            "lemma": "1980",
+            "morph": "HVqp1cp"
+          },
+          {
+            "heb": "קְדֹרַנִּית",
+            "lemma": "6941",
+            "morph": "HD"
+          },
+          {
+            "heb": "מִפְּנֵי",
+            "lemma": "6440",
+            "morph": "HR/Ncbpc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאֽוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          }
+        ]
+      },
+      {
+        "verse": 15,
+        "ref": "Malachi 3:15",
+        "words": [
+          {
+            "heb": "וְעַתָּה",
+            "lemma": "6258",
+            "morph": "HC/D"
+          },
+          {
+            "heb": "אֲנַחְנוּ",
+            "lemma": "587",
+            "morph": "HPp1cp"
+          },
+          {
+            "heb": "מְאַשְּׁרִים",
+            "lemma": "833",
+            "morph": "HVprmpa"
+          },
+          {
+            "heb": "זֵדִים",
+            "lemma": "2086",
+            "morph": "HAampa"
+          },
+          {
+            "heb": "גַּם",
+            "lemma": "1571",
+            "morph": "HTa"
+          },
+          {
+            "heb": "נִבְנוּ",
+            "lemma": "1129",
+            "morph": "HVNp3cp"
+          },
+          {
+            "heb": "עֹשֵׂי",
+            "lemma": "6213 a",
+            "morph": "HVqrmpc"
+          },
+          {
+            "heb": "רִשְׁעָה",
+            "lemma": "7564",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "גַּם",
+            "lemma": "1571",
+            "morph": "HTa"
+          },
+          {
+            "heb": "בָּחֲנוּ",
+            "lemma": "974",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "אֱלֹהִים",
+            "lemma": "430",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "וַיִּמָּלֵֽטוּ",
+            "lemma": "4422",
+            "morph": "HC/VNw3mp"
+          }
+        ]
+      },
+      {
+        "verse": 16,
+        "ref": "Malachi 3:16",
+        "words": [
+          {
+            "heb": "אָז",
+            "lemma": "227 a",
+            "morph": "HD"
+          },
+          {
+            "heb": "נִדְבְּרוּ",
+            "lemma": "1696",
+            "morph": "HVNp3cp"
+          },
+          {
+            "heb": "יִרְאֵי",
+            "lemma": "3372",
+            "morph": "HAampc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אִישׁ",
+            "lemma": "376",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "854",
+            "morph": "HR"
+          },
+          {
+            "heb": "רֵעֵהוּ",
+            "lemma": "7453",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "וַיַּקְשֵׁב",
+            "lemma": "7181",
+            "morph": "HC/Vhw3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וַיִּשְׁמָע",
+            "lemma": "8085",
+            "morph": "HC/Vqw3ms"
+          },
+          {
+            "heb": "וַיִּכָּתֵב",
+            "lemma": "3789",
+            "morph": "HC/VNw3ms"
+          },
+          {
+            "heb": "סֵפֶר",
+            "lemma": "5612 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "זִכָּרוֹן",
+            "lemma": "2146",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "לְפָנָיו",
+            "lemma": "6440",
+            "morph": "HR/Ncbpc/Sp3ms"
+          },
+          {
+            "heb": "לְיִרְאֵי",
+            "lemma": "3372",
+            "morph": "HR/Aampc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּלְחֹשְׁבֵי",
+            "lemma": "2803",
+            "morph": "HC/R/Vqrmpc"
+          },
+          {
+            "heb": "שְׁמֽוֹ",
+            "lemma": "8034",
+            "morph": "HNcmsc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 17,
+        "ref": "Malachi 3:17",
+        "words": [
+          {
+            "heb": "וְהָיוּ",
+            "lemma": "1961",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "לִי",
+            "lemma": "l",
+            "morph": "HR/Sp1cs"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "לַיּוֹם",
+            "lemma": "3117",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "אֲנִי",
+            "lemma": "589",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "עֹשֶׂה",
+            "lemma": "6213 a",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "סְגֻלָּה",
+            "lemma": "5459",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וְחָמַלְתִּי",
+            "lemma": "2550",
+            "morph": "HC/Vqq1cs"
+          },
+          {
+            "heb": "עֲלֵיהֶם",
+            "lemma": "5921 a",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "כַּֽאֲשֶׁר",
+            "lemma": "834 d",
+            "morph": "HR/Tr"
+          },
+          {
+            "heb": "יַחְמֹל",
+            "lemma": "2550",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "אִישׁ",
+            "lemma": "376",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "בְּנוֹ",
+            "lemma": "1121 a",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "הָעֹבֵד",
+            "lemma": "5647",
+            "morph": "HTd/Vqrmsa"
+          },
+          {
+            "heb": "אֹתֽוֹ",
+            "lemma": "853",
+            "morph": "HTo/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 18,
+        "ref": "Malachi 3:18",
+        "words": [
+          {
+            "heb": "וְשַׁבְתֶּם",
+            "lemma": "7725",
+            "morph": "HC/Vqq2mp"
+          },
+          {
+            "heb": "וּרְאִיתֶם",
+            "lemma": "7200",
+            "morph": "HC/Vqq2mp"
+          },
+          {
+            "heb": "בֵּין",
+            "lemma": "996",
+            "morph": "HR"
+          },
+          {
+            "heb": "צַדִּיק",
+            "lemma": "6662",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "לְרָשָׁע",
+            "lemma": "7563",
+            "morph": "HR/Aamsa"
+          },
+          {
+            "heb": "בֵּין",
+            "lemma": "996",
+            "morph": "HR"
+          },
+          {
+            "heb": "עֹבֵד",
+            "lemma": "5647",
+            "morph": "HVqrmsc"
+          },
+          {
+            "heb": "אֱלֹהִים",
+            "lemma": "430",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "לַאֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HR/Tr"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "עֲבָדֽוֹ",
+            "lemma": "5647",
+            "morph": "HVqp3ms/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 19,
+        "ref": "Malachi 3:19",
+        "words": [
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "הִנֵּה",
+            "lemma": "2009",
+            "morph": "HTm"
+          },
+          {
+            "heb": "הַיּוֹם",
+            "lemma": "3117",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "בָּא",
+            "lemma": "935",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "בֹּעֵר",
+            "lemma": "1197 a",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "כַּתַּנּוּר",
+            "lemma": "8574",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "וְהָיוּ",
+            "lemma": "1961",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "כָל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "זֵדִים",
+            "lemma": "2086",
+            "morph": "HAampa"
+          },
+          {
+            "heb": "וְכָל",
+            "lemma": "3605",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "עֹשֵׂה",
+            "lemma": "6213 a",
+            "morph": "HVqrmsc"
+          },
+          {
+            "heb": "רִשְׁעָה",
+            "lemma": "7564",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "קַשׁ",
+            "lemma": "7179",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְלִהַט",
+            "lemma": "3857",
+            "morph": "HC/Vpp3ms"
+          },
+          {
+            "heb": "אֹתָם",
+            "lemma": "853",
+            "morph": "HTo/Sp3mp"
+          },
+          {
+            "heb": "הַיּוֹם",
+            "lemma": "3117",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "הַבָּא",
+            "lemma": "935",
+            "morph": "HTd/Vqrmsa"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "לֹא",
+            "lemma": "3808",
+            "morph": "HTn"
+          },
+          {
+            "heb": "יַעֲזֹב",
+            "lemma": "5800 a",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "לָהֶם",
+            "lemma": "l",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "שֹׁרֶשׁ",
+            "lemma": "8328",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְעָנָֽף",
+            "lemma": "6057",
+            "morph": "HC/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 20,
+        "ref": "Malachi 3:20",
+        "words": [
+          {
+            "heb": "וְזָרְחָה",
+            "lemma": "2224",
+            "morph": "HC/Vqq3fs"
+          },
+          {
+            "heb": "לָכֶם",
+            "lemma": "l",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "יִרְאֵי",
+            "lemma": "3373",
+            "morph": "HAampc"
+          },
+          {
+            "heb": "שְׁמִי",
+            "lemma": "8034",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "שֶׁמֶשׁ",
+            "lemma": "8121",
+            "morph": "HNcbsc"
+          },
+          {
+            "heb": "צְדָקָה",
+            "lemma": "6666",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וּמַרְפֵּא",
+            "lemma": "4832",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "בִּכְנָפֶיהָ",
+            "lemma": "3671",
+            "morph": "HR/Ncfdc/Sp3fs"
+          },
+          {
+            "heb": "וִֽיצָאתֶם",
+            "lemma": "3318",
+            "morph": "HC/Vqq2mp"
+          },
+          {
+            "heb": "וּפִשְׁתֶּם",
+            "lemma": "6335 a",
+            "morph": "HC/Vqq2mp"
+          },
+          {
+            "heb": "כְּעֶגְלֵי",
+            "lemma": "5695",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "מַרְבֵּֽק",
+            "lemma": "4770",
+            "morph": "HNcmsa"
+          }
+        ]
+      },
+      {
+        "verse": 21,
+        "ref": "Malachi 3:21",
+        "words": [
+          {
+            "heb": "וְעַסּוֹתֶם",
+            "lemma": "6072",
+            "morph": "HC/Vqq2mp"
+          },
+          {
+            "heb": "רְשָׁעִים",
+            "lemma": "7563",
+            "morph": "HAampa"
+          },
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "יִהְיוּ",
+            "lemma": "1961",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "אֵפֶר",
+            "lemma": "665",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "תַּחַת",
+            "lemma": "8478",
+            "morph": "HR"
+          },
+          {
+            "heb": "כַּפּוֹת",
+            "lemma": "3709",
+            "morph": "HNcfpc"
+          },
+          {
+            "heb": "רַגְלֵיכֶם",
+            "lemma": "7272",
+            "morph": "HNcfdc/Sp2mp"
+          },
+          {
+            "heb": "בַּיּוֹם",
+            "lemma": "3117",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "אֲנִי",
+            "lemma": "589",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "עֹשֶׂה",
+            "lemma": "6213 a",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "צְבָאֽוֹת",
+            "lemma": "6635 b",
+            "morph": "HNcbpa"
+          }
+        ]
+      },
+      {
+        "verse": 22,
+        "ref": "Malachi 3:22",
+        "words": [
+          {
+            "heb": "זִכְרוּ",
+            "lemma": "2142",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "תּוֹרַת",
+            "lemma": "8451",
+            "morph": "HNcfsc"
+          },
+          {
+            "heb": "מֹשֶׁה",
+            "lemma": "4872",
+            "morph": "HNp"
+          },
+          {
+            "heb": "עַבְדִּי",
+            "lemma": "5650",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "צִוִּיתִי",
+            "lemma": "6680",
+            "morph": "HVpp1cs"
+          },
+          {
+            "heb": "אוֹתוֹ",
+            "lemma": "853",
+            "morph": "HTo/Sp3ms"
+          },
+          {
+            "heb": "בְחֹרֵב",
+            "lemma": "2722",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HNp"
+          },
+          {
+            "heb": "חֻקִּים",
+            "lemma": "2706",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "וּמִשְׁפָּטִֽים",
+            "lemma": "4941",
+            "morph": "HC/Ncmpa"
+          }
+        ]
+      },
+      {
+        "verse": 23,
+        "ref": "Malachi 3:23",
+        "words": [
+          {
+            "heb": "הִנֵּה",
+            "lemma": "2009",
+            "morph": "HTm"
+          },
+          {
+            "heb": "אָֽנֹכִי",
+            "lemma": "595",
+            "morph": "HPp1cs"
+          },
+          {
+            "heb": "שֹׁלֵחַ",
+            "lemma": "7971",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "לָכֶם",
+            "lemma": "l",
+            "morph": "HR/Sp2mp"
+          },
+          {
+            "heb": "אֵת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "אֵלִיָּה",
+            "lemma": "452",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הַנָּבִיא",
+            "lemma": "5030",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "לִפְנֵי",
+            "lemma": "6440",
+            "morph": "HR/Ncbpc"
+          },
+          {
+            "heb": "בּוֹא",
+            "lemma": "935",
+            "morph": "HVqc"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "הַגָּדוֹל",
+            "lemma": "1419 a",
+            "morph": "HTd/Aamsa"
+          },
+          {
+            "heb": "וְהַנּוֹרָֽא",
+            "lemma": "3372",
+            "morph": "HC/Td/VNrmsa"
+          }
+        ]
+      },
+      {
+        "verse": 24,
+        "ref": "Malachi 3:24",
+        "words": [
+          {
+            "heb": "וְהֵשִׁיב",
+            "lemma": "7725",
+            "morph": "HC/Vhq3ms"
+          },
+          {
+            "heb": "לֵב",
+            "lemma": "3820 a",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אָבוֹת",
+            "lemma": "1",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "בָּנִים",
+            "lemma": "1121 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "וְלֵב",
+            "lemma": "3820 a",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "בָּנִים",
+            "lemma": "1121 a",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "אֲבוֹתָם",
+            "lemma": "1",
+            "morph": "HNcmpc/Sp3mp"
+          },
+          {
+            "heb": "פֶּן",
+            "lemma": "6435",
+            "morph": "HC"
+          },
+          {
+            "heb": "אָבוֹא",
+            "lemma": "935",
+            "morph": "HVqi1cs"
+          },
+          {
+            "heb": "וְהִכֵּיתִי",
+            "lemma": "5221",
+            "morph": "HC/Vhq1cs"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הָאָרֶץ",
+            "lemma": "776",
+            "morph": "HTd/Ncbsa"
+          },
+          {
+            "heb": "חֵֽרֶם",
+            "lemma": "2764 a",
+            "morph": "HNcmsa"
+          }
+        ]
+      }
+    ]
+  }
+}

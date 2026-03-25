@@ -1,0 +1,1589 @@
+{
+  "name": "Obadiah",
+  "osisId": "Obad",
+  "chapters": {
+    "1": [
+      {
+        "verse": 1,
+        "ref": "Obadiah 1:1",
+        "words": [
+          {
+            "heb": "חֲזוֹן",
+            "lemma": "2377",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "עֹֽבַדְיָה",
+            "lemma": "5662",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כֹּֽה",
+            "lemma": "3541",
+            "morph": "HD"
+          },
+          {
+            "heb": "אָמַר",
+            "lemma": "559",
+            "morph": "HVqp3ms"
+          },
+          {
+            "heb": "אֲדֹנָי",
+            "lemma": "136",
+            "morph": "HNcmpc/Sp1cs"
+          },
+          {
+            "heb": "יְהוִה",
+            "lemma": "3069",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לֶאֱדוֹם",
+            "lemma": "123",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "שְׁמוּעָה",
+            "lemma": "8052",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "שָׁמַעְנוּ",
+            "lemma": "8085",
+            "morph": "HVqp1cp"
+          },
+          {
+            "heb": "מֵאֵת",
+            "lemma": "854",
+            "morph": "HR/R"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְצִיר",
+            "lemma": "6735 a",
+            "morph": "HC/Ncmsa"
+          },
+          {
+            "heb": "בַּגּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "שֻׁלָּח",
+            "lemma": "7971",
+            "morph": "HVPp3ms"
+          },
+          {
+            "heb": "קוּמוּ",
+            "lemma": "6965 b",
+            "morph": "HVqv2mp"
+          },
+          {
+            "heb": "וְנָקוּמָה",
+            "lemma": "6965 b",
+            "morph": "HC/Vqh1cp"
+          },
+          {
+            "heb": "עָלֶיהָ",
+            "lemma": "5921 a",
+            "morph": "HR/Sp3fs"
+          },
+          {
+            "heb": "לַמִּלְחָמָֽה",
+            "lemma": "4421",
+            "morph": "HRd/Ncfsa"
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Obadiah 1:2",
+        "words": [
+          {
+            "heb": "הִנֵּה",
+            "lemma": "2009",
+            "morph": "HTm"
+          },
+          {
+            "heb": "קָטֹן",
+            "lemma": "6996 b",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "נְתַתִּיךָ",
+            "lemma": "5414",
+            "morph": "HVqp1cs/Sp2ms"
+          },
+          {
+            "heb": "בַּגּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HRd/Ncmpa"
+          },
+          {
+            "heb": "בָּזוּי",
+            "lemma": "959",
+            "morph": "HVqsmsa"
+          },
+          {
+            "heb": "אַתָּה",
+            "lemma": "859 a",
+            "morph": "HPp2ms"
+          },
+          {
+            "heb": "מְאֹֽד",
+            "lemma": "3966",
+            "morph": "HD"
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Obadiah 1:3",
+        "words": [
+          {
+            "heb": "זְדוֹן",
+            "lemma": "2087",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "לִבְּךָ",
+            "lemma": "3820 a",
+            "morph": "HNcmsc/Sp2ms"
+          },
+          {
+            "heb": "הִשִּׁיאֶךָ",
+            "lemma": "5377",
+            "morph": "HVhp3ms/Sp2ms"
+          },
+          {
+            "heb": "שֹׁכְנִי",
+            "lemma": "7931",
+            "morph": "HVqrmsc"
+          },
+          {
+            "heb": "בְחַגְוֵי",
+            "lemma": "2288",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "סֶּלַע",
+            "lemma": "5553",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מְרוֹם",
+            "lemma": "4791",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "שִׁבְתּוֹ",
+            "lemma": "7675",
+            "morph": "HNcfsc/Sp3ms"
+          },
+          {
+            "heb": "אֹמֵר",
+            "lemma": "559",
+            "morph": "HVqrmsa"
+          },
+          {
+            "heb": "בְּלִבּוֹ",
+            "lemma": "3820 a",
+            "morph": "HR/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "מִי",
+            "lemma": "4310",
+            "morph": "HTi"
+          },
+          {
+            "heb": "יוֹרִדֵנִי",
+            "lemma": "3381",
+            "morph": "HVhi3ms/Sp1cs"
+          },
+          {
+            "heb": "אָֽרֶץ",
+            "lemma": "776",
+            "morph": "HNcbsa"
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Obadiah 1:4",
+        "words": [
+          {
+            "heb": "אִם",
+            "lemma": "518 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "תַּגְבִּיהַּ",
+            "lemma": "1361",
+            "morph": "HVhi2ms"
+          },
+          {
+            "heb": "כַּנֶּשֶׁר",
+            "lemma": "5404",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "וְאִם",
+            "lemma": "518 a",
+            "morph": "HC/C"
+          },
+          {
+            "heb": "בֵּין",
+            "lemma": "996",
+            "morph": "HR"
+          },
+          {
+            "heb": "כּֽוֹכָבִים",
+            "lemma": "3556",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "שִׂים",
+            "lemma": "7760 a",
+            "morph": "HVqsmsa"
+          },
+          {
+            "heb": "קִנֶּךָ",
+            "lemma": "7064",
+            "morph": "HNcmsc/Sp2ms"
+          },
+          {
+            "heb": "מִשָּׁם",
+            "lemma": "8033",
+            "morph": "HR/D"
+          },
+          {
+            "heb": "אוֹרִֽידְךָ",
+            "lemma": "3381",
+            "morph": "HVhi1cs/Sp2ms"
+          },
+          {
+            "heb": "נְאֻם",
+            "lemma": "5002",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָֽה",
+            "lemma": "3068",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Obadiah 1:5",
+        "words": [
+          {
+            "heb": "אִם",
+            "lemma": "518 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "גַּנָּבִים",
+            "lemma": "1590",
+            "morph": "HNcmpa"
+          },
+          {
+            "heb": "בָּאֽוּ",
+            "lemma": "935",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "לְךָ",
+            "lemma": "l",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "אִם",
+            "lemma": "518 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "שׁוֹדְדֵי",
+            "lemma": "7703",
+            "morph": "HVqrmpc"
+          },
+          {
+            "heb": "לַיְלָה",
+            "lemma": "3915",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "אֵיךְ",
+            "lemma": "349 a",
+            "morph": "HTi"
+          },
+          {
+            "heb": "נִדְמֵיתָה",
+            "lemma": "1820",
+            "morph": "HVNp2ms"
+          },
+          {
+            "heb": "הֲלוֹא",
+            "lemma": "3808",
+            "morph": "HTi/Tn"
+          },
+          {
+            "heb": "יִגְנְבוּ",
+            "lemma": "1589",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "דַּיָּם",
+            "lemma": "1767",
+            "morph": "HNcmsc/Sp3mp"
+          },
+          {
+            "heb": "אִם",
+            "lemma": "518 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "בֹּֽצְרִים",
+            "lemma": "1219",
+            "morph": "HVqrmpa"
+          },
+          {
+            "heb": "בָּאוּ",
+            "lemma": "935",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "לָךְ",
+            "lemma": "l",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "הֲלוֹא",
+            "lemma": "3808",
+            "morph": "HTi/Tn"
+          },
+          {
+            "heb": "יַשְׁאִירוּ",
+            "lemma": "7604",
+            "morph": "HVhi3mp"
+          },
+          {
+            "heb": "עֹלֵלֽוֹת",
+            "lemma": "5955",
+            "morph": "HNcfpa"
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Obadiah 1:6",
+        "words": [
+          {
+            "heb": "אֵיךְ",
+            "lemma": "349 a",
+            "morph": "HTi"
+          },
+          {
+            "heb": "נֶחְפְּשׂוּ",
+            "lemma": "2664",
+            "morph": "HVNp3cp"
+          },
+          {
+            "heb": "עֵשָׂו",
+            "lemma": "6215",
+            "morph": "HNp"
+          },
+          {
+            "heb": "נִבְעוּ",
+            "lemma": "1158",
+            "morph": "HVNp3cp"
+          },
+          {
+            "heb": "מַצְפֻּנָֽיו",
+            "lemma": "4710",
+            "morph": "HNcmpc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Obadiah 1:7",
+        "words": [
+          {
+            "heb": "עַֽד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַגְּבוּל",
+            "lemma": "1366",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "שִׁלְּחוּךָ",
+            "lemma": "7971",
+            "morph": "HVpp3cp/Sp2ms"
+          },
+          {
+            "heb": "כֹּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אַנְשֵׁי",
+            "lemma": "376",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "בְרִיתֶךָ",
+            "lemma": "1285",
+            "morph": "HNcfsc/Sp2ms"
+          },
+          {
+            "heb": "הִשִּׁיאוּךָ",
+            "lemma": "5377",
+            "morph": "HVhp3cp/Sp2ms"
+          },
+          {
+            "heb": "יָכְלוּ",
+            "lemma": "3201",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "לְךָ",
+            "lemma": "l",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "אַנְשֵׁי",
+            "lemma": "376",
+            "morph": "HNcmpc"
+          },
+          {
+            "heb": "שְׁלֹמֶךָ",
+            "lemma": "7965",
+            "morph": "HNcmsc/Sp2ms"
+          },
+          {
+            "heb": "לַחְמְךָ",
+            "lemma": "3899",
+            "morph": "HNcbsc/Sp2ms"
+          },
+          {
+            "heb": "יָשִׂימוּ",
+            "lemma": "7760 a",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "מָזוֹר",
+            "lemma": "4204",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "תַּחְתֶּיךָ",
+            "lemma": "8478",
+            "morph": "HR/Sp2ms"
+          },
+          {
+            "heb": "אֵין",
+            "lemma": "369",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תְּבוּנָה",
+            "lemma": "8394",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "בּֽוֹ",
+            "lemma": "b",
+            "morph": "HR/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Obadiah 1:8",
+        "words": [
+          {
+            "heb": "הֲלוֹא",
+            "lemma": "3808",
+            "morph": "HTi/Tn"
+          },
+          {
+            "heb": "בַּיּוֹם",
+            "lemma": "3117",
+            "morph": "HRd/Ncmsa"
+          },
+          {
+            "heb": "הַהוּא",
+            "lemma": "1931",
+            "morph": "HTd/Pp3ms"
+          },
+          {
+            "heb": "נְאֻם",
+            "lemma": "5002",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְהַאֲבַדְתִּי",
+            "lemma": "6",
+            "morph": "HC/Vhq1cs"
+          },
+          {
+            "heb": "חֲכָמִים",
+            "lemma": "2450",
+            "morph": "HAampa"
+          },
+          {
+            "heb": "מֵֽאֱדוֹם",
+            "lemma": "123",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "וּתְבוּנָה",
+            "lemma": "8394",
+            "morph": "HC/Ncfsa"
+          },
+          {
+            "heb": "מֵהַר",
+            "lemma": "2022",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "עֵשָֽׂו",
+            "lemma": "6215",
+            "morph": "HNp"
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Obadiah 1:9",
+        "words": [
+          {
+            "heb": "וְחַתּוּ",
+            "lemma": "2865",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "גִבּוֹרֶיךָ",
+            "lemma": "1368",
+            "morph": "HAampc/Sp2ms"
+          },
+          {
+            "heb": "תֵּימָן",
+            "lemma": "8487",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לְמַעַן",
+            "lemma": "4616",
+            "morph": "HR"
+          },
+          {
+            "heb": "יִכָּֽרֶת",
+            "lemma": "3772",
+            "morph": "HVNi3ms"
+          },
+          {
+            "heb": "אִישׁ",
+            "lemma": "376",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "מֵהַר",
+            "lemma": "2022",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "עֵשָׂו",
+            "lemma": "6215",
+            "morph": "HNp"
+          },
+          {
+            "heb": "מִקָּֽטֶל",
+            "lemma": "6993",
+            "morph": "HR/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Obadiah 1:10",
+        "words": [
+          {
+            "heb": "מֵחֲמַס",
+            "lemma": "2555",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "אָחִיךָ",
+            "lemma": "251",
+            "morph": "HNcmsc/Sp2ms"
+          },
+          {
+            "heb": "יַעֲקֹב",
+            "lemma": "3290",
+            "morph": "HNp"
+          },
+          {
+            "heb": "תְּכַסְּךָ",
+            "lemma": "3680",
+            "morph": "HVpi3fs/Sp2ms"
+          },
+          {
+            "heb": "בוּשָׁה",
+            "lemma": "955",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וְנִכְרַתָּ",
+            "lemma": "3772",
+            "morph": "HC/VNq2ms"
+          },
+          {
+            "heb": "לְעוֹלָֽם",
+            "lemma": "5769",
+            "morph": "HR/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Obadiah 1:11",
+        "words": [
+          {
+            "heb": "בְּיוֹם",
+            "lemma": "3117",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "עֲמָֽדְךָ",
+            "lemma": "5975",
+            "morph": "HVqc/Sp2ms"
+          },
+          {
+            "heb": "מִנֶּגֶד",
+            "lemma": "5048",
+            "morph": "HR/R"
+          },
+          {
+            "heb": "בְּיוֹם",
+            "lemma": "3117",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "שְׁבוֹת",
+            "lemma": "7617",
+            "morph": "HVqc"
+          },
+          {
+            "heb": "זָרִים",
+            "lemma": "2114 a",
+            "morph": "HAampa"
+          },
+          {
+            "heb": "חֵילוֹ",
+            "lemma": "2428",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "וְנָכְרִים",
+            "lemma": "5237",
+            "morph": "HC/Aampa"
+          },
+          {
+            "heb": "בָּאוּ",
+            "lemma": "935",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "שְׁעָרָיו",
+            "lemma": "8179",
+            "morph": "HNcmpc/Sp3ms"
+          },
+          {
+            "heb": "וְעַל",
+            "lemma": "5921 a",
+            "morph": "HC/R"
+          },
+          {
+            "heb": "יְרוּשָׁלִַם",
+            "lemma": "3389",
+            "morph": "HNp"
+          },
+          {
+            "heb": "יַדּוּ",
+            "lemma": "3032",
+            "morph": "HVqp3cp"
+          },
+          {
+            "heb": "גוֹרָל",
+            "lemma": "1486",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "גַּם",
+            "lemma": "1571",
+            "morph": "HTa"
+          },
+          {
+            "heb": "אַתָּה",
+            "lemma": "859 a",
+            "morph": "HPp2ms"
+          },
+          {
+            "heb": "כְּאַחַד",
+            "lemma": "259",
+            "morph": "HR/Acmsc"
+          },
+          {
+            "heb": "מֵהֶֽם",
+            "lemma": "m",
+            "morph": "HR/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Obadiah 1:12",
+        "words": [
+          {
+            "heb": "וְאַל",
+            "lemma": "408",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תֵּרֶא",
+            "lemma": "7200",
+            "morph": "HVqj2ms"
+          },
+          {
+            "heb": "בְיוֹם",
+            "lemma": "3117",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "אָחִיךָ",
+            "lemma": "251",
+            "morph": "HNcmsc/Sp2ms"
+          },
+          {
+            "heb": "בְּיוֹם",
+            "lemma": "3117",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "נָכְרוֹ",
+            "lemma": "5235",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "וְאַל",
+            "lemma": "408",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תִּשְׂמַח",
+            "lemma": "8055",
+            "morph": "HVqj2ms"
+          },
+          {
+            "heb": "לִבְנֵֽי",
+            "lemma": "1121 a",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "יְהוּדָה",
+            "lemma": "3063",
+            "morph": "HNp"
+          },
+          {
+            "heb": "בְּיוֹם",
+            "lemma": "3117",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "אָבְדָם",
+            "lemma": "6",
+            "morph": "HVqc/Sp3mp"
+          },
+          {
+            "heb": "וְאַל",
+            "lemma": "408",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תַּגְדֵּל",
+            "lemma": "1431",
+            "morph": "HVhj2ms"
+          },
+          {
+            "heb": "פִּיךָ",
+            "lemma": "6310",
+            "morph": "HNcmsc/Sp2ms"
+          },
+          {
+            "heb": "בְּיוֹם",
+            "lemma": "3117",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "צָרָֽה",
+            "lemma": "6869 b",
+            "morph": "HNcfsa"
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Obadiah 1:13",
+        "words": [
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תָּבוֹא",
+            "lemma": "935",
+            "morph": "HVqj2ms"
+          },
+          {
+            "heb": "בְשַֽׁעַר",
+            "lemma": "8179",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "עַמִּי",
+            "lemma": "5971 a",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "בְּיוֹם",
+            "lemma": "3117",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "אֵידָם",
+            "lemma": "343",
+            "morph": "HNcmsc/Sp3mp"
+          },
+          {
+            "heb": "אַל",
+            "lemma": "408",
+            "morph": "HTn"
+          },
+          {
+            "heb": "תֵּרֶא",
+            "lemma": "7200",
+            "morph": "HVqj2ms"
+          },
+          {
+            "heb": "גַם",
+            "lemma": "1571",
+            "morph": "HD"
+          },
+          {
+            "heb": "אַתָּה",
+            "lemma": "859 a",
+            "morph": "HPp2ms"
+          },
+          {
+            "heb": "בְּרָעָתוֹ",
+            "lemma": "7451 c",
+            "morph": "HR/Ncfsc/Sp3ms"
+          },
+          {
+            "heb": "בְּיוֹם",
+            "lemma": "3117",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "אֵידוֹ",
+            "lemma": "343",
+            "morph": "HNcmsc/Sp3ms"
+          },
+          {
+            "heb": "וְאַל",
+            "lemma": "408",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תִּשְׁלַחְנָה",
+            "lemma": "7971",
+            "morph": "HVqj2fp"
+          },
+          {
+            "heb": "בְחֵילוֹ",
+            "lemma": "2428",
+            "morph": "HR/Ncmsc/Sp3ms"
+          },
+          {
+            "heb": "בְּיוֹם",
+            "lemma": "3117",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "אֵידֽוֹ",
+            "lemma": "343",
+            "morph": "HNcmsc/Sp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Obadiah 1:14",
+        "words": [
+          {
+            "heb": "וְאַֽל",
+            "lemma": "408",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תַּעֲמֹד",
+            "lemma": "5975",
+            "morph": "HVqj2ms"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַפֶּרֶק",
+            "lemma": "6563",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "לְהַכְרִית",
+            "lemma": "3772",
+            "morph": "HR/Vhc"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "פְּלִיטָיו",
+            "lemma": "6412 a",
+            "morph": "HNcmpc/Sp3ms"
+          },
+          {
+            "heb": "וְאַל",
+            "lemma": "408",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "תַּסְגֵּר",
+            "lemma": "5462",
+            "morph": "HVhj2ms"
+          },
+          {
+            "heb": "שְׂרִידָיו",
+            "lemma": "8300",
+            "morph": "HNcmpc/Sp3ms"
+          },
+          {
+            "heb": "בְּיוֹם",
+            "lemma": "3117",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "צָרָֽה",
+            "lemma": "6869 b",
+            "morph": "HNcfsa"
+          }
+        ]
+      },
+      {
+        "verse": 15,
+        "ref": "Obadiah 1:15",
+        "words": [
+          {
+            "heb": "כִּֽי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "קָרוֹב",
+            "lemma": "7138",
+            "morph": "HAamsa"
+          },
+          {
+            "heb": "יוֹם",
+            "lemma": "3117",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "כָּל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַגּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "כַּאֲשֶׁר",
+            "lemma": "834 d",
+            "morph": "HR/Tr"
+          },
+          {
+            "heb": "עָשִׂיתָ",
+            "lemma": "6213 a",
+            "morph": "HVqp2ms"
+          },
+          {
+            "heb": "יֵעָשֶׂה",
+            "lemma": "6213 a",
+            "morph": "HVNi3ms"
+          },
+          {
+            "heb": "לָּךְ",
+            "lemma": "l",
+            "morph": "HR/Sp2fs"
+          },
+          {
+            "heb": "גְּמֻלְךָ",
+            "lemma": "1576",
+            "morph": "HNcmsc/Sp2ms"
+          },
+          {
+            "heb": "יָשׁוּב",
+            "lemma": "7725",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "בְּרֹאשֶֽׁךָ",
+            "lemma": "7218 a",
+            "morph": "HR/Ncmsc/Sp2ms"
+          }
+        ]
+      },
+      {
+        "verse": 16,
+        "ref": "Obadiah 1:16",
+        "words": [
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "כַּֽאֲשֶׁר",
+            "lemma": "834 d",
+            "morph": "HR/Tr"
+          },
+          {
+            "heb": "שְׁתִיתֶם",
+            "lemma": "8354",
+            "morph": "HVqp2mp"
+          },
+          {
+            "heb": "עַל",
+            "lemma": "5921 a",
+            "morph": "HR"
+          },
+          {
+            "heb": "הַר",
+            "lemma": "2022",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "קָדְשִׁי",
+            "lemma": "6944",
+            "morph": "HNcmsc/Sp1cs"
+          },
+          {
+            "heb": "יִשְׁתּוּ",
+            "lemma": "8354",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "כָֽל",
+            "lemma": "3605",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "הַגּוֹיִם",
+            "lemma": "1471 a",
+            "morph": "HTd/Ncmpa"
+          },
+          {
+            "heb": "תָּמִיד",
+            "lemma": "8548",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְשָׁתוּ",
+            "lemma": "8354",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "וְלָעוּ",
+            "lemma": "3886 a",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "וְהָיוּ",
+            "lemma": "1961",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "כְּלוֹא",
+            "lemma": "3808",
+            "morph": "HR/Tn"
+          },
+          {
+            "heb": "הָיֽוּ",
+            "lemma": "1961",
+            "morph": "HVqp3cp"
+          }
+        ]
+      },
+      {
+        "verse": 17,
+        "ref": "Obadiah 1:17",
+        "words": [
+          {
+            "heb": "וּבְהַר",
+            "lemma": "2022",
+            "morph": "HC/R/Ncmsc"
+          },
+          {
+            "heb": "צִיּוֹן",
+            "lemma": "6726",
+            "morph": "HNp"
+          },
+          {
+            "heb": "תִּהְיֶה",
+            "lemma": "1961",
+            "morph": "HVqi3fs"
+          },
+          {
+            "heb": "פְלֵיטָה",
+            "lemma": "6413",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וְהָיָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "קֹדֶשׁ",
+            "lemma": "6944",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "וְיָֽרְשׁוּ",
+            "lemma": "3423",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "בֵּית",
+            "lemma": "1004 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יַֽעֲקֹב",
+            "lemma": "3290",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֵת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "מוֹרָֽשֵׁיהֶם",
+            "lemma": "4180",
+            "morph": "HNcmpc/Sp3mp"
+          }
+        ]
+      },
+      {
+        "verse": 18,
+        "ref": "Obadiah 1:18",
+        "words": [
+          {
+            "heb": "וְהָיָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3ms"
+          },
+          {
+            "heb": "בֵית",
+            "lemma": "1004 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "יַעֲקֹב",
+            "lemma": "3290",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֵשׁ",
+            "lemma": "784",
+            "morph": "HNcbsa"
+          },
+          {
+            "heb": "וּבֵית",
+            "lemma": "1004 b",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "יוֹסֵף",
+            "lemma": "3130",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לֶהָבָה",
+            "lemma": "3852",
+            "morph": "HNcfsa"
+          },
+          {
+            "heb": "וּבֵית",
+            "lemma": "1004 b",
+            "morph": "HC/Ncmsc"
+          },
+          {
+            "heb": "עֵשָׂו",
+            "lemma": "6215",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לְקַשׁ",
+            "lemma": "7179",
+            "morph": "HR/Ncmsa"
+          },
+          {
+            "heb": "וְדָלְקוּ",
+            "lemma": "1814",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "בָהֶם",
+            "lemma": "b",
+            "morph": "HR/Sp3mp"
+          },
+          {
+            "heb": "וַאֲכָלוּם",
+            "lemma": "398",
+            "morph": "HC/Vqq3cp/Sp3mp"
+          },
+          {
+            "heb": "וְלֹֽא",
+            "lemma": "3808",
+            "morph": "HC/Tn"
+          },
+          {
+            "heb": "יִֽהְיֶה",
+            "lemma": "1961",
+            "morph": "HVqi3ms"
+          },
+          {
+            "heb": "שָׂרִיד",
+            "lemma": "8300",
+            "morph": "HNcmsa"
+          },
+          {
+            "heb": "לְבֵית",
+            "lemma": "1004 b",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "עֵשָׂו",
+            "lemma": "6215",
+            "morph": "HNp"
+          },
+          {
+            "heb": "כִּי",
+            "lemma": "3588 a",
+            "morph": "HC"
+          },
+          {
+            "heb": "יְהוָה",
+            "lemma": "3068",
+            "morph": "HNp"
+          },
+          {
+            "heb": "דִּבֵּֽר",
+            "lemma": "1696",
+            "morph": "HVpp3ms"
+          }
+        ]
+      },
+      {
+        "verse": 19,
+        "ref": "Obadiah 1:19",
+        "words": [
+          {
+            "heb": "וְיָרְשׁוּ",
+            "lemma": "3423",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "הַנֶּגֶב",
+            "lemma": "5045",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַר",
+            "lemma": "2022",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "עֵשָׂו",
+            "lemma": "6215",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְהַשְּׁפֵלָה",
+            "lemma": "8219",
+            "morph": "HC/Td/Ncfsa"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "פְּלִשְׁתִּים",
+            "lemma": "6430",
+            "morph": "HNgmpa"
+          },
+          {
+            "heb": "וְיָרְשׁוּ",
+            "lemma": "3423",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "שְׂדֵה",
+            "lemma": "7704 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "אֶפְרַיִם",
+            "lemma": "669",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְאֵת",
+            "lemma": "853",
+            "morph": "HC/To"
+          },
+          {
+            "heb": "שְׂדֵה",
+            "lemma": "7704 b",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "שֹׁמְרוֹן",
+            "lemma": "8111",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וּבִנְיָמִן",
+            "lemma": "1144",
+            "morph": "HC/Np"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַגִּלְעָֽד",
+            "lemma": "1568",
+            "morph": "HTd/Np"
+          }
+        ]
+      },
+      {
+        "verse": 20,
+        "ref": "Obadiah 1:20",
+        "words": [
+          {
+            "heb": "וְגָלֻת",
+            "lemma": "1546",
+            "morph": "HC/Ncfsc"
+          },
+          {
+            "heb": "הַֽחֵל",
+            "lemma": "2426",
+            "morph": "HTd/Ncmsa"
+          },
+          {
+            "heb": "הַזֶּה",
+            "lemma": "2088",
+            "morph": "HTd/Pdxms"
+          },
+          {
+            "heb": "לִבְנֵי",
+            "lemma": "1121 a",
+            "morph": "HR/Ncmpc"
+          },
+          {
+            "heb": "יִשְׂרָאֵל",
+            "lemma": "3478",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֲשֶֽׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "כְּנַעֲנִים",
+            "lemma": "3669 a",
+            "morph": "HNgmpa"
+          },
+          {
+            "heb": "עַד",
+            "lemma": "5704",
+            "morph": "HR"
+          },
+          {
+            "heb": "צָרְפַת",
+            "lemma": "6886",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְגָלֻת",
+            "lemma": "1546",
+            "morph": "HC/Ncfsc"
+          },
+          {
+            "heb": "יְרוּשָׁלִַם",
+            "lemma": "3389",
+            "morph": "HNp"
+          },
+          {
+            "heb": "אֲשֶׁר",
+            "lemma": "834 a",
+            "morph": "HTr"
+          },
+          {
+            "heb": "בִּסְפָרַד",
+            "lemma": "5614",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "יִֽרְשׁוּ",
+            "lemma": "3423",
+            "morph": "HVqi3mp"
+          },
+          {
+            "heb": "אֵת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "עָרֵי",
+            "lemma": "5892 b",
+            "morph": "HNcfpc"
+          },
+          {
+            "heb": "הַנֶּֽגֶב",
+            "lemma": "5045",
+            "morph": "HTd/Ncmsa"
+          }
+        ]
+      },
+      {
+        "verse": 21,
+        "ref": "Obadiah 1:21",
+        "words": [
+          {
+            "heb": "וְעָלוּ",
+            "lemma": "5927",
+            "morph": "HC/Vqq3cp"
+          },
+          {
+            "heb": "מֽוֹשִׁעִים",
+            "lemma": "3467",
+            "morph": "HVhrmpa"
+          },
+          {
+            "heb": "בְּהַר",
+            "lemma": "2022",
+            "morph": "HR/Ncmsc"
+          },
+          {
+            "heb": "צִיּוֹן",
+            "lemma": "6726",
+            "morph": "HNp"
+          },
+          {
+            "heb": "לִשְׁפֹּט",
+            "lemma": "8199",
+            "morph": "HR/Vqc"
+          },
+          {
+            "heb": "אֶת",
+            "lemma": "853",
+            "morph": "HTo"
+          },
+          {
+            "heb": "הַר",
+            "lemma": "2022",
+            "morph": "HNcmsc"
+          },
+          {
+            "heb": "עֵשָׂו",
+            "lemma": "6215",
+            "morph": "HNp"
+          },
+          {
+            "heb": "וְהָיְתָה",
+            "lemma": "1961",
+            "morph": "HC/Vqq3fs"
+          },
+          {
+            "heb": "לַֽיהוָה",
+            "lemma": "3068",
+            "morph": "HR/Np"
+          },
+          {
+            "heb": "הַמְּלוּכָֽה",
+            "lemma": "4410",
+            "morph": "HTd/Ncfsa"
+          }
+        ]
+      }
+    ]
+  }
+}
