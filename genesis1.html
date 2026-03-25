@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Genesis 1 — Hebrew Pictograph Reader</title>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1208;
+    --parchment: #f5edda;
+    --parchment-dark: #e8d9b8;
+    --gold: #8B6914;
+    --gold-light: #c4972a;
+    --terracotta: #7a3b2e;
+    --faded: #9e8b6e;
+    --white: #fdfaf3;
+    --highlight: #fff3cd;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--parchment);
+    color: var(--ink);
+    font-family: 'Crimson Pro', serif;
+    min-height: 100vh;
+  }
+
+  header {
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: 'בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ';
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+    font-size: 1.8rem; opacity: 0.06; white-space: nowrap; pointer-events: none;
+    direction: rtl; width: 100%; text-align: center;
+  }
+  header h1 { font-size: 1.8rem; font-weight: 300; letter-spacing: 0.15em; position: relative; }
+  header p { color: var(--gold-light); font-style: italic; margin-top: 0.3rem; position: relative; }
+
+  /* CONTROLS */
+  .controls {
+    background: var(--parchment-dark);
+    border-bottom: 2px solid var(--gold);
+    padding: 0.8rem 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .controls label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--faded);
+    letter-spacing: 0.1em;
+  }
+  .toggle-btn {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    padding: 0.3rem 0.9rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    cursor: pointer;
+    letter-spacing: 0.08em;
+    transition: all 0.2s;
+  }
+  .toggle-btn.on { background: var(--gold); color: var(--white); }
+
+  /* MAIN */
+  main { max-width: 1000px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+  /* VERSE BLOCK */
+  .verse-block {
+    margin-bottom: 2.5rem;
+    background: var(--white);
+    border-left: 3px solid var(--gold);
+    padding: 1.5rem;
+  }
+  .verse-ref {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--faded);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .verse-kjv {
+    font-style: italic;
+    color: var(--faded);
+    font-size: 0.95rem;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid var(--parchment-dark);
+    line-height: 1.6;
+  }
+
+  /* WORD ROW */
+  .word-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    direction: rtl;
+    text-align: center;
+  }
+
+  /* WORD CARD */
+  .word-card {
+    background: var(--parchment);
+    border: 1px solid var(--parchment-dark);
+    padding: 0.6rem 0.5rem 0.5rem;
+    min-width: 70px;
+    cursor: pointer;
+    transition: all 0.15s;
+    direction: rtl;
+    position: relative;
+  }
+  .word-card:hover { border-color: var(--gold); background: var(--highlight); }
+  .word-card.active { border-color: var(--terracotta); background: var(--highlight); }
+
+  /* Hebrew word at top */
+  .w-hebrew {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--terracotta);
+    display: block;
+    line-height: 1.2;
+    margin-bottom: 0.3rem;
+  }
+
+  /* Letter breakdown row */
+  .w-letters {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    justify-content: center;
+    margin-bottom: 0.3rem;
+    flex-wrap: wrap;
+  }
+  .w-letter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    min-width: 18px;
+  }
+  .w-pic   { font-size: 0.9rem; line-height: 1; }
+  .w-phoen { font-size: 0.75rem; color: var(--faded); line-height: 1; }
+  .w-lheb  { font-size: 1rem; color: var(--ink); font-weight: 600; line-height: 1; }
+
+  /* Transliteration + English */
+  .w-trans {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.55rem;
+    color: var(--gold);
+    display: block;
+    margin-top: 0.3rem;
+    letter-spacing: 0.03em;
+    direction: ltr;
+  }
+  .w-eng {
+    font-size: 0.75rem;
+    color: var(--faded);
+    font-style: italic;
+    display: block;
+    direction: ltr;
+    line-height: 1.2;
+  }
+
+  /* EXPANDED DETAIL */
+  .word-detail {
+    display: none;
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 1rem 1.2rem;
+    margin-top: 1rem;
+    direction: ltr;
+    animation: fadeIn 0.15s ease;
+  }
+  .word-detail.open { display: block; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .detail-heb { font-size: 2rem; color: var(--gold-light); font-weight: 600; }
+  .detail-trans { font-family: 'Space Mono', monospace; font-size: 0.75rem; color: var(--faded); margin-top: 0.2rem; }
+  .detail-eng { font-style: italic; margin-top: 0.2rem; }
+  .detail-letters { display: flex; gap: 1rem; margin-top: 0.8rem; flex-wrap: wrap; }
+  .detail-letter {
+    text-align: center;
+    background: rgba(255,255,255,0.05);
+    padding: 0.5rem 0.7rem;
+    border: 1px solid rgba(255,255,255,0.1);
+    min-width: 60px;
+  }
+  .dl-pic   { font-size: 1.5rem; }
+  .dl-phoen { font-size: 1.1rem; color: var(--faded); }
+  .dl-heb   { font-size: 1.6rem; color: var(--gold-light); font-weight: 600; }
+  .dl-name  { font-family: 'Space Mono', monospace; font-size: 0.6rem; color: var(--faded); margin-top: 0.2rem; }
+
+  /* SHOW/HIDE toggles */
+  body.hide-pics    .w-pic,    body.hide-pics    .dl-pic    { visibility: hidden; }
+  body.hide-phoen   .w-phoen,  body.hide-phoen   .dl-phoen  { visibility: hidden; }
+  body.hide-trans   .w-trans                                 { visibility: hidden; }
+  body.hide-eng     .w-eng,    body.hide-eng     .detail-eng { visibility: hidden; }
+
+  /* JUMP NAV */
+  .verse-jump {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--parchment-dark);
+    border-bottom: 1px solid var(--gold);
+    padding: 0.5rem 1rem;
+    display: flex; flex-wrap: wrap; gap: 0.3rem;
+  }
+  .verse-jump a {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    color: var(--gold);
+    text-decoration: none;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid transparent;
+    transition: all 0.15s;
+  }
+  .verse-jump a:hover { border-color: var(--gold); }
+
+  @media (max-width: 600px) {
+    .w-pic { font-size: 0.75rem; }
+    .w-lheb { font-size: 0.85rem; }
+    .word-card { min-width: 55px; padding: 0.4rem 0.3rem; }
+  }
+
+  /* NARRATIVE */
+  .detail-narrative {
+    margin-top: 1rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-style: italic;
+    color: var(--gold-light);
+    font-size: 1rem;
+    line-height: 1.6;
+    min-height: 1.5rem;
+  }
+
+
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Genesis 1 — Hebrew Pictograph Reader</h1>
+  <p>Every word broken into its ancient pictures · Click any word to expand</p>
+</header>
+
+<div class="controls">
+  <span class="controls-label" style="font-family:'Space Mono',monospace;font-size:0.65rem;color:var(--faded);letter-spacing:0.1em">SHOW/HIDE:</span>
+  <button class="toggle-btn on" id="btn-pics"   onclick="toggle('pics',   this)">🎨 Pictures</button>
+  <button class="toggle-btn on" id="btn-phoen"  onclick="toggle('phoen',  this)">𐤀 Phoenician</button>
+  <button class="toggle-btn on" id="btn-trans"  onclick="toggle('trans',  this)">Transliteration</button>
+  <button class="toggle-btn on" id="btn-eng"    onclick="toggle('eng',    this)">English</button>
+</div>
+
+<nav class="verse-jump" id="verse-jump"></nav>
+
+<main id="main"></main>
+
+<script>
+const genesis1 = [
+  {verse:1,ref:"Genesis 1:1",kjv:"In the beginning God created the heaven and the earth.",words:[
+    {heb:"בְּרֵאשִׁית",trans:"bereshit",eng:"in the beginning",letters:[{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🦷",ph:"𐤔",h:"ש",n:"Shin"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"}]},
+    {heb:"בָּרָא",trans:"bara",eng:"created",letters:[{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"}]},
+    {heb:"אֱלֹהִים",trans:"Elohim",eng:"God",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"אֵת",trans:"et",eng:"(direct object marker)",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"}]},
+    {heb:"הַשָּׁמַיִם",trans:"hashamayim",eng:"the heaven",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🦷",ph:"𐤔",h:"ש",n:"Shin"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"וְאֵת",trans:"v'et",eng:"and",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"}]},
+    {heb:"הָאָרֶץ",trans:"ha'aretz",eng:"the earth",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"}]},
+  ]},
+  {verse:2,ref:"Genesis 1:2",kjv:"And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.",words:[
+    {heb:"וְהָאָרֶץ",trans:"v'ha'aretz",eng:"and the earth",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"}]},
+    {heb:"הָיְתָה",trans:"hayetah",eng:"was",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"},{p:"👐",ph:"𐤄",h:"ה",n:"He"}]},
+    {heb:"תֹהוּ",trans:"tohu",eng:"without form",letters:[{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"}]},
+    {heb:"וָבֹהוּ",trans:"vavohu",eng:"and void",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"}]},
+    {heb:"וְחֹשֶׁךְ",trans:"v'choshekh",eng:"and darkness",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🧱",ph:"𐤇",h:"ח",n:"Chet"},{p:"👁️",ph:"𐤏",h:"ע",n:"Ayin"},{p:"✋",ph:"𐤊",h:"כ",n:"Kaph"}]},
+    {heb:"עַל",trans:"al",eng:"upon",letters:[{p:"👁️",ph:"𐤏",h:"ע",n:"Ayin"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"}]},
+    {heb:"פְּנֵי",trans:"penei",eng:"the face of",letters:[{p:"💬",ph:"𐤐",h:"פ",n:"Pe"},{p:"🐟",ph:"𐤍",h:"נ",n:"Nun"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"}]},
+    {heb:"תְהוֹם",trans:"tehom",eng:"the deep",letters:[{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"👁️",ph:"𐤏",h:"ע",n:"Ayin"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"וְרוּחַ",trans:"v'ruach",eng:"and the Spirit",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🧱",ph:"𐤇",h:"ח",n:"Chet"}]},
+    {heb:"אֱלֹהִים",trans:"Elohim",eng:"of God",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"מְרַחֶפֶת",trans:"merachefet",eng:"moved / hovered",letters:[{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"🧱",ph:"𐤇",h:"ח",n:"Chet"},{p:"💬",ph:"𐤐",h:"פ",n:"Pe"},{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"}]},
+    {heb:"עַל",trans:"al",eng:"upon",letters:[{p:"👁️",ph:"𐤏",h:"ע",n:"Ayin"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"}]},
+    {heb:"פְּנֵי",trans:"penei",eng:"the face of",letters:[{p:"💬",ph:"𐤐",h:"פ",n:"Pe"},{p:"🐟",ph:"𐤍",h:"נ",n:"Nun"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"}]},
+    {heb:"הַמָּיִם",trans:"hamayim",eng:"the waters",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+  ]},
+  {verse:3,ref:"Genesis 1:3",kjv:"And God said, Let there be light: and there was light.",words:[
+    {heb:"וַיֹּאמֶר",trans:"vayomer",eng:"and said",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"}]},
+    {heb:"אֱלֹהִים",trans:"Elohim",eng:"God",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"יְהִי",trans:"yehi",eng:"let there be",letters:[{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"}]},
+    {heb:"אוֹר",trans:"or",eng:"light",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"}]},
+    {heb:"וַיְהִי",trans:"vayehi",eng:"and there was",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"}]},
+    {heb:"אוֹר",trans:"or",eng:"light",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"}]},
+  ]},
+  {verse:4,ref:"Genesis 1:4",kjv:"And God saw the light, that it was good: and God divided the light from the darkness.",words:[
+    {heb:"וַיַּרְא",trans:"vayar",eng:"and saw",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"}]},
+    {heb:"אֱלֹהִים",trans:"Elohim",eng:"God",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"הָאוֹר",trans:"ha'or",eng:"the light",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"}]},
+    {heb:"כִּי",trans:"ki",eng:"that",letters:[{p:"✋",ph:"𐤊",h:"כ",n:"Kaph"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"}]},
+    {heb:"טוֹב",trans:"tov",eng:"good",letters:[{p:"🐍",ph:"𐤈",h:"ט",n:"Tet"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"}]},
+    {heb:"וַיַּבְדֵּל",trans:"vayavdel",eng:"and divided",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"},{p:"🚪",ph:"𐤃",h:"ד",n:"Dalet"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"}]},
+    {heb:"אֱלֹהִים",trans:"Elohim",eng:"God",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"בֵּין",trans:"bein",eng:"between",letters:[{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🐟",ph:"𐤍",h:"נ",n:"Nun"}]},
+    {heb:"הָאוֹר",trans:"ha'or",eng:"the light",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"}]},
+    {heb:"וּבֵין",trans:"uvein",eng:"and between",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🐟",ph:"𐤍",h:"נ",n:"Nun"}]},
+    {heb:"הַחֹשֶׁךְ",trans:"hachoshekh",eng:"the darkness",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🧱",ph:"𐤇",h:"ח",n:"Chet"},{p:"👁️",ph:"𐤏",h:"ע",n:"Ayin"},{p:"✋",ph:"𐤊",h:"כ",n:"Kaph"}]},
+  ]},
+  {verse:5,ref:"Genesis 1:5",kjv:"And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day.",words:[
+    {heb:"וַיִּקְרָא",trans:"vayiqra",eng:"and called",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌅",ph:"𐤒",h:"ק",n:"Qoph"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"}]},
+    {heb:"אֱלֹהִים",trans:"Elohim",eng:"God",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"לָאוֹר",trans:"la'or",eng:"the light",letters:[{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"}]},
+    {heb:"יוֹם",trans:"yom",eng:"Day",letters:[{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"וְלַחֹשֶׁךְ",trans:"v'lachoshekh",eng:"and the darkness",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"🧱",ph:"𐤇",h:"ח",n:"Chet"},{p:"👁️",ph:"𐤏",h:"ע",n:"Ayin"},{p:"✋",ph:"𐤊",h:"כ",n:"Kaph"}]},
+    {heb:"קָרָא",trans:"qara",eng:"called",letters:[{p:"🌅",ph:"𐤒",h:"ק",n:"Qoph"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"}]},
+    {heb:"לַיְלָה",trans:"laylah",eng:"Night",letters:[{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"👐",ph:"𐤄",h:"ה",n:"He"}]},
+    {heb:"וַיְהִי",trans:"vayehi",eng:"and was",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"}]},
+    {heb:"עֶרֶב",trans:"erev",eng:"evening",letters:[{p:"👁️",ph:"𐤏",h:"ע",n:"Ayin"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"}]},
+    {heb:"בֹקֶר",trans:"boqer",eng:"morning",letters:[{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"},{p:"🌅",ph:"𐤒",h:"ק",n:"Qoph"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"}]},
+    {heb:"יוֹם",trans:"yom",eng:"day",letters:[{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"אֶחָד",trans:"echad",eng:"first / one",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🧱",ph:"𐤇",h:"ח",n:"Chet"},{p:"🚪",ph:"𐤃",h:"ד",n:"Dalet"}]},
+  ]},
+  {verse:6,ref:"Genesis 1:6",kjv:"And God said, Let there be a firmament in the midst of the waters, and let it divide the waters from the waters.",words:[
+    {heb:"וַיֹּאמֶר",trans:"vayomer",eng:"and said",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"}]},
+    {heb:"אֱלֹהִים",trans:"Elohim",eng:"God",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"יְהִי",trans:"yehi",eng:"let there be",letters:[{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"}]},
+    {heb:"רָקִיעַ",trans:"raqia",eng:"a firmament",letters:[{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"🌅",ph:"𐤒",h:"ק",n:"Qoph"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"👁️",ph:"𐤏",h:"ע",n:"Ayin"}]},
+    {heb:"בְּתוֹךְ",trans:"betokh",eng:"in the midst of",letters:[{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"},{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"✋",ph:"𐤊",h:"כ",n:"Kaph"}]},
+    {heb:"הַמָּיִם",trans:"hamayim",eng:"the waters",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+  ]},
+  {verse:7,ref:"Genesis 1:7",kjv:"And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament: and it was so.",words:[
+    {heb:"וַיַּעַשׂ",trans:"vayaas",eng:"and made",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"👁️",ph:"𐤏",h:"ע",n:"Ayin"},{p:"🦷",ph:"𐤔",h:"ש",n:"Shin"}]},
+    {heb:"אֱלֹהִים",trans:"Elohim",eng:"God",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"הָרָקִיעַ",trans:"haraqia",eng:"the firmament",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"🌅",ph:"𐤒",h:"ק",n:"Qoph"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"👁️",ph:"𐤏",h:"ע",n:"Ayin"}]},
+    {heb:"וַיַּבְדֵּל",trans:"vayavdel",eng:"and divided",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"},{p:"🚪",ph:"𐤃",h:"ד",n:"Dalet"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"}]},
+    {heb:"בֵּין",trans:"bein",eng:"between",letters:[{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🐟",ph:"𐤍",h:"נ",n:"Nun"}]},
+    {heb:"הַמַּיִם",trans:"hamayim",eng:"the waters",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+  ]},
+  {verse:8,ref:"Genesis 1:8",kjv:"And God called the firmament Heaven. And the evening and the morning were the second day.",words:[
+    {heb:"וַיִּקְרָא",trans:"vayiqra",eng:"and called",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌅",ph:"𐤒",h:"ק",n:"Qoph"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"}]},
+    {heb:"אֱלֹהִים",trans:"Elohim",eng:"God",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"שָׁמַיִם",trans:"shamayim",eng:"Heaven",letters:[{p:"🦷",ph:"𐤔",h:"ש",n:"Shin"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"עֶרֶב",trans:"erev",eng:"evening",letters:[{p:"👁️",ph:"𐤏",h:"ע",n:"Ayin"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"}]},
+    {heb:"בֹקֶר",trans:"boqer",eng:"morning",letters:[{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"},{p:"🌅",ph:"𐤒",h:"ק",n:"Qoph"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"}]},
+    {heb:"יוֹם",trans:"yom",eng:"day",letters:[{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"שֵׁנִי",trans:"sheni",eng:"second",letters:[{p:"🦷",ph:"𐤔",h:"ש",n:"Shin"},{p:"🐟",ph:"𐤍",h:"נ",n:"Nun"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"}]},
+  ]},
+  {verse:9,ref:"Genesis 1:9",kjv:"And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear: and it was so.",words:[
+    {heb:"וַיֹּאמֶר",trans:"vayomer",eng:"and said",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"}]},
+    {heb:"אֱלֹהִים",trans:"Elohim",eng:"God",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"הַמַּיִם",trans:"hamayim",eng:"the waters",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"מָקוֹם",trans:"maqom",eng:"place",letters:[{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"🌅",ph:"𐤒",h:"ק",n:"Qoph"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"אֶחָד",trans:"echad",eng:"one",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🧱",ph:"𐤇",h:"ח",n:"Chet"},{p:"🚪",ph:"𐤃",h:"ד",n:"Dalet"}]},
+    {heb:"הַיַּבָּשָׁה",trans:"hayabbashah",eng:"the dry land",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"},{p:"🦷",ph:"𐤔",h:"ש",n:"Shin"},{p:"👐",ph:"𐤄",h:"ה",n:"He"}]},
+  ]},
+  {verse:10,ref:"Genesis 1:10",kjv:"And God called the dry land Earth; and the gathering together of the waters called he Seas: and God saw that it was good.",words:[
+    {heb:"וַיִּקְרָא",trans:"vayiqra",eng:"and called",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌅",ph:"𐤒",h:"ק",n:"Qoph"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"}]},
+    {heb:"אֱלֹהִים",trans:"Elohim",eng:"God",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"אֶרֶץ",trans:"eretz",eng:"Earth",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"}]},
+    {heb:"יַמִּים",trans:"yamim",eng:"Seas",letters:[{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"טוֹב",trans:"tov",eng:"good",letters:[{p:"🐍",ph:"𐤈",h:"ט",n:"Tet"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"}]},
+  ]},
+  {verse:11,ref:"Genesis 1:11",kjv:"And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind.",words:[
+    {heb:"וַיֹּאמֶר",trans:"vayomer",eng:"and said",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"}]},
+    {heb:"אֱלֹהִים",trans:"Elohim",eng:"God",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"הָאָרֶץ",trans:"ha'aretz",eng:"the earth",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"}]},
+    {heb:"דֶּשֶׁא",trans:"deshe",eng:"grass",letters:[{p:"🚪",ph:"𐤃",h:"ד",n:"Dalet"},{p:"🦷",ph:"𐤔",h:"ש",n:"Shin"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"}]},
+    {heb:"עֵשֶׂב",trans:"esev",eng:"herb",letters:[{p:"👁️",ph:"𐤏",h:"ע",n:"Ayin"},{p:"🦷",ph:"𐤔",h:"ש",n:"Shin"},{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"}]},
+    {heb:"זֶרַע",trans:"zera",eng:"seed",letters:[{p:"⚔️",ph:"𐤆",h:"ז",n:"Zayin"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"👁️",ph:"𐤏",h:"ע",n:"Ayin"}]},
+    {heb:"עֵץ",trans:"etz",eng:"tree",letters:[{p:"👁️",ph:"𐤏",h:"ע",n:"Ayin"},{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"}]},
+    {heb:"פְּרִי",trans:"peri",eng:"fruit",letters:[{p:"💬",ph:"𐤐",h:"פ",n:"Pe"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"}]},
+  ]},
+  {verse:12,ref:"Genesis 1:12",kjv:"And the earth brought forth grass, and herb yielding seed after his kind, and the tree yielding fruit: and God saw that it was good.",words:[
+    {heb:"וַתּוֹצֵא",trans:"vatotze",eng:"and brought forth",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🌵",ph:"𐤎",h:"ס",n:"Samech"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"}]},
+    {heb:"הָאָרֶץ",trans:"ha'aretz",eng:"the earth",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"}]},
+    {heb:"טוֹב",trans:"tov",eng:"good",letters:[{p:"🐍",ph:"𐤈",h:"ט",n:"Tet"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"}]},
+  ]},
+  {verse:13,ref:"Genesis 1:13",kjv:"And the evening and the morning were the third day.",words:[
+    {heb:"עֶרֶב",trans:"erev",eng:"evening",letters:[{p:"👁️",ph:"𐤏",h:"ע",n:"Ayin"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"}]},
+    {heb:"בֹקֶר",trans:"boqer",eng:"morning",letters:[{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"},{p:"🌅",ph:"𐤒",h:"ק",n:"Qoph"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"}]},
+    {heb:"יוֹם",trans:"yom",eng:"day",letters:[{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"שְׁלִישִׁי",trans:"shelishi",eng:"third",letters:[{p:"🦷",ph:"𐤔",h:"ש",n:"Shin"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🦷",ph:"𐤔",h:"ש",n:"Shin"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"}]},
+  ]},
+  {verse:14,ref:"Genesis 1:14",kjv:"And God said, Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years.",words:[
+    {heb:"מְאֹרֹת",trans:"meorot",eng:"lights",letters:[{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"}]},
+    {heb:"לְאֹתֹת",trans:"le'otot",eng:"for signs",letters:[{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"},{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"}]},
+    {heb:"מוֹעֲדִים",trans:"moedim",eng:"seasons",letters:[{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"👁️",ph:"𐤏",h:"ע",n:"Ayin"},{p:"🚪",ph:"𐤃",h:"ד",n:"Dalet"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"שָׁנִים",trans:"shanim",eng:"years",letters:[{p:"🦷",ph:"𐤔",h:"ש",n:"Shin"},{p:"🐟",ph:"𐤍",h:"נ",n:"Nun"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+  ]},
+  {verse:16,ref:"Genesis 1:16",kjv:"And God made two great lights; the greater light to rule the day, and the lesser light to rule the night: he made the stars also.",words:[
+    {heb:"הַמָּאוֹר",trans:"hama'or",eng:"the great light",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"}]},
+    {heb:"הַגָּדֹל",trans:"hagadol",eng:"the greater",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🐪",ph:"𐤂",h:"ג",n:"Gimel"},{p:"🚪",ph:"𐤃",h:"ד",n:"Dalet"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"}]},
+    {heb:"הַכּוֹכָבִים",trans:"hakochavim",eng:"the stars",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"✋",ph:"𐤊",h:"כ",n:"Kaph"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"✋",ph:"𐤊",h:"כ",n:"Kaph"},{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+  ]},
+  {verse:20,ref:"Genesis 1:20",kjv:"And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth.",words:[
+    {heb:"הַמַּיִם",trans:"hamayim",eng:"the waters",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"נֶפֶשׁ",trans:"nefesh",eng:"soul / creature",letters:[{p:"🐟",ph:"𐤍",h:"נ",n:"Nun"},{p:"💬",ph:"𐤐",h:"פ",n:"Pe"},{p:"🦷",ph:"𐤔",h:"ש",n:"Shin"}]},
+    {heb:"חַיָּה",trans:"chayah",eng:"living",letters:[{p:"🧱",ph:"𐤇",h:"ח",n:"Chet"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"👐",ph:"𐤄",h:"ה",n:"He"}]},
+    {heb:"הָעוֹף",trans:"ha'of",eng:"the fowl",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"👁️",ph:"𐤏",h:"ע",n:"Ayin"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"💬",ph:"𐤐",h:"פ",n:"Pe"}]},
+  ]},
+  {verse:26,ref:"Genesis 1:26",kjv:"And God said, Let us make man in our image, after our likeness.",words:[
+    {heb:"נַעֲשֶׂה",trans:"naaseh",eng:"let us make",letters:[{p:"🐟",ph:"𐤍",h:"נ",n:"Nun"},{p:"👁️",ph:"𐤏",h:"ע",n:"Ayin"},{p:"🦷",ph:"𐤔",h:"ש",n:"Shin"},{p:"👐",ph:"𐤄",h:"ה",n:"He"}]},
+    {heb:"אָדָם",trans:"adam",eng:"man",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🚪",ph:"𐤃",h:"ד",n:"Dalet"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"בְּצַלְמֵנוּ",trans:"betzalmenu",eng:"in our image",letters:[{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"},{p:"🎣",ph:"𐤑",h:"צ",n:"Tsade"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"🐟",ph:"𐤍",h:"נ",n:"Nun"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"}]},
+    {heb:"כִּדְמוּתֵנוּ",trans:"kidmutenu",eng:"after our likeness",letters:[{p:"✋",ph:"𐤊",h:"כ",n:"Kaph"},{p:"🚪",ph:"𐤃",h:"ד",n:"Dalet"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"},{p:"🐟",ph:"𐤍",h:"נ",n:"Nun"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"}]},
+  ]},
+  {verse:27,ref:"Genesis 1:27",kjv:"So God created man in his own image, in the image of God created he him; male and female created he them.",words:[
+    {heb:"וַיִּבְרָא",trans:"vayivra",eng:"and created",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"}]},
+    {heb:"אֱלֹהִים",trans:"Elohim",eng:"God",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"הָאָדָם",trans:"ha'adam",eng:"the man",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🚪",ph:"𐤃",h:"ד",n:"Dalet"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"זָכָר",trans:"zakhar",eng:"male",letters:[{p:"⚔️",ph:"𐤆",h:"ז",n:"Zayin"},{p:"✋",ph:"𐤊",h:"כ",n:"Kaph"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"}]},
+    {heb:"וּנְקֵבָה",trans:"unqevah",eng:"and female",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🐟",ph:"𐤍",h:"נ",n:"Nun"},{p:"🌅",ph:"𐤒",h:"ק",n:"Qoph"},{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"},{p:"👐",ph:"𐤄",h:"ה",n:"He"}]},
+  ]},
+  {verse:28,ref:"Genesis 1:28",kjv:"And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth.",words:[
+    {heb:"וַיְבָרֶךְ",trans:"vayvarekh",eng:"and blessed",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"✋",ph:"𐤊",h:"כ",n:"Kaph"}]},
+    {heb:"אֱלֹהִים",trans:"Elohim",eng:"God",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"פְּרוּ",trans:"peru",eng:"be fruitful",letters:[{p:"💬",ph:"𐤐",h:"פ",n:"Pe"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"}]},
+    {heb:"וּרְבוּ",trans:"urvu",eng:"and multiply",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"}]},
+    {heb:"הָאָרֶץ",trans:"ha'aretz",eng:"the earth",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"✝️",ph:"𐤕",h:"ת",n:"Tav"}]},
+  ]},
+  {verse:31,ref:"Genesis 1:31",kjv:"And God saw every thing that he had made, and, behold, it was very good. And the evening and the morning were the sixth day.",words:[
+    {heb:"וַיַּרְא",trans:"vayar",eng:"and saw",letters:[{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"👤",ph:"𐤓",h:"ר",n:"Resh"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"}]},
+    {heb:"אֱלֹהִים",trans:"Elohim",eng:"God",letters:[{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🦁",ph:"𐤋",h:"ל",n:"Lamed"},{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"טוֹב",trans:"tov",eng:"good",letters:[{p:"🐍",ph:"𐤈",h:"ט",n:"Tet"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🏠",ph:"𐤁",h:"ב",n:"Beth"}]},
+    {heb:"מְאֹד",trans:"meod",eng:"very",letters:[{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"},{p:"🐂",ph:"𐤀",h:"א",n:"Aleph"},{p:"🚪",ph:"𐤃",h:"ד",n:"Dalet"}]},
+    {heb:"יוֹם",trans:"yom",eng:"day",letters:[{p:"🤲",ph:"𐤉",h:"י",n:"Yod"},{p:"🪝",ph:"𐤅",h:"ו",n:"Vav"},{p:"🌊",ph:"𐤌",h:"מ",n:"Mem"}]},
+    {heb:"הַשִּׁשִּׁי",trans:"hashishi",eng:"the sixth",letters:[{p:"👐",ph:"𐤄",h:"ה",n:"He"},{p:"🦷",ph:"𐤔",h:"ש",n:"Shin"},{p:"🦷",ph:"𐤔",h:"ש",n:"Shin"},{p:"🤲",ph:"𐤉",h:"י",n:"Yod"}]},
+  ]},
+];
+
+let activeDetail = null;
+
+// Build nav
+const nav = document.getElementById('verse-jump');
+genesis1.forEach(v => {
+  const a = document.createElement('a');
+  a.href = '#v' + v.verse;
+  a.textContent = 'v.' + v.verse;
+  nav.appendChild(a);
+});
+
+// Build verses
+const main = document.getElementById('main');
+genesis1.forEach(vdata => {
+  const block = document.createElement('div');
+  block.className = 'verse-block';
+  block.id = 'v' + vdata.verse;
+
+  const ref = document.createElement('div');
+  ref.className = 'verse-ref';
+  ref.textContent = vdata.ref;
+
+  const kjv = document.createElement('div');
+  kjv.className = 'verse-kjv';
+  kjv.textContent = '"' + vdata.kjv + '"';
+
+  const wordRow = document.createElement('div');
+  wordRow.className = 'word-row';
+
+  // detail panel (shared per verse)
+  const detail = document.createElement('div');
+  detail.className = 'word-detail';
+
+  vdata.words.forEach((word, wi) => {
+    const card = document.createElement('div');
+    card.className = 'word-card';
+
+    const hebSpan = document.createElement('span');
+    hebSpan.className = 'w-hebrew';
+    hebSpan.textContent = word.heb;
+
+    const lettersDiv = document.createElement('div');
+    lettersDiv.className = 'w-letters';
+    word.letters.forEach(l => {
+      const ld = document.createElement('div');
+      ld.className = 'w-letter';
+      ld.innerHTML = `<span class="w-pic">${l.p}</span><span class="w-phoen">${l.ph}</span><span class="w-lheb">${l.h}</span>`;
+      lettersDiv.appendChild(ld);
+    });
+
+    const transSpan = document.createElement('span');
+    transSpan.className = 'w-trans';
+    transSpan.textContent = word.trans;
+
+    const engSpan = document.createElement('span');
+    engSpan.className = 'w-eng';
+    engSpan.textContent = word.eng;
+
+    card.appendChild(hebSpan);
+    card.appendChild(lettersDiv);
+    card.appendChild(transSpan);
+    card.appendChild(engSpan);
+
+    card.onclick = () => {
+      const isOpen = card.classList.contains('active');
+      // close all
+      document.querySelectorAll('.word-card.active').forEach(c => c.classList.remove('active'));
+      document.querySelectorAll('.word-detail.open').forEach(d => { d.classList.remove('open'); d.innerHTML = ''; });
+
+      if (!isOpen) {
+        card.classList.add('active');
+        const nid = 'nar-' + vdata.verse + '-' + wi;
+        detail.innerHTML = `
+          <div class="detail-heb">${word.heb}</div>
+          <div class="detail-trans">${word.trans}</div>
+          <div class="detail-eng">${word.eng}</div>
+          <div class="detail-letters">
+            ${word.letters.map(l => `
+              <div class="detail-letter">
+                <div class="dl-pic">${l.p}</div>
+                <div class="dl-phoen">${l.ph}</div>
+                <div class="dl-heb">${l.h}</div>
+                <div class="dl-name">${l.n}</div>
+              </div>
+            `).join('')}
+          </div>
+          <div class="detail-narrative" id="${nid}">
+            <span class="narrative-loading">Reading the pictures…</span>
+          </div>
+        `;
+        detail.classList.add('open');
+        const narEl = document.getElementById(nid);
+        if (narEl) {
+          const narText = narratives[word.heb];
+          narEl.innerHTML = narText
+            ? narText
+            : '<span style="color:var(--faded);font-size:0.85rem">—</span>';
+        }
+      }
+    };
+
+    wordRow.appendChild(card);
+  });
+
+  block.appendChild(ref);
+  block.appendChild(kjv);
+  block.appendChild(wordRow);
+  block.appendChild(detail);
+  main.appendChild(block);
+});
+
+
+
+const narratives = {
+  "בְּרֵאשִׁית": "The house (Beth) holds the chief (Resh) ox-strength (Aleph), consumed by fire (Shin), worked by hand (Yod), sealed with a covenant mark (Tav) — the inside of the first moment, before anything existed.",
+  "בָּרָא": "The house (Beth) and the chief (Resh) ox (Aleph) — strength brought out from inside, the act of a master builder pulling something from within himself into existence.",
+  "אֱלֹהִים": "The ox (Aleph) goaded forward (Lamed), revealed by breath (He), working through hands (Yod) over the waters (Mem) — the mighty one who drives, reveals, and rules the chaos.",
+  "אֵת": "Ox-strength (Aleph) marked by covenant (Tav) — the first and last, the sign that what follows is the direct object of divine action.",
+  "הַשָּׁמַיִם": "Behold (He) the teeth/fire (Shin) consuming the waters (Mem), worked by hands (Yod) into waters again (Mem) — the heavens as fire and water stretched above, the burning expanse.",
+  "הָאָרֶץ": "Behold (He) the ox-strength (Aleph) at the head (Resh) sealed by covenant (Tav) — the strong foundation marked and bounded, the earth as a covenanted place.",
+  "תֹהוּ": "The covenant mark (Tav) breathes out (He) and connects to nothing (Vav) — a signed emptiness, a bound void, formlessness that is somehow real.",
+  "וָבֹהוּ": "Connected (Vav) to the house (Beth) that breathes (He) and connects again (Vav) — an echoing emptiness inside a hollow dwelling, void answering void.",
+  "וְחֹשֶׁךְ": "The fence/inner room (Chet) seen by the eye (Ayin) and bent by an open palm (Kaph) — darkness as a closed inner space that presses and covers.",
+  "פְּנֵי": "The mouth (Pe) of the living fish (Nun), worked by a hand (Yod) — the speaking, breathing surface turned outward, the face as the active presence.",
+  "תְהוֹם": "The covenant mark (Tav) breathes (He) over the eye (Ayin) of the waters (Mem) — the abyss as a covenanted deep that sees and swallows.",
+  "וְרוּחַ": "The head/chief (Resh) hooked (Vav) through the fence (Chet) — the breath that crosses the boundary, the spirit hooking through the barrier between worlds.",
+  "מְרַחֶפֶת": "The waters (Mem) at the head (Resh) inside the fence (Chet), speaking (Pe) sealed by covenant (Tav) — the mighty one hovering at the threshold, trembling over the boundary.",
+  "הַמָּיִם": "Behold (He) the waters (Mem), worked by hand (Yod), and waters again (Mem) — the revealed double-waters, chaos spread above and below.",
+  "וַיֹּאמֶר": "Hooked (Vav) by the working hand (Yod), the ox-strength (Aleph) rises from the waters (Mem) as a chief (Resh) — the divine word surging up and going forth.",
+  "יְהִי": "Hand/work (Yod) breathes (He) through another hand (Yod) — divine action breathing itself into being, work calling itself into existence.",
+  "אוֹר": "The ox-strength (Aleph) hooked (Vav) to the chief/head (Resh) — the first power connected to the highest point, strength flowing from the source.",
+  "וַיְהִי": "Connected (Vav), the hand works (Yod), the breath reveals (He), the hand works again (Yod) — and the deed was done, the action was completed.",
+  "וַיַּרְא": "Connected (Vav), the hand (Yod) of the chief (Resh) ox-strength (Aleph) — the powerful hand of the leader turned to look, divine sight reaching out.",
+  "הָאוֹר": "Behold (He), the ox-strength (Aleph) hooked (Vav) to the chief (Resh) — see it: the primal power connected to its source, light made visible.",
+  "כִּי": "The open palm (Kaph) working (Yod) — the hand that yields and acts, the gesture of acknowledgment that makes something true.",
+  "טוֹב": "The coiled snake/basket (Tet) hooked (Vav) inside the house (Beth) — goodness as something contained within, the coiled potential safely dwelling inside the home.",
+  "וַיַּבְדֵּל": "Connected (Vav), the hand (Yod) of the house (Beth) enters the door (Dalet) guided by the goad (Lamed) — the separating hand moving through the doorway to divide.",
+  "בֵּין": "The house (Beth) with the working hand (Yod) of the living fish (Nun) — the living space between two things, the active dwelling that separates.",
+  "וַיִּקְרָא": "Connected (Vav), the hand (Yod) follows the sun (Qoph) past the head (Resh) back to the ox (Aleph) — calling out, the voice following all the way back to the source.",
+  "יוֹם": "The hand/work (Yod) hooked (Vav) to the waters (Mem) — the working deed connected over the mighty waters, the span of light over the deep.",
+  "לַיְלָה": "The goad (Lamed) works (Yod) and the goad returns (Lamed) breathing (He) — the directed motion that goes out and comes back, the cycle that turns.",
+  "עֶרֶב": "The eye (Ayin) sees the head (Resh) inside the house (Beth) — the seeing of the chief entering the dwelling, the sun going into its house.",
+  "בֹקֶר": "The house (Beth) follows the sun (Qoph) to the chief (Resh) — the dwelling chasing the horizon toward the head, the moment light breaks from the house of night.",
+  "אֶחָד": "The ox-strength (Aleph) enclosed by the fence (Chet) entering the door (Dalet) — primal strength contained and then moving through — the one that stands alone and advances.",
+  "רָקִיעַ": "The head/chief (Resh) follows the sun on the horizon (Qoph), worked by the hand (Yod), seen by the eye (Ayin) — the expanse stretched to the horizon and perceived.",
+  "בְּתוֹךְ": "The house (Beth) marked by covenant (Tav), hooked (Vav) and bent by the open palm (Kaph) — what is sealed inside and held in the yielding hand, the midst.",
+  "שָׁמַיִם": "The teeth/fire (Shin) consuming the waters (Mem), worked by hand (Yod) into waters (Mem) — fire pressed into water pressed into fire, the burning expanse of heaven.",
+  "שֵׁנִי": "The teeth (Shin) of the living fish (Nun) worked by the hand (Yod) — the consuming life that works again, the second that repeats and follows.",
+  "מָקוֹם": "The waters (Mem) follow the sun (Qoph), hooked (Vav) back to the waters (Mem) — the gathered waters finding their horizon and returning, a bounded place.",
+  "הַיַּבָּשָׁה": "Behold (He), the working hand (Yod) inside the house (Beth) consumed by teeth (Shin) and breathing (He) — what the fire leaves behind inside the dwelling, the dried and hardened ground.",
+  "אֶרֶץ": "The ox-strength (Aleph) at the head/chief (Resh) sealed by covenant (Tav) — the strong foundation marked at both ends, the bounded land.",
+  "יַמִּים": "The hand (Yod) of the waters (Mem) and waters (Mem) again, worked by the hand (Yod) into more waters (Mem) — hands multiplied in the many waters, the roiling seas.",
+  "דֶּשֶׁא": "The door (Dalet) opened by the fire/teeth (Shin) back to the ox-strength (Aleph) — the doorway that fire opens to first strength, new life pushing up from the ground.",
+  "עֵשֶׂב": "The eye (Ayin) of the consuming teeth (Shin) inside the house (Beth) — what the devouring eye sees growing inside the dwelling, the herb that feeds.",
+  "זֶרַע": "The weapon/cut (Zayin) of the chief (Resh) seen by the eye (Ayin) — the cutting edge of the head placed into the ground in sight, the seed as a buried blade.",
+  "עֵץ": "The eye (Ayin) sealed by the covenant mark (Tav) — what is seen and permanently marked, the tree as a standing covenant witness.",
+  "פְּרִי": "The mouth (Pe) of the chief (Resh) worked by the hand (Yod) — what the leader's mouth produces through work, the spoken result made tangible.",
+  "מְאֹרֹת": "The waters (Mem) of the ox-strength (Aleph) at the chief (Resh) sealed by covenant (Tav) — mighty lights covenanted to rule from the highest point over the expanse.",
+  "לְאֹתֹת": "The goad (Lamed) drives the ox (Aleph) to the covenant mark (Tav) and mark again (Tav) — directed toward the sign and sealed again — appointed signs.",
+  "מוֹעֲדִים": "The waters (Mem) hooked (Vav) to the eye (Ayin) entering the door (Dalet), worked by the hand (Yod) in the waters (Mem) — the mighty eye at the threshold watching the seasons turn.",
+  "שָׁנִים": "The teeth (Shin) of the living fish (Nun) worked by the hand (Yod) in the waters (Mem) — the consuming cycle of life in the waters, one year devouring the next.",
+  "הַגָּדֹל": "Behold (He) the camel (Gimel) entering the door (Dalet) guided by the goad (Lamed) — the great lifting and carrying that pushes through the threshold, greatness in motion.",
+  "הַכּוֹכָבִים": "Behold (He) the open palm (Kaph) hooked (Vav) to the palm (Kaph) inside the house (Beth), worked by the hand (Yod) in the waters (Mem) — the yielded hands inside the heavenly house, the stars as bending lights.",
+  "נֶפֶשׁ": "The living fish (Nun) breathes through the mouth (Pe) consumed by the teeth (Shin) — the swimming life that breathes and is consumed, the soul as animated breathing creature.",
+  "חַיָּה": "The fence/inner room (Chet) worked by the hand (Yod) and revealed by breath (He) — life as what the hand produces inside the bounded space, the living thing.",
+  "הָעוֹף": "Behold (He) the eye (Ayin) hooked (Vav) to the mouth (Pe) — the seeing mouth that opens upward, the bird as the creature of sight and cry.",
+  "נַעֲשֶׂה": "The living fish (Nun) is seen by the eye (Ayin) consumed by fire (Shin) and revealed by breath (He) — let the living be seen, consumed, and brought forth.",
+  "אָדָם": "The ox-strength (Aleph) entering the door (Dalet) into the waters (Mem) — the strong one stepping through the threshold into the chaos, the earth-man formed from the red clay.",
+  "בְּצַלְמֵנוּ": "The house (Beth) of the fish-hook desire (Tsade), guided by the goad (Lamed), in the mighty waters (Mem) of the living fish (Nun) hooked (Vav) — the image as the hunted likeness inside the dwelling.",
+  "זָכָר": "The weapon/cutting edge (Zayin) bent by the open palm (Kaph) at the chief/head (Resh) — the cutting distinction at the top, what is marked and remembered at the head.",
+  "וּנְקֵבָה": "Connected (Vav), the living fish (Nun) follows the sun (Qoph) inside the house (Beth) breathing (He) — the life that follows the horizon into the dwelling, the pierced vessel.",
+  "וַיְבָרֶךְ": "Connected (Vav), the hand (Yod) of the house (Beth) at the chief (Resh) yields the palm (Kaph) — the kneeling of the house before the chief, blessing as bending the knee.",
+  "פְּרוּ": "The mouth (Pe) of the chief (Resh) hooked (Vav) — the word of the leader connected and going forth, fruit as the speech of the head made real.",
+  "וּרְבוּ": "Connected (Vav), the chief (Resh) inside the house (Beth) hooks (Vav) again — the head multiplying inside the dwelling and connecting outward, increase filling the house.",
+  "הַמָּאוֹר": "Behold (He) the waters (Mem) of ox-strength (Aleph) hooked (Vav) to the chief (Resh) — the mighty primal light connected to its source, the luminary as channeled power.",
+  "שְׁלִישִׁי": "The teeth (Shin) goad (Lamed) the hand (Yod), then the teeth (Shin) work the hand (Yod) again — consumed, directed, worked, consumed again — the third as the doubled process.",
+  "מְאֹד": "The waters (Mem) of ox-strength (Aleph) entering the door (Dalet) — the mighty force crossing the threshold, power moving through — very, exceedingly, to the uttermost.",
+  "הַשִּׁשִּׁי": "Behold (He) the teeth (Shin) consuming the teeth (Shin) worked by the hand (Yod) — fire consuming fire under the working hand, the sixth as doubled pressure.",
+  "וַיַּעַשׂ": "Connected (Vav), the hand (Yod) of the eye (Ayin) consumed by fire (Shin) — the seeing hand pressed through by fire, the making that requires both vision and burning effort.",
+  "עַל": "The eye (Ayin) of the goad (Lamed) — the seeing that directs, the perception aimed downward from above.",
+  "כָּל": "The open palm (Kaph) of the goad (Lamed) — the yielded hand directed outward toward everything, the encompassing reach.",
+  "אֲשֶׁר": "The ox-strength (Aleph) consumed by fire (Shin) at the head/chief (Resh) — the primal strength pressed and brought to the top, what is brought forth and identified.",
+  "וַתּוֹצֵא": "Connected (Vav), the covenant mark (Tav) hooked (Vav) to the prop/support (Samech) of the ox-strength (Aleph) — the sealed support of primal strength bringing something out and upholding it."
+};
+
+// Toggle controls
+const states = { pics: true, phoen: true, trans: true, eng: true };
+function toggle(name, btn) {
+  states[name] = !states[name];
+  btn.classList.toggle('on', states[name]);
+  document.body.classList.toggle('hide-' + name, !states[name]);
+}
+</script>
+</body>
+</html>

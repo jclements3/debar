@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hebrew Pictorial Roots</title>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1208;
+    --parchment: #f5edda;
+    --parchment-dark: #e8d9b8;
+    --gold: #8B6914;
+    --gold-light: #c4972a;
+    --terracotta: #7a3b2e;
+    --faded: #9e8b6e;
+    --white: #fdfaf3;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--parchment);
+    color: var(--ink);
+    font-family: 'Crimson Pro', serif;
+    min-height: 100vh;
+  }
+
+  /* HEADER */
+  header {
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 2rem 2rem 1.5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: 'אבגדהוזחטיכלמנסעפצקרשת';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    opacity: 0.06;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+  header h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    position: relative;
+  }
+  header p {
+    color: var(--gold-light);
+    font-style: italic;
+    margin-top: 0.3rem;
+    font-size: 1.1rem;
+    position: relative;
+  }
+
+  /* NAV */
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    background: var(--parchment-dark);
+    border-bottom: 2px solid var(--gold);
+    flex-wrap: wrap;
+  }
+  nav button {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    padding: 0.4rem 1.2rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    transition: all 0.2s;
+  }
+  nav button:hover, nav button.active {
+    background: var(--gold);
+    color: var(--white);
+  }
+
+  /* MAIN */
+  main { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+  /* SECTION TITLES */
+  .section-title {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.3em;
+    color: var(--faded);
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--parchment-dark);
+  }
+
+  /* ── ALPHABET TABLE ── */
+  #view-alphabet { display: block; }
+  #view-roots, #view-flashcard, #view-anki { display: none; }
+
+  .alpha-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+
+  .letter-card {
+    background: var(--white);
+    border: 1px solid var(--parchment-dark);
+    padding: 1rem 0.8rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+  }
+  .letter-card:hover {
+    border-color: var(--gold);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(139,105,20,0.15);
+  }
+  .letter-card .pic { font-size: 2rem; display: block; margin-bottom: 0.3rem; }
+  .letter-card .phoen { font-size: 1.4rem; color: var(--faded); display: block; }
+  .letter-card .heb { font-size: 2.2rem; font-weight: 600; color: var(--terracotta); display: block; line-height: 1; }
+  .letter-card .name { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--faded); margin-top: 0.4rem; display: block; letter-spacing: 0.05em; }
+  .letter-card .meaning { font-size: 0.85rem; color: var(--gold); margin-top: 0.3rem; font-style: italic; display: block; }
+
+  /* Letter detail panel */
+  .letter-detail {
+    display: none;
+    background: var(--white);
+    border: 1px solid var(--gold);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    animation: fadeIn 0.2s ease;
+  }
+  .letter-detail.open { display: block; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: translateY(0); } }
+  .detail-row { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
+  .detail-glyph { font-size: 5rem; color: var(--terracotta); line-height: 1; font-weight: 600; }
+  .detail-body h2 { font-size: 1.6rem; color: var(--gold); font-weight: 600; }
+  .detail-body .detail-pic { font-size: 1.2rem; margin: 0.3rem 0; }
+  .detail-body p { font-size: 1rem; color: var(--faded); margin-top: 0.3rem; }
+  .detail-body .core { color: var(--ink); font-size: 1.05rem; font-style: italic; margin-top: 0.4rem; }
+
+  /* ── ROOTS ── */
+  .root-list { display: flex; flex-direction: column; gap: 1.5rem; }
+
+  .root-card {
+    background: var(--white);
+    border-left: 4px solid var(--gold);
+    padding: 1.2rem 1.5rem;
+  }
+  .root-header {
+    display: flex; align-items: baseline; gap: 1rem; margin-bottom: 1rem; flex-wrap: wrap;
+  }
+  .root-pics { font-size: 1.8rem; }
+  .root-arrow { font-size: 1.2rem; color: var(--faded); margin: 0 0.3rem; }
+  .root-heb { font-size: 1.8rem; color: var(--terracotta); font-weight: 600; direction: rtl; }
+  .root-meaning { font-style: italic; color: var(--faded); font-size: 0.95rem; }
+
+  .word-table { width: 100%; border-collapse: collapse; }
+  .word-table th {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.15em;
+    color: var(--faded);
+    text-align: left;
+    padding: 0.3rem 0.5rem;
+    border-bottom: 1px solid var(--parchment-dark);
+    text-transform: uppercase;
+  }
+  .word-table td { padding: 0.5rem 0.5rem; vertical-align: top; border-bottom: 1px solid var(--parchment-dark); }
+  .word-table tr:last-child td { border-bottom: none; }
+  .word-table .heb-cell { font-size: 1.6rem; color: var(--terracotta); font-weight: 600; min-width: 80px; }
+  .word-table .trans-cell { font-family: 'Space Mono', monospace; font-size: 0.8rem; color: var(--gold); min-width: 120px; }
+  .word-table .eng-cell { font-size: 0.95rem; min-width: 120px; }
+  .word-table .mem-cell { font-size: 0.9rem; font-style: italic; color: var(--faded); }
+
+  /* ── FLASHCARD ── */
+  .flashcard-area { text-align: center; }
+  .deck-select { display: flex; gap: 0.5rem; justify-content: center; margin-bottom: 2rem; flex-wrap: wrap; }
+  .deck-btn {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    padding: 0.4rem 1rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    letter-spacing: 0.08em;
+  }
+  .deck-btn:hover, .deck-btn.active { background: var(--gold); color: var(--white); }
+
+  .card-container {
+    perspective: 1000px;
+    width: 420px;
+    height: 260px;
+    margin: 0 auto 1.5rem;
+    cursor: pointer;
+  }
+  .card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+  }
+  .card-inner.flipped { transform: rotateY(180deg); }
+  .card-face {
+    position: absolute;
+    width: 100%; height: 100%;
+    backface-visibility: hidden;
+    background: var(--white);
+    border: 1px solid var(--parchment-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+  }
+  .card-face.back { transform: rotateY(180deg); border-color: var(--gold); }
+  .card-big { font-size: 4rem; color: var(--terracotta); font-weight: 600; line-height: 1; }
+  .card-sub { font-family: 'Space Mono', monospace; font-size: 0.7rem; color: var(--faded); margin-top: 0.5rem; letter-spacing: 0.1em; }
+  .card-hint { font-size: 0.85rem; color: var(--faded); font-style: italic; margin-top: 0.3rem; }
+  .card-back-main { font-size: 1.4rem; color: var(--gold); font-weight: 600; }
+  .card-back-detail { font-size: 0.9rem; color: var(--faded); font-style: italic; margin-top: 0.5rem; text-align: center; max-width: 280px; }
+  .card-tap { font-family: 'Space Mono', monospace; font-size: 0.6rem; color: var(--faded); letter-spacing: 0.2em; }
+
+  .card-controls { display: flex; gap: 1rem; justify-content: center; align-items: center; margin-top: 0.5rem; }
+  .card-controls button {
+    background: transparent;
+    border: 1px solid var(--parchment-dark);
+    color: var(--faded);
+    padding: 0.4rem 1.2rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .card-controls button:hover { border-color: var(--gold); color: var(--gold); }
+  .card-counter { font-family: 'Space Mono', monospace; font-size: 0.7rem; color: var(--faded); }
+
+  /* ── ANKI ── */
+  .anki-section { display: flex; flex-direction: column; gap: 1.5rem; }
+  .anki-deck {
+    background: var(--white);
+    border: 1px solid var(--parchment-dark);
+    padding: 1.5rem;
+  }
+  .anki-deck h3 { font-size: 1.1rem; color: var(--gold); margin-bottom: 0.3rem; }
+  .anki-deck p { font-size: 0.9rem; color: var(--faded); font-style: italic; margin-bottom: 1rem; }
+  .anki-deck .preview {
+    background: var(--parchment);
+    padding: 0.8rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--faded);
+    margin-bottom: 1rem;
+    white-space: pre;
+    overflow: hidden;
+    max-height: 80px;
+  }
+  .dl-btn {
+    background: var(--ink);
+    color: var(--parchment);
+    border: none;
+    padding: 0.6rem 1.5rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    transition: background 0.2s;
+  }
+  .dl-btn:hover { background: var(--gold); }
+
+  /* responsive */
+  @media (max-width: 600px) {
+    .card-container { width: 320px; height: 220px; }
+    .card-big { font-size: 3rem; }
+    header h1 { font-size: 1.4rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Hebrew Pictorial Roots</h1>
+  <p>Every letter is a picture. Every root tells a story.</p>
+</header>
+
+<nav>
+  <button class="active" onclick="showView('alphabet', this)">🔠 The 22 Letters</button>
+  <button onclick="showView('roots', this)">🌿 Root Families</button>
+  <button onclick="showView('flashcard', this)">🃏 Flashcards</button>
+  <button onclick="showView('anki', this)">⬇️ Anki CSV</button>
+</nav>
+
+<main>
+
+<!-- ── ALPHABET ── -->
+<div id="view-alphabet">
+  <p class="section-title">The 22 Letters — Picture → Phoenician → Hebrew → Meaning</p>
+  <div id="letter-detail" class="letter-detail"></div>
+  <div class="alpha-grid" id="alpha-grid"></div>
+</div>
+
+<!-- ── ROOTS ── -->
+<div id="view-roots">
+  <p class="section-title">Vocabulary through picture combinations</p>
+  <div class="root-list" id="root-list"></div>
+</div>
+
+<!-- ── FLASHCARD ── -->
+<div id="view-flashcard">
+  <p class="section-title">Tap the card to reveal — build the picture in your mind</p>
+  <div class="flashcard-area">
+    <div class="deck-select">
+      <button class="deck-btn active" onclick="loadDeck('letters', this)">Deck 1: Letters</button>
+      <button class="deck-btn" onclick="loadDeck('roots', this)">Deck 2: Roots</button>
+      <button class="deck-btn" onclick="loadDeck('vocab', this)">Deck 3: Vocabulary</button>
+    </div>
+    <div class="card-container" onclick="flipCard()">
+      <div class="card-inner" id="card-inner">
+        <div class="card-face front" id="card-front"></div>
+        <div class="card-face back" id="card-back"></div>
+      </div>
+    </div>
+    <div class="card-controls">
+      <button onclick="prevCard()">← Prev</button>
+      <span class="card-counter" id="card-counter">1 / 22</span>
+      <button onclick="nextCard()">Next →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── ANKI ── -->
+<div id="view-anki">
+  <p class="section-title">Download CSV files — import directly into Anki</p>
+  <div class="anki-section" id="anki-section"></div>
+</div>
+
+</main>
+
+<script>
+// ── DATA ────────────────────────────────────────────────────────────────────
+const letters = [
+  { pic:"🐂", phoen:"𐤀", heb:"א", name:"Aleph", sound:"Silent/glottal", image:"Ox head", meaning:"Strength, leader, first" },
+  { pic:"🏠", phoen:"𐤁", heb:"ב", name:"Beth",  sound:"B / V",          image:"House/tent",   meaning:"Inside, container, family" },
+  { pic:"🐪", phoen:"𐤂", heb:"ג", name:"Gimel", sound:"G",              image:"Camel",        meaning:"To carry, lift, benefit" },
+  { pic:"🚪", phoen:"𐤃", heb:"ד", name:"Dalet", sound:"D",              image:"Door",         meaning:"Pathway, entry, to move" },
+  { pic:"👐", phoen:"𐤄", heb:"ה", name:"He",    sound:"H",              image:"Window/breath",meaning:"Behold! Reveal, breath" },
+  { pic:"🪝", phoen:"𐤅", heb:"ו", name:"Vav",   sound:"V / W",          image:"Tent peg/hook",meaning:"To connect, to secure, and" },
+  { pic:"⚔️", phoen:"𐤆", heb:"ז", name:"Zayin", sound:"Z",              image:"Weapon/sword", meaning:"To cut, to arm, sustenance" },
+  { pic:"🧱", phoen:"𐤇", heb:"ח", name:"Chet",  sound:"Ch (guttural)",  image:"Fence/inner room", meaning:"Separation, protect, inner" },
+  { pic:"🐍", phoen:"𐤈", heb:"ט", name:"Tet",   sound:"T",              image:"Coiled snake", meaning:"To surround, contain, good" },
+  { pic:"🤲", phoen:"𐤉", heb:"י", name:"Yod",   sound:"Y",              image:"Closed hand/arm", meaning:"Deed, work, divine action" },
+  { pic:"✋", phoen:"𐤊", heb:"כ", name:"Kaph",  sound:"K / Kh",         image:"Open palm",    meaning:"To bend, yield, open power" },
+  { pic:"🦁", phoen:"𐤋", heb:"ל", name:"Lamed", sound:"L",              image:"Ox goad",      meaning:"To teach, urge, toward" },
+  { pic:"🌊", phoen:"𐤌", heb:"מ", name:"Mem",   sound:"M",              image:"Water",        meaning:"Chaos, the masses, mighty" },
+  { pic:"🐟", phoen:"𐤍", heb:"נ", name:"Nun",   sound:"N",              image:"Fish/sprout",  meaning:"Life, activity, heir" },
+  { pic:"🌵", phoen:"𐤎", heb:"ס", name:"Samech",sound:"S",              image:"Prop/thorn",   meaning:"To support, surround, hate" },
+  { pic:"👁️", phoen:"𐤏", heb:"ע", name:"Ayin",  sound:"Silent (guttural)", image:"Eye",      meaning:"To see, perceive, presence" },
+  { pic:"💬", phoen:"𐤐", heb:"פ", name:"Pe",    sound:"P / Ph",         image:"Mouth",        meaning:"To speak, word, edge" },
+  { pic:"🎣", phoen:"𐤑", heb:"צ", name:"Tsade", sound:"Ts",             image:"Fish hook",    meaning:"To hunt, desire, righteous" },
+  { pic:"🌅", phoen:"𐤒", heb:"ק", name:"Qoph",  sound:"Q",              image:"Sun on horizon", meaning:"Last, behind, to follow" },
+  { pic:"👤", phoen:"𐤓", heb:"ר", name:"Resh",  sound:"R",              image:"Head of a man",meaning:"First, highest, beginning" },
+  { pic:"🦷", phoen:"𐤔", heb:"ש", name:"Shin",  sound:"Sh / S",         image:"Teeth/flames", meaning:"To consume, press, fire" },
+  { pic:"✝️", phoen:"𐤕", heb:"ת", name:"Tav",   sound:"T / Th",         image:"Crossed sticks/mark", meaning:"Sign, covenant, seal" },
+];
+
+const roots = [
+  { pics:"🐂🏠", root:"אב", meaning:"the strong one of the house", words:[
+    { heb:"אָב", trans:"av", eng:"father", mem:"The ox (strength) of the house — the strong one inside the tent" },
+    { heb:"אַבְרָהָם", trans:"Avraham", eng:"Abraham", mem:"Father of many — strength lifting many houses" },
+  ]},
+  { pics:"🐂🦁", root:"אל", meaning:"raw strength guided with authority", words:[
+    { heb:"אֵל", trans:"El", eng:"God / mighty one", mem:"Ox goad drives the ox — strength under supreme authority" },
+    { heb:"אֱלֹהִים", trans:"Elohim", eng:"God (plural of majesty)", mem:"The ultimate strength that urges all creation" },
+  ]},
+  { pics:"🏠🤲✝️", root:"בית", meaning:"the house where God's work is sealed", words:[
+    { heb:"בַּיִת", trans:"bayit", eng:"house / temple", mem:"House, working hand, covenant mark — where deeds are sealed inside" },
+    { heb:"בֵּית לֶחֶם", trans:"Beit Lechem", eng:"Bethlehem", mem:"House of bread — where sustenance lives" },
+  ]},
+  { pics:"🚪🏠👤", root:"דבר", meaning:"the chief thing that enters the dwelling", words:[
+    { heb:"דָּבָר", trans:"davar", eng:"word / thing", mem:"The chief (head) thing entering (door) the house — a word crossing the threshold" },
+    { heb:"דִּבֵּר", trans:"dibber", eng:"he spoke", mem:"He sent a word through the door" },
+    { heb:"מִדְבָּר", trans:"midbar", eng:"wilderness / desert", mem:"Where words go to die — the empty place beyond the door" },
+    { heb:"דְּבִיר", trans:"devir", eng:"Holy of Holies", mem:"Innermost room where the Chief Word dwells" },
+  ]},
+  { pics:"🌊✋🦁", root:"מלכ", meaning:"the force that directs the masses and holds power", words:[
+    { heb:"מֶלֶךְ", trans:"melek", eng:"king", mem:"Water (masses) bent by the open palm, directed by the goad" },
+    { heb:"מַלְכָּה", trans:"malkah", eng:"queen", mem:"She who holds royal power" },
+    { heb:"מַלְכוּת", trans:"malkuth", eng:"kingdom", mem:"The realm where the open hand rules the waters" },
+    { heb:"מָלַךְ", trans:"malakh", eng:"to reign", mem:"To direct the chaos with authority" },
+  ]},
+  { pics:"🤲🦷👁️", root:"ישע", meaning:"a hand pressing through into open sight", words:[
+    { heb:"יֵשׁוּעַ", trans:"Yeshua", eng:"Jesus / Joshua", mem:"Working hand pressing through (teeth) into open sight — rescue!" },
+    { heb:"יְשׁוּעָה", trans:"yeshuah", eng:"salvation", mem:"The hand breaking through pressure into open space" },
+    { heb:"יְשַׁעְיָהוּ", trans:"Yeshayahu", eng:"Isaiah", mem:"YHWH is salvation — God's hand presses through" },
+  ]},
+  { pics:"🦷🦁🌊", root:"שלמ", meaning:"consuming the chaos — nothing left to disturb", words:[
+    { heb:"שָׁלוֹם", trans:"shalom", eng:"peace / wholeness", mem:"Teeth consume, goad directs, water calms — complete peace" },
+    { heb:"שְׁלֹמֹה", trans:"Shelomoh", eng:"Solomon", mem:"The man of complete peace" },
+    { heb:"יְרוּשָׁלַיִם", trans:"Yerushalayim", eng:"Jerusalem", mem:"Foundation of peace — where shalom is laid down" },
+  ]},
+  { pics:"👤🪝🧱", root:"רוח", meaning:"breath hooked through the boundary", words:[
+    { heb:"רוּחַ", trans:"ruach", eng:"spirit / wind / breath", mem:"The head connected (hook) through the fence — breath crossing a boundary" },
+    { heb:"רוּחַ אֱלֹהִים", trans:"ruach Elohim", eng:"Spirit of God", mem:"God's breath hooked through the veil — Genesis 1:2" },
+  ]},
+  { pics:"🐂🚪🌊", root:"אדמ", meaning:"strength entering the waters", words:[
+    { heb:"אָדָם", trans:"adam", eng:"man / humanity", mem:"Ox strength enters the doorway of the waters — formed from red clay" },
+    { heb:"אֲדָמָה", trans:"adamah", eng:"ground / earth", mem:"The watery red clay — where man came from" },
+  ]},
+  { pics:"🦁🏠", root:"לב", meaning:"what the goad drives from inside the house", words:[
+    { heb:"לֵב", trans:"lev", eng:"heart", mem:"The goad inside the house — what drives from within" },
+    { heb:"לֵבָב", trans:"levav", eng:"heart (emphatic)", mem:"The innermost inner drive — doubly inside" },
+  ]},
+  { pics:"🐟💬🦷", root:"נפש", meaning:"living breath that consumes — the whole person", words:[
+    { heb:"נֶפֶשׁ", trans:"nefesh", eng:"soul / living being", mem:"Fish (life) mouth (breath) teeth (consuming) — the animated whole person" },
+    { heb:"נְשָׁמָה", trans:"neshamah", eng:"breath of life", mem:"The breath that makes the fish swim upward" },
+  ]},
+  { pics:"🌅🚪🦷", root:"קדש", meaning:"fire at the threshold — what burns at the boundary", words:[
+    { heb:"קֹדֶשׁ", trans:"qodesh", eng:"holy / set apart", mem:"Sun crosses the door into fire — the burning boundary between common and holy" },
+    { heb:"קָדוֹשׁ", trans:"qadosh", eng:"holy one", mem:"The one who stands where the sun crosses — separate, other" },
+    { heb:"מִקְדָּשׁ", trans:"miqdash", eng:"sanctuary / temple", mem:"The place where fire meets the door" },
+  ]},
+];
+
+// ── VIEWS ────────────────────────────────────────────────────────────────────
+function showView(name, btn) {
+  ['alphabet','roots','flashcard','anki'].forEach(v => {
+    document.getElementById('view-'+v).style.display = 'none';
+  });
+  document.getElementById('view-'+name).style.display = 'block';
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+}
+
+// ── ALPHABET ─────────────────────────────────────────────────────────────────
+let activeLetterIdx = null;
+function buildAlphabet() {
+  const grid = document.getElementById('alpha-grid');
+  letters.forEach((l, i) => {
+    const card = document.createElement('div');
+    card.className = 'letter-card';
+    card.innerHTML = `
+      <span class="pic">${l.pic}</span>
+      <span class="phoen">${l.phoen}</span>
+      <span class="heb">${l.heb}</span>
+      <span class="name">${l.name} · ${l.sound}</span>
+      <span class="meaning">${l.meaning}</span>
+    `;
+    card.onclick = () => showLetterDetail(i);
+    grid.appendChild(card);
+  });
+}
+
+function showLetterDetail(i) {
+  const det = document.getElementById('letter-detail');
+  if (activeLetterIdx === i) {
+    det.classList.remove('open');
+    activeLetterIdx = null;
+    return;
+  }
+  activeLetterIdx = i;
+  const l = letters[i];
+  det.innerHTML = `
+    <div class="detail-row">
+      <div>
+        <div style="font-size:3.5rem">${l.pic}</div>
+        <div style="font-size:2rem;color:var(--faded);margin-top:0.3rem">${l.phoen}</div>
+        <div class="detail-glyph">${l.heb}</div>
+      </div>
+      <div class="detail-body">
+        <h2>${l.name}</h2>
+        <div class="detail-pic">Image: <strong>${l.image}</strong></div>
+        <p>Sound: ${l.sound}</p>
+        <p class="core">Core meaning: ${l.meaning}</p>
+      </div>
+    </div>
+  `;
+  det.classList.add('open');
+  det.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+// ── ROOTS ────────────────────────────────────────────────────────────────────
+function buildRoots() {
+  const list = document.getElementById('root-list');
+  roots.forEach(r => {
+    const card = document.createElement('div');
+    card.className = 'root-card';
+    const rows = r.words.map(w => `
+      <tr>
+        <td class="heb-cell">${w.heb}</td>
+        <td class="trans-cell">${w.trans}</td>
+        <td class="eng-cell">${w.eng}</td>
+        <td class="mem-cell">${w.mem}</td>
+      </tr>
+    `).join('');
+    card.innerHTML = `
+      <div class="root-header">
+        <span class="root-pics">${r.pics}</span>
+        <span class="root-arrow">→</span>
+        <span class="root-heb">${r.root}</span>
+        <span class="root-arrow">→</span>
+        <span class="root-meaning">${r.meaning}</span>
+      </div>
+      <table class="word-table">
+        <thead><tr>
+          <th>Hebrew</th><th>Transliteration</th><th>English</th><th>What the pictures show</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    `;
+    list.appendChild(card);
+  });
+}
+
+// ── FLASHCARDS ───────────────────────────────────────────────────────────────
+let deck = [];
+let cardIdx = 0;
+let flipped = false;
+
+const decks = {
+  letters: letters.map(l => ({
+    front: `<div class="card-big">${l.pic}</div><div class="card-sub">${l.phoen}</div><div class="card-tap">tap to reveal</div>`,
+    back: `<div class="card-big" style="font-size:3rem">${l.heb}</div><div class="card-back-main">${l.name}</div><div class="card-back-detail">${l.image} — ${l.meaning}</div>`
+  })),
+  roots: roots.map(r => ({
+    front: `<div class="card-big" style="font-size:2.5rem">${r.pics}</div><div style="font-size:1.8rem;color:var(--terracotta);margin-top:0.3rem">${r.root}</div><div class="card-tap">tap to see the word family</div>`,
+    back: `<div class="card-back-main">${r.words[0].heb}</div><div class="card-back-detail">${r.words.map(w=>w.eng).join(' · ')}</div><div class="card-back-detail" style="margin-top:0.5rem;font-size:0.8rem">${r.words[0].mem}</div>`
+  })),
+  vocab: roots.flatMap(r => r.words.map(w => ({
+    front: `<div class="card-big" style="font-size:3rem">${w.heb}</div><div class="card-sub">${w.trans}</div><div class="card-tap">tap to reveal</div>`,
+    back: `<div class="card-back-main">${w.eng}</div><div class="card-back-detail">${w.mem}</div>`
+  })))
+};
+
+function loadDeck(name, btn) {
+  deck = decks[name];
+  cardIdx = 0;
+  flipped = false;
+  document.querySelectorAll('.deck-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderCard();
+}
+
+function renderCard() {
+  const ci = document.getElementById('card-inner');
+  ci.classList.remove('flipped');
+  flipped = false;
+  document.getElementById('card-front').innerHTML = deck[cardIdx].front;
+  document.getElementById('card-back').innerHTML = deck[cardIdx].back;
+  document.getElementById('card-counter').textContent = `${cardIdx+1} / ${deck.length}`;
+}
+
+function flipCard() {
+  flipped = !flipped;
+  document.getElementById('card-inner').classList.toggle('flipped', flipped);
+}
+function nextCard() { cardIdx = (cardIdx + 1) % deck.length; renderCard(); }
+function prevCard() { cardIdx = (cardIdx - 1 + deck.length) % deck.length; renderCard(); }
+
+// ── ANKI ─────────────────────────────────────────────────────────────────────
+function buildAnki() {
+  const section = document.getElementById('anki-section');
+
+  const ankiDecks = [
+    {
+      name: "Deck 1: The 22 Letters",
+      desc: "22 cards — picture → letter name, sound, meaning",
+      rows: letters.map(l => [`${l.pic} ${l.phoen} (${l.name})`, `${l.heb} | ${l.sound} | ${l.image} | ${l.meaning}`]),
+    },
+    {
+      name: "Deck 2: Root Families",
+      desc: "12 cards — pictures → word family",
+      rows: roots.map(r => [`${r.pics} ${r.label}`, r.words.map(w=>`${w.heb} ${w.trans} = ${w.eng}`).join(' | ')]),
+    },
+    {
+      name: "Deck 3: Vocabulary",
+      desc: "All vocabulary words — Hebrew → English with memory hook",
+      rows: roots.flatMap(r => r.words.map(w => [`${w.heb} (${w.trans})`, `${w.eng} | ${w.mem}`])),
+    },
+  ];
+
+  ankiDecks.forEach(d => {
+    const csvContent = d.rows.map(r => `"${r[0]}","${r[1]}"`).join('\n');
+    const preview = d.rows.slice(0,3).map(r => `"${r[0].substring(0,30)}...","${r[1].substring(0,40)}..."`).join('\n');
+
+    const div = document.createElement('div');
+    div.className = 'anki-deck';
+    div.innerHTML = `
+      <h3>${d.name}</h3>
+      <p>${d.desc}</p>
+      <div class="preview">${preview}</div>
+      <button class="dl-btn" id="dl-${d.name}">⬇ Download CSV</button>
+    `;
+    div.querySelector('.dl-btn').onclick = () => {
+      const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a'); a.href = url;
+      a.download = d.name.replace(/[^a-z0-9]/gi,'_').toLowerCase() + '.csv';
+      a.click(); URL.revokeObjectURL(url);
+    };
+    section.appendChild(div);
+  });
+}
+
+// ── INIT ─────────────────────────────────────────────────────────────────────
+buildAlphabet();
+buildRoots();
+loadDeck('letters', document.querySelector('.deck-btn'));
+buildAnki();
+</script>
+</body>
+</html>
