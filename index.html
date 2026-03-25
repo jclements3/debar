@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Debar - Hebrew Pictograph Bible</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#8B6914">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1208;
+    --parchment: #f5edda;
+    --parchment-dark: #e8d9b8;
+    --gold: #8B6914;
+    --gold-light: #c4972a;
+    --terracotta: #7a3b2e;
+    --faded: #9e8b6e;
+    --white: #fdfaf3;
+    --highlight: #fff3cd;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--parchment);
+    color: var(--ink);
+    font-family: 'Crimson Pro', serif;
+    min-height: 100vh;
+  }
+
+  header {
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: attr(data-watermark);
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+    font-size: 1.8rem; opacity: 0.06; white-space: nowrap; pointer-events: none;
+    direction: rtl; width: 100%; text-align: center;
+  }
+  header h1 { font-size: 1.8rem; font-weight: 300; letter-spacing: 0.15em; position: relative; }
+  header p { color: var(--gold-light); font-style: italic; margin-top: 0.3rem; position: relative; }
+
+  /* BOOK SELECTOR */
+  .book-nav {
+    background: var(--ink);
+    padding: 0 2rem 1.5rem;
+    text-align: center;
+  }
+  .book-nav select {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold-light);
+    padding: 0.4rem 1rem;
+    font-family: 'Crimson Pro', serif;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 0.3rem;
+  }
+  .book-nav select option { background: var(--ink); color: var(--parchment); }
+
+  /* CONTROLS */
+  .controls {
+    background: var(--parchment-dark);
+    border-bottom: 2px solid var(--gold);
+    padding: 0.8rem 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .controls label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--faded);
+    letter-spacing: 0.1em;
+  }
+  .toggle-btn {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    padding: 0.3rem 0.9rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    cursor: pointer;
+    letter-spacing: 0.08em;
+    transition: all 0.2s;
+  }
+  .toggle-btn.on { background: var(--gold); color: var(--white); }
+
+  /* VERSE JUMP NAV */
+  .verse-jump {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--parchment-dark);
+    border-bottom: 1px solid var(--gold);
+    padding: 0.5rem 1rem;
+    display: flex; flex-wrap: wrap; gap: 0.3rem;
+  }
+  .verse-jump a {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    color: var(--gold);
+    text-decoration: none;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid transparent;
+    transition: all 0.15s;
+  }
+  .verse-jump a:hover { border-color: var(--gold); }
+
+  /* MAIN */
+  main { max-width: 1000px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+  /* LOADING */
+  .loading {
+    text-align: center;
+    padding: 4rem;
+    color: var(--faded);
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+
+  /* VERSE BLOCK */
+  .verse-block {
+    margin-bottom: 2.5rem;
+    background: var(--white);
+    border-left: 3px solid var(--gold);
+    padding: 1.5rem;
+  }
+  .verse-ref {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--faded);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .verse-english {
+    font-style: italic;
+    color: var(--faded);
+    font-size: 0.95rem;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid var(--parchment-dark);
+    line-height: 1.6;
+  }
+
+  /* WORD ROW */
+  .word-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    direction: rtl;
+    text-align: center;
+  }
+
+  /* WORD CARD */
+  .word-card {
+    background: var(--parchment);
+    border: 1px solid var(--parchment-dark);
+    padding: 0.6rem 0.5rem 0.5rem;
+    min-width: 70px;
+    cursor: pointer;
+    transition: all 0.15s;
+    direction: rtl;
+    position: relative;
+  }
+  .word-card:hover { border-color: var(--gold); background: var(--highlight); }
+  .word-card.active { border-color: var(--terracotta); background: var(--highlight); }
+
+  .w-hebrew { font-size: 1.4rem; font-weight: 600; color: var(--terracotta); display: block; line-height: 1.2; margin-bottom: 0.3rem; }
+  .w-letters { display: flex; flex-direction: row; gap: 2px; justify-content: center; margin-bottom: 0.3rem; flex-wrap: wrap; }
+  .w-letter { display: flex; flex-direction: column; align-items: center; gap: 1px; min-width: 18px; }
+  .w-pic   { font-size: 0.9rem; line-height: 1; }
+  .w-phoen { font-size: 0.75rem; color: var(--faded); line-height: 1; }
+  .w-lheb  { font-size: 1rem; color: var(--ink); font-weight: 600; line-height: 1; }
+  .w-trans { font-family: 'Space Mono', monospace; font-size: 0.55rem; color: var(--gold); display: block; margin-top: 0.3rem; letter-spacing: 0.03em; direction: ltr; }
+  .w-eng { font-size: 0.75rem; color: var(--faded); font-style: italic; display: block; direction: ltr; line-height: 1.2; }
+
+  /* EXPANDED DETAIL */
+  .word-detail {
+    display: none;
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 1rem 1.2rem;
+    margin-top: 1rem;
+    direction: ltr;
+    animation: fadeIn 0.15s ease;
+  }
+  .word-detail.open { display: block; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .detail-heb { font-size: 2rem; color: var(--gold-light); font-weight: 600; }
+  .detail-trans { font-family: 'Space Mono', monospace; font-size: 0.75rem; color: var(--faded); margin-top: 0.2rem; }
+  .detail-eng { font-style: italic; margin-top: 0.2rem; }
+  .detail-letters { display: flex; gap: 1rem; margin-top: 0.8rem; flex-wrap: wrap; }
+  .detail-letter {
+    text-align: center;
+    background: rgba(255,255,255,0.05);
+    padding: 0.5rem 0.7rem;
+    border: 1px solid rgba(255,255,255,0.1);
+    min-width: 60px;
+  }
+  .dl-pic   { font-size: 1.5rem; }
+  .dl-phoen { font-size: 1.1rem; color: var(--faded); }
+  .dl-heb   { font-size: 1.6rem; color: var(--gold-light); font-weight: 600; }
+  .dl-name  { font-family: 'Space Mono', monospace; font-size: 0.6rem; color: var(--faded); margin-top: 0.2rem; }
+  .dl-meaning { font-size: 0.7rem; color: var(--gold-light); margin-top: 0.15rem; font-style: italic; }
+
+  /* NARRATIVE */
+  .detail-narrative {
+    margin-top: 1rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-style: italic;
+    color: var(--gold-light);
+    font-size: 1rem;
+    line-height: 1.6;
+    min-height: 1.5rem;
+  }
+
+  /* SHOW/HIDE toggles */
+  body.hide-pics    .w-pic,    body.hide-pics    .dl-pic    { visibility: hidden; }
+  body.hide-phoen   .w-phoen,  body.hide-phoen   .dl-phoen  { visibility: hidden; }
+  body.hide-trans   .w-trans                                 { visibility: hidden; }
+  body.hide-eng     .w-eng,    body.hide-eng     .detail-eng { visibility: hidden; }
+
+  @media (max-width: 600px) {
+    .w-pic { font-size: 0.75rem; }
+    .w-lheb { font-size: 0.85rem; }
+    .word-card { min-width: 55px; padding: 0.4rem 0.3rem; }
+    header h1 { font-size: 1.4rem; }
+  }
+</style>
+</head>
+<body>
+
+<header id="header" data-watermark="">
+  <h1>Debar - Hebrew Pictograph Bible</h1>
+  <p>Every word broken into its ancient pictures</p>
+</header>
+
+<div class="book-nav">
+  <select id="book-select"></select>
+  <select id="chapter-select"></select>
+</div>
+
+<div class="controls">
+  <span style="font-family:'Space Mono',monospace;font-size:0.65rem;color:var(--faded);letter-spacing:0.1em">SHOW/HIDE:</span>
+  <button class="toggle-btn on" onclick="toggle('pics', this)">Pictures</button>
+  <button class="toggle-btn on" onclick="toggle('phoen', this)">Phoenician</button>
+  <button class="toggle-btn on" onclick="toggle('trans', this)">Transliteration</button>
+  <button class="toggle-btn on" onclick="toggle('eng', this)">English</button>
+</div>
+
+<nav class="verse-jump" id="verse-jump"></nav>
+
+<main id="main">
+  <div class="loading" id="loading">Loading Hebrew engine...</div>
+</main>
+
+<script type="module">
+import init, { decompose_word } from './pkg/hebrew.js';
+
+// ── Toggle visibility ──────────────────────────────────────────────────
+window.toggle = function(layer, btn) {
+  document.body.classList.toggle('hide-' + layer);
+  btn.classList.toggle('on');
+};
+
+// ── Bible data store ───────────────────────────────────────────────────
+// For now: Genesis 1 from existing data, plus Esther stub.
+// This will be replaced by IndexedDB as we add more books.
+let narratives = {};
+let currentBook = null;
+let currentChapter = null;
+
+// ── Books index ────────────────────────────────────────────────────────
+// Each book entry has: { name, hebrewName, chapters: { 1: [...verses] } }
+// Verses: { verse: N, ref: "...", english: "...", words: [{heb, trans, eng}] }
+const books = {};
+
+// ── Load Genesis 1 from existing data ──────────────────────────────────
+async function loadGenesis1() {
+  try {
+    const mod = await import('./gen1_data.js');
+    const data = mod.default || mod.genesis1;
+    if (!data) return;
+    books['Genesis'] = {
+      name: 'Genesis',
+      hebrewName: '\u{05D1}\u{05E8}\u{05D0}\u{05E9}\u{05D9}\u{05EA}',
+      chapters: {
+        1: data.map(v => ({
+          verse: v.verse,
+          ref: v.ref,
+          english: v.kjv,
+          words: v.words.map(w => ({ heb: w.heb, trans: w.trans, eng: w.eng }))
+        }))
+      }
+    };
+  } catch(e) {
+    console.warn('Could not load gen1_data.js as module, using inline fallback');
+  }
+}
+
+async function loadNarratives() {
+  try {
+    const resp = await fetch('./narratives.json');
+    narratives = await resp.json();
+  } catch(e) {
+    console.warn('Could not load narratives.json');
+  }
+}
+
+// ── Render ─────────────────────────────────────────────────────────────
+function renderChapter(bookName, chapterNum) {
+  const main = document.getElementById('main');
+  const jump = document.getElementById('verse-jump');
+  main.innerHTML = '';
+  jump.innerHTML = '';
+
+  const book = books[bookName];
+  if (!book || !book.chapters[chapterNum]) {
+    main.innerHTML = '<div class="loading">No data for this chapter yet.</div>';
+    return;
+  }
+
+  const header = document.getElementById('header');
+  header.setAttribute('data-watermark', book.hebrewName || '');
+
+  const verses = book.chapters[chapterNum];
+
+  verses.forEach(vdata => {
+    // Jump nav
+    const jumpLink = document.createElement('a');
+    jumpLink.href = '#v' + vdata.verse;
+    jumpLink.textContent = vdata.verse;
+    jump.appendChild(jumpLink);
+
+    // Verse block
+    const block = document.createElement('div');
+    block.className = 'verse-block';
+    block.id = 'v' + vdata.verse;
+
+    const ref = document.createElement('div');
+    ref.className = 'verse-ref';
+    ref.textContent = vdata.ref;
+
+    const eng = document.createElement('div');
+    eng.className = 'verse-english';
+    eng.textContent = vdata.english;
+
+    const wordRow = document.createElement('div');
+    wordRow.className = 'word-row';
+
+    const detail = document.createElement('div');
+    detail.className = 'word-detail';
+
+    vdata.words.forEach((word, wi) => {
+      // Use WASM to decompose
+      const breakdown = JSON.parse(decompose_word(word.heb));
+
+      const card = document.createElement('div');
+      card.className = 'word-card';
+
+      // Hebrew text
+      const hebSpan = document.createElement('span');
+      hebSpan.className = 'w-hebrew';
+      hebSpan.textContent = word.heb;
+      card.appendChild(hebSpan);
+
+      // Letter row
+      const letterRow = document.createElement('div');
+      letterRow.className = 'w-letters';
+      breakdown.letters.forEach(l => {
+        const ld = document.createElement('div');
+        ld.className = 'w-letter';
+        ld.innerHTML = `<span class="w-pic">${l.p}</span><span class="w-phoen">${l.ph}</span><span class="w-lheb">${l.h}</span>`;
+        letterRow.appendChild(ld);
+      });
+      card.appendChild(letterRow);
+
+      // Trans + English
+      if (word.trans) {
+        const trans = document.createElement('span');
+        trans.className = 'w-trans';
+        trans.textContent = word.trans;
+        card.appendChild(trans);
+      }
+      const engSpan = document.createElement('span');
+      engSpan.className = 'w-eng';
+      engSpan.textContent = word.eng;
+      card.appendChild(engSpan);
+
+      // Click to expand
+      card.onclick = () => {
+        const wasActive = card.classList.contains('active');
+        block.querySelectorAll('.word-card').forEach(c => c.classList.remove('active'));
+        detail.classList.remove('open');
+
+        if (!wasActive) {
+          card.classList.add('active');
+          const nid = 'nar-' + vdata.verse + '-' + wi;
+          detail.innerHTML = `
+            <div class="detail-heb">${word.heb}</div>
+            <div class="detail-trans">${word.trans || ''}</div>
+            <div class="detail-eng">${word.eng}</div>
+            <div class="detail-letters">
+              ${breakdown.letters.map(l => `
+                <div class="detail-letter">
+                  <div class="dl-pic">${l.p}</div>
+                  <div class="dl-phoen">${l.ph}</div>
+                  <div class="dl-heb">${l.h}</div>
+                  <div class="dl-name">${l.n}</div>
+                  <div class="dl-meaning">${l.m}</div>
+                </div>
+              `).join('')}
+            </div>
+            <div class="detail-narrative" id="${nid}"></div>
+          `;
+          detail.classList.add('open');
+
+          // Show narrative if we have one
+          const narEl = document.getElementById(nid);
+          if (narEl) {
+            const narText = narratives[word.heb];
+            narEl.innerHTML = narText
+              ? narText
+              : '<span style="color:var(--faded);font-size:0.85rem">\u{2014}</span>';
+          }
+        }
+      };
+
+      wordRow.appendChild(card);
+    });
+
+    block.appendChild(ref);
+    block.appendChild(eng);
+    block.appendChild(wordRow);
+    block.appendChild(detail);
+    main.appendChild(block);
+  });
+}
+
+// ── Book/chapter selectors ─────────────────────────────────────────────
+function populateSelectors() {
+  const bookSel = document.getElementById('book-select');
+  const chapSel = document.getElementById('chapter-select');
+
+  bookSel.innerHTML = '';
+  Object.keys(books).forEach(name => {
+    const opt = document.createElement('option');
+    opt.value = name;
+    opt.textContent = name;
+    bookSel.appendChild(opt);
+  });
+
+  bookSel.onchange = () => {
+    currentBook = bookSel.value;
+    updateChapterSelector();
+    currentChapter = 1;
+    chapSel.value = '1';
+    renderChapter(currentBook, currentChapter);
+  };
+
+  chapSel.onchange = () => {
+    currentChapter = parseInt(chapSel.value);
+    renderChapter(currentBook, currentChapter);
+  };
+
+  if (Object.keys(books).length > 0) {
+    currentBook = Object.keys(books)[0];
+    bookSel.value = currentBook;
+    updateChapterSelector();
+    currentChapter = 1;
+    renderChapter(currentBook, currentChapter);
+  }
+}
+
+function updateChapterSelector() {
+  const chapSel = document.getElementById('chapter-select');
+  chapSel.innerHTML = '';
+  const book = books[currentBook];
+  if (!book) return;
+  Object.keys(book.chapters).sort((a,b) => a - b).forEach(ch => {
+    const opt = document.createElement('option');
+    opt.value = ch;
+    opt.textContent = 'Chapter ' + ch;
+    chapSel.appendChild(opt);
+  });
+}
+
+// ── Init ───────────────────────────────────────────────────────────────
+async function main() {
+  await init();
+  await Promise.all([loadGenesis1(), loadNarratives()]);
+  document.getElementById('loading').remove();
+  populateSelectors();
+}
+
+main().catch(err => {
+  document.getElementById('loading').textContent = 'Error loading: ' + err.message;
+  console.error(err);
+});
+
+// ── Service Worker ─────────────────────────────────────────────────────
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js').catch(() => {});
+}
+</script>
+
+</body>
+</html>

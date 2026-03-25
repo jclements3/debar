@@ -1,0 +1,15 @@
+{
+  "name": "hebrew",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "hebrew_bg.wasm",
+    "hebrew.js",
+    "hebrew.d.ts"
+  ],
+  "main": "hebrew.js",
+  "types": "hebrew.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Debar - Hebrew Pictograph Bible",
+  "short_name": "Debar",
+  "description": "Navigate the Hebrew Bible through ancient pictograph letters with memory narratives",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1a1208",
+  "theme_color": "#8B6914",
+  "icons": [
+    {
+      "src": "icon-192.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

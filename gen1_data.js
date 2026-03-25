@@ -1,7 +1,7 @@
 // Genesis 1 - Hebrew text with word-by-word pictograph breakdown
 // Each word: { heb, trans, eng, letters: [{pic, phoen, heb, name}] }
 
-const genesis1 = [
+export const genesis1 = [
   {
     verse: 1,
     ref: "Genesis 1:1",
@@ -448,4 +448,4 @@ const genesis1 = [
   },
 ];
 
-module.exports = genesis1;
+export default genesis1;
