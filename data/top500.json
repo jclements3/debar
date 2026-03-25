@@ -1,0 +1,4002 @@
+[
+  {
+    "rank": 1,
+    "lemma": "853",
+    "count": 10977,
+    "heb": "אֵת",
+    "trans": "ʼêth",
+    "eng": "self"
+  },
+  {
+    "rank": 2,
+    "lemma": "3068",
+    "count": 6521,
+    "heb": "יְהֹוָה",
+    "trans": "Yᵉhôvâh",
+    "eng": "Existent"
+  },
+  {
+    "rank": 3,
+    "lemma": "5921 a",
+    "count": 5761,
+    "heb": "עַל",
+    "trans": "ʻal",
+    "eng": "above"
+  },
+  {
+    "rank": 4,
+    "lemma": "413",
+    "count": 5514,
+    "heb": "אֵל",
+    "trans": "ʼêl",
+    "eng": "near"
+  },
+  {
+    "rank": 5,
+    "lemma": "3605",
+    "count": 5414,
+    "heb": "כֹּל",
+    "trans": "kôl",
+    "eng": "whole"
+  },
+  {
+    "rank": 6,
+    "lemma": "559",
+    "count": 5308,
+    "heb": "אָמַר",
+    "trans": "ʼâmar",
+    "eng": "say"
+  },
+  {
+    "rank": 7,
+    "lemma": "3808",
+    "count": 5171,
+    "heb": "לֹא",
+    "trans": "lôʼ",
+    "eng": "not"
+  },
+  {
+    "rank": 8,
+    "lemma": "834 a",
+    "count": 4953,
+    "heb": "אֲשֶׁר",
+    "trans": "ʼăsher",
+    "eng": "who"
+  },
+  {
+    "rank": 9,
+    "lemma": "1121 a",
+    "count": 4930,
+    "heb": "בֵּן",
+    "trans": "bên",
+    "eng": "son"
+  },
+  {
+    "rank": 10,
+    "lemma": "l",
+    "count": 4484,
+    "heb": "לוֹ",
+    "trans": "",
+    "eng": ""
+  },
+  {
+    "rank": 11,
+    "lemma": "3588 a",
+    "count": 4325,
+    "heb": "כִּי",
+    "trans": "kîy",
+    "eng": "relative conjunction"
+  },
+  {
+    "rank": 12,
+    "lemma": "1961",
+    "count": 3560,
+    "heb": "הָיָה",
+    "trans": "hâyâh",
+    "eng": "exist"
+  },
+  {
+    "rank": 13,
+    "lemma": "6213 a",
+    "count": 2625,
+    "heb": "עָשָׂה",
+    "trans": "ʻâsâh",
+    "eng": "do"
+  },
+  {
+    "rank": 14,
+    "lemma": "430",
+    "count": 2599,
+    "heb": "אֱלֹהִים",
+    "trans": "ʼĕlôhîym",
+    "eng": "gods"
+  },
+  {
+    "rank": 15,
+    "lemma": "935",
+    "count": 2572,
+    "heb": "בּוֹא",
+    "trans": "bôwʼ",
+    "eng": "go"
+  },
+  {
+    "rank": 16,
+    "lemma": "4428",
+    "count": 2522,
+    "heb": "מֶלֶךְ",
+    "trans": "melek",
+    "eng": "king"
+  },
+  {
+    "rank": 17,
+    "lemma": "3478",
+    "count": 2506,
+    "heb": "יִשְׂרָאֵל",
+    "trans": "Yisrâʼêl",
+    "eng": "he will rule as God"
+  },
+  {
+    "rank": 18,
+    "lemma": "776",
+    "count": 2504,
+    "heb": "אֶרֶץ",
+    "trans": "ʼerets",
+    "eng": "earth"
+  },
+  {
+    "rank": 19,
+    "lemma": "3117",
+    "count": 2303,
+    "heb": "יוֹם",
+    "trans": "yôwm",
+    "eng": "day"
+  },
+  {
+    "rank": 20,
+    "lemma": "376",
+    "count": 2186,
+    "heb": "אִישׁ",
+    "trans": "ʼîysh",
+    "eng": "man"
+  },
+  {
+    "rank": 21,
+    "lemma": "6440",
+    "count": 2126,
+    "heb": "פָּנִים",
+    "trans": "pânîym",
+    "eng": "face"
+  },
+  {
+    "rank": 22,
+    "lemma": "1004 b",
+    "count": 2049,
+    "heb": "בַּיִת",
+    "trans": "bayith",
+    "eng": "a house"
+  },
+  {
+    "rank": 23,
+    "lemma": "5414",
+    "count": 2011,
+    "heb": "נָתַן",
+    "trans": "nâthan",
+    "eng": "give"
+  },
+  {
+    "rank": 24,
+    "lemma": "1931",
+    "count": 1879,
+    "heb": "הוּא",
+    "trans": "hûwʼ",
+    "eng": "he"
+  },
+  {
+    "rank": 25,
+    "lemma": "5971 a",
+    "count": 1837,
+    "heb": "עַם",
+    "trans": "ʻam",
+    "eng": "people"
+  },
+  {
+    "rank": 26,
+    "lemma": "3027",
+    "count": 1618,
+    "heb": "יָד",
+    "trans": "yâd",
+    "eng": "hand"
+  },
+  {
+    "rank": 27,
+    "lemma": "1697",
+    "count": 1442,
+    "heb": "דָּבָר",
+    "trans": "dâbâr",
+    "eng": "word"
+  },
+  {
+    "rank": 28,
+    "lemma": "b",
+    "count": 1375,
+    "heb": "בִי",
+    "trans": "",
+    "eng": ""
+  },
+  {
+    "rank": 29,
+    "lemma": "7200",
+    "count": 1305,
+    "heb": "רָאָה",
+    "trans": "râʼâh",
+    "eng": "see"
+  },
+  {
+    "rank": 30,
+    "lemma": "5704",
+    "count": 1262,
+    "heb": "עַד",
+    "trans": "ʻad",
+    "eng": "as far"
+  },
+  {
+    "rank": 31,
+    "lemma": "4480 a",
+    "count": 1225,
+    "heb": "מִן",
+    "trans": "min",
+    "eng": "part"
+  },
+  {
+    "rank": 32,
+    "lemma": "1",
+    "count": 1213,
+    "heb": "אָב",
+    "trans": "ʼâb",
+    "eng": "father"
+  },
+  {
+    "rank": 33,
+    "lemma": "2088",
+    "count": 1177,
+    "heb": "זֶה",
+    "trans": "zeh",
+    "eng": "this"
+  },
+  {
+    "rank": 34,
+    "lemma": "8085",
+    "count": 1159,
+    "heb": "שָׁמַע",
+    "trans": "shâmaʻ",
+    "eng": "hear"
+  },
+  {
+    "rank": 35,
+    "lemma": "1696",
+    "count": 1142,
+    "heb": "דָבַר",
+    "trans": "dâbar",
+    "eng": "arrange"
+  },
+  {
+    "rank": 36,
+    "lemma": "5892 b",
+    "count": 1091,
+    "heb": "עִיר",
+    "trans": "ʻîyr",
+    "eng": "city"
+  },
+  {
+    "rank": 37,
+    "lemma": "3427",
+    "count": 1081,
+    "heb": "יָשַׁב",
+    "trans": "yâshab",
+    "eng": "sit"
+  },
+  {
+    "rank": 38,
+    "lemma": "1732",
+    "count": 1075,
+    "heb": "דָּוִד",
+    "trans": "Dâvid",
+    "eng": "David"
+  },
+  {
+    "rank": 39,
+    "lemma": "3318",
+    "count": 1067,
+    "heb": "יָצָא",
+    "trans": "yâtsâʼ",
+    "eng": "go"
+  },
+  {
+    "rank": 40,
+    "lemma": "7725",
+    "count": 1058,
+    "heb": "שׁוּב",
+    "trans": "shûwb",
+    "eng": "turn"
+  },
+  {
+    "rank": 41,
+    "lemma": "3212",
+    "count": 1041,
+    "heb": "יָלַךְ",
+    "trans": "yâlak",
+    "eng": "walk"
+  },
+  {
+    "rank": 42,
+    "lemma": "5973 a",
+    "count": 978,
+    "heb": "עִם",
+    "trans": "ʻim",
+    "eng": "with"
+  },
+  {
+    "rank": 43,
+    "lemma": "259",
+    "count": 970,
+    "heb": "אֶחָד",
+    "trans": "ʼechâd",
+    "eng": "united"
+  },
+  {
+    "rank": 44,
+    "lemma": "3947",
+    "count": 966,
+    "heb": "לָקַח",
+    "trans": "lâqach",
+    "eng": "take"
+  },
+  {
+    "rank": 45,
+    "lemma": "3045",
+    "count": 944,
+    "heb": "יָדַע",
+    "trans": "yâdaʻ",
+    "eng": "know"
+  },
+  {
+    "rank": 46,
+    "lemma": "518 a",
+    "count": 920,
+    "heb": "אִם",
+    "trans": "ʼim",
+    "eng": "lo!"
+  },
+  {
+    "rank": 47,
+    "lemma": "5927",
+    "count": 889,
+    "heb": "עָלָה",
+    "trans": "ʻâlâh",
+    "eng": "ascend"
+  },
+  {
+    "rank": 48,
+    "lemma": "854",
+    "count": 888,
+    "heb": "אֵת",
+    "trans": "ʼêth",
+    "eng": "nearness"
+  },
+  {
+    "rank": 49,
+    "lemma": "8141",
+    "count": 877,
+    "heb": "שָׁנֶה",
+    "trans": "shâneh",
+    "eng": "year"
+  },
+  {
+    "rank": 50,
+    "lemma": "589",
+    "count": 874,
+    "heb": "אֲנִי",
+    "trans": "ʼănîy",
+    "eng": "I"
+  },
+  {
+    "rank": 51,
+    "lemma": "5869 a",
+    "count": 865,
+    "heb": "עַיִן",
+    "trans": "ʻayin",
+    "eng": "eye"
+  },
+  {
+    "rank": 52,
+    "lemma": "8034",
+    "count": 864,
+    "heb": "שֵׁם",
+    "trans": "shêm",
+    "eng": "appellation"
+  },
+  {
+    "rank": 53,
+    "lemma": "7971",
+    "count": 847,
+    "heb": "שָׁלַח",
+    "trans": "shâlach",
+    "eng": "send"
+  },
+  {
+    "rank": 54,
+    "lemma": "2009",
+    "count": 842,
+    "heb": "הִנֵּה",
+    "trans": "hinnêh",
+    "eng": "lo!"
+  },
+  {
+    "rank": 55,
+    "lemma": "4191",
+    "count": 837,
+    "heb": "מוּת",
+    "trans": "mûwth",
+    "eng": "die"
+  },
+  {
+    "rank": 56,
+    "lemma": "8033",
+    "count": 834,
+    "heb": "שָׁם",
+    "trans": "shâm",
+    "eng": "there"
+  },
+  {
+    "rank": 57,
+    "lemma": "3063",
+    "count": 819,
+    "heb": "יְהוּדָה",
+    "trans": "Yᵉhûwdâh",
+    "eng": "Jehudah"
+  },
+  {
+    "rank": 58,
+    "lemma": "398",
+    "count": 812,
+    "heb": "אָכַל",
+    "trans": "ʼâkal",
+    "eng": "eat"
+  },
+  {
+    "rank": 59,
+    "lemma": "5650",
+    "count": 800,
+    "heb": "עֶבֶד",
+    "trans": "ʻebed",
+    "eng": "servant"
+  },
+  {
+    "rank": 60,
+    "lemma": "369",
+    "count": 788,
+    "heb": "אַיִן",
+    "trans": "ʼayin",
+    "eng": "nonentity"
+  },
+  {
+    "rank": 61,
+    "lemma": "802",
+    "count": 781,
+    "heb": "אִשָּׁה",
+    "trans": "ʼishshâh",
+    "eng": "woman"
+  },
+  {
+    "rank": 62,
+    "lemma": "1571",
+    "count": 769,
+    "heb": "גַּם",
+    "trans": "gam",
+    "eng": "assemblage"
+  },
+  {
+    "rank": 63,
+    "lemma": "8147",
+    "count": 768,
+    "heb": "שְׁנַיִם",
+    "trans": "shᵉnayim",
+    "eng": "two"
+  },
+  {
+    "rank": 64,
+    "lemma": "4872",
+    "count": 766,
+    "heb": "מֹשֶׁה",
+    "trans": "Môsheh",
+    "eng": "Mosheh"
+  },
+  {
+    "rank": 65,
+    "lemma": "5315",
+    "count": 754,
+    "heb": "נֶפֶשׁ",
+    "trans": "nephesh",
+    "eng": "breathing creature"
+  },
+  {
+    "rank": 66,
+    "lemma": "3548",
+    "count": 750,
+    "heb": "כֹּהֵן",
+    "trans": "kôhên",
+    "eng": "officiating"
+  },
+  {
+    "rank": 67,
+    "lemma": "4100",
+    "count": 749,
+    "heb": "מָה",
+    "trans": "mâh",
+    "eng": "what?"
+  },
+  {
+    "rank": 68,
+    "lemma": "428",
+    "count": 746,
+    "heb": "אֵלֶּה",
+    "trans": "ʼêl-leh",
+    "eng": "these"
+  },
+  {
+    "rank": 69,
+    "lemma": "859 a",
+    "count": 740,
+    "heb": "אַתָּה",
+    "trans": "ʼattâh",
+    "eng": "thou"
+  },
+  {
+    "rank": 70,
+    "lemma": "3651 c",
+    "count": 738,
+    "heb": "כֵּן",
+    "trans": "kên",
+    "eng": "set upright"
+  },
+  {
+    "rank": 71,
+    "lemma": "7121",
+    "count": 735,
+    "heb": "קָרָא",
+    "trans": "qârâʼ",
+    "eng": "call out to"
+  },
+  {
+    "rank": 72,
+    "lemma": "408",
+    "count": 725,
+    "heb": "אַל",
+    "trans": "ʼal",
+    "eng": "not"
+  },
+  {
+    "rank": 73,
+    "lemma": "310 a",
+    "count": 714,
+    "heb": "אַחַר",
+    "trans": "ʼachar",
+    "eng": "the hind part"
+  },
+  {
+    "rank": 74,
+    "lemma": "1870",
+    "count": 706,
+    "heb": "דֶּרֶךְ",
+    "trans": "derek",
+    "eng": "road"
+  },
+  {
+    "rank": 75,
+    "lemma": "5375",
+    "count": 651,
+    "heb": "נָשָׂא",
+    "trans": "nâsâʼ",
+    "eng": "lift"
+  },
+  {
+    "rank": 76,
+    "lemma": "3389",
+    "count": 643,
+    "heb": "יְרוּשָׁלִַ͏ם",
+    "trans": "Yᵉrûwshâlaim",
+    "eng": "Jerushalaim"
+  },
+  {
+    "rank": 77,
+    "lemma": "4714",
+    "count": 635,
+    "heb": "מִצְרַיִם",
+    "trans": "Mitsrayim",
+    "eng": "Mitsrajim"
+  },
+  {
+    "rank": 78,
+    "lemma": "251",
+    "count": 630,
+    "heb": "אָח",
+    "trans": "ʼâch",
+    "eng": "brother"
+  },
+  {
+    "rank": 79,
+    "lemma": "6965 b",
+    "count": 627,
+    "heb": "קוּם",
+    "trans": "qûwm",
+    "eng": "rise"
+  },
+  {
+    "rank": 80,
+    "lemma": "2063",
+    "count": 604,
+    "heb": "זֹאת",
+    "trans": "zôʼth",
+    "eng": "this"
+  },
+  {
+    "rank": 81,
+    "lemma": "7218 a",
+    "count": 596,
+    "heb": "רֹאשׁ",
+    "trans": "rôʼsh",
+    "eng": "head"
+  },
+  {
+    "rank": 82,
+    "lemma": "3820 a",
+    "count": 593,
+    "heb": "לֵב",
+    "trans": "lêb",
+    "eng": "heart"
+  },
+  {
+    "rank": 83,
+    "lemma": "1323",
+    "count": 589,
+    "heb": "בַּת",
+    "trans": "bath",
+    "eng": "daughter"
+  },
+  {
+    "rank": 84,
+    "lemma": "7760 a",
+    "count": 583,
+    "heb": "שׂוּם",
+    "trans": "sûwm",
+    "eng": "put"
+  },
+  {
+    "rank": 85,
+    "lemma": "4325",
+    "count": 581,
+    "heb": "מַיִם",
+    "trans": "mayim",
+    "eng": "water"
+  },
+  {
+    "rank": 86,
+    "lemma": "3967",
+    "count": 579,
+    "heb": "מֵאָה",
+    "trans": "mêʼâh",
+    "eng": "hundred"
+  },
+  {
+    "rank": 87,
+    "lemma": "3541",
+    "count": 577,
+    "heb": "כֹּה",
+    "trans": "kôh",
+    "eng": "like this"
+  },
+  {
+    "rank": 88,
+    "lemma": "1992",
+    "count": 565,
+    "heb": "הֵם",
+    "trans": "hêm",
+    "eng": "they"
+  },
+  {
+    "rank": 89,
+    "lemma": "1471 a",
+    "count": 559,
+    "heb": "גּוֹי",
+    "trans": "gôwy",
+    "eng": "nation"
+  },
+  {
+    "rank": 90,
+    "lemma": "120",
+    "count": 552,
+    "heb": "אָדָם",
+    "trans": "ʼâdâm",
+    "eng": "ruddy"
+  },
+  {
+    "rank": 91,
+    "lemma": "5674 a",
+    "count": 547,
+    "heb": "עָבַר",
+    "trans": "ʻâbar",
+    "eng": "cross"
+  },
+  {
+    "rank": 92,
+    "lemma": "2022",
+    "count": 546,
+    "heb": "הַר",
+    "trans": "har",
+    "eng": "mountain"
+  },
+  {
+    "rank": 93,
+    "lemma": "1419 a",
+    "count": 528,
+    "heb": "גָּדוֹל",
+    "trans": "gâdôwl",
+    "eng": "great"
+  },
+  {
+    "rank": 94,
+    "lemma": "5975",
+    "count": 524,
+    "heb": "עָמַד",
+    "trans": "ʻâmad",
+    "eng": "stand"
+  },
+  {
+    "rank": 95,
+    "lemma": "834 d",
+    "count": 511,
+    "heb": "אֲשֶׁר",
+    "trans": "ʼăsher",
+    "eng": "who"
+  },
+  {
+    "rank": 96,
+    "lemma": "1980",
+    "count": 507,
+    "heb": "הָלַךְ",
+    "trans": "hâlak",
+    "eng": "walk"
+  },
+  {
+    "rank": 97,
+    "lemma": "8478",
+    "count": 505,
+    "heb": "תַּחַת",
+    "trans": "tachath",
+    "eng": "bottom"
+  },
+  {
+    "rank": 98,
+    "lemma": "6963 a",
+    "count": 505,
+    "heb": "קוֹל",
+    "trans": "qôwl",
+    "eng": "voice"
+  },
+  {
+    "rank": 99,
+    "lemma": "505",
+    "count": 505,
+    "heb": "אֶלֶף",
+    "trans": "ʼeleph",
+    "eng": "thousand"
+  },
+  {
+    "rank": 100,
+    "lemma": "5221",
+    "count": 501,
+    "heb": "נָכָה",
+    "trans": "nâkâh",
+    "eng": "strike"
+  },
+  {
+    "rank": 101,
+    "lemma": "6310",
+    "count": 498,
+    "heb": "פֶּה",
+    "trans": "peh",
+    "eng": "mouth"
+  },
+  {
+    "rank": 102,
+    "lemma": "3205",
+    "count": 497,
+    "heb": "יָלַד",
+    "trans": "yâlad",
+    "eng": "bear young"
+  },
+  {
+    "rank": 103,
+    "lemma": "6680",
+    "count": 494,
+    "heb": "צָוָה",
+    "trans": "tsâvâh",
+    "eng": "constitute"
+  },
+  {
+    "rank": 104,
+    "lemma": "5750",
+    "count": 488,
+    "heb": "עוֹד",
+    "trans": "ʻôwd",
+    "eng": "iteration"
+  },
+  {
+    "rank": 105,
+    "lemma": "8104",
+    "count": 468,
+    "heb": "שָׁמַר",
+    "trans": "shâmar",
+    "eng": "hedge"
+  },
+  {
+    "rank": 106,
+    "lemma": "6944",
+    "count": 466,
+    "heb": "קֹדֶשׁ",
+    "trans": "qôdesh",
+    "eng": "sacred"
+  },
+  {
+    "rank": 107,
+    "lemma": "4672",
+    "count": 455,
+    "heb": "מָצָא",
+    "trans": "mâtsâʼ",
+    "eng": "come"
+  },
+  {
+    "rank": 108,
+    "lemma": "136",
+    "count": 445,
+    "heb": "אֲדֹנָי",
+    "trans": "ʼĂdônây",
+    "eng": "Lord"
+  },
+  {
+    "rank": 109,
+    "lemma": "5769",
+    "count": 438,
+    "heb": "עוֹלָם",
+    "trans": "ʻôwlâm",
+    "eng": "concealed"
+  },
+  {
+    "rank": 110,
+    "lemma": "5307",
+    "count": 434,
+    "heb": "נָפַל",
+    "trans": "nâphal",
+    "eng": "fall"
+  },
+  {
+    "rank": 111,
+    "lemma": "6258",
+    "count": 433,
+    "heb": "עַתָּה",
+    "trans": "ʻattâh",
+    "eng": "at this time"
+  },
+  {
+    "rank": 112,
+    "lemma": "7227 a",
+    "count": 433,
+    "heb": "רַב",
+    "trans": "rab",
+    "eng": "abundant"
+  },
+  {
+    "rank": 113,
+    "lemma": "7969",
+    "count": 431,
+    "heb": "שָׁלוֹשׁ",
+    "trans": "shâlôwsh",
+    "eng": "three"
+  },
+  {
+    "rank": 114,
+    "lemma": "4310",
+    "count": 423,
+    "heb": "מִי",
+    "trans": "mîy",
+    "eng": "who?"
+  },
+  {
+    "rank": 115,
+    "lemma": "4941",
+    "count": 422,
+    "heb": "מִשְׁפָּט",
+    "trans": "mishpâṭ",
+    "eng": "verdict"
+  },
+  {
+    "rank": 116,
+    "lemma": "8064",
+    "count": 421,
+    "heb": "שָׁמַיִם",
+    "trans": "shâmayim",
+    "eng": "sky"
+  },
+  {
+    "rank": 117,
+    "lemma": "8269",
+    "count": 421,
+    "heb": "שַׂר",
+    "trans": "sar",
+    "eng": "head"
+  },
+  {
+    "rank": 118,
+    "lemma": "8432",
+    "count": 418,
+    "heb": "תָּוֶךְ",
+    "trans": "tâvek",
+    "eng": "bisection"
+  },
+  {
+    "rank": 119,
+    "lemma": "2719",
+    "count": 413,
+    "heb": "חֶרֶב",
+    "trans": "chereb",
+    "eng": "drought"
+  },
+  {
+    "rank": 120,
+    "lemma": "2896 a",
+    "count": 410,
+    "heb": "טוֹב",
+    "trans": "ṭôwb",
+    "eng": "good"
+  },
+  {
+    "rank": 121,
+    "lemma": "996",
+    "count": 408,
+    "heb": "בֵּין",
+    "trans": "bêyn",
+    "eng": "between"
+  },
+  {
+    "rank": 122,
+    "lemma": "7586",
+    "count": 406,
+    "heb": "שָׁאוּל",
+    "trans": "Shâʼûwl",
+    "eng": "Shaul"
+  },
+  {
+    "rank": 123,
+    "lemma": "3701",
+    "count": 403,
+    "heb": "כֶּסֶף",
+    "trans": "keçeph",
+    "eng": "silver"
+  },
+  {
+    "rank": 124,
+    "lemma": "4994",
+    "count": 402,
+    "heb": "נָא",
+    "trans": "nâʼ",
+    "eng": "'I pray'"
+  },
+  {
+    "rank": 125,
+    "lemma": "4725",
+    "count": 401,
+    "heb": "מָקוֹם",
+    "trans": "mâqôwm",
+    "eng": "standing"
+  },
+  {
+    "rank": 126,
+    "lemma": "4196",
+    "count": 401,
+    "heb": "מִזְבֵּחַ",
+    "trans": "mizbêach",
+    "eng": "altar"
+  },
+  {
+    "rank": 127,
+    "lemma": "3220",
+    "count": 396,
+    "heb": "יָם",
+    "trans": "yâm",
+    "eng": "sea"
+  },
+  {
+    "rank": 128,
+    "lemma": "7651",
+    "count": 393,
+    "heb": "שֶׁבַע",
+    "trans": "shebaʻ",
+    "eng": "seven"
+  },
+  {
+    "rank": 129,
+    "lemma": "2091",
+    "count": 389,
+    "heb": "זָהָב",
+    "trans": "zâhâb",
+    "eng": "gold"
+  },
+  {
+    "rank": 130,
+    "lemma": "3381",
+    "count": 379,
+    "heb": "יָרַד",
+    "trans": "yârad",
+    "eng": "descend"
+  },
+  {
+    "rank": 131,
+    "lemma": "7307",
+    "count": 378,
+    "heb": "רוּחַ",
+    "trans": "rûwach",
+    "eng": "wind"
+  },
+  {
+    "rank": 132,
+    "lemma": "784",
+    "count": 378,
+    "heb": "אֵשׁ",
+    "trans": "ʼêsh",
+    "eng": "fire"
+  },
+  {
+    "rank": 133,
+    "lemma": "5002",
+    "count": 376,
+    "heb": "נְאֻם",
+    "trans": "nᵉʼum",
+    "eng": "oracle"
+  },
+  {
+    "rank": 134,
+    "lemma": "1129",
+    "count": 376,
+    "heb": "בָּנָה",
+    "trans": "bânâh",
+    "eng": "build"
+  },
+  {
+    "rank": 135,
+    "lemma": "8179",
+    "count": 374,
+    "heb": "שַׁעַר",
+    "trans": "shaʻar",
+    "eng": "opening"
+  },
+  {
+    "rank": 136,
+    "lemma": "5046",
+    "count": 370,
+    "heb": "נָגַד",
+    "trans": "nâgad",
+    "eng": "front"
+  },
+  {
+    "rank": 137,
+    "lemma": "1818",
+    "count": 360,
+    "heb": "דָּם",
+    "trans": "dâm",
+    "eng": "blood"
+  },
+  {
+    "rank": 138,
+    "lemma": "595",
+    "count": 359,
+    "heb": "אָנֹכִי",
+    "trans": "ʼânôkîy",
+    "eng": "I"
+  },
+  {
+    "rank": 139,
+    "lemma": "3290",
+    "count": 349,
+    "heb": "יַעֲקֹב",
+    "trans": "Yaʻăqôb",
+    "eng": "Jaakob"
+  },
+  {
+    "rank": 140,
+    "lemma": "4427 a",
+    "count": 347,
+    "heb": "מָלַךְ",
+    "trans": "mâlak",
+    "eng": "reign"
+  },
+  {
+    "rank": 141,
+    "lemma": "175",
+    "count": 347,
+    "heb": "אַהֲרוֹן",
+    "trans": "ʼAhărôwn",
+    "eng": "Aharon"
+  },
+  {
+    "rank": 142,
+    "lemma": "168",
+    "count": 345,
+    "heb": "אֹהֶל",
+    "trans": "ʼôhel",
+    "eng": "tent"
+  },
+  {
+    "rank": 143,
+    "lemma": "1768",
+    "count": 345,
+    "heb": "דִּי",
+    "trans": "dîy",
+    "eng": "that"
+  },
+  {
+    "rank": 144,
+    "lemma": "2568",
+    "count": 343,
+    "heb": "חָמֵשׁ",
+    "trans": "châmêsh",
+    "eng": "five"
+  },
+  {
+    "rank": 145,
+    "lemma": "6240",
+    "count": 337,
+    "heb": "עָשָׂר",
+    "trans": "ʻâsâr",
+    "eng": "ten"
+  },
+  {
+    "rank": 146,
+    "lemma": "5439",
+    "count": 335,
+    "heb": "סָבִיב",
+    "trans": "çâbîyb",
+    "eng": "circle"
+  },
+  {
+    "rank": 147,
+    "lemma": "6086",
+    "count": 330,
+    "heb": "עֵץ",
+    "trans": "ʻêts",
+    "eng": "tree"
+  },
+  {
+    "rank": 148,
+    "lemma": "1288",
+    "count": 330,
+    "heb": "בָּרַךְ",
+    "trans": "bârak",
+    "eng": "kneel"
+  },
+  {
+    "rank": 149,
+    "lemma": "3372",
+    "count": 328,
+    "heb": "יָרֵא",
+    "trans": "yârêʼ",
+    "eng": "fear"
+  },
+  {
+    "rank": 150,
+    "lemma": "113",
+    "count": 328,
+    "heb": "אָדוֹן",
+    "trans": "ʼâdôwn",
+    "eng": "sovereign"
+  },
+  {
+    "rank": 151,
+    "lemma": "3627",
+    "count": 325,
+    "heb": "כְּלִי",
+    "trans": "kᵉlîy",
+    "eng": "prepared"
+  },
+  {
+    "rank": 152,
+    "lemma": "7704 b",
+    "count": 320,
+    "heb": "שָׂדֶה",
+    "trans": "sâdeh",
+    "eng": "field"
+  },
+  {
+    "rank": 153,
+    "lemma": "176 a",
+    "count": 320,
+    "heb": "אוֹ",
+    "trans": "ʼôw",
+    "eng": "desire"
+  },
+  {
+    "rank": 154,
+    "lemma": "4421",
+    "count": 319,
+    "heb": "מִלְחָמָה",
+    "trans": "milchâmâh",
+    "eng": "battle"
+  },
+  {
+    "rank": 155,
+    "lemma": "702",
+    "count": 318,
+    "heb": "אַרְבַּע",
+    "trans": "ʼarbaʻ",
+    "eng": "four"
+  },
+  {
+    "rank": 156,
+    "lemma": "2005",
+    "count": 317,
+    "heb": "הֵן",
+    "trans": "hên",
+    "eng": "lo!"
+  },
+  {
+    "rank": 157,
+    "lemma": "5030",
+    "count": 315,
+    "heb": "נָבִיא",
+    "trans": "nâbîyʼ",
+    "eng": "prophet"
+  },
+  {
+    "rank": 158,
+    "lemma": "6242",
+    "count": 315,
+    "heb": "עֶשְׂרִים",
+    "trans": "ʻesrîym",
+    "eng": "twenty"
+  },
+  {
+    "rank": 159,
+    "lemma": "6030 b",
+    "count": 314,
+    "heb": "עָנָה",
+    "trans": "ʻânâh",
+    "eng": "eye"
+  },
+  {
+    "rank": 160,
+    "lemma": "3069",
+    "count": 306,
+    "heb": "יְהֹוִה",
+    "trans": "Yᵉhôvih",
+    "eng": ""
+  },
+  {
+    "rank": 161,
+    "lemma": "7451 c",
+    "count": 305,
+    "heb": "רַע",
+    "trans": "raʻ",
+    "eng": "bad"
+  },
+  {
+    "rank": 162,
+    "lemma": "4940",
+    "count": 303,
+    "heb": "מִשְׁפָּחָה",
+    "trans": "mishpâchâh",
+    "eng": "family"
+  },
+  {
+    "rank": 163,
+    "lemma": "6485 a",
+    "count": 301,
+    "heb": "פָּקַד",
+    "trans": "pâqad",
+    "eng": "visit"
+  },
+  {
+    "rank": 164,
+    "lemma": "5493",
+    "count": 301,
+    "heb": "סוּר",
+    "trans": "çûwr",
+    "eng": "turn"
+  },
+  {
+    "rank": 165,
+    "lemma": "3966",
+    "count": 300,
+    "heb": "מְאֹד",
+    "trans": "mᵉʼôd",
+    "eng": "vehemence"
+  },
+  {
+    "rank": 166,
+    "lemma": "3899",
+    "count": 298,
+    "heb": "לֶחֶם",
+    "trans": "lechem",
+    "eng": "food"
+  },
+  {
+    "rank": 167,
+    "lemma": "6256",
+    "count": 296,
+    "heb": "עֵת",
+    "trans": "ʻêth",
+    "eng": "time"
+  },
+  {
+    "rank": 168,
+    "lemma": "8010",
+    "count": 293,
+    "heb": "שְׁלֹמֹה",
+    "trans": "Shᵉlômôh",
+    "eng": "Shelomah"
+  },
+  {
+    "rank": 169,
+    "lemma": "2403 b",
+    "count": 292,
+    "heb": "חַטָּאָה",
+    "trans": "chaṭṭâʼâh",
+    "eng": "offence"
+  },
+  {
+    "rank": 170,
+    "lemma": "2388",
+    "count": 290,
+    "heb": "חָזַק",
+    "trans": "châzaq",
+    "eng": "fasten"
+  },
+  {
+    "rank": 171,
+    "lemma": "3772",
+    "count": 289,
+    "heb": "כָּרַת",
+    "trans": "kârath",
+    "eng": "cut"
+  },
+  {
+    "rank": 172,
+    "lemma": "5647",
+    "count": 288,
+    "heb": "עָבַד",
+    "trans": "ʻâbad",
+    "eng": "work"
+  },
+  {
+    "rank": 173,
+    "lemma": "6430",
+    "count": 288,
+    "heb": "פְּלִשְׁתִּי",
+    "trans": "Pᵉlishtîy",
+    "eng": "Pelishtite"
+  },
+  {
+    "rank": 174,
+    "lemma": "5930 a",
+    "count": 287,
+    "heb": "עֹלָה",
+    "trans": "ʻôlâh",
+    "eng": "step"
+  },
+  {
+    "rank": 175,
+    "lemma": "6635 b",
+    "count": 287,
+    "heb": "צָבָא",
+    "trans": "tsâbâʼ",
+    "eng": "mass"
+  },
+  {
+    "rank": 176,
+    "lemma": "3881",
+    "count": 286,
+    "heb": "לֵוִיִּי",
+    "trans": "Lêvîyîy",
+    "eng": "Levite"
+  },
+  {
+    "rank": 177,
+    "lemma": "1285",
+    "count": 284,
+    "heb": "בְּרִית",
+    "trans": "bᵉrîyth",
+    "eng": "compact"
+  },
+  {
+    "rank": 178,
+    "lemma": "859 d",
+    "count": 283,
+    "heb": "אַתָּה",
+    "trans": "ʼattâh",
+    "eng": "thou"
+  },
+  {
+    "rank": 179,
+    "lemma": "2320",
+    "count": 283,
+    "heb": "חֹדֶשׁ",
+    "trans": "chôdesh",
+    "eng": "new"
+  },
+  {
+    "rank": 180,
+    "lemma": "7126",
+    "count": 283,
+    "heb": "קָרַב",
+    "trans": "qârab",
+    "eng": "approach"
+  },
+  {
+    "rank": 181,
+    "lemma": "341",
+    "count": 282,
+    "heb": "אֹיֵב",
+    "trans": "ʼôyêb",
+    "eng": "hating"
+  },
+  {
+    "rank": 182,
+    "lemma": "639",
+    "count": 276,
+    "heb": "אַף",
+    "trans": "ʼaph",
+    "eng": "nose"
+  },
+  {
+    "rank": 183,
+    "lemma": "6629",
+    "count": 274,
+    "heb": "צֹאן",
+    "trans": "tsôʼn",
+    "eng": "flock"
+  },
+  {
+    "rank": 184,
+    "lemma": "68",
+    "count": 273,
+    "heb": "אֶבֶן",
+    "trans": "ʼeben",
+    "eng": "stone"
+  },
+  {
+    "rank": 185,
+    "lemma": "4616",
+    "count": 272,
+    "heb": "מַעַן",
+    "trans": "maʻan",
+    "eng": "heed"
+  },
+  {
+    "rank": 186,
+    "lemma": "4057 b",
+    "count": 270,
+    "heb": "מִדְבָּר",
+    "trans": "midbâr",
+    "eng": "pasture"
+  },
+  {
+    "rank": 187,
+    "lemma": "1320",
+    "count": 270,
+    "heb": "בָּשָׂר",
+    "trans": "bâsâr",
+    "eng": "flesh"
+  },
+  {
+    "rank": 188,
+    "lemma": "6547",
+    "count": 268,
+    "heb": "פַּרְעֹה",
+    "trans": "Parʻôh",
+    "eng": "Paroh"
+  },
+  {
+    "rank": 189,
+    "lemma": "2421",
+    "count": 262,
+    "heb": "חָיָה",
+    "trans": "châyâh",
+    "eng": "live"
+  },
+  {
+    "rank": 190,
+    "lemma": "894",
+    "count": 262,
+    "heb": "בָּבֶל",
+    "trans": "Bâbel",
+    "eng": "Babel"
+  },
+  {
+    "rank": 191,
+    "lemma": "7563",
+    "count": 262,
+    "heb": "רָשָׁע",
+    "trans": "râshâʻ",
+    "eng": "wrong"
+  },
+  {
+    "rank": 192,
+    "lemma": "3824",
+    "count": 252,
+    "heb": "לֵבָב",
+    "trans": "lêbâb",
+    "eng": "heart"
+  },
+  {
+    "rank": 193,
+    "lemma": "4294",
+    "count": 252,
+    "heb": "מַטֶּה",
+    "trans": "maṭṭeh",
+    "eng": "branch"
+  },
+  {
+    "rank": 194,
+    "lemma": "4390",
+    "count": 250,
+    "heb": "מָלֵא",
+    "trans": "mâlêʼ",
+    "eng": "fill"
+  },
+  {
+    "rank": 195,
+    "lemma": "7272",
+    "count": 247,
+    "heb": "רֶגֶל",
+    "trans": "regel",
+    "eng": "foot"
+  },
+  {
+    "rank": 196,
+    "lemma": "520 a",
+    "count": 246,
+    "heb": "אַמָּה",
+    "trans": "ʼammâh",
+    "eng": "a mother"
+  },
+  {
+    "rank": 197,
+    "lemma": "410",
+    "count": 245,
+    "heb": "אֵל",
+    "trans": "ʼêl",
+    "eng": "strength"
+  },
+  {
+    "rank": 198,
+    "lemma": "2617 a",
+    "count": 245,
+    "heb": "חֶסֶד",
+    "trans": "cheçed",
+    "eng": "kindness"
+  },
+  {
+    "rank": 199,
+    "lemma": "2416 a",
+    "count": 243,
+    "heb": "חַי",
+    "trans": "chay",
+    "eng": "alive"
+  },
+  {
+    "rank": 200,
+    "lemma": "7451 a",
+    "count": 242,
+    "heb": "רַע",
+    "trans": "raʻ",
+    "eng": "bad"
+  },
+  {
+    "rank": 201,
+    "lemma": "1366",
+    "count": 240,
+    "heb": "גְּבוּל",
+    "trans": "gᵉbûwl",
+    "eng": "cord"
+  },
+  {
+    "rank": 202,
+    "lemma": "5288",
+    "count": 239,
+    "heb": "נַעַר",
+    "trans": "naʻar",
+    "eng": "boy"
+  },
+  {
+    "rank": 203,
+    "lemma": "2398",
+    "count": 238,
+    "heb": "חָטָא",
+    "trans": "châṭâʼ",
+    "eng": "miss"
+  },
+  {
+    "rank": 204,
+    "lemma": "7965",
+    "count": 237,
+    "heb": "שָׁלוֹם",
+    "trans": "shâlôwm",
+    "eng": "safe"
+  },
+  {
+    "rank": 205,
+    "lemma": "4639",
+    "count": 235,
+    "heb": "מַעֲשֶׂה",
+    "trans": "maʻăseh",
+    "eng": "action"
+  },
+  {
+    "rank": 206,
+    "lemma": "2428",
+    "count": 234,
+    "heb": "חַיִל",
+    "trans": "chayil",
+    "eng": "force"
+  },
+  {
+    "rank": 207,
+    "lemma": "3915",
+    "count": 233,
+    "heb": "לַיִל",
+    "trans": "layil",
+    "eng": "twist"
+  },
+  {
+    "rank": 208,
+    "lemma": "2142",
+    "count": 232,
+    "heb": "זָכַר",
+    "trans": "zâkar",
+    "eng": "mark"
+  },
+  {
+    "rank": 209,
+    "lemma": "3423",
+    "count": 231,
+    "heb": "יָרַשׁ",
+    "trans": "yârash",
+    "eng": "occupy"
+  },
+  {
+    "rank": 210,
+    "lemma": "7235 a",
+    "count": 230,
+    "heb": "רָבָה",
+    "trans": "râbâh",
+    "eng": "increase"
+  },
+  {
+    "rank": 211,
+    "lemma": "5771",
+    "count": 230,
+    "heb": "עָוֺן",
+    "trans": "ʻâvôn",
+    "eng": "perversity"
+  },
+  {
+    "rank": 212,
+    "lemma": "2233",
+    "count": 229,
+    "heb": "זֶרַע",
+    "trans": "zeraʻ",
+    "eng": "seed"
+  },
+  {
+    "rank": 213,
+    "lemma": "7130",
+    "count": 227,
+    "heb": "קֶרֶב",
+    "trans": "qereb",
+    "eng": "nearest"
+  },
+  {
+    "rank": 214,
+    "lemma": "1245",
+    "count": 225,
+    "heb": "בָּקַשׁ",
+    "trans": "bâqash",
+    "eng": "search"
+  },
+  {
+    "rank": 215,
+    "lemma": "127",
+    "count": 225,
+    "heb": "אֲדָמָה",
+    "trans": "ʼădâmâh",
+    "eng": "soil"
+  },
+  {
+    "rank": 216,
+    "lemma": "3789",
+    "count": 225,
+    "heb": "כָּתַב",
+    "trans": "kâthab",
+    "eng": "grave"
+  },
+  {
+    "rank": 217,
+    "lemma": "4150",
+    "count": 223,
+    "heb": "מוֹעֵד",
+    "trans": "môwʻêd",
+    "eng": "appointment"
+  },
+  {
+    "rank": 218,
+    "lemma": "5159",
+    "count": 222,
+    "heb": "נַחֲלָה",
+    "trans": "nachălâh",
+    "eng": "inherited"
+  },
+  {
+    "rank": 219,
+    "lemma": "517",
+    "count": 220,
+    "heb": "אֵם",
+    "trans": "ʼêm",
+    "eng": "mother"
+  },
+  {
+    "rank": 220,
+    "lemma": "8451",
+    "count": 219,
+    "heb": "תּוֹרָה",
+    "trans": "tôwrâh",
+    "eng": "precept"
+  },
+  {
+    "rank": 221,
+    "lemma": "3091",
+    "count": 218,
+    "heb": "יְהוֹשׁוּעַ",
+    "trans": "Yᵉhôwshûwaʻ",
+    "eng": "Jehoshua"
+  },
+  {
+    "rank": 222,
+    "lemma": "8354",
+    "count": 217,
+    "heb": "שָׁתָה",
+    "trans": "shâthâh",
+    "eng": "imbibe"
+  },
+  {
+    "rank": 223,
+    "lemma": "3559 a",
+    "count": 216,
+    "heb": "כּוּן",
+    "trans": "kûwn",
+    "eng": "be erect"
+  },
+  {
+    "rank": 224,
+    "lemma": "4264",
+    "count": 216,
+    "heb": "מַחֲנֶה",
+    "trans": "machăneh",
+    "eng": "encampment"
+  },
+  {
+    "rank": 225,
+    "lemma": "899 b",
+    "count": 215,
+    "heb": "בֶּגֶד",
+    "trans": "beged",
+    "eng": "covering"
+  },
+  {
+    "rank": 226,
+    "lemma": "8337",
+    "count": 215,
+    "heb": "שֵׁשׁ",
+    "trans": "shêsh",
+    "eng": "six"
+  },
+  {
+    "rank": 227,
+    "lemma": "5800 a",
+    "count": 214,
+    "heb": "עָזַב",
+    "trans": "ʻâzab",
+    "eng": "loosen"
+  },
+  {
+    "rank": 228,
+    "lemma": "1242",
+    "count": 214,
+    "heb": "בֹּקֶר",
+    "trans": "bôqer",
+    "eng": "dawn"
+  },
+  {
+    "rank": 229,
+    "lemma": "5186",
+    "count": 214,
+    "heb": "נָטָה",
+    "trans": "nâṭâh",
+    "eng": "stretch"
+  },
+  {
+    "rank": 230,
+    "lemma": "5337",
+    "count": 213,
+    "heb": "נָצַל",
+    "trans": "nâtsal",
+    "eng": "snatch"
+  },
+  {
+    "rank": 231,
+    "lemma": "4397",
+    "count": 213,
+    "heb": "מַלְאָךְ",
+    "trans": "malʼâk",
+    "eng": "messenger"
+  },
+  {
+    "rank": 232,
+    "lemma": "3130",
+    "count": 213,
+    "heb": "יוֹסֵף",
+    "trans": "Yôwçêph",
+    "eng": "Joseph"
+  },
+  {
+    "rank": 233,
+    "lemma": "7901",
+    "count": 212,
+    "heb": "שָׁכַב",
+    "trans": "shâkab",
+    "eng": "lie down"
+  },
+  {
+    "rank": 234,
+    "lemma": "4503",
+    "count": 211,
+    "heb": "מִנְחָה",
+    "trans": "minchâh",
+    "eng": "donation"
+  },
+  {
+    "rank": 235,
+    "lemma": "3254",
+    "count": 209,
+    "heb": "יָסַף",
+    "trans": "yâçaph",
+    "eng": "add"
+  },
+  {
+    "rank": 236,
+    "lemma": "157",
+    "count": 209,
+    "heb": "אָהַב",
+    "trans": "ʼâhab",
+    "eng": "have affection"
+  },
+  {
+    "rank": 237,
+    "lemma": "3467",
+    "count": 206,
+    "heb": "יָשַׁע",
+    "trans": "yâshaʻ",
+    "eng": "be open"
+  },
+  {
+    "rank": 238,
+    "lemma": "6662",
+    "count": 206,
+    "heb": "צַדִּיק",
+    "trans": "tsaddîyq",
+    "eng": "just"
+  },
+  {
+    "rank": 239,
+    "lemma": "3615",
+    "count": 205,
+    "heb": "כָּלָה",
+    "trans": "kâlâh",
+    "eng": "end"
+  },
+  {
+    "rank": 240,
+    "lemma": "622",
+    "count": 202,
+    "heb": "אָסַף",
+    "trans": "ʼâçaph",
+    "eng": "gather"
+  },
+  {
+    "rank": 241,
+    "lemma": "8199",
+    "count": 202,
+    "heb": "שָׁפַט",
+    "trans": "shâphaṭ",
+    "eng": "judge"
+  },
+  {
+    "rank": 242,
+    "lemma": "727",
+    "count": 202,
+    "heb": "אָרוֹן",
+    "trans": "ʼârôwn",
+    "eng": "box"
+  },
+  {
+    "rank": 243,
+    "lemma": "905",
+    "count": 201,
+    "heb": "בַּד",
+    "trans": "bad",
+    "eng": "separation"
+  },
+  {
+    "rank": 244,
+    "lemma": "3519",
+    "count": 200,
+    "heb": "כָּבוֹד",
+    "trans": "kâbôwd",
+    "eng": "weight"
+  },
+  {
+    "rank": 245,
+    "lemma": "6635 a",
+    "count": 199,
+    "heb": "צָבָא",
+    "trans": "tsâbâʼ",
+    "eng": "mass"
+  },
+  {
+    "rank": 246,
+    "lemma": "8081",
+    "count": 193,
+    "heb": "שֶׁמֶן",
+    "trans": "shemen",
+    "eng": "grease"
+  },
+  {
+    "rank": 247,
+    "lemma": "3201",
+    "count": 193,
+    "heb": "יָכֹל",
+    "trans": "yâkôl",
+    "eng": "be able"
+  },
+  {
+    "rank": 248,
+    "lemma": "3709",
+    "count": 193,
+    "heb": "כַּף",
+    "trans": "kaph",
+    "eng": "hollow hand"
+  },
+  {
+    "rank": 249,
+    "lemma": "7626",
+    "count": 190,
+    "heb": "שֵׁבֶט",
+    "trans": "shêbeṭ",
+    "eng": "scion"
+  },
+  {
+    "rank": 250,
+    "lemma": "929",
+    "count": 190,
+    "heb": "בְּהֵמָה",
+    "trans": "bᵉhêmâh",
+    "eng": "dumb"
+  },
+  {
+    "rank": 251,
+    "lemma": "7453",
+    "count": 188,
+    "heb": "רֵעַ",
+    "trans": "rêaʻ",
+    "eng": "associate"
+  },
+  {
+    "rank": 252,
+    "lemma": "7311 a",
+    "count": 188,
+    "heb": "רוּם",
+    "trans": "rûwm",
+    "eng": "be high"
+  },
+  {
+    "rank": 253,
+    "lemma": "241",
+    "count": 187,
+    "heb": "אֹזֶן",
+    "trans": "ʼôzen",
+    "eng": "broadness"
+  },
+  {
+    "rank": 254,
+    "lemma": "1540",
+    "count": 186,
+    "heb": "גָּלָה",
+    "trans": "gâlâh",
+    "eng": "denude"
+  },
+  {
+    "rank": 255,
+    "lemma": "7650",
+    "count": 186,
+    "heb": "שָׁבַע",
+    "trans": "shâbaʻ",
+    "eng": "seven"
+  },
+  {
+    "rank": 256,
+    "lemma": "5612 a",
+    "count": 185,
+    "heb": "סֵפֶר",
+    "trans": "çêpher",
+    "eng": "writing"
+  },
+  {
+    "rank": 257,
+    "lemma": "6",
+    "count": 184,
+    "heb": "אָבַד",
+    "trans": "ʼâbad",
+    "eng": "wander"
+  },
+  {
+    "rank": 258,
+    "lemma": "1241",
+    "count": 183,
+    "heb": "בָּקָר",
+    "trans": "bâqâr",
+    "eng": "beeve"
+  },
+  {
+    "rank": 259,
+    "lemma": "7223",
+    "count": 182,
+    "heb": "רִאשׁוֹן",
+    "trans": "riʼshôwn",
+    "eng": "first"
+  },
+  {
+    "rank": 260,
+    "lemma": "3383",
+    "count": 182,
+    "heb": "יַרְדֵּן",
+    "trans": "Yardên",
+    "eng": "Jarden"
+  },
+  {
+    "rank": 261,
+    "lemma": "4124",
+    "count": 181,
+    "heb": "מוֹאָב",
+    "trans": "Môwʼâb",
+    "eng": "Moab"
+  },
+  {
+    "rank": 262,
+    "lemma": "4687",
+    "count": 181,
+    "heb": "מִצְוָה",
+    "trans": "mitsvâh",
+    "eng": "command"
+  },
+  {
+    "rank": 263,
+    "lemma": "669",
+    "count": 180,
+    "heb": "אֶפְרַיִם",
+    "trans": "ʼEphrayim",
+    "eng": "Ephrajim"
+  },
+  {
+    "rank": 264,
+    "lemma": "4430",
+    "count": 180,
+    "heb": "מֶלֶךְ",
+    "trans": "melek",
+    "eng": "king"
+  },
+  {
+    "rank": 265,
+    "lemma": "2205",
+    "count": 178,
+    "heb": "זָקֵן",
+    "trans": "zâqên",
+    "eng": "old"
+  },
+  {
+    "rank": 266,
+    "lemma": "6235",
+    "count": 176,
+    "heb": "עֶשֶׂר",
+    "trans": "ʻeser",
+    "eng": "ten"
+  },
+  {
+    "rank": 267,
+    "lemma": "8193",
+    "count": 175,
+    "heb": "שָׂפָה",
+    "trans": "sâphâh",
+    "eng": "lip"
+  },
+  {
+    "rank": 268,
+    "lemma": "85",
+    "count": 175,
+    "heb": "אַבְרָהָם",
+    "trans": "ʼAbrâhâm",
+    "eng": "Abraham"
+  },
+  {
+    "rank": 269,
+    "lemma": "7592",
+    "count": 173,
+    "heb": "שָׁאַל",
+    "trans": "shâʼal",
+    "eng": "inquire"
+  },
+  {
+    "rank": 270,
+    "lemma": "6942",
+    "count": 173,
+    "heb": "קָדַשׁ",
+    "trans": "qâdash",
+    "eng": "be"
+  },
+  {
+    "rank": 271,
+    "lemma": "7970",
+    "count": 172,
+    "heb": "שְׁלוֹשִׁים",
+    "trans": "shᵉlôwshîym",
+    "eng": "thirty"
+  },
+  {
+    "rank": 272,
+    "lemma": "7812",
+    "count": 172,
+    "heb": "שָׁחָה",
+    "trans": "shâchâh",
+    "eng": "depress"
+  },
+  {
+    "rank": 273,
+    "lemma": "3898 a",
+    "count": 171,
+    "heb": "לָחַם",
+    "trans": "lâcham",
+    "eng": "feed on"
+  },
+  {
+    "rank": 274,
+    "lemma": "995",
+    "count": 170,
+    "heb": "בִּין",
+    "trans": "bîyn",
+    "eng": "separate"
+  },
+  {
+    "rank": 275,
+    "lemma": "977",
+    "count": 169,
+    "heb": "בָּחַר",
+    "trans": "bâchar",
+    "eng": "try"
+  },
+  {
+    "rank": 276,
+    "lemma": "2026",
+    "count": 167,
+    "heb": "הָרַג",
+    "trans": "hârag",
+    "eng": "smite"
+  },
+  {
+    "rank": 277,
+    "lemma": "1755",
+    "count": 167,
+    "heb": "דּוֹר",
+    "trans": "dôwr",
+    "eng": "revolution"
+  },
+  {
+    "rank": 278,
+    "lemma": "4399",
+    "count": 167,
+    "heb": "מְלָאכָה",
+    "trans": "mᵉlâʼkâh",
+    "eng": "deputyship"
+  },
+  {
+    "rank": 279,
+    "lemma": "312",
+    "count": 166,
+    "heb": "אַחֵר",
+    "trans": "ʼachêr",
+    "eng": "hinder"
+  },
+  {
+    "rank": 280,
+    "lemma": "1144",
+    "count": 166,
+    "heb": "בִּנְיָמִין",
+    "trans": "Binyâmîyn",
+    "eng": "Binjamin"
+  },
+  {
+    "rank": 281,
+    "lemma": "6607",
+    "count": 164,
+    "heb": "פֶּתַח",
+    "trans": "pethach",
+    "eng": "opening"
+  },
+  {
+    "rank": 282,
+    "lemma": "2351",
+    "count": 164,
+    "heb": "חוּץ",
+    "trans": "chûwts",
+    "eng": "separate by a wall"
+  },
+  {
+    "rank": 283,
+    "lemma": "1875",
+    "count": 164,
+    "heb": "דָּרַשׁ",
+    "trans": "dârash",
+    "eng": "tread"
+  },
+  {
+    "rank": 284,
+    "lemma": "2572",
+    "count": 163,
+    "heb": "חֲמִשִּׁים",
+    "trans": "chămishshîym",
+    "eng": "fifty"
+  },
+  {
+    "rank": 285,
+    "lemma": "2077",
+    "count": 162,
+    "heb": "זֶבַח",
+    "trans": "zebach",
+    "eng": "slaughter"
+  },
+  {
+    "rank": 286,
+    "lemma": "389",
+    "count": 161,
+    "heb": "אַךְ",
+    "trans": "ʼak",
+    "eng": "affirmation"
+  },
+  {
+    "rank": 287,
+    "lemma": "2930 a",
+    "count": 161,
+    "heb": "טָמֵא",
+    "trans": "ṭâmêʼ",
+    "eng": "be foul"
+  },
+  {
+    "rank": 288,
+    "lemma": "5127",
+    "count": 160,
+    "heb": "נוּס",
+    "trans": "nûwç",
+    "eng": "flit"
+  },
+  {
+    "rank": 289,
+    "lemma": "1368",
+    "count": 159,
+    "heb": "גִּבּוֹר",
+    "trans": "gibbôwr",
+    "eng": "powerful"
+  },
+  {
+    "rank": 290,
+    "lemma": "4194",
+    "count": 158,
+    "heb": "מָוֶת",
+    "trans": "mâveth",
+    "eng": "death"
+  },
+  {
+    "rank": 291,
+    "lemma": "5437",
+    "count": 157,
+    "heb": "סָבַב",
+    "trans": "çâbab",
+    "eng": "revolve"
+  },
+  {
+    "rank": 292,
+    "lemma": "6666",
+    "count": 157,
+    "heb": "צְדָקָה",
+    "trans": "tsᵉdâqâh",
+    "eng": "rightness"
+  },
+  {
+    "rank": 293,
+    "lemma": "8145",
+    "count": 157,
+    "heb": "שֵׁנִי",
+    "trans": "shênîy",
+    "eng": "double"
+  },
+  {
+    "rank": 294,
+    "lemma": "7462 b",
+    "count": 156,
+    "heb": "רָעָה",
+    "trans": "râʻâh",
+    "eng": "tend"
+  },
+  {
+    "rank": 295,
+    "lemma": "8055",
+    "count": 156,
+    "heb": "שָׂמַח",
+    "trans": "sâmach",
+    "eng": "brighten"
+  },
+  {
+    "rank": 296,
+    "lemma": "352 a",
+    "count": 156,
+    "heb": "אַיִל",
+    "trans": "ʼayil",
+    "eng": "strength"
+  },
+  {
+    "rank": 297,
+    "lemma": "6726",
+    "count": 153,
+    "heb": "צִיּוֹן",
+    "trans": "Tsîyôwn",
+    "eng": "Tsijon"
+  },
+  {
+    "rank": 298,
+    "lemma": "6828",
+    "count": 153,
+    "heb": "צָפוֹן",
+    "trans": "tsâphôwn",
+    "eng": "hidden"
+  },
+  {
+    "rank": 299,
+    "lemma": "3680",
+    "count": 152,
+    "heb": "כָּסָה",
+    "trans": "kâçâh",
+    "eng": "plump"
+  },
+  {
+    "rank": 300,
+    "lemma": "804",
+    "count": 151,
+    "heb": "אַשּׁוּר",
+    "trans": "ʼAshshûwr",
+    "eng": "Ashshur"
+  },
+  {
+    "rank": 301,
+    "lemma": "1984 b",
+    "count": 151,
+    "heb": "הָלַל",
+    "trans": "hâlal",
+    "eng": "be clear"
+  },
+  {
+    "rank": 302,
+    "lemma": "5060",
+    "count": 150,
+    "heb": "נָגַע",
+    "trans": "nâgaʻ",
+    "eng": "touch"
+  },
+  {
+    "rank": 303,
+    "lemma": "5048",
+    "count": 150,
+    "heb": "נֶגֶד",
+    "trans": "neged",
+    "eng": "front"
+  },
+  {
+    "rank": 304,
+    "lemma": "5712",
+    "count": 149,
+    "heb": "עֵדָה",
+    "trans": "ʻêdâh",
+    "eng": "assemblage"
+  },
+  {
+    "rank": 305,
+    "lemma": "7230",
+    "count": 149,
+    "heb": "רֹב",
+    "trans": "rôb",
+    "eng": "abundance"
+  },
+  {
+    "rank": 306,
+    "lemma": "2451",
+    "count": 149,
+    "heb": "חׇכְמָה",
+    "trans": "chokmâh",
+    "eng": "wisdom"
+  },
+  {
+    "rank": 307,
+    "lemma": "7665",
+    "count": 148,
+    "heb": "שָׁבַר",
+    "trans": "shâbar",
+    "eng": "burst"
+  },
+  {
+    "rank": 308,
+    "lemma": "3588 b",
+    "count": 148,
+    "heb": "כִּי",
+    "trans": "kîy",
+    "eng": "relative conjunction"
+  },
+  {
+    "rank": 309,
+    "lemma": "518 b",
+    "count": 148,
+    "heb": "אִם",
+    "trans": "ʼim",
+    "eng": "lo!"
+  },
+  {
+    "rank": 310,
+    "lemma": "7843",
+    "count": 147,
+    "heb": "שָׁחַת",
+    "trans": "shâchath",
+    "eng": "decay"
+  },
+  {
+    "rank": 311,
+    "lemma": "3414",
+    "count": 147,
+    "heb": "יִרְמְיָה",
+    "trans": "Yirmᵉyâh",
+    "eng": "Jirmejah"
+  },
+  {
+    "rank": 312,
+    "lemma": "8130",
+    "count": 146,
+    "heb": "שָׂנֵא",
+    "trans": "sânêʼ",
+    "eng": "hate"
+  },
+  {
+    "rank": 313,
+    "lemma": "5265",
+    "count": 146,
+    "heb": "נָסַע",
+    "trans": "nâçaʻ",
+    "eng": "pull"
+  },
+  {
+    "rank": 314,
+    "lemma": "4519",
+    "count": 146,
+    "heb": "מְנַשֶּׁה",
+    "trans": "Mᵉnashsheh",
+    "eng": "Menashsheh"
+  },
+  {
+    "rank": 315,
+    "lemma": "2691 a",
+    "count": 145,
+    "heb": "חָצֵר",
+    "trans": "châtsêr",
+    "eng": "yard"
+  },
+  {
+    "rank": 316,
+    "lemma": "2416 e",
+    "count": 145,
+    "heb": "חַי",
+    "trans": "chay",
+    "eng": "alive"
+  },
+  {
+    "rank": 317,
+    "lemma": "5656",
+    "count": 145,
+    "heb": "עֲבֹדָה",
+    "trans": "ʻăbôdâh",
+    "eng": "work"
+  },
+  {
+    "rank": 318,
+    "lemma": "3097",
+    "count": 145,
+    "heb": "יוֹאָב",
+    "trans": "Yôwʼâb",
+    "eng": "Joab"
+  },
+  {
+    "rank": 319,
+    "lemma": "7291",
+    "count": 143,
+    "heb": "רָדַף",
+    "trans": "râdaph",
+    "eng": "run after"
+  },
+  {
+    "rank": 320,
+    "lemma": "2583",
+    "count": 143,
+    "heb": "חָנָה",
+    "trans": "chânâh",
+    "eng": "incline"
+  },
+  {
+    "rank": 321,
+    "lemma": "3644",
+    "count": 142,
+    "heb": "כְּמוֹ",
+    "trans": "kᵉmôw",
+    "eng": "as"
+  },
+  {
+    "rank": 322,
+    "lemma": "3196",
+    "count": 141,
+    "heb": "יַיִן",
+    "trans": "yayin",
+    "eng": "wine"
+  },
+  {
+    "rank": 323,
+    "lemma": "4605",
+    "count": 140,
+    "heb": "מַעַל",
+    "trans": "maʻal",
+    "eng": "upper part"
+  },
+  {
+    "rank": 324,
+    "lemma": "5158 a",
+    "count": 140,
+    "heb": "נַחַל",
+    "trans": "nachal",
+    "eng": "stream"
+  },
+  {
+    "rank": 325,
+    "lemma": "8050",
+    "count": 140,
+    "heb": "שְׁמוּאֵל",
+    "trans": "Shᵉmûwʼêl",
+    "eng": "Shemuël"
+  },
+  {
+    "rank": 326,
+    "lemma": "3225",
+    "count": 139,
+    "heb": "יָמִין",
+    "trans": "yâmîyn",
+    "eng": "right"
+  },
+  {
+    "rank": 327,
+    "lemma": "5178 a",
+    "count": 139,
+    "heb": "נְחֹשֶׁת",
+    "trans": "nᵉchôsheth",
+    "eng": "copper"
+  },
+  {
+    "rank": 328,
+    "lemma": "4908",
+    "count": 139,
+    "heb": "מִשְׁכָּן",
+    "trans": "mishkân",
+    "eng": "residence"
+  },
+  {
+    "rank": 329,
+    "lemma": "3426",
+    "count": 138,
+    "heb": "יֵשׁ",
+    "trans": "yêsh",
+    "eng": "is"
+  },
+  {
+    "rank": 330,
+    "lemma": "5483 b",
+    "count": 137,
+    "heb": "סוּס",
+    "trans": "çûwç",
+    "eng": "horse"
+  },
+  {
+    "rank": 331,
+    "lemma": "2450",
+    "count": 137,
+    "heb": "חָכָם",
+    "trans": "châkâm",
+    "eng": "wise"
+  },
+  {
+    "rank": 332,
+    "lemma": "6437",
+    "count": 135,
+    "heb": "פָּנָה",
+    "trans": "pânâh",
+    "eng": "turn"
+  },
+  {
+    "rank": 333,
+    "lemma": "3678",
+    "count": 135,
+    "heb": "כִּסֵּא",
+    "trans": "kiççêʼ",
+    "eng": "covered"
+  },
+  {
+    "rank": 334,
+    "lemma": "6605 a",
+    "count": 135,
+    "heb": "פָּתַח",
+    "trans": "pâthach",
+    "eng": "open wide"
+  },
+  {
+    "rank": 335,
+    "lemma": "705",
+    "count": 135,
+    "heb": "אַרְבָּעִים",
+    "trans": "ʼarbâʻîym",
+    "eng": "forty"
+  },
+  {
+    "rank": 336,
+    "lemma": "4557",
+    "count": 134,
+    "heb": "מִסְפָּר",
+    "trans": "miçpâr",
+    "eng": "number"
+  },
+  {
+    "rank": 337,
+    "lemma": "2076",
+    "count": 134,
+    "heb": "זָבַח",
+    "trans": "zâbach",
+    "eng": "slaughter"
+  },
+  {
+    "rank": 338,
+    "lemma": "1568",
+    "count": 134,
+    "heb": "גִּלְעָד",
+    "trans": "Gilʻâd",
+    "eng": "Gilad"
+  },
+  {
+    "rank": 339,
+    "lemma": "2490 c",
+    "count": 134,
+    "heb": "חָלַל",
+    "trans": "châlal",
+    "eng": "bore"
+  },
+  {
+    "rank": 340,
+    "lemma": "8121",
+    "count": 134,
+    "heb": "שֶׁמֶשׁ",
+    "trans": "shemesh",
+    "eng": "sun"
+  },
+  {
+    "rank": 341,
+    "lemma": "6153",
+    "count": 134,
+    "heb": "עֶרֶב",
+    "trans": "ʻereb",
+    "eng": "dusk"
+  },
+  {
+    "rank": 342,
+    "lemma": "637",
+    "count": 134,
+    "heb": "אַף",
+    "trans": "ʼaph",
+    "eng": "accession"
+  },
+  {
+    "rank": 343,
+    "lemma": "6435",
+    "count": 133,
+    "heb": "פֵּן",
+    "trans": "pên",
+    "eng": "removal"
+  },
+  {
+    "rank": 344,
+    "lemma": "6912",
+    "count": 133,
+    "heb": "קָבַר",
+    "trans": "qâbar",
+    "eng": "inter"
+  },
+  {
+    "rank": 345,
+    "lemma": "758",
+    "count": 133,
+    "heb": "אֲרָם",
+    "trans": "ʼĂrâm",
+    "eng": "Aram"
+  },
+  {
+    "rank": 346,
+    "lemma": "6499",
+    "count": 133,
+    "heb": "פַּר",
+    "trans": "par",
+    "eng": "bullock"
+  },
+  {
+    "rank": 347,
+    "lemma": "2346",
+    "count": 133,
+    "heb": "חוֹמָה",
+    "trans": "chôwmâh",
+    "eng": "wall"
+  },
+  {
+    "rank": 348,
+    "lemma": "7604",
+    "count": 133,
+    "heb": "שָׁאַר",
+    "trans": "shâʼar",
+    "eng": "swell"
+  },
+  {
+    "rank": 349,
+    "lemma": "2396",
+    "count": 130,
+    "heb": "חִזְקִיָּה",
+    "trans": "Chizqîyâh",
+    "eng": "Chizkijah"
+  },
+  {
+    "rank": 350,
+    "lemma": "5387 a",
+    "count": 130,
+    "heb": "נָשִׂיא",
+    "trans": "nâsîyʼ",
+    "eng": "exalted"
+  },
+  {
+    "rank": 351,
+    "lemma": "7931",
+    "count": 128,
+    "heb": "שָׁכַן",
+    "trans": "shâkan",
+    "eng": "reside"
+  },
+  {
+    "rank": 352,
+    "lemma": "6908",
+    "count": 127,
+    "heb": "קָבַץ",
+    "trans": "qâbats",
+    "eng": "grasp"
+  },
+  {
+    "rank": 353,
+    "lemma": "571",
+    "count": 127,
+    "heb": "אֶמֶת",
+    "trans": "ʼemeth",
+    "eng": "stability"
+  },
+  {
+    "rank": 354,
+    "lemma": "2706",
+    "count": 126,
+    "heb": "חֹק",
+    "trans": "chôq",
+    "eng": "enactment"
+  },
+  {
+    "rank": 355,
+    "lemma": "6106",
+    "count": 126,
+    "heb": "עֶצֶם",
+    "trans": "ʻetsem",
+    "eng": "bone"
+  },
+  {
+    "rank": 356,
+    "lemma": "3581 b",
+    "count": 125,
+    "heb": "כֹּחַ",
+    "trans": "kôach",
+    "eng": "vigor"
+  },
+  {
+    "rank": 357,
+    "lemma": "7993",
+    "count": 125,
+    "heb": "שָׁלַךְ",
+    "trans": "shâlak",
+    "eng": "throw"
+  },
+  {
+    "rank": 358,
+    "lemma": "5066",
+    "count": 125,
+    "heb": "נָגַשׁ",
+    "trans": "nâgash",
+    "eng": "be"
+  },
+  {
+    "rank": 359,
+    "lemma": "2534",
+    "count": 124,
+    "heb": "חֵמָה",
+    "trans": "chêmâh",
+    "eng": "heat"
+  },
+  {
+    "rank": 360,
+    "lemma": "2803",
+    "count": 124,
+    "heb": "חָשַׁב",
+    "trans": "châshab",
+    "eng": "plait"
+  },
+  {
+    "rank": 361,
+    "lemma": "2677",
+    "count": 123,
+    "heb": "חֵצִי",
+    "trans": "chêtsîy",
+    "eng": "half"
+  },
+  {
+    "rank": 362,
+    "lemma": "6951",
+    "count": 123,
+    "heb": "קָהָל",
+    "trans": "qâhâl",
+    "eng": "assemblage"
+  },
+  {
+    "rank": 363,
+    "lemma": "227 a",
+    "count": 122,
+    "heb": "אָז",
+    "trans": "ʼâz",
+    "eng": "at that time"
+  },
+  {
+    "rank": 364,
+    "lemma": "216",
+    "count": 121,
+    "heb": "אוֹר",
+    "trans": "ʼôwr",
+    "eng": "illumination"
+  },
+  {
+    "rank": 365,
+    "lemma": "3920",
+    "count": 121,
+    "heb": "לָכַד",
+    "trans": "lâkad",
+    "eng": "catch"
+  },
+  {
+    "rank": 366,
+    "lemma": "982",
+    "count": 120,
+    "heb": "בָּטַח",
+    "trans": "bâṭach",
+    "eng": "hie"
+  },
+  {
+    "rank": 367,
+    "lemma": "587",
+    "count": 120,
+    "heb": "אֲנַחְנוּ",
+    "trans": "ʼănachnûw",
+    "eng": "we"
+  },
+  {
+    "rank": 368,
+    "lemma": "6664",
+    "count": 119,
+    "heb": "צֶדֶק",
+    "trans": "tsedeq",
+    "eng": "right"
+  },
+  {
+    "rank": 369,
+    "lemma": "6529",
+    "count": 119,
+    "heb": "פְּרִי",
+    "trans": "pᵉrîy",
+    "eng": "fruit"
+  },
+  {
+    "rank": 370,
+    "lemma": "3477",
+    "count": 119,
+    "heb": "יָשָׁר",
+    "trans": "yâshâr",
+    "eng": "straight"
+  },
+  {
+    "rank": 371,
+    "lemma": "7393",
+    "count": 119,
+    "heb": "רֶכֶב",
+    "trans": "rekeb",
+    "eng": "vehicle"
+  },
+  {
+    "rank": 372,
+    "lemma": "5104",
+    "count": 119,
+    "heb": "נָהָר",
+    "trans": "nâhâr",
+    "eng": "stream"
+  },
+  {
+    "rank": 373,
+    "lemma": "6918",
+    "count": 118,
+    "heb": "קָדוֹשׁ",
+    "trans": "qâdôwsh",
+    "eng": "sacred"
+  },
+  {
+    "rank": 374,
+    "lemma": "1060",
+    "count": 118,
+    "heb": "בְּכוֹר",
+    "trans": "bᵉkôwr",
+    "eng": "first-born"
+  },
+  {
+    "rank": 375,
+    "lemma": "6471",
+    "count": 118,
+    "heb": "פַּעַם",
+    "trans": "paʻam",
+    "eng": "stroke"
+  },
+  {
+    "rank": 376,
+    "lemma": "3956",
+    "count": 117,
+    "heb": "לָשׁוֹן",
+    "trans": "lâshôwn",
+    "eng": "tongue"
+  },
+  {
+    "rank": 377,
+    "lemma": "8313",
+    "count": 117,
+    "heb": "שָׂרַף",
+    "trans": "sâraph",
+    "eng": "be"
+  },
+  {
+    "rank": 378,
+    "lemma": "4467",
+    "count": 117,
+    "heb": "מַמְלָכָה",
+    "trans": "mamlâkâh",
+    "eng": "dominion"
+  },
+  {
+    "rank": 379,
+    "lemma": "8441",
+    "count": 117,
+    "heb": "תּוֹעֵבַה",
+    "trans": "tôwʻêbah",
+    "eng": "disgusting"
+  },
+  {
+    "rank": 380,
+    "lemma": "1058",
+    "count": 116,
+    "heb": "בָּכָה",
+    "trans": "bâkâh",
+    "eng": "weep"
+  },
+  {
+    "rank": 381,
+    "lemma": "8210",
+    "count": 115,
+    "heb": "שָׁפַךְ",
+    "trans": "shâphak",
+    "eng": "spill forth"
+  },
+  {
+    "rank": 382,
+    "lemma": "3513",
+    "count": 115,
+    "heb": "כָּבַד",
+    "trans": "kâbad",
+    "eng": "be heavy"
+  },
+  {
+    "rank": 383,
+    "lemma": "5012",
+    "count": 115,
+    "heb": "נָבָא",
+    "trans": "nâbâʼ",
+    "eng": "prophesy"
+  },
+  {
+    "rank": 384,
+    "lemma": "4054",
+    "count": 115,
+    "heb": "מִגְרָשׁ",
+    "trans": "migrâsh",
+    "eng": "suburb"
+  },
+  {
+    "rank": 385,
+    "lemma": "269",
+    "count": 114,
+    "heb": "אָחוֹת",
+    "trans": "ʼâchôwth",
+    "eng": "sister"
+  },
+  {
+    "rank": 386,
+    "lemma": "6999 a",
+    "count": 114,
+    "heb": "קָטַר",
+    "trans": "qâṭar",
+    "eng": "smoke"
+  },
+  {
+    "rank": 387,
+    "lemma": "954",
+    "count": 114,
+    "heb": "בּוּשׁ",
+    "trans": "bûwsh",
+    "eng": "pale"
+  },
+  {
+    "rank": 388,
+    "lemma": "1431",
+    "count": 114,
+    "heb": "גָּדַל",
+    "trans": "gâdal",
+    "eng": "be"
+  },
+  {
+    "rank": 389,
+    "lemma": "3034",
+    "count": 114,
+    "heb": "יָדָה",
+    "trans": "yâdâh",
+    "eng": "throw"
+  },
+  {
+    "rank": 390,
+    "lemma": "8267",
+    "count": 113,
+    "heb": "שֶׁקֶר",
+    "trans": "sheqer",
+    "eng": "untruth"
+  },
+  {
+    "rank": 391,
+    "lemma": "3190",
+    "count": 112,
+    "heb": "יָטַב",
+    "trans": "yâṭab",
+    "eng": "be"
+  },
+  {
+    "rank": 392,
+    "lemma": "1115",
+    "count": 112,
+    "heb": "בִּלְתִּי",
+    "trans": "biltîy",
+    "eng": "failure of"
+  },
+  {
+    "rank": 393,
+    "lemma": "7676",
+    "count": 111,
+    "heb": "שַׁבָּת",
+    "trans": "shabbâth",
+    "eng": "intermission"
+  },
+  {
+    "rank": 394,
+    "lemma": "5045",
+    "count": 111,
+    "heb": "נֶגֶב",
+    "trans": "negeb",
+    "eng": "south"
+  },
+  {
+    "rank": 395,
+    "lemma": "5982",
+    "count": 111,
+    "heb": "עַמּוּד",
+    "trans": "ʻammûwd",
+    "eng": "column"
+  },
+  {
+    "rank": 396,
+    "lemma": "53",
+    "count": 111,
+    "heb": "אֲבִישָׁלוֹם",
+    "trans": "ʼĂbîyshâlôwm",
+    "eng": "Abshalom"
+  },
+  {
+    "rank": 397,
+    "lemma": "3847",
+    "count": 110,
+    "heb": "לָבַשׁ",
+    "trans": "lâbash",
+    "eng": "wrap around"
+  },
+  {
+    "rank": 398,
+    "lemma": "6083",
+    "count": 110,
+    "heb": "עָפָר",
+    "trans": "ʻâphâr",
+    "eng": "dust"
+  },
+  {
+    "rank": 399,
+    "lemma": "4481",
+    "count": 110,
+    "heb": "מִן",
+    "trans": "min",
+    "eng": ""
+  },
+  {
+    "rank": 400,
+    "lemma": "3671",
+    "count": 109,
+    "heb": "כָּנָף",
+    "trans": "kânâph",
+    "eng": "edge"
+  },
+  {
+    "rank": 401,
+    "lemma": "8111",
+    "count": 109,
+    "heb": "שֹׁמְרוֹן",
+    "trans": "Shômᵉrôwn",
+    "eng": "Shomeron"
+  },
+  {
+    "rank": 402,
+    "lemma": "7535",
+    "count": 109,
+    "heb": "רַק",
+    "trans": "raq",
+    "eng": "leanness"
+  },
+  {
+    "rank": 403,
+    "lemma": "8083",
+    "count": 109,
+    "heb": "שְׁמֹנֶה",
+    "trans": "shᵉmôneh",
+    "eng": "eight"
+  },
+  {
+    "rank": 404,
+    "lemma": "539",
+    "count": 108,
+    "heb": "אָמַן",
+    "trans": "ʼâman",
+    "eng": "build up"
+  },
+  {
+    "rank": 405,
+    "lemma": "5162",
+    "count": 108,
+    "heb": "נָחַם",
+    "trans": "nâcham",
+    "eng": "sigh"
+  },
+  {
+    "rank": 406,
+    "lemma": "3327",
+    "count": 108,
+    "heb": "יִצְחָק",
+    "trans": "Yitschâq",
+    "eng": "Jitschak"
+  },
+  {
+    "rank": 407,
+    "lemma": "5608 a",
+    "count": 107,
+    "heb": "סָפַר",
+    "trans": "çâphar",
+    "eng": "score"
+  },
+  {
+    "rank": 408,
+    "lemma": "3532",
+    "count": 107,
+    "heb": "כֶּבֶשׂ",
+    "trans": "kebes",
+    "eng": "ram"
+  },
+  {
+    "rank": 409,
+    "lemma": "7992",
+    "count": 107,
+    "heb": "שְׁלִישִׁי",
+    "trans": "shᵉlîyshîy",
+    "eng": "third"
+  },
+  {
+    "rank": 410,
+    "lemma": "3498",
+    "count": 107,
+    "heb": "יָתַר",
+    "trans": "yâthar",
+    "eng": "jut"
+  },
+  {
+    "rank": 411,
+    "lemma": "2416 c",
+    "count": 106,
+    "heb": "חַי",
+    "trans": "chay",
+    "eng": "alive"
+  },
+  {
+    "rank": 412,
+    "lemma": "5983",
+    "count": 106,
+    "heb": "עַמּוֹן",
+    "trans": "ʻAmmôwn",
+    "eng": "Ammon"
+  },
+  {
+    "rank": 413,
+    "lemma": "2708",
+    "count": 105,
+    "heb": "חֻקָּה",
+    "trans": "chuqqâh",
+    "eng": ""
+  },
+  {
+    "rank": 414,
+    "lemma": "3379",
+    "count": 104,
+    "heb": "יָרׇבְעָם",
+    "trans": "Yârobʻâm",
+    "eng": "Jarobam"
+  },
+  {
+    "rank": 415,
+    "lemma": "7451 b",
+    "count": 104,
+    "heb": "רַע",
+    "trans": "raʻ",
+    "eng": "bad"
+  },
+  {
+    "rank": 416,
+    "lemma": "8548",
+    "count": 104,
+    "heb": "תָּמִיד",
+    "trans": "tâmîyd",
+    "eng": "continuance"
+  },
+  {
+    "rank": 417,
+    "lemma": "4758",
+    "count": 104,
+    "heb": "מַרְאֶה",
+    "trans": "marʼeh",
+    "eng": "view"
+  },
+  {
+    "rank": 418,
+    "lemma": "1350 a",
+    "count": 103,
+    "heb": "גָּאַל",
+    "trans": "gâʼal",
+    "eng": "redeem"
+  },
+  {
+    "rank": 419,
+    "lemma": "7999 a",
+    "count": 103,
+    "heb": "שָׁלַם",
+    "trans": "shâlam",
+    "eng": "be safe"
+  },
+  {
+    "rank": 420,
+    "lemma": "7323",
+    "count": 103,
+    "heb": "רוּץ",
+    "trans": "rûwts",
+    "eng": "run"
+  },
+  {
+    "rank": 421,
+    "lemma": "1157",
+    "count": 103,
+    "heb": "בְּעַד",
+    "trans": "bᵉʻad",
+    "eng": "in up to"
+  },
+  {
+    "rank": 422,
+    "lemma": "5922",
+    "count": 103,
+    "heb": "עַל",
+    "trans": "ʻal",
+    "eng": ""
+  },
+  {
+    "rank": 423,
+    "lemma": "3606",
+    "count": 103,
+    "heb": "כֹּל",
+    "trans": "kôl",
+    "eng": ""
+  },
+  {
+    "rank": 424,
+    "lemma": "7911",
+    "count": 102,
+    "heb": "שָׁכַח",
+    "trans": "shâkach",
+    "eng": "mislay"
+  },
+  {
+    "rank": 425,
+    "lemma": "1116",
+    "count": 102,
+    "heb": "בָּמָה",
+    "trans": "bâmâh",
+    "eng": "elevation"
+  },
+  {
+    "rank": 426,
+    "lemma": "3722 a",
+    "count": 102,
+    "heb": "כָּפַר",
+    "trans": "kâphar",
+    "eng": "cover"
+  },
+  {
+    "rank": 427,
+    "lemma": "4592",
+    "count": 101,
+    "heb": "מְעַט",
+    "trans": "mᵉʻaṭ",
+    "eng": "little"
+  },
+  {
+    "rank": 428,
+    "lemma": "7341",
+    "count": 101,
+    "heb": "רֹחַב",
+    "trans": "rôchab",
+    "eng": "width"
+  },
+  {
+    "rank": 429,
+    "lemma": "7458",
+    "count": 101,
+    "heb": "רָעָב",
+    "trans": "râʻâb",
+    "eng": "hunger"
+  },
+  {
+    "rank": 430,
+    "lemma": "7125",
+    "count": 100,
+    "heb": "קִרְאָה",
+    "trans": "qirʼâh",
+    "eng": "encountering"
+  },
+  {
+    "rank": 431,
+    "lemma": "123",
+    "count": 100,
+    "heb": "אֱדֹם",
+    "trans": "ʼĔdôm",
+    "eng": "Edom"
+  },
+  {
+    "rank": 432,
+    "lemma": "3282",
+    "count": 99,
+    "heb": "יַעַן",
+    "trans": "yaʻan",
+    "eng": "heed"
+  },
+  {
+    "rank": 433,
+    "lemma": "5785",
+    "count": 99,
+    "heb": "עוֹר",
+    "trans": "ʻôwr",
+    "eng": "skin"
+  },
+  {
+    "rank": 434,
+    "lemma": "3162 b",
+    "count": 98,
+    "heb": "יַחַד",
+    "trans": "yachad",
+    "eng": "unit"
+  },
+  {
+    "rank": 435,
+    "lemma": "7637",
+    "count": 98,
+    "heb": "שְׁבִיעִי",
+    "trans": "shᵉbîyʻîy",
+    "eng": "seventh"
+  },
+  {
+    "rank": 436,
+    "lemma": "7646",
+    "count": 97,
+    "heb": "שָׂבַע",
+    "trans": "sâbaʻ",
+    "eng": "sate"
+  },
+  {
+    "rank": 437,
+    "lemma": "m",
+    "count": 97,
+    "heb": "מֵהֶם",
+    "trans": "",
+    "eng": ""
+  },
+  {
+    "rank": 438,
+    "lemma": "8334",
+    "count": 97,
+    "heb": "שָׁרַת",
+    "trans": "shârath",
+    "eng": "attend"
+  },
+  {
+    "rank": 439,
+    "lemma": "6215",
+    "count": 97,
+    "heb": "עֵשָׂו",
+    "trans": "ʻÊsâv",
+    "eng": "Esav"
+  },
+  {
+    "rank": 440,
+    "lemma": "2543",
+    "count": 96,
+    "heb": "חֲמוֹר",
+    "trans": "chămôwr",
+    "eng": "ass"
+  },
+  {
+    "rank": 441,
+    "lemma": "753",
+    "count": 95,
+    "heb": "אֹרֶךְ",
+    "trans": "ʼôrek",
+    "eng": "length"
+  },
+  {
+    "rank": 442,
+    "lemma": "4422",
+    "count": 95,
+    "heb": "מָלַט",
+    "trans": "mâlaṭ",
+    "eng": "be smooth"
+  },
+  {
+    "rank": 443,
+    "lemma": "3499 a",
+    "count": 95,
+    "heb": "יֶתֶר",
+    "trans": "yether",
+    "eng": "overhanging"
+  },
+  {
+    "rank": 444,
+    "lemma": "2891",
+    "count": 95,
+    "heb": "טָהֵר",
+    "trans": "ṭâhêr",
+    "eng": "be pure"
+  },
+  {
+    "rank": 445,
+    "lemma": "426",
+    "count": 95,
+    "heb": "אֱלָהּ",
+    "trans": "ʼĕlâhh",
+    "eng": "God"
+  },
+  {
+    "rank": 446,
+    "lemma": "2015",
+    "count": 94,
+    "heb": "הָפַךְ",
+    "trans": "hâphak",
+    "eng": "turn"
+  },
+  {
+    "rank": 447,
+    "lemma": "7489 a",
+    "count": 94,
+    "heb": "רָעַע",
+    "trans": "râʻaʻ",
+    "eng": "spoil"
+  },
+  {
+    "rank": 448,
+    "lemma": "8057",
+    "count": 94,
+    "heb": "שִׂמְחָה",
+    "trans": "simchâh",
+    "eng": "blithesomeness"
+  },
+  {
+    "rank": 449,
+    "lemma": "1847",
+    "count": 93,
+    "heb": "דַּעַת",
+    "trans": "daʻath",
+    "eng": "knowledge"
+  },
+  {
+    "rank": 450,
+    "lemma": "2889",
+    "count": 93,
+    "heb": "טָהוֹר",
+    "trans": "ṭâhôwr",
+    "eng": "pure"
+  },
+  {
+    "rank": 451,
+    "lemma": "6588",
+    "count": 93,
+    "heb": "פֶּשַׁע",
+    "trans": "peshaʻ",
+    "eng": "revolt"
+  },
+  {
+    "rank": 452,
+    "lemma": "256",
+    "count": 93,
+    "heb": "אַחְאָב",
+    "trans": "ʼAchʼâb",
+    "eng": "Achab"
+  },
+  {
+    "rank": 453,
+    "lemma": "2181",
+    "count": 92,
+    "heb": "זָנָה",
+    "trans": "zânâh",
+    "eng": "commit adultery"
+  },
+  {
+    "rank": 454,
+    "lemma": "3754",
+    "count": 92,
+    "heb": "כֶּרֶם",
+    "trans": "kerem",
+    "eng": "garden"
+  },
+  {
+    "rank": 455,
+    "lemma": "1616",
+    "count": 92,
+    "heb": "גֵּר",
+    "trans": "gêr",
+    "eng": "guest"
+  },
+  {
+    "rank": 456,
+    "lemma": "7097 a",
+    "count": 92,
+    "heb": "קָצֶה",
+    "trans": "qâtseh",
+    "eng": "extremity"
+  },
+  {
+    "rank": 457,
+    "lemma": "5797",
+    "count": 92,
+    "heb": "עֹז",
+    "trans": "ʻôz",
+    "eng": "strength"
+  },
+  {
+    "rank": 458,
+    "lemma": "2459",
+    "count": 92,
+    "heb": "חֶלֶב",
+    "trans": "cheleb",
+    "eng": "fat"
+  },
+  {
+    "rank": 459,
+    "lemma": "2220",
+    "count": 91,
+    "heb": "זְרוֹעַ",
+    "trans": "zᵉrôwaʻ",
+    "eng": "arm"
+  },
+  {
+    "rank": 460,
+    "lemma": "7657",
+    "count": 91,
+    "heb": "שִׁבְעִים",
+    "trans": "shibʻîym",
+    "eng": "seventy"
+  },
+  {
+    "rank": 461,
+    "lemma": "5462",
+    "count": 91,
+    "heb": "סָגַר",
+    "trans": "çâgar",
+    "eng": "shut"
+  },
+  {
+    "rank": 462,
+    "lemma": "8549",
+    "count": 91,
+    "heb": "תָּמִים",
+    "trans": "tâmîym",
+    "eng": "entire"
+  },
+  {
+    "rank": 463,
+    "lemma": "3742",
+    "count": 91,
+    "heb": "כְּרוּב",
+    "trans": "kᵉrûwb",
+    "eng": "cherub"
+  },
+  {
+    "rank": 464,
+    "lemma": "4438",
+    "count": 91,
+    "heb": "מַלְכוּת",
+    "trans": "malkûwth",
+    "eng": "rule"
+  },
+  {
+    "rank": 465,
+    "lemma": "2896 b",
+    "count": 90,
+    "heb": "טוֹב",
+    "trans": "ṭôwb",
+    "eng": "good"
+  },
+  {
+    "rank": 466,
+    "lemma": "2734",
+    "count": 90,
+    "heb": "חָרָה",
+    "trans": "chârâh",
+    "eng": "glow"
+  },
+  {
+    "rank": 467,
+    "lemma": "8045",
+    "count": 90,
+    "heb": "שָׁמַד",
+    "trans": "shâmad",
+    "eng": "desolate"
+  },
+  {
+    "rank": 468,
+    "lemma": "3667 a",
+    "count": 90,
+    "heb": "כְּנַעַן",
+    "trans": "Kᵉnaʻan",
+    "eng": "Kenaan"
+  },
+  {
+    "rank": 469,
+    "lemma": "5676",
+    "count": 90,
+    "heb": "עֵבֶר",
+    "trans": "ʻêber",
+    "eng": "across"
+  },
+  {
+    "rank": 470,
+    "lemma": "2491 a",
+    "count": 90,
+    "heb": "חָלָל",
+    "trans": "châlâl",
+    "eng": "pierced"
+  },
+  {
+    "rank": 471,
+    "lemma": "3206",
+    "count": 89,
+    "heb": "יֶלֶד",
+    "trans": "yeled",
+    "eng": "something born"
+  },
+  {
+    "rank": 472,
+    "lemma": "6098",
+    "count": 89,
+    "heb": "עֵצָה",
+    "trans": "ʻêtsâh",
+    "eng": "advice"
+  },
+  {
+    "rank": 473,
+    "lemma": "2931",
+    "count": 88,
+    "heb": "טָמֵא",
+    "trans": "ṭâmêʼ",
+    "eng": "foul"
+  },
+  {
+    "rank": 474,
+    "lemma": "8255",
+    "count": 88,
+    "heb": "שֶׁקֶל",
+    "trans": "sheqel",
+    "eng": "weight"
+  },
+  {
+    "rank": 475,
+    "lemma": "6051",
+    "count": 87,
+    "heb": "עָנָן",
+    "trans": "ʻânân",
+    "eng": "cloud"
+  },
+  {
+    "rank": 476,
+    "lemma": "567",
+    "count": 87,
+    "heb": "אֱמֹרִי",
+    "trans": "ʼĔmôrîy",
+    "eng": "Emorite"
+  },
+  {
+    "rank": 477,
+    "lemma": "8002",
+    "count": 87,
+    "heb": "שֶׁלֶם",
+    "trans": "shelem",
+    "eng": "requital"
+  },
+  {
+    "rank": 478,
+    "lemma": "7891",
+    "count": 87,
+    "heb": "שִׁיר",
+    "trans": "shîyr",
+    "eng": "sing"
+  },
+  {
+    "rank": 479,
+    "lemma": "3925",
+    "count": 86,
+    "heb": "לָמַד",
+    "trans": "lâmad",
+    "eng": "goad"
+  },
+  {
+    "rank": 480,
+    "lemma": "1817 c",
+    "count": 86,
+    "heb": "דֶּלֶת",
+    "trans": "deleth",
+    "eng": "something swinging"
+  },
+  {
+    "rank": 481,
+    "lemma": "6285",
+    "count": 86,
+    "heb": "פֵּאָה",
+    "trans": "pêʼâh",
+    "eng": "mouth"
+  },
+  {
+    "rank": 482,
+    "lemma": "8074",
+    "count": 85,
+    "heb": "שָׁמֵם",
+    "trans": "shâmêm",
+    "eng": "stun"
+  },
+  {
+    "rank": 483,
+    "lemma": "1197 a",
+    "count": 85,
+    "heb": "בָּעַר",
+    "trans": "bâʻar",
+    "eng": "kindle"
+  },
+  {
+    "rank": 484,
+    "lemma": "7350",
+    "count": 85,
+    "heb": "רָחוֹק",
+    "trans": "râchôwq",
+    "eng": "remote"
+  },
+  {
+    "rank": 485,
+    "lemma": "7069",
+    "count": 85,
+    "heb": "קָנָה",
+    "trans": "qânâh",
+    "eng": "erect"
+  },
+  {
+    "rank": 486,
+    "lemma": "6419",
+    "count": 84,
+    "heb": "פָּלַל",
+    "trans": "pâlal",
+    "eng": "judge"
+  },
+  {
+    "rank": 487,
+    "lemma": "3092",
+    "count": 84,
+    "heb": "יְהוֹשָׁפָט",
+    "trans": "Yᵉhôwshâphâṭ",
+    "eng": "Jehoshaphat"
+  },
+  {
+    "rank": 488,
+    "lemma": "7896",
+    "count": 83,
+    "heb": "שִׁית",
+    "trans": "shîyth",
+    "eng": "place"
+  },
+  {
+    "rank": 489,
+    "lemma": "1167",
+    "count": 83,
+    "heb": "בַּעַל",
+    "trans": "baʻal",
+    "eng": "master"
+  },
+  {
+    "rank": 490,
+    "lemma": "2145",
+    "count": 82,
+    "heb": "זָכָר",
+    "trans": "zâkâr",
+    "eng": "remembered"
+  },
+  {
+    "rank": 491,
+    "lemma": "6311",
+    "count": 82,
+    "heb": "פֹּה",
+    "trans": "pôh",
+    "eng": "this place"
+  },
+  {
+    "rank": 492,
+    "lemma": "7043",
+    "count": 82,
+    "heb": "קָלַל",
+    "trans": "qâlal",
+    "eng": "be"
+  },
+  {
+    "rank": 493,
+    "lemma": "1995 a",
+    "count": 82,
+    "heb": "הָמוֹן",
+    "trans": "hâmôwn",
+    "eng": "noise"
+  },
+  {
+    "rank": 494,
+    "lemma": "3809",
+    "count": 82,
+    "heb": "לָא",
+    "trans": "lâʼ",
+    "eng": ""
+  },
+  {
+    "rank": 495,
+    "lemma": "5641",
+    "count": 81,
+    "heb": "סָתַר",
+    "trans": "çâthar",
+    "eng": "hide"
+  },
+  {
+    "rank": 496,
+    "lemma": "5826",
+    "count": 81,
+    "heb": "עָזַר",
+    "trans": "ʻâzar",
+    "eng": "surround"
+  },
+  {
+    "rank": 497,
+    "lemma": "4910",
+    "count": 81,
+    "heb": "מָשַׁל",
+    "trans": "mâshal",
+    "eng": "rule"
+  },
+  {
+    "rank": 498,
+    "lemma": "1481 a",
+    "count": 81,
+    "heb": "גּוּר",
+    "trans": "gûwr",
+    "eng": "turn"
+  },
+  {
+    "rank": 499,
+    "lemma": "5782",
+    "count": 80,
+    "heb": "עוּר",
+    "trans": "ʻûwr",
+    "eng": "wake"
+  },
+  {
+    "rank": 500,
+    "lemma": "1964",
+    "count": 80,
+    "heb": "הֵיכָל",
+    "trans": "hêykâl",
+    "eng": "palace"
+  }
+]

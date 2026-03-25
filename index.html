@@ -230,11 +230,126 @@
   body.hide-trans   .w-trans                                 { visibility: hidden; }
   body.hide-eng     .w-eng,    body.hide-eng     .detail-eng { visibility: hidden; }
 
+  /* VOCAB PANEL */
+  .vocab-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(26,18,8,0.92);
+    z-index: 100;
+    overflow-y: auto;
+    padding: 1.5rem;
+    animation: fadeIn 0.15s ease;
+  }
+  .vocab-overlay.open { display: block; }
+  .vocab-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--gold);
+  }
+  .vocab-header h2 {
+    color: var(--gold-light);
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 1.4rem;
+  }
+  .vocab-header .vocab-stats {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--faded);
+  }
+  .vocab-close {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    padding: 0.3rem 0.9rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    cursor: pointer;
+    letter-spacing: 0.08em;
+  }
+  .vocab-close:hover { background: var(--gold); color: var(--white); }
+  .vocab-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 0.8rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .vocab-item {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    transition: all 0.15s;
+    direction: ltr;
+  }
+  .vocab-item:hover { border-color: var(--gold); background: rgba(255,255,255,0.08); }
+  .vocab-item.expanded { border-color: var(--terracotta); background: rgba(255,255,255,0.06); }
+  .vocab-top {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .vocab-heb {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--gold-light);
+    direction: rtl;
+    min-width: 80px;
+    text-align: center;
+  }
+  .vocab-info { flex: 1; }
+  .vocab-eng { color: var(--parchment); font-size: 1rem; }
+  .vocab-trans {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--faded);
+    margin-top: 0.15rem;
+  }
+  .vocab-freq {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    color: var(--gold);
+    text-align: right;
+    white-space: nowrap;
+  }
+  .vocab-pics {
+    display: flex;
+    gap: 0.6rem;
+    margin-top: 0.6rem;
+    flex-wrap: wrap;
+  }
+  .vocab-letter {
+    text-align: center;
+    background: rgba(255,255,255,0.04);
+    padding: 0.3rem 0.5rem;
+    border: 1px solid rgba(255,255,255,0.06);
+    min-width: 50px;
+  }
+  .vocab-letter .vl-pic { font-size: 1.2rem; }
+  .vocab-letter .vl-heb { font-size: 1.1rem; color: var(--gold-light); font-weight: 600; }
+  .vocab-letter .vl-name { font-family: 'Space Mono', monospace; font-size: 0.55rem; color: var(--faded); }
+  .vocab-letter .vl-meaning { font-size: 0.6rem; color: var(--gold-light); font-style: italic; }
+  .vocab-narrative {
+    margin-top: 0.6rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    font-style: italic;
+    color: var(--gold-light);
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
   @media (max-width: 600px) {
     .w-pic { font-size: 0.75rem; }
     .w-lheb { font-size: 0.85rem; }
     .word-card { min-width: 55px; padding: 0.4rem 0.3rem; }
     header h1 { font-size: 1.4rem; }
+    .vocab-list { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -256,6 +371,17 @@
   <button class="toggle-btn on" onclick="toggle('phoen', this)">Phoenician</button>
   <button class="toggle-btn on" onclick="toggle('trans', this)">Transliteration</button>
   <button class="toggle-btn on" onclick="toggle('eng', this)">English</button>
+  <span style="flex:1"></span>
+  <button class="toggle-btn" id="btn-vocab" onclick="showVocab()">Vocabulary</button>
+</div>
+
+<div class="vocab-overlay" id="vocab-overlay">
+  <div class="vocab-header">
+    <h2 id="vocab-title">Chapter Vocabulary</h2>
+    <span class="vocab-stats" id="vocab-stats"></span>
+    <button class="vocab-close" onclick="hideVocab()">CLOSE</button>
+  </div>
+  <div class="vocab-list" id="vocab-list"></div>
 </div>
 
 <nav class="verse-jump" id="verse-jump"></nav>
@@ -469,6 +595,124 @@ function renderChapter(bookData, chapterNum) {
     main.appendChild(block);
   });
 }
+
+// ── Vocabulary panel ───────────────────────────────────────────────────
+window.showVocab = function() {
+  const bookData = bookCache[currentBook];
+  if (!bookData || !bookData.chapters[currentChapter]) return;
+
+  const verses = bookData.chapters[currentChapter];
+  const overlay = document.getElementById('vocab-overlay');
+  const list = document.getElementById('vocab-list');
+  const title = document.getElementById('vocab-title');
+  const stats = document.getElementById('vocab-stats');
+
+  // Count unique words by lemma, track best example
+  const lemmaCount = {};
+  const lemmaWord = {};
+  let totalWords = 0;
+
+  verses.forEach(v => {
+    v.words.forEach(w => {
+      totalWords++;
+      const key = w.lemma || w.heb;
+      if (!lemmaCount[key]) {
+        lemmaCount[key] = 0;
+        lemmaWord[key] = w;
+      }
+      lemmaCount[key]++;
+      // Prefer shorter form as canonical
+      if (w.heb.length < lemmaWord[key].heb.length) {
+        lemmaWord[key] = w;
+      }
+    });
+  });
+
+  // Sort by frequency in this chapter (descending), then alphabetically
+  const sorted = Object.entries(lemmaCount)
+    .sort((a, b) => b[1] - a[1])
+    .map(([key, count]) => ({ key, count, word: lemmaWord[key] }));
+
+  title.textContent = currentBook + ' ' + currentChapter + ' \u2014 Vocabulary';
+  stats.textContent = sorted.length + ' unique words / ' + totalWords + ' total';
+
+  list.innerHTML = '';
+  sorted.forEach(entry => {
+    const w = entry.word;
+    const breakdown = JSON.parse(decompose_word(w.heb));
+
+    const item = document.createElement('div');
+    item.className = 'vocab-item';
+
+    // Top row: Hebrew, English, frequency
+    item.innerHTML = `
+      <div class="vocab-top">
+        <div class="vocab-heb">${w.heb}</div>
+        <div class="vocab-info">
+          <div class="vocab-eng">${w.eng || ''}</div>
+          <div class="vocab-trans">${w.trans || ''}</div>
+        </div>
+        <div class="vocab-freq">${entry.count}x</div>
+      </div>
+    `;
+
+    // Click to expand with pictograph detail
+    item.onclick = () => {
+      const wasExpanded = item.classList.contains('expanded');
+      // Collapse any other expanded
+      list.querySelectorAll('.vocab-item.expanded').forEach(el => {
+        el.classList.remove('expanded');
+        const det = el.querySelector('.vocab-pics, .vocab-narrative');
+        if (det) det.remove();
+        const det2 = el.querySelector('.vocab-narrative');
+        if (det2) det2.remove();
+      });
+
+      if (!wasExpanded) {
+        item.classList.add('expanded');
+
+        // Letter pictures
+        const pics = document.createElement('div');
+        pics.className = 'vocab-pics';
+        breakdown.letters.forEach(l => {
+          const ld = document.createElement('div');
+          ld.className = 'vocab-letter';
+          ld.innerHTML = `
+            <div class="vl-pic">${l.p}</div>
+            <div class="vl-heb">${l.h}</div>
+            <div class="vl-name">${l.n}</div>
+            <div class="vl-meaning">${l.m}</div>
+          `;
+          pics.appendChild(ld);
+        });
+        item.appendChild(pics);
+
+        // Narrative
+        const nar = document.createElement('div');
+        nar.className = 'vocab-narrative';
+        const narText = narratives[w.heb];
+        if (narText) {
+          nar.textContent = narText;
+        } else {
+          try {
+            nar.textContent = generate_narrative_wasm(w.heb);
+          } catch(e) {
+            nar.innerHTML = '\u2014';
+          }
+        }
+        item.appendChild(nar);
+      }
+    };
+
+    list.appendChild(item);
+  });
+
+  overlay.classList.add('open');
+};
+
+window.hideVocab = function() {
+  document.getElementById('vocab-overlay').classList.remove('open');
+};
 
 // ── Book/chapter selectors ─────────────────────────────────────────────
 function populateSelectors() {
