@@ -296,7 +296,17 @@ window.toggle = function(layer, btn) {
 };
 
 // ── Data ───────────────────────────────────────────────────────────────
-const texts = [
+// ── Load books index ───────────────────────────────────────────────────
+let BIBLE_BOOKS = [];
+try {
+  const mod = await import('./chinese_books.js');
+  BIBLE_BOOKS = mod.BIBLE_BOOKS;
+} catch(e) {
+  console.warn('Could not load chinese_books.js');
+}
+
+// Classics stay as supplementary texts
+const CLASSICS = [
   { file: 'dao-de-jing', name: 'Dao De Jing', chinese: '道德經' },
   { file: 'three-character-classic', name: 'Three Character Classic', chinese: '三字經' },
 ];
@@ -305,15 +315,15 @@ const textCache = {};
 let currentText = null;
 let currentChapter = null;
 
-async function fetchText(file) {
-  if (textCache[file]) return textCache[file];
+async function fetchText(key) {
+  if (textCache[key]) return textCache[key];
   const el = document.getElementById('loading');
   if (el) { el.style.display = ''; el.textContent = 'Loading...'; }
   try {
-    const resp = await fetch('./data/chinese/' + file + '.json');
+    const resp = await fetch('./data/chinese/' + encodeURIComponent(key) + '.json');
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const data = await resp.json();
-    textCache[file] = data;
+    textCache[key] = data;
     return data;
   } finally {
     const el = document.getElementById('loading');
@@ -497,12 +507,29 @@ function populateSelectors() {
   const textSel = document.getElementById('text-select');
   const chapSel = document.getElementById('chapter-select');
 
-  texts.forEach(t => {
+  // Bible books grouped by OT/NT
+  ['Old Testament', 'New Testament'].forEach(section => {
+    const group = document.createElement('optgroup');
+    group.label = section;
+    BIBLE_BOOKS.filter(b => b.section === section).forEach(b => {
+      const opt = document.createElement('option');
+      opt.value = b.name;
+      opt.textContent = b.chinese + ' ' + b.name;
+      group.appendChild(opt);
+    });
+    textSel.appendChild(group);
+  });
+
+  // Classics section
+  const classicsGroup = document.createElement('optgroup');
+  classicsGroup.label = 'Classics';
+  CLASSICS.forEach(t => {
     const opt = document.createElement('option');
     opt.value = t.file;
     opt.textContent = t.chinese + ' ' + t.name;
-    textSel.appendChild(opt);
+    classicsGroup.appendChild(opt);
   });
+  textSel.appendChild(classicsGroup);
 
   textSel.onchange = async () => {
     currentText = textSel.value;
@@ -534,7 +561,7 @@ function updateChapters(data) {
 // ── Init ───────────────────────────────────────────────────────────────
 async function startup() {
   populateSelectors();
-  currentText = texts[0].file;
+  currentText = BIBLE_BOOKS.length > 0 ? BIBLE_BOOKS[0].name : CLASSICS[0].file;
   document.getElementById('text-select').value = currentText;
   const data = await fetchText(currentText);
   updateChapters(data);
