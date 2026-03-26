@@ -1,6 +1,8 @@
 pub mod decompose;
+pub mod hanzi;
 pub mod letters;
 pub mod narrative;
+pub mod radicals;
 pub mod roots;
 
 use wasm_bindgen::prelude::*;
@@ -44,4 +46,26 @@ pub fn generate_narrative_wasm(word: &str) -> String {
 pub fn extract_root_json(word: &str) -> String {
     let result = roots::extract_root(word);
     serde_json::to_string(&result).unwrap_or_default()
+}
+
+/// Decompose a Chinese character into its semantic components.
+/// Takes a single character string, returns JSON CharBreakdown.
+#[wasm_bindgen]
+pub fn decompose_hanzi(ch: &str) -> String {
+    let c = ch.chars().next().unwrap_or('\0');
+    match hanzi::decompose_char(c) {
+        Some(breakdown) => serde_json::to_string(&breakdown).unwrap_or_default(),
+        None => String::from("null"),
+    }
+}
+
+/// Generate a narrative memory story for a Chinese character.
+/// Takes a single character string, returns a mnemonic narrative.
+#[wasm_bindgen]
+pub fn hanzi_narrative(ch: &str) -> String {
+    let c = ch.chars().next().unwrap_or('\0');
+    match hanzi::decompose_char(c) {
+        Some(breakdown) => hanzi::char_narrative(&breakdown),
+        None => format!("No decomposition found for '{}'", ch),
+    }
 }

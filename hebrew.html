@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Debar - Hebrew Pictograph Bible</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#8B6914">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1208;
+    --parchment: #f5edda;
+    --parchment-dark: #e8d9b8;
+    --gold: #8B6914;
+    --gold-light: #c4972a;
+    --terracotta: #7a3b2e;
+    --faded: #9e8b6e;
+    --white: #fdfaf3;
+    --highlight: #fff3cd;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--parchment);
+    color: var(--ink);
+    font-family: 'Crimson Pro', serif;
+    min-height: 100vh;
+  }
+
+  header {
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: attr(data-watermark);
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+    font-size: 1.8rem; opacity: 0.06; white-space: nowrap; pointer-events: none;
+    direction: rtl; width: 100%; text-align: center;
+  }
+  header h1 { font-size: 1.8rem; font-weight: 300; letter-spacing: 0.15em; position: relative; }
+  header p { color: var(--gold-light); font-style: italic; margin-top: 0.3rem; position: relative; }
+
+  /* BOOK SELECTOR */
+  .book-nav {
+    background: var(--ink);
+    padding: 0 2rem 1.5rem;
+    text-align: center;
+  }
+  .book-nav select {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold-light);
+    padding: 0.4rem 1rem;
+    font-family: 'Crimson Pro', serif;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 0.3rem;
+  }
+  .book-nav select option { background: var(--ink); color: var(--parchment); }
+
+  /* CONTROLS */
+  .controls {
+    background: var(--parchment-dark);
+    border-bottom: 2px solid var(--gold);
+    padding: 0.8rem 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .controls label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--faded);
+    letter-spacing: 0.1em;
+  }
+  .toggle-btn {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    padding: 0.3rem 0.9rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    cursor: pointer;
+    letter-spacing: 0.08em;
+    transition: all 0.2s;
+  }
+  .toggle-btn.on { background: var(--gold); color: var(--white); }
+
+  /* VERSE JUMP NAV */
+  .verse-jump {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--parchment-dark);
+    border-bottom: 1px solid var(--gold);
+    padding: 0.5rem 1rem;
+    display: flex; flex-wrap: wrap; gap: 0.3rem;
+  }
+  .verse-jump a {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    color: var(--gold);
+    text-decoration: none;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid transparent;
+    transition: all 0.15s;
+  }
+  .verse-jump a:hover { border-color: var(--gold); }
+
+  /* MAIN */
+  main { max-width: 1000px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+  /* LOADING */
+  .loading {
+    text-align: center;
+    padding: 4rem;
+    color: var(--faded);
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+
+  /* VERSE BLOCK */
+  .verse-block {
+    margin-bottom: 2.5rem;
+    background: var(--white);
+    border-left: 3px solid var(--gold);
+    padding: 1.5rem;
+  }
+  .verse-ref {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--faded);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .verse-english {
+    font-style: italic;
+    color: var(--faded);
+    font-size: 0.95rem;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid var(--parchment-dark);
+    line-height: 1.6;
+  }
+
+  /* WORD ROW */
+  .word-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    direction: rtl;
+    text-align: center;
+  }
+
+  /* WORD CARD */
+  .word-card {
+    background: var(--parchment);
+    border: 1px solid var(--parchment-dark);
+    padding: 0.6rem 0.5rem 0.5rem;
+    min-width: 70px;
+    cursor: pointer;
+    transition: all 0.15s;
+    direction: rtl;
+    position: relative;
+  }
+  .word-card:hover { border-color: var(--gold); background: var(--highlight); }
+  .word-card.active { border-color: var(--terracotta); background: var(--highlight); }
+
+  .w-hebrew { font-size: 1.4rem; font-weight: 600; color: var(--terracotta); display: block; line-height: 1.2; margin-bottom: 0.3rem; }
+  .w-letters { display: flex; flex-direction: row; gap: 2px; justify-content: center; margin-bottom: 0.3rem; flex-wrap: wrap; }
+  .w-letter { display: flex; flex-direction: column; align-items: center; gap: 1px; min-width: 18px; }
+  .w-pic   { font-size: 0.9rem; line-height: 1; }
+  .w-phoen { font-size: 0.75rem; color: var(--faded); line-height: 1; }
+  .w-lheb  { font-size: 1rem; color: var(--ink); font-weight: 600; line-height: 1; }
+  .w-trans { font-family: 'Space Mono', monospace; font-size: 0.55rem; color: var(--gold); display: block; margin-top: 0.3rem; letter-spacing: 0.03em; direction: ltr; }
+  .w-eng { font-size: 0.75rem; color: var(--faded); font-style: italic; display: block; direction: ltr; line-height: 1.2; }
+
+  /* EXPANDED DETAIL */
+  .word-detail {
+    display: none;
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 1rem 1.2rem;
+    margin-top: 1rem;
+    direction: ltr;
+    animation: fadeIn 0.15s ease;
+  }
+  .word-detail.open { display: block; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .detail-heb { font-size: 2rem; color: var(--gold-light); font-weight: 600; }
+  .detail-trans { font-family: 'Space Mono', monospace; font-size: 0.75rem; color: var(--faded); margin-top: 0.2rem; }
+  .detail-eng { font-style: italic; margin-top: 0.2rem; }
+  .detail-letters { display: flex; gap: 1rem; margin-top: 0.8rem; flex-wrap: wrap; }
+  .detail-letter {
+    text-align: center;
+    background: rgba(255,255,255,0.05);
+    padding: 0.5rem 0.7rem;
+    border: 1px solid rgba(255,255,255,0.1);
+    min-width: 60px;
+  }
+  .dl-pic   { font-size: 1.5rem; }
+  .dl-phoen { font-size: 1.1rem; color: var(--faded); }
+  .dl-heb   { font-size: 1.6rem; color: var(--gold-light); font-weight: 600; }
+  .dl-name  { font-family: 'Space Mono', monospace; font-size: 0.6rem; color: var(--faded); margin-top: 0.2rem; }
+  .dl-meaning { font-size: 0.7rem; color: var(--gold-light); margin-top: 0.15rem; font-style: italic; }
+
+  /* NARRATIVE */
+  .detail-narrative {
+    margin-top: 1rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-style: italic;
+    color: var(--gold-light);
+    font-size: 1rem;
+    line-height: 1.6;
+    min-height: 1.5rem;
+  }
+
+  /* SHOW/HIDE toggles */
+  body.hide-pics    .w-pic,    body.hide-pics    .dl-pic    { visibility: hidden; }
+  body.hide-phoen   .w-phoen,  body.hide-phoen   .dl-phoen  { visibility: hidden; }
+  body.hide-trans   .w-trans                                 { visibility: hidden; }
+  body.hide-eng     .w-eng,    body.hide-eng     .detail-eng { visibility: hidden; }
+
+  /* VOCAB PANEL */
+  .vocab-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(26,18,8,0.92);
+    z-index: 100;
+    overflow-y: auto;
+    padding: 1.5rem;
+    animation: fadeIn 0.15s ease;
+  }
+  .vocab-overlay.open { display: block; }
+  .vocab-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--gold);
+  }
+  .vocab-header h2 {
+    color: var(--gold-light);
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 1.4rem;
+  }
+  .vocab-header .vocab-stats {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--faded);
+  }
+  .vocab-close {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    padding: 0.3rem 0.9rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    cursor: pointer;
+    letter-spacing: 0.08em;
+  }
+  .vocab-close:hover { background: var(--gold); color: var(--white); }
+  .vocab-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 0.8rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .vocab-item {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    transition: all 0.15s;
+    direction: ltr;
+  }
+  .vocab-item:hover { border-color: var(--gold); background: rgba(255,255,255,0.08); }
+  .vocab-item.expanded { border-color: var(--terracotta); background: rgba(255,255,255,0.06); }
+  .vocab-top {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .vocab-heb {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--gold-light);
+    direction: rtl;
+    min-width: 80px;
+    text-align: center;
+  }
+  .vocab-info { flex: 1; }
+  .vocab-eng { color: var(--parchment); font-size: 1rem; }
+  .vocab-trans {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--faded);
+    margin-top: 0.15rem;
+  }
+  .vocab-freq {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    color: var(--gold);
+    text-align: right;
+    white-space: nowrap;
+  }
+  .vocab-pics {
+    display: flex;
+    gap: 0.6rem;
+    margin-top: 0.6rem;
+    flex-wrap: wrap;
+  }
+  .vocab-letter {
+    text-align: center;
+    background: rgba(255,255,255,0.04);
+    padding: 0.3rem 0.5rem;
+    border: 1px solid rgba(255,255,255,0.06);
+    min-width: 50px;
+  }
+  .vocab-letter .vl-pic { font-size: 1.2rem; }
+  .vocab-letter .vl-heb { font-size: 1.1rem; color: var(--gold-light); font-weight: 600; }
+  .vocab-letter .vl-name { font-family: 'Space Mono', monospace; font-size: 0.55rem; color: var(--faded); }
+  .vocab-letter .vl-meaning { font-size: 0.6rem; color: var(--gold-light); font-style: italic; }
+  .vocab-narrative {
+    margin-top: 0.6rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    font-style: italic;
+    color: var(--gold-light);
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .home-link {
+    position: absolute; top: 1rem; left: 1.5rem;
+    color: var(--gold); text-decoration: none;
+    font-family: 'Space Mono', monospace; font-size: 0.65rem;
+    letter-spacing: 0.1em; opacity: 0.7; transition: opacity 0.2s;
+  }
+  .home-link:hover { opacity: 1; }
+
+  @media (max-width: 600px) {
+    .w-pic { font-size: 0.75rem; }
+    .w-lheb { font-size: 0.85rem; }
+    .word-card { min-width: 55px; padding: 0.4rem 0.3rem; }
+    header h1 { font-size: 1.4rem; }
+    .vocab-list { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header id="header" data-watermark="">
+  <a href="index.html" class="home-link">&larr; HOME</a>
+  <h1>Debar - Hebrew Pictograph Bible</h1>
+  <p>Every word broken into its ancient pictures</p>
+</header>
+
+<div class="book-nav">
+  <select id="book-select"></select>
+  <select id="chapter-select"></select>
+</div>
+
+<div class="controls">
+  <span style="font-family:'Space Mono',monospace;font-size:0.65rem;color:var(--faded);letter-spacing:0.1em">SHOW/HIDE:</span>
+  <button class="toggle-btn on" onclick="toggle('pics', this)">Pictures</button>
+  <button class="toggle-btn on" onclick="toggle('phoen', this)">Phoenician</button>
+  <button class="toggle-btn on" onclick="toggle('trans', this)">Transliteration</button>
+  <button class="toggle-btn on" onclick="toggle('eng', this)">English</button>
+  <span style="flex:1"></span>
+  <button class="toggle-btn" id="btn-vocab" onclick="showVocab()">Vocabulary</button>
+</div>
+
+<div class="vocab-overlay" id="vocab-overlay">
+  <div class="vocab-header">
+    <h2 id="vocab-title">Chapter Vocabulary</h2>
+    <span class="vocab-stats" id="vocab-stats"></span>
+    <button class="vocab-close" onclick="hideVocab()">CLOSE</button>
+  </div>
+  <div class="vocab-list" id="vocab-list"></div>
+</div>
+
+<nav class="verse-jump" id="verse-jump"></nav>
+
+<main id="main">
+  <div class="loading" id="loading">Loading Hebrew engine...</div>
+</main>
+
+<script type="module">
+import init, { decompose_word, generate_narrative_wasm } from './pkg/hebrew.js';
+import { TANAKH_BOOKS } from './books.js';
+
+// ── Toggle visibility ──────────────────────────────────────────────────
+window.toggle = function(layer, btn) {
+  document.body.classList.toggle('hide-' + layer);
+  btn.classList.toggle('on');
+};
+
+// ── Bible data store ───────────────────────────────────────────────────
+let narratives = {};
+let currentBook = null;
+let currentChapter = null;
+
+// ── In-memory book cache ───────────────────────────────────────────────
+// Keyed by book name, holds the full JSON for each fetched book.
+const bookCache = {};
+
+async function loadNarratives() {
+  try {
+    const resp = await fetch('./narratives.json');
+    narratives = await resp.json();
+  } catch(e) {
+    console.warn('Could not load narratives.json');
+  }
+}
+
+// ── Fetch book data from data/{bookName}.json ──────────────────────────
+async function fetchBook(bookName) {
+  if (bookCache[bookName]) return bookCache[bookName];
+
+  const loading = document.getElementById('loading');
+  const main = document.getElementById('main');
+
+  // Show loading indicator
+  if (!loading) {
+    const el = document.createElement('div');
+    el.className = 'loading';
+    el.id = 'loading';
+    el.textContent = 'Loading ' + bookName + '...';
+    main.prepend(el);
+  } else {
+    loading.textContent = 'Loading ' + bookName + '...';
+    loading.style.display = '';
+  }
+
+  try {
+    const resp = await fetch('./data/' + encodeURIComponent(bookName) + '.json');
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    bookCache[bookName] = data;
+    return data;
+  } finally {
+    const el = document.getElementById('loading');
+    if (el) el.style.display = 'none';
+  }
+}
+
+// ── Render ─────────────────────────────────────────────────────────────
+function renderChapter(bookData, chapterNum) {
+  const main = document.getElementById('main');
+  const jump = document.getElementById('verse-jump');
+  main.innerHTML = '';
+  jump.innerHTML = '';
+
+  // Re-add a hidden loading div for future fetches
+  const loadDiv = document.createElement('div');
+  loadDiv.className = 'loading';
+  loadDiv.id = 'loading';
+  loadDiv.style.display = 'none';
+  main.appendChild(loadDiv);
+
+  if (!bookData || !bookData.chapters[chapterNum]) {
+    main.innerHTML = '<div class="loading">No data for this chapter yet.</div>';
+    return;
+  }
+
+  // Set header watermark from TANAKH_BOOKS metadata
+  const header = document.getElementById('header');
+  const meta = TANAKH_BOOKS.find(b => b.name === bookData.name);
+  header.setAttribute('data-watermark', meta ? meta.hebrew : '');
+
+  const verses = bookData.chapters[chapterNum];
+
+  verses.forEach(vdata => {
+    // Jump nav
+    const jumpLink = document.createElement('a');
+    jumpLink.href = '#v' + vdata.verse;
+    jumpLink.textContent = vdata.verse;
+    jump.appendChild(jumpLink);
+
+    // Verse block
+    const block = document.createElement('div');
+    block.className = 'verse-block';
+    block.id = 'v' + vdata.verse;
+
+    const ref = document.createElement('div');
+    ref.className = 'verse-ref';
+    ref.textContent = vdata.ref;
+
+    const eng = document.createElement('div');
+    eng.className = 'verse-english';
+    eng.textContent = vdata.english || '';
+
+    const wordRow = document.createElement('div');
+    wordRow.className = 'word-row';
+
+    const detail = document.createElement('div');
+    detail.className = 'word-detail';
+
+    vdata.words.forEach((word, wi) => {
+      // Use WASM to decompose
+      const breakdown = JSON.parse(decompose_word(word.heb));
+
+      const card = document.createElement('div');
+      card.className = 'word-card';
+
+      // Hebrew text
+      const hebSpan = document.createElement('span');
+      hebSpan.className = 'w-hebrew';
+      hebSpan.textContent = word.heb;
+      card.appendChild(hebSpan);
+
+      // Letter row
+      const letterRow = document.createElement('div');
+      letterRow.className = 'w-letters';
+      breakdown.letters.forEach(l => {
+        const ld = document.createElement('div');
+        ld.className = 'w-letter';
+        ld.innerHTML = `<span class="w-pic">${l.p}</span><span class="w-phoen">${l.ph}</span><span class="w-lheb">${l.h}</span>`;
+        letterRow.appendChild(ld);
+      });
+      card.appendChild(letterRow);
+
+      // Transliteration
+      if (word.trans) {
+        const trans = document.createElement('span');
+        trans.className = 'w-trans';
+        trans.textContent = word.trans;
+        card.appendChild(trans);
+      }
+      // English gloss
+      const engSpan = document.createElement('span');
+      engSpan.className = 'w-eng';
+      engSpan.textContent = word.eng || '';
+      card.appendChild(engSpan);
+
+      // Click to expand
+      card.onclick = () => {
+        const wasActive = card.classList.contains('active');
+        block.querySelectorAll('.word-card').forEach(c => c.classList.remove('active'));
+        detail.classList.remove('open');
+
+        if (!wasActive) {
+          card.classList.add('active');
+          const nid = 'nar-' + vdata.verse + '-' + wi;
+          detail.innerHTML = `
+            <div class="detail-heb">${word.heb}</div>
+            <div class="detail-trans">${word.trans || ''}</div>
+            <div class="detail-eng">${word.eng || ''}</div>
+            <div class="detail-letters">
+              ${breakdown.letters.map(l => `
+                <div class="detail-letter">
+                  <div class="dl-pic">${l.p}</div>
+                  <div class="dl-phoen">${l.ph}</div>
+                  <div class="dl-heb">${l.h}</div>
+                  <div class="dl-name">${l.n}</div>
+                  <div class="dl-meaning">${l.m}</div>
+                </div>
+              `).join('')}
+            </div>
+            <div class="detail-narrative" id="${nid}"></div>
+          `;
+          detail.classList.add('open');
+
+          // Show narrative: use hand-written if available, otherwise WASM-generate
+          const narEl = document.getElementById(nid);
+          if (narEl) {
+            const narText = narratives[word.heb];
+            if (narText) {
+              narEl.innerHTML = narText;
+            } else {
+              // Generate narrative via WASM
+              try {
+                const generated = generate_narrative_wasm(word.heb);
+                narEl.innerHTML = generated;
+              } catch(e) {
+                narEl.innerHTML = '<span style="color:var(--faded);font-size:0.85rem">\u{2014}</span>';
+              }
+            }
+          }
+        }
+      };
+
+      wordRow.appendChild(card);
+    });
+
+    block.appendChild(ref);
+    block.appendChild(eng);
+    block.appendChild(wordRow);
+    block.appendChild(detail);
+    main.appendChild(block);
+  });
+}
+
+// ── Vocabulary panel ───────────────────────────────────────────────────
+window.showVocab = function() {
+  const bookData = bookCache[currentBook];
+  if (!bookData || !bookData.chapters[currentChapter]) return;
+
+  const verses = bookData.chapters[currentChapter];
+  const overlay = document.getElementById('vocab-overlay');
+  const list = document.getElementById('vocab-list');
+  const title = document.getElementById('vocab-title');
+  const stats = document.getElementById('vocab-stats');
+
+  // Count unique words by lemma, track best example
+  const lemmaCount = {};
+  const lemmaWord = {};
+  let totalWords = 0;
+
+  verses.forEach(v => {
+    v.words.forEach(w => {
+      totalWords++;
+      const key = w.lemma || w.heb;
+      if (!lemmaCount[key]) {
+        lemmaCount[key] = 0;
+        lemmaWord[key] = w;
+      }
+      lemmaCount[key]++;
+      // Prefer shorter form as canonical
+      if (w.heb.length < lemmaWord[key].heb.length) {
+        lemmaWord[key] = w;
+      }
+    });
+  });
+
+  // Sort by frequency in this chapter (descending), then alphabetically
+  const sorted = Object.entries(lemmaCount)
+    .sort((a, b) => b[1] - a[1])
+    .map(([key, count]) => ({ key, count, word: lemmaWord[key] }));
+
+  title.textContent = currentBook + ' ' + currentChapter + ' \u2014 Vocabulary';
+  stats.textContent = sorted.length + ' unique words / ' + totalWords + ' total';
+
+  list.innerHTML = '';
+  sorted.forEach(entry => {
+    const w = entry.word;
+    const breakdown = JSON.parse(decompose_word(w.heb));
+
+    const item = document.createElement('div');
+    item.className = 'vocab-item';
+
+    // Top row: Hebrew, English, frequency
+    item.innerHTML = `
+      <div class="vocab-top">
+        <div class="vocab-heb">${w.heb}</div>
+        <div class="vocab-info">
+          <div class="vocab-eng">${w.eng || ''}</div>
+          <div class="vocab-trans">${w.trans || ''}</div>
+        </div>
+        <div class="vocab-freq">${entry.count}x</div>
+      </div>
+    `;
+
+    // Click to expand with pictograph detail
+    item.onclick = () => {
+      const wasExpanded = item.classList.contains('expanded');
+      // Collapse any other expanded
+      list.querySelectorAll('.vocab-item.expanded').forEach(el => {
+        el.classList.remove('expanded');
+        const det = el.querySelector('.vocab-pics, .vocab-narrative');
+        if (det) det.remove();
+        const det2 = el.querySelector('.vocab-narrative');
+        if (det2) det2.remove();
+      });
+
+      if (!wasExpanded) {
+        item.classList.add('expanded');
+
+        // Letter pictures
+        const pics = document.createElement('div');
+        pics.className = 'vocab-pics';
+        breakdown.letters.forEach(l => {
+          const ld = document.createElement('div');
+          ld.className = 'vocab-letter';
+          ld.innerHTML = `
+            <div class="vl-pic">${l.p}</div>
+            <div class="vl-heb">${l.h}</div>
+            <div class="vl-name">${l.n}</div>
+            <div class="vl-meaning">${l.m}</div>
+          `;
+          pics.appendChild(ld);
+        });
+        item.appendChild(pics);
+
+        // Narrative
+        const nar = document.createElement('div');
+        nar.className = 'vocab-narrative';
+        const narText = narratives[w.heb];
+        if (narText) {
+          nar.textContent = narText;
+        } else {
+          try {
+            nar.textContent = generate_narrative_wasm(w.heb);
+          } catch(e) {
+            nar.innerHTML = '\u2014';
+          }
+        }
+        item.appendChild(nar);
+      }
+    };
+
+    list.appendChild(item);
+  });
+
+  overlay.classList.add('open');
+};
+
+window.hideVocab = function() {
+  document.getElementById('vocab-overlay').classList.remove('open');
+};
+
+// ── Book/chapter selectors ─────────────────────────────────────────────
+function populateSelectors() {
+  const bookSel = document.getElementById('book-select');
+  const chapSel = document.getElementById('chapter-select');
+
+  bookSel.innerHTML = '';
+
+  // Group books by section using optgroup
+  const sections = ['Torah', "Nevi'im", 'Ketuvim'];
+  sections.forEach(section => {
+    const group = document.createElement('optgroup');
+    group.label = section;
+    TANAKH_BOOKS.filter(b => b.section === section).forEach(b => {
+      const opt = document.createElement('option');
+      opt.value = b.name;
+      opt.textContent = b.name;
+      group.appendChild(opt);
+    });
+    bookSel.appendChild(group);
+  });
+
+  bookSel.onchange = async () => {
+    currentBook = bookSel.value;
+    const bookData = await fetchBook(currentBook);
+    updateChapterSelector(bookData);
+    currentChapter = 1;
+    chapSel.value = '1';
+    renderChapter(bookData, currentChapter);
+  };
+
+  chapSel.onchange = () => {
+    currentChapter = parseInt(chapSel.value);
+    const bookData = bookCache[currentBook];
+    if (bookData) renderChapter(bookData, currentChapter);
+  };
+}
+
+function updateChapterSelector(bookData) {
+  const chapSel = document.getElementById('chapter-select');
+  chapSel.innerHTML = '';
+  if (!bookData || !bookData.chapters) return;
+  Object.keys(bookData.chapters).sort((a,b) => a - b).forEach(ch => {
+    const opt = document.createElement('option');
+    opt.value = ch;
+    opt.textContent = 'Chapter ' + ch;
+    chapSel.appendChild(opt);
+  });
+}
+
+// ── Init ───────────────────────────────────────────────────────────────
+async function startup() {
+  await init();
+  await loadNarratives();
+  populateSelectors();
+
+  // Default to Genesis chapter 1
+  const bookSel = document.getElementById('book-select');
+  const chapSel = document.getElementById('chapter-select');
+  currentBook = 'Genesis';
+  bookSel.value = currentBook;
+  const bookData = await fetchBook(currentBook);
+  updateChapterSelector(bookData);
+  currentChapter = 1;
+  chapSel.value = '1';
+  document.getElementById('loading').style.display = 'none';
+  renderChapter(bookData, currentChapter);
+}
+
+startup().catch(err => {
+  document.getElementById('loading').textContent = 'Error loading: ' + err.message;
+  console.error(err);
+});
+
+// ── Service Worker ─────────────────────────────────────────────────────
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js').catch(() => {});
+}
+</script>
+
+</body>
+</html>

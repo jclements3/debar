@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Debar - Chinese Classics Reader</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#8B6914">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1208;
+    --parchment: #f5edda;
+    --parchment-dark: #e8d9b8;
+    --gold: #8B6914;
+    --gold-light: #c4972a;
+    --cinnabar: #8b2500;
+    --faded: #9e8b6e;
+    --white: #fdfaf3;
+    --highlight: #fff3cd;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--parchment);
+    color: var(--ink);
+    font-family: 'Crimson Pro', serif;
+    min-height: 100vh;
+  }
+
+  header {
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: attr(data-watermark);
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+    font-size: 2.5rem; opacity: 0.06; white-space: nowrap; pointer-events: none;
+    width: 100%; text-align: center; letter-spacing: 0.5rem;
+  }
+  header h1 { font-size: 1.8rem; font-weight: 300; letter-spacing: 0.15em; position: relative; }
+  header p { color: var(--gold-light); font-style: italic; margin-top: 0.3rem; position: relative; }
+  .home-link {
+    position: absolute; top: 1rem; left: 1.5rem;
+    color: var(--gold); text-decoration: none;
+    font-family: 'Space Mono', monospace; font-size: 0.65rem;
+    letter-spacing: 0.1em; opacity: 0.7; transition: opacity 0.2s;
+  }
+  .home-link:hover { opacity: 1; }
+
+  /* BOOK NAV */
+  .book-nav {
+    background: var(--ink);
+    padding: 0 2rem 1.5rem;
+    text-align: center;
+  }
+  .book-nav select {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold-light);
+    padding: 0.4rem 1rem;
+    font-family: 'Crimson Pro', serif;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 0.3rem;
+  }
+  .book-nav select option { background: var(--ink); color: var(--parchment); }
+
+  /* CONTROLS */
+  .controls {
+    background: var(--parchment-dark);
+    border-bottom: 2px solid var(--gold);
+    padding: 0.8rem 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .toggle-btn {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    padding: 0.3rem 0.9rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    cursor: pointer;
+    letter-spacing: 0.08em;
+    transition: all 0.2s;
+  }
+  .toggle-btn.on { background: var(--gold); color: var(--white); }
+
+  /* VERSE JUMP */
+  .verse-jump {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--parchment-dark);
+    border-bottom: 1px solid var(--gold);
+    padding: 0.5rem 1rem;
+    display: flex; flex-wrap: wrap; gap: 0.3rem;
+  }
+  .verse-jump a {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    color: var(--gold);
+    text-decoration: none;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid transparent;
+    transition: all 0.15s;
+  }
+  .verse-jump a:hover { border-color: var(--gold); }
+
+  /* MAIN */
+  main { max-width: 1000px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .loading { text-align: center; padding: 4rem; color: var(--faded); font-style: italic; font-size: 1.2rem; }
+
+  /* VERSE BLOCK */
+  .verse-block {
+    margin-bottom: 2.5rem;
+    background: var(--white);
+    border-left: 3px solid var(--gold);
+    padding: 1.5rem;
+  }
+  .verse-ref {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--faded);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .verse-english {
+    font-style: italic;
+    color: var(--faded);
+    font-size: 0.95rem;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid var(--parchment-dark);
+    line-height: 1.6;
+  }
+
+  /* CHAR ROW */
+  .char-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    text-align: center;
+  }
+
+  /* CHAR CARD */
+  .char-card {
+    background: var(--parchment);
+    border: 1px solid var(--parchment-dark);
+    padding: 0.6rem 0.5rem 0.5rem;
+    min-width: 70px;
+    cursor: pointer;
+    transition: all 0.15s;
+    position: relative;
+  }
+  .char-card:hover { border-color: var(--gold); background: var(--highlight); }
+  .char-card.active { border-color: var(--cinnabar); background: var(--highlight); }
+
+  .c-char { font-size: 1.8rem; font-weight: 600; color: var(--cinnabar); display: block; line-height: 1.2; margin-bottom: 0.3rem; }
+  .c-radicals { display: flex; flex-direction: row; gap: 2px; justify-content: center; margin-bottom: 0.3rem; flex-wrap: wrap; }
+  .c-radical { display: flex; flex-direction: column; align-items: center; gap: 1px; min-width: 18px; }
+  .c-rad-char { font-size: 1rem; color: var(--ink); font-weight: 600; line-height: 1; }
+  .c-rad-mean { font-size: 0.55rem; color: var(--faded); line-height: 1; }
+  .c-pinyin { font-family: 'Space Mono', monospace; font-size: 0.6rem; color: var(--gold); display: block; margin-top: 0.3rem; }
+  .c-eng { font-size: 0.75rem; color: var(--faded); font-style: italic; display: block; line-height: 1.2; }
+
+  /* EXPANDED DETAIL */
+  .char-detail {
+    display: none;
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 1rem 1.2rem;
+    margin-top: 1rem;
+    animation: fadeIn 0.15s ease;
+  }
+  .char-detail.open { display: block; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .detail-char { font-size: 3rem; color: var(--gold-light); font-weight: 600; }
+  .detail-pinyin { font-family: 'Space Mono', monospace; font-size: 0.85rem; color: var(--faded); margin-top: 0.2rem; }
+  .detail-eng { font-style: italic; margin-top: 0.2rem; font-size: 1.1rem; }
+  .detail-components { display: flex; gap: 1rem; margin-top: 0.8rem; flex-wrap: wrap; }
+  .detail-component {
+    text-align: center;
+    background: rgba(255,255,255,0.05);
+    padding: 0.5rem 0.7rem;
+    border: 1px solid rgba(255,255,255,0.1);
+    min-width: 70px;
+  }
+  .dc-char { font-size: 2rem; color: var(--gold-light); font-weight: 600; }
+  .dc-meaning { font-size: 0.75rem; color: var(--faded); margin-top: 0.2rem; }
+  .detail-narrative {
+    margin-top: 1rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-style: italic;
+    color: var(--gold-light);
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  /* SHOW/HIDE */
+  body.hide-radicals .c-radicals, body.hide-radicals .detail-components { visibility: hidden; }
+  body.hide-pinyin .c-pinyin, body.hide-pinyin .detail-pinyin { visibility: hidden; }
+  body.hide-eng .c-eng, body.hide-eng .detail-eng { visibility: hidden; }
+
+  /* VOCAB OVERLAY */
+  .vocab-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(26,18,8,0.92); z-index: 100; overflow-y: auto; padding: 1.5rem; animation: fadeIn 0.15s ease; }
+  .vocab-overlay.open { display: block; }
+  .vocab-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 2px solid var(--gold); }
+  .vocab-header h2 { color: var(--gold-light); font-weight: 300; letter-spacing: 0.1em; font-size: 1.4rem; }
+  .vocab-stats { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--faded); }
+  .vocab-close { background: transparent; border: 1px solid var(--gold); color: var(--gold); padding: 0.3rem 0.9rem; font-family: 'Space Mono', monospace; font-size: 0.7rem; cursor: pointer; }
+  .vocab-close:hover { background: var(--gold); color: var(--white); }
+  .vocab-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.8rem; max-width: 1000px; margin: 0 auto; }
+  .vocab-item { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); padding: 0.8rem 1rem; cursor: pointer; transition: all 0.15s; }
+  .vocab-item:hover { border-color: var(--gold); background: rgba(255,255,255,0.08); }
+  .vocab-top { display: flex; align-items: center; gap: 1rem; }
+  .vocab-ch { font-size: 2rem; font-weight: 600; color: var(--gold-light); min-width: 50px; text-align: center; }
+  .vocab-info { flex: 1; }
+  .vocab-eng { color: var(--parchment); font-size: 1rem; }
+  .vocab-pinyin { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--faded); }
+  .vocab-freq { font-family: 'Space Mono', monospace; font-size: 0.6rem; color: var(--gold); text-align: right; }
+
+  @media (max-width: 600px) {
+    .char-card { min-width: 55px; padding: 0.4rem 0.3rem; }
+    .c-char { font-size: 1.4rem; }
+    header h1 { font-size: 1.4rem; }
+    .vocab-list { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header id="header" data-watermark="道可道非常道名可名非常名">
+  <a href="index.html" class="home-link">&larr; HOME</a>
+  <h1>Chinese Classics Reader</h1>
+  <p>Every character built from ancient radical pictures</p>
+</header>
+
+<div class="book-nav">
+  <select id="text-select"></select>
+  <select id="chapter-select"></select>
+</div>
+
+<div class="controls">
+  <span style="font-family:'Space Mono',monospace;font-size:0.65rem;color:var(--faded);letter-spacing:0.1em">SHOW/HIDE:</span>
+  <button class="toggle-btn on" onclick="toggle('radicals', this)">Radicals</button>
+  <button class="toggle-btn on" onclick="toggle('pinyin', this)">Pinyin</button>
+  <button class="toggle-btn on" onclick="toggle('eng', this)">English</button>
+  <span style="flex:1"></span>
+  <button class="toggle-btn" onclick="showVocab()">Vocabulary</button>
+</div>
+
+<nav class="verse-jump" id="verse-jump"></nav>
+
+<main id="main">
+  <div class="loading" id="loading">Loading...</div>
+</main>
+
+<div class="vocab-overlay" id="vocab-overlay">
+  <div class="vocab-header">
+    <h2 id="vocab-title">Chapter Vocabulary</h2>
+    <span class="vocab-stats" id="vocab-stats"></span>
+    <button class="vocab-close" onclick="hideVocab()">CLOSE</button>
+  </div>
+  <div class="vocab-list" id="vocab-list"></div>
+</div>
+
+<script type="module">
+let wasmReady = false;
+let decompose_hanzi_fn = null;
+let hanzi_narrative_fn = null;
+
+try {
+  const wasm = await import('./pkg/hebrew.js');
+  await wasm.default();
+  decompose_hanzi_fn = wasm.decompose_hanzi;
+  hanzi_narrative_fn = wasm.hanzi_narrative;
+  wasmReady = true;
+} catch(e) {
+  console.warn('WASM not available, running without radical decomposition:', e.message);
+}
+
+// ── Toggle ─────────────────────────────────────────────────────────────
+window.toggle = function(layer, btn) {
+  document.body.classList.toggle('hide-' + layer);
+  btn.classList.toggle('on');
+};
+
+// ── Data ───────────────────────────────────────────────────────────────
+const texts = [
+  { file: 'dao-de-jing', name: 'Dao De Jing', chinese: '道德經' },
+  { file: 'three-character-classic', name: 'Three Character Classic', chinese: '三字經' },
+];
+
+const textCache = {};
+let currentText = null;
+let currentChapter = null;
+
+async function fetchText(file) {
+  if (textCache[file]) return textCache[file];
+  const el = document.getElementById('loading');
+  if (el) { el.style.display = ''; el.textContent = 'Loading...'; }
+  try {
+    const resp = await fetch('./data/chinese/' + file + '.json');
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    textCache[file] = data;
+    return data;
+  } finally {
+    const el = document.getElementById('loading');
+    if (el) el.style.display = 'none';
+  }
+}
+
+function getDecomposition(ch) {
+  if (!wasmReady || !decompose_hanzi_fn) return null;
+  try {
+    const json = decompose_hanzi_fn(ch);
+    if (json === 'null') return null;
+    return JSON.parse(json);
+  } catch(e) { return null; }
+}
+
+function getNarrative(ch) {
+  if (!wasmReady || !hanzi_narrative_fn) return '';
+  try { return hanzi_narrative_fn(ch); } catch(e) { return ''; }
+}
+
+// ── Render ─────────────────────────────────────────────────────────────
+function renderChapter(textData, chapterNum) {
+  const main = document.getElementById('main');
+  const jump = document.getElementById('verse-jump');
+  main.innerHTML = '';
+  jump.innerHTML = '';
+
+  const loadDiv = document.createElement('div');
+  loadDiv.className = 'loading'; loadDiv.id = 'loading'; loadDiv.style.display = 'none';
+  main.appendChild(loadDiv);
+
+  if (!textData || !textData.chapters[chapterNum]) {
+    main.innerHTML = '<div class="loading">No data for this chapter.</div>';
+    return;
+  }
+
+  const header = document.getElementById('header');
+  header.setAttribute('data-watermark', textData.chineseName || '');
+
+  const verses = textData.chapters[chapterNum];
+
+  verses.forEach(vdata => {
+    const jumpLink = document.createElement('a');
+    jumpLink.href = '#v' + vdata.verse;
+    jumpLink.textContent = vdata.verse;
+    jump.appendChild(jumpLink);
+
+    const block = document.createElement('div');
+    block.className = 'verse-block';
+    block.id = 'v' + vdata.verse;
+
+    const ref = document.createElement('div');
+    ref.className = 'verse-ref';
+    ref.textContent = vdata.ref;
+
+    const eng = document.createElement('div');
+    eng.className = 'verse-english';
+    eng.textContent = vdata.english || '';
+
+    const charRow = document.createElement('div');
+    charRow.className = 'char-row';
+
+    const detail = document.createElement('div');
+    detail.className = 'char-detail';
+
+    vdata.chars.forEach((c, ci) => {
+      const decomp = getDecomposition(c.ch);
+      const card = document.createElement('div');
+      card.className = 'char-card';
+
+      const charSpan = document.createElement('span');
+      charSpan.className = 'c-char';
+      charSpan.textContent = c.ch;
+      card.appendChild(charSpan);
+
+      // Radical components
+      if (decomp && decomp.components && decomp.components.length > 0) {
+        const radRow = document.createElement('div');
+        radRow.className = 'c-radicals';
+        decomp.components.forEach(comp => {
+          const rd = document.createElement('div');
+          rd.className = 'c-radical';
+          rd.innerHTML = '<span class="c-rad-char">' + comp.component + '</span><span class="c-rad-mean">' + comp.meaning + '</span>';
+          radRow.appendChild(rd);
+        });
+        card.appendChild(radRow);
+      }
+
+      const pinyin = document.createElement('span');
+      pinyin.className = 'c-pinyin';
+      pinyin.textContent = c.pinyin;
+      card.appendChild(pinyin);
+
+      const engSpan = document.createElement('span');
+      engSpan.className = 'c-eng';
+      engSpan.textContent = c.eng;
+      card.appendChild(engSpan);
+
+      card.onclick = () => {
+        const wasActive = card.classList.contains('active');
+        block.querySelectorAll('.char-card').forEach(x => x.classList.remove('active'));
+        detail.classList.remove('open');
+
+        if (!wasActive) {
+          card.classList.add('active');
+          let componentsHtml = '';
+          if (decomp && decomp.components) {
+            componentsHtml = '<div class="detail-components">' +
+              decomp.components.map(comp =>
+                '<div class="detail-component"><div class="dc-char">' + comp.component + '</div><div class="dc-meaning">' + comp.meaning + '</div></div>'
+              ).join('') + '</div>';
+          }
+
+          const nar = getNarrative(c.ch);
+          detail.innerHTML =
+            '<div class="detail-char">' + c.ch + '</div>' +
+            '<div class="detail-pinyin">' + c.pinyin + '</div>' +
+            '<div class="detail-eng">' + c.eng + '</div>' +
+            componentsHtml +
+            '<div class="detail-narrative">' + (nar || '\u2014') + '</div>';
+          detail.classList.add('open');
+        }
+      };
+
+      charRow.appendChild(card);
+    });
+
+    block.appendChild(ref);
+    block.appendChild(eng);
+    block.appendChild(charRow);
+    block.appendChild(detail);
+    main.appendChild(block);
+  });
+}
+
+// ── Vocab ──────────────────────────────────────────────────────────────
+window.showVocab = function() {
+  const textData = textCache[currentText];
+  if (!textData || !textData.chapters[currentChapter]) return;
+
+  const verses = textData.chapters[currentChapter];
+  const overlay = document.getElementById('vocab-overlay');
+  const list = document.getElementById('vocab-list');
+
+  const charCount = {};
+  const charInfo = {};
+  let total = 0;
+
+  verses.forEach(v => {
+    v.chars.forEach(c => {
+      total++;
+      if (!charCount[c.ch]) { charCount[c.ch] = 0; charInfo[c.ch] = c; }
+      charCount[c.ch]++;
+    });
+  });
+
+  const sorted = Object.entries(charCount).sort((a,b) => b[1] - a[1]);
+
+  document.getElementById('vocab-title').textContent = (textData.name || '') + ' Ch.' + currentChapter + ' Vocabulary';
+  document.getElementById('vocab-stats').textContent = sorted.length + ' unique / ' + total + ' total';
+
+  list.innerHTML = '';
+  sorted.forEach(([ch, count]) => {
+    const c = charInfo[ch];
+    const item = document.createElement('div');
+    item.className = 'vocab-item';
+    item.innerHTML = '<div class="vocab-top"><div class="vocab-ch">' + ch + '</div><div class="vocab-info"><div class="vocab-eng">' + (c.eng||'') + '</div><div class="vocab-pinyin">' + (c.pinyin||'') + '</div></div><div class="vocab-freq">' + count + 'x</div></div>';
+    list.appendChild(item);
+  });
+
+  overlay.classList.add('open');
+};
+
+window.hideVocab = function() {
+  document.getElementById('vocab-overlay').classList.remove('open');
+};
+
+// ── Selectors ──────────────────────────────────────────────────────────
+function populateSelectors() {
+  const textSel = document.getElementById('text-select');
+  const chapSel = document.getElementById('chapter-select');
+
+  texts.forEach(t => {
+    const opt = document.createElement('option');
+    opt.value = t.file;
+    opt.textContent = t.chinese + ' ' + t.name;
+    textSel.appendChild(opt);
+  });
+
+  textSel.onchange = async () => {
+    currentText = textSel.value;
+    const data = await fetchText(currentText);
+    updateChapters(data);
+    currentChapter = Object.keys(data.chapters).sort((a,b) => a-b)[0];
+    chapSel.value = currentChapter;
+    renderChapter(data, currentChapter);
+  };
+
+  chapSel.onchange = () => {
+    currentChapter = chapSel.value;
+    const data = textCache[currentText];
+    if (data) renderChapter(data, currentChapter);
+  };
+}
+
+function updateChapters(data) {
+  const chapSel = document.getElementById('chapter-select');
+  chapSel.innerHTML = '';
+  Object.keys(data.chapters).sort((a,b) => a-b).forEach(ch => {
+    const opt = document.createElement('option');
+    opt.value = ch;
+    opt.textContent = 'Chapter ' + ch;
+    chapSel.appendChild(opt);
+  });
+}
+
+// ── Init ───────────────────────────────────────────────────────────────
+async function startup() {
+  populateSelectors();
+  currentText = texts[0].file;
+  document.getElementById('text-select').value = currentText;
+  const data = await fetchText(currentText);
+  updateChapters(data);
+  currentChapter = Object.keys(data.chapters).sort((a,b) => a-b)[0];
+  document.getElementById('chapter-select').value = currentChapter;
+  document.getElementById('loading').style.display = 'none';
+  renderChapter(data, currentChapter);
+}
+
+startup().catch(err => {
+  const el = document.getElementById('loading');
+  if (el) { el.style.display = ''; el.textContent = 'Error: ' + err.message; }
+  console.error(err);
+});
+</script>
+
+</body>
+</html>
