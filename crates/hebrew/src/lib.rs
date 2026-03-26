@@ -65,10 +65,14 @@ pub fn decompose_hanzi(ch: &str) -> String {
 #[wasm_bindgen]
 pub fn hanzi_narrative(ch: &str) -> String {
     let c = ch.chars().next().unwrap_or('\0');
-    match hanzi::decompose_char(c) {
-        Some(breakdown) => hanzi::char_narrative(&breakdown),
-        None => format!("No decomposition found for '{}'", ch),
+    if let Some(breakdown) = hanzi::decompose_char(c) {
+        return hanzi::char_narrative(&breakdown);
     }
+    // Fall back to Oracle Bone description if available
+    if let Some(ob) = oracle_bone::lookup_oracle_bone(c) {
+        return format!("{} — {}", ob.description, ob.evolution);
+    }
+    String::new()
 }
 
 /// Look up Oracle Bone Script information for a Chinese character.

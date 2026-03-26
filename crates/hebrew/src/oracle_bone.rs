@@ -714,6 +714,127 @@ const ORACLE_BONE_TABLE: &[OracleBoneEntry] = &[
         description: "A foot carrying a weapon (dagger-axe), marching to war",
         pictograph: "...J-|",
         evolution: "Foot + dagger-axe (marching with weapon) -> martial -> modern 武" },
+    // ===== Common Chinese Bible Characters =====
+    OracleBoneEntry { modern: '\u{7684}', // 的
+        description: "A bright/white form — a clear target or aim",
+        pictograph: "🎯",
+        evolution: "Arrow hitting target (clear/bright) → possessive particle → modern 的" },
+    OracleBoneEntry { modern: '\u{4ED6}', // 他
+        description: "Person standing beside another",
+        pictograph: "👤",
+        evolution: "Person radical + 'other' → he/him → modern 他" },
+    OracleBoneEntry { modern: '\u{6211}', // 我
+        description: "Hand gripping a halberd — 'I' as one who fights",
+        pictograph: "⚔️",
+        evolution: "Hand holding halberd (weapon/self-defense) → first person → modern 我" },
+    OracleBoneEntry { modern: '\u{4F60}', // 你
+        description: "Person standing respectfully before another",
+        pictograph: "🙋",
+        evolution: "Person radical + phonetic → you (respectful) → modern 你" },
+    OracleBoneEntry { modern: '\u{5728}', // 在
+        description: "Sprout growing from the ground — being present",
+        pictograph: "🌱",
+        evolution: "Seedling in earth (existing/present) → at/in → modern 在" },
+    OracleBoneEntry { modern: '\u{8AAA}', // 說
+        description: "Mouth speaking joyfully — words flowing",
+        pictograph: "💬",
+        evolution: "Speech radical + 'pleased' → to speak/say → modern 說" },
+    OracleBoneEntry { modern: '\u{662F}', // 是
+        description: "Sun overhead at noon — upright, correct",
+        pictograph: "☀️",
+        evolution: "Sun at zenith (correct/straight) → to be/is → modern 是" },
+    OracleBoneEntry { modern: '\u{6709}', // 有
+        description: "Hand holding a piece of meat — to possess",
+        pictograph: "🤲",
+        evolution: "Hand grasping meat (possession) → to have → modern 有" },
+    OracleBoneEntry { modern: '\u{4E0D}', // 不
+        description: "Root or calyx of a flower — refusing to bloom",
+        pictograph: "✕",
+        evolution: "Flower calyx pointing down (refusal) → negation → modern 不" },
+    OracleBoneEntry { modern: '\u{548C}', // 和
+        description: "Grain stalks and a mouth — harmony through sharing food",
+        pictograph: "🌾",
+        evolution: "Grain + mouth (eating together) → peace/harmony → modern 和" },
+    OracleBoneEntry { modern: '\u{4E86}', // 了
+        description: "A child with arms but no legs yet — something just finished",
+        pictograph: "✓",
+        evolution: "Wrapped infant (completion) → aspect particle → modern 了" },
+    OracleBoneEntry { modern: '\u{5C31}', // 就
+        description: "A person arriving at a high capital city",
+        pictograph: "🏛️",
+        evolution: "Capital city + person approaching → to go to/then → modern 就" },
+    OracleBoneEntry { modern: '\u{4EE5}', // 以
+        description: "Person carrying or using a tool",
+        pictograph: "🔧",
+        evolution: "Person with tool → to use/by means of → modern 以" },
+    OracleBoneEntry { modern: '\u{4F86}', // 來
+        description: "Wheat plant — grain that 'comes' from heaven",
+        pictograph: "🌾",
+        evolution: "Wheat stalk (arriving grain) → to come → modern 來" },
+    OracleBoneEntry { modern: '\u{9019}', // 這
+        description: "Foot approaching something nearby",
+        pictograph: "👆",
+        evolution: "Walking radical + meet → this/these → modern 這" },
+    OracleBoneEntry { modern: '\u{90A3}', // 那
+        description: "A distant walled settlement",
+        pictograph: "🏘️",
+        evolution: "City/place radical → that/there → modern 那" },
+    OracleBoneEntry { modern: '\u{7232}', // 為
+        description: "Hand guiding an elephant — to do/act on behalf of",
+        pictograph: "🐘",
+        evolution: "Hand leading elephant (doing/making) → to do/for → modern 為" },
+    OracleBoneEntry { modern: '\u{7D66}', // 給
+        description: "Threads joined together — to give/supply",
+        pictograph: "🧵",
+        evolution: "Silk threads joined → to give → modern 給" },
+    OracleBoneEntry { modern: '\u{8981}', // 要
+        description: "Hands at waist — grasping what is wanted",
+        pictograph: "🤲",
+        evolution: "Hands at waist (wanting/needing) → to want/need → modern 要" },
+    OracleBoneEntry { modern: '\u{5230}', // 到
+        description: "Reaching a destination with precision",
+        pictograph: "📍",
+        evolution: "Reaching (arrival) + knife (precision) → to arrive → modern 到" },
+    OracleBoneEntry { modern: '\u{5C0D}', // 對
+        description: "Carefully measuring — facing something exactly",
+        pictograph: "⚖️",
+        evolution: "Careful measurement → correct/facing → modern 對" },
+    OracleBoneEntry { modern: '\u{53C8}', // 又
+        description: "Right hand reaching — doing something again",
+        pictograph: "✋",
+        evolution: "Right hand (repeating action) → again/also → modern 又" },
+    OracleBoneEntry { modern: '\u{5F9E}', // 從
+        description: "Two people walking — one following the other",
+        pictograph: "👥",
+        evolution: "Two persons (following) → from/to follow → modern 從" },
+    OracleBoneEntry { modern: '\u{500B}', // 個
+        description: "A single person standing — one unit",
+        pictograph: "1️⃣",
+        evolution: "Person + bamboo (counting stick) → measure word → modern 個" },
+    OracleBoneEntry { modern: '\u{5404}', // 各
+        description: "A foot arriving at a doorway — each visitor",
+        pictograph: "🚶",
+        evolution: "Foot entering dwelling → each/every → modern 各" },
+    OracleBoneEntry { modern: '\u{6240}', // 所
+        description: "Axe work at a doorway — a place being built",
+        pictograph: "🏗️",
+        evolution: "Door + axe (building place) → place/that which → modern 所" },
+    OracleBoneEntry { modern: '\u{628A}', // 把
+        description: "Hand gripping something firmly",
+        pictograph: "✊",
+        evolution: "Hand grasping (holding) → to hold/handle → modern 把" },
+    OracleBoneEntry { modern: '\u{90FD}', // 都
+        description: "A great capital where all gather",
+        pictograph: "🏛️",
+        evolution: "Walled capital (gathering place) → all/capital → modern 都" },
+    OracleBoneEntry { modern: '\u{7D04}', // 約
+        description: "A thread binding — making a covenant/agreement",
+        pictograph: "🤝",
+        evolution: "Thread binding (binding agreement) → covenant/about → modern 約" },
+    OracleBoneEntry { modern: '\u{751F}', // 生
+        description: "A plant sprouting from the ground — new life",
+        pictograph: "🌱",
+        evolution: "Sprout growing from earth → life/birth → modern 生" },
 ];
 
 /// Look up Oracle Bone Script information for a given modern Chinese character.
