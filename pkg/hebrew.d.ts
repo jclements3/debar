@@ -8,6 +8,13 @@
 */
 export function decompose_hanzi(ch: string): string;
 /**
+* Look up Oracle Bone Script information for a Chinese character.
+* Takes a single character string, returns JSON OracleBoneInfo or "null".
+* @param {string} ch
+* @returns {string}
+*/
+export function get_oracle_bone(ch: string): string;
+/**
 * Extract the probable Hebrew root from a word, stripping prefixes and suffixes.
 * Returns JSON: { original, prefixes, root, suffixes }
 * @param {string} word
@@ -59,6 +66,7 @@ export interface InitOutput {
   readonly decompose_word: (a: number, b: number, c: number) => void;
   readonly extract_root_json: (a: number, b: number, c: number) => void;
   readonly generate_narrative_wasm: (a: number, b: number, c: number) => void;
+  readonly get_oracle_bone: (a: number, b: number, c: number) => void;
   readonly hanzi_narrative: (a: number, b: number, c: number) => void;
   readonly strip_niqqud: (a: number, b: number, c: number) => void;
   readonly __wbindgen_add_to_stack_pointer: (a: number) => number;

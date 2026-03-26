@@ -2,6 +2,7 @@ pub mod decompose;
 pub mod hanzi;
 pub mod letters;
 pub mod narrative;
+pub mod oracle_bone;
 pub mod radicals;
 pub mod roots;
 
@@ -67,5 +68,16 @@ pub fn hanzi_narrative(ch: &str) -> String {
     match hanzi::decompose_char(c) {
         Some(breakdown) => hanzi::char_narrative(&breakdown),
         None => format!("No decomposition found for '{}'", ch),
+    }
+}
+
+/// Look up Oracle Bone Script information for a Chinese character.
+/// Takes a single character string, returns JSON OracleBoneInfo or "null".
+#[wasm_bindgen]
+pub fn get_oracle_bone(ch: &str) -> String {
+    let c = ch.chars().next().unwrap_or('\0');
+    match oracle_bone::lookup_oracle_bone(c) {
+        Some(info) => serde_json::to_string(info).unwrap_or_else(|_| String::from("null")),
+        None => String::from("null"),
     }
 }
