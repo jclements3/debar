@@ -33,6 +33,30 @@ Every Hebrew root is a 3-letter pictograph that tells a story.
 - **narratives.json** — 69 pre-generated pictorial memory narratives (keyed by Hebrew word)
 - **hebrew_ref.js** — Word document generator script (requires: npm install docx)
 
+## Android Build
+
+Build a signed APK for sideloading onto an Android tablet:
+
+```bash
+# Prerequisites (Ubuntu)
+export ANDROID_HOME=~/Android/Sdk
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$PATH"
+
+# Sync web assets and build release APK
+npm run build:release
+# outputs: android/app/build/outputs/apk/release/app-release.apk
+
+# Install on connected device
+adb install android/app/build/outputs/apk/release/app-release.apk
+```
+
+Other build commands:
+- `npm run build:debug` — debug APK with dev tools
+- `npm run sync` — sync web assets to Android project without building
+
+Target: Android 16 (API 35), min SDK 22. Signing keystore: `android/debar-release.keystore`.
+
 ## Rebuild the Word Doc
 ```bash
 npm install docx

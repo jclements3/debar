@@ -1,0 +1,23 @@
+{
+  "name": "debar",
+  "version": "1.0.0",
+  "description": "A Hebrew pictograph study toolkit connecting Proto-Sinaitic/Phoenician letter pictures to biblical vocabulary and scripture text.",
+  "main": "books.js",
+  "scripts": {
+    "sync": "rm -rf www && mkdir -p www/data/chinese www/pkg && cp *.html *.svg www/ && cp books.js chinese_books.js db.js gen1_data.js sw.js www/ && cp narratives.json manifest.json www/ && cp data/*.json www/data/ && cp data/chinese/*.json www/data/chinese/ && cp pkg/hebrew.js pkg/hebrew_bg.wasm www/pkg/ && npx cap sync android",
+    "build:debug": "npm run sync && cd android && ./gradlew assembleDebug",
+    "build:release": "npm run sync && cd android && ./gradlew assembleRelease",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^6.2.1",
+    "@capacitor/cli": "^6.2.1",
+    "@capacitor/core": "^6.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.2"
+  }
+}

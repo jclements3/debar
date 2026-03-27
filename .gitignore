@@ -1,1 +1,7 @@
 target/
+node_modules/
+www/
+*.apk
+android/app/build/
+android/.gradle/
+android/debar-release.keystore
