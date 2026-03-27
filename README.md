@@ -57,6 +57,10 @@ Other build commands:
 
 Target: Android 16 (API 35), min SDK 22. Signing keystore: `android/debar-release.keystore`.
 
+### Installing on a tablet without USB
+
+Transfer the APK file (17 MB) via Google Drive, email, or any file manager, then tap to install. First time sideloading: go to **Settings > Security** (or **Apps > Special app access**) and enable **Install unknown apps** for your file manager or browser.
+
 ## Rebuild the Word Doc
 ```bash
 npm install docx
