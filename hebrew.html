@@ -164,8 +164,8 @@
   .word-card {
     background: var(--parchment);
     border: 1px solid var(--parchment-dark);
-    padding: 0.6rem 0.5rem 0.5rem;
-    min-width: 70px;
+    padding: 0.8rem 0.6rem 0.6rem;
+    min-width: 85px;
     cursor: pointer;
     transition: all 0.15s;
     direction: rtl;
@@ -175,11 +175,11 @@
   .word-card.active { border-color: var(--terracotta); background: var(--highlight); }
 
   .w-hebrew { font-size: 1.4rem; font-weight: 600; color: var(--terracotta); display: block; line-height: 1.2; margin-bottom: 0.3rem; }
-  .w-letters { display: flex; flex-direction: row; gap: 2px; justify-content: center; margin-bottom: 0.3rem; flex-wrap: wrap; }
-  .w-letter { display: flex; flex-direction: column; align-items: center; gap: 1px; min-width: 18px; }
-  .w-pic   { font-size: 0.9rem; line-height: 1; }
-  .w-phoen { font-size: 0.75rem; color: var(--faded); line-height: 1; }
-  .w-lheb  { font-size: 1rem; color: var(--ink); font-weight: 600; line-height: 1; }
+  .w-letters { display: flex; flex-direction: row; gap: 4px; justify-content: center; margin-bottom: 0.3rem; flex-wrap: wrap; }
+  .w-letter { display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 28px; }
+  .w-pic   { font-size: 1.5rem; line-height: 1; }
+  .w-phoen { font-size: 1.1rem; color: var(--faded); line-height: 1; }
+  .w-lheb  { font-size: 1.2rem; color: var(--ink); font-weight: 600; line-height: 1; }
   .w-trans { font-family: 'Space Mono', monospace; font-size: 0.55rem; color: var(--gold); display: block; margin-top: 0.3rem; letter-spacing: 0.03em; direction: ltr; }
   .w-eng { font-size: 0.75rem; color: var(--faded); font-style: italic; display: block; direction: ltr; line-height: 1.2; }
 
@@ -202,15 +202,15 @@
   .detail-letter {
     text-align: center;
     background: rgba(255,255,255,0.05);
-    padding: 0.5rem 0.7rem;
+    padding: 0.7rem 0.9rem;
     border: 1px solid rgba(255,255,255,0.1);
-    min-width: 60px;
+    min-width: 75px;
   }
-  .dl-pic   { font-size: 1.5rem; }
-  .dl-phoen { font-size: 1.1rem; color: var(--faded); }
-  .dl-heb   { font-size: 1.6rem; color: var(--gold-light); font-weight: 600; }
-  .dl-name  { font-family: 'Space Mono', monospace; font-size: 0.6rem; color: var(--faded); margin-top: 0.2rem; }
-  .dl-meaning { font-size: 0.7rem; color: var(--gold-light); margin-top: 0.15rem; font-style: italic; }
+  .dl-pic   { font-size: 2.2rem; }
+  .dl-phoen { font-size: 1.5rem; color: var(--faded); }
+  .dl-heb   { font-size: 1.8rem; color: var(--gold-light); font-weight: 600; }
+  .dl-name  { font-family: 'Space Mono', monospace; font-size: 0.7rem; color: var(--faded); margin-top: 0.2rem; }
+  .dl-meaning { font-size: 0.8rem; color: var(--gold-light); margin-top: 0.15rem; font-style: italic; }
 
   /* NARRATIVE */
   .detail-narrative {
@@ -326,14 +326,14 @@
   .vocab-letter {
     text-align: center;
     background: rgba(255,255,255,0.04);
-    padding: 0.3rem 0.5rem;
+    padding: 0.5rem 0.7rem;
     border: 1px solid rgba(255,255,255,0.06);
-    min-width: 50px;
+    min-width: 65px;
   }
-  .vocab-letter .vl-pic { font-size: 1.2rem; }
-  .vocab-letter .vl-heb { font-size: 1.1rem; color: var(--gold-light); font-weight: 600; }
-  .vocab-letter .vl-name { font-family: 'Space Mono', monospace; font-size: 0.55rem; color: var(--faded); }
-  .vocab-letter .vl-meaning { font-size: 0.6rem; color: var(--gold-light); font-style: italic; }
+  .vocab-letter .vl-pic { font-size: 1.8rem; }
+  .vocab-letter .vl-heb { font-size: 1.4rem; color: var(--gold-light); font-weight: 600; }
+  .vocab-letter .vl-name { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--faded); }
+  .vocab-letter .vl-meaning { font-size: 0.7rem; color: var(--gold-light); font-style: italic; }
   .vocab-narrative {
     margin-top: 0.6rem;
     padding-top: 0.5rem;
@@ -353,9 +353,9 @@
   .home-link:hover { opacity: 1; }
 
   @media (max-width: 600px) {
-    .w-pic { font-size: 0.75rem; }
-    .w-lheb { font-size: 0.85rem; }
-    .word-card { min-width: 55px; padding: 0.4rem 0.3rem; }
+    .w-pic { font-size: 1.3rem; }
+    .w-lheb { font-size: 1.1rem; }
+    .word-card { min-width: 70px; padding: 0.6rem 0.5rem; }
     header h1 { font-size: 1.4rem; }
     .vocab-list { grid-template-columns: 1fr; }
   }
