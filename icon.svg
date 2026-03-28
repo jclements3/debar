@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <!-- Background: dark parchment -->
+  <rect width="192" height="192" rx="32" fill="#1a1208"/>
+  <!-- Hebrew Aleph-Bet in terracotta -->
+  <text x="96" y="80" font-family="serif" font-size="72" font-weight="bold" fill="#7a3b2e" text-anchor="middle" dominant-baseline="central" direction="rtl">&#x05D0;&#x05D1;</text>
+  <!-- Gold accent line -->
+  <line x1="40" y1="110" x2="152" y2="110" stroke="#8B6914" stroke-width="3"/>
+  <!-- App name -->
+  <text x="96" y="140" font-family="serif" font-size="28" font-weight="300" fill="#c4972a" text-anchor="middle" letter-spacing="4">DEBAR</text>
+</svg>
