@@ -1,0 +1,7383 @@
+{
+  "number": 77,
+  "name": "Al-Mursalaat",
+  "arabicName": "سُورَةُ المُرۡسَلَاتِ",
+  "englishNameTranslation": "The Emissaries",
+  "revelationType": "Meccan",
+  "ayahCount": 50,
+  "chapters": {
+    "1": [
+      {
+        "verse": 1,
+        "ref": "Al-Mursalaat 1",
+        "arabic": "بسم الله الرحمن الرحيم والمرسلات عرفا",
+        "english": "By those [winds] sent forth in gusts",
+        "transliteration": "Wal mursalaati'urfaa",
+        "words": [
+          {
+            "ar": "بسم",
+            "letters": [
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "س",
+                "p": "🦷",
+                "name": "Sin",
+                "proto": "Teeth",
+                "skeleton": "س"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "الله",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ه",
+                "p": "🙋",
+                "name": "Ha",
+                "proto": "Man calling",
+                "skeleton": "ه"
+              }
+            ]
+          },
+          {
+            "ar": "الرحمن",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ح",
+                "p": "🧱",
+                "name": "Ha",
+                "proto": "Courtyard/fence",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "الرحيم",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ح",
+                "p": "🧱",
+                "name": "Ha",
+                "proto": "Courtyard/fence",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "والمرسلات",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "س",
+                "p": "🦷",
+                "name": "Sin",
+                "proto": "Teeth",
+                "skeleton": "س"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "عرفا",
+            "letters": [
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 2,
+        "ref": "Al-Mursalaat 2",
+        "arabic": "فالعاصفات عصفا",
+        "english": "And the winds that blow violently",
+        "transliteration": "Fal'aasifaati 'asfaa",
+        "words": [
+          {
+            "ar": "فالعاصفات",
+            "letters": [
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ص",
+                "p": "🌿",
+                "name": "Sad",
+                "proto": "Plant/papyrus",
+                "skeleton": "ص"
+              },
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "عصفا",
+            "letters": [
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "ص",
+                "p": "🌿",
+                "name": "Sad",
+                "proto": "Plant/papyrus",
+                "skeleton": "ص"
+              },
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 3,
+        "ref": "Al-Mursalaat 3",
+        "arabic": "والناشرات نشرا",
+        "english": "And [by] the winds that spread [clouds]",
+        "transliteration": "Wannaashiraati nashraa",
+        "words": [
+          {
+            "ar": "والناشرات",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ش",
+                "p": "🦷",
+                "name": "Shin",
+                "proto": "Teeth",
+                "skeleton": "س"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "نشرا",
+            "letters": [
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ش",
+                "p": "🦷",
+                "name": "Shin",
+                "proto": "Teeth",
+                "skeleton": "س"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 4,
+        "ref": "Al-Mursalaat 4",
+        "arabic": "فالفارقات فرقا",
+        "english": "And those [angels] who bring criterion",
+        "transliteration": "Falfaariqaati farqaa",
+        "words": [
+          {
+            "ar": "فالفارقات",
+            "letters": [
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ق",
+                "p": "🧠",
+                "name": "Qaf",
+                "proto": "Back of head",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "فرقا",
+            "letters": [
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ق",
+                "p": "🧠",
+                "name": "Qaf",
+                "proto": "Back of head",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 5,
+        "ref": "Al-Mursalaat 5",
+        "arabic": "فالملقيات ذكرا",
+        "english": "And those [angels] who deliver a message",
+        "transliteration": "Falmulqiyaati zikra",
+        "words": [
+          {
+            "ar": "فالملقيات",
+            "letters": [
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ق",
+                "p": "🧠",
+                "name": "Qaf",
+                "proto": "Back of head",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "ذكرا",
+            "letters": [
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 6,
+        "ref": "Al-Mursalaat 6",
+        "arabic": "عذرا أو نذرا",
+        "english": "As justification or warning,",
+        "transliteration": "'Uzran aw nuzraa",
+        "words": [
+          {
+            "ar": "عذرا",
+            "letters": [
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "أو",
+            "letters": [
+              {
+                "ar": "أ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              }
+            ]
+          },
+          {
+            "ar": "نذرا",
+            "letters": [
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 7,
+        "ref": "Al-Mursalaat 7",
+        "arabic": "إنما توعدون لواقع",
+        "english": "Indeed, what you are promised is to occur.",
+        "transliteration": "Innamaa too'adoona lawaaqi'",
+        "words": [
+          {
+            "ar": "إنما",
+            "letters": [
+              {
+                "ar": "إ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "توعدون",
+            "letters": [
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "د",
+                "p": "🚪",
+                "name": "Dal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "لواقع",
+            "letters": [
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ق",
+                "p": "🧠",
+                "name": "Qaf",
+                "proto": "Back of head",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 8,
+        "ref": "Al-Mursalaat 8",
+        "arabic": "فإذا النجوم طمست",
+        "english": "So when the stars are obliterated",
+        "transliteration": "Fa izam nujoomu tumisat",
+        "words": [
+          {
+            "ar": "فإذا",
+            "letters": [
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "إ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "النجوم",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ج",
+                "p": "🐪",
+                "name": "Jim",
+                "proto": "Camel",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "طمست",
+            "letters": [
+              {
+                "ar": "ط",
+                "p": "☸️",
+                "name": "Taa",
+                "proto": "Basket/wheel",
+                "skeleton": "ط"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "س",
+                "p": "🦷",
+                "name": "Sin",
+                "proto": "Teeth",
+                "skeleton": "س"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 9,
+        "ref": "Al-Mursalaat 9",
+        "arabic": "وإذا السماء فرجت",
+        "english": "And when the heaven is opened",
+        "transliteration": "Wa izas samaaa'u furijat",
+        "words": [
+          {
+            "ar": "وإذا",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "إ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "السماء",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "س",
+                "p": "🦷",
+                "name": "Sin",
+                "proto": "Teeth",
+                "skeleton": "س"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "فرجت",
+            "letters": [
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ج",
+                "p": "🐪",
+                "name": "Jim",
+                "proto": "Camel",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 10,
+        "ref": "Al-Mursalaat 10",
+        "arabic": "وإذا الجبال نسفت",
+        "english": "And when the mountains are blown away",
+        "transliteration": "Wa izal jibaalu nusifat",
+        "words": [
+          {
+            "ar": "وإذا",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "إ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "الجبال",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ج",
+                "p": "🐪",
+                "name": "Jim",
+                "proto": "Camel",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          },
+          {
+            "ar": "نسفت",
+            "letters": [
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "س",
+                "p": "🦷",
+                "name": "Sin",
+                "proto": "Teeth",
+                "skeleton": "س"
+              },
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 11,
+        "ref": "Al-Mursalaat 11",
+        "arabic": "وإذا الرسل أقتت",
+        "english": "And when the messengers' time has come...",
+        "transliteration": "Wa izar Rusulu uqqitat",
+        "words": [
+          {
+            "ar": "وإذا",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "إ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "الرسل",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "س",
+                "p": "🦷",
+                "name": "Sin",
+                "proto": "Teeth",
+                "skeleton": "س"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          },
+          {
+            "ar": "أقتت",
+            "letters": [
+              {
+                "ar": "أ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ق",
+                "p": "🧠",
+                "name": "Qaf",
+                "proto": "Back of head",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 12,
+        "ref": "Al-Mursalaat 12",
+        "arabic": "لأي يوم أجلت",
+        "english": "For what Day was it postponed?",
+        "transliteration": "Li ayyi yawmin ujjilat",
+        "words": [
+          {
+            "ar": "لأي",
+            "letters": [
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "أ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "يوم",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "أجلت",
+            "letters": [
+              {
+                "ar": "أ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ج",
+                "p": "🐪",
+                "name": "Jim",
+                "proto": "Camel",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 13,
+        "ref": "Al-Mursalaat 13",
+        "arabic": "ليوم الفصل",
+        "english": "For the Day of Judgement.",
+        "transliteration": "Li yawmil Fasl",
+        "words": [
+          {
+            "ar": "ليوم",
+            "letters": [
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "الفصل",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ص",
+                "p": "🌿",
+                "name": "Sad",
+                "proto": "Plant/papyrus",
+                "skeleton": "ص"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 14,
+        "ref": "Al-Mursalaat 14",
+        "arabic": "وما أدراك ما يوم الفصل",
+        "english": "And what can make you know what is the Day of Judgement?",
+        "transliteration": "Wa maaa adraaka maa yawmul fasl",
+        "words": [
+          {
+            "ar": "وما",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "أدراك",
+            "letters": [
+              {
+                "ar": "أ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "د",
+                "p": "🚪",
+                "name": "Dal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              }
+            ]
+          },
+          {
+            "ar": "ما",
+            "letters": [
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "يوم",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "الفصل",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ص",
+                "p": "🌿",
+                "name": "Sad",
+                "proto": "Plant/papyrus",
+                "skeleton": "ص"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 15,
+        "ref": "Al-Mursalaat 15",
+        "arabic": "ويل يومئذ للمكذبين",
+        "english": "Woe, that Day, to the deniers.",
+        "transliteration": "Wailuny yawma 'izillilmukazzibeen",
+        "words": [
+          {
+            "ar": "ويل",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          },
+          {
+            "ar": "يومئذ",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ئ",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              }
+            ]
+          },
+          {
+            "ar": "للمكذبين",
+            "letters": [
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 16,
+        "ref": "Al-Mursalaat 16",
+        "arabic": "ألم نهلك الأولين",
+        "english": "Did We not destroy the former peoples?",
+        "transliteration": "Alam nuhlikil awwaleen",
+        "words": [
+          {
+            "ar": "ألم",
+            "letters": [
+              {
+                "ar": "أ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "نهلك",
+            "letters": [
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ه",
+                "p": "🙋",
+                "name": "Ha",
+                "proto": "Man calling",
+                "skeleton": "ه"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              }
+            ]
+          },
+          {
+            "ar": "الأولين",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "أ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 17,
+        "ref": "Al-Mursalaat 17",
+        "arabic": "ثم نتبعهم الآخرين",
+        "english": "Then We will follow them with the later ones.",
+        "transliteration": "Summa nutbi'uhumul aakhireen",
+        "words": [
+          {
+            "ar": "ثم",
+            "letters": [
+              {
+                "ar": "ث",
+                "p": "✖️",
+                "name": "Tha",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "نتبعهم",
+            "letters": [
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "ه",
+                "p": "🙋",
+                "name": "Ha",
+                "proto": "Man calling",
+                "skeleton": "ه"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "الآخرين",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "آ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "خ",
+                "p": "🧱",
+                "name": "Kha",
+                "proto": "Courtyard/fence",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 18,
+        "ref": "Al-Mursalaat 18",
+        "arabic": "كذلك نفعل بالمجرمين",
+        "english": "Thus do We deal with the criminals.",
+        "transliteration": "Kazzlika naf'alu bilmujrimeen",
+        "words": [
+          {
+            "ar": "كذلك",
+            "letters": [
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              }
+            ]
+          },
+          {
+            "ar": "نفعل",
+            "letters": [
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          },
+          {
+            "ar": "بالمجرمين",
+            "letters": [
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ج",
+                "p": "🐪",
+                "name": "Jim",
+                "proto": "Camel",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 19,
+        "ref": "Al-Mursalaat 19",
+        "arabic": "ويل يومئذ للمكذبين",
+        "english": "Woe, that Day, to the deniers.",
+        "transliteration": "Wailunw yawma 'izil lil mukazzibeen",
+        "words": [
+          {
+            "ar": "ويل",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          },
+          {
+            "ar": "يومئذ",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ئ",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              }
+            ]
+          },
+          {
+            "ar": "للمكذبين",
+            "letters": [
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 20,
+        "ref": "Al-Mursalaat 20",
+        "arabic": "ألم نخلقكم من ماء مهين",
+        "english": "Did We not create you from a liquid disdained?",
+        "transliteration": "Alam nakhlukkum mimmaaa'im maheen",
+        "words": [
+          {
+            "ar": "ألم",
+            "letters": [
+              {
+                "ar": "أ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "نخلقكم",
+            "letters": [
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "خ",
+                "p": "🧱",
+                "name": "Kha",
+                "proto": "Courtyard/fence",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ق",
+                "p": "🧠",
+                "name": "Qaf",
+                "proto": "Back of head",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "من",
+            "letters": [
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "ماء",
+            "letters": [
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "مهين",
+            "letters": [
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ه",
+                "p": "🙋",
+                "name": "Ha",
+                "proto": "Man calling",
+                "skeleton": "ه"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 21,
+        "ref": "Al-Mursalaat 21",
+        "arabic": "فجعلناه في قرار مكين",
+        "english": "And We placed it in a firm lodging",
+        "transliteration": "Faja'alnaahu fee qaraarim makeen",
+        "words": [
+          {
+            "ar": "فجعلناه",
+            "letters": [
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ج",
+                "p": "🐪",
+                "name": "Jim",
+                "proto": "Camel",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ه",
+                "p": "🙋",
+                "name": "Ha",
+                "proto": "Man calling",
+                "skeleton": "ه"
+              }
+            ]
+          },
+          {
+            "ar": "في",
+            "letters": [
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "قرار",
+            "letters": [
+              {
+                "ar": "ق",
+                "p": "🧠",
+                "name": "Qaf",
+                "proto": "Back of head",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              }
+            ]
+          },
+          {
+            "ar": "مكين",
+            "letters": [
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 22,
+        "ref": "Al-Mursalaat 22",
+        "arabic": "إلى قدر معلوم",
+        "english": "For a known extent.",
+        "transliteration": "Illaa qadrim ma'loom",
+        "words": [
+          {
+            "ar": "إلى",
+            "letters": [
+              {
+                "ar": "إ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ى",
+                "p": "💪",
+                "name": "Alif Maqsura",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "قدر",
+            "letters": [
+              {
+                "ar": "ق",
+                "p": "🧠",
+                "name": "Qaf",
+                "proto": "Back of head",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "د",
+                "p": "🚪",
+                "name": "Dal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              }
+            ]
+          },
+          {
+            "ar": "معلوم",
+            "letters": [
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 23,
+        "ref": "Al-Mursalaat 23",
+        "arabic": "فقدرنا فنعم القادرون",
+        "english": "And We determined [it], and excellent [are We] to determine.",
+        "transliteration": "Faqadarnaa fani'mal qaadiroon",
+        "words": [
+          {
+            "ar": "فقدرنا",
+            "letters": [
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ق",
+                "p": "🧠",
+                "name": "Qaf",
+                "proto": "Back of head",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "د",
+                "p": "🚪",
+                "name": "Dal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "فنعم",
+            "letters": [
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "القادرون",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ق",
+                "p": "🧠",
+                "name": "Qaf",
+                "proto": "Back of head",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "د",
+                "p": "🚪",
+                "name": "Dal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 24,
+        "ref": "Al-Mursalaat 24",
+        "arabic": "ويل يومئذ للمكذبين",
+        "english": "Woe, that Day, to the deniers.",
+        "transliteration": "Wailuny yawma 'izil lilmukazzibeen",
+        "words": [
+          {
+            "ar": "ويل",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          },
+          {
+            "ar": "يومئذ",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ئ",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              }
+            ]
+          },
+          {
+            "ar": "للمكذبين",
+            "letters": [
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 25,
+        "ref": "Al-Mursalaat 25",
+        "arabic": "ألم نجعل الأرض كفاتا",
+        "english": "Have We not made the earth a container",
+        "transliteration": "Alam naj'alil arda kifaataa",
+        "words": [
+          {
+            "ar": "ألم",
+            "letters": [
+              {
+                "ar": "أ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "نجعل",
+            "letters": [
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ج",
+                "p": "🐪",
+                "name": "Jim",
+                "proto": "Camel",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          },
+          {
+            "ar": "الأرض",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "أ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ض",
+                "p": "🌿",
+                "name": "Dad",
+                "proto": "Plant/papyrus",
+                "skeleton": "ص"
+              }
+            ]
+          },
+          {
+            "ar": "كفاتا",
+            "letters": [
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 26,
+        "ref": "Al-Mursalaat 26",
+        "arabic": "أحياء وأمواتا",
+        "english": "Of the living and the dead?",
+        "transliteration": "Ahyaaa'anw wa amwaataa",
+        "words": [
+          {
+            "ar": "أحياء",
+            "letters": [
+              {
+                "ar": "أ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ح",
+                "p": "🧱",
+                "name": "Ha",
+                "proto": "Courtyard/fence",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "وأمواتا",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "أ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 27,
+        "ref": "Al-Mursalaat 27",
+        "arabic": "وجعلنا فيها رواسي شامخات وأسقيناكم ماء فراتا",
+        "english": "And We placed therein lofty, firmly set mountains and have given you to drink sweet water.",
+        "transliteration": "Wa ja'alnaa feehaa rawaasiya shaamikhaatinw wa asqainaakum maaa'an furaataa",
+        "words": [
+          {
+            "ar": "وجعلنا",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ج",
+                "p": "🐪",
+                "name": "Jim",
+                "proto": "Camel",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "فيها",
+            "letters": [
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ه",
+                "p": "🙋",
+                "name": "Ha",
+                "proto": "Man calling",
+                "skeleton": "ه"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "رواسي",
+            "letters": [
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "س",
+                "p": "🦷",
+                "name": "Sin",
+                "proto": "Teeth",
+                "skeleton": "س"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "شامخات",
+            "letters": [
+              {
+                "ar": "ش",
+                "p": "🦷",
+                "name": "Shin",
+                "proto": "Teeth",
+                "skeleton": "س"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "خ",
+                "p": "🧱",
+                "name": "Kha",
+                "proto": "Courtyard/fence",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "وأسقيناكم",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "أ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "س",
+                "p": "🦷",
+                "name": "Sin",
+                "proto": "Teeth",
+                "skeleton": "س"
+              },
+              {
+                "ar": "ق",
+                "p": "🧠",
+                "name": "Qaf",
+                "proto": "Back of head",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "ماء",
+            "letters": [
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "فراتا",
+            "letters": [
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 28,
+        "ref": "Al-Mursalaat 28",
+        "arabic": "ويل يومئذ للمكذبين",
+        "english": "Woe, that Day, to the deniers.",
+        "transliteration": "Wailuny yawma 'izil lilmukazzibeen",
+        "words": [
+          {
+            "ar": "ويل",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          },
+          {
+            "ar": "يومئذ",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ئ",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              }
+            ]
+          },
+          {
+            "ar": "للمكذبين",
+            "letters": [
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 29,
+        "ref": "Al-Mursalaat 29",
+        "arabic": "انطلقوا إلى ما كنتم به تكذبون",
+        "english": "[They will be told], \"Proceed to that which you used to deny.",
+        "transliteration": "Intaliqooo ilaa maa kuntum bihee tukazziboon",
+        "words": [
+          {
+            "ar": "انطلقوا",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ط",
+                "p": "☸️",
+                "name": "Taa",
+                "proto": "Basket/wheel",
+                "skeleton": "ط"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ق",
+                "p": "🧠",
+                "name": "Qaf",
+                "proto": "Back of head",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "إلى",
+            "letters": [
+              {
+                "ar": "إ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ى",
+                "p": "💪",
+                "name": "Alif Maqsura",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "ما",
+            "letters": [
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "كنتم",
+            "letters": [
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "به",
+            "letters": [
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ه",
+                "p": "🙋",
+                "name": "Ha",
+                "proto": "Man calling",
+                "skeleton": "ه"
+              }
+            ]
+          },
+          {
+            "ar": "تكذبون",
+            "letters": [
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 30,
+        "ref": "Al-Mursalaat 30",
+        "arabic": "انطلقوا إلى ظل ذي ثلاث شعب",
+        "english": "Proceed to a shadow [of smoke] having three columns",
+        "transliteration": "Intaliqooo ilaa zillin zee salaasi shu'ab",
+        "words": [
+          {
+            "ar": "انطلقوا",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ط",
+                "p": "☸️",
+                "name": "Taa",
+                "proto": "Basket/wheel",
+                "skeleton": "ط"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ق",
+                "p": "🧠",
+                "name": "Qaf",
+                "proto": "Back of head",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "إلى",
+            "letters": [
+              {
+                "ar": "إ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ى",
+                "p": "💪",
+                "name": "Alif Maqsura",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "ظل",
+            "letters": [
+              {
+                "ar": "ظ",
+                "p": "☸️",
+                "name": "Dhaa",
+                "proto": "Basket/wheel",
+                "skeleton": "ط"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          },
+          {
+            "ar": "ذي",
+            "letters": [
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "ثلاث",
+            "letters": [
+              {
+                "ar": "ث",
+                "p": "✖️",
+                "name": "Tha",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ث",
+                "p": "✖️",
+                "name": "Tha",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "شعب",
+            "letters": [
+              {
+                "ar": "ش",
+                "p": "🦷",
+                "name": "Shin",
+                "proto": "Teeth",
+                "skeleton": "س"
+              },
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 31,
+        "ref": "Al-Mursalaat 31",
+        "arabic": "لا ظليل ولا يغني من اللهب",
+        "english": "[But having] no cool shade and availing not against the flame.\"",
+        "transliteration": "Laa zaleelinw wa laa yughnee minal lahab",
+        "words": [
+          {
+            "ar": "لا",
+            "letters": [
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "ظليل",
+            "letters": [
+              {
+                "ar": "ظ",
+                "p": "☸️",
+                "name": "Dhaa",
+                "proto": "Basket/wheel",
+                "skeleton": "ط"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          },
+          {
+            "ar": "ولا",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "يغني",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "غ",
+                "p": "👁️",
+                "name": "Ghayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "من",
+            "letters": [
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "اللهب",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ه",
+                "p": "🙋",
+                "name": "Ha",
+                "proto": "Man calling",
+                "skeleton": "ه"
+              },
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 32,
+        "ref": "Al-Mursalaat 32",
+        "arabic": "إنها ترمي بشرر كالقصر",
+        "english": "Indeed, it throws sparks [as huge] as a fortress,",
+        "transliteration": "Innahaa tarmee bishararin kalqasr",
+        "words": [
+          {
+            "ar": "إنها",
+            "letters": [
+              {
+                "ar": "إ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ه",
+                "p": "🙋",
+                "name": "Ha",
+                "proto": "Man calling",
+                "skeleton": "ه"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "ترمي",
+            "letters": [
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "بشرر",
+            "letters": [
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ش",
+                "p": "🦷",
+                "name": "Shin",
+                "proto": "Teeth",
+                "skeleton": "س"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              }
+            ]
+          },
+          {
+            "ar": "كالقصر",
+            "letters": [
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ق",
+                "p": "🧠",
+                "name": "Qaf",
+                "proto": "Back of head",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ص",
+                "p": "🌿",
+                "name": "Sad",
+                "proto": "Plant/papyrus",
+                "skeleton": "ص"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 33,
+        "ref": "Al-Mursalaat 33",
+        "arabic": "كأنه جمالت صفر",
+        "english": "As if they were yellowish [black] camels.",
+        "transliteration": "Ka annahoo jimaalatun sufr",
+        "words": [
+          {
+            "ar": "كأنه",
+            "letters": [
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "أ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ه",
+                "p": "🙋",
+                "name": "Ha",
+                "proto": "Man calling",
+                "skeleton": "ه"
+              }
+            ]
+          },
+          {
+            "ar": "جمالت",
+            "letters": [
+              {
+                "ar": "ج",
+                "p": "🐪",
+                "name": "Jim",
+                "proto": "Camel",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "صفر",
+            "letters": [
+              {
+                "ar": "ص",
+                "p": "🌿",
+                "name": "Sad",
+                "proto": "Plant/papyrus",
+                "skeleton": "ص"
+              },
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 34,
+        "ref": "Al-Mursalaat 34",
+        "arabic": "ويل يومئذ للمكذبين",
+        "english": "Woe, that Day, to the deniers.",
+        "transliteration": "Wailuny yawma 'izil lilmukazibeen",
+        "words": [
+          {
+            "ar": "ويل",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          },
+          {
+            "ar": "يومئذ",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ئ",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              }
+            ]
+          },
+          {
+            "ar": "للمكذبين",
+            "letters": [
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 35,
+        "ref": "Al-Mursalaat 35",
+        "arabic": "هذا يوم لا ينطقون",
+        "english": "This is a Day they will not speak,",
+        "transliteration": "Haazaa yawmu laa uantiqoon",
+        "words": [
+          {
+            "ar": "هذا",
+            "letters": [
+              {
+                "ar": "ه",
+                "p": "🙋",
+                "name": "Ha",
+                "proto": "Man calling",
+                "skeleton": "ه"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "يوم",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "لا",
+            "letters": [
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "ينطقون",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ط",
+                "p": "☸️",
+                "name": "Taa",
+                "proto": "Basket/wheel",
+                "skeleton": "ط"
+              },
+              {
+                "ar": "ق",
+                "p": "🧠",
+                "name": "Qaf",
+                "proto": "Back of head",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 36,
+        "ref": "Al-Mursalaat 36",
+        "arabic": "ولا يؤذن لهم فيعتذرون",
+        "english": "Nor will it be permitted for them to make an excuse.",
+        "transliteration": "Wa laa yu'zanu lahum fa ya'taziroon",
+        "words": [
+          {
+            "ar": "ولا",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "يؤذن",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ؤ",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "لهم",
+            "letters": [
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ه",
+                "p": "🙋",
+                "name": "Ha",
+                "proto": "Man calling",
+                "skeleton": "ه"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "فيعتذرون",
+            "letters": [
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 37,
+        "ref": "Al-Mursalaat 37",
+        "arabic": "ويل يومئذ للمكذبين",
+        "english": "Woe, that Day, to the deniers.",
+        "transliteration": "Wailunw yawma 'izil lilmukazzibeen",
+        "words": [
+          {
+            "ar": "ويل",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          },
+          {
+            "ar": "يومئذ",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ئ",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              }
+            ]
+          },
+          {
+            "ar": "للمكذبين",
+            "letters": [
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 38,
+        "ref": "Al-Mursalaat 38",
+        "arabic": "هذا يوم الفصل ۖ جمعناكم والأولين",
+        "english": "This is the Day of Judgement; We will have assembled you and the former peoples.",
+        "transliteration": "Haaza yawmul fasli jama 'naakum wal awwaleen",
+        "words": [
+          {
+            "ar": "هذا",
+            "letters": [
+              {
+                "ar": "ه",
+                "p": "🙋",
+                "name": "Ha",
+                "proto": "Man calling",
+                "skeleton": "ه"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "يوم",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "الفصل",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ص",
+                "p": "🌿",
+                "name": "Sad",
+                "proto": "Plant/papyrus",
+                "skeleton": "ص"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          },
+          {
+            "ar": "ۖ",
+            "letters": []
+          },
+          {
+            "ar": "جمعناكم",
+            "letters": [
+              {
+                "ar": "ج",
+                "p": "🐪",
+                "name": "Jim",
+                "proto": "Camel",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "والأولين",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "أ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 39,
+        "ref": "Al-Mursalaat 39",
+        "arabic": "فإن كان لكم كيد فكيدون",
+        "english": "So if you have a plan, then plan against Me.",
+        "transliteration": "Fa in kaana lakum kaidun fakeedoon",
+        "words": [
+          {
+            "ar": "فإن",
+            "letters": [
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "إ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "كان",
+            "letters": [
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "لكم",
+            "letters": [
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "كيد",
+            "letters": [
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "د",
+                "p": "🚪",
+                "name": "Dal",
+                "proto": "Door",
+                "skeleton": "د"
+              }
+            ]
+          },
+          {
+            "ar": "فكيدون",
+            "letters": [
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "د",
+                "p": "🚪",
+                "name": "Dal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 40,
+        "ref": "Al-Mursalaat 40",
+        "arabic": "ويل يومئذ للمكذبين",
+        "english": "Woe, that Day, to the deniers.",
+        "transliteration": "Wailuny yawma'izil lilmukazzibeen",
+        "words": [
+          {
+            "ar": "ويل",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          },
+          {
+            "ar": "يومئذ",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ئ",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              }
+            ]
+          },
+          {
+            "ar": "للمكذبين",
+            "letters": [
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 41,
+        "ref": "Al-Mursalaat 41",
+        "arabic": "إن المتقين في ظلال وعيون",
+        "english": "Indeed, the righteous will be among shades and springs",
+        "transliteration": "Innal muttaqeena fee zilaalinw wa 'uyoon",
+        "words": [
+          {
+            "ar": "إن",
+            "letters": [
+              {
+                "ar": "إ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "المتقين",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ق",
+                "p": "🧠",
+                "name": "Qaf",
+                "proto": "Back of head",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "في",
+            "letters": [
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "ظلال",
+            "letters": [
+              {
+                "ar": "ظ",
+                "p": "☸️",
+                "name": "Dhaa",
+                "proto": "Basket/wheel",
+                "skeleton": "ط"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          },
+          {
+            "ar": "وعيون",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 42,
+        "ref": "Al-Mursalaat 42",
+        "arabic": "وفواكه مما يشتهون",
+        "english": "And fruits from whatever they desire,",
+        "transliteration": "Wa fawaakiha mimmaa yastahoon",
+        "words": [
+          {
+            "ar": "وفواكه",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ه",
+                "p": "🙋",
+                "name": "Ha",
+                "proto": "Man calling",
+                "skeleton": "ه"
+              }
+            ]
+          },
+          {
+            "ar": "مما",
+            "letters": [
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "يشتهون",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ش",
+                "p": "🦷",
+                "name": "Shin",
+                "proto": "Teeth",
+                "skeleton": "س"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ه",
+                "p": "🙋",
+                "name": "Ha",
+                "proto": "Man calling",
+                "skeleton": "ه"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 43,
+        "ref": "Al-Mursalaat 43",
+        "arabic": "كلوا واشربوا هنيئا بما كنتم تعملون",
+        "english": "[Being told], \"Eat and drink in satisfaction for what you used to do.\"",
+        "transliteration": "Kuloo washraboo haneee 'am bimaa kuntum ta'maloon",
+        "words": [
+          {
+            "ar": "كلوا",
+            "letters": [
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "واشربوا",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ش",
+                "p": "🦷",
+                "name": "Shin",
+                "proto": "Teeth",
+                "skeleton": "س"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "هنيئا",
+            "letters": [
+              {
+                "ar": "ه",
+                "p": "🙋",
+                "name": "Ha",
+                "proto": "Man calling",
+                "skeleton": "ه"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ئ",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "بما",
+            "letters": [
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "كنتم",
+            "letters": [
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "تعملون",
+            "letters": [
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 44,
+        "ref": "Al-Mursalaat 44",
+        "arabic": "إنا كذلك نجزي المحسنين",
+        "english": "Indeed, We thus reward the doers of good.",
+        "transliteration": "Innaa kazaalika najzil muhsineen",
+        "words": [
+          {
+            "ar": "إنا",
+            "letters": [
+              {
+                "ar": "إ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "كذلك",
+            "letters": [
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              }
+            ]
+          },
+          {
+            "ar": "نجزي",
+            "letters": [
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ج",
+                "p": "🐪",
+                "name": "Jim",
+                "proto": "Camel",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "ز",
+                "p": "⚔️",
+                "name": "Zay",
+                "proto": "Weapon/sword",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "المحسنين",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ح",
+                "p": "🧱",
+                "name": "Ha",
+                "proto": "Courtyard/fence",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "س",
+                "p": "🦷",
+                "name": "Sin",
+                "proto": "Teeth",
+                "skeleton": "س"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 45,
+        "ref": "Al-Mursalaat 45",
+        "arabic": "ويل يومئذ للمكذبين",
+        "english": "Woe, that Day, to the deniers.",
+        "transliteration": "Wailuny yawma 'izil lilmuzkazzibeen",
+        "words": [
+          {
+            "ar": "ويل",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          },
+          {
+            "ar": "يومئذ",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ئ",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              }
+            ]
+          },
+          {
+            "ar": "للمكذبين",
+            "letters": [
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 46,
+        "ref": "Al-Mursalaat 46",
+        "arabic": "كلوا وتمتعوا قليلا إنكم مجرمون",
+        "english": "[O disbelievers], eat and enjoy yourselves a little; indeed, you are criminals.",
+        "transliteration": "Kuloo wa tamatta'oo qaleelan innakum mujrimoon",
+        "words": [
+          {
+            "ar": "كلوا",
+            "letters": [
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "وتمتعوا",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ت",
+                "p": "✖️",
+                "name": "Ta",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "قليلا",
+            "letters": [
+              {
+                "ar": "ق",
+                "p": "🧠",
+                "name": "Qaf",
+                "proto": "Back of head",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "إنكم",
+            "letters": [
+              {
+                "ar": "إ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "مجرمون",
+            "letters": [
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ج",
+                "p": "🐪",
+                "name": "Jim",
+                "proto": "Camel",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 47,
+        "ref": "Al-Mursalaat 47",
+        "arabic": "ويل يومئذ للمكذبين",
+        "english": "Woe, that Day, to the deniers.",
+        "transliteration": "Wailunny yawma 'izil lilmukazzibeen",
+        "words": [
+          {
+            "ar": "ويل",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          },
+          {
+            "ar": "يومئذ",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ئ",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              }
+            ]
+          },
+          {
+            "ar": "للمكذبين",
+            "letters": [
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 48,
+        "ref": "Al-Mursalaat 48",
+        "arabic": "وإذا قيل لهم اركعوا لا يركعون",
+        "english": "And when it is said to them, \"Bow [in prayer],\" they do not bow.",
+        "transliteration": "Wa izaa qeela lahumur ka'oo aa yarka'oon",
+        "words": [
+          {
+            "ar": "وإذا",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "إ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "قيل",
+            "letters": [
+              {
+                "ar": "ق",
+                "p": "🧠",
+                "name": "Qaf",
+                "proto": "Back of head",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          },
+          {
+            "ar": "لهم",
+            "letters": [
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ه",
+                "p": "🙋",
+                "name": "Ha",
+                "proto": "Man calling",
+                "skeleton": "ه"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              }
+            ]
+          },
+          {
+            "ar": "اركعوا",
+            "letters": [
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "لا",
+            "letters": [
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ا",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              }
+            ]
+          },
+          {
+            "ar": "يركعون",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ر",
+                "p": "🗣️",
+                "name": "Ra",
+                "proto": "Head",
+                "skeleton": "ر"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 49,
+        "ref": "Al-Mursalaat 49",
+        "arabic": "ويل يومئذ للمكذبين",
+        "english": "Woe, that Day, to the deniers.",
+        "transliteration": "Wailunny yawma 'izil lilmukazzibeen",
+        "words": [
+          {
+            "ar": "ويل",
+            "letters": [
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              }
+            ]
+          },
+          {
+            "ar": "يومئذ",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ئ",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              }
+            ]
+          },
+          {
+            "ar": "للمكذبين",
+            "letters": [
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "ل",
+                "p": "🪄",
+                "name": "Lam",
+                "proto": "Goad/staff",
+                "skeleton": "ل"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ك",
+                "p": "✋",
+                "name": "Kaf",
+                "proto": "Palm of hand",
+                "skeleton": "ك"
+              },
+              {
+                "ar": "ذ",
+                "p": "🚪",
+                "name": "Dhal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "verse": 50,
+        "ref": "Al-Mursalaat 50",
+        "arabic": "فبأي حديث بعده يؤمنون",
+        "english": "Then in what statement after the Qur'an will they believe?",
+        "transliteration": "Fabi ayyi hadeesim ba'dahoo yu'minoon",
+        "words": [
+          {
+            "ar": "فبأي",
+            "letters": [
+              {
+                "ar": "ف",
+                "p": "👄",
+                "name": "Fa",
+                "proto": "Mouth",
+                "skeleton": "ڡ"
+              },
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "أ",
+                "p": "🐂",
+                "name": "Alif",
+                "proto": "Ox head",
+                "skeleton": "ا"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "حديث",
+            "letters": [
+              {
+                "ar": "ح",
+                "p": "🧱",
+                "name": "Ha",
+                "proto": "Courtyard/fence",
+                "skeleton": "ح"
+              },
+              {
+                "ar": "د",
+                "p": "🚪",
+                "name": "Dal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ث",
+                "p": "✖️",
+                "name": "Tha",
+                "proto": "Mark/sign",
+                "skeleton": "ٮ"
+              }
+            ]
+          },
+          {
+            "ar": "بعده",
+            "letters": [
+              {
+                "ar": "ب",
+                "p": "🏠",
+                "name": "Ba",
+                "proto": "House",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ع",
+                "p": "👁️",
+                "name": "Ayn",
+                "proto": "Eye",
+                "skeleton": "ع"
+              },
+              {
+                "ar": "د",
+                "p": "🚪",
+                "name": "Dal",
+                "proto": "Door",
+                "skeleton": "د"
+              },
+              {
+                "ar": "ه",
+                "p": "🙋",
+                "name": "Ha",
+                "proto": "Man calling",
+                "skeleton": "ه"
+              }
+            ]
+          },
+          {
+            "ar": "يؤمنون",
+            "letters": [
+              {
+                "ar": "ي",
+                "p": "💪",
+                "name": "Ya",
+                "proto": "Arm/hand",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "ؤ",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "م",
+                "p": "🌊",
+                "name": "Mim",
+                "proto": "Water",
+                "skeleton": "م"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              },
+              {
+                "ar": "و",
+                "p": "🪝",
+                "name": "Waw",
+                "proto": "Hook/peg",
+                "skeleton": "و"
+              },
+              {
+                "ar": "ن",
+                "p": "🐟",
+                "name": "Nun",
+                "proto": "Fish/serpent",
+                "skeleton": "ٮ"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

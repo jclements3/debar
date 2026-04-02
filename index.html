@@ -6,7 +6,7 @@
 <title>Debar - Ancient Script Explorer</title>
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#8B6914">
-<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Frank+Ruhl+Libre:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
   :root {
     --ink: #1a1208;
@@ -80,8 +80,11 @@
     line-height: 1.2;
     margin-bottom: 1rem;
   }
-  .card-hebrew .card-glyph { color: var(--terracotta); }
+  .card-hebrew .card-glyph { font-family: 'Frank Ruhl Libre', serif; color: var(--terracotta); }
   .card-chinese .card-glyph { color: #8b2500; }
+  .card-arabic .card-glyph { font-family: 'Amiri', serif; color: #1a6b4a; }
+  .card-aramaic .card-glyph { font-family: 'Frank Ruhl Libre', serif; color: #4a3080; }
+  .card-roots .card-glyph { color: var(--gold); }
 
   .card-title {
     font-size: 1.5rem;
@@ -160,6 +163,47 @@
     </div>
     <div class="card-example">
       <span>&#x4F11;</span> = &#x4EBB; person + &#x6728; tree = "to rest" (a person leaning against a tree)
+    </div>
+  </a>
+
+  <a class="card card-aramaic" href="aramaic.html">
+    <div class="card-glyph" dir="rtl">&#x05EA;&#x05E8;&#x05D2;&#x05D5;&#x05DD;</div>
+    <div class="card-title">Aramaic Targum</div>
+    <div class="card-sub">22 letters &middot; torah in aramaic</div>
+    <div class="card-desc">
+      Read Targum Onkelos &mdash; the ancient Aramaic translation of the Torah.
+      Same 22 letters and pictographs as Hebrew, sister Semitic language,
+      the lingua franca Jesus spoke.
+    </div>
+    <div class="card-example">
+      <span style="color:#4a3080">&#x05D1;&#x05E7;&#x05D3;&#x05DE;&#x05D9;&#x05DF;</span> = &#x1F3E0; + &#x1F9E0; + &#x1F6AA; + &#x1F30A; + &#x1F4AA; + &#x1F41F; = "in the beginning"
+    </div>
+  </a>
+
+  <a class="card card-arabic" href="arabic.html">
+    <div class="card-glyph" dir="rtl">&#x0627;&#x0644;&#x0642;&#x0631;&#x0622;&#x0646;</div>
+    <div class="card-title">Quran</div>
+    <div class="card-sub">28 letters &middot; proto-sinaitic roots</div>
+    <div class="card-desc">
+      Read the Quran word by word with Proto-Sinaitic pictograph origins.
+      Arabic shares the same ancient letter-pictures as Hebrew &mdash;
+      ox, house, camel, door &mdash; and the same 3-letter root system.
+    </div>
+    <div class="card-example">
+      <span style="color:#1a6b4a">&#x0643;&#x062A;&#x0628;</span> = &#x270B; palm + &#x2716;&#xFE0F; mark + &#x1F3E0; house = "to write"
+    </div>
+  </a>
+  <a class="card card-roots" href="roots.html">
+    <div class="card-glyph">&#x1F30A; &#x1F982; &#x270B;</div>
+    <div class="card-title">Root Comparison</div>
+    <div class="card-sub">669 tri-lingual cognates</div>
+    <div class="card-desc">
+      Every Semitic root reduced to its Proto-Sinaitic pictures.
+      Compare Hebrew Torah, Aramaic Targum, and Arabic Quran &mdash;
+      same pictograph sequences, same ancient concepts.
+    </div>
+    <div class="card-example">
+      <span style="color:var(--gold)">&#x1F3E0; &#x1F41F; &#x1F4AA;</span> = House + Fish + Hand = Hebrew &#x05D1;&#x05E0;&#x05D9; / Arabic &#x0628;&#x0646;&#x064A; = "son/build"
     </div>
   </a>
 </div>

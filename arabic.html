@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Debar - Quran Pictograph Reader</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#8B6914">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1208;
+    --parchment: #f5edda;
+    --parchment-dark: #e8d9b8;
+    --gold: #8B6914;
+    --gold-light: #c4972a;
+    --emerald: #1a6b4a;
+    --faded: #9e8b6e;
+    --white: #fdfaf3;
+    --highlight: #fff3cd;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--parchment);
+    color: var(--ink);
+    font-family: 'Crimson Pro', serif;
+    min-height: 100vh;
+  }
+
+  header {
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: attr(data-watermark);
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+    font-size: 1.8rem; opacity: 0.06; white-space: nowrap; pointer-events: none;
+    direction: rtl; width: 100%; text-align: center;
+  }
+  header h1 { font-size: 1.8rem; font-weight: 300; letter-spacing: 0.15em; position: relative; }
+  header p { color: var(--gold-light); font-style: italic; margin-top: 0.3rem; position: relative; }
+  .home-link {
+    position: absolute; top: 1rem; left: 1.5rem;
+    color: var(--gold); text-decoration: none;
+    font-family: 'Space Mono', monospace; font-size: 0.65rem;
+    letter-spacing: 0.1em; opacity: 0.7; transition: opacity 0.2s;
+  }
+  .home-link:hover { opacity: 1; }
+
+  /* SURAH NAV */
+  .book-nav {
+    background: var(--ink);
+    padding: 0 2rem 1.5rem;
+    text-align: center;
+  }
+  .book-nav select {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold-light);
+    padding: 0.4rem 1rem;
+    font-family: 'Crimson Pro', serif;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 0.3rem;
+  }
+  .book-nav select option { background: var(--ink); color: var(--parchment); }
+
+  /* SURAH INFO */
+  .surah-info {
+    background: var(--ink);
+    padding: 0 2rem 1rem;
+    text-align: center;
+  }
+  .surah-meta {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    color: var(--faded);
+    letter-spacing: 0.12em;
+  }
+
+  /* CONTROLS */
+  .controls {
+    background: var(--parchment-dark);
+    border-bottom: 2px solid var(--gold);
+    padding: 0.8rem 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .toggle-btn {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    padding: 0.3rem 0.9rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    cursor: pointer;
+    letter-spacing: 0.08em;
+    transition: all 0.2s;
+  }
+  .toggle-btn.on { background: var(--gold); color: var(--white); }
+
+  /* VERSE JUMP */
+  .verse-jump {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--parchment-dark);
+    border-bottom: 1px solid var(--gold);
+    padding: 0.5rem 1rem;
+    display: flex; flex-wrap: wrap; gap: 0.3rem;
+  }
+  .verse-jump a {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    color: var(--gold);
+    text-decoration: none;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid transparent;
+    transition: all 0.15s;
+  }
+  .verse-jump a:hover { border-color: var(--gold); }
+
+  /* MAIN */
+  main { max-width: 1000px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .loading { text-align: center; padding: 4rem; color: var(--faded); font-style: italic; font-size: 1.2rem; }
+
+  /* VERSE BLOCK */
+  .verse-block {
+    margin-bottom: 2.5rem;
+    background: var(--white);
+    border-left: 3px solid var(--emerald);
+    padding: 1.5rem;
+  }
+  .verse-ref {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--faded);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .verse-english {
+    font-style: italic;
+    color: var(--faded);
+    font-size: 0.95rem;
+    margin-bottom: 0.6rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--parchment-dark);
+    line-height: 1.6;
+  }
+  .verse-translit {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+    color: var(--faded);
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+
+  /* WORD ROW */
+  .word-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    direction: rtl;
+    text-align: center;
+  }
+
+  /* WORD CARD */
+  .word-card {
+    background: var(--parchment);
+    border: 1px solid var(--parchment-dark);
+    padding: 0.8rem 0.6rem 0.6rem;
+    min-width: 85px;
+    cursor: pointer;
+    transition: all 0.15s;
+    direction: rtl;
+    position: relative;
+  }
+  .word-card:hover { border-color: var(--gold); background: var(--highlight); }
+  .word-card.active { border-color: var(--emerald); background: var(--highlight); }
+
+  .w-arabic { font-family: 'Amiri', serif; font-size: 1.6rem; font-weight: 700; color: var(--emerald); display: block; line-height: 1.4; margin-bottom: 0.3rem; }
+  .w-letters { display: flex; flex-direction: row; gap: 4px; justify-content: center; margin-bottom: 0.3rem; flex-wrap: wrap; }
+  .w-letter { display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 28px; }
+  .w-pic   { font-size: 1.5rem; line-height: 1; }
+  .w-skel  { font-size: 1.1rem; color: var(--faded); line-height: 1; }
+  .w-lar   { font-size: 1.2rem; color: var(--ink); font-weight: 600; line-height: 1; }
+  .w-eng { font-size: 0.75rem; color: var(--faded); font-style: italic; display: block; direction: ltr; line-height: 1.2; }
+
+  /* EXPANDED DETAIL */
+  .word-detail {
+    display: none;
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 1rem 1.2rem;
+    margin-top: 1rem;
+    direction: ltr;
+    animation: fadeIn 0.15s ease;
+  }
+  .word-detail.open { display: block; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .detail-ar { font-family: 'Amiri', serif; font-size: 2rem; color: var(--gold-light); font-weight: 700; direction: rtl; }
+  .detail-eng { font-style: italic; margin-top: 0.2rem; }
+  .detail-letters { display: flex; gap: 1rem; margin-top: 0.8rem; flex-wrap: wrap; }
+  .detail-letter {
+    text-align: center;
+    background: rgba(255,255,255,0.05);
+    padding: 0.7rem 0.9rem;
+    border: 1px solid rgba(255,255,255,0.1);
+    min-width: 75px;
+  }
+  .dl-pic   { font-size: 2.2rem; }
+  .dl-skel  { font-size: 1.5rem; color: var(--faded); }
+  .dl-ar    { font-family: 'Amiri', serif; font-size: 1.8rem; color: var(--gold-light); font-weight: 700; }
+  .dl-name  { font-family: 'Space Mono', monospace; font-size: 0.7rem; color: var(--faded); margin-top: 0.2rem; }
+  .dl-proto { font-size: 0.8rem; color: var(--gold-light); margin-top: 0.15rem; font-style: italic; }
+
+  /* SHOW/HIDE toggles */
+  body.hide-pics    .w-pic,    body.hide-pics    .dl-pic    { visibility: hidden; }
+  body.hide-skel    .w-skel,   body.hide-skel    .dl-skel   { visibility: hidden; }
+  body.hide-translit .verse-translit                         { display: none; }
+  body.hide-eng     .w-eng,    body.hide-eng     .detail-eng,
+  body.hide-eng     .verse-english                           { visibility: hidden; }
+
+  /* VOCAB PANEL */
+  .vocab-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(26,18,8,0.92);
+    z-index: 100;
+    overflow-y: auto;
+    padding: 1.5rem;
+    animation: fadeIn 0.15s ease;
+  }
+  .vocab-overlay.open { display: block; }
+  .vocab-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--gold);
+  }
+  .vocab-header h2 {
+    color: var(--gold-light);
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 1.4rem;
+  }
+  .vocab-header .vocab-stats {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--faded);
+  }
+  .vocab-close {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    padding: 0.3rem 0.9rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    cursor: pointer;
+    letter-spacing: 0.08em;
+  }
+  .vocab-close:hover { background: var(--gold); color: var(--white); }
+  .vocab-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 0.8rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .vocab-item {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    transition: all 0.15s;
+    direction: ltr;
+  }
+  .vocab-item:hover { border-color: var(--gold); background: rgba(255,255,255,0.08); }
+  .vocab-item.expanded { border-color: var(--emerald); background: rgba(255,255,255,0.06); }
+  .vocab-top {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .vocab-ar {
+    font-family: 'Amiri', serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--gold-light);
+    direction: rtl;
+    min-width: 80px;
+    text-align: center;
+  }
+  .vocab-info { flex: 1; }
+  .vocab-eng { color: var(--parchment); font-size: 1rem; }
+  .vocab-name { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--faded); margin-top: 0.15rem; }
+  .vocab-freq {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    color: var(--gold);
+    text-align: right;
+    white-space: nowrap;
+  }
+  .vocab-pics {
+    display: flex;
+    gap: 0.6rem;
+    margin-top: 0.6rem;
+    flex-wrap: wrap;
+  }
+  .vocab-letter {
+    text-align: center;
+    background: rgba(255,255,255,0.04);
+    padding: 0.5rem 0.7rem;
+    border: 1px solid rgba(255,255,255,0.06);
+    min-width: 65px;
+  }
+  .vocab-letter .vl-pic { font-size: 1.8rem; }
+  .vocab-letter .vl-ar { font-family: 'Amiri', serif; font-size: 1.4rem; color: var(--gold-light); font-weight: 700; }
+  .vocab-letter .vl-name { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--faded); }
+  .vocab-letter .vl-proto { font-size: 0.7rem; color: var(--gold-light); font-style: italic; }
+
+  @media (max-width: 600px) {
+    .w-pic { font-size: 1.3rem; }
+    .w-lar { font-size: 1.1rem; }
+    .word-card { min-width: 70px; padding: 0.6rem 0.5rem; }
+    header h1 { font-size: 1.4rem; }
+    .vocab-list { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header id="header" data-watermark="">
+  <a href="index.html" class="home-link">&larr; HOME</a>
+  <h1>Quran Pictograph Reader</h1>
+  <p>Every Arabic letter traces back to an ancient picture</p>
+</header>
+
+<div class="book-nav">
+  <select id="surah-select"></select>
+</div>
+
+<div class="surah-info">
+  <div class="surah-meta" id="surah-meta"></div>
+</div>
+
+<div class="controls">
+  <span style="font-family:'Space Mono',monospace;font-size:0.65rem;color:var(--faded);letter-spacing:0.1em">SHOW/HIDE:</span>
+  <button class="toggle-btn on" onclick="toggle('pics', this)">Pictures</button>
+  <button class="toggle-btn on" onclick="toggle('skel', this)">Rasm</button>
+  <button class="toggle-btn on" onclick="toggle('translit', this)">Transliteration</button>
+  <button class="toggle-btn on" onclick="toggle('eng', this)">English</button>
+  <span style="flex:1"></span>
+  <button class="toggle-btn" id="btn-vocab" onclick="showVocab()">Vocabulary</button>
+</div>
+
+<div class="vocab-overlay" id="vocab-overlay">
+  <div class="vocab-header">
+    <h2 id="vocab-title">Surah Vocabulary</h2>
+    <span class="vocab-stats" id="vocab-stats"></span>
+    <button class="vocab-close" onclick="hideVocab()">CLOSE</button>
+  </div>
+  <div class="vocab-list" id="vocab-list"></div>
+</div>
+
+<nav class="verse-jump" id="verse-jump"></nav>
+
+<main id="main">
+  <div class="loading" id="loading">Loading Quran data...</div>
+</main>
+
+<script type="module">
+import { QURAN_SURAHS } from './quran_books.js';
+
+// ── Toggle visibility ──────────────────────────────────────────────────
+window.toggle = function(layer, btn) {
+  document.body.classList.toggle('hide-' + layer);
+  btn.classList.toggle('on');
+};
+
+// ── Data store ────────────────────────────────────────────────────────
+let currentSurah = null;
+const surahCache = {};
+
+async function fetchSurah(name) {
+  if (surahCache[name]) return surahCache[name];
+  const loading = document.getElementById('loading');
+  if (loading) { loading.style.display = ''; loading.textContent = 'Loading ' + name + '...'; }
+  try {
+    const resp = await fetch('./data/quran/' + encodeURIComponent(name.replace(/[^a-zA-Z0-9-]/g, '-')) + '.json');
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    surahCache[name] = data;
+    return data;
+  } finally {
+    const el = document.getElementById('loading');
+    if (el) el.style.display = 'none';
+  }
+}
+
+// ── Render ─────────────────────────────────────────────────────────────
+function renderSurah(surahData) {
+  const main = document.getElementById('main');
+  const jump = document.getElementById('verse-jump');
+  main.innerHTML = '';
+  jump.innerHTML = '';
+
+  const loadDiv = document.createElement('div');
+  loadDiv.className = 'loading'; loadDiv.id = 'loading'; loadDiv.style.display = 'none';
+  main.appendChild(loadDiv);
+
+  const ayahs = surahData.chapters["1"];
+  if (!ayahs || ayahs.length === 0) {
+    main.innerHTML = '<div class="loading">No data for this surah.</div>';
+    return;
+  }
+
+  // Set header watermark
+  const header = document.getElementById('header');
+  header.setAttribute('data-watermark', surahData.arabicName || '');
+
+  // Set surah meta
+  const meta = document.getElementById('surah-meta');
+  meta.textContent = surahData.arabicName + ' \u2014 ' +
+    surahData.englishNameTranslation + ' \u2014 ' +
+    surahData.ayahCount + ' ayahs \u2014 ' +
+    surahData.revelationType;
+
+  ayahs.forEach(vdata => {
+    // Jump nav
+    const jumpLink = document.createElement('a');
+    jumpLink.href = '#v' + vdata.verse;
+    jumpLink.textContent = vdata.verse;
+    jump.appendChild(jumpLink);
+
+    // Verse block
+    const block = document.createElement('div');
+    block.className = 'verse-block';
+    block.id = 'v' + vdata.verse;
+
+    const ref = document.createElement('div');
+    ref.className = 'verse-ref';
+    ref.textContent = vdata.ref;
+
+    const eng = document.createElement('div');
+    eng.className = 'verse-english';
+    eng.textContent = vdata.english || '';
+
+    const translit = document.createElement('div');
+    translit.className = 'verse-translit';
+    translit.textContent = vdata.transliteration || '';
+
+    const wordRow = document.createElement('div');
+    wordRow.className = 'word-row';
+
+    const detail = document.createElement('div');
+    detail.className = 'word-detail';
+
+    vdata.words.forEach((word, wi) => {
+      const card = document.createElement('div');
+      card.className = 'word-card';
+
+      // Arabic text
+      const arSpan = document.createElement('span');
+      arSpan.className = 'w-arabic';
+      arSpan.textContent = word.ar;
+      card.appendChild(arSpan);
+
+      // Letter row with pictographs
+      if (word.letters && word.letters.length > 0) {
+        const letterRow = document.createElement('div');
+        letterRow.className = 'w-letters';
+        word.letters.forEach(l => {
+          const ld = document.createElement('div');
+          ld.className = 'w-letter';
+          ld.innerHTML = '<span class="w-pic">' + l.p + '</span>' +
+            '<span class="w-skel">' + l.skeleton + '</span>' +
+            '<span class="w-lar">' + l.ar + '</span>';
+          letterRow.appendChild(ld);
+        });
+        card.appendChild(letterRow);
+      }
+
+      card.onclick = () => {
+        const wasActive = card.classList.contains('active');
+        block.querySelectorAll('.word-card').forEach(c => c.classList.remove('active'));
+        detail.classList.remove('open');
+
+        if (!wasActive) {
+          card.classList.add('active');
+          let lettersHtml = '';
+          if (word.letters && word.letters.length > 0) {
+            lettersHtml = '<div class="detail-letters">' +
+              word.letters.map(l =>
+                '<div class="detail-letter">' +
+                  '<div class="dl-pic">' + l.p + '</div>' +
+                  '<div class="dl-skel">' + l.skeleton + '</div>' +
+                  '<div class="dl-ar">' + l.ar + '</div>' +
+                  '<div class="dl-name">' + l.name + '</div>' +
+                  '<div class="dl-proto">' + l.proto + '</div>' +
+                '</div>'
+              ).join('') +
+            '</div>';
+          }
+          detail.innerHTML =
+            '<div class="detail-ar">' + word.ar + '</div>' +
+            '<div class="detail-eng">' + (word.eng || '') + '</div>' +
+            lettersHtml;
+          detail.classList.add('open');
+        }
+      };
+
+      wordRow.appendChild(card);
+    });
+
+    block.appendChild(ref);
+    block.appendChild(eng);
+    block.appendChild(translit);
+    block.appendChild(wordRow);
+    block.appendChild(detail);
+    main.appendChild(block);
+  });
+}
+
+// ── Vocabulary panel ──────────────────────────────────────────────────
+window.showVocab = function() {
+  const surahData = surahCache[currentSurah];
+  if (!surahData) return;
+
+  const ayahs = surahData.chapters["1"];
+  if (!ayahs) return;
+
+  const overlay = document.getElementById('vocab-overlay');
+  const list = document.getElementById('vocab-list');
+
+  const wordCount = {};
+  const wordInfo = {};
+  let total = 0;
+
+  ayahs.forEach(v => {
+    v.words.forEach(w => {
+      total++;
+      if (!wordCount[w.ar]) { wordCount[w.ar] = 0; wordInfo[w.ar] = w; }
+      wordCount[w.ar]++;
+    });
+  });
+
+  const sorted = Object.entries(wordCount).sort((a,b) => b[1] - a[1]);
+
+  document.getElementById('vocab-title').textContent = currentSurah + ' \u2014 Vocabulary';
+  document.getElementById('vocab-stats').textContent = sorted.length + ' unique / ' + total + ' total';
+
+  list.innerHTML = '';
+  sorted.forEach(([ar, count]) => {
+    const w = wordInfo[ar];
+    const item = document.createElement('div');
+    item.className = 'vocab-item';
+    item.innerHTML = '<div class="vocab-top">' +
+      '<div class="vocab-ar">' + ar + '</div>' +
+      '<div class="vocab-info"><div class="vocab-eng">' + (w.eng || '') + '</div></div>' +
+      '<div class="vocab-freq">' + count + 'x</div>' +
+    '</div>';
+
+    item.onclick = () => {
+      const wasExpanded = item.classList.contains('expanded');
+      list.querySelectorAll('.vocab-item.expanded').forEach(el => {
+        el.classList.remove('expanded');
+        const det = el.querySelector('.vocab-pics');
+        if (det) det.remove();
+      });
+
+      if (!wasExpanded && w.letters && w.letters.length > 0) {
+        item.classList.add('expanded');
+        const pics = document.createElement('div');
+        pics.className = 'vocab-pics';
+        w.letters.forEach(l => {
+          const ld = document.createElement('div');
+          ld.className = 'vocab-letter';
+          ld.innerHTML = '<div class="vl-pic">' + l.p + '</div>' +
+            '<div class="vl-ar">' + l.ar + '</div>' +
+            '<div class="vl-name">' + l.name + '</div>' +
+            '<div class="vl-proto">' + l.proto + '</div>';
+          pics.appendChild(ld);
+        });
+        item.appendChild(pics);
+      }
+    };
+
+    list.appendChild(item);
+  });
+
+  overlay.classList.add('open');
+};
+
+window.hideVocab = function() {
+  document.getElementById('vocab-overlay').classList.remove('open');
+};
+
+// ── Surah selector ────────────────────────────────────────────────────
+function populateSelector() {
+  const sel = document.getElementById('surah-select');
+  sel.innerHTML = '';
+
+  const meccanGroup = document.createElement('optgroup');
+  meccanGroup.label = 'Meccan';
+  const medinanGroup = document.createElement('optgroup');
+  medinanGroup.label = 'Medinan';
+
+  QURAN_SURAHS.forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s.name;
+    opt.textContent = s.number + '. ' + s.arabicName + ' ' + s.name + ' (' + s.translation + ')';
+    if (s.type === 'Meccan') meccanGroup.appendChild(opt);
+    else medinanGroup.appendChild(opt);
+  });
+
+  // Add in revelation order groups, but default selector is by number
+  // Actually, let's keep it simple: just list all in order
+  sel.innerHTML = '';
+  QURAN_SURAHS.forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s.name;
+    opt.textContent = s.number + '. ' + s.arabicName + ' ' + s.name;
+    sel.appendChild(opt);
+  });
+
+  sel.onchange = async () => {
+    currentSurah = sel.value;
+    const data = await fetchSurah(currentSurah);
+    renderSurah(data);
+  };
+}
+
+// ── Init ──────────────────────────────────────────────────────────────
+async function startup() {
+  populateSelector();
+
+  // Default to Al-Fatiha
+  currentSurah = 'Al-Faatiha';
+  document.getElementById('surah-select').value = currentSurah;
+  const data = await fetchSurah(currentSurah);
+  document.getElementById('loading').style.display = 'none';
+  renderSurah(data);
+}
+
+startup().catch(err => {
+  document.getElementById('loading').textContent = 'Error loading: ' + err.message;
+  console.error(err);
+});
+</script>
+</body>
+</html>

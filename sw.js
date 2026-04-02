@@ -1,11 +1,15 @@
-const CACHE_NAME = 'debar-v1';
+const CACHE_NAME = 'debar-v4';
 const ASSETS = [
   '/',
   '/index.html',
   '/genesis1.html',
   '/hebrew_app.html',
+  '/arabic.html',
+  '/aramaic.html',
   '/gen1_data.js',
   '/narratives.json',
+  '/quran_books.js',
+  '/aramaic_books.js',
   '/pkg/hebrew.js',
   '/pkg/hebrew_bg.wasm',
 ];

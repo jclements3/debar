@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Debar - Root Pictograph Comparison</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#8B6914">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Frank+Ruhl+Libre:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1208;
+    --parchment: #f5edda;
+    --parchment-dark: #e8d9b8;
+    --gold: #8B6914;
+    --gold-light: #c4972a;
+    --terracotta: #7a3b2e;
+    --indigo: #4a3080;
+    --emerald: #1a6b4a;
+    --faded: #9e8b6e;
+    --white: #fdfaf3;
+    --highlight: #fff3cd;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--parchment);
+    color: var(--ink);
+    font-family: 'Crimson Pro', serif;
+    min-height: 100vh;
+  }
+
+  header {
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+  }
+  header h1 { font-size: 1.8rem; font-weight: 300; letter-spacing: 0.15em; }
+  header p { color: var(--gold-light); font-style: italic; margin-top: 0.3rem; }
+  .home-link {
+    position: absolute; top: 1rem; left: 1.5rem;
+    color: var(--gold); text-decoration: none;
+    font-family: 'Space Mono', monospace; font-size: 0.65rem;
+    letter-spacing: 0.1em; opacity: 0.7; transition: opacity 0.2s;
+  }
+  .home-link:hover { opacity: 1; }
+
+  /* STATS BAR */
+  .stats-bar {
+    background: var(--ink);
+    padding: 0 2rem 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .stat {
+    text-align: center;
+  }
+  .stat-num {
+    font-size: 1.6rem;
+    color: var(--gold-light);
+    font-weight: 300;
+  }
+  .stat-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.55rem;
+    color: var(--faded);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+
+  /* CONTROLS */
+  .controls {
+    background: var(--parchment-dark);
+    border-bottom: 2px solid var(--gold);
+    padding: 0.8rem 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .controls label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--faded);
+    letter-spacing: 0.1em;
+  }
+  .filter-btn {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    padding: 0.3rem 0.9rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    cursor: pointer;
+    letter-spacing: 0.08em;
+    transition: all 0.2s;
+  }
+  .filter-btn.on { background: var(--gold); color: var(--white); }
+  .search-input {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--ink);
+    padding: 0.3rem 0.8rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    width: 160px;
+  }
+  .search-input::placeholder { color: var(--faded); }
+
+  /* MAIN */
+  main { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .loading { text-align: center; padding: 4rem; color: var(--faded); font-style: italic; font-size: 1.2rem; }
+
+  /* ROOT GROUP */
+  .root-group {
+    margin-bottom: 1.5rem;
+    background: var(--white);
+    border: 1px solid var(--parchment-dark);
+    overflow: hidden;
+    cursor: pointer;
+    transition: border-color 0.15s;
+  }
+  .root-group:hover { border-color: var(--gold); }
+  .root-group.expanded { border-color: var(--gold); }
+
+  .root-header {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.2rem;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+  }
+
+  /* PICTOGRAPH SEQUENCE */
+  .picto-seq {
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+  }
+  .picto-item {
+    text-align: center;
+    min-width: 45px;
+  }
+  .picto-emoji { font-size: 1.8rem; line-height: 1.2; }
+  .picto-name {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.5rem;
+    color: var(--faded);
+    letter-spacing: 0.05em;
+  }
+  .picto-arrow { color: var(--faded); font-size: 0.9rem; margin: 0 -0.2rem; padding-top: 0.3rem; }
+
+  /* LANGUAGE ENTRIES IN HEADER */
+  .lang-entries {
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .lang-tag {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.3rem 0.7rem;
+    border: 1px solid var(--parchment-dark);
+    font-size: 0.85rem;
+  }
+  .lang-tag.hebrew { border-left: 3px solid var(--terracotta); }
+  .lang-tag.aramaic { border-left: 3px solid var(--indigo); }
+  .lang-tag.arabic { border-left: 3px solid var(--emerald); }
+  .lang-tag .lt-script {
+    font-weight: 700;
+    font-size: 1.1rem;
+    direction: rtl;
+  }
+  .lang-tag.hebrew .lt-script { font-family: 'Frank Ruhl Libre', serif; color: var(--terracotta); }
+  .lang-tag.aramaic .lt-script { font-family: 'Frank Ruhl Libre', serif; color: var(--indigo); }
+  .lang-tag.arabic .lt-script { font-family: 'Amiri', serif; color: var(--emerald); }
+  .lang-tag .lt-eng {
+    font-size: 0.75rem;
+    color: var(--faded);
+    font-style: italic;
+  }
+  .lang-tag .lt-count {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.55rem;
+    color: var(--gold);
+  }
+
+  .lang-count-badge {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.55rem;
+    color: var(--white);
+    background: var(--gold);
+    padding: 0.15rem 0.4rem;
+    border-radius: 2px;
+    margin-left: auto;
+  }
+
+  /* EXPANDED DETAIL */
+  .root-detail {
+    display: none;
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 1.2rem 1.5rem;
+  }
+  .root-group.expanded .root-detail { display: block; }
+
+  .detail-picto-story {
+    text-align: center;
+    margin-bottom: 1.2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  .detail-picto-big { font-size: 2.5rem; letter-spacing: 0.3rem; }
+  .detail-picto-meanings {
+    font-style: italic;
+    color: var(--gold-light);
+    margin-top: 0.3rem;
+    font-size: 1rem;
+  }
+
+  .detail-langs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+
+  .detail-lang {
+    padding: 1rem;
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+  .detail-lang.hebrew { border-left: 3px solid var(--terracotta); }
+  .detail-lang.aramaic { border-left: 3px solid var(--indigo); }
+  .detail-lang.arabic { border-left: 3px solid var(--emerald); }
+
+  .dl-title {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    color: var(--faded);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+  }
+
+  .dl-word {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 0.5rem;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+  .dl-word:last-child { border-bottom: none; }
+  .dl-script {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--gold-light);
+    direction: rtl;
+    min-width: 60px;
+    text-align: center;
+  }
+  .detail-lang.hebrew .dl-script,
+  .detail-lang.aramaic .dl-script { font-family: 'Frank Ruhl Libre', serif; }
+  .detail-lang.arabic .dl-script { font-family: 'Amiri', serif; }
+  .dl-info { flex: 1; }
+  .dl-eng { font-size: 0.9rem; }
+  .dl-ref { font-family: 'Space Mono', monospace; font-size: 0.55rem; color: var(--faded); }
+  .dl-freq {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    color: var(--gold);
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 600px) {
+    .root-header { flex-direction: column; align-items: flex-start; }
+    .lang-entries { justify-content: flex-start; }
+    .picto-emoji { font-size: 1.4rem; }
+    header h1 { font-size: 1.4rem; }
+    .detail-langs { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="home-link">&larr; HOME</a>
+  <h1>Root Pictograph Comparison</h1>
+  <p>Same ancient pictures, same meanings, three languages</p>
+</header>
+
+<div class="stats-bar" id="stats-bar"></div>
+
+<div class="controls">
+  <label>FILTER:</label>
+  <button class="filter-btn on" id="btn-tri" onclick="toggleFilter('tri', this)">3 Languages</button>
+  <button class="filter-btn" id="btn-bi" onclick="toggleFilter('bi', this)">2 Languages</button>
+  <label style="margin-left:1rem">LETTERS:</label>
+  <button class="filter-btn on" id="btn-3l" onclick="toggleLetters(3, this)">3-Letter</button>
+  <button class="filter-btn" id="btn-2l" onclick="toggleLetters(2, this)">2-Letter</button>
+  <button class="filter-btn" id="btn-4l" onclick="toggleLetters(4, this)">4-Letter</button>
+  <span style="flex:1"></span>
+  <input class="search-input" id="search" type="text" placeholder="Search meaning..." oninput="applyFilters()">
+</div>
+
+<main id="main">
+  <div class="loading" id="loading">Loading root data...</div>
+</main>
+
+<script>
+let allGroups = [];
+let proto = {};
+let filters = { tri: true, bi: false, letters: new Set([3]) };
+let rendered = 0;
+const BATCH = 50;
+
+async function loadData() {
+  const resp = await fetch('./data/roots_comparison.json');
+  const data = await resp.json();
+  allGroups = data.groups;
+  proto = data.proto;
+
+  // Stats
+  const bar = document.getElementById('stats-bar');
+  bar.innerHTML = [
+    ['Tri-lingual', data.stats.triLingual],
+    ['Bi-lingual', data.stats.biLingual],
+    ['Hebrew Roots', data.stats.hebrewRoots],
+    ['Aramaic Roots', data.stats.aramaicRoots],
+    ['Arabic Roots', data.stats.arabicRoots],
+  ].map(([l, n]) => '<div class="stat"><div class="stat-num">' + n + '</div><div class="stat-label">' + l + '</div></div>').join('');
+
+  document.getElementById('loading').style.display = 'none';
+  applyFilters();
+}
+
+function getFiltered() {
+  const search = document.getElementById('search').value.toLowerCase().trim();
+  return allGroups.filter(g => {
+    // Language count filter
+    if (g.langCount === 3 && !filters.tri) return false;
+    if (g.langCount === 2 && !filters.bi) return false;
+    // Letter count filter
+    if (!filters.letters.has(g.pics.length)) return false;
+    // Search filter
+    if (search) {
+      const allText = [
+        ...g.pics.map(p => p.toLowerCase()),
+        ...g.pics.map(p => (proto[p]?.d || '').toLowerCase()),
+        ...g.hebrew.flatMap(w => w.examples.map(e => (e.eng || '').toLowerCase())),
+        ...g.aramaic.flatMap(w => w.examples.map(e => (e.eng || '').toLowerCase())),
+      ].join(' ');
+      if (!allText.includes(search)) return false;
+    }
+    return true;
+  });
+}
+
+function toggleFilter(type, btn) {
+  filters[type] = !filters[type];
+  btn.classList.toggle('on');
+  applyFilters();
+}
+
+function toggleLetters(n, btn) {
+  if (filters.letters.has(n)) filters.letters.delete(n);
+  else filters.letters.add(n);
+  btn.classList.toggle('on');
+  applyFilters();
+}
+
+function applyFilters() {
+  rendered = 0;
+  const main = document.getElementById('main');
+  main.innerHTML = '';
+  renderBatch();
+}
+
+function renderBatch() {
+  const main = document.getElementById('main');
+  const filtered = getFiltered();
+  const end = Math.min(rendered + BATCH, filtered.length);
+
+  for (let i = rendered; i < end; i++) {
+    main.appendChild(buildGroup(filtered[i]));
+  }
+  rendered = end;
+
+  // Show count
+  const existing = document.getElementById('result-count');
+  if (existing) existing.remove();
+  const countDiv = document.createElement('div');
+  countDiv.id = 'result-count';
+  countDiv.style.cssText = 'text-align:center;padding:1rem;color:var(--faded);font-family:"Space Mono",monospace;font-size:0.7rem;';
+  countDiv.textContent = 'Showing ' + rendered + ' of ' + filtered.length + ' root groups';
+  if (rendered < filtered.length) {
+    const btn = document.createElement('button');
+    btn.className = 'filter-btn';
+    btn.style.cssText = 'margin-left:1rem;';
+    btn.textContent = 'Load more';
+    btn.onclick = renderBatch;
+    countDiv.appendChild(btn);
+  }
+  main.appendChild(countDiv);
+}
+
+function buildGroup(g) {
+  const div = document.createElement('div');
+  div.className = 'root-group';
+
+  // Header
+  const header = document.createElement('div');
+  header.className = 'root-header';
+
+  // Pictograph sequence
+  const seq = document.createElement('div');
+  seq.className = 'picto-seq';
+  g.pics.forEach((p, i) => {
+    if (i > 0) {
+      const arrow = document.createElement('span');
+      arrow.className = 'picto-arrow';
+      arrow.textContent = '+';
+      seq.appendChild(arrow);
+    }
+    const item = document.createElement('div');
+    item.className = 'picto-item';
+    item.innerHTML = '<div class="picto-emoji">' + (proto[p]?.e || '') + '</div>' +
+      '<div class="picto-name">' + p + '</div>';
+    seq.appendChild(item);
+  });
+  header.appendChild(seq);
+
+  // Language entries
+  const entries = document.createElement('div');
+  entries.className = 'lang-entries';
+
+  if (g.hebrew.length > 0) {
+    const tag = document.createElement('div');
+    tag.className = 'lang-tag hebrew';
+    const best = g.hebrew[0];
+    tag.innerHTML = '<span class="lt-script">' + best.root + '</span>' +
+      '<span class="lt-eng">' + (best.examples[0]?.eng || '') + '</span>' +
+      '<span class="lt-count">' + best.count + 'x</span>';
+    entries.appendChild(tag);
+  }
+  if (g.aramaic.length > 0) {
+    const tag = document.createElement('div');
+    tag.className = 'lang-tag aramaic';
+    const best = g.aramaic[0];
+    tag.innerHTML = '<span class="lt-script">' + best.root + '</span>' +
+      '<span class="lt-eng">' + (best.examples[0]?.eng || '') + '</span>' +
+      '<span class="lt-count">' + best.count + 'x</span>';
+    entries.appendChild(tag);
+  }
+  if (g.arabic.length > 0) {
+    const tag = document.createElement('div');
+    tag.className = 'lang-tag arabic';
+    const best = g.arabic[0];
+    tag.innerHTML = '<span class="lt-script">' + best.root + '</span>' +
+      '<span class="lt-eng"></span>' +
+      '<span class="lt-count">' + best.count + 'x</span>';
+    entries.appendChild(tag);
+  }
+
+  const badge = document.createElement('span');
+  badge.className = 'lang-count-badge';
+  badge.textContent = g.langCount + 'L';
+  entries.appendChild(badge);
+
+  header.appendChild(entries);
+  div.appendChild(header);
+
+  // Detail panel
+  const detail = document.createElement('div');
+  detail.className = 'root-detail';
+
+  // Pictograph story
+  const story = document.createElement('div');
+  story.className = 'detail-picto-story';
+  story.innerHTML = '<div class="detail-picto-big">' + g.emojis.join(' ') + '</div>' +
+    '<div class="detail-picto-meanings">' + g.pics.map(p => proto[p]?.d || '').join(' + ') + '</div>';
+  detail.appendChild(story);
+
+  // Language columns
+  const langs = document.createElement('div');
+  langs.className = 'detail-langs';
+
+  [['hebrew', 'HEBREW TORAH'], ['aramaic', 'ARAMAIC TARGUM'], ['arabic', 'ARABIC QURAN']].forEach(([lang, label]) => {
+    if (g[lang].length === 0) return;
+    const col = document.createElement('div');
+    col.className = 'detail-lang ' + lang;
+    col.innerHTML = '<div class="dl-title">' + label + '</div>';
+
+    g[lang].forEach(entry => {
+      entry.examples.forEach(ex => {
+        const wd = document.createElement('div');
+        wd.className = 'dl-word';
+        wd.innerHTML = '<div class="dl-script">' + ex.word + '</div>' +
+          '<div class="dl-info"><div class="dl-eng">' + (ex.eng || '') + '</div>' +
+          '<div class="dl-ref">' + ex.ref + '</div></div>' +
+          '<div class="dl-freq">' + entry.count + 'x</div>';
+        col.appendChild(wd);
+      });
+    });
+    langs.appendChild(col);
+  });
+
+  detail.appendChild(langs);
+  div.appendChild(detail);
+
+  // Toggle expand
+  header.onclick = () => div.classList.toggle('expanded');
+
+  return div;
+}
+
+// Infinite scroll
+window.addEventListener('scroll', () => {
+  if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 500) {
+    const filtered = getFiltered();
+    if (rendered < filtered.length) renderBatch();
+  }
+});
+
+loadData();
+</script>
+</body>
+</html>
