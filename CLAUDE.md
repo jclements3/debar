@@ -31,6 +31,19 @@ node hebrew_ref.js
 - Hebrew text uses Unicode with niqqud (vowel points)
 - Phoenician glyphs use Unicode block U+10900–U+1091F
 
+## TODO (2026-04-05)
+
+- [ ] Rebuild Android app and install on tablet — 108 new pictograph memory narratives were added (all top-500 Hebrew words now covered, 639 total narratives in narratives.json)
+- [ ] Find where ANTHROPIC_API_KEY is stored on this machine (check `~/.bashrc`, `~/.profile`, etc.) and share with user for laptop setup
+
+## Android App Build & Install
+
+```bash
+cd android
+ANDROID_HOME=$HOME/Android/Sdk ./gradlew assembleDebug
+adb install -r app/build/outputs/apk/debug/app-debug.apk
+```
+
 ## Roadmap
 
 Planned expansions: Genesis 2–3, additional root families (30 total), red-letter NT pictographs, Psalm 23 reader, 30-day study schedule.
