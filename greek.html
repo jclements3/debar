@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Debar - Septuagint Reader</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#8B6914">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=GFS+Didot&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1208;
+    --parchment: #f5edda;
+    --parchment-dark: #e8d9b8;
+    --gold: #8B6914;
+    --gold-light: #c4972a;
+    --greek-blue: #1a4a7a;
+    --faded: #9e8b6e;
+    --white: #fdfaf3;
+    --highlight: #fff3cd;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--parchment);
+    color: var(--ink);
+    font-family: 'Crimson Pro', serif;
+    min-height: 100vh;
+  }
+
+  header {
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: attr(data-watermark);
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+    font-size: 1.8rem; opacity: 0.06; white-space: nowrap; pointer-events: none;
+    width: 100%; text-align: center;
+  }
+  header h1 { font-size: 1.8rem; font-weight: 300; letter-spacing: 0.15em; position: relative; }
+  header p { color: var(--gold-light); font-style: italic; margin-top: 0.3rem; position: relative; }
+  .home-link {
+    position: absolute; top: 1rem; left: 1.5rem;
+    color: var(--gold); text-decoration: none;
+    font-family: 'Space Mono', monospace; font-size: 0.65rem;
+    letter-spacing: 0.1em; opacity: 0.7; transition: opacity 0.2s;
+  }
+  .home-link:hover { opacity: 1; }
+
+  /* BOOK NAV */
+  .book-nav {
+    background: var(--ink);
+    padding: 0 2rem 1.5rem;
+    text-align: center;
+  }
+  .book-nav select {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold-light);
+    padding: 0.4rem 1rem;
+    font-family: 'Crimson Pro', serif;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 0.3rem;
+  }
+  .book-nav select option { background: var(--ink); color: var(--parchment); }
+
+  /* CONTROLS */
+  .controls {
+    background: var(--parchment-dark);
+    border-bottom: 2px solid var(--gold);
+    padding: 0.8rem 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .toggle-btn {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    padding: 0.3rem 0.9rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    cursor: pointer;
+    letter-spacing: 0.08em;
+    transition: all 0.2s;
+  }
+  .toggle-btn.on { background: var(--gold); color: var(--white); }
+
+  /* VERSE JUMP */
+  .verse-jump {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--parchment-dark);
+    border-bottom: 1px solid var(--gold);
+    padding: 0.5rem 1rem;
+    display: flex; flex-wrap: wrap; gap: 0.3rem;
+  }
+  .verse-jump a {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    color: var(--gold);
+    text-decoration: none;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid transparent;
+    transition: all 0.15s;
+  }
+  .verse-jump a:hover { border-color: var(--gold); }
+
+  /* MAIN */
+  main { max-width: 1000px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .loading { text-align: center; padding: 4rem; color: var(--faded); font-style: italic; font-size: 1.2rem; }
+
+  /* VERSE BLOCK */
+  .verse-block {
+    margin-bottom: 2.5rem;
+    background: var(--white);
+    border-left: 3px solid var(--greek-blue);
+    padding: 1.5rem;
+  }
+  .verse-ref {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--faded);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .verse-english {
+    font-style: italic;
+    color: var(--faded);
+    font-size: 0.95rem;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid var(--parchment-dark);
+    line-height: 1.6;
+  }
+
+  /* WORD ROW - LTR for Greek */
+  .word-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    direction: ltr;
+    text-align: center;
+  }
+
+  /* WORD CARD */
+  .word-card {
+    background: var(--parchment);
+    border: 1px solid var(--parchment-dark);
+    padding: 0.8rem 0.6rem 0.6rem;
+    min-width: 85px;
+    cursor: pointer;
+    transition: all 0.15s;
+    direction: ltr;
+    position: relative;
+  }
+  .word-card:hover { border-color: var(--gold); background: var(--highlight); }
+  .word-card.active { border-color: var(--greek-blue); background: var(--highlight); }
+
+  .w-greek { font-family: 'GFS Didot', 'Times New Roman', serif; font-size: 2.5rem; font-weight: 700; color: var(--greek-blue); display: block; line-height: 1.2; margin-bottom: 0.3rem; }
+  .w-letters { display: flex; flex-direction: row; gap: 4px; justify-content: center; margin-bottom: 0.3rem; flex-wrap: wrap; }
+  .w-letter { display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 28px; }
+  .w-pic   { font-size: 1.5rem; line-height: 1; }
+  .w-phoen { font-size: 1.1rem; color: var(--faded); line-height: 1; }
+  .w-lgrk  { font-family: 'GFS Didot', serif; font-size: 1.2rem; color: var(--ink); font-weight: 700; line-height: 1; }
+  .w-eng { font-size: 0.75rem; color: var(--faded); font-style: italic; display: block; direction: ltr; line-height: 1.2; }
+
+  /* EXPANDED DETAIL */
+  .word-detail {
+    display: none;
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 1rem 1.2rem;
+    margin-top: 1rem;
+    direction: ltr;
+    animation: fadeIn 0.15s ease;
+  }
+  .word-detail.open { display: block; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .detail-grk { font-family: 'GFS Didot', serif; font-size: 2rem; color: var(--gold-light); font-weight: 700; }
+  .detail-eng { font-style: italic; margin-top: 0.2rem; }
+  .detail-letters { display: flex; gap: 1rem; margin-top: 0.8rem; flex-wrap: wrap; }
+  .detail-letter {
+    text-align: center;
+    background: rgba(255,255,255,0.05);
+    padding: 0.7rem 0.9rem;
+    border: 1px solid rgba(255,255,255,0.1);
+    min-width: 75px;
+  }
+  .dl-pic   { font-size: 2.2rem; }
+  .dl-phoen { font-size: 1.3rem; color: var(--faded); }
+  .dl-grk   { font-family: 'GFS Didot', serif; font-size: 1.8rem; color: var(--gold-light); font-weight: 700; }
+  .dl-name  { font-family: 'Space Mono', monospace; font-size: 0.7rem; color: var(--faded); margin-top: 0.2rem; }
+  .dl-meaning { font-size: 0.8rem; color: var(--gold-light); margin-top: 0.15rem; font-style: italic; }
+
+  /* SHOW/HIDE toggles */
+  body.hide-pics    .w-pic,    body.hide-pics    .dl-pic    { visibility: hidden; }
+  body.hide-phoen   .w-phoen,  body.hide-phoen   .dl-phoen  { visibility: hidden; }
+  body.hide-eng     .w-eng,    body.hide-eng     .detail-eng,
+  body.hide-eng     .verse-english                           { visibility: hidden; }
+
+  /* VOCAB PANEL */
+  .vocab-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(26,18,8,0.92);
+    z-index: 100;
+    overflow-y: auto;
+    padding: 1.5rem;
+    animation: fadeIn 0.15s ease;
+  }
+  .vocab-overlay.open { display: block; }
+  .vocab-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--gold);
+  }
+  .vocab-header h2 {
+    color: var(--gold-light);
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 1.4rem;
+  }
+  .vocab-header .vocab-stats {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--faded);
+  }
+  .vocab-close {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    padding: 0.3rem 0.9rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    cursor: pointer;
+    letter-spacing: 0.08em;
+  }
+  .vocab-close:hover { background: var(--gold); color: var(--white); }
+  .vocab-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 0.8rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .vocab-item {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    transition: all 0.15s;
+    direction: ltr;
+  }
+  .vocab-item:hover { border-color: var(--gold); background: rgba(255,255,255,0.08); }
+  .vocab-item.expanded { border-color: var(--greek-blue); background: rgba(255,255,255,0.06); }
+  .vocab-top {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .vocab-grk {
+    font-family: 'GFS Didot', serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--gold-light);
+    min-width: 80px;
+    text-align: center;
+  }
+  .vocab-info { flex: 1; }
+  .vocab-eng { color: var(--parchment); font-size: 1rem; }
+  .vocab-freq {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    color: var(--gold);
+    text-align: right;
+    white-space: nowrap;
+  }
+  .vocab-pics {
+    display: flex;
+    gap: 0.6rem;
+    margin-top: 0.6rem;
+    flex-wrap: wrap;
+  }
+  .vocab-letter {
+    text-align: center;
+    background: rgba(255,255,255,0.04);
+    padding: 0.5rem 0.7rem;
+    border: 1px solid rgba(255,255,255,0.06);
+    min-width: 65px;
+  }
+  .vocab-letter .vl-pic { font-size: 1.8rem; }
+  .vocab-letter .vl-grk { font-family: 'GFS Didot', serif; font-size: 1.4rem; color: var(--gold-light); font-weight: 700; }
+  .vocab-letter .vl-name { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--faded); }
+  .vocab-letter .vl-meaning { font-size: 0.7rem; color: var(--gold-light); font-style: italic; }
+
+  @media (max-width: 600px) {
+    .w-pic { font-size: 1.3rem; }
+    .w-lgrk { font-size: 1.1rem; }
+    .word-card { min-width: 70px; padding: 0.6rem 0.5rem; }
+    header h1 { font-size: 1.4rem; }
+    .vocab-list { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header id="header" data-watermark="Σεπτουαγίντα">
+  <a href="index.html" class="home-link">&larr; HOME</a>
+  <h1>Septuagint (LXX)</h1>
+  <p>The Greek Old Testament &mdash; tracing every letter to its Phoenician picture</p>
+</header>
+
+<div class="book-nav">
+  <select id="book-select"></select>
+  <select id="chapter-select"></select>
+</div>
+
+<div class="controls">
+  <span style="font-family:'Space Mono',monospace;font-size:0.65rem;color:var(--faded);letter-spacing:0.1em">SHOW/HIDE:</span>
+  <button class="toggle-btn on" onclick="toggle('pics', this)">Pictures</button>
+  <button class="toggle-btn on" onclick="toggle('phoen', this)">Phoenician</button>
+  <button class="toggle-btn on" onclick="toggle('eng', this)">English</button>
+  <span style="flex:1"></span>
+  <button class="toggle-btn" id="btn-vocab" onclick="showVocab()">Vocabulary</button>
+</div>
+
+<div class="vocab-overlay" id="vocab-overlay">
+  <div class="vocab-header">
+    <h2 id="vocab-title">Chapter Vocabulary</h2>
+    <span class="vocab-stats" id="vocab-stats"></span>
+    <button class="vocab-close" onclick="hideVocab()">CLOSE</button>
+  </div>
+  <div class="vocab-list" id="vocab-list"></div>
+</div>
+
+<nav class="verse-jump" id="verse-jump"></nav>
+
+<main id="main">
+  <div class="loading" id="loading">Loading Septuagint data...</div>
+</main>
+
+<script type="module">
+import { LXX_BOOKS } from './greek_books.js';
+
+// ── Toggle visibility ──────────────────────────────────────────────────
+window.toggle = function(layer, btn) {
+  document.body.classList.toggle('hide-' + layer);
+  btn.classList.toggle('on');
+};
+
+// ── Data store ────────────────────────────────────────────────────────
+let currentBook = null;
+let currentChapter = null;
+const bookCache = {};
+
+async function fetchBook(bookName) {
+  if (bookCache[bookName]) return bookCache[bookName];
+  const loading = document.getElementById('loading');
+  if (loading) { loading.style.display = ''; loading.textContent = 'Loading ' + bookName + '...'; }
+  try {
+    const file = LXX_BOOKS.find(b => b.name === bookName).file;
+    const resp = await fetch('./data/greek/' + encodeURIComponent(file) + '.json');
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    bookCache[bookName] = data;
+    return data;
+  } finally {
+    const el = document.getElementById('loading');
+    if (el) el.style.display = 'none';
+  }
+}
+
+// ── Render ─────────────────────────────────────────────────────────────
+function renderChapter(bookData, chapterNum) {
+  const main = document.getElementById('main');
+  const jump = document.getElementById('verse-jump');
+  main.innerHTML = '';
+  jump.innerHTML = '';
+
+  const loadDiv = document.createElement('div');
+  loadDiv.className = 'loading'; loadDiv.id = 'loading'; loadDiv.style.display = 'none';
+  main.appendChild(loadDiv);
+
+  if (!bookData || !bookData.chapters[chapterNum]) {
+    main.innerHTML = '<div class="loading">No data for this chapter.</div>';
+    return;
+  }
+
+  const verses = bookData.chapters[chapterNum];
+
+  verses.forEach(vdata => {
+    // Jump nav
+    const jumpLink = document.createElement('a');
+    jumpLink.href = '#v' + vdata.verse;
+    jumpLink.textContent = vdata.verse;
+    jump.appendChild(jumpLink);
+
+    // Verse block
+    const block = document.createElement('div');
+    block.className = 'verse-block';
+    block.id = 'v' + vdata.verse;
+
+    const ref = document.createElement('div');
+    ref.className = 'verse-ref';
+    ref.textContent = bookData.name + ' ' + chapterNum + ' : ' + vdata.verse;
+
+    const eng = document.createElement('div');
+    eng.className = 'verse-english';
+    eng.textContent = vdata.kjv || '';
+
+    const wordRow = document.createElement('div');
+    wordRow.className = 'word-row';
+
+    const detail = document.createElement('div');
+    detail.className = 'word-detail';
+
+    vdata.words.forEach((word, wi) => {
+      const card = document.createElement('div');
+      card.className = 'word-card';
+
+      // Greek text
+      const grSpan = document.createElement('span');
+      grSpan.className = 'w-greek';
+      grSpan.textContent = word.gr;
+      card.appendChild(grSpan);
+
+      // Letter row with pictographs + Phoenician
+      if (word.letters && word.letters.length > 0) {
+        const letterRow = document.createElement('div');
+        letterRow.className = 'w-letters';
+        word.letters.forEach(l => {
+          const ld = document.createElement('div');
+          ld.className = 'w-letter';
+          ld.innerHTML = '<span class="w-pic">' + l.p + '</span>' +
+            (l.ph ? '<span class="w-phoen">' + l.ph + '</span>' : '') +
+            '<span class="w-lgrk">' + l.g + '</span>';
+          letterRow.appendChild(ld);
+        });
+        card.appendChild(letterRow);
+      }
+
+      // Click to expand
+      card.onclick = () => {
+        const wasActive = card.classList.contains('active');
+        block.querySelectorAll('.word-card').forEach(c => c.classList.remove('active'));
+        detail.classList.remove('open');
+
+        if (!wasActive) {
+          card.classList.add('active');
+          let lettersHtml = '';
+          if (word.letters && word.letters.length > 0) {
+            lettersHtml = '<div class="detail-letters">' +
+              word.letters.map(l =>
+                '<div class="detail-letter">' +
+                  '<div class="dl-pic">' + l.p + '</div>' +
+                  (l.ph ? '<div class="dl-phoen">' + l.ph + '</div>' : '') +
+                  '<div class="dl-grk">' + l.g + '</div>' +
+                  '<div class="dl-name">' + l.n + '</div>' +
+                  '<div class="dl-meaning">' + l.m + '</div>' +
+                '</div>'
+              ).join('') +
+            '</div>';
+          }
+          detail.innerHTML =
+            '<div class="detail-grk">' + word.gr + '</div>' +
+            '<div class="detail-eng">' + (vdata.kjv || '') + '</div>' +
+            lettersHtml;
+          detail.classList.add('open');
+        }
+      };
+
+      wordRow.appendChild(card);
+    });
+
+    block.appendChild(ref);
+    block.appendChild(eng);
+    block.appendChild(wordRow);
+    block.appendChild(detail);
+    main.appendChild(block);
+  });
+}
+
+// ── Vocabulary panel ──────────────────────────────────────────────────
+window.showVocab = function() {
+  const bookData = bookCache[currentBook];
+  if (!bookData || !bookData.chapters[currentChapter]) return;
+
+  const verses = bookData.chapters[currentChapter];
+  const overlay = document.getElementById('vocab-overlay');
+  const list = document.getElementById('vocab-list');
+
+  const wordCount = {};
+  const wordInfo = {};
+  let total = 0;
+
+  verses.forEach(v => {
+    v.words.forEach(w => {
+      total++;
+      const key = w.gr;
+      if (!wordCount[key]) { wordCount[key] = 0; wordInfo[key] = w; }
+      wordCount[key]++;
+    });
+  });
+
+  const sorted = Object.entries(wordCount).sort((a,b) => b[1] - a[1]);
+
+  document.getElementById('vocab-title').textContent = currentBook + ' ' + currentChapter + ' \u2014 Vocabulary';
+  document.getElementById('vocab-stats').textContent = sorted.length + ' unique / ' + total + ' total';
+
+  list.innerHTML = '';
+  sorted.forEach(([gr, count]) => {
+    const w = wordInfo[gr];
+    const item = document.createElement('div');
+    item.className = 'vocab-item';
+    item.innerHTML = '<div class="vocab-top">' +
+      '<div class="vocab-grk">' + gr + '</div>' +
+      '<div class="vocab-info"><div class="vocab-eng"></div></div>' +
+      '<div class="vocab-freq">' + count + 'x</div>' +
+    '</div>';
+
+    item.onclick = () => {
+      const wasExpanded = item.classList.contains('expanded');
+      list.querySelectorAll('.vocab-item.expanded').forEach(el => {
+        el.classList.remove('expanded');
+        const det = el.querySelector('.vocab-pics');
+        if (det) det.remove();
+      });
+
+      if (!wasExpanded && w.letters && w.letters.length > 0) {
+        item.classList.add('expanded');
+        const pics = document.createElement('div');
+        pics.className = 'vocab-pics';
+        w.letters.forEach(l => {
+          const ld = document.createElement('div');
+          ld.className = 'vocab-letter';
+          ld.innerHTML = '<div class="vl-pic">' + l.p + '</div>' +
+            '<div class="vl-grk">' + l.g + '</div>' +
+            '<div class="vl-name">' + l.n + '</div>' +
+            '<div class="vl-meaning">' + l.m + '</div>';
+          pics.appendChild(ld);
+        });
+        item.appendChild(pics);
+      }
+    };
+
+    list.appendChild(item);
+  });
+
+  overlay.classList.add('open');
+};
+
+window.hideVocab = function() {
+  document.getElementById('vocab-overlay').classList.remove('open');
+};
+
+// ── Book/chapter selectors ────────────────────────────────────────────
+function populateSelectors() {
+  const bookSel = document.getElementById('book-select');
+  const chapSel = document.getElementById('chapter-select');
+
+  bookSel.innerHTML = '';
+  LXX_BOOKS.forEach(b => {
+    const opt = document.createElement('option');
+    opt.value = b.name;
+    opt.textContent = b.name;
+    bookSel.appendChild(opt);
+  });
+
+  bookSel.onchange = async () => {
+    currentBook = bookSel.value;
+    const bookData = await fetchBook(currentBook);
+    updateChapterSelector(bookData);
+    currentChapter = '1';
+    chapSel.value = '1';
+    renderChapter(bookData, currentChapter);
+  };
+
+  chapSel.onchange = () => {
+    currentChapter = chapSel.value;
+    const bookData = bookCache[currentBook];
+    if (bookData) renderChapter(bookData, currentChapter);
+  };
+}
+
+function updateChapterSelector(bookData) {
+  const chapSel = document.getElementById('chapter-select');
+  chapSel.innerHTML = '';
+  if (!bookData || !bookData.chapters) return;
+  Object.keys(bookData.chapters).sort((a,b) => a - b).forEach(ch => {
+    const opt = document.createElement('option');
+    opt.value = ch;
+    opt.textContent = 'Chapter ' + ch;
+    chapSel.appendChild(opt);
+  });
+}
+
+// ── Init ──────────────────────────────────────────────────────────────
+async function startup() {
+  populateSelectors();
+
+  currentBook = 'Genesis';
+  document.getElementById('book-select').value = currentBook;
+  const bookData = await fetchBook(currentBook);
+  updateChapterSelector(bookData);
+  currentChapter = '1';
+  document.getElementById('chapter-select').value = '1';
+  document.getElementById('loading').style.display = 'none';
+  renderChapter(bookData, currentChapter);
+}
+
+startup().catch(err => {
+  document.getElementById('loading').textContent = 'Error loading: ' + err.message;
+  console.error(err);
+});
+</script>
+</body>
+</html>
